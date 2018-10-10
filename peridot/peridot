@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <imports>
+    <localimport file="minimal"/>
+    <localimport file="third_party"/>
+    <import remote="https://fuchsia.googlesource.com/garnet"
+            manifest="manifest/garnet"
+            name="garnet"
+            revision="2c789a769fb5e137b9d05328f1883d528a46192b"/>
+  </imports>
+</manifest>
