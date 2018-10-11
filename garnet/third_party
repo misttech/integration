@@ -2,16 +2,14 @@
 <manifest>
   <imports>
     <localimport file="minimal"/>
-    <import remote="https://fuchsia.googlesource.com/third_party/boringssl"
-            manifest="manifest"
-            name="third_party/boringssl"
-            revision="ef49f124d79f3406961e389a88f472737a3ffee2"/>
+    <localimport file="../third_party/boringssl/boringssl"/>
   </imports>
   <projects>
     <project name="docs"
              path="docs"
              remote="https://fuchsia.googlesource.com/docs"
-             gerrithost="https://fuchsia-review.googlesource.com"/>
+             gerrithost="https://fuchsia-review.googlesource.com"
+             revision="dd04d6ecb386d41cb0c9e35604daee211232a72f"/>
 
     <!-- Third Party -->
     <project name="external/github.com/catapult-project/catapult"

@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <imports>
+    <localimport file="../peridot/peridot"/>
     <localimport file="minimal"/>
     <localimport file="third_party"/>
-    <import remote="https://fuchsia.googlesource.com/peridot"
-            manifest="manifest/peridot"
-            name="peridot"
-            revision="38a347d834858ec95a9eb5c0cc923a0e205e96de"/>
   </imports>
 </manifest>

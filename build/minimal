@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <projects>
+    <project name="build"
+             path="build"
+             remote="https://fuchsia.googlesource.com/build"
+             gerrithost="https://fuchsia-review.googlesource.com"
+             revision="013bc7e892f6de6d747dcacfdb9a196e2956e6d0"/>
+  </projects>
+  <hooks>
+    <hook name="symlink-.gn"
+          project="build"
+          action="dot_gn_symlink.sh"/>
+  </hooks>
+</manifest>

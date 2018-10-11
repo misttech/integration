@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <projects>
+    <project name="buildtools"
+             path="buildtools"
+             remote="https://fuchsia.googlesource.com/buildtools"
+             gerrithost="https://fuchsia-review.googlesource.com"
+             revision="bd7d3a089480b1626755583f60b7b8945d3f2a82"/>
+  </projects>
+  <hooks>
+    <hook name="update"
+          project="buildtools"
+          action="update.sh"/>
+  </hooks>
+</manifest>

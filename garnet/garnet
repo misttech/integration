@@ -1,23 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <imports>
+    <localimport file="../build/build"/>
+    <localimport file="../buildtools/buildtools"/>
+    <localimport file="../scripts/scripts"/>
+    <localimport file="../zircon/zircon"/>
     <localimport file="minimal"/>
     <localimport file="third_party"/>
-    <import remote="https://fuchsia.googlesource.com/build"
-            manifest="manifest/build"
-            name="build"
-            revision="8c78afbc1d9b845bbd943042be4876b315e24280"/>
-    <import remote="https://fuchsia.googlesource.com/buildtools"
-            manifest="manifest/buildtools"
-            name="buildtools"
-            revision="9320ce619b72fb295550045a416f6f10b65487f6"/>
-    <import remote="https://fuchsia.googlesource.com/scripts"
-            manifest="manifest/scripts"
-            name="scripts"
-            revision="0c8086c87ccd0a4ba73affa222a743895403e121"/>
-    <import remote="https://fuchsia.googlesource.com/zircon"
-            manifest="manifest/zircon"
-            name="zircon"
-            revision="25ede12441aa3ddc2d85ba4e24cec579fbe805d7"/>
-    </imports>
+  </imports>
 </manifest>
