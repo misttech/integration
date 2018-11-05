@@ -15,7 +15,7 @@
     <project name="external/github.com/catapult-project/catapult"
              path="third_party/catapult"
              remote="https://chromium.googlesource.com/catapult"
-             revision="8c035b35abf8db181ae20d6e3a1f0e4c30c9f489"/>
+             revision="03ce64d2883283e134f87f89dfe971cc58d522ef"/>
     <project name="libc-tests"
              path="third_party/libc-tests"
              remote="https://fuchsia.googlesource.com/libc-tests"
@@ -101,11 +101,6 @@
              remote="https://fuchsia.googlesource.com/third_party/gflags"
              gerrithost="https://fuchsia-review.googlesource.com"
              revision="90d1674de7ffc572267d9642d1a6436f168e80e7"/>
-    <project name="third_party/glfw"
-             path="third_party/glfw"
-             remote="https://fuchsia.googlesource.com/third_party/glfw"
-             gerrithost="https://fuchsia-review.googlesource.com"
-             githooks="manifest/git-hooks"/>
     <project name="external/github.com/g-truc/glm"
              path="third_party/glm"
              remote="https://chromium.googlesource.com/external/github.com/g-truc/glm"
