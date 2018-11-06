@@ -20,5 +20,8 @@
     <hook name="ffmpeg-update"
           project="garnet"
           action="lib/media/ffmpeg/update_prebuilt_ffmpeg.sh"/>
+    <hook name="gen-ssh-keys"
+          project="garnet"
+          action="tools/gen-ssh-keys.sh"/>
   </hooks>
 </manifest>
