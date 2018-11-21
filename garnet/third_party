@@ -235,10 +235,15 @@
              remote="https://chromium.googlesource.com/chromium/mini_chromium"
              revision="4a6189577978b86fbd6935aec0d16a127803467c"
              gerrithost="https://fuchsia-review.googlesource.com"/>
+    <project name="third_party/golibs/github.com/google/btree"
+             path="third_party/golibs/github.com/google/btree"
+             remote="https://fuchsia.googlesource.com/third_party/github.com/google/btree"
+             revision="4030bb1f1f0c35b30ca7009e9ebd06849dd45306"
+             gerrithost="https://fuchsia-review.googlesource.com"/>
     <project name="third_party/netstack"
              path="third_party/golibs/github.com/google/netstack"
              remote="https://fuchsia.googlesource.com/third_party/netstack"
-             revision="8a58c2626650d27af53bb438806a073e61913fe5"
+             revision="13d410b25d02ff891f8192ccd7a2d2d534530d38"
              gerrithost="https://fuchsia-review.googlesource.com"/>
     <project name="third_party/processor-trace"
              path="third_party/processor-trace"
