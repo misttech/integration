@@ -357,11 +357,11 @@
              remote="https://fuchsia.googlesource.com/third_party/github.com/google/btree"
              revision="4030bb1f1f0c35b30ca7009e9ebd06849dd45306"
              gerrithost="https://fuchsia-review.googlesource.com"/>
-    <project name="third_party/netstack"
-             path="third_party/golibs/github.com/google/netstack"
-             remote="https://fuchsia.googlesource.com/third_party/netstack"
-             revision="352b003b39b1ac7943134171cc934c0dbb38bf13"
-             gerrithost="https://fuchsia-review.googlesource.com"/>
+    <project name="third_party/golibs/gvisor.dev/gvisor"
+             path="third_party/golibs/gvisor.dev/gvisor"
+             remote="https://fuchsia.googlesource.com/third_party/gvisor.dev/gvisor/netstack"
+             revision="b03822093917219e85fdb079dddbb8d3918f54f6"
+             gerrithost="https://gvisor-review.googlesource.com"/>
     <project name="third_party/processor-trace"
              path="third_party/processor-trace"
              remote="https://fuchsia.googlesource.com/third_party/processor-trace"
