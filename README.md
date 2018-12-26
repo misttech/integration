@@ -2,6 +2,16 @@
 
 This repository contains Fuchsia's global integration manifest files.
 
+## Making changes
+
+All changes should be made to the internal version of this repository.
+Our infrastructure automatically updates this version when the internal one
+changes.
+
+Currently all changes must be made by a Google employee. Non-Google employees
+wishing to make a change can ask for assistance via the IRC channel `#fuchsia`
+on Freenode.
+
 ## Obtaining the source
 
 First install [Jiri].
