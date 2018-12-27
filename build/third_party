@@ -4,6 +4,11 @@
     <localimport file="minimal"/>
   </imports>
   <projects>
+    <project name="third_party/libarchive"
+             path="third_party/libarchive"
+             remote="https://fuchsia.googlesource.com/third_party/libarchive"
+             gerrithost="https://fuchsia-review.googlesource.com"
+             revision="27791c07e35e4e79705c46d7437116dbb5e15840"/>
     <project name="third_party/mako"
              path="third_party/mako"
              remote="https://fuchsia.googlesource.com/third_party/mako"
