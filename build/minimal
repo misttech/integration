@@ -11,5 +11,8 @@
     <hook name="symlink-.gn"
           project="build"
           action="dot_gn_symlink.sh"/>
+    <hook name="cipd-update"
+          project="build"
+          action="cipd-update.sh"/>
   </hooks>
 </manifest>
