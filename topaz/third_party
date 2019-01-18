@@ -12,13 +12,6 @@
              remote="https://fuchsia.googlesource.com/third_party/benchmark"
              gerrithost="https://fuchsia-review.googlesource.com"
              revision="21f1eb3fe269ea43eba862bf6b699cde46587ade"/>
-    <project name="third_party/cairo"
-             path="third_party/cairo"
-             remote="https://fuchsia.googlesource.com/third_party/cairo"
-             gerrithost="https://fuchsia-review.googlesource.com"
-             revision="db5dffcbe3cba06aa382d4eb7aaafb9e419a5dfa"
-             historydepth="50"/>
-             <!-- TODO(INTK-485): Remove historydepth once issue is fixed -->
     <project name="third_party/harfbuzz"
              path="third_party/harfbuzz"
              remote="https://fuchsia.googlesource.com/third_party/harfbuzz"
@@ -34,29 +27,10 @@
              remote="https://fuchsia.googlesource.com/third_party/libteken"
              gerrithost="https://fuchsia-review.googlesource.com"
              revision="b63e85f57ac893c53693decbe1558c33004a66b6"/>
-    <project name="third_party/pixman"
-             path="third_party/pixman"
-             remote="https://fuchsia.googlesource.com/third_party/pixman"
-             gerrithost="https://fuchsia-review.googlesource.com"
-             revision="12bde097bba0dc6b29ea4d945219fd1c93c5f82b"
-             historydepth="50"/>
-             <!-- TODO(INTK-485): Remove historydepth once issue is fixed -->
-    <project name="third_party/sqlite"
-             path="third_party/sqlite"
-             remote="https://fuchsia.googlesource.com/third_party/sqlite"
-             gerrithost="https://fuchsia-review.googlesource.com"
-             revision="75a36fe49cdc4611348136918bc9c6de56d0dc73"/>
     <project  name="third_party/tonic"
              path="third_party/tonic"
              remote="https://fuchsia.googlesource.com/tonic"
              gerrithost="https://fuchsia-review.googlesource.com"
              revision="4634b29a24ccfc0fcfafcc8196ef30131185ad88"/>
-    <project name="third_party/webkit"
-             path="third_party/webkit"
-             remote="https://fuchsia.googlesource.com/third_party/webkit"
-             gerrithost="https://fuchsia-review.googlesource.com"
-             revision="18e3a68579ae324f7454d22a123e5da09c5156c6"
-             historydepth="50"/>
-             <!-- TODO(INTK-485): Remove historydepth once issue is fixed -->
   </projects>
 </manifest>
