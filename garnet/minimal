@@ -14,9 +14,6 @@
     <hook name="download-vulkan-sdk"
           project="garnet"
           action="public/lib/escher/scripts/download-vulkan-sdk"/>
-    <hook name="fonts-update"
-          project="garnet"
-          action="bin/fonts/update.sh"/>
     <hook name="ffmpeg-update"
           project="garnet"
           action="lib/media/ffmpeg/update_prebuilt_ffmpeg.sh"/>
