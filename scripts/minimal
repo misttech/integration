@@ -2,14 +2,9 @@
 <manifest>
   <projects>
     <project name="scripts"
-             path="scripts"
+             path="old/scripts"
              remote="https://fuchsia.googlesource.com/scripts"
              gerrithost="https://fuchsia-review.googlesource.com"
              revision="47bbe571bfb2397fcff8c75e777422d4079912d2"/>
   </projects>
-  <hooks>
-    <hook name="install-fx"
-          project="scripts"
-          action="devshell/lib/add_symlink_to_bin.sh"/>
-  </hooks>
 </manifest>

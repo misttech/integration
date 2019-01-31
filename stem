@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <imports>
+    <localimport file="minimal"/>
+  </imports>
   <projects>
     <project name="fuchsia"
              path="."
              remote="https://fuchsia.googlesource.com/fuchsia"
              gerrithost="https://fuchsia-review.googlesource.com"
-             revision="f43e32fc3993b103090e6049b166292547d06285"/>
+             revision="fd8c6d44d6ff3beee181408534b4cfb62259a4f8"/>
   </projects>
-  <imports>
-    <localimport file="minimal"/>
-  </imports>
+  <hooks>
+    <hook name="install-fx"
+          project="fuchsia"
+          action="scripts/devshell/lib/add_symlink_to_bin.sh"/>
+  </hooks>
 </manifest>
