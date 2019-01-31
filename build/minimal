@@ -2,17 +2,9 @@
 <manifest>
   <projects>
     <project name="build"
-             path="build"
+             path="old/build"
              remote="https://fuchsia.googlesource.com/build"
              gerrithost="https://fuchsia-review.googlesource.com"
              revision="fa32eadcb8858c9e7f3038a78349f9da9000e89b"/>
   </projects>
-  <hooks>
-    <hook name="symlink-.gn"
-          project="build"
-          action="dot_gn_symlink.sh"/>
-    <hook name="cipd-update"
-          project="build"
-          action="cipd-update.sh"/>
-  </hooks>
 </manifest>
