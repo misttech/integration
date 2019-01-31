@@ -9,7 +9,7 @@
              path="."
              remote="https://fuchsia.googlesource.com/fuchsia"
              gerrithost="https://fuchsia-review.googlesource.com"
-             revision="50fb505740b5e462107d48fc05d579bb8176a936"/>
+             revision="d7177b0355ff59853f85f6c86196027222b21ad9"/>
   </projects>
   <hooks>
     <hook name="install-fx"
@@ -24,5 +24,8 @@
     <hook name="symlink-.gn"
           project="fuchsia"
           action="build/dot_gn_symlink.sh"/>
+    <hook name="zircon-download-prebuilt"
+          project="fuchsia"
+          action="zircon/scripts/download-prebuilt"/>
   </hooks>
 </manifest>
