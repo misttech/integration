@@ -9,17 +9,20 @@
              path="."
              remote="https://fuchsia.googlesource.com/fuchsia"
              gerrithost="https://fuchsia-review.googlesource.com"
-             revision="4e7a7818e59f0032dd58c70d283697fbcd5e27ce"/>
+             revision="50fb505740b5e462107d48fc05d579bb8176a936"/>
   </projects>
   <hooks>
     <hook name="install-fx"
           project="fuchsia"
           action="scripts/devshell/lib/add_symlink_to_bin.sh"/>
+    <hook name="buildtools-update"
+          project="fuchsia"
+          action="buildtools/update.sh"/>
+    <hook name="build-update"
+          project="fuchsia"
+          action="build/cipd-update.sh"/>
     <hook name="symlink-.gn"
           project="fuchsia"
           action="build/dot_gn_symlink.sh"/>
-    <hook name="cipd-update"
-          project="fuchsia"
-          action="build/cipd-update.sh"/>
   </hooks>
 </manifest>
