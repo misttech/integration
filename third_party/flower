@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <imports>
-    <localimport file="minimal"/>
-    <localimport file="../docs/docs"/>
-    <localimport file="../third_party/boringssl/boringssl"/>
+    <localimport file="boringssl/boringssl"/>
   </imports>
   <projects>
     <!-- Third Party -->
@@ -41,6 +39,11 @@
              remote="https://fuchsia.googlesource.com/third_party/asio"
              gerrithost="https://fuchsia-review.googlesource.com"
              revision="b7b0aeca406bb60e981c20e6a9af1d0aae31fc48"/>
+    <project name="third_party/bzip2"
+             path="third_party/bzip2"
+             remote="https://fuchsia.googlesource.com/third_party/bzip2"
+             gerrithost="https://fuchsia-review.googlesource.com"
+             revision="ac0f84bf6789a6bf512478bad525320479872341"/>
     <project name="third_party/cares"
              path="third_party/cares"
              remote="https://fuchsia.googlesource.com/third_party/c-ares"
@@ -185,6 +188,31 @@
              remote="https://fuchsia.googlesource.com/third_party/github.com/golang/protobuf"
              gerrithost="https://fuchsia-review.googlesource.com"
              revision="84e97db688c62c8d4ec565fd2c98141e119fc0f3"/>
+    <project name="third_party/golibs/github.com/xeipuuv/gojsonschema"
+             path="third_party/golibs/github.com/xeipuuv/gojsonschema"
+             remote="https://fuchsia.googlesource.com/third_party/github.com/xeipuuv/gojsonschema"
+             gerrithost="https://fuchsia-review.googlesource.com"
+             revision="8bcffc811467a5f691810420385be6e66b35a317"/>
+    <project name="third_party/golibs/github.com/xeipuuv/gojsonreference"
+             path="third_party/golibs/github.com/xeipuuv/gojsonreference"
+             remote="https://fuchsia.googlesource.com/third_party/github.com/xeipuuv/gojsonreference"
+             gerrithost="https://fuchsia-review.googlesource.com"
+             revision="bd5ef7bd5415a7ac448318e64f11a24cd21e594b"/>
+    <project name="third_party/golibs/github.com/xeipuuv/gojsonpointer"
+             path="third_party/golibs/github.com/xeipuuv/gojsonpointer"
+             remote="https://fuchsia.googlesource.com/third_party/github.com/xeipuuv/gojsonpointer"
+             gerrithost="https://fuchsia-review.googlesource.com"
+             revision="4e3ac2762d5f479393488629ee9370b50873b3a6"/>
+    <project name="third_party/googleapis"
+             path="third_party/googleapis"
+             remote="https://fuchsia.googlesource.com/third_party/googleapis"
+             gerrithost="https://fuchsia-review.googlesource.com"
+             revision="a5e837ad4ef5b00eccfb93f2d97e8c52ad78bcbf"/>
+    <project name="third_party/googletest"
+             path="third_party/googletest"
+             remote="https://fuchsia.googlesource.com/third_party/googletest"
+             gerrithost="https://fuchsia-review.googlesource.com"
+             revision="f854f1d27488996dc8a6db3c9453f80b02585e12"/>
     <project name="third_party/github.com/gperftools/gperftools"
              path="third_party/gperftools"
              remote="https://fuchsia.googlesource.com/third_party/github.com/gperftools/gperftools"
@@ -211,11 +239,31 @@
              remote="https://fuchsia.googlesource.com/third_party/jinja2"
              gerrithost="https://fuchsia-review.googlesource.com"
              revision="ce94d60376c2ef59799915a44829311b2114d6c4"/>
+    <project name="third_party/leveldb"
+             path="third_party/leveldb"
+             remote="https://fuchsia.googlesource.com/third_party/leveldb"
+             gerrithost="https://fuchsia-review.googlesource.com"
+             revision="f6dbca87322a86aca5e416138f2b4a72f5b30ea7"/>
+    <project name="third_party/libarchive"
+             path="third_party/libarchive"
+             remote="https://fuchsia.googlesource.com/third_party/libarchive"
+             gerrithost="https://fuchsia-review.googlesource.com"
+             revision="27791c07e35e4e79705c46d7437116dbb5e15840"/>
     <project name="third_party/libpng"
              path="third_party/libpng"
              remote="https://fuchsia.googlesource.com/third_party/libpng"
              gerrithost="https://fuchsia-review.googlesource.com"
              revision="e966646480f7cafc2905a2c78a299c3bfa1de4eb"/>
+    <project name="third_party/libxml2"
+             path="third_party/libxml2"
+             remote="https://fuchsia.googlesource.com/third_party/libxml2"
+             gerrithost="https://fuchsia-review.googlesource.com"
+             revision="46bc5df64646302b9b0973460d029d6e799f4260"/>
+    <project name="third_party/mako"
+             path="third_party/mako"
+             remote="https://fuchsia.googlesource.com/third_party/mako"
+             gerrithost="https://fuchsia-review.googlesource.com"
+             revision="e6b41d232315660de544a7a692e58acddd2e612c"/>
     <project name="third_party/markupsafe"
              path="third_party/markupsafe"
              remote="https://fuchsia.googlesource.com/third_party/markupsafe"
@@ -231,6 +279,11 @@
              remote="https://chromium.googlesource.com/chromium/mini_chromium"
              revision="737433ebade4d446643c6c07daae02a67e8decca"
              gerrithost="https://fuchsia-review.googlesource.com"/>
+    <project name="third_party/murmurhash"
+             path="third_party/murmurhash"
+             remote="https://fuchsia.googlesource.com/third_party/murmurhash.c"
+             gerrithost="https://fuchsia-review.googlesource.com"
+             revision="bb3a13cb4378fdafcf365521bca5b3a062b9d856"/>
     <project name="third_party/golibs/github.com/google/btree"
              path="third_party/golibs/github.com/google/btree"
              remote="https://fuchsia.googlesource.com/third_party/github.com/google/btree"
@@ -252,6 +305,26 @@
              remote="https://fuchsia.googlesource.com/third_party/protobuf"
              revision="c313f26117c367ebbdca66f82164ed798bfc2c20"
              gerrithost="https://fuchsia-review.googlesource.com"/>
+    <project name="third_party/python/mock"
+             path="third_party/python/mock"
+             remote="https://fuchsia.googlesource.com/third_party/python/testing-cabal/mock"
+             gerrithost="https://fuchsia-review.googlesource.com"
+             revision="8c19ef6c95004524cb9f0b170a1aff6f47ade764"/>
+    <project name="third_party/pytoml"
+             path="third_party/pytoml"
+             remote="https://fuchsia.googlesource.com/third_party/pytoml"
+             gerrithost="https://fuchsia-review.googlesource.com"
+             revision="8641351699f44401232786cd9f320ac373c3a02e"/>
+    <project name="third_party/pyyaml"
+             path="third_party/pyyaml"
+             remote="https://fuchsia.googlesource.com/third_party/pyyaml"
+             gerrithost="https://fuchsia-review.googlesource.com"
+             revision="7f118278ff09fc2deea32b429cffc38856bf6992"/>
+    <project name="third_party/rapidjson"
+             path="third_party/rapidjson"
+             remote="https://fuchsia.googlesource.com/third_party/rapidjson"
+             revision="32d07c55db1bb6c2ae17cba4033491a667647753"
+             gerrithost="https://fuchsia-review.googlesource.com"/>
     <project name="third_party/roughtime"
              path="third_party/roughtime"
              remote="https://fuchsia.googlesource.com/third_party/roughtime"
@@ -267,6 +340,11 @@
              remote="https://fuchsia.googlesource.com/third_party/cargo-vendor"
              gerrithost="https://fuchsia-review.googlesource.com"
              revision="246ab4b4bfcca364c0da6267f04266a8da1f3a47"/>
+    <project name="third_party/re2"
+             path="third_party/re2"
+             remote="https://fuchsia.googlesource.com/third_party/re2"
+             gerrithost="https://fuchsia-review.googlesource.com"
+             revision="c59cb1f7181a821b96116117c559533fdaee3360"/>
     <project name="third_party/rust-tuf"
              path="third_party/rust-mirrors/rust-tuf"
              remote="https://fuchsia.googlesource.com/third_party/rust-mirrors/rust-tuf"
@@ -327,6 +405,11 @@
              remote="https://fuchsia.googlesource.com/third_party/openssh-portable"
              gerrithost="https://fuchsia-review.googlesource.com"
              revision="a90b1fc929e34709007b4eedec131458d27e7da6"/>
+    <project name="third_party/vboot_reference"
+             path="third_party/vboot_reference"
+             remote="https://fuchsia.googlesource.com/third_party/vboot_reference"
+             gerrithost="https://fuchsia-review.googlesource.com"
+             revision="57dd611f3cc47cc702627e912f4bb80d1c95d372"/>
     <project name="third_party/vim"
              path="third_party/vim"
              remote="https://fuchsia.googlesource.com/third_party/vim"
@@ -347,16 +430,21 @@
              remote="https://fuchsia.googlesource.com/third_party/wayland"
              gerrithost="https://fuchsia-review.googlesource.com"
              revision="01095a9ce4d8457ee2f221848b9805c4b5cffc95"/>
+    <project name="third_party/xz"
+             path="third_party/xz"
+             remote="https://fuchsia.googlesource.com/third_party/xz"
+             gerrithost="https://fuchsia-review.googlesource.com"
+             revision="404987123283851a17dd4fe5cfb47213de73c67b"/>
     <project name="third_party/yasm"
              path="third_party/yasm"
              remote="https://fuchsia.googlesource.com/third_party/yasm"
              gerrithost="https://fuchsia-review.googlesource.com"
              revision="edb428581932cfc87873aa44f4ff8b3a8c37bd09"/>
-    <project name="third_party/vboot_reference"
-             path="third_party/vboot_reference"
-             remote="https://fuchsia.googlesource.com/third_party/vboot_reference"
+    <project name="third_party/zlib"
+             path="third_party/zlib"
+             remote="https://fuchsia.googlesource.com/third_party/zlib"
              gerrithost="https://fuchsia-review.googlesource.com"
-             revision="57dd611f3cc47cc702627e912f4bb80d1c95d372"/>
+             revision="bab6ce14a2c2e3e40d454ee9e80c3811f1835cf7"/>
 
     <!-- TODO(abarth): These projects have the wrong names. The names should
          match the path under fuchsia.googlesource.com -->
