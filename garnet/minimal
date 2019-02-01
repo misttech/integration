@@ -2,23 +2,9 @@
 <manifest>
   <projects>
     <project name="garnet"
-             path="garnet"
+             path="old/garnet"
              remote="https://fuchsia.googlesource.com/garnet"
              gerrithost="https://fuchsia-review.googlesource.com"
              revision="66e1924c2a18c92594644cfa392bf02cb568984d"/>
   </projects>
-  <hooks>
-    <hook name="cipd-update"
-          project="garnet"
-          action="tools/cipd-update.sh"/>
-    <hook name="download-vulkan-sdk"
-          project="garnet"
-          action="public/lib/escher/scripts/download-vulkan-sdk"/>
-    <hook name="ffmpeg-update"
-          project="garnet"
-          action="lib/media/ffmpeg/update_prebuilt_ffmpeg.sh"/>
-    <hook name="gen-ssh-keys"
-          project="garnet"
-          action="tools/gen-ssh-keys.sh"/>
-  </hooks>
 </manifest>

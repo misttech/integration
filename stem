@@ -9,7 +9,7 @@
              path="."
              remote="https://fuchsia.googlesource.com/fuchsia"
              gerrithost="https://fuchsia-review.googlesource.com"
-             revision="5d4fdbd45577fc9e1349c9bfe9fb541f43da9c40"/>
+             revision="8b3c317bf86eba341237ac038d24b7318ca0aeac"/>
   </projects>
   <hooks>
     <hook name="install-fx"
@@ -27,5 +27,14 @@
     <hook name="zircon-download-prebuilt"
           project="fuchsia"
           action="zircon/scripts/download-prebuilt"/>
+    <hook name="garnet-update"
+          project="fuchsia"
+          action="garnet/tools/cipd-update.sh"/>
+    <hook name="download-vulkan-sdk"
+          project="fuchsia"
+          action="garnet/public/lib/escher/scripts/download-vulkan-sdk"/>
+    <hook name="gen-ssh-keys"
+          project="fuchsia"
+          action="garnet/tools/gen-ssh-keys.sh"/>
   </hooks>
 </manifest>
