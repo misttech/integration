@@ -29,9 +29,6 @@
     <hook name="garnet-update"
           project="fuchsia"
           action="garnet/tools/cipd-update.sh"/>
-    <hook name="download-vulkan-sdk"
-          project="fuchsia"
-          action="garnet/public/lib/escher/scripts/download-vulkan-sdk"/>
     <hook name="gen-ssh-keys"
           project="fuchsia"
           action="garnet/tools/gen-ssh-keys.sh"/>
