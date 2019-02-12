@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!--
+  Configuration of prebuilt packages needed by the stem.
+
+  The CIPD version hashes in this manifest are updated automatically by Fuchsia Global Integration bots.
+
+  To manually fetch packages after local edits to this file run:
+  jiri fetch-packages -local-manifest=true
+  -->
+  <packages>
+    <!-- Packages in https://chrome-infra-packages.appspot.com/p/fuchsia/tools -->
+    <package name="fuchsia/tools/artifacts/${platform}"
+             path="prebuilt/tools/artifacts"
+             version="git_revision:1c95216c774822e3e7cfd17bd9da09cdec54328a"/>
+    <package name="fuchsia/tools/lkgb/${platform}"
+             path="prebuilt/tools/lkgb"
+             version="git_revision:1c95216c774822e3e7cfd17bd9da09cdec54328a"/>
+  </packages>
+</manifest>
