@@ -9,12 +9,67 @@
   jiri fetch-packages -local-manifest=true
   -->
   <packages>
+    <!-- Packages for buildtools -->
+    <!--   GN -->
+    <package name="gn/gn/${platform}"
+             version="git_revision:45314e29d54cc2e4a6501eaec860f1b09740eb9c"
+             path="buildtools/{{.OS}}-x64"/>
+    <!--   Ninja -->
+    <package name="infra/ninja/${platform}"
+             version="version:1.8.2"
+             path="buildtools/{{.OS}}-x64"/>
+    <!--   Breakpad -->
+    <package name="fuchsia/tools/breakpad/${os=linux}-${arch}"
+             version="git_revision:9eac2058b70615519b2c4d8c6bdbfca1bd079e39"
+             path="buildtools/{{.OS}}-x64"/>
+    <!--   dev_finder -->
+    <package name="fuchsia/tools/dev_finder/${platform}"
+             version="git_revision:cf8c6700b13d636d2af8c5f84bec9f8add3584ef"
+             path="buildtools/{{.OS}}-x64"/>
+    <!--   dump_breakpad_symbols -->
+    <package name="fuchsia/tools/dump_breakpad_symbols/${os=linux}-${arch}"
+             version="git_revision:078c34aaee784ec4737e5fe71c0392d54de0f02d"
+             path="buildtools/{{.OS}}-x64"/>
+    <!--   godepfile -->
+    <package name="fuchsia/tools/godepfile/${platform}"
+             version="git_revision:6922d7833617841e853a0be52a285f6cd07a0a10"
+             path="buildtools/{{.OS}}-x64"/>
+    <!--   godepfile -->
+    <package name="infra/cmake/${platform}"
+             version="version:3.10.0"
+             path="buildtools/{{.OS}}-x64/cmake"/>
+    <!--   CMake -->
+    <package name="fuchsia/clang/${platform}"
+             version="git_revision:023dd1eefad3c3b41633e0644df2e0d29f66d728"
+             path="buildtools/{{.OS}}-x64/clang"/>
+    <!--   Go -->
+    <package name="fuchsia/go/${platform}"
+             version="git_revision:b8bd7d94a2ae6c80ab8b6ed5900d3eeba8a777c3"
+             path="buildtools/{{.OS}}-x64/go"/>
+    <!--   Rust -->
+    <package name="fuchsia/rust/${platform}"
+             version="git_revision:d1731801163df1d3a8d4ddfa68adac2ec833ef7f"
+             path="buildtools/{{.OS}}-x64/rust"/>
+    <!--   QEMU -->
+    <package name="fuchsia/qemu/${platform}"
+             version="git_revision:0f0027d617976b4cbb7b937d5836f8ef0ac25ba1"
+             path="buildtools/{{.OS}}-x64/qemu"/>
+    <!-- Packages for build -->
+    <!--   Linux sysroot -->
+    <package name="fuchsia/sysroot/linux-amd64"
+             version="git_revision:a4aaacde9d37ccf91a0f8dc8267cb7ad5d9be283"
+             path="build/third_party/sysroot/linux-x64"/>
+    <package name="fuchsia/sysroot/linux-arm64"
+             version="git_revision:a4aaacde9d37ccf91a0f8dc8267cb7ad5d9be283"
+             path="build/third_party/sysroot/linux-arm64"/>
     <!-- Packages in https://chrome-infra-packages.appspot.com/p/fuchsia/tools -->
     <package name="fuchsia/tools/artifacts/${platform}"
              path="prebuilt/tools/artifacts"
-             version="git_revision:1c95216c774822e3e7cfd17bd9da09cdec54328a"/>
+             version="git_revision:1c95216c774822e3e7cfd17bd9da09cdec54328a"
+             platforms="linux-amd64,linux-arm64,mac-amd64"/>
     <package name="fuchsia/tools/lkgb/${platform}"
              path="prebuilt/tools/lkgb"
-             version="git_revision:1c95216c774822e3e7cfd17bd9da09cdec54328a"/>
+             version="git_revision:1c95216c774822e3e7cfd17bd9da09cdec54328a"
+             platforms="linux-amd64,linux-arm64,mac-amd64"/>
   </packages>
 </manifest>

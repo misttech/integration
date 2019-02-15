@@ -15,12 +15,6 @@
     <hook name="install-fx"
           project="fuchsia"
           action="scripts/devshell/lib/add_symlink_to_bin.sh"/>
-    <hook name="buildtools-update"
-          project="fuchsia"
-          action="buildtools/update.sh"/>
-    <hook name="build-update"
-          project="fuchsia"
-          action="build/cipd-update.sh"/>
     <hook name="zircon-download-prebuilt"
           project="fuchsia"
           action="zircon/scripts/download-prebuilt"/>
