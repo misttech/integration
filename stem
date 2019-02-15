@@ -20,9 +20,6 @@
     <hook name="build-update"
           project="fuchsia"
           action="build/cipd-update.sh"/>
-    <hook name="symlink-.gn"
-          project="fuchsia"
-          action="build/dot_gn_symlink.sh"/>
     <hook name="zircon-download-prebuilt"
           project="fuchsia"
           action="zircon/scripts/download-prebuilt"/>
