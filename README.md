@@ -1,6 +1,6 @@
 # Integration
 
-This repository contains Fuchsia's global integration manifest files.
+This repository contains Fuchsia's Global Integration manifest files.
 
 ## Making changes
 
