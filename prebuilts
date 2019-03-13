@@ -147,6 +147,10 @@
     <package name="fuchsia/test_data/third_party/chromium_media_test_data_downstream"
              version="6c913dc0cd4d4812e1fefd3e58de7660805a380b"
              path="garnet/test_data/media/third_party/chromium_media_test_data_downstream"/>
+    <!--   ChromeDriver -->
+    <package name="fuchsia/third_party/chromedriver/${platform}"
+            version="version:73.0.3683.20"
+            path="prebuilt/third_party/chromedriver"/>
     <!--   Prebuilt ffmpeg library -->
     <package name="fuchsia/lib/ffmpeg/fuchsia"
              version="git_revision:18571e04d02a0bce3df3dabf8dbeb472c3023c16"
