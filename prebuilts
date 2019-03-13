@@ -176,20 +176,10 @@
              version="git_revision:44d4fca9922a252a0bd81f6307bcc072a78da54a"
 	     path="src/connectivity/bluetooth/hci/intel/firmware"
              internal="true"/>
-    <!-- TODO(armansito): Remove after fuchsia.git transition is complete -->
-    <package name="fuchsia_internal/firmware/bluetooth/intel"
-             version="git_revision:44d4fca9922a252a0bd81f6307bcc072a78da54a"
-             path="garnet/drivers/bluetooth/hci/intel/firmware"
-             internal="true"/>
     <!--   Atheros bluetooth firmware -->
     <package name="fuchsia_internal/firmware/bluetooth/qualcomm_atheros"
              version="git_revision:7b5835fd37630d18ac0c755329172f6a17c1af29"
 	     path="src/connectivity/bluetooth/hci/atheros/firmware"
-             internal="true"/>
-    <!-- TODO(armansito): Remove after fuchsia.git transition is complete -->
-    <package name="fuchsia_internal/firmware/bluetooth/qualcomm_atheros"
-             version="git_revision:7b5835fd37630d18ac0c755329172f6a17c1af29"
-             path="garnet/drivers/bluetooth/hci/atheros/firmware"
              internal="true"/>
     <!--   Atheros wlan firmware -->
     <package name="fuchsia_internal/firmware/wlan/atheros/ath10k"
