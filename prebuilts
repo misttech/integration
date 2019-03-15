@@ -55,6 +55,10 @@
              version="git_revision:0f0027d617976b4cbb7b937d5836f8ef0ac25ba1"
              path="buildtools/{{.OS}}-x64/qemu"/>
     <!-- Packages for build -->
+    <!--   Banjo -->
+    <package name="fuchsia/tools/banjo_bin/${platform}"
+             version="git_revision:03979c7cb93281191cd0f2bb5352622904fed711"
+             path="buildtools/{{.OS}}-x64/banjo"/>
     <!--   Dart -->
     <package name="fuchsia/dart-sdk/${platform}"
              version="git_revision:37fa71dc4e046b422a99ac81814aa93569ed6314"
