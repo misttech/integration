@@ -55,10 +55,6 @@
              version="git_revision:0f0027d617976b4cbb7b937d5836f8ef0ac25ba1"
              path="buildtools/{{.OS}}-x64/qemu"/>
     <!-- Packages for build -->
-    <!--   Banjo -->
-    <package name="fuchsia/tools/banjo_bin/${platform}"
-             version="git_revision:03979c7cb93281191cd0f2bb5352622904fed711"
-             path="buildtools/{{.OS}}-x64/banjo"/>
     <!--   Dart -->
     <package name="fuchsia/dart-sdk/${platform}"
              version="git_revision:37fa71dc4e046b422a99ac81814aa93569ed6314"
@@ -71,6 +67,11 @@
              version="git_revision:a4aaacde9d37ccf91a0f8dc8267cb7ad5d9be283"
              path="build/third_party/sysroot/linux-arm64"/>
     <!-- Packages for Zircon -->
+    <!--   Banjo -->
+    <package name="fuchsia/tools/banjo_bin/${platform}"
+             version="git_revision:8f9277c7abd6ceb5ef4b7a10f155555ff600280f"
+             path="zircon/prebuilt/downloads/banjo"
+             platforms="linux-amd64,mac-amd64"/>
     <!--   Clang -->
     <package name="fuchsia/clang/${platform}"
              version="git_revision:023dd1eefad3c3b41633e0644df2e0d29f66d728"
