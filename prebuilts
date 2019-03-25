@@ -7,6 +7,9 @@
 
   To manually fetch packages after local edits to this file run:
   jiri fetch-packages -local-manifest=true
+
+  To regenerate the corresponding lock file run:
+   `jiri resolve -local-manifest=true -output jiri.lock prebuilts`
   -->
   <packages>
     <!-- Packages for buildtools -->
@@ -143,6 +146,14 @@
              version="unIN9wklch0CG26Hx_YT9XLLkRhyvjLyyjG46CNn13kC"
              path="garnet/bin/guest/pkg/linux_guest/images/arm64"
              internal="true"/>
+    <!-- Packages in /infra/tools/ -->
+    <package name="infra/tools/buildbucket/${platform}"
+             path="prebuilt/tools/buildbucket"
+             version="git_revision:b2418e9b950fbabab945fd302a177dd4714e7389"
+             platforms="linux-amd64,mac-amd64"/>
+    <package name="infra/tools/gsutil"
+             path="prebuilt/tools/gsutil"
+             version="gsutil_version:4.25"/>
     <!-- Packages in https://chrome-infra-packages.appspot.com/p/fuchsia/tools -->
     <package name="fuchsia/tools/artifacts/${platform}"
              path="prebuilt/tools/artifacts"
