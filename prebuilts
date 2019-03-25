@@ -60,7 +60,7 @@
     <!-- Packages for build -->
     <!--   Dart -->
     <package name="fuchsia/dart-sdk/${platform}"
-             version="git_revision:{{(index .Projects &quot;dart/sdk&quot;).Revision}}"
+             version="git_revision:37fa71dc4e046b422a99ac81814aa93569ed6314"
              path="prebuilt/third_party/dart/{{.OS}}-x64"/>
     <!--   Linux sysroot -->
     <package name="fuchsia/sysroot/linux-amd64"
