@@ -151,9 +151,9 @@
              path="prebuilt/tools/buildbucket"
              version="git_revision:b2418e9b950fbabab945fd302a177dd4714e7389"
              platforms="linux-amd64,mac-amd64"/>
-    <package name="infra/tools/gsutil"
+    <package name="infra/gsutil"
              path="prebuilt/tools/gsutil"
-             version="gsutil_version:4.25"/>
+             version="version:4.38"/>
     <!-- Packages in https://chrome-infra-packages.appspot.com/p/fuchsia/tools -->
     <package name="fuchsia/tools/artifacts/${platform}"
              path="prebuilt/tools/artifacts"
