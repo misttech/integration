@@ -106,15 +106,26 @@
              path="garnet/public/lib/escher/third_party/vulkansdk"/>
     <!-- Packages for Garnet Internal -->
     <!--   Ralink wlan firmware -->
+    <!--     TODO WLAN-1031: Remove duplicate (garnet) firmware once source has been moved -->
     <package name="fuchsia_internal/firmware/ralink"
              version="git_revision:12987cadb37de28719990dfc2397ec6d09e10566"
              path="garnet/drivers/wlan/mediatek/ralink/firmware"
              internal="true"
              flag="garnet/tools/cipd.gni|internal_access = true|internal_access = false"/>
+    <package name="fuchsia_internal/firmware/ralink"
+             version="git_revision:12987cadb37de28719990dfc2397ec6d09e10566"
+             path="src/connectivity/wlan/drivers/mediatek/ralink/firmware"
+             internal="true"
+             flag="build/cipd.gni|internal_access = true|internal_access = false"/>
     <!--   Broadcom wlan firmware -->
+    <!--     TODO WLAN-1031: Remove duplicate (garnet) firmware once source has been moved -->
     <package name="fuchsia_internal/firmware/wlan/broadcom/brcmfmac"
              version="version:4"
              path="garnet/drivers/wlan/third_party/broadcom/brcmfmac/firmware"
+             internal="true"/>
+    <package name="fuchsia_internal/firmware/wlan/broadcom/brcmfmac"
+             version="version:4"
+             path="src/connectivity/wlan/drivers/third_party/broadcom/brcmfmac/firmware"
              internal="true"/>
     <!--   Intel bluetooth firmware -->
     <package name="fuchsia_internal/firmware/bluetooth/intel"
@@ -127,9 +138,14 @@
 	     path="src/connectivity/bluetooth/hci/atheros/firmware"
              internal="true"/>
     <!--   Atheros wlan firmware -->
+    <!--     TODO WLAN-1031: Remove duplicate (garnet) firmware once source has been moved -->
     <package name="fuchsia_internal/firmware/wlan/atheros/ath10k"
              version="git_revision:7518922bd5b98b137af7aaf3c836f5a498e91609"
              path="garnet/drivers/wlan/third_party/atheros/ath10k/firmware"
+             internal="true"/>
+    <package name="fuchsia_internal/firmware/wlan/atheros/ath10k"
+             version="git_revision:7518922bd5b98b137af7aaf3c836f5a498e91609"
+             path="src/connectivity/wlan/drivers/third_party/atheros/ath10k/firmware"
              internal="true"/>
     <!--   Amlogic video decoder firmware -->
     <package name="fuchsia_internal/firmware/amlogic-video"
