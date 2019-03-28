@@ -152,6 +152,10 @@
              version="git_revision:7518922bd5b98b137af7aaf3c836f5a498e91609"
              path="src/connectivity/wlan/drivers/third_party/atheros/ath10k/firmware"
              internal="true"/>
+    <!--   Intel wlan firmware -->
+    <package name="fuchsia/firmware/wlan/intel/iwlwifi"
+             version="git_revision:7bc246451318b3536d9bfd3c4e46d541a9831b33"
+             path="prebuilt/connectivity/wlan/firmware/intel/iwlwifi"/>
     <!--   Amlogic video decoder firmware -->
     <package name="fuchsia_internal/firmware/amlogic-video"
              version="21de4e7661973554287f571d3a0affb72b62283b"
