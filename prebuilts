@@ -184,11 +184,11 @@
     <!-- Packages in /infra/tools/ -->
     <package name="infra/tools/buildbucket/${platform}"
              path="prebuilt/tools/buildbucket"
-             version="git_revision:b2418e9b950fbabab945fd302a177dd4714e7389"
+             version="git_revision:987647febb7332a4057738ac0251c2303b7f72e1"
              platforms="linux-amd64,mac-amd64"/>
-    <package name="infra/gsutil"
+    <package name="infra/tools/luci/gsutil/${platform}"
              path="prebuilt/tools/gsutil"
-             version="version:4.38"/>
+             version="git_revision:a1b350f8dde11187fdbd733d6b9ca8293598de2a"/>
     <!-- Packages in https://chrome-infra-packages.appspot.com/p/fuchsia/tools -->
     <package name="fuchsia/tools/artifacts/${platform}"
              path="prebuilt/tools/artifacts"
