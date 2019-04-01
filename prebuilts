@@ -54,8 +54,8 @@
              version="git_revision:ef4d1c419525e1510aa650e2bec0d8f7449a2130"
              path="buildtools/{{.OS}}-x64/rust"/>
     <!--   QEMU -->
-    <package name="fuchsia/qemu/${platform}"
-             version="git_revision:0f0027d617976b4cbb7b937d5836f8ef0ac25ba1"
+    <package name="fuchsia/third_party/qemu/${platform}"
+             version="git_revision:533bf2563d0213a7e002d9fcde75519d30ffa70f"
              path="buildtools/{{.OS}}-x64/qemu"/>
     <!-- Packages for build -->
     <!--   Dart -->
