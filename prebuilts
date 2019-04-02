@@ -72,8 +72,8 @@
     <!--   .build-id tool -->
     <package name="fuchsia/tools/buildidtool/${platform}"
              version="git_revision:2a01f1c3295097ac553899aabf753dc840708ad8"
-             path="prebuilt/tools"
-             platforms="linux-amd64,linux-arm64,mac-amd64"/>
+             path="buildtools/{{.OS}}-x64"
+             platforms="linux-amd64,mac-amd64"/>
     <!-- TODO: haowei Remove this symbolizer package once zircon
          prebuilts landed in integration. -->
     <package name="fuchsia/tools/symbolize/${platform}"
