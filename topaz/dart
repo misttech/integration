@@ -5,6 +5,11 @@
     <localimport file="dart_third_party_pkg"/>
   </imports>
   <projects>
+    <!-- When performing a manual roll of dart/sdk project, the version tags of
+         the prebuilt packages (there are two) fuchsia/dart-sdk/${platform} in
+         fuchsia/prebuilts should be rolled to ensure version consistency. A
+         build breakage may occur if these two project and package do not share
+         the same revision hash. -->
     <project name="dart/sdk"
              path="third_party/dart"
              remote="https://dart.googlesource.com/sdk"

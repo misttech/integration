@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <imports>
+    <localimport file="prebuilts"/>
+  </imports>
   <projects>
     <project name="topaz"
              path="topaz"
@@ -8,15 +11,6 @@
              revision="0c411f196d6d4678d7813050a5442607ace5c151"/>
   </projects>
   <hooks>
-    <!-- TODO(mcgrathr,zra): Remove this and tools/download_dev_sdk.py,
-         tools/utils.py when dart/sdk has been updated to find
-         tools/prebuilt-dart-sdk instead. -->
-    <hook name="prebuilt-dart-sdk"
-          project="topaz"
-          action="tools/download_dev_sdk.py"/>
-    <hook name="prebuilt-dart-sdk-update"
-          project="topaz"
-          action="tools/prebuilt-dart-sdk/update.py"/>
     <hook name="cipd-update"
           project="topaz"
           action="tools/cipd-update.sh"/>
