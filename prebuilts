@@ -175,9 +175,9 @@
              path="garnet/bin/guest/pkg/debian_guest/images/arm64"
              internal="true"/>
     <!-- Packages in /infra/tools/ -->
-    <package name="infra/tools/buildbucket/${platform}"
+    <package name="infra/tools/bb/${platform}"
              path="prebuilt/tools/buildbucket"
-             version="git_revision:987647febb7332a4057738ac0251c2303b7f72e1"
+             version="git_revision:51469a42696b58429fb77195ab27512a9b209d18"
              platforms="linux-amd64,mac-amd64"/>
     <package name="infra/tools/luci/gsutil/${platform}"
              path="prebuilt/tools/gsutil"
