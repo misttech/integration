@@ -197,5 +197,23 @@
              path="prebuilt/tools/lkgb"
              version="git_revision:85d5fbccd5b480533bdf9f349f999cbac8cad234"
              platforms="linux-amd64,linux-arm64,mac-amd64"/>
+    <!-- Debug symbols
+    It is required that a debug symbol package takes on a very specific form:
+      (i) it is a directory;
+      (ii) this directory contains a top-level manifest debug_symbols.json,
+        which is a JSON list of paths;
+      (iii) each path in the manifest either points to a .build.-id directory
+        itself or an archive containing a .build-id directory at its root.
+    Download paths must be of the form
+    //prebuilt/build_ids/<target cpu>/<name>
+    -->
+    <package name="chromium/fuchsia/debug-symbols-amd64"
+             version="version:75.0.3733.0"
+             path="prebuilt/build_ids/x64/chromium"
+             attributes="debug-symbols,debug-symbols-x64"/>
+    <package name="chromium/fuchsia/debug-symbols-arm64"
+             version="version:75.0.3733.0"
+             path="prebuilt/build_ids/arm64/chromium"
+             attributes="debug-symbols,debug-symbols-arm64"/>
   </packages>
 </manifest>
