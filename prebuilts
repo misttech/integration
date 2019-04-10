@@ -31,7 +31,7 @@
              path="buildtools/{{.OS}}-x64"/>
     <!--   dump_breakpad_symbols -->
     <package name="fuchsia/tools/dump_breakpad_symbols/${os=linux}-${arch}"
-             version="git_revision:85d5fbccd5b480533bdf9f349f999cbac8cad234"
+             version="git_revision:438de138f7e65e8bfe7c2c60b7491dcfc984de62"
              path="buildtools/{{.OS}}-x64"/>
     <!--   godepfile -->
     <package name="fuchsia/tools/godepfile/${platform}"
@@ -191,7 +191,7 @@
     <!-- Packages in https://chrome-infra-packages.appspot.com/p/fuchsia/tools -->
     <package name="fuchsia/tools/artifacts/${platform}"
              path="prebuilt/tools/artifacts"
-             version="git_revision:85d5fbccd5b480533bdf9f349f999cbac8cad234"
+             version="git_revision:438de138f7e65e8bfe7c2c60b7491dcfc984de62"
              platforms="linux-amd64,linux-arm64,mac-amd64"/>
     <package name="fuchsia/tools/lkgb/${platform}"
              path="prebuilt/tools/lkgb"
