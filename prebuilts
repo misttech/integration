@@ -31,7 +31,7 @@
              path="buildtools/{{.OS}}-x64"/>
     <!--   dump_breakpad_symbols -->
     <package name="fuchsia/tools/dump_breakpad_symbols/${os=linux}-${arch}"
-             version="git_revision:49e586818ad9a3bb219ed21cb6dd549bd93a611b"
+             version="git_revision:b858825abeaf0581cfe2b2c8a7f3b8ea56e07805"
              path="buildtools/{{.OS}}-x64"/>
     <!--   godepfile -->
     <package name="fuchsia/tools/godepfile/${platform}"
@@ -195,7 +195,7 @@
              platforms="linux-amd64,linux-arm64,mac-amd64"/>
     <package name="fuchsia/tools/lkgb/${platform}"
              path="prebuilt/tools/lkgb"
-             version="git_revision:438de138f7e65e8bfe7c2c60b7491dcfc984de62"
+             version="git_revision:b858825abeaf0581cfe2b2c8a7f3b8ea56e07805"
              platforms="linux-amd64,linux-arm64,mac-amd64"/>
     <!-- Debug symbols
     It is required that a debug symbol package takes on a very specific form:
