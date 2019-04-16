@@ -16,62 +16,58 @@
     <!--   GN -->
     <package name="gn/gn/${platform}"
              version="git_revision:2349dc4e9609d43c552b648b05ec83a777076492"
-             path="buildtools/{{.OS}}-x64"/>
+             path="buildtools/{{.OS}}-{{.Arch}}"/>
     <!--   Ninja -->
     <package name="infra/ninja/${platform}"
              version="version:1.8.2"
-             path="buildtools/{{.OS}}-x64"/>
+             path="buildtools/{{.OS}}-{{.Arch}}"/>
     <!--   Breakpad -->
     <package name="fuchsia/tools/breakpad/${os=linux}-${arch}"
              version="git_revision:9eac2058b70615519b2c4d8c6bdbfca1bd079e39"
-             path="buildtools/{{.OS}}-x64"/>
+             path="buildtools/{{.OS}}-{{.Arch}}"/>
     <!--   dev_finder -->
     <package name="fuchsia/tools/dev_finder/${platform}"
              version="git_revision:ab76ceab46617fa9ac7147cfb1d80278ebc03c48"
-             path="buildtools/{{.OS}}-x64"/>
+             path="buildtools/{{.OS}}-{{.Arch}}"/>
     <!--   dump_breakpad_symbols -->
     <package name="fuchsia/tools/dump_breakpad_symbols/${os=linux}-${arch}"
              version="git_revision:c3929c3346d3fd1553dd83d263a2b977acfdf62b"
-             path="buildtools/{{.OS}}-x64"/>
+             path="buildtools/{{.OS}}-{{.Arch}}"/>
     <!--   godepfile -->
     <package name="fuchsia/tools/godepfile/${platform}"
              version="git_revision:6922d7833617841e853a0be52a285f6cd07a0a10"
-             path="buildtools/{{.OS}}-x64"/>
+             path="buildtools/{{.OS}}-{{.Arch}}"/>
     <!--   godepfile -->
     <package name="infra/cmake/${platform}"
              version="version:3.10.0"
-             path="buildtools/{{.OS}}-x64/cmake"/>
+             path="buildtools/{{.OS}}-{{.Arch}}/cmake"/>
     <!--   CMake -->
     <package name="fuchsia/clang/${platform}"
              version="git_revision:b920a7f65b13237dc4d5b2b836b29a954fff440a"
-             path="buildtools/{{.OS}}-x64/clang"/>
+             path="buildtools/{{.OS}}-{{.Arch}}/clang"/>
     <!--   Go -->
     <package name="fuchsia/go/${platform}"
              version="git_revision:b8bd7d94a2ae6c80ab8b6ed5900d3eeba8a777c3"
-             path="buildtools/{{.OS}}-x64/go"/>
+             path="buildtools/{{.OS}}-{{.Arch}}/go"/>
     <!--   Rust -->
     <package name="fuchsia/rust/${platform}"
              version="git_revision:ef4d1c419525e1510aa650e2bec0d8f7449a2130"
-             path="buildtools/{{.OS}}-x64/rust"/>
+             path="buildtools/{{.OS}}-{{.Arch}}/rust"/>
     <!--   QEMU -->
     <package name="fuchsia/third_party/qemu/${platform}"
              version="git_revision:533bf2563d0213a7e002d9fcde75519d30ffa70f,1"
-             path="buildtools/{{.OS}}-x64/qemu"
-             platforms="linux-amd64,mac-amd64"/>
-    <package name="fuchsia/third_party/qemu/${platform}"
-             version="git_revision:533bf2563d0213a7e002d9fcde75519d30ffa70f,1"
-             path="buildtools/{{.OS}}-arm64/qemu"
-             platforms="linux-arm64"/>
+             path="buildtools/{{.OS}}-{{.Arch}}/qemu"
+             platforms="linux-amd64,mac-amd64,linux-arm64"/>
     <!-- Packages for build -->
     <!--   Dart -->
     <package name="fuchsia/dart-sdk/${platform}"
              version="git_revision:a8f3a5dae6203d1064726a5953cf06a7d484249c"
-             path="prebuilt/third_party/dart/{{.OS}}-x64"/>
+             path="prebuilt/third_party/dart/{{.OS}}-{{.Arch}}"/>
     <!--   Dart TODO: haowei remove this once all dart related projects no
            longer depends on "topaz/tools/prebuilt-dart-sdk/" -->
     <package name="fuchsia/dart-sdk/${platform}"
              version="git_revision:a8f3a5dae6203d1064726a5953cf06a7d484249c"
-             path="topaz/tools/prebuilt-dart-sdk/{{.OS}}-x64"/>
+             path="topaz/tools/prebuilt-dart-sdk/{{.OS}}-{{.Arch}}"/>
     <!--   Linux sysroot -->
     <package name="fuchsia/sysroot/linux-amd64"
              version="git_revision:a4aaacde9d37ccf91a0f8dc8267cb7ad5d9be283"
@@ -82,7 +78,7 @@
     <!--   .build-id tool -->
     <package name="fuchsia/tools/buildidtool/${platform}"
              version="git_revision:2a01f1c3295097ac553899aabf753dc840708ad8"
-             path="buildtools/{{.OS}}-x64"
+             path="buildtools/{{.OS}}-{{.Arch}}"
              platforms="linux-amd64,mac-amd64"/>
     <!-- TODO: haowei Remove this symbolizer package once zircon
          prebuilts landed in integration. -->
