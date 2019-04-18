@@ -155,6 +155,11 @@
              version="21de4e7661973554287f571d3a0affb72b62283b"
              path="garnet/drivers/video/amlogic-decoder/firmware"
              internal="true"/>
+    <!--   Imagination GPU firmware for MT8167 -->
+    <package name="fuchsia_internal/firmware/imgtec/imgtec-rgx-mt8167"
+             version="git_revision:a663911de2166be76f0044b828c6b375cf64fecb"
+             path="garnet/drivers/gpu/msd-img-rgx/mtk/firmware"
+             internal="true"/>
     <!--   Linux guest kernel images for x64 -->
     <package name="fuchsia_internal/linux/linux_guest-4.18-x64"
              version="9PfatS-NoCJ66wjri2-tyjOOIJhRN9I7ZDITkdXe3LkC"
