@@ -7,4 +7,11 @@
     <localimport file="topaz/minimal"/>
     <localimport file="topaz/third_party"/>
   </imports>
+  <projects>
+    <project name="experiences"
+             path="src/experiences"
+             remote="https://fuchsia.googlesource.com/experiences"
+             gerrithost="https://fuchsia-review.googlesource.com"
+             revision="6f79b1719a384dd2299105d12a1ed268a8bd3529"/>
+  </projects>
 </manifest>
