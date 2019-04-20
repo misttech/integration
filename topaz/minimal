@@ -10,9 +10,4 @@
              gerrithost="https://fuchsia-review.googlesource.com"
              revision="244b856a572faedcfc0d76210b99e286903436a2"/>
   </projects>
-  <hooks>
-    <hook name="cipd-update"
-          project="topaz"
-          action="tools/cipd-update.sh"/>
-  </hooks>
 </manifest>
