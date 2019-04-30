@@ -191,11 +191,11 @@
     <!-- Packages in https://chrome-infra-packages.appspot.com/p/fuchsia/tools -->
     <package name="fuchsia/tools/artifacts/${platform}"
              path="prebuilt/tools/artifacts"
-             version="git_revision:5e0dd0bd0c2c33f6bc13a888088e52c618c9b83e"
+             version="git_revision:f73d4ddc3c70fba21bd32ee7f672f7978a008523"
              platforms="linux-amd64,linux-arm64,mac-amd64"/>
     <package name="fuchsia/tools/lkgb/${platform}"
              path="prebuilt/tools/lkgb"
-             version="git_revision:5e0dd0bd0c2c33f6bc13a888088e52c618c9b83e"
+             version="git_revision:f73d4ddc3c70fba21bd32ee7f672f7978a008523"
              platforms="linux-amd64,linux-arm64,mac-amd64"/>
     <!-- Debug symbols
     It is required that a debug symbol package takes on a very specific form:
