@@ -27,11 +27,11 @@
              path="buildtools/{{.OS}}-{{.Arch}}"/>
     <!--   dev_finder -->
     <package name="fuchsia/tools/dev_finder/${platform}"
-             version="git_revision:5e0dd0bd0c2c33f6bc13a888088e52c618c9b83e"
+             version="git_revision:f73d4ddc3c70fba21bd32ee7f672f7978a008523"
              path="buildtools/{{.OS}}-{{.Arch}}"/>
     <!--   dump_breakpad_symbols -->
     <package name="fuchsia/tools/dump_breakpad_symbols/${os=linux}-${arch}"
-             version="git_revision:5e0dd0bd0c2c33f6bc13a888088e52c618c9b83e"
+             version="git_revision:f73d4ddc3c70fba21bd32ee7f672f7978a008523"
              path="buildtools/{{.OS}}-{{.Arch}}"/>
     <!--   godepfile -->
     <package name="fuchsia/tools/godepfile/${platform}"
