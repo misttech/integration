@@ -8,8 +8,8 @@
   To manually fetch packages after local edits to this file run:
   jiri fetch-packages -local-manifest=true
 
-  To regenerate the corresponding lock file run:
-   `jiri resolve -local-manifest=true -output jiri.lock prebuilts`
+  To regenerate the corresponding lock files run:
+   `//integration/update-lockfiles.sh`
   -->
   <packages>
     <!-- Packages for buildtools -->
@@ -148,7 +148,7 @@
              internal="true"/>
     <!--   Intel wlan firmware -->
     <package name="fuchsia/firmware/wlan/intel/iwlwifi"
-             version="git_revision:7bc246451318b3536d9bfd3c4e46d541a9831b33"
+             version="git_revision:260cb35b11a968e7896f911565b75e411636ad69"
              path="prebuilt/connectivity/wlan/firmware/intel/iwlwifi"/>
     <!--   Amlogic video decoder firmware -->
     <package name="fuchsia_internal/firmware/amlogic-video"
