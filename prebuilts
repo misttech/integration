@@ -51,7 +51,7 @@
              path="buildtools/{{.OS}}-{{.Arch}}/go"/>
     <!--   Rust -->
     <package name="fuchsia/rust/${platform}"
-             version="git_revision:ef4d1c419525e1510aa650e2bec0d8f7449a2130"
+             version="git_revision:3991285f55a4b7cd92b7ffcdc396a3023076f5cb"
              path="buildtools/{{.OS}}-{{.Arch}}/rust"/>
     <!--   QEMU -->
     <package name="fuchsia/third_party/qemu/${platform}"
