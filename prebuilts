@@ -27,7 +27,7 @@
              path="buildtools/{{.OS}}-{{.Arch}}"/>
     <!--   dev_finder -->
     <package name="fuchsia/tools/dev_finder/${platform}"
-             version="git_revision:2a89856aece1b76f4309c32d408bdf976370176f"
+             version="git_revision:f72e4cc0a6c3282c199add8696dd978f5de86843"
              path="buildtools/{{.OS}}-{{.Arch}}"/>
     <!--   dump_breakpad_symbols -->
     <package name="fuchsia/tools/dump_breakpad_symbols/${os=linux}-${arch}"
