@@ -2,6 +2,7 @@
 <manifest>
   <imports>
     <localimport file="boringssl/boringssl"/>
+    <localimport file="go"/>
   </imports>
   <projects>
     <!-- Third Party -->
@@ -118,11 +119,6 @@
              remote="https://fuchsia.googlesource.com/third_party/glslang"
              gerrithost="https://fuchsia-review.googlesource.com"
              revision="11b5c31108fad9a10288dc35ea23fbcaad243f6b"/>
-    <project name="third_party/go"
-             remote="https://fuchsia.googlesource.com/third_party/go"
-             gerrithost="https://fuchsia-review.googlesource.com"
-             revision="b929a7f6fa101e0e5a6d15766fa94524d3176ffd"
-             path="third_party/go"/>
     <project name="third_party/golibs/golang.org/x/crypto"
              path="third_party/golibs/golang.org/x/crypto"
              remote="https://fuchsia.googlesource.com/third_party/golang/crypto"
