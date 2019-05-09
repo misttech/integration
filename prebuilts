@@ -41,9 +41,9 @@
     <package name="infra/cmake/${platform}"
              version="version:3.10.0"
              path="buildtools/{{.OS}}-{{.Arch}}/cmake"/>
-    <!--   CMake -->
+    <!--   Clang -->
     <package name="fuchsia/clang/${platform}"
-             version="git_revision:b920a7f65b13237dc4d5b2b836b29a954fff440a"
+             version="git_revision:1558731607cb2aef361d02be9973d4e374475254"
              path="buildtools/{{.OS}}-{{.Arch}}/clang"/>
     <!--   Go -->
     <package name="fuchsia/go/${platform}"
