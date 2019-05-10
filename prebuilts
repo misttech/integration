@@ -115,10 +115,11 @@
     <package name="skia/tools/goldctl/${platform}"
              version="git_revision:926c7d9a1e78593154022584b9884bbe8307e9a9"
              path="prebuilt/third_party/goldctl"/>
-    <!--   Vulkan SDK -->
+    <!--   Vulkan SDK (for host builds) -->
     <package name="fuchsia/third_party/vulkansdk/${platform}"
              version="version:1.1.92.1"
-             path="garnet/public/lib/escher/third_party/vulkansdk"/>
+             path="prebuilt/third_party/vulkansdk/{{.OS}}"
+             platforms="linux-amd64,mac-amd64"/>
     <!--   Goldfish Vulkan ICD -->
     <package name="fuchsia/lib/libvulkan/libvulkan_goldfish/x64"
              version="git_revision:e8b0a1e9d26ac8e95c7c0ef7e25f0b24f34fd70e"
