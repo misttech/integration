@@ -77,7 +77,7 @@
              path="build/third_party/sysroot/linux-arm64"/>
     <!--   .build-id tool -->
     <package name="fuchsia/tools/buildidtool/${platform}"
-             version="git_revision:2a01f1c3295097ac553899aabf753dc840708ad8"
+             version="git_revision:0f30b84316f88db873708d291138ef5638b19270"
              path="buildtools/{{.OS}}-{{.Arch}}"
              platforms="linux-amd64,mac-amd64"/>
     <!-- TODO: haowei Remove this symbolizer package once zircon
