@@ -224,5 +224,12 @@
              version="version:75.0.3733.0"
              path="prebuilt/build_ids/arm64/chromium"
              attributes="debug-symbols,debug-symbols-arm64"/>
+
+    <!-- Packages for SDK -->
+    <!-- Bazel -->
+    <package name="fuchsia/third_party/bazel/${platform}"
+             path="prebuilt/sdk/bazel"
+             version="version:0.17.2"
+             platforms="linux-amd64,mac-amd64"/>
   </packages>
 </manifest>
