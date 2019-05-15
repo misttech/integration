@@ -193,7 +193,7 @@
     <package name="infra/tools/luci/gsutil/${platform}"
              path="prebuilt/tools/gsutil"
              version="git_revision:6080f143cae651200119cfd1f889dc77d9566cf9"/>
-    <!-- Packages in https://chrome-infra-packages.appspot.com/p/fuchsia/tools -->
+    <!-- Packages in /fuchsia/tools and /fuchsia/infra -->
     <package name="fuchsia/tools/artifacts/${platform}"
              path="prebuilt/tools/artifacts"
              version="git_revision:0f30b84316f88db873708d291138ef5638b19270"
@@ -202,6 +202,10 @@
              path="prebuilt/tools/lkgb"
              version="git_revision:0f30b84316f88db873708d291138ef5638b19270"
              platforms="linux-amd64,linux-arm64,mac-amd64"/>
+    <package name="fuchsia/infra/fxicfg/${platform}"
+             path="prebuilt/tools/fxicfg"
+             version="git_revision:6144be8d26f3942f8750b84a7467b5c4c936189c"/>
+
     <!-- Debug symbols
     It is required that a debug symbol package takes on a very specific form:
       (i) it is a directory;
