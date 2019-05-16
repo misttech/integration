@@ -31,7 +31,7 @@
              path="buildtools/{{.OS}}-{{.Arch}}"/>
     <!--   dump_breakpad_symbols -->
     <package name="fuchsia/tools/dump_breakpad_symbols/${os=linux}-${arch}"
-             version="git_revision:15602dbdb206e41c9c6b58d3cf0b21deb1309945"
+             version="git_revision:d3d583a76a0ad2302d7a6e82e0b5711638ae1bb9"
              path="buildtools/{{.OS}}-{{.Arch}}"/>
     <!--   godepfile -->
     <package name="fuchsia/tools/godepfile/${platform}"
@@ -77,7 +77,7 @@
              path="build/third_party/sysroot/linux-arm64"/>
     <!--   .build-id tool -->
     <package name="fuchsia/tools/buildidtool/${platform}"
-             version="git_revision:15602dbdb206e41c9c6b58d3cf0b21deb1309945"
+             version="git_revision:d3d583a76a0ad2302d7a6e82e0b5711638ae1bb9"
              path="buildtools/{{.OS}}-{{.Arch}}"
              platforms="linux-amd64,mac-amd64"/>
     <!-- TODO: haowei Remove this symbolizer package once zircon
