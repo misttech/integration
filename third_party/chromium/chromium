@@ -3,19 +3,19 @@
   <packages>
     <!-- Chromium and web_runner amd64 / x64 implementation -->
     <package name="chromium/fuchsia/webrunner-amd64"
-        version="version:76.0.3806.0"
+        version="version:76.0.3807.0"
         path="topaz/third_party/chromium/arch/x64"/>
     <!-- Chromium and web_runner arm64 / aarch64 implementation -->
     <package name="chromium/fuchsia/webrunner-arm64"
-        version="version:76.0.3806.0"
+        version="version:76.0.3807.0"
         path="topaz/third_party/chromium/arch/arm64"/>
     <!-- Cast_runner amd64 / x64 implementation -->
     <package name="chromium/fuchsia/castrunner-amd64"
-        version="version:76.0.3806.0"
+        version="version:76.0.3807.0"
         path="topaz/third_party/cast_runner/arch/x64"/>
     <!-- cast_runner arm64 / aarch64 implementation -->
     <package name="chromium/fuchsia/castrunner-arm64"
-        version="version:76.0.3806.0"
+        version="version:76.0.3807.0"
         path="topaz/third_party/cast_runner/arch/arm64"/>
     <!-- Debug symbols
     It is required that a debug symbol package takes on a very specific form:
@@ -28,11 +28,11 @@
     //prebuilt/build_ids/<target cpu>/<name>
     -->
     <package name="chromium/fuchsia/debug-symbols-amd64"
-             version="version:76.0.3806.0"
+             version="version:76.0.3807.0"
              path="prebuilt/build_ids/x64/chromium"
              attributes="debug-symbols,debug-symbols-x64"/>
     <package name="chromium/fuchsia/debug-symbols-arm64"
-             version="version:76.0.3806.0"
+             version="version:76.0.3807.0"
              path="prebuilt/build_ids/arm64/chromium"
              attributes="debug-symbols,debug-symbols-arm64"/>
   </packages>
