@@ -61,12 +61,12 @@
     <!-- Packages for build -->
     <!--   Dart -->
     <package name="fuchsia/dart-sdk/${platform}"
-             version="git_revision:e3edfd36b2aa7ff4e98fe541ef5666ef2e70d17e"
+             version="git_revision:224f82c21cb2966f36ab850eae7ef5c8697cc477"
              path="prebuilt/third_party/dart/{{.OS}}-{{.Arch}}"/>
     <!--   Dart TODO: haowei remove this once all dart related projects no
            longer depends on "topaz/tools/prebuilt-dart-sdk/" -->
     <package name="fuchsia/dart-sdk/${platform}"
-             version="git_revision:e3edfd36b2aa7ff4e98fe541ef5666ef2e70d17e"
+             version="git_revision:224f82c21cb2966f36ab850eae7ef5c8697cc477"
              path="topaz/tools/prebuilt-dart-sdk/{{.OS}}-{{.Arch}}"/>
     <!--   Linux sysroot -->
     <package name="fuchsia/sysroot/linux-amd64"
