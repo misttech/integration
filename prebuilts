@@ -43,7 +43,7 @@
              path="buildtools/{{.OS}}-{{.Arch}}/cmake"/>
     <!--   Clang -->
     <package name="fuchsia/clang/${platform}"
-             version="git_revision:1558731607cb2aef361d02be9973d4e374475254"
+             version="git_revision:e518235aca345ad5dd708dd26c632e06122ffb09"
              path="buildtools/{{.OS}}-{{.Arch}}/clang"/>
     <!--   Go -->
     <package name="fuchsia/go/${platform}"
@@ -89,7 +89,7 @@
     <!-- Packages for Garnet -->
     <!--   LLVM libraries -->
     <package name="fuchsia/lib/llvm/${platform}"
-             version="git_revision:fbcdc2beee9478261b95b162034c3c7582d1413e"
+             version="git_revision:65038515ee4465d20103b2c32b337a76a2c63b53"
              path="garnet/third_party/llvm"/>
     <!--   Chromium media test data -->
     <package name="fuchsia/test_data/third_party/chromium_media_test_data"
