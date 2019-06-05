@@ -47,7 +47,7 @@
              path="buildtools/{{.OS}}-{{.Arch}}/clang"/>
     <!--   Go -->
     <package name="fuchsia/go/${platform}"
-      version="git_revision:a8a334447e2cc4942b0c2780e5efb80d4385bafe"
+             version="git_revision:b8bd7d94a2ae6c80ab8b6ed5900d3eeba8a777c3"
              path="buildtools/{{.OS}}-{{.Arch}}/go"/>
     <!--   Rust -->
     <package name="fuchsia/rust/${platform}"
