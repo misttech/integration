@@ -13,12 +13,10 @@ build: <
   product: "products/bringup.gni"
   run_tests: true
   target: "x64"
-  variants: "gcc"
-  variants: "host_asan"
+  variants: "clang"
 >
 test: <
   device_type: "QEMU"
   pool: "fuchsia.tests"
   timeout_secs: 1800
 >
-gcs_bucket: "fuchsia-build"

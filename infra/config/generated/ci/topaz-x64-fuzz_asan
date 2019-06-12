@@ -8,17 +8,16 @@ checkout: <
 >
 build: <
   build_type: "debug"
-  board: "boards/x64.gni"
-  packages: "//bundles/buildbot:bringup"
-  product: "products/bringup.gni"
-  run_tests: true
+  board: "topaz/boards/x64.gni"
+  packages: "//topaz/bundles:buildbot"
+  product: "products/core.gni"
   target: "x64"
-  variants: "gcc"
-  variants: "host_asan"
+  variants: "{variant=\"asan-fuzzer\" target_type=[\"fuzzed_executable\"]}"
 >
 test: <
   device_type: "QEMU"
+  pave: true
   pool: "fuchsia.tests"
-  timeout_secs: 1800
+  timeout_secs: 2400
 >
 gcs_bucket: "fuchsia-build"

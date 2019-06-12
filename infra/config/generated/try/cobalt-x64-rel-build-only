@@ -7,18 +7,16 @@ checkout: <
   remote: "https://fuchsia.googlesource.com/integration"
 >
 build: <
-  build_type: "debug"
-  board: "boards/x64.gni"
-  packages: "//bundles/buildbot:bringup"
-  product: "products/bringup.gni"
-  run_tests: true
+  build_type: "release"
+  exclude_images: true
+  packages: "//src/cobalt:tests"
+  packages: "//src/lib/cobalt:tests"
+  product: "products/core.gni"
   target: "x64"
-  variants: "gcc"
-  variants: "host_asan"
 >
 test: <
   device_type: "QEMU"
+  pave: true
   pool: "fuchsia.tests"
-  timeout_secs: 1800
+  timeout_secs: 2400
 >
-gcs_bucket: "fuchsia-build"

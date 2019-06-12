@@ -8,17 +8,17 @@ checkout: <
 >
 build: <
   build_type: "debug"
-  board: "boards/x64.gni"
-  packages: "//bundles/buildbot:bringup"
-  product: "products/bringup.gni"
+  packages: "//bundles/buildbot:core"
+  product: "products/core.gni"
   run_tests: true
   target: "x64"
-  variants: "gcc"
   variants: "host_asan"
 >
 test: <
   device_type: "QEMU"
+  pave: true
   pool: "fuchsia.tests"
+  runtests_args: "-t cobalt_testapp_no_environment '/pkgfs/packages/*/*/test/disabled'"
   timeout_secs: 1800
 >
 gcs_bucket: "fuchsia-build"

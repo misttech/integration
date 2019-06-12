@@ -13,6 +13,7 @@ build: <
   product: "products/bringup.gni"
   run_tests: true
   target: "arm64"
+  variants: "gcc"
   variants: "host_asan"
 >
 test: <

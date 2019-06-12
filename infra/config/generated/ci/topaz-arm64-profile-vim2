@@ -8,17 +8,19 @@ checkout: <
 >
 build: <
   build_type: "debug"
-  board: "boards/x64.gni"
-  packages: "//bundles/buildbot:bringup"
-  product: "products/bringup.gni"
+  board: "topaz/boards/arm64.gni"
+  environment_tags: "vim2"
+  packages: "//topaz/bundles:buildbot"
+  product: "products/core.gni"
   run_tests: true
-  target: "x64"
-  variants: "gcc"
-  variants: "host_asan"
+  target: "arm64"
+  variants: "profile"
 >
 test: <
-  device_type: "QEMU"
+  device_type: "Khadas Vim2 Max"
+  pave: true
   pool: "fuchsia.tests"
+  test_in_shards: true
   timeout_secs: 1800
 >
 gcs_bucket: "fuchsia-build"
