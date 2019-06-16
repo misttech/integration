@@ -8,7 +8,7 @@ checkout: <
 >
 build: <
   build_type: "debug"
-  board: "boards/arm64.gni"
+  board: "boards/vim2.gni"
   environment_tags: "vim2"
   packages: "//bundles/buildbot:core"
   product: "products/core.gni"

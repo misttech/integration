@@ -8,7 +8,7 @@ checkout: <
 >
 build: <
   build_type: "debug"
-  board: "topaz/boards/arm64.gni"
+  board: "boards/vim2.gni"
   environment_tags: "vim2"
   packages: "//topaz/bundles:buildbot"
   product: "products/core.gni"
