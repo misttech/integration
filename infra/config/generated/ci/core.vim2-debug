@@ -9,11 +9,11 @@ checkout: <
 build: <
   build_type: "debug"
   board: "boards/vim2.gni"
-  environment_tags: "vim2"
-  packages: "//topaz/bundles:buildbot"
+  packages: "//bundles/buildbot:core"
   product: "products/core.gni"
   run_tests: true
   target: "arm64"
+  variants: "host_asan"
 >
 test: <
   device_type: "Khadas Vim2 Max"
@@ -22,4 +22,3 @@ test: <
   test_in_shards: true
   timeout_secs: 1800
 >
-gcs_bucket: "fuchsia-build"

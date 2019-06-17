@@ -9,11 +9,11 @@ checkout: <
 build: <
   build_type: "debug"
   board: "boards/vim2.gni"
-  environment_tags: "vim2"
-  packages: "//topaz/bundles:buildbot"
-  product: "products/core.gni"
+  packages: "//bundles/buildbot:bringup"
+  product: "products/bringup.gni"
   run_tests: true
   target: "arm64"
+  variants: "host_asan"
 >
 test: <
   device_type: "Khadas Vim2 Max"

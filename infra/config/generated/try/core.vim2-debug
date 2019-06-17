@@ -9,7 +9,6 @@ checkout: <
 build: <
   build_type: "debug"
   board: "boards/vim2.gni"
-  environment_tags: "vim2"
   packages: "//bundles/buildbot:core"
   product: "products/core.gni"
   run_tests: true
@@ -23,4 +22,3 @@ test: <
   test_in_shards: true
   timeout_secs: 1800
 >
-gcs_bucket: "fuchsia-build"
