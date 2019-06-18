@@ -18,7 +18,7 @@ test: <
   device_type: "QEMU"
   pave: true
   pool: "fuchsia.tests"
-  runtests_args: "-t cobalt_testapp_no_environment '/pkgfs/packages/*/*/test/disabled'"
+  runtests_args: "-t cobalt_testapp_for_prober_do_not_run_manually '/pkgfs/packages/*/*/test/disabled'"
   timeout_secs: 1800
 >
 gcs_bucket: "fuchsia-build"
