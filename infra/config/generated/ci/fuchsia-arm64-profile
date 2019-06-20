@@ -14,6 +14,7 @@ build: <
   run_tests: true
   target: "arm64"
   variants: "host_asan"
+  variants: "profile"
 >
 test: <
   device_type: "QEMU"
