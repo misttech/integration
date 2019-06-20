@@ -7,6 +7,7 @@ checkout: <
   remote: "https://fuchsia.googlesource.com/integration"
 >
 build: <
+  build_type: "debug"
   board: "boards/x64.gni"
   packages: "//bundles/buildbot:bringup"
   product: "products/bringup.gni"
