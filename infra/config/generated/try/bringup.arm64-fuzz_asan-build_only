@@ -11,7 +11,6 @@ build: <
   board: "boards/arm64.gni"
   packages: "//bundles/buildbot:bringup"
   product: "products/bringup.gni"
-  run_tests: true
   target: "arm64"
   variants: "host_asan"
   variants: "{variant=\"asan-fuzzer\" target_type=[\"fuzzed_executable\"]}"

@@ -11,7 +11,6 @@ build: <
   board: "boards/x64.gni"
   packages: "//bundles/buildbot:bringup"
   product: "products/bringup.gni"
-  run_tests: true
   target: "x64"
   variants: "host_asan"
   variants: "{variant=\"asan-fuzzer\" target_type=[\"fuzzed_executable\"]}"
