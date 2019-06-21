@@ -13,5 +13,6 @@ build: <
   packages: "//bundles/buildbot:bringup"
   product: "products/bringup.gni"
   target: "arm64"
+  variants: "clang"
   variants: "host_asan"
 >
