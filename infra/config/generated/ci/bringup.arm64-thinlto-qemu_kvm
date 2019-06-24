@@ -7,13 +7,14 @@ checkout: <
   remote: "https://fuchsia.googlesource.com/integration"
 >
 build: <
-  build_type: "thinlto"
+  build_type: "debug"
   board: "boards/arm64.gni"
   packages: "//bundles/buildbot:bringup"
   product: "products/bringup.gni"
   run_tests: true
   target: "arm64"
   variants: "host_asan"
+  variants: "thinlto"
 >
 test: <
   device_type: "QEMU"
