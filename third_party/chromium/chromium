@@ -3,27 +3,27 @@
   <packages>
     <!-- Chromium and web_runner amd64 / x64 implementation -->
     <package name="chromium/fuchsia/webrunner-amd64"
-        version="version:77.0.3832.0"
+        version="version:77.0.3833.0"
         path="topaz/third_party/chromium/arch/x64"/>
     <!-- Chromium and web_runner arm64 / aarch64 implementation -->
     <package name="chromium/fuchsia/webrunner-arm64"
-        version="version:77.0.3832.0"
+        version="version:77.0.3833.0"
         path="topaz/third_party/chromium/arch/arm64"/>
     <!-- Cast_runner amd64 / x64 implementation -->
     <package name="chromium/fuchsia/castrunner-amd64"
-        version="version:77.0.3832.0"
+        version="version:77.0.3833.0"
         path="topaz/third_party/cast_runner/arch/x64"/>
     <!-- cast_runner arm64 / aarch64 implementation -->
     <package name="chromium/fuchsia/castrunner-arm64"
-        version="version:77.0.3832.0"
+        version="version:77.0.3833.0"
         path="topaz/third_party/cast_runner/arch/arm64"/>
     <!-- Chromium amd64 / x64 tests -->
     <package name="chromium/fuchsia/tests-amd64"
-        version="version:77.0.3832.0"
+        version="version:77.0.3833.0"
         path="prebuilt/third_party/chromium_tests/arch/x64"/>
     <!-- Chromium arm64 / aarch64 tests -->
     <package name="chromium/fuchsia/tests-arm64"
-        version="version:77.0.3832.0"
+        version="version:77.0.3833.0"
         path="prebuilt/third_party/chromium_tests/arch/arm64"/>
     <!-- Debug symbols
     A debug symbol package is expected to contain one to many .build-id
@@ -31,11 +31,11 @@
     Download paths must be of the form //prebuilt/build_ids/<target cpu>/<name>
     -->
     <package name="chromium/fuchsia/debug-symbols-amd64"
-             version="version:77.0.3832.0"
+             version="version:77.0.3833.0"
              path="prebuilt/build_ids/x64/chromium"
              attributes="debug-symbols,debug-symbols-x64"/>
     <package name="chromium/fuchsia/debug-symbols-arm64"
-             version="version:77.0.3832.0"
+             version="version:77.0.3833.0"
              path="prebuilt/build_ids/arm64/chromium"
              attributes="debug-symbols,debug-symbols-arm64"/>
   </packages>
