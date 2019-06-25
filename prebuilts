@@ -124,6 +124,11 @@
     <package name="fuchsia/lib/libvulkan/libvulkan_goldfish/x64"
              version="git_revision:3a1626ac0622150d7cc593e9318106611a3ed904"
              path="prebuilt/third_party/libvulkan_goldfish/x64"/>
+    <!--   gRPC Web Proxy -->
+    <package name="fuchsia/third_party/grpcwebproxy/${platform}"
+             version="git_revision:c71ae8fa744867b49f83d4c128a8facb96c9c848"
+             path="prebuilt/third_party/grpcwebproxy/{{.OS}}"
+             platforms="linux-amd64,mac-amd64"/>
     <!-- Packages for Garnet Internal -->
     <!--   Ralink wlan firmware -->
     <package name="fuchsia_internal/firmware/ralink"
