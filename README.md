@@ -4,7 +4,7 @@ This repository contains Fuchsia's Global Integration manifest files.
 
 ## Making changes
 
-All changes should be made to the internal version of this repository.
+All changes should be made to the [internal version] of this repository.
 Our infrastructure automatically updates this version when the internal one
 changes.
 
@@ -28,4 +28,5 @@ $ jiri update
 
 Third party projects should have their own subdirectory in `./third_party`.
 
+[internal version]: https://goto.google.com/fuchsia-internal-integration
 [Jiri]: https://fuchsia.googlesource.com/jiri#Bootstrapping
