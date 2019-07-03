@@ -35,6 +35,20 @@
              platforms="linux-amd64,mac-amd64"
              path="prebuilt/third_party/gcc/{{.OS}}-{{.Arch}}"/>
 
+    <!-- Go
+         TODO(phosek): repo/bot link about provenance
+    -->
+    <package name="fuchsia/go/${platform}"
+             version="git_revision:662ce6dc0b7ee268941c908444bd18652346e89d"
+             path="prebuilt/third_party/go/{{.OS}}-{{.Arch}}"/>
+
+    <!-- Rust
+         TODO(phosek): repo/bot link about provenance
+    -->
+    <package name="fuchsia/rust/${platform}"
+             version="git_revision:3991285f55a4b7cd92b7ffcdc396a3023076f5cb"
+             path="prebuilt/third_party/rust/{{.OS}}-{{.Arch}}"/>
+
     <!-- sysroot trees built from public OS images
          TODO(mcgrathr): repo/bot link about provenance
          Note that while the Linux sysroot packages for different
@@ -78,6 +92,20 @@
              platforms="linux-amd64,mac-amd64"
              path="prebuilt/third_party/aemu/{{.OS}}-{{.Arch}}"/>
 
+    <!-- Breakpad
+         TODO(phosek): repo/bot link about provenance
+    -->
+    <package name="fuchsia/tools/breakpad/${os=linux}-${arch}"
+             version="git_revision:9eac2058b70615519b2c4d8c6bdbfca1bd079e39"
+             path="prebuilt/third_party/breakpad/{{.OS}}-{{.Arch}}"/>
+
+    <!-- CMake
+         TODO(phosek): repo/bot link about provenance
+    -->
+    <package name="infra/cmake/${platform}"
+             version="version:3.10.0"
+             path="prebuilt/third_party/cmake/{{.OS}}-{{.Arch}}"/>
+
     <!--
         ************************************************************
         Tools maintained by Fuchsia outside fuchsia.git
@@ -85,13 +113,34 @@
     -->
 
     <!-- Symbolizer tool from
-         https://fuchsia.googlesource.com/tools/+/{{.git_revision}}/symbolize
+         https://fuchsia.googlesource.com/tools/+/{{.git_revision}}/cmd/symbolize
          TODO(mcgrathr): bot link?
     -->
     <package name="fuchsia/tools/symbolize/${platform}"
              version="git_revision:c56ec786c73f21f64efdcc21a8b87dde71b6ab17"
              path="prebuilt/tools/symbolize/{{.OS}}-{{.Arch}}"
              platforms="linux-amd64,linux-arm64,mac-amd64"/>
+
+    <!-- dev_finder tool from
+         https://fuchsia.googlesource.com/tools/+/{{.git_revision}}/cmd/dev_finder
+    -->
+    <package name="fuchsia/tools/dev_finder/${platform}"
+             version="git_revision:356bb3fa31ba8523d527ae05990092fdb885333f"
+             path="prebuilt/tools/dev_finder/{{.OS}}-{{.Arch}}"/>
+
+    <!-- dump_breakpad_symbols tool from
+         https://fuchsia.googlesource.com/tools/+/{{.git_revision}}/cmd/dump_breakpad_symbols
+    -->
+    <package name="fuchsia/tools/dump_breakpad_symbols/${os=linux}-${arch}"
+             version="git_revision:699fade2611740d319b552ae0813b4e63816e87c"
+             path="prebuilt/tools/dump_breakpad_symbols/{{.OS}}-{{.Arch}}"/>
+
+    <!-- godepfile tool from
+         https://fuchsia.googlesource.com/tools/+/{{.git_revision}}/cmd/godepfile
+    -->
+    <package name="fuchsia/tools/godepfile/${platform}"
+             version="git_revision:6922d7833617841e853a0be52a285f6cd07a0a10"
+             path="prebuilt/tools/godepfile/{{.OS}}-{{.Arch}}"/>
 
     <!--
         ************************************************************
@@ -162,13 +211,13 @@
     <!-- Packages for build -->
     <!--   Dart -->
     <package name="fuchsia/dart-sdk/${platform}"
-      version="git_revision:b37aa3b03650c60ab47b78b2163382d889ecb5df"
-      path="prebuilt/third_party/dart/{{.OS}}-{{.Arch}}"/>
+             version="git_revision:b37aa3b03650c60ab47b78b2163382d889ecb5df"
+             path="prebuilt/third_party/dart/{{.OS}}-{{.Arch}}"/>
     <!--   Dart TODO: haowei remove this once all dart related projects no
            longer depends on "topaz/tools/prebuilt-dart-sdk/" -->
     <package name="fuchsia/dart-sdk/${platform}"
-      version="git_revision:b37aa3b03650c60ab47b78b2163382d889ecb5df"
-      path="topaz/tools/prebuilt-dart-sdk/{{.OS}}-{{.Arch}}"/>
+             version="git_revision:b37aa3b03650c60ab47b78b2163382d889ecb5df"
+             path="topaz/tools/prebuilt-dart-sdk/{{.OS}}-{{.Arch}}"/>
     <!--   Linux sysroot -->
     <package name="fuchsia/sysroot/linux-amd64"
              version="git_revision:a4aaacde9d37ccf91a0f8dc8267cb7ad5d9be283"
