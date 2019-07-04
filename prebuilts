@@ -226,13 +226,6 @@
     <package name="fuchsia/dart-sdk/${platform}"
              version="git_revision:b37aa3b03650c60ab47b78b2163382d889ecb5df"
              path="topaz/tools/prebuilt-dart-sdk/{{.OS}}-{{.Arch}}"/>
-    <!--   Linux sysroot -->
-    <package name="fuchsia/sysroot/linux-amd64"
-             version="git_revision:a4aaacde9d37ccf91a0f8dc8267cb7ad5d9be283"
-             path="build/third_party/sysroot/linux-x64"/>
-    <package name="fuchsia/sysroot/linux-arm64"
-             version="git_revision:a4aaacde9d37ccf91a0f8dc8267cb7ad5d9be283"
-             path="build/third_party/sysroot/linux-arm64"/>
     <!--   .build-id tool -->
     <package name="fuchsia/tools/buildidtool/${platform}"
              version="git_revision:699fade2611740d319b552ae0813b4e63816e87c"
