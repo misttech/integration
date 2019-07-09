@@ -16,7 +16,6 @@ build: <
   variants: "host_asan"
 >
 test: <
-  device_type: "Khadas Vim2 Max"
   pave: true
   pool: "fuchsia.tests"
   test_in_shards: true

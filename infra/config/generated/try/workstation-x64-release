@@ -16,6 +16,7 @@ build: <
   variants: "host_asan"
 >
 test: <
+  pave: true
   pool: "fuchsia.tests"
   test_in_shards: true
   timeout_secs: 1800

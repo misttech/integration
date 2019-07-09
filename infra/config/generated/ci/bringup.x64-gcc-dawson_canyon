@@ -13,8 +13,8 @@ build: <
   product: "products/bringup.gni"
   run_tests: true
   target: "x64"
-  variants: "host_asan"
   variants: "gcc"
+  variants: "host_asan"
 >
 test: <
   device_type: "Intel NUC Kit NUC7i5DNHE"

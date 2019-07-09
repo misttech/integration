@@ -15,7 +15,6 @@ build: <
   target: "x64"
 >
 test: <
-  device_type: "QEMU"
   pave: true
   pool: "fuchsia.tests"
   test_in_shards: true

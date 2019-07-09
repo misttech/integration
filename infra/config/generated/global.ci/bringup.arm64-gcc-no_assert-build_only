@@ -13,7 +13,7 @@ build: <
   packages: "//bundles/buildbot:bringup"
   product: "products/bringup.gni"
   target: "arm64"
-  variants: "host_asan"
   variants: "gcc"
+  variants: "host_asan"
 >
 gcs_bucket: "fuchsia-build"

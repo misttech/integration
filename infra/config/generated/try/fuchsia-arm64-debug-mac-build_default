@@ -14,9 +14,3 @@ build: <
   product: "products/core.gni"
   target: "arm64"
 >
-test: <
-  device_type: "QEMU"
-  pave: true
-  pool: "fuchsia.tests"
-  timeout_secs: 2400
->

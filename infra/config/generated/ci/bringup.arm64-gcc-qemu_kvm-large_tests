@@ -13,8 +13,8 @@ build: <
   product: "products/bringup.gni"
   run_tests: true
   target: "arm64"
-  variants: "host_asan"
   variants: "gcc"
+  variants: "host_asan"
 >
 test: <
   device_type: "QEMU"
