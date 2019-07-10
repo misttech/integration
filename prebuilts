@@ -65,7 +65,7 @@
     <!-- GN from https://gn.googlesource.com/gn/ -->
     <!-- TODO(BLD-341): add linux-arm64 -->
     <package name="gn/gn/${platform}"
-             version="git_revision:2e73d712d9f386375973a6d39442dbfc0076d000"
+             version="git_revision:bf27729dcb130e609049b3e697589968bf89b0fc"
              platforms="linux-amd64,mac-amd64"
              path="prebuilt/third_party/gn/{{.OS}}-{{.Arch}}"/>
 
@@ -172,7 +172,7 @@
     <!-- Packages for buildtools -->
     <!--   GN -->
     <package name="gn/gn/${platform}"
-             version="git_revision:2e73d712d9f386375973a6d39442dbfc0076d000"
+             version="git_revision:bf27729dcb130e609049b3e697589968bf89b0fc"
              path="buildtools/{{.OS}}-{{.Arch}}"/>
     <!--   Ninja -->
     <package name="infra/ninja/${platform}"
