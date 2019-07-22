@@ -23,6 +23,8 @@ test: <
   pool: "fuchsia.tests"
   runtests_args: "-t ledger_e2e_sync '/pkgfs/packages/ledger_tests/*/test/disabled'"
   requires_secrets: true
+  swarming_expiration_timeout_secs: 600
+  swarming_io_timeout_secs: 180
   timeout_secs: 1800
 >
 gcs_bucket: "fuchsia-build"

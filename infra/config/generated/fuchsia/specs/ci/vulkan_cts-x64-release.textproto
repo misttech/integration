@@ -21,6 +21,7 @@ build: <
 test: <
   pave: true
   pool: "fuchsia.tests"
+  swarming_expiration_timeout_secs: 600
   test_in_shards: true
   timeout_secs: 50400
 >

@@ -20,5 +20,7 @@ build: <
 test: <
   device_type: "QEMU"
   pool: "fuchsia.tests"
+  swarming_expiration_timeout_secs: 600
+  swarming_io_timeout_secs: 180
   timeout_secs: 1800
 >
