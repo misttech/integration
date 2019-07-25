@@ -23,7 +23,7 @@
          TODO(mcgrathr): repo/bot link about provenance
     -->
     <package name="fuchsia/clang/${platform}"
-             version="git_revision:ef8577ef98717c1c6a66293de3b2cc0f09e8c3ff"
+             version="git_revision:f55f51b7beebb3ef89ee71a0cd750f788ba61bb8"
              platforms="linux-amd64,linux-arm64,mac-amd64"
              path="prebuilt/third_party/clang/{{.OS}}-{{.Arch}}"/>
 
@@ -200,7 +200,7 @@
              path="buildtools/{{.OS}}-{{.Arch}}/cmake"/>
     <!--   Clang -->
     <package name="fuchsia/clang/${platform}"
-             version="git_revision:ef8577ef98717c1c6a66293de3b2cc0f09e8c3ff"
+             version="git_revision:f55f51b7beebb3ef89ee71a0cd750f788ba61bb8"
              path="buildtools/{{.OS}}-{{.Arch}}/clang"/>
     <!--   Go -->
     <package name="fuchsia/go/${platform}"
