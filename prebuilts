@@ -150,6 +150,13 @@
              version="git_revision:6922d7833617841e853a0be52a285f6cd07a0a10"
              path="prebuilt/tools/godepfile/{{.OS}}-{{.Arch}}"/>
 
+    <!-- ninjatrace tool from
+         https://fuchsia.googlesource.com/tools/+/{{.git_revision}}/cmd/godepfile
+    -->
+    <package name="fuchsia/tools/ninjatrace/${platform}"
+             version="git_revision:69282376d4bbdd24f2d88e24165ba6aca7a0d47e"
+             path="prebuilt/tools/ninjatrace/{{.OS}}-{{.Arch}}"/>
+
     <!--
         ************************************************************
         Tools maintained in fuchsia.git itself.
