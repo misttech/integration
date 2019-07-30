@@ -24,6 +24,7 @@ checkout: <
 gcs_bucket: ""
 test: <
   device_type: ""
+  max_shard_size: 0
   pave: true
   pool: "fuchsia.tests"
   requires_secrets: false

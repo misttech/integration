@@ -26,6 +26,7 @@ checkout: <
 gcs_bucket: ""
 test: <
   device_type: "QEMU"
+  max_shard_size: 0
   pave: false
   pool: "fuchsia.tests"
   requires_secrets: false
