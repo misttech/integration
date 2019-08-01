@@ -25,10 +25,6 @@
     <package name="chromium/fuchsia/tests-arm64"
         version="version:78.0.3871.0"
         path="prebuilt/third_party/chromium_tests/arch/arm64"/>
-    <!-- Chromedriver -->
-    <package name="chromium/fuchsia/chromedriver-linux-amd64"
-        version="version:78.0.3871.0"
-        path="prebuilt/third_party/chromedriver/{{.OS}}-{{.Arch}}"/>
     <!-- Debug symbols
     A debug symbol package is expected to contain one to many .build-id
     directories compressed and archived into .tar.bz2 files.
