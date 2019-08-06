@@ -62,6 +62,11 @@
              version="git_revision:a4aaacde9d37ccf91a0f8dc8267cb7ad5d9be283"
              path="prebuilt/third_party/sysroot/linux-arm64"/>
 
+    <!-- TODO: remove the entries above once we switch to the new sysroot -->
+    <package name="fuchsia/third_party/sysroot/linux"
+             version="git_revision:7612175ffab1371e3f8ddd71afe4633bfcb5424c"
+             path="prebuilt/third_party/sysroot/linux"/>
+
     <!-- GN from https://gn.googlesource.com/gn/ -->
     <!-- TODO(BLD-341): add linux-arm64 -->
     <package name="gn/gn/${platform}"
