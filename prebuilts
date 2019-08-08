@@ -133,8 +133,8 @@
     <!-- dump_breakpad_symbols tool from
          https://fuchsia.googlesource.com/tools/+/{{.git_revision}}/cmd/dump_breakpad_symbols
     -->
-    <package name="fuchsia/tools/dump_breakpad_symbols/${os=linux}-${arch}"
-             version="git_revision:699fade2611740d319b552ae0813b4e63816e87c"
+    <package name="fuchsia/infra/dump_breakpad_symbols/${os=linux}-${arch}"
+             version="git_revision:76afdab6dec30f87a8d08291922e7a572033d9bc"
              path="prebuilt/tools/dump_breakpad_symbols/{{.OS}}-{{.Arch}}"/>
 
     <!-- godepfile tool from
@@ -301,14 +301,14 @@
              path="prebuilt/tools/gsutil"
              version="git_revision:d85a9b53ce071e354f58766bd43257d38e7fb8e6"/>
 
-    <!-- Packages in /fuchsia/tools and /fuchsia/infra -->
-    <package name="fuchsia/tools/artifacts/${platform}"
+    <!-- Packages in /fuchsia/infra -->
+    <package name="fuchsia/infra/artifacts/${platform}"
              path="prebuilt/tools/artifacts"
-             version="git_revision:7612175ffab1371e3f8ddd71afe4633bfcb5424c"
+             version="git_revision:76afdab6dec30f87a8d08291922e7a572033d9bc"
              platforms="linux-amd64,linux-arm64,mac-amd64"/>
-    <package name="fuchsia/tools/lkgb/${platform}"
+    <package name="fuchsia/infra/lkgb/${platform}"
              path="prebuilt/tools/lkgb"
-             version="git_revision:7612175ffab1371e3f8ddd71afe4633bfcb5424c"
+             version="git_revision:76afdab6dec30f87a8d08291922e7a572033d9bc"
              platforms="linux-amd64,linux-arm64,mac-amd64"/>
     <package name="fuchsia/infra/fxicfg/${platform}"
              path="prebuilt/tools/fxicfg"
