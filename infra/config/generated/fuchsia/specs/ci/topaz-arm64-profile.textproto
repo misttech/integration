@@ -32,7 +32,7 @@ test: <
   requires_secrets: false
   runtests_args: ""
   swarming_expiration_timeout_secs: 600
-  swarming_io_timeout_secs: 180
+  swarming_io_timeout_secs: 0
   test_in_shards: true
   timeout_secs: 3600
   upload_to_catapult: false
