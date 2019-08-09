@@ -3,38 +3,35 @@
   <packages>
     <!-- Chromium and web_runner amd64 / x64 implementation -->
     <package name="chromium/fuchsia/webrunner-amd64"
-        version="version:78.0.3874.0"
-        path="topaz/third_party/chromium/arch/x64"/>
+             version="version:78.0.3874.0"
+             path="topaz/third_party/chromium/arch/x64"/>
     <!-- Chromium and web_runner arm64 / aarch64 implementation -->
     <package name="chromium/fuchsia/webrunner-arm64"
-        version="version:78.0.3874.0"
-        path="topaz/third_party/chromium/arch/arm64"/>
+             version="version:78.0.3874.0"
+             path="topaz/third_party/chromium/arch/arm64"/>
     <!-- Cast_runner amd64 / x64 implementation -->
     <package name="chromium/fuchsia/castrunner-amd64"
-        version="version:78.0.3874.0"
-        path="topaz/third_party/cast_runner/arch/x64"/>
+             version="version:78.0.3874.0"
+             path="topaz/third_party/cast_runner/arch/x64"/>
     <!-- cast_runner arm64 / aarch64 implementation -->
     <package name="chromium/fuchsia/castrunner-arm64"
-        version="version:78.0.3874.0"
-        path="topaz/third_party/cast_runner/arch/arm64"/>
+             version="version:78.0.3874.0"
+             path="topaz/third_party/cast_runner/arch/arm64"/>
     <!-- Chromium amd64 / x64 tests -->
     <package name="chromium/fuchsia/tests-amd64"
-        version="version:78.0.3874.0"
-        path="prebuilt/third_party/chromium_tests/arch/x64"/>
+             version="version:78.0.3874.0"
+             path="prebuilt/third_party/chromium_tests/arch/x64"/>
     <!-- Chromium arm64 / aarch64 tests -->
     <package name="chromium/fuchsia/tests-arm64"
-        version="version:78.0.3874.0"
-        path="prebuilt/third_party/chromium_tests/arch/arm64"/>
-    <!-- Chromedriver for Linux
-    TODO(crbug.com/990196): When the package is renamed, this should be spelled
-    more platform-agnostically as "chromium/fuchsia/chromedriver/${platform}".
-
+             version="version:78.0.3874.0"
+             path="prebuilt/third_party/chromium_tests/arch/arm64"/>
+    <!-- Chromedriver
     TODO(IN-1321): The restriction to linux only is temporary; mac is
     not currently supported.  -->
-    <package name="chromium/fuchsia/chromedriver-linux-amd64"
-         version="version:78.0.3874.0"
-         platforms="linux-amd64"
-         path="prebuilt/third_party/chromedriver/{{.OS}}-{{.Arch}}"/>
+    <package name="chromium/fuchsia/chromedriver/${platform}"
+             version="version:78.0.3877.0"
+             platforms="linux-amd64"
+             path="prebuilt/third_party/chromedriver/{{.OS}}-{{.Arch}}"/>
     <!-- Debug symbols
     A debug symbol package is expected to contain one to many .build-id
     directories compressed and archived into .tar.bz2 files.
