@@ -40,10 +40,10 @@
     <package name="chromium/fuchsia/debug-symbols-amd64"
              version="version:78.0.3878.0"
              path="prebuilt/build_ids/x64/chromium"
-             attributes="debug-symbols,debug-symbols-x64"/>
+             attributes="debug-symbols,debug-symbols-x64,debug-symbols-chromium"/>
     <package name="chromium/fuchsia/debug-symbols-arm64"
              version="version:78.0.3878.0"
              path="prebuilt/build_ids/arm64/chromium"
-             attributes="debug-symbols,debug-symbols-arm64"/>
+             attributes="debug-symbols,debug-symbols-arm64,debug-symbols-chromium"/>
   </packages>
 </manifest>
