@@ -15,7 +15,7 @@
              remote="https://dart.googlesource.com/sdk"
              gerrithost="https://dart-review.googlesource.com"
              revision="2b3336b51eda58fe049c8a8d81b7576aaa98c218"
-             flag="third_party/dart/build/config/gclient_args.gni|llvm_checkout = false|llvm_checkout = false"/>
+             flag="third_party/dart/build/config/gclient_args.gni|checkout_llvm = false|checkout_llvm = false"/>
     <project name="dart/observatory_pub_packages"
              path="third_party/dart/third_party/observatory_pub_packages"
              remote="https://dart.googlesource.com/observatory_pub_packages/"
