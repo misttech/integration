@@ -7,6 +7,7 @@ build: <
   build_type: "debug"
   debug_symbol_bucket: ""
   exclude_images: false
+  gn_args: "zircon_extra_args = { enable_fair_scheduler=false }"
   include_breakpad_symbols: false
   include_symbol_archive: false
   packages: "//bundles/buildbot:bringup"
