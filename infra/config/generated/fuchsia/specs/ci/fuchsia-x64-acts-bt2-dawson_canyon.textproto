@@ -10,7 +10,9 @@ build: <
   exclude_images: false
   include_breakpad_symbols: false
   include_symbol_archive: false
-  packages: "//bundles/buildbot:core"
+  packages: "//garnet/packages/tools:sl4f"
+  packages: "//garnet/packages:garnet"
+  packages: "//garnet/tests/acts_tests"
   product: "products/core.gni"
   run_tests: true
   target: "x64"
