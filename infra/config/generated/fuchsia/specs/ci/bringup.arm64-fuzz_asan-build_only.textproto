@@ -3,7 +3,7 @@
 # Do not edit manually
 
 build: <
-  board: "boards/arm64.gni"
+  board: "boards/qemu-arm64.gni"
   build_type: "debug"
   debug_symbol_bucket: ""
   exclude_images: false
