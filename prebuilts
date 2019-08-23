@@ -252,6 +252,10 @@
     <package name="fuchsia/firmware/wlan/intel/iwlwifi"
              version="git_revision:260cb35b11a968e7896f911565b75e411636ad69"
              path="prebuilt/connectivity/wlan/firmware/intel/iwlwifi"/>
+    <!--   Mediatek wlan firmware -->
+    <package name="fuchsia_internal/firmware/wlan/mediatek/mt7668"
+             version="git_revision:e5f55786be98900bc8efc1e138864e60230b8c60"
+             path="src/connectivity/wlan/drivers/third_party/mediatek/mt7668-wifi-mod/firmware"/>
     <!--   Amlogic video decoder firmware -->
     <package name="fuchsia_internal/firmware/amlogic-video"
              version="21de4e7661973554287f571d3a0affb72b62283b"
