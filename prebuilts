@@ -172,12 +172,12 @@
     <!-- Packages for build -->
     <!--   Dart -->
     <package name="fuchsia/dart-sdk/${platform}"
-             version="git_revision:f17d0563fa181092f6a4e0855d1a9b7164d31eb2"
+             version="git_revision:2bc0f49c00a9537121154d858604934ec04477b6"
              path="prebuilt/third_party/dart/{{.OS}}-{{.Arch}}"/>
     <!--   Dart TODO: haowei remove this once all dart related projects no
            longer depends on "topaz/tools/prebuilt-dart-sdk/" -->
     <package name="fuchsia/dart-sdk/${platform}"
-             version="git_revision:f17d0563fa181092f6a4e0855d1a9b7164d31eb2"
+             version="git_revision:2bc0f49c00a9537121154d858604934ec04477b6"
              path="topaz/tools/prebuilt-dart-sdk/{{.OS}}-{{.Arch}}"/>
 
     <!-- Packages for Garnet -->
