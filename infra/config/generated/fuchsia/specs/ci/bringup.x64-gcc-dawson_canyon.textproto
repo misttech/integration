@@ -26,6 +26,7 @@ checkout: <
 gcs_bucket: "fuchsia-build"
 test: <
   device_type: "Intel NUC Kit NUC7i5DNHE"
+  max_attempts: 1
   max_shard_size: 200
   pave: false
   pool: "fuchsia.tests"
