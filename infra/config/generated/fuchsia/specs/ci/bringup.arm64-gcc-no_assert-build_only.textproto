@@ -6,6 +6,7 @@ build: <
   board: "boards/arm64.gni"
   build_type: "debug"
   debug_symbol_bucket: ""
+  enforce_size_limits: false
   exclude_images: false
   gn_args: "zircon_extra_args = { assert_level=0 }"
   include_breakpad_symbols: false

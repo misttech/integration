@@ -6,6 +6,7 @@ build: <
   board: "boards/x64.gni"
   build_type: "debug"
   debug_symbol_bucket: ""
+  enforce_size_limits: false
   exclude_images: false
   gn_args: "zircon_extra_args = { enable_lock_dep=true }"
   include_breakpad_symbols: false

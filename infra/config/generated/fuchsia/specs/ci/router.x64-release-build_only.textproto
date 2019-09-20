@@ -6,6 +6,7 @@ build: <
   board: "boards/x64.gni"
   build_type: "release"
   debug_symbol_bucket: ""
+  enforce_size_limits: true
   exclude_images: false
   include_breakpad_symbols: false
   include_symbol_archive: false
