@@ -22,6 +22,7 @@ checkout: <
   remote: "https://fuchsia.googlesource.com/integration"
   use_snapshot: false
 >
+debug_symbol_gcs_bucket: ""
 gcs_bucket: "fuchsia-build"
 test: <
   device_type: ""
