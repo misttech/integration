@@ -5,7 +5,6 @@
 build: <
   board: "boards/arm64.gni"
   build_type: "debug"
-  debug_symbol_bucket: "fuchsia-debug-symbols-shortlived"
   enforce_size_limits: false
   exclude_images: false
   include_breakpad_symbols: false

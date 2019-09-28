@@ -5,7 +5,6 @@
 build: <
   board: "boards/vim2.gni"
   build_type: "release"
-  debug_symbol_bucket: ""
   enforce_size_limits: false
   exclude_images: false
   gn_args: "zircon_extra_args = { enable_fair_scheduler=false }"
