@@ -104,12 +104,6 @@
              version="version:3.10.0"
              path="prebuilt/third_party/cmake/{{.OS}}-{{.Arch}}"/>
 
-    <!-- Tesseract OCR for e2e-longevity tests -->
-    <package name="fuchsia/third_party/tesseract-ocr/tesseract/linux-amd64"
-             version="version:4.0.0-2"
-             path="prebuilt/third_party/tesseract-ocr/tesseract/linux-amd64"/>
-
-
     <!--
         ************************************************************
         Tools maintained by Fuchsia outside fuchsia.git
