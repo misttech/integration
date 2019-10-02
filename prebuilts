@@ -109,6 +109,13 @@
              version="version:4.0.0-2-copy"
              path="prebuilt/third_party/tesseract-ocr/tesseract/linux-amd64"/>
 
+     <!-- YAPF for formatting python code
+          Please keep in sync with tricium-recipes builder properties.
+     -->
+     <package name="infra/tools/yapf"
+              version="git_revision:2155d0d436bf346333810cc352791063e1dda952"
+              path="prebuilt/third_party/yapf"/>
+
     <!--
         ************************************************************
         Tools maintained by Fuchsia outside fuchsia.git
