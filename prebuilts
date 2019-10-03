@@ -70,7 +70,7 @@
     <!-- Ninja from https://ninja-build.org/ -->
     <!-- TODO(BLD-341): add linux-arm64 -->
     <package name="infra/ninja/${platform}"
-             version="version:1.8.2"
+             version="version:1.9.0"
              platforms="linux-amd64,mac-amd64"
              path="prebuilt/third_party/ninja/{{.OS}}-{{.Arch}}"/>
 
