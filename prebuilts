@@ -130,43 +130,6 @@
              path="prebuilt/tools/buildidtool/{{.OS}}-{{.Arch}}"
              platforms="linux-amd64,linux-arm64,mac-amd64"/>
 
-    <!-- Symbolizer tool from
-         https://fuchsia.googlesource.com/tools/+/{{.git_revision}}/cmd/symbolize
-         TODO(mcgrathr): bot link?
-    -->
-    <package name="fuchsia/tools/symbolize/${platform}"
-             version="git_revision:c56ec786c73f21f64efdcc21a8b87dde71b6ab17"
-             path="prebuilt/tools/symbolize/{{.OS}}-{{.Arch}}"
-             platforms="linux-amd64,linux-arm64,mac-amd64"/>
-
-    <!-- dev_finder tool from
-         https://fuchsia.googlesource.com/tools/+/{{.git_revision}}/cmd/dev_finder
-    -->
-    <package name="fuchsia/tools/dev_finder/${platform}"
-             version="git_revision:356bb3fa31ba8523d527ae05990092fdb885333f"
-             path="prebuilt/tools/dev_finder/{{.OS}}-{{.Arch}}"/>
-
-    <!-- dump_breakpad_symbols tool from
-         https://fuchsia.googlesource.com/tools/+/{{.git_revision}}/cmd/dump_breakpad_symbols
-    -->
-    <package name="fuchsia/infra/dump_breakpad_symbols/${os=linux}-${arch}"
-             version="git_revision:c91fcef7edddecf5e607242775fe1db675131e44"
-             path="prebuilt/tools/dump_breakpad_symbols/{{.OS}}-{{.Arch}}"/>
-
-    <!-- godepfile tool from
-         https://fuchsia.googlesource.com/tools/+/{{.git_revision}}/cmd/godepfile
-    -->
-    <package name="fuchsia/tools/godepfile/${platform}"
-             version="git_revision:6922d7833617841e853a0be52a285f6cd07a0a10"
-             path="prebuilt/tools/godepfile/{{.OS}}-{{.Arch}}"/>
-
-    <!-- ninjatrace tool from
-         https://fuchsia.googlesource.com/tools/+/{{.git_revision}}/cmd/godepfile
-    -->
-    <package name="fuchsia/tools/ninjatrace/${platform}"
-             version="git_revision:69282376d4bbdd24f2d88e24165ba6aca7a0d47e"
-             path="prebuilt/tools/ninjatrace/{{.OS}}-{{.Arch}}"/>
-
     <!--
         ************************************************************
         Tools maintained in fuchsia.git itself.
