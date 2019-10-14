@@ -116,6 +116,12 @@
               version="git_revision:2155d0d436bf346333810cc352791063e1dda952"
               path="prebuilt/third_party/yapf"/>
 
+     <!-- VPython interpreter, needed for running YAPF (and possibly more).
+     -->
+     <package name="infra/tools/luci/vpython/${platform}"
+              version="git_revision:2155d0d436bf346333810cc352791063e1dda952"
+              path="prebuilt/third_party/vpython"/>
+
     <!--
         ************************************************************
         Tools maintained by Fuchsia outside fuchsia.git
