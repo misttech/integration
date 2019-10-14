@@ -12,6 +12,7 @@ build: <
   include_symbol_archive: false
   product: "products/router.gni"
   run_tests: false
+  sdk_subbuild: false
   target: "x64"
   variants: "host_asan"
 >

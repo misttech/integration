@@ -13,6 +13,7 @@ build: <
   packages: "//bundles/buildbot:bringup"
   product: "products/bringup.gni"
   run_tests: false
+  sdk_subbuild: false
   target: "x64"
   variants: "{variant=\"asan-fuzzer\" target_type=[\"fuzzed_executable\"]}"
   variants: "host_asan"

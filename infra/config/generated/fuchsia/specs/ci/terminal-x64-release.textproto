@@ -13,6 +13,7 @@ build: <
   packages: "//bundles/buildbot:terminal"
   product: "products/terminal.gni"
   run_tests: true
+  sdk_subbuild: false
   target: "x64"
   variants: "host_asan"
 >

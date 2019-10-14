@@ -13,6 +13,7 @@ build: <
   packages: "//bundles/buildbot:bringup"
   product: "products/bringup.gni"
   run_tests: true
+  sdk_subbuild: false
   target: "arm64"
   variants: "host_asan"
   variants: "lto"

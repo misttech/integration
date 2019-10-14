@@ -14,6 +14,7 @@ build: <
   packages: "//bundles/buildbot:workstation"
   product: "products/workstation.gni"
   run_tests: true
+  sdk_subbuild: false
   target: "x64"
 >
 checkout: <
