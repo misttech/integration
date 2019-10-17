@@ -196,7 +196,7 @@
              path="prebuilt/third_party/fonts"/>
     <!--   Skia Gold -->
     <package name="skia/tools/goldctl/${platform}"
-             version="git_revision:d5e846db8cb15766a97bb0a864e7a1fcdd5d0191"
+             version="git_revision:9a72ede8cf6cf4bc9d9a231619bc8bdaad5c668e"
              path="prebuilt/third_party/goldctl"/>
     <!--   Vulkan SDK (for host builds) -->
     <package name="fuchsia/third_party/vulkansdk/${platform}"
@@ -293,11 +293,11 @@
     <!-- Packages in /infra/tools/ -->
     <package name="infra/tools/bb/${platform}"
              path="prebuilt/tools/buildbucket"
-             version="git_revision:d5e846db8cb15766a97bb0a864e7a1fcdd5d0191"
+             version="git_revision:9a72ede8cf6cf4bc9d9a231619bc8bdaad5c668e"
              platforms="linux-amd64,mac-amd64"/>
     <package name="infra/tools/luci/gsutil/${platform}"
              path="prebuilt/tools/gsutil"
-             version="git_revision:d5e846db8cb15766a97bb0a864e7a1fcdd5d0191"/>
+             version="git_revision:9a72ede8cf6cf4bc9d9a231619bc8bdaad5c668e"/>
 
     <!-- Packages in /fuchsia/infra -->
     <package name="fuchsia/infra/artifacts/${platform}"
