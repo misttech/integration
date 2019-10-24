@@ -169,8 +169,8 @@
            TODO(kaushikiska): fix the internal structure of the Flutter CIPD
            package and change this path to prebuilt/third_party/flutter -->
     <package name="flutter/fuchsia"
-	     version="git_revision:eec8d5e733d046950ab106c5ee687a3bbe493315_fixed"
-	     path="prebuilt/third_party"/>
+             version="git_revision:eec8d5e733d046950ab106c5ee687a3bbe493315_fixed"
+             path="prebuilt/third_party"/>
 
     <!-- Packages for Garnet -->
     <!--   LLVM libraries -->
@@ -258,6 +258,15 @@
     <package name="fuchsia_internal/firmware/imgtec/imgtec-rgx-mt8167"
              version="git_revision:a663911de2166be76f0044b828c6b375cf64fecb"
              path="garnet/drivers/gpu/msd-img-rgx/mtk/firmware"
+             internal="true"/>
+
+    <!--   GUI Tools -->
+    <!-- Add with `jiri init -fetch-optional=fuchsia_devtools` -->
+    <package name="fuchsia_internal/gui_tools/fuchsia_devtools/${platform}"
+             platforms="linux-amd64"
+             version="IJRceiaT_DnuIvayzaBqb7MBwlhGCXklT2m_Rg_7bjEC"
+             path="prebuilt/gui_tools"
+             attributes="fuchsia_devtools"
              internal="true"/>
 
     <!--   Linux guest kernel images for x64 -->
