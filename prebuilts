@@ -153,12 +153,12 @@
     <!-- Packages for build -->
     <!--   Dart -->
     <package name="fuchsia/dart-sdk/${platform}"
-             version="git_revision:ae251757a9ed1a7e5d033c34ae63bb720f841a17"
+             version="git_revision:cccb9ffb2ab3268389a08d20261861115864156c"
              path="prebuilt/third_party/dart/{{.OS}}-{{.Arch}}"/>
     <!--   Dart TODO: haowei remove this once all dart related projects no
            longer depends on "topaz/tools/prebuilt-dart-sdk/" -->
     <package name="fuchsia/dart-sdk/${platform}"
-             version="git_revision:ae251757a9ed1a7e5d033c34ae63bb720f841a17"
+             version="git_revision:cccb9ffb2ab3268389a08d20261861115864156c"
              path="topaz/tools/prebuilt-dart-sdk/{{.OS}}-{{.Arch}}"/>
 
     <!--   Flutter -->
@@ -169,7 +169,7 @@
            TODO(kaushikiska): fix the internal structure of the Flutter CIPD
            package and change this path to prebuilt/third_party/flutter -->
     <package name="flutter/fuchsia"
-             version="git_revision:eec8d5e733d046950ab106c5ee687a3bbe493315_fixed"
+	     version="git_revision:00e5f3d58a28b83902ef57d29a5195588230e924"
              path="prebuilt/third_party"/>
 
     <!-- Packages for Garnet -->
