@@ -146,7 +146,7 @@
 
     <!-- See //tools/banjo/banjo/README.md -->
     <package name="fuchsia/tools/banjo_bin/${platform}"
-      version="git_revision:ce6340fee0fd651b1894b97b25dff68628eccf61"
+             version="git_revision:ce6340fee0fd651b1894b97b25dff68628eccf61"
              path="prebuilt/tools/banjo/{{.OS}}-{{.Arch}}"
              platforms="linux-amd64,mac-amd64"/>
 
@@ -172,7 +172,7 @@
 	     version="git_revision:419f5d594afca0f66fd55e696c62e8bd107535da"
              path="prebuilt/third_party"/>
 
-    <!-- Packages for Garnet -->
+    <!-- General packages -->
     <!--   LLVM libraries -->
     <package name="fuchsia/lib/llvm/${platform}"
              version="git_revision:65038515ee4465d20103b2c32b337a76a2c63b53,1"
@@ -185,8 +185,12 @@
     <package name="fuchsia/test_data/third_party/chromium_media_test_data_downstream"
              version="6c913dc0cd4d4812e1fefd3e58de7660805a380b"
              path="garnet/test_data/media/third_party/chromium_media_test_data_downstream"/>
-
-    <!--   Prebuilt ffmpeg library -->
+    <!--   Fastboot -->
+    <package name="fuchsia/third_party/fastboot/${platform}"
+             version="git_revision:5cb5c1ad7211beccaf36b2f93dc25caa18fb20bb"
+             path="prebuilt/third_party/fastboot"
+             platforms="linux-amd64,mac-amd64"/>
+    <!--   FFMPEG library -->
     <package name="fuchsia/lib/ffmpeg/fuchsia"
              version="git_revision:f9da0c3b9469f50ac74f7389df0ebc2cfeb90eec"
              path="prebuilt/third_party/ffmpeg"/>
@@ -213,7 +217,7 @@
              path="prebuilt/third_party/grpcwebproxy/{{.OS}}-{{.Arch}}"
              platforms="linux-amd64,mac-amd64"/>
 
-    <!-- Packages for Garnet Internal -->
+    <!-- Internal firmware -->
     <!--   Ralink wlan firmware -->
     <package name="fuchsia_internal/firmware/ralink"
              version="git_revision:12987cadb37de28719990dfc2397ec6d09e10566"
