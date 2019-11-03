@@ -37,7 +37,7 @@ test: <
   pool: "fuchsia.tests"
   requires_secrets: true
   runtests_args: "-t ledger_e2e_sync '/pkgfs/packages/ledger_tests/*/test/disabled'"
-  swarming_expiration_timeout_secs: 90000
+  swarming_expiration_timeout_secs: 18000
   swarming_io_timeout_secs: 300
   test_in_shards: false
   timeout_secs: 1800
