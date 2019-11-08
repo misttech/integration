@@ -29,7 +29,7 @@ debug_symbol_gcs_bucket: "fuchsia-debug-symbols-shortlived"
 gcs_bucket: ""
 test: <
   device_type: "QEMU"
-  max_shard_size: 100
+  max_shard_size: 200
   pave: false
   per_test_timeout_secs: 420
   pool: "fuchsia.tests"
