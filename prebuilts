@@ -153,12 +153,12 @@
     <!-- Packages for build -->
     <!--   Dart -->
     <package name="fuchsia/dart-sdk/${platform}"
-             version="git_revision:e68ca9b652acdb642668a6acb5f630d5be6c03da"
+             version="git_revision:fa4379946109467c8a48f20f19d83d7c72968a3e"
              path="prebuilt/third_party/dart/{{.OS}}-{{.Arch}}"/>
     <!--   Dart TODO: haowei remove this once all dart related projects no
            longer depends on "topaz/tools/prebuilt-dart-sdk/" -->
     <package name="fuchsia/dart-sdk/${platform}"
-             version="git_revision:e68ca9b652acdb642668a6acb5f630d5be6c03da"
+             version="git_revision:fa4379946109467c8a48f20f19d83d7c72968a3e"
              path="topaz/tools/prebuilt-dart-sdk/{{.OS}}-{{.Arch}}"/>
 
     <!--   Flutter -->
@@ -169,7 +169,7 @@
            TODO(kaushikiska): fix the internal structure of the Flutter CIPD
            package and change this path to prebuilt/third_party/flutter -->
     <package name="flutter/fuchsia"
-             version="git_revision:6a1f093398c6dc575a7a85ad66d5851316b0c2cb"
+             version="git_revision:2f69e38160a301f4070a8be25dcb66120e4548ac"
              path="prebuilt/third_party"/>
     <!-- Flutter Debug symbols -->
     <package name="flutter/fuchsia-debug-symbols-x64"
