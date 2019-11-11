@@ -1,17 +1,5 @@
 [
     {
-        "package": "",
-        "path": "prebuilt/third_party/chromedriver/{{.OS}}-{{.Arch}}",
-        "version": "",
-        "instance_id": ""
-    },
-    {
-        "package": "",
-        "path": "prebuilt/third_party/chromedriver_latest/{{.OS}}-{{.Arch}}",
-        "version": "",
-        "instance_id": ""
-    },
-    {
         "package": "chromium/fuchsia/castrunner-amd64",
         "path": "topaz/third_party/cast_runner/arch/x64",
         "version": "version:80.0.3963.0",
@@ -37,11 +25,13 @@
     },
     {
         "package": "chromium/fuchsia/chromedriver/linux-amd64",
+        "path": "prebuilt/third_party/chromedriver/{{.OS}}-{{.Arch}}",
         "version": "version:80.0.3963.0",
         "instance_id": "V0aSqrckCETCih57sHuaSwVKIRZTLjT1o2GkyTckTnwC"
     },
     {
         "package": "chromium/fuchsia/chromedriver/linux-amd64",
+        "path": "prebuilt/third_party/chromedriver_latest/{{.OS}}-{{.Arch}}",
         "version": "version:80.0.3964.0",
         "instance_id": "MDjaE_dukK7Vcz3iwN1zX7PuYB_NmKIR7WXDgS4Dmx0C"
     },
