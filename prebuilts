@@ -22,8 +22,8 @@
     <!-- Clang
          TODO(mcgrathr): repo/bot link about provenance
     -->
-    <package name="fuchsia/clang/${platform}"
-             version="git_revision:ba2c62553109e324a203aa46c2217cf5f28ab694"
+    <package name="fuchsia/third_party/clang/${platform}"
+             version="git_revision:52ea308f705af0a8f5d55e036a64fd2b5e4c2ee6"
              platforms="linux-amd64,mac-amd64"
              path="prebuilt/third_party/clang/{{.OS}}-{{.Arch}}"/>
     <!-- Dachsiaboard -->
