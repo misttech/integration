@@ -1,5 +1,17 @@
 [
     {
+        "package": "",
+        "path": "prebuilt/third_party/chromedriver/{{.OS}}-{{.Arch}}",
+        "version": "",
+        "instance_id": ""
+    },
+    {
+        "package": "",
+        "path": "prebuilt/third_party/chromedriver_latest/{{.OS}}-{{.Arch}}",
+        "version": "",
+        "instance_id": ""
+    },
+    {
         "package": "chromium/fuchsia/castrunner-amd64",
         "path": "topaz/third_party/cast_runner/arch/x64",
         "version": "version:80.0.3963.0",
@@ -373,9 +385,19 @@
         "instance_id": "8_fT2sHsWZD4I1vx9cjzpUFPSr8sYX7h7NOox4j8-o8C"
     },
     {
+        "package": "fuchsia_internal/firmware/bluetooth/bcm4345c4",
+        "version": "git_revision:1e41b7d6f96f09558a36a636de2819068cd71ea0",
+        "instance_id": "470651a089ebdd93c9df43e40bd80bb57a0c7f89"
+    },
+    {
         "package": "fuchsia_internal/firmware/bluetooth/intel",
         "version": "git_revision:44d4fca9922a252a0bd81f6307bcc072a78da54a",
         "instance_id": "Z3gsxyfEPOVvNbeIJkXoUHJfr5QK2sL-JfPLRicPEbkC"
+    },
+    {
+        "package": "fuchsia_internal/firmware/bluetooth/mt7668",
+        "version": "git_revision:ed8b2eb6b877e93afb8a9f9281b93a7b91df0f09",
+        "instance_id": "O-_ROaTk675thCdQAi6es_gv_znD5zYRBul6tqdKc9cC"
     },
     {
         "package": "fuchsia_internal/firmware/bluetooth/qualcomm_atheros",
