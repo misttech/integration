@@ -238,12 +238,32 @@
              version="version:12"
              path="src/connectivity/wlan/drivers/third_party/broadcom/brcmfmac/firmware"
              internal="true"/>
+    <!--   Mediatek bluetooth firmware -->
+    <package name="fuchsia_internal/firmware/bluetooth/mt7668"
+             version="git_revision:ed8b2eb6b877e93afb8a9f9281b93a7b91df0f09"
+             path="src/connectivity/bluetooth/hci/vendor/mediatek/firmware"
+             internal="true"/>
+    <!--   Broadcom bluetooth firmware -->
+    <package name="fuchsia_internal/firmware/bluetooth/bcm4345c4"
+             version="git_revision:1e41b7d6f96f09558a36a636de2819068cd71ea0"
+             path="src/connectivity/bluetooth/hci/vendor/broadcom/firmware"
+             internal="true"/>
     <!--   Intel bluetooth firmware -->
+    <package name="fuchsia_internal/firmware/bluetooth/intel"
+             version="git_revision:44d4fca9922a252a0bd81f6307bcc072a78da54a"
+             path="src/connectivity/bluetooth/hci/vendor/intel/firmware"
+             internal="true"/>
+    <!--   Atheros bluetooth firmware -->
+    <package name="fuchsia_internal/firmware/bluetooth/qualcomm_atheros"
+             version="git_revision:7b5835fd37630d18ac0c755329172f6a17c1af29"
+             path="src/connectivity/bluetooth/hci/vendor/atheros/firmware"
+             internal="true"/>
+    <!--   Intel bluetooth firmware old location -->
     <package name="fuchsia_internal/firmware/bluetooth/intel"
              version="git_revision:44d4fca9922a252a0bd81f6307bcc072a78da54a"
              path="src/connectivity/bluetooth/hci/intel/firmware"
              internal="true"/>
-    <!--   Atheros bluetooth firmware -->
+    <!--   Atheros bluetooth firmware old location -->
     <package name="fuchsia_internal/firmware/bluetooth/qualcomm_atheros"
              version="git_revision:7b5835fd37630d18ac0c755329172f6a17c1af29"
              path="src/connectivity/bluetooth/hci/atheros/firmware"
