@@ -28,7 +28,7 @@ checkout: <
   use_snapshot: false
 >
 debug_symbol_gcs_bucket: "fuchsia-debug-symbols-shortlived"
-gcs_bucket: "fuchsia-build"
+gcs_bucket: ""
 test: <
   device_type: "Intel NUC Kit NUC7i5DNHE"
   max_shard_size: 200
