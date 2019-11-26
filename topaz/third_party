@@ -4,7 +4,6 @@
     <localimport file="dart"/>
     <localimport file="flutter"/>
     <localimport file="minimal"/>
-    <localimport file="skia"/>
     <localimport file="../third_party/chromium/chromium"/>
     <localimport file="../third_party/chromium/chromium_latest"/>
   </imports>
@@ -14,11 +13,6 @@
              remote="https://fuchsia.googlesource.com/third_party/benchmark"
              gerrithost="https://fuchsia-review.googlesource.com"
              revision="21f1eb3fe269ea43eba862bf6b699cde46587ade"/>
-    <project name="third_party/libjpeg-turbo"
-             path="third_party/libjpeg-turbo"
-             remote="https://fuchsia.googlesource.com/third_party/libjpeg-turbo"
-             gerrithost="https://fuchsia-review.googlesource.com"
-             revision="0fb821f3b2e570b2783a94ccd9a2fb1f4916ae9f"/>
     <project  name="third_party/tonic"
              path="third_party/tonic"
              remote="https://fuchsia.googlesource.com/tonic"
