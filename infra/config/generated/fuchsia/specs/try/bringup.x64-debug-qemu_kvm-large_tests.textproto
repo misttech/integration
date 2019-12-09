@@ -30,9 +30,11 @@ checkout: <
 debug_symbol_gcs_bucket: "fuchsia-debug-symbols-shortlived"
 gcs_bucket: "fuchsia-build"
 test: <
+  default_service_account: "artifact-readers@fuchsia-infra.iam.gserviceaccount.com"
   device_type: "QEMU"
   max_shard_size: 200
   pave: false
+  pave_from_gcs: false
   per_test_timeout_secs: 0
   pool: "fuchsia.tests"
   requires_secrets: false
