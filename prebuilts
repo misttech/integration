@@ -221,10 +221,6 @@
     <package name="skia/tools/goldctl/${platform}"
              version="git_revision:0e90621007939b87c5c3d20d422857d6479ff070"
              path="prebuilt/third_party/goldctl"/>
-    <!--   Skia skqp -->
-    <package name="skia/fuchsia/skqp/arch/arm64"
-             version="git_revision:dc8f264f22b428f277fc6f01776a4c394fcaec86"
-             path="prebuilt/third_party/skia/skqp/arch/arm64"/>
     <!--   Vulkan SDK (for host builds) -->
     <package name="fuchsia/third_party/vulkansdk/${platform}"
              version="version:1.1.121.1"
