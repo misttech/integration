@@ -143,6 +143,13 @@
              path="prebuilt/tools/buildidtool/{{.OS}}-{{.Arch}}"
              platforms="linux-amd64,linux-arm64,mac-amd64"/>
 
+    <!-- godepfile tool from
+         https://fuchsia.googlesource.com/tools/+/{{.git_revision}}/cmd/godepfile
+    -->
+    <package name="fuchsia/tools/godepfile/${platform}"
+             version="git_revision:6922d7833617841e853a0be52a285f6cd07a0a10"
+             path="prebuilt/tools/godepfile/{{.OS}}-{{.Arch}}"/>
+
     <!--
         ************************************************************
         Tools maintained in fuchsia.git itself.
