@@ -200,11 +200,6 @@
 
     <!-- General packages -->
     <!--   LLVM libraries -->
-    <!-- OLD LOCATION -->
-    <package name="fuchsia/lib/llvm/${platform}"
-             version="git_revision:65038515ee4465d20103b2c32b337a76a2c63b53,1"
-             path="garnet/third_party/llvm"/>
-    <!-- NEW LOCATION -->
     <package name="fuchsia/lib/llvm/${platform}"
              version="git_revision:65038515ee4465d20103b2c32b337a76a2c63b53,1"
              path="prebuilt/third_party/llvm"/>
