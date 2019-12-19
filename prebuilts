@@ -50,14 +50,14 @@
          TODO(phosek): repo/bot link about provenance
     -->
     <package name="fuchsia/rust/${platform}"
-             version="git_revision:3eeb8d4f2fbae0bb1c587d00b5abeaf938da47f4"
+             version="git_revision:c605199e89572e586a5f37bc698c48b6a10896fb"
              path="prebuilt/third_party/rust/{{.OS}}-{{.Arch}}"/>
 
     <!-- Rust
          TODO(phosek): repo/bot link about provenance
     -->
     <package name="fuchsia/rust_extra_tools/${platform}"
-             version="git_revision:3eeb8d4f2fbae0bb1c587d00b5abeaf938da47f4"
+             version="git_revision:c605199e89572e586a5f37bc698c48b6a10896fb"
              path="prebuilt/third_party/rust_extra_tools/{{.OS}}-{{.Arch}}"/>
 
     <!-- sysroot trees built from public OS images
