@@ -23,14 +23,9 @@
          TODO(mcgrathr): repo/bot link about provenance
     -->
     <package name="fuchsia/third_party/clang/${platform}"
-             version="git_revision:fc31b58eff9da4447f9f332f07de3cd07ab4b56c"
-             platforms="linux-amd64,mac-amd64"
+             version="git_revision:bf03e17c570171c7a52117fe63ace89d58f328d5"
+             platforms="linux-amd64,linux-arm64,mac-amd64"
              path="prebuilt/third_party/clang/{{.OS}}-{{.Arch}}"/>
-    <!-- Dachsiaboard -->
-    <package name="fuchsia/infra/dachsiaboard"
-             version="g3-revision:dachsiaboard_fe_20191220_RC00"
-             path="prebuilt/infra/dachsiaboard"
-             attributes="dachsiaboard"/>
     <!-- GCC
          TODO(mcgrathr): repo/bot link about provenance
     -->
@@ -379,6 +374,12 @@
     <package name="fuchsia/infra/fxicfg/${platform}"
              path="prebuilt/tools/fxicfg"
              version="git_revision:0f2f42d0bf904404bad25944d86db1c9ab6c0916"/>
+    <!-- Dachsiaboard -->
+    <package name="fuchsia/infra/dachsiaboard"
+             version="g3-revision:dachsiaboard_fe_20191220_RC00"
+             path="prebuilt/infra/dachsiaboard"
+             attributes="dachsiaboard"/>
+
     <!-- debugger test data, the "large_test_data" is optional  -->
     <package name="fuchsia/test_data/debug/sample_core"
              path="prebuilt/test_data/debug/sample_core"
