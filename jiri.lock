@@ -1,48 +1,111 @@
 [
     {
         "package": "chromium/fuchsia/castrunner-amd64",
+        "path": "prebuilt/third_party/cast_runner/arch/x64",
         "version": "version:81.0.4015.0",
         "instance_id": "6sEp1CUNxImJ3fICJ4qDgH68NFaULaYA1WQ5UceQf6cC"
     },
     {
+        "package": "chromium/fuchsia/castrunner-amd64",
+        "path": "prebuilt/third_party/cast_runner_latest/arch/x64",
+        "version": "version:81.0.4016.0",
+        "instance_id": "6sEp1CUNxImJ3fICJ4qDgH68NFaULaYA1WQ5UceQf6cC"
+    },
+    {
         "package": "chromium/fuchsia/castrunner-arm64",
+        "path": "prebuilt/third_party/cast_runner/arch/arm64",
         "version": "version:81.0.4015.0",
         "instance_id": "JyEz75UdxJuQWFGnl5FmldqtPx-_ofGoJq6EJo6biw8C"
     },
     {
+        "package": "chromium/fuchsia/castrunner-arm64",
+        "path": "prebuilt/third_party/cast_runner_latest/arch/arm64",
+        "version": "version:81.0.4016.0",
+        "instance_id": "JyEz75UdxJuQWFGnl5FmldqtPx-_ofGoJq6EJo6biw8C"
+    },
+    {
         "package": "chromium/fuchsia/chromedriver/linux-amd64",
+        "path": "prebuilt/third_party/chromedriver/{{.OS}}-{{.Arch}}",
         "version": "version:81.0.4015.0",
         "instance_id": "aqfylPzzp8oQNJPKihiAf6506KwLZ9ll3mo45DyZXasC"
     },
     {
+        "package": "chromium/fuchsia/chromedriver/linux-amd64",
+        "path": "prebuilt/third_party/chromedriver_latest/{{.OS}}-{{.Arch}}",
+        "version": "version:81.0.4016.0",
+        "instance_id": "st10xV5ITw-uUuNhzfczfNm1BBtFB6DHZ8noAZdxwjsC"
+    },
+    {
         "package": "chromium/fuchsia/debug-symbols-amd64",
+        "path": "prebuilt/build_ids/x64/chromium",
         "version": "version:81.0.4015.0",
         "instance_id": "3i0v28iN8YxsWFIgrnXOi5g86XlaAQ-zOChMGVREaa8C"
     },
     {
+        "package": "chromium/fuchsia/debug-symbols-amd64",
+        "path": "prebuilt/build_ids/x64/chromium_latest",
+        "version": "version:81.0.4016.0",
+        "instance_id": "DRDd5Ttx-GPy3E5QX_subK3orwIHRQ8VAHYSq8XGc4sC"
+    },
+    {
         "package": "chromium/fuchsia/debug-symbols-arm64",
+        "path": "prebuilt/build_ids/arm64/chromium",
         "version": "version:81.0.4015.0",
         "instance_id": "1T2Qog1ki6EmhD7nX_MBoA4PBCMYW9EoDyWh54voz3QC"
     },
     {
+        "package": "chromium/fuchsia/debug-symbols-arm64",
+        "path": "prebuilt/build_ids/arm64/chromium_latest",
+        "version": "version:81.0.4016.0",
+        "instance_id": "a9zfjIuVe5rGGV8OE6trDuieWKnoQka5L4NWJ0ELMIEC"
+    },
+    {
         "package": "chromium/fuchsia/tests-amd64",
+        "path": "prebuilt/third_party/chromium_tests/arch/x64",
         "version": "version:81.0.4015.0",
         "instance_id": "Rru729xCc2jAYgL5Iq7iv9xs0kaxdJn-pAAfLkG7kN8C"
     },
     {
+        "package": "chromium/fuchsia/tests-amd64",
+        "path": "prebuilt/third_party/chromium_tests_latest/arch/x64",
+        "version": "version:81.0.4016.0",
+        "instance_id": "Vpdjd0Sb8YAEwUVc0de6AxXSkNbJtyYrihHH1ZDAvaAC"
+    },
+    {
         "package": "chromium/fuchsia/tests-arm64",
+        "path": "prebuilt/third_party/chromium_tests/arch/arm64",
         "version": "version:81.0.4015.0",
         "instance_id": "SBhbTyUyBw8PaAdC8T1Ps94xQXXU5npYQ2QAmnOZUL8C"
     },
     {
+        "package": "chromium/fuchsia/tests-arm64",
+        "path": "prebuilt/third_party/chromium_tests_latest/arch/arm64",
+        "version": "version:81.0.4016.0",
+        "instance_id": "SJuVVRg45SJjTSbN_kmGnqHG-WtDG-11zeos4NFPO7QC"
+    },
+    {
         "package": "chromium/fuchsia/webrunner-amd64",
+        "path": "prebuilt/third_party/chromium/arch/x64",
         "version": "version:81.0.4015.0",
         "instance_id": "wggbom3D6NmK5nf-sEIwkEjNTLpmBAtllHDWdYCmIx4C"
     },
     {
+        "package": "chromium/fuchsia/webrunner-amd64",
+        "path": "prebuilt/third_party/chromium_latest/arch/x64",
+        "version": "version:81.0.4016.0",
+        "instance_id": "nyeHSTcz0TkktTh7WVfOgJcLm3lLsdmMe9qrpKOCLfYC"
+    },
+    {
         "package": "chromium/fuchsia/webrunner-arm64",
+        "path": "prebuilt/third_party/chromium/arch/arm64",
         "version": "version:81.0.4015.0",
         "instance_id": "HIi4MfAgFIIXAKxYOcnhZRMQlZwNRrZz7dKi697dPFkC"
+    },
+    {
+        "package": "chromium/fuchsia/webrunner-arm64",
+        "path": "prebuilt/third_party/chromium_latest/arch/arm64",
+        "version": "version:81.0.4016.0",
+        "instance_id": "yNfatQkp378JuS7YXnlwEhg3yCYyFqzTahVrRQEoxxEC"
     },
     {
         "package": "dart/dart-sdk/linux-amd64",
