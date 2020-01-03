@@ -34,7 +34,6 @@ test: <
   device_type: "QEMU"
   max_shard_size: 200
   pave: false
-  pave_from_gcs: true
   per_test_timeout_secs: 0
   pool: "fuchsia.tests"
   runtests_args: "-s -m -L"
