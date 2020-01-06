@@ -178,18 +178,18 @@
            TODO(kaushikiska): fix the internal structure of the Flutter CIPD
            package and change this path to prebuilt/third_party/flutter -->
     <package name="flutter/fuchsia"
-             version="git_revision:eb139936eb2c17694aba3fd922adfe8a85c5e8df"
+             version="git_revision:cbdc7bde224c0b0273af89a0499272c7eb01e81f"
              path="prebuilt/third_party"/>
     <package name="flutter/sky_engine"
-             version="git_revision:eb139936eb2c17694aba3fd922adfe8a85c5e8df"
+             version="git_revision:cbdc7bde224c0b0273af89a0499272c7eb01e81f"
       path="prebuilt/third_party/sky_engine"/>
     <!-- Flutter Debug symbols -->
     <package name="flutter/fuchsia-debug-symbols-x64"
-             version="git_revision:eb139936eb2c17694aba3fd922adfe8a85c5e8df"
+             version="git_revision:cbdc7bde224c0b0273af89a0499272c7eb01e81f"
              path="prebuilt/build_ids/x64/flutter"
              attributes="debug-symbols,debug-symbols-x64,debug-symbols-flutter"/>
     <package name="flutter/fuchsia-debug-symbols-arm64"
-             version="git_revision:eb139936eb2c17694aba3fd922adfe8a85c5e8df"
+             version="git_revision:cbdc7bde224c0b0273af89a0499272c7eb01e81f"
              path="prebuilt/build_ids/arm64/flutter"
              attributes="debug-symbols,debug-symbols-arm64,debug-symbols-flutter"/>
 
