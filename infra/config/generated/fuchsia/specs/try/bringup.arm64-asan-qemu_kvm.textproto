@@ -16,7 +16,7 @@ build: <
   sdk_subbuild: false
   target: "arm64"
   upload_results: false
-  variants: "asan"
+  variants: "asan-ubsan"
   variants: "host_asan"
 >
 checkout: <
