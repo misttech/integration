@@ -379,6 +379,10 @@
              version="g3-revision:dachsiaboard_fe_20200109_RC00"
              path="prebuilt/infra/dachsiaboard"
              attributes="dachsiaboard"/>
+    <package name="fuchsia/infra/zedmon/${platform}"
+             path="prebuilt/tools/zedmon"
+             version="git_revision:9765b27b5f39bb41a58edc893e7e8f2a0f1e20ef"
+             platforms="linux-amd64"/>
 
     <!-- debugger test data, the "large_test_data" is optional  -->
     <package name="fuchsia/test_data/debug/sample_core"
