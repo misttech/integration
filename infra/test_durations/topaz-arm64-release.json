@@ -2,131 +2,121 @@
   {
     "name": "*",
     "runs": 0,
-    "median_duration_ms": 506
+    "median_duration_ms": 238
   },
   {
     "name": "fuchsia-pkg://fuchsia.com/benchmark_tests#meta/process_trace_helpers_test.cmx",
-    "runs": 284,
-    "median_duration_ms": 82
-  },
-  {
-    "name": "fuchsia-pkg://fuchsia.com/dart_inspect_vmo_test#meta/dart_inspect_vmo_test.cmx",
-    "runs": 284,
-    "median_duration_ms": 1267
-  },
-  {
-    "name": "fuchsia-pkg://fuchsia.com/dart_zircon_test#meta/dart_zircon_test.cmx",
-    "runs": 284,
-    "median_duration_ms": 569
-  },
-  {
-    "name": "fuchsia-pkg://fuchsia.com/fidl_bindings_test#meta/fidl_bindings_test.cmx",
-    "runs": 284,
-    "median_duration_ms": 3208
-  },
-  {
-    "name": "fuchsia-pkg://fuchsia.com/fidl_compatibility_test_topaz#meta/fidl_compatibility_test_topaz.cmx",
-    "runs": 284,
-    "median_duration_ms": 4394
-  },
-  {
-    "name": "fuchsia-pkg://fuchsia.com/fuchsia_modular_package_integration_tests#meta/fuchsia_modular_package_integration_tests.cmx",
-    "runs": 284,
-    "median_duration_ms": 2271
-  },
-  {
-    "name": "fuchsia-pkg://fuchsia.com/fuchsia_modular_testing_package_integration_tests#meta/fuchsia_modular_testing_package_integration_tests.cmx",
-    "runs": 284,
-    "median_duration_ms": 5068
-  },
-  {
-    "name": "fuchsia-pkg://fuchsia.com/fuchsia_services_package_integration_tests#meta/fuchsia_services_package_integration_tests.cmx",
-    "runs": 284,
-    "median_duration_ms": 748
-  },
-  {
-    "name": "fuchsia-pkg://fuchsia.com/fuchsia_vfs_package_unittests#meta/fuchsia_vfs_package_unittests.cmx",
-    "runs": 284,
-    "median_duration_ms": 1653
-  },
-  {
-    "name": "fuchsia-pkg://fuchsia.com/input_fuzzers#meta/input_fuzzer_test.cmx",
-    "runs": 284,
-    "median_duration_ms": 86
-  },
-  {
-    "name": "fuchsia-pkg://fuchsia.com/modular_test_harness_test#meta/modular_test_harness_test.cmx",
-    "runs": 284,
-    "median_duration_ms": 1715
-  },
-  {
-    "name": "fuchsia-pkg://fuchsia.com/ril-qmi-tests#meta/ril-qmi-tests.cmx",
-    "runs": 284,
+    "runs": 142,
     "median_duration_ms": 80
   },
   {
+    "name": "fuchsia-pkg://fuchsia.com/dart_inspect_vmo_test#meta/dart_inspect_vmo_test.cmx",
+    "runs": 142,
+    "median_duration_ms": 1343
+  },
+  {
+    "name": "fuchsia-pkg://fuchsia.com/dart_zircon_test#meta/dart_zircon_test.cmx",
+    "runs": 142,
+    "median_duration_ms": 573
+  },
+  {
+    "name": "fuchsia-pkg://fuchsia.com/fidl_bindings_test#meta/fidl_bindings_test.cmx",
+    "runs": 142,
+    "median_duration_ms": 3518
+  },
+  {
+    "name": "fuchsia-pkg://fuchsia.com/fidl_compatibility_test_topaz#meta/fidl_compatibility_test_topaz.cmx",
+    "runs": 142,
+    "median_duration_ms": 4423
+  },
+  {
+    "name": "fuchsia-pkg://fuchsia.com/fuchsia_modular_package_integration_tests#meta/fuchsia_modular_package_integration_tests.cmx",
+    "runs": 142,
+    "median_duration_ms": 2390
+  },
+  {
+    "name": "fuchsia-pkg://fuchsia.com/fuchsia_modular_testing_package_integration_tests#meta/fuchsia_modular_testing_package_integration_tests.cmx",
+    "runs": 142,
+    "median_duration_ms": 5516
+  },
+  {
+    "name": "fuchsia-pkg://fuchsia.com/fuchsia_services_package_integration_tests#meta/fuchsia_services_package_integration_tests.cmx",
+    "runs": 142,
+    "median_duration_ms": 776
+  },
+  {
+    "name": "fuchsia-pkg://fuchsia.com/fuchsia_vfs_package_unittests#meta/fuchsia_vfs_package_unittests.cmx",
+    "runs": 142,
+    "median_duration_ms": 1835
+  },
+  {
+    "name": "fuchsia-pkg://fuchsia.com/input_fuzzers#meta/input_fuzzer_test.cmx",
+    "runs": 142,
+    "median_duration_ms": 91
+  },
+  {
+    "name": "fuchsia-pkg://fuchsia.com/ril-qmi-tests#meta/ril-qmi-tests.cmx",
+    "runs": 142,
+    "median_duration_ms": 77
+  },
+  {
     "name": "fuchsia-pkg://fuchsia.com/run_test_component_test#meta/run_test_component_test.cmx",
-    "runs": 284,
-    "median_duration_ms": 95
-  },
-  {
-    "name": "fuchsia-pkg://fuchsia.com/run_test_component_unittests#meta/run_test_component_unittests.cmx",
-    "runs": 284,
-    "median_duration_ms": 170
-  },
-  {
-    "name": "fuchsia-pkg://fuchsia.com/scenic_tests#meta/display_unittests.cmx",
-    "runs": 284,
-    "median_duration_ms": 62
-  },
-  {
-    "name": "fuchsia-pkg://fuchsia.com/scenic_tests#meta/flatland_unittests.cmx",
-    "runs": 284,
-    "median_duration_ms": 242
-  },
-  {
-    "name": "fuchsia-pkg://fuchsia.com/scenic_tests#meta/gfx_apptests.cmx",
-    "runs": 284,
-    "median_duration_ms": 707
-  },
-  {
-    "name": "fuchsia-pkg://fuchsia.com/scenic_tests#meta/gfx_unittests.cmx",
-    "runs": 284,
-    "median_duration_ms": 961
-  },
-  {
-    "name": "fuchsia-pkg://fuchsia.com/scenic_tests#meta/gfx_util_unittests.cmx",
-    "runs": 284,
-    "median_duration_ms": 59
-  },
-  {
-    "name": "fuchsia-pkg://fuchsia.com/scenic_tests#meta/input_unittests.cmx",
-    "runs": 284,
-    "median_duration_ms": 165
-  },
-  {
-    "name": "fuchsia-pkg://fuchsia.com/scenic_tests#meta/scenic_unittests.cmx",
-    "runs": 284,
-    "median_duration_ms": 79
-  },
-  {
-    "name": "fuchsia-pkg://fuchsia.com/scenic_tests#meta/scheduling_unittests.cmx",
-    "runs": 284,
+    "runs": 142,
     "median_duration_ms": 103
   },
   {
-    "name": "fuchsia-pkg://fuchsia.com/scenic_utils_tests#meta/sequential_fence_signaller_unittest.cmx",
-    "runs": 284,
-    "median_duration_ms": 47
+    "name": "fuchsia-pkg://fuchsia.com/run_test_component_unittests#meta/run_test_component_unittests.cmx",
+    "runs": 142,
+    "median_duration_ms": 140
   },
   {
-    "name": "fuchsia-pkg://fuchsia.com/test_harness_fixture_test#meta/test_harness_fixture_test_bin.cmx",
-    "runs": 284,
-    "median_duration_ms": 6003
+    "name": "fuchsia-pkg://fuchsia.com/scenic_tests#meta/display_unittests.cmx",
+    "runs": 142,
+    "median_duration_ms": 63
+  },
+  {
+    "name": "fuchsia-pkg://fuchsia.com/scenic_tests#meta/flatland_unittests.cmx",
+    "runs": 142,
+    "median_duration_ms": 238
+  },
+  {
+    "name": "fuchsia-pkg://fuchsia.com/scenic_tests#meta/gfx_apptests.cmx",
+    "runs": 142,
+    "median_duration_ms": 636
+  },
+  {
+    "name": "fuchsia-pkg://fuchsia.com/scenic_tests#meta/gfx_unittests.cmx",
+    "runs": 142,
+    "median_duration_ms": 1034
+  },
+  {
+    "name": "fuchsia-pkg://fuchsia.com/scenic_tests#meta/gfx_util_unittests.cmx",
+    "runs": 142,
+    "median_duration_ms": 55
+  },
+  {
+    "name": "fuchsia-pkg://fuchsia.com/scenic_tests#meta/input_unittests.cmx",
+    "runs": 142,
+    "median_duration_ms": 210
+  },
+  {
+    "name": "fuchsia-pkg://fuchsia.com/scenic_tests#meta/scenic_unittests.cmx",
+    "runs": 142,
+    "median_duration_ms": 85
+  },
+  {
+    "name": "fuchsia-pkg://fuchsia.com/scenic_tests#meta/scheduling_unittests.cmx",
+    "runs": 142,
+    "median_duration_ms": 100
+  },
+  {
+    "name": "fuchsia-pkg://fuchsia.com/scenic_utils_tests#meta/sequential_fence_signaller_unittest.cmx",
+    "runs": 142,
+    "median_duration_ms": 50
   },
   {
     "name": "fuchsia-pkg://fuchsia.com/torus15_dart_test#meta/torus15_dart_test.cmx",
-    "runs": 284,
-    "median_duration_ms": 506
+    "runs": 142,
+    "median_duration_ms": 541
   }
 ]
