@@ -7,7 +7,7 @@ build: <
   board: "boards/x64.gni"
   build_type: "debug"
   enforce_size_limits: false
-  exclude_images: false
+  exclude_images: true
   include_breakpad_symbols: false
   include_symbol_archive: false
   ninja_targets: ":default"
