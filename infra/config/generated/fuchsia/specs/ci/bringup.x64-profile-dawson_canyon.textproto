@@ -33,13 +33,14 @@ test: <
   default_service_account: "artifact-readers@fuchsia-infra.iam.gserviceaccount.com"
   device_type: "Intel NUC Kit NUC7i5DNHE"
   max_attempts: 1
-  max_shard_size: 200
+  max_shard_size: 0
   pave: false
   per_test_timeout_secs: 0
   pool: "fuchsia.tests"
   runtests_args: ""
   swarming_expiration_timeout_secs: 18000
   swarming_io_timeout_secs: 300
+  target_shard_duration_secs: 540
   test_in_shards: false
   timeout_secs: 1800
   upload_results: true
