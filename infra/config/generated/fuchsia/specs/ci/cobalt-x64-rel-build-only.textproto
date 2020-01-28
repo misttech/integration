@@ -10,6 +10,8 @@ build: <
   exclude_images: true
   include_breakpad_symbols: false
   include_symbol_archive: false
+  ninja_targets: "src/cobalt:cobalt"
+  ninja_targets: "src/lib/cobalt:cobalt"
   packages: "//src/cobalt:tests"
   packages: "//src/lib/cobalt:tests"
   product: "products/core.gni"
