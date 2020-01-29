@@ -318,6 +318,11 @@
              version="git_revision:a663911de2166be76f0044b828c6b375cf64fecb"
              path="garnet/drivers/gpu/msd-img-rgx/mtk/firmware"
              internal="true"/>
+    <!--   OpenThread Radio firmware for NRF52840 chip -->
+    <package name="fuchsia_internal/firmware/ot-radio-firmware"
+             version="X_76H_SQ439LWIX0OyPZ69QcOHBWul4lD4oMmJffYCcC"
+             path="prebuilt/connectivity/openthread/radio-firmware"
+             internal="true"/>
 
     <!--   GUI Tools -->
     <!-- Add with `jiri init -fetch-optional=fuchsia_devtools` -->
