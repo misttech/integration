@@ -8,7 +8,7 @@ build: <
   build_type: "debug"
   enforce_size_limits: false
   exclude_images: false
-  include_archives: true
+  include_archives: false
   include_breakpad_symbols: false
   include_symbol_archive: false
   packages: "//topaz/bundles:buildbot"

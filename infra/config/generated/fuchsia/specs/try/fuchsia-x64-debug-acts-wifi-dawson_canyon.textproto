@@ -9,7 +9,7 @@ build: <
   enforce_size_limits: false
   environment_tags: "acts-connectivity-wifi"
   exclude_images: false
-  include_archives: true
+  include_archives: false
   include_breakpad_symbols: false
   include_symbol_archive: false
   packages: "//garnet/packages/tools:sl4f"

@@ -9,7 +9,7 @@ build: <
   enforce_size_limits: false
   exclude_images: false
   gn_args: "enable_netboot = false"
-  include_archives: true
+  include_archives: false
   include_breakpad_symbols: false
   include_symbol_archive: false
   packages: "//bundles/buildbot:core"
