@@ -162,12 +162,12 @@
     <!-- Packages for build -->
     <!--   Dart -->
     <package name="fuchsia/dart-sdk/${platform}"
-             version="git_revision:fc3af737c75931908521e9c36358a151408d6084"
+             version="git_revision:162d6c5634a0d33da9dd6c29c04b3bf2d9968ab8"
              path="prebuilt/third_party/dart/{{.OS}}-{{.Arch}}"/>
     <!--   Dart TODO: haowei remove this once all dart related projects no
            longer depends on "topaz/tools/prebuilt-dart-sdk/" -->
     <package name="fuchsia/dart-sdk/${platform}"
-             version="git_revision:fc3af737c75931908521e9c36358a151408d6084"
+             version="git_revision:162d6c5634a0d33da9dd6c29c04b3bf2d9968ab8"
              path="topaz/tools/prebuilt-dart-sdk/{{.OS}}-{{.Arch}}"/>
 
     <!--   Flutter -->
@@ -178,18 +178,18 @@
            TODO(kaushikiska): fix the internal structure of the Flutter CIPD
            package and change this path to prebuilt/third_party/flutter -->
     <package name="flutter/fuchsia"
-             version="git_revision:74d07b5f6b4ffc087353e7bfffa860b94b21ee2d"
+             version="git_revision:e5209202fb0022a9a1cd1c0edb0fa67fdcd7ed11"
              path="prebuilt/third_party"/>
     <package name="flutter/sky_engine"
-             version="git_revision:74d07b5f6b4ffc087353e7bfffa860b94b21ee2d"
+             version="git_revision:e5209202fb0022a9a1cd1c0edb0fa67fdcd7ed11"
       path="prebuilt/third_party/sky_engine"/>
     <!-- Flutter Debug symbols -->
     <package name="flutter/fuchsia-debug-symbols-x64"
-             version="git_revision:74d07b5f6b4ffc087353e7bfffa860b94b21ee2d"
+             version="git_revision:e5209202fb0022a9a1cd1c0edb0fa67fdcd7ed11"
              path="prebuilt/build_ids/x64/flutter"
              attributes="debug-symbols,debug-symbols-x64,debug-symbols-flutter"/>
     <package name="flutter/fuchsia-debug-symbols-arm64"
-             version="git_revision:74d07b5f6b4ffc087353e7bfffa860b94b21ee2d"
+             version="git_revision:e5209202fb0022a9a1cd1c0edb0fa67fdcd7ed11"
              path="prebuilt/build_ids/arm64/flutter"
              attributes="debug-symbols,debug-symbols-arm64,debug-symbols-flutter"/>
 
