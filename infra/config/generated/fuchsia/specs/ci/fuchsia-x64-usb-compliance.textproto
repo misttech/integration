@@ -9,6 +9,7 @@ build: <
   enforce_size_limits: false
   environment_tags: "usb-compliance-tests"
   exclude_images: false
+  include_archives: true
   include_breakpad_symbols: false
   include_symbol_archive: false
   packages: "//bundles/buildbot:core"

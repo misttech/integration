@@ -10,6 +10,7 @@ build: <
   environment_tags: "mac"
   exclude_images: true
   gn_args: "zircon_extra_args = { variants = [ \"clang\" ] }"
+  include_archives: true
   include_breakpad_symbols: false
   include_symbol_archive: false
   packages: "//bundles/buildbot:core"

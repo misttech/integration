@@ -8,6 +8,7 @@ build: <
   build_type: "release"
   enforce_size_limits: true
   exclude_images: true
+  include_archives: true
   include_breakpad_symbols: false
   include_symbol_archive: false
   ninja_targets: "src/cobalt:cobalt"

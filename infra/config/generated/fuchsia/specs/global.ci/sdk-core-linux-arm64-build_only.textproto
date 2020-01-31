@@ -8,6 +8,7 @@ build: <
   build_type: "release"
   enforce_size_limits: false
   exclude_images: false
+  include_archives: true
   include_breakpad_symbols: false
   include_symbol_archive: false
   ninja_targets: "sdk/archive/core.tar.gz"

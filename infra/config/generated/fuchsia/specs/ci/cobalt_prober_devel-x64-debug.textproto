@@ -9,6 +9,7 @@ build: <
   enforce_size_limits: false
   exclude_images: false
   gn_args: "cobalt_environment=\"DEVEL\""
+  include_archives: true
   include_breakpad_symbols: false
   include_symbol_archive: false
   packages: "//bundles/buildbot:core"

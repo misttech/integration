@@ -9,6 +9,7 @@ build: <
   enforce_size_limits: false
   environment_tags: "mac"
   exclude_images: true
+  include_archives: true
   include_breakpad_symbols: false
   include_symbol_archive: false
   packages: "//bundles/buildbot:core"
