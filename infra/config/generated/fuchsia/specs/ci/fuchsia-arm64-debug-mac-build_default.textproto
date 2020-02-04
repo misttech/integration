@@ -10,7 +10,6 @@ build: <
   exclude_images: true
   include_archives: false
   include_breakpad_symbols: false
-  include_symbol_archive: false
   ninja_targets: ":default"
   packages: "//bundles/buildbot:core"
   product: "products/core.gni"

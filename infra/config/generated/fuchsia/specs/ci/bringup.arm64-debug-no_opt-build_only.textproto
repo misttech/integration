@@ -11,7 +11,6 @@ build: <
   gn_args: "zircon_extra_args = { opt_level=-1 }"
   include_archives: false
   include_breakpad_symbols: false
-  include_symbol_archive: false
   packages: "//bundles/buildbot:bringup"
   product: "products/bringup.gni"
   run_tests: false
