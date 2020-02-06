@@ -313,10 +313,15 @@
              version="wLeXEAjROWrNYxYGtTYhDJV0AFpkTe1cP86Bqwt7C_0C"
              path="prebuilt/camera/watermark"
              internal="true"/>
-    <!--   Imagination GPU firmware for MT8167 -->
+    <!--   DEPRECATED location - Imagination GPU firmware for MT8167 -->
     <package name="fuchsia_internal/firmware/imgtec/imgtec-rgx-mt8167"
              version="git_revision:a663911de2166be76f0044b828c6b375cf64fecb"
              path="garnet/drivers/gpu/msd-img-rgx/mtk/firmware"
+             internal="true"/>
+    <!--   Imagination GPU firmware for MT8167 -->
+    <package name="fuchsia_internal/firmware/imgtec/imgtec-rgx-mt8167"
+             version="git_revision:a663911de2166be76f0044b828c6b375cf64fecb"
+             path="src/graphics/drivers/msd-img-rgx/mtk/firmware"
              internal="true"/>
     <!--   OpenThread Radio firmware for NRF52840 chip -->
     <package name="fuchsia_internal/firmware/ot-radio-firmware"
