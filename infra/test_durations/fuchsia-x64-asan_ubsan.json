@@ -1,0 +1,792 @@
+[
+  {
+    "name": "*",
+    "runs": 0,
+    "median_duration_ms": 38
+  },
+  {
+    "name": "host-x64-linux-asan/obj/system/ulib/blobfs/test/blobfs-host-test",
+    "runs": 8,
+    "median_duration_ms": 21
+  },
+  {
+    "name": "host-x64-linux-asan/obj/system/ulib/ffl/test/ffl-test",
+    "runs": 8,
+    "median_duration_ms": 16
+  },
+  {
+    "name": "host-x64-linux-asan/obj/system/ulib/ftl-mtd/test/ftl-volume-wrapper-test",
+    "runs": 8,
+    "median_duration_ms": 13
+  },
+  {
+    "name": "host-x64-linux-asan/obj/system/ulib/ftl-mtd/test/nand-volume-driver-test",
+    "runs": 8,
+    "median_duration_ms": 1224
+  },
+  {
+    "name": "host-x64-linux-asan/obj/system/ulib/fvm/test/fvm-unit-test",
+    "runs": 8,
+    "median_duration_ms": 32
+  },
+  {
+    "name": "host-x64-linux-asan/obj/system/ulib/minfs/test/minfs-host-test",
+    "runs": 8,
+    "median_duration_ms": 14
+  },
+  {
+    "name": "host-x64-linux-asan/obj/system/ulib/trace-reader/trace-reader-test-test",
+    "runs": 8,
+    "median_duration_ms": 18
+  },
+  {
+    "name": "host-x64-linux-asan/obj/system/ulib/zxtest/test/integration/zxtest-integration-test",
+    "runs": 8,
+    "median_duration_ms": 28
+  },
+  {
+    "name": "host-x64-linux-asan/obj/system/ulib/zxtest/test/zxtest-test",
+    "runs": 8,
+    "median_duration_ms": 16
+  },
+  {
+    "name": "host-x64-linux-asan/obj/system/utest/cmdline/cmdline-test",
+    "runs": 8,
+    "median_duration_ms": 21
+  },
+  {
+    "name": "host-x64-linux-asan/obj/system/utest/fidl-compiler/fidl-compiler-test",
+    "runs": 8,
+    "median_duration_ms": 7246
+  },
+  {
+    "name": "host-x64-linux-asan/obj/system/utest/fidl/fidl-test",
+    "runs": 8,
+    "median_duration_ms": 13
+  },
+  {
+    "name": "host-x64-linux-asan/obj/system/utest/fit/fit-test",
+    "runs": 8,
+    "median_duration_ms": 95
+  },
+  {
+    "name": "host-x64-linux-asan/obj/system/utest/fs-host/fs-host-test",
+    "runs": 8,
+    "median_duration_ms": 215556
+  },
+  {
+    "name": "host-x64-linux-asan/obj/system/utest/ftl-mtd/ftl-volume-wrapper-integration-test",
+    "runs": 8,
+    "median_duration_ms": 39
+  },
+  {
+    "name": "host-x64-linux-asan/obj/system/utest/mtd/mtd-test",
+    "runs": 8,
+    "median_duration_ms": 307
+  },
+  {
+    "name": "host-x64-linux-asan/obj/system/utest/nand-redundant-storage/nand-redundant-storage-test",
+    "runs": 7,
+    "median_duration_ms": 748
+  },
+  {
+    "name": "host-x64-linux-asan/obj/system/utest/util/util-test",
+    "runs": 8,
+    "median_duration_ms": 16
+  },
+  {
+    "name": "host-x64-linux-asan/obj/tools/kazoo/kazoo-test",
+    "runs": 8,
+    "median_duration_ms": 56
+  },
+  {
+    "name": "host_x64-asan/banjo_unittests",
+    "runs": 8,
+    "median_duration_ms": 36347
+  },
+  {
+    "name": "host_x64-asan/basic_fuzzer_test",
+    "runs": 8,
+    "median_duration_ms": 24
+  },
+  {
+    "name": "host_x64-asan/baz_fuzzer_test",
+    "runs": 8,
+    "median_duration_ms": 30
+  },
+  {
+    "name": "host_x64-asan/bindc_bin_test",
+    "runs": 8,
+    "median_duration_ms": 3
+  },
+  {
+    "name": "host_x64-asan/bindc_lib_test",
+    "runs": 8,
+    "median_duration_ms": 49
+  },
+  {
+    "name": "host_x64-asan/blackout_host_lib_test",
+    "runs": 8,
+    "median_duration_ms": 12
+  },
+  {
+    "name": "host_x64-asan/cmc_bin_test",
+    "runs": 8,
+    "median_duration_ms": 5287
+  },
+  {
+    "name": "host_x64-asan/containers_cpp_unittests",
+    "runs": 8,
+    "median_duration_ms": 21
+  },
+  {
+    "name": "host_x64-asan/corpus_fuzzer_test",
+    "runs": 8,
+    "median_duration_ms": 31
+  },
+  {
+    "name": "host_x64-asan/dockyard_host_test",
+    "runs": 8,
+    "median_duration_ms": 109
+  },
+  {
+    "name": "host_x64-asan/escher_examples_test",
+    "runs": 8,
+    "median_duration_ms": 43
+  },
+  {
+    "name": "host_x64-asan/escher_unittests",
+    "runs": 8,
+    "median_duration_ms": 5245
+  },
+  {
+    "name": "host_x64-asan/expr_parser_fuzzer_test",
+    "runs": 8,
+    "median_duration_ms": 92
+  },
+  {
+    "name": "host_x64-asan/fbl",
+    "runs": 8,
+    "median_duration_ms": 23264
+  },
+  {
+    "name": "host_x64-asan/ffx_bin_test",
+    "runs": 8,
+    "median_duration_ms": 75
+  },
+  {
+    "name": "host_x64-asan/ffx_daemon_lib_test",
+    "runs": 8,
+    "median_duration_ms": 56
+  },
+  {
+    "name": "host_x64-asan/fidl_cpp_host_conformance_test",
+    "runs": 8,
+    "median_duration_ms": 43
+  },
+  {
+    "name": "host_x64-asan/fidl_cpp_host_unittests",
+    "runs": 8,
+    "median_duration_ms": 68
+  },
+  {
+    "name": "host_x64-asan/fidl_lib_test",
+    "runs": 8,
+    "median_duration_ms": 15
+  },
+  {
+    "name": "host_x64-asan/fidl_transformer_host_tests",
+    "runs": 8,
+    "median_duration_ms": 57
+  },
+  {
+    "name": "host_x64-asan/fidlcat_host_tests",
+    "runs": 8,
+    "median_duration_ms": 16198
+  },
+  {
+    "name": "host_x64-asan/font_manifest_generator_bin_test",
+    "runs": 8,
+    "median_duration_ms": 55
+  },
+  {
+    "name": "host_x64-asan/font_manifest_generator_integration_tests",
+    "runs": 8,
+    "median_duration_ms": 59
+  },
+  {
+    "name": "host_x64-asan/fuchsia_vfs_pseudo_fs_mt_macros_lib_test",
+    "runs": 8,
+    "median_duration_ms": 23
+  },
+  {
+    "name": "host_x64-asan/fuzz_input_unittests",
+    "runs": 8,
+    "median_duration_ms": 14
+  },
+  {
+    "name": "host_x64-asan/fuzzed_data_provider_fuzzer_test",
+    "runs": 8,
+    "median_duration_ms": 30
+  },
+  {
+    "name": "host_x64-asan/hoist_lib_test",
+    "runs": 8,
+    "median_duration_ms": 65
+  },
+  {
+    "name": "host_x64-asan/icu_data_extractor_tests",
+    "runs": 8,
+    "median_duration_ms": 32
+  },
+  {
+    "name": "host_x64-asan/integration_tests_lib_test",
+    "runs": 8,
+    "median_duration_ms": 165
+  },
+  {
+    "name": "host_x64-asan/json_merge_test",
+    "runs": 8,
+    "median_duration_ms": 35
+  },
+  {
+    "name": "host_x64-asan/ledger_host_tests",
+    "runs": 8,
+    "median_duration_ms": 51
+  },
+  {
+    "name": "host_x64-asan/line_input_tests",
+    "runs": 8,
+    "median_duration_ms": 17
+  },
+  {
+    "name": "host_x64-asan/manifest_lib_test",
+    "runs": 8,
+    "median_duration_ms": 14
+  },
+  {
+    "name": "host_x64-asan/merge_sdk_bin_test",
+    "runs": 8,
+    "median_duration_ms": 80
+  },
+  {
+    "name": "host_x64-asan/netstack_bsdsocket_c_api_test",
+    "runs": 8,
+    "median_duration_ms": 336
+  },
+  {
+    "name": "host_x64-asan/netstack_external_network_test_client",
+    "runs": 8,
+    "median_duration_ms": 129806
+  },
+  {
+    "name": "host_x64-asan/overflow_fuzzer_test",
+    "runs": 8,
+    "median_duration_ms": 29
+  },
+  {
+    "name": "host_x64-asan/overnet_core_lib_test",
+    "runs": 8,
+    "median_duration_ms": 4117
+  },
+  {
+    "name": "host_x64-asan/overnet_host_examples_bin_test",
+    "runs": 8,
+    "median_duration_ms": 2052
+  },
+  {
+    "name": "host_x64-asan/qmigen_unittests",
+    "runs": 8,
+    "median_duration_ms": 14
+  },
+  {
+    "name": "host_x64-asan/sdk_metadata_lib_test",
+    "runs": 8,
+    "median_duration_ms": 70
+  },
+  {
+    "name": "host_x64-asan/system_monitor_tests",
+    "runs": 8,
+    "median_duration_ms": 51
+  },
+  {
+    "name": "host_x64-asan/trace2json_tests",
+    "runs": 8,
+    "median_duration_ms": 196
+  },
+  {
+    "name": "host_x64-asan/trap_fuzzer_test",
+    "runs": 8,
+    "median_duration_ms": 31
+  },
+  {
+    "name": "host_x64-asan/usb-peripheral-test",
+    "runs": 8,
+    "median_duration_ms": 19
+  },
+  {
+    "name": "host_x64-asan/zircon-migrated/zbi",
+    "runs": 8,
+    "median_duration_ms": 12
+  },
+  {
+    "name": "host_x64-asan/zxdb_tests",
+    "runs": 8,
+    "median_duration_ms": 3114
+  },
+  {
+    "name": "host_x64-asan_no_detect_leaks/font_info_test",
+    "runs": 8,
+    "median_duration_ms": 33
+  },
+  {
+    "name": "host_x64/artifactory_lib_tests",
+    "runs": 8,
+    "median_duration_ms": 24
+  },
+  {
+    "name": "host_x64/artifactory_main_tests",
+    "runs": 8,
+    "median_duration_ms": 642
+  },
+  {
+    "name": "host_x64/bloaty_tests",
+    "runs": 8,
+    "median_duration_ms": 32
+  },
+  {
+    "name": "host_x64/bootserver_cmd_tests",
+    "runs": 8,
+    "median_duration_ms": 97
+  },
+  {
+    "name": "host_x64/bootserver_lib_tests",
+    "runs": 8,
+    "median_duration_ms": 107
+  },
+  {
+    "name": "host_x64/botanist_lib_tests",
+    "runs": 8,
+    "median_duration_ms": 1015
+  },
+  {
+    "name": "host_x64/botanist_target_tests",
+    "runs": 8,
+    "median_duration_ms": 23
+  },
+  {
+    "name": "host_x64/breakpad_tests",
+    "runs": 8,
+    "median_duration_ms": 7
+  },
+  {
+    "name": "host_x64/build_tests",
+    "runs": 8,
+    "median_duration_ms": 25
+  },
+  {
+    "name": "host_x64/cache_tests",
+    "runs": 8,
+    "median_duration_ms": 2067
+  },
+  {
+    "name": "host_x64/color_tests",
+    "runs": 8,
+    "median_duration_ms": 3
+  },
+  {
+    "name": "host_x64/command_tests",
+    "runs": 8,
+    "median_duration_ms": 4
+  },
+  {
+    "name": "host_x64/covargs_tests",
+    "runs": 8,
+    "median_duration_ms": 17
+  },
+  {
+    "name": "host_x64/cpuperf_raw_printer_test",
+    "runs": 8,
+    "median_duration_ms": 34
+  },
+  {
+    "name": "host_x64/dev_finder_tests",
+    "runs": 8,
+    "median_duration_ms": 341
+  },
+  {
+    "name": "host_x64/digest_tests",
+    "runs": 8,
+    "median_duration_ms": 10
+  },
+  {
+    "name": "host_x64/dump_breakpad_symbols_tests",
+    "runs": 8,
+    "median_duration_ms": 11
+  },
+  {
+    "name": "host_x64/fidlgen_common_test",
+    "runs": 8,
+    "median_duration_ms": 7
+  },
+  {
+    "name": "host_x64/fidlgen_cpp_test",
+    "runs": 8,
+    "median_duration_ms": 388
+  },
+  {
+    "name": "host_x64/fidlgen_go_test",
+    "runs": 5,
+    "median_duration_ms": 95
+  },
+  {
+    "name": "host_x64/fidlgen_golang_test",
+    "runs": 3,
+    "median_duration_ms": 72
+  },
+  {
+    "name": "host_x64/fidlgen_libfuzzer_test",
+    "runs": 8,
+    "median_duration_ms": 59
+  },
+  {
+    "name": "host_x64/fidlgen_llcpp_test",
+    "runs": 8,
+    "median_duration_ms": 304
+  },
+  {
+    "name": "host_x64/fidlgen_rust_test",
+    "runs": 8,
+    "median_duration_ms": 109
+  },
+  {
+    "name": "host_x64/fidlgen_syzkaller_test",
+    "runs": 8,
+    "median_duration_ms": 23
+  },
+  {
+    "name": "host_x64/fidlgen_types_test",
+    "runs": 8,
+    "median_duration_ms": 9
+  },
+  {
+    "name": "host_x64/gen/src/experiences/bin/simple_browser/simple_browser_unittests",
+    "runs": 8,
+    "median_duration_ms": 3755
+  },
+  {
+    "name": "host_x64/gen/src/experiences/bin/terminal_settings/terminal_settings_unittests",
+    "runs": 8,
+    "median_duration_ms": 2010
+  },
+  {
+    "name": "host_x64/gen/src/experiences/examples/hello_experiences/hello_experiences_unittests",
+    "runs": 8,
+    "median_duration_ms": 1070
+  },
+  {
+    "name": "host_x64/gen/src/experiences/examples/localized_flutter/localized_flutter_app/localized_flutter_app_unittests",
+    "runs": 8,
+    "median_duration_ms": 1077
+  },
+  {
+    "name": "host_x64/gen/src/experiences/session_shells/ermine/keyboard_shortcuts/keyboard_shortcuts_unittests",
+    "runs": 8,
+    "median_duration_ms": 1110
+  },
+  {
+    "name": "host_x64/gen/src/experiences/session_shells/ermine/settings/ermine_settings_unittests",
+    "runs": 8,
+    "median_duration_ms": 2814
+  },
+  {
+    "name": "host_x64/gen/src/experiences/session_shells/ermine/shell/ermine_unittests",
+    "runs": 8,
+    "median_duration_ms": 2317
+  },
+  {
+    "name": "host_x64/gen/src/experiences/settings/bin/settings_tests",
+    "runs": 8,
+    "median_duration_ms": 1135
+  },
+  {
+    "name": "host_x64/gen/src/experiences/story_shells/mondrian/mondrian_story_shell_tests",
+    "runs": 8,
+    "median_duration_ms": 1461
+  },
+  {
+    "name": "host_x64/gidl_golang_test",
+    "runs": 8,
+    "median_duration_ms": 21
+  },
+  {
+    "name": "host_x64/gidl_mixer_test",
+    "runs": 8,
+    "median_duration_ms": 6
+  },
+  {
+    "name": "host_x64/gidl_parser_test",
+    "runs": 8,
+    "median_duration_ms": 25
+  },
+  {
+    "name": "host_x64/go_tuf_data_test",
+    "runs": 8,
+    "median_duration_ms": 6
+  },
+  {
+    "name": "host_x64/go_tuf_encrypted_test",
+    "runs": 8,
+    "median_duration_ms": 761
+  },
+  {
+    "name": "host_x64/go_tuf_leveldbstore_test",
+    "runs": 8,
+    "median_duration_ms": 84
+  },
+  {
+    "name": "host_x64/go_tuf_repo_test",
+    "runs": 8,
+    "median_duration_ms": 997
+  },
+  {
+    "name": "host_x64/go_tuf_util_test",
+    "runs": 8,
+    "median_duration_ms": 34
+  },
+  {
+    "name": "host_x64/go_tuf_verify_test",
+    "runs": 8,
+    "median_duration_ms": 63
+  },
+  {
+    "name": "host_x64/graphics_compute_unittests",
+    "runs": 8,
+    "median_duration_ms": 52
+  },
+  {
+    "name": "host_x64/host_fuzzers_test",
+    "runs": 8,
+    "median_duration_ms": 23
+  },
+  {
+    "name": "host_x64/host_perfcompare_test",
+    "runs": 8,
+    "median_duration_ms": 5
+  },
+  {
+    "name": "host_x64/iomisc_tests",
+    "runs": 8,
+    "median_duration_ms": 22
+  },
+  {
+    "name": "host_x64/logger_tests",
+    "runs": 8,
+    "median_duration_ms": 5
+  },
+  {
+    "name": "host_x64/mdns_tools_test",
+    "runs": 8,
+    "median_duration_ms": 38
+  },
+  {
+    "name": "host_x64/netboot_tests",
+    "runs": 8,
+    "median_duration_ms": 1008
+  },
+  {
+    "name": "host_x64/netstack_link_bridge_test",
+    "runs": 8,
+    "median_duration_ms": 4261
+  },
+  {
+    "name": "host_x64/netstack_util_test",
+    "runs": 8,
+    "median_duration_ms": 8
+  },
+  {
+    "name": "host_x64/ninjalog_tests",
+    "runs": 8,
+    "median_duration_ms": 25
+  },
+  {
+    "name": "host_x64/oom_tests",
+    "runs": 8,
+    "median_duration_ms": 60455
+  },
+  {
+    "name": "host_x64/osmisc_tests",
+    "runs": 8,
+    "median_duration_ms": 22
+  },
+  {
+    "name": "host_x64/pm_build_test",
+    "runs": 8,
+    "median_duration_ms": 41
+  },
+  {
+    "name": "host_x64/pm_cmd_pm_genkey_test",
+    "runs": 8,
+    "median_duration_ms": 25
+  },
+  {
+    "name": "host_x64/pm_cmd_pm_publish_test",
+    "runs": 8,
+    "median_duration_ms": 1118
+  },
+  {
+    "name": "host_x64/pm_cmd_pm_serve_test",
+    "runs": 8,
+    "median_duration_ms": 1025
+  },
+  {
+    "name": "host_x64/pm_repo_test",
+    "runs": 8,
+    "median_duration_ms": 1878
+  },
+  {
+    "name": "host_x64/quickui_unittests",
+    "runs": 8,
+    "median_duration_ms": 264
+  },
+  {
+    "name": "host_x64/reboot_tests",
+    "runs": 8,
+    "median_duration_ms": 165261
+  },
+  {
+    "name": "host_x64/repo_tests",
+    "runs": 8,
+    "median_duration_ms": 8
+  },
+  {
+    "name": "host_x64/retry_tests",
+    "runs": 8,
+    "median_duration_ms": 6
+  },
+  {
+    "name": "host_x64/ring_tests",
+    "runs": 8,
+    "median_duration_ms": 23
+  },
+  {
+    "name": "host_x64/runner_tests",
+    "runs": 8,
+    "median_duration_ms": 8
+  },
+  {
+    "name": "host_x64/runtests_tests",
+    "runs": 8,
+    "median_duration_ms": 31
+  },
+  {
+    "name": "host_x64/serial_tests",
+    "runs": 8,
+    "median_duration_ms": 34
+  },
+  {
+    "name": "host_x64/size_checker_tests",
+    "runs": 8,
+    "median_duration_ms": 26
+  },
+  {
+    "name": "host_x64/sl4f_client_tests",
+    "runs": 8,
+    "median_duration_ms": 1457
+  },
+  {
+    "name": "host_x64/sse_test",
+    "runs": 8,
+    "median_duration_ms": 14
+  },
+  {
+    "name": "host_x64/sshutil_tests",
+    "runs": 8,
+    "median_duration_ms": 7
+  },
+  {
+    "name": "host_x64/symbolize_tests",
+    "runs": 8,
+    "median_duration_ms": 83
+  },
+  {
+    "name": "host_x64/syslog_tests",
+    "runs": 7,
+    "median_duration_ms": 31
+  },
+  {
+    "name": "host_x64/tap_tests",
+    "runs": 8,
+    "median_duration_ms": 5
+  },
+  {
+    "name": "host_x64/tarutil_tests",
+    "runs": 8,
+    "median_duration_ms": 10
+  },
+  {
+    "name": "host_x64/testrunner_tests",
+    "runs": 8,
+    "median_duration_ms": 37
+  },
+  {
+    "name": "host_x64/testsharder_tests",
+    "runs": 8,
+    "median_duration_ms": 30
+  },
+  {
+    "name": "host_x64/tftp_tests",
+    "runs": 8,
+    "median_duration_ms": 13
+  },
+  {
+    "name": "host_x64/thinfs_bitops_test",
+    "runs": 8,
+    "median_duration_ms": 7
+  },
+  {
+    "name": "host_x64/thinfs_block_fake_test",
+    "runs": 8,
+    "median_duration_ms": 219
+  },
+  {
+    "name": "host_x64/thinfs_block_file_test",
+    "runs": 8,
+    "median_duration_ms": 462
+  },
+  {
+    "name": "host_x64/thinfs_cache_test",
+    "runs": 8,
+    "median_duration_ms": 358
+  },
+  {
+    "name": "host_x64/thinfs_gpt_test",
+    "runs": 8,
+    "median_duration_ms": 31
+  },
+  {
+    "name": "host_x64/thinfs_mbr_test",
+    "runs": 8,
+    "median_duration_ms": 12
+  },
+  {
+    "name": "host_x64/thinfs_thinio_test",
+    "runs": 8,
+    "median_duration_ms": 4700
+  },
+  {
+    "name": "host_x64/tools_debug_elflib_tests",
+    "runs": 8,
+    "median_duration_ms": 25
+  },
+  {
+    "name": "host_x64/upload_debug_symbols_tests",
+    "runs": 8,
+    "median_duration_ms": 50
+  },
+  {
+    "name": "host_x64/whereiscl_test",
+    "runs": 8,
+    "median_duration_ms": 16
+  }
+]
