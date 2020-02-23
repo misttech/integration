@@ -227,6 +227,11 @@
     <package name="skia/fuchsia/skqp/arch/arm64"
              version="git_revision:dc8f264f22b428f277fc6f01776a4c394fcaec86"
              path="prebuilt/third_party/skia/skqp/arch/arm64"/>
+    <!--   Vulkan Runtime (for host builds) -->
+    <package name="fuchsia/third_party/vulkan_runtime/${platform}"
+             version="build_config:8f69c210eb9b4dcf1a48bc52b764f596d585ab2b7753e3d1d97d35bddb70a072"
+             path="prebuilt/third_party/vulkan_runtime/{{.OS}}-{{.Arch}}"
+             platforms="linux-amd64"/>
     <!--   Vulkan SDK (for host builds) -->
     <package name="fuchsia/third_party/vulkansdk/${platform}"
              version="version:1.1.130.0"
