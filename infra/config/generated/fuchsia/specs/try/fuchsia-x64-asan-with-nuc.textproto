@@ -4,7 +4,7 @@
 
 artifact_gcs_bucket: "fuchsia-artifacts"
 build: <
-  board: ""
+  board: "boards/x64.gni"
   build_type: "debug"
   enforce_size_limits: false
   exclude_images: false
