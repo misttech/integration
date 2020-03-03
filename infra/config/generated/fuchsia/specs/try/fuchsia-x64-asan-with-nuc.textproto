@@ -35,11 +35,11 @@ test: <
   device_type: ""
   max_shard_size: 0
   pave: true
-  per_test_timeout_secs: 600
+  per_test_timeout_secs: 0
   pool: "fuchsia.tests"
   runtests_args: ""
   swarming_expiration_timeout_secs: 18000
-  swarming_io_timeout_secs: 610
+  swarming_io_timeout_secs: 300
   target_shard_duration_secs: 540
   test_in_shards: true
   timeout_secs: 2400
