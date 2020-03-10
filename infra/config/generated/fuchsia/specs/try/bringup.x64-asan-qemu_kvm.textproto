@@ -35,7 +35,7 @@ test: <
   device_type: "QEMU"
   max_shard_size: 0
   pave: false
-  per_test_timeout_secs: 300
+  per_test_timeout_secs: 360
   pool: "fuchsia.tests"
   runtests_args: ""
   swarming_expiration_timeout_secs: 18000
