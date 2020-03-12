@@ -8,6 +8,7 @@ build: <
   build_type: "debug"
   enforce_size_limits: false
   exclude_images: false
+  gn_args: "include_tests_that_fail_on_nuc_asan = false"
   include_archives: false
   include_breakpad_symbols: false
   packages: "//bundles/buildbot:core"
