@@ -2,7 +2,7 @@
   {
     "name": "*",
     "runs": 0,
-    "median_duration_ms": 40647
+    "median_duration_ms": 38048
   },
   {
     "name": "fuchsia-pkg://fuchsia.com/a11y_lib_tests#meta/configuration_tests.cmx",
@@ -10,9 +10,9 @@
     "median_duration_ms": 34823
   },
   {
-    "name": "fuchsia-pkg://fuchsia.com/a11y_lib_tests#meta/focus_manager_tests.cmx",
+    "name": "fuchsia-pkg://fuchsia.com/a11y_lib_tests#meta/tts_manager_tests.cmx",
     "runs": 1,
-    "median_duration_ms": 41732
+    "median_duration_ms": 27694
   },
   {
     "name": "fuchsia-pkg://fuchsia.com/a11y_tests#meta/a11y_manager_apptests.cmx",
@@ -25,19 +25,9 @@
     "median_duration_ms": 21029
   },
   {
-    "name": "fuchsia-pkg://fuchsia.com/adaptation_tests#meta/platform_manager_unittests.cmx",
+    "name": "fuchsia-pkg://fuchsia.com/aml-thermal-s905d2g-test#meta/aml-thermal-s905d2g-test.cmx",
     "runs": 1,
-    "median_duration_ms": 32013
-  },
-  {
-    "name": "fuchsia-pkg://fuchsia.com/amberctl-tests#meta/amberctl-test.cmx",
-    "runs": 1,
-    "median_duration_ms": 74643
-  },
-  {
-    "name": "fuchsia-pkg://fuchsia.com/aml-pwm-init-test#meta/aml-pwm-init-test.cmx",
-    "runs": 1,
-    "median_duration_ms": 22051
+    "median_duration_ms": 30985
   },
   {
     "name": "fuchsia-pkg://fuchsia.com/appmgr_integration_tests#meta/appmgr_hub_integration_tests.cmx",
@@ -45,29 +35,14 @@
     "median_duration_ms": 20330
   },
   {
-    "name": "fuchsia-pkg://fuchsia.com/appmgr_out_dir_integration_test#meta/appmgr_out_dir_integration_test.cmx",
+    "name": "fuchsia-pkg://fuchsia.com/appmgr_unittests#meta/appmgr_unittests.cmx",
     "runs": 1,
-    "median_duration_ms": 27829
+    "median_duration_ms": 39097
   },
   {
-    "name": "fuchsia-pkg://fuchsia.com/archivist_integration_tests#meta/logger_integration_cpp_tests.cmx",
+    "name": "fuchsia-pkg://fuchsia.com/async-generator-tests#meta/async-generator-test.cmx",
     "runs": 1,
-    "median_duration_ms": 33797
-  },
-  {
-    "name": "fuchsia-pkg://fuchsia.com/astro-display-test#meta/astro-display-test.cmx",
-    "runs": 1,
-    "median_duration_ms": 24415
-  },
-  {
-    "name": "fuchsia-pkg://fuchsia.com/ath10k_test#meta/sparse_array_tests.cmx",
-    "runs": 1,
-    "median_duration_ms": 23966
-  },
-  {
-    "name": "fuchsia-pkg://fuchsia.com/audio-clock-lib-unittests#meta/audio-clock-lib-unittests.cmx",
-    "runs": 1,
-    "median_duration_ms": 31556
+    "median_duration_ms": 40257
   },
   {
     "name": "fuchsia-pkg://fuchsia.com/audio_effects_loader_unittests#meta/audio_effects_loader_unittests.cmx",
@@ -76,18 +51,13 @@
   },
   {
     "name": "fuchsia-pkg://fuchsia.com/audio_fidelity_tests#meta/audio_fidelity_tests.cmx",
-    "runs": 1,
-    "median_duration_ms": 31003
+    "runs": 2,
+    "median_duration_ms": 28375
   },
   {
-    "name": "fuchsia-pkg://fuchsia.com/audio_mixer_unittests#meta/audio_mixer_unittests.cmx",
+    "name": "fuchsia-pkg://fuchsia.com/base_view_unittests#meta/base_view_unittest.cmx",
     "runs": 1,
-    "median_duration_ms": 30772
-  },
-  {
-    "name": "fuchsia-pkg://fuchsia.com/battery_manager_gotests#meta/battery_manager_test.cmx",
-    "runs": 1,
-    "median_duration_ms": 19606
+    "median_duration_ms": 28093
   },
   {
     "name": "fuchsia-pkg://fuchsia.com/bma253-test#meta/bma253-test.cmx",
@@ -100,14 +70,9 @@
     "median_duration_ms": 22478
   },
   {
-    "name": "fuchsia-pkg://fuchsia.com/boringssl_fuzzers#meta/dtls_client_fuzzer_test.cmx",
-    "runs": 1,
-    "median_duration_ms": 24208
-  },
-  {
     "name": "fuchsia-pkg://fuchsia.com/boringssl_fuzzers#meta/privkey_fuzzer_test.cmx",
     "runs": 1,
-    "median_duration_ms": 35913
+    "median_duration_ms": 19928
   },
   {
     "name": "fuchsia-pkg://fuchsia.com/boringssl_fuzzers#meta/ssl_ctx_api_fuzzer_test.cmx",
@@ -136,8 +101,13 @@
   },
   {
     "name": "fuchsia-pkg://fuchsia.com/brcmfmac_test#meta/intrusive_list_test.cmx",
-    "runs": 1,
+    "runs": 2,
     "median_duration_ms": 16732
+  },
+  {
+    "name": "fuchsia-pkg://fuchsia.com/bt-a2dp-tests#meta/bt-a2dp-unittests.cmx",
+    "runs": 1,
+    "median_duration_ms": 35504
   },
   {
     "name": "fuchsia-pkg://fuchsia.com/bt-avdtp-tests#meta/bt-avdtp-unittests.cmx",
@@ -145,29 +115,24 @@
     "median_duration_ms": 200083
   },
   {
-    "name": "fuchsia-pkg://fuchsia.com/bt-avdtp-tool-tests#meta/bt-avdtp-tool-unittests.cmx",
+    "name": "fuchsia-pkg://fuchsia.com/bt-cli-tests#meta/bt-cli-unittests.cmx",
     "runs": 1,
-    "median_duration_ms": 32734
-  },
-  {
-    "name": "fuchsia-pkg://fuchsia.com/bt-avrcp-controller-tests#meta/bt-avrcp-controller-unittests.cmx",
-    "runs": 1,
-    "median_duration_ms": 64092
+    "median_duration_ms": 50543
   },
   {
     "name": "fuchsia-pkg://fuchsia.com/bt-snoop-tests#meta/bt-snoop-unittests.cmx",
-    "runs": 1,
+    "runs": 2,
     "median_duration_ms": 46561
   },
   {
     "name": "fuchsia-pkg://fuchsia.com/bugreport_tests#meta/bugreport_integration_test.cmx",
-    "runs": 1,
+    "runs": 2,
     "median_duration_ms": 24389
   },
   {
-    "name": "fuchsia-pkg://fuchsia.com/bugreport_tests#meta/bugreport_unittest.cmx",
+    "name": "fuchsia-pkg://fuchsia.com/by_addr_tests#meta/by_addr_tests.cmx",
     "runs": 1,
-    "median_duration_ms": 23355
+    "median_duration_ms": 33710
   },
   {
     "name": "fuchsia-pkg://fuchsia.com/camera_tests#meta/algorithms_test.cmx",
@@ -176,18 +141,13 @@
   },
   {
     "name": "fuchsia-pkg://fuchsia.com/camera_tests#meta/controller-test.cmx",
-    "runs": 1,
+    "runs": 2,
     "median_duration_ms": 26088
-  },
-  {
-    "name": "fuchsia-pkg://fuchsia.com/camera_tests#meta/gdc-test.cmx",
-    "runs": 1,
-    "median_duration_ms": 28039
   },
   {
     "name": "fuchsia-pkg://fuchsia.com/camera_tests#meta/mali_009_test.cmx",
     "runs": 1,
-    "median_duration_ms": 29609
+    "median_duration_ms": 30520
   },
   {
     "name": "fuchsia-pkg://fuchsia.com/camera_tests#meta/mock-sensor-integration-test.cmx",
@@ -197,12 +157,17 @@
   {
     "name": "fuchsia-pkg://fuchsia.com/camera_tests#meta/stream_utils_test.cmx",
     "runs": 1,
-    "median_duration_ms": 28675
+    "median_duration_ms": 22280
   },
   {
-    "name": "fuchsia-pkg://fuchsia.com/char_set_tests#meta/char_set_lib_test.cmx",
+    "name": "fuchsia-pkg://fuchsia.com/camera_tests#meta/virtual_camera_driver_test.cmx",
     "runs": 1,
-    "median_duration_ms": 28909
+    "median_duration_ms": 28002
+  },
+  {
+    "name": "fuchsia-pkg://fuchsia.com/chrealm_integrationtests#meta/chrealm_integration_test.cmx",
+    "runs": 1,
+    "median_duration_ms": 46138
   },
   {
     "name": "fuchsia-pkg://fuchsia.com/cm_fidl_validator_tests#meta/cm_fidl_validator_tests.cmx",
@@ -210,9 +175,9 @@
     "median_duration_ms": 131110
   },
   {
-    "name": "fuchsia-pkg://fuchsia.com/cm_json_tests#meta/cm_json_tests.cmx",
+    "name": "fuchsia-pkg://fuchsia.com/cm_rust_tests#meta/cm_rust_tests.cmx",
     "runs": 1,
-    "median_duration_ms": 58632
+    "median_duration_ms": 58406
   },
   {
     "name": "fuchsia-pkg://fuchsia.com/cobalt_fuzzers#meta/logger_fuzzer_test.cmx",
@@ -220,19 +185,19 @@
     "median_duration_ms": 22458
   },
   {
+    "name": "fuchsia-pkg://fuchsia.com/cobalt_lib_tests#meta/cobalt_lib_unittests.cmx",
+    "runs": 1,
+    "median_duration_ms": 28513
+  },
+  {
     "name": "fuchsia-pkg://fuchsia.com/cobalt_tests#meta/cobalt_system_metrics_unittests.cmx",
     "runs": 1,
     "median_duration_ms": 21785
   },
   {
-    "name": "fuchsia-pkg://fuchsia.com/cobalt_tests#meta/cobalt_testapp_no_network.cmx",
+    "name": "fuchsia-pkg://fuchsia.com/component_cpp_tests#meta/component_cpp_testing_tests.cmx",
     "runs": 1,
-    "median_duration_ms": 187002
-  },
-  {
-    "name": "fuchsia-pkg://fuchsia.com/cobalt_tests#meta/cobalt_utils_unittests.cmx",
-    "runs": 1,
-    "median_duration_ms": 34736
+    "median_duration_ms": 43533
   },
   {
     "name": "fuchsia-pkg://fuchsia.com/component_cpp_tests#meta/component_cpp_testing_unittests.cmx",
@@ -246,18 +211,8 @@
   },
   {
     "name": "fuchsia-pkg://fuchsia.com/component_hello_world_tests#meta/hello_world_test.cmx",
-    "runs": 1,
+    "runs": 2,
     "median_duration_ms": 17066
-  },
-  {
-    "name": "fuchsia-pkg://fuchsia.com/component_index_tests#meta/component_index_tests.cmx",
-    "runs": 1,
-    "median_duration_ms": 47106
-  },
-  {
-    "name": "fuchsia-pkg://fuchsia.com/cpuperf_provider_tests#meta/cpuperf_provider_tests.cmx",
-    "runs": 1,
-    "median_duration_ms": 24909
   },
   {
     "name": "fuchsia-pkg://fuchsia.com/cpuperf_tests#meta/cpuperf_integration_tests.cmx",
@@ -265,14 +220,14 @@
     "median_duration_ms": 22269
   },
   {
-    "name": "fuchsia-pkg://fuchsia.com/cs2_test#meta/cs2_test.cmx",
+    "name": "fuchsia-pkg://fuchsia.com/crashpad_agent_tests#meta/crashpad_agent_integration_test_valid_override_config.cmx",
     "runs": 1,
-    "median_duration_ms": 37213
+    "median_duration_ms": 32721
   },
   {
     "name": "fuchsia-pkg://fuchsia.com/cypress-touch-test#meta/cypress-touch-test.cmx",
     "runs": 1,
-    "median_duration_ms": 25338
+    "median_duration_ms": 19607
   },
   {
     "name": "fuchsia-pkg://fuchsia.com/default_hardware_ime_tests#meta/default_hardware_ime_unittests.cmx",
@@ -290,24 +245,24 @@
     "median_duration_ms": 46690
   },
   {
-    "name": "fuchsia-pkg://fuchsia.com/diag_tool_tests#meta/diag_tool_bin_test.cmx",
+    "name": "fuchsia-pkg://fuchsia.com/dhcpd_tests#meta/dhcpd_bin_test.cmx",
     "runs": 1,
-    "median_duration_ms": 51440
+    "median_duration_ms": 41986
+  },
+  {
+    "name": "fuchsia-pkg://fuchsia.com/dns_tests#meta/dns_lib_test.cmx",
+    "runs": 1,
+    "median_duration_ms": 56738
   },
   {
     "name": "fuchsia-pkg://fuchsia.com/driver_host_tests#meta/driver_host_test.cmx",
-    "runs": 1,
-    "median_duration_ms": 61732
+    "runs": 2,
+    "median_duration_ms": 43030
   },
   {
     "name": "fuchsia-pkg://fuchsia.com/dsi-host#meta/dsi-host.cmx",
-    "runs": 1,
+    "runs": 2,
     "median_duration_ms": 17990
-  },
-  {
-    "name": "fuchsia-pkg://fuchsia.com/echo_server_cpp_tests#meta/echo_server_cpp_unittests.cmx",
-    "runs": 1,
-    "median_duration_ms": 23287
   },
   {
     "name": "fuchsia-pkg://fuchsia.com/echo_test#meta/echo_integration_test.cmx",
@@ -315,8 +270,13 @@
     "median_duration_ms": 21493
   },
   {
-    "name": "fuchsia-pkg://fuchsia.com/elf_runner_lifecycle_test#meta/lifecycle_integration_test.cm",
+    "name": "fuchsia-pkg://fuchsia.com/element_session_tests#meta/element_session_bin_test.cm",
     "runs": 1,
+    "median_duration_ms": 18355
+  },
+  {
+    "name": "fuchsia-pkg://fuchsia.com/elf_runner_lifecycle_test#meta/lifecycle_integration_test.cm",
+    "runs": 2,
     "median_duration_ms": 12714
   },
   {
@@ -330,13 +290,13 @@
     "median_duration_ms": 18557
   },
   {
-    "name": "fuchsia-pkg://fuchsia.com/escher_tests#meta/escher_examples_test.cmx",
+    "name": "fuchsia-pkg://fuchsia.com/ethernet-tests#meta/ethernet_lib_test.cmx",
     "runs": 1,
-    "median_duration_ms": 47836
+    "median_duration_ms": 35862
   },
   {
     "name": "fuchsia-pkg://fuchsia.com/example-fuzzers#meta/basic_fuzzer_test.cmx",
-    "runs": 1,
+    "runs": 2,
     "median_duration_ms": 21187
   },
   {
@@ -350,9 +310,9 @@
     "median_duration_ms": 17711
   },
   {
-    "name": "fuchsia-pkg://fuchsia.com/example_fuzzers#meta/overflow_fuzzer_test.cmx",
+    "name": "fuchsia-pkg://fuchsia.com/example-fuzzers#meta/toy_example_arbitrary_test.cmx",
     "runs": 1,
-    "median_duration_ms": 30500
+    "median_duration_ms": 26005
   },
   {
     "name": "fuchsia-pkg://fuchsia.com/exception_broker_tests#meta/exception_broker_unittest.cmx",
@@ -360,14 +320,14 @@
     "median_duration_ms": 31021
   },
   {
-    "name": "fuchsia-pkg://fuchsia.com/exception_broker_tests#meta/limbo_client_unittest.cmx",
-    "runs": 1,
-    "median_duration_ms": 41800
-  },
-  {
     "name": "fuchsia-pkg://fuchsia.com/ext4_server_integration_tests#meta/ext4_server_integration_test.cmx",
     "runs": 1,
-    "median_duration_ms": 31769
+    "median_duration_ms": 25712
+  },
+  {
+    "name": "fuchsia-pkg://fuchsia.com/ext4_server_tests#meta/ext4_readonly_test.cmx",
+    "runs": 1,
+    "median_duration_ms": 25493
   },
   {
     "name": "fuchsia-pkg://fuchsia.com/fake_clock_gotests#meta/fake_clock_test.cmx",
@@ -376,28 +336,28 @@
   },
   {
     "name": "fuchsia-pkg://fuchsia.com/fake_clock_lib_test#meta/fake_clock_lib_test.cmx",
-    "runs": 1,
+    "runs": 2,
     "median_duration_ms": 20630
   },
   {
-    "name": "fuchsia-pkg://fuchsia.com/fake_factory_items_tests#meta/fake_factory_items_test.cmx",
+    "name": "fuchsia-pkg://fuchsia.com/fake_clock_test#meta/fake_clock_svc_bin_test.cmx",
     "runs": 1,
-    "median_duration_ms": 29372
+    "median_duration_ms": 32157
   },
   {
-    "name": "fuchsia-pkg://fuchsia.com/feedback_agent_tests#meta/board_info_provider_unittest.cmx",
+    "name": "fuchsia-pkg://fuchsia.com/feedback_agent_tests#meta/data_provider_unittest.cmx",
     "runs": 1,
-    "median_duration_ms": 29376
+    "median_duration_ms": 32521
   },
   {
-    "name": "fuchsia-pkg://fuchsia.com/feedback_agent_tests#meta/channel_provider_unittest.cmx",
+    "name": "fuchsia-pkg://fuchsia.com/feedback_agent_tests#meta/screenshot_ptr_unittest.cmx",
     "runs": 1,
-    "median_duration_ms": 35150
+    "median_duration_ms": 30850
   },
   {
-    "name": "fuchsia-pkg://fuchsia.com/feedback_utils_tests#meta/inspect_node_manager_unittest.cmx",
+    "name": "fuchsia-pkg://fuchsia.com/feedback_agent_tests#meta/system_log_ptr_unittest.cmx",
     "runs": 1,
-    "median_duration_ms": 20601
+    "median_duration_ms": 36163
   },
   {
     "name": "fuchsia-pkg://fuchsia.com/feedback_utils_tests#meta/log_message_queue_unittest.cmx",
@@ -410,24 +370,24 @@
     "median_duration_ms": 19106
   },
   {
+    "name": "fuchsia-pkg://fuchsia.com/fidl_codec_tests#meta/fidl_codec_test_bin.cmx",
+    "runs": 1,
+    "median_duration_ms": 68460
+  },
+  {
     "name": "fuchsia-pkg://fuchsia.com/fidl_cpp_fuzzing_tests#meta/fidl_cpp_fuzzing_unittests.cmx",
     "runs": 1,
-    "median_duration_ms": 24091
+    "median_duration_ms": 23939
   },
   {
-    "name": "fuchsia-pkg://fuchsia.com/fidl_llcpp_builder_test#meta/fidl_llcpp_builder_test.cmx",
+    "name": "fuchsia-pkg://fuchsia.com/fidlcat_tests#meta/fidlcat_test_bin.cmx",
     "runs": 1,
-    "median_duration_ms": 25493
+    "median_duration_ms": 16944
   },
   {
-    "name": "fuchsia-pkg://fuchsia.com/fidl_tests#meta/conformance_test.cmx",
+    "name": "fuchsia-pkg://fuchsia.com/font_provider_smoke_tests#meta/font_provider_smoke_tests.cmx",
     "runs": 1,
-    "median_duration_ms": 26829
-  },
-  {
-    "name": "fuchsia-pkg://fuchsia.com/font_info_tests#meta/font_info_test.cmx",
-    "runs": 1,
-    "median_duration_ms": 24769
+    "median_duration_ms": 21481
   },
   {
     "name": "fuchsia-pkg://fuchsia.com/fs_management_tests#meta/fs_management_lib_test.cmx",
@@ -435,9 +395,9 @@
     "median_duration_ms": 96134
   },
   {
-    "name": "fuchsia-pkg://fuchsia.com/fuchsia-async-tests#meta/fuchsia_async_lib_test.cmx",
+    "name": "fuchsia-pkg://fuchsia.com/fuchsia-audio-device-output-tests#meta/fuchsia_audio_device_output_lib_test.cmx",
     "runs": 1,
-    "median_duration_ms": 79309
+    "median_duration_ms": 56127
   },
   {
     "name": "fuchsia-pkg://fuchsia.com/fuchsia-component-tests#meta/fuchsia_component_v1_test.cmx",
@@ -445,24 +405,19 @@
     "median_duration_ms": 42693
   },
   {
-    "name": "fuchsia-pkg://fuchsia.com/fuchsia-hyper-tests#meta/fuchsia_hyper_lib_test.cmx",
-    "runs": 1,
-    "median_duration_ms": 43472
-  },
-  {
     "name": "fuchsia-pkg://fuchsia.com/fuchsia-pkg-testing-tests#meta/fuchsia-pkg-testing-tests.cmx",
     "runs": 1,
     "median_duration_ms": 67409
   },
   {
-    "name": "fuchsia-pkg://fuchsia.com/fuchsia-syslog-tests#meta/fuchsia_syslog_lib_test.cmx",
+    "name": "fuchsia-pkg://fuchsia.com/fuchsia_inspect_contrib_tests#meta/fuchsia_inspect_contrib_lib_test.cmx",
     "runs": 1,
-    "median_duration_ms": 25386
+    "median_duration_ms": 66346
   },
   {
-    "name": "fuchsia-pkg://fuchsia.com/fxl_tests#meta/fxl_unittests.cmx",
+    "name": "fuchsia-pkg://fuchsia.com/fuzzing_traits_tests#meta/fuzzing_traits_unittests.cmx",
     "runs": 1,
-    "median_duration_ms": 30330
+    "median_duration_ms": 41845
   },
   {
     "name": "fuchsia-pkg://fuchsia.com/garnet-rust-examples#meta/testing_integration_test_two.cmx",
@@ -470,9 +425,9 @@
     "median_duration_ms": 15911
   },
   {
-    "name": "fuchsia-pkg://fuchsia.com/go_benchmarking_tests#meta/go_benchmarking_test.cmx",
+    "name": "fuchsia-pkg://fuchsia.com/go_merkle_tests#meta/go_merkle_test.cmx",
     "runs": 1,
-    "median_duration_ms": 25373
+    "median_duration_ms": 23578
   },
   {
     "name": "fuchsia-pkg://fuchsia.com/go_stdlib_tests#meta/go_os_test.cmx",
@@ -480,14 +435,14 @@
     "median_duration_ms": 19944
   },
   {
-    "name": "fuchsia-pkg://fuchsia.com/go_tuf_tests#meta/go_tuf_encrypted_test.cmx",
+    "name": "fuchsia-pkg://fuchsia.com/go_thinfs_tests#meta/thinfs_zircon_rpc_test.cmx",
     "runs": 1,
-    "median_duration_ms": 22435
+    "median_duration_ms": 22915
   },
   {
-    "name": "fuchsia-pkg://fuchsia.com/go_tuf_tests#meta/go_tuf_repo_test.cmx",
+    "name": "fuchsia-pkg://fuchsia.com/goldfish_test#meta/goldfish_test.cmx",
     "runs": 1,
-    "median_duration_ms": 24800
+    "median_duration_ms": 25584
   },
   {
     "name": "fuchsia-pkg://fuchsia.com/graphical_session_tests#meta/graphical_session_bin_test.cm",
@@ -495,14 +450,9 @@
     "median_duration_ms": 13018
   },
   {
-    "name": "fuchsia-pkg://fuchsia.com/gtest_adapter_echo_example#meta/echo_test_realm.cm",
+    "name": "fuchsia-pkg://fuchsia.com/guest_manager_tests#meta/guest_manager_unittests.cmx",
     "runs": 1,
-    "median_duration_ms": 16563
-  },
-  {
-    "name": "fuchsia-pkg://fuchsia.com/gtest_adapter_tests#meta/gtest_adapter_bin_test.cmx",
-    "runs": 1,
-    "median_duration_ms": 56219
+    "median_duration_ms": 29834
   },
   {
     "name": "fuchsia-pkg://fuchsia.com/has_ambient_executable#meta/has_ambient_executable.cmx",
@@ -510,14 +460,9 @@
     "median_duration_ms": 17549
   },
   {
-    "name": "fuchsia-pkg://fuchsia.com/has_global_data#meta/has_global_data.cmx",
+    "name": "fuchsia-pkg://fuchsia.com/has_isolated_temp#meta/has_isolated_temp.cmx",
     "runs": 1,
-    "median_duration_ms": 23589
-  },
-  {
-    "name": "fuchsia-pkg://fuchsia.com/has_hub_deprecated_shell#meta/has_hub_deprecated_shell.cmx",
-    "runs": 1,
-    "median_duration_ms": 23043
+    "median_duration_ms": 30659
   },
   {
     "name": "fuchsia-pkg://fuchsia.com/hello_world_cpp_tests#meta/hello_world_cpp_unittests.cmx",
@@ -525,9 +470,9 @@
     "median_duration_ms": 17584
   },
   {
-    "name": "fuchsia-pkg://fuchsia.com/hid-input-report-test#meta/hid-input-report-test.cmx",
+    "name": "fuchsia-pkg://fuchsia.com/hikey-display-test#meta/hikey-display-test.cmx",
     "runs": 1,
-    "median_duration_ms": 25578
+    "median_duration_ms": 24967
   },
   {
     "name": "fuchsia-pkg://fuchsia.com/httpdate-hyper-tests#meta/httpdate_hyper_lib_test.cmx",
@@ -535,24 +480,14 @@
     "median_duration_ms": 17335
   },
   {
-    "name": "fuchsia-pkg://fuchsia.com/hwinfo_negative_tests#meta/hwinfo_negative_test.cmx",
+    "name": "fuchsia-pkg://fuchsia.com/identity_bin_unittests#meta/dev_auth_provider_bin_test.cmx",
     "runs": 1,
-    "median_duration_ms": 32586
+    "median_duration_ms": 29632
   },
   {
-    "name": "fuchsia-pkg://fuchsia.com/i2c-hid-test#meta/i2c-hid-test.cmx",
+    "name": "fuchsia-pkg://fuchsia.com/identity_lib_unittests#meta/account_common_lib_test.cmx",
     "runs": 1,
-    "median_duration_ms": 26234
-  },
-  {
-    "name": "fuchsia-pkg://fuchsia.com/identity_bin_unittests#meta/account_handler_bin_test.cmx",
-    "runs": 1,
-    "median_duration_ms": 313458
-  },
-  {
-    "name": "fuchsia-pkg://fuchsia.com/identity_lib_unittests#meta/token_store_lib_test.cmx",
-    "runs": 1,
-    "median_duration_ms": 55605
+    "median_duration_ms": 48318
   },
   {
     "name": "fuchsia-pkg://fuchsia.com/input_reader_tests#meta/input_apptests.cmx",
@@ -560,9 +495,14 @@
     "median_duration_ms": 19719
   },
   {
-    "name": "fuchsia-pkg://fuchsia.com/input_tests#meta/input_lib_test.cmx",
+    "name": "fuchsia-pkg://fuchsia.com/input_reader_tests#meta/input_reader_unittests.cmx",
     "runs": 1,
-    "median_duration_ms": 137810
+    "median_duration_ms": 24517
+  },
+  {
+    "name": "fuchsia-pkg://fuchsia.com/inspect_cpp_codelab_integration_tests#meta/integration_part_3.cmx",
+    "runs": 1,
+    "median_duration_ms": 22333
   },
   {
     "name": "fuchsia-pkg://fuchsia.com/inspect_cpp_codelab_integration_tests#meta/integration_part_5.cmx",
@@ -570,24 +510,29 @@
     "median_duration_ms": 24427
   },
   {
+    "name": "fuchsia-pkg://fuchsia.com/inspect_cpp_codelab_unittests#meta/reverser_unittests_part_1.cmx",
+    "runs": 1,
+    "median_duration_ms": 27330
+  },
+  {
     "name": "fuchsia-pkg://fuchsia.com/inspect_cpp_codelab_unittests#meta/reverser_unittests_part_3.cmx",
     "runs": 1,
     "median_duration_ms": 16436
   },
   {
-    "name": "fuchsia-pkg://fuchsia.com/inspect_cpp_codelab_unittests#meta/reverser_unittests_part_5.cmx",
-    "runs": 1,
-    "median_duration_ms": 36037
-  },
-  {
     "name": "fuchsia-pkg://fuchsia.com/inspect_health_unittests#meta/inspect_health_unittests.cmx",
-    "runs": 1,
+    "runs": 2,
     "median_duration_ms": 19089
   },
   {
-    "name": "fuchsia-pkg://fuchsia.com/inspect_query_unittests#meta/inspect_query_unittests.cmx",
+    "name": "fuchsia-pkg://fuchsia.com/inspect_integration_tests#meta/inspect_integration_tests.cmx",
     "runs": 1,
-    "median_duration_ms": 24682
+    "median_duration_ms": 31858
+  },
+  {
+    "name": "fuchsia-pkg://fuchsia.com/inspect_rust_codelab_integration_tests#meta/integration_test_part_4.cmx",
+    "runs": 1,
+    "median_duration_ms": 27557
   },
   {
     "name": "fuchsia-pkg://fuchsia.com/inspect_rust_codelab_unittests#meta/reverser_unittests_part_4.cmx",
@@ -602,7 +547,17 @@
   {
     "name": "fuchsia-pkg://fuchsia.com/inspect_service_cpp_tests#meta/inspect_service_cpp_unittests.cmx",
     "runs": 1,
-    "median_duration_ms": 22170
+    "median_duration_ms": 23908
+  },
+  {
+    "name": "fuchsia-pkg://fuchsia.com/intl_property_provider_impl_tests#meta/locale_util_unit_test.cmx",
+    "runs": 1,
+    "median_duration_ms": 28907
+  },
+  {
+    "name": "fuchsia-pkg://fuchsia.com/intl_services_tests#meta/intl_services_test.cmx",
+    "runs": 1,
+    "median_duration_ms": 33819
   },
   {
     "name": "fuchsia-pkg://fuchsia.com/intl_wisdom_server_rust_tests#meta/intl_wisdom_server_rust_bin_test.cmx",
@@ -610,9 +565,14 @@
     "median_duration_ms": 23180
   },
   {
-    "name": "fuchsia-pkg://fuchsia.com/io_util_tests#meta/io_util_tests.cmx",
+    "name": "fuchsia-pkg://fuchsia.com/isolated_persistent_storage#meta/isolated_persistent_storage.cmx",
     "runs": 1,
-    "median_duration_ms": 45506
+    "median_duration_ms": 30967
+  },
+  {
+    "name": "fuchsia-pkg://fuchsia.com/iwlwifi_test#meta/mac-ctxt_test.cmx",
+    "runs": 1,
+    "median_duration_ms": 30330
   },
   {
     "name": "fuchsia-pkg://fuchsia.com/iwlwifi_test#meta/nvm_test.cmx",
@@ -620,14 +580,9 @@
     "median_duration_ms": 18402
   },
   {
-    "name": "fuchsia-pkg://fuchsia.com/iwlwifi_test#meta/phy-ctxt_test.cmx",
+    "name": "fuchsia-pkg://fuchsia.com/key_util_test#meta/key_util_test.cmx",
     "runs": 1,
-    "median_duration_ms": 29393
-  },
-  {
-    "name": "fuchsia-pkg://fuchsia.com/kcounter_inspect_tests#meta/kcounter_inspect_integration_test.cmx",
-    "runs": 1,
-    "median_duration_ms": 31766
+    "median_duration_ms": 25143
   },
   {
     "name": "fuchsia-pkg://fuchsia.com/ledger_tests#meta/cloud_provider_in_memory_unittests.cmx",
@@ -640,14 +595,9 @@
     "median_duration_ms": 68956
   },
   {
-    "name": "fuchsia-pkg://fuchsia.com/ledger_tests#meta/validation_in_memory.cmx",
+    "name": "fuchsia-pkg://fuchsia.com/lib-hid-input-report-test#meta/lib-hid-input-report-test.cmx",
     "runs": 1,
-    "median_duration_ms": 108856
-  },
-  {
-    "name": "fuchsia-pkg://fuchsia.com/linux_runner_tests#meta/linux_runner_unittests.cmx",
-    "runs": 1,
-    "median_duration_ms": 41060
+    "median_duration_ms": 23968
   },
   {
     "name": "fuchsia-pkg://fuchsia.com/magma_nonhardware_tests#meta/magma_unit_tests.cmx",
@@ -655,9 +605,9 @@
     "median_duration_ms": 51261
   },
   {
-    "name": "fuchsia-pkg://fuchsia.com/mapped-vmo-tests#meta/mapped_vmo_lib_test.cmx",
+    "name": "fuchsia-pkg://fuchsia.com/mdns_tests#meta/mdns_tests.cmx",
     "runs": 1,
-    "median_duration_ms": 34485
+    "median_duration_ms": 32186
   },
   {
     "name": "fuchsia-pkg://fuchsia.com/mediaplayer_tests#meta/mediaplayer_core_tests.cmx",
@@ -666,23 +616,13 @@
   },
   {
     "name": "fuchsia-pkg://fuchsia.com/mediaplayer_tests#meta/mediaplayer_ffmpeg_tests.cmx",
-    "runs": 1,
+    "runs": 2,
     "median_duration_ms": 21516
   },
   {
-    "name": "fuchsia-pkg://fuchsia.com/mediaplayer_tests#meta/mediaplayer_graph_tests.cmx",
+    "name": "fuchsia-pkg://fuchsia.com/memory_metrics_tests#meta/memory_metrics_unittests.cmx",
     "runs": 1,
-    "median_duration_ms": 28158
-  },
-  {
-    "name": "fuchsia-pkg://fuchsia.com/modular_cpp_tests#meta/modular_cpp_tests_bin.cmx",
-    "runs": 1,
-    "median_duration_ms": 27910
-  },
-  {
-    "name": "fuchsia-pkg://fuchsia.com/modular_integration_tests#meta/intents_test.cmx",
-    "runs": 1,
-    "median_duration_ms": 311944
+    "median_duration_ms": 34316
   },
   {
     "name": "fuchsia-pkg://fuchsia.com/modular_integration_tests#meta/last_focus_time_test.cmx",
@@ -690,9 +630,19 @@
     "median_duration_ms": 76972
   },
   {
-    "name": "fuchsia-pkg://fuchsia.com/modular_integration_tests#meta/story_shell_factory_test.cmx",
+    "name": "fuchsia-pkg://fuchsia.com/modular_integration_tests#meta/story_module_test.cmx",
     "runs": 1,
+    "median_duration_ms": 113695
+  },
+  {
+    "name": "fuchsia-pkg://fuchsia.com/modular_integration_tests#meta/story_shell_factory_test.cmx",
+    "runs": 2,
     "median_duration_ms": 159254
+  },
+  {
+    "name": "fuchsia-pkg://fuchsia.com/modular_testing_cpp_tests#meta/modular_testing_cpp_tests_bin.cmx",
+    "runs": 1,
+    "median_duration_ms": 336725
   },
   {
     "name": "fuchsia-pkg://fuchsia.com/mold-next-tests#meta/mold_next_lib_test.cmx",
@@ -705,34 +655,24 @@
     "median_duration_ms": 20957
   },
   {
-    "name": "fuchsia-pkg://fuchsia.com/msd_img_rgx_integration_tests#meta/msd_img_rgx_no_hardware_integration_tests.cmx",
+    "name": "fuchsia-pkg://fuchsia.com/mtk-thermal-test#meta/mtk-thermal-test.cmx",
     "runs": 1,
-    "median_duration_ms": 48666
+    "median_duration_ms": 25339
   },
   {
-    "name": "fuchsia-pkg://fuchsia.com/nand-unittest#meta/nand-unittest.cmx",
+    "name": "fuchsia-pkg://fuchsia.com/net-cli-tests#meta/net_bin_test.cmx",
     "runs": 1,
-    "median_duration_ms": 34414
+    "median_duration_ms": 28963
   },
   {
-    "name": "fuchsia-pkg://fuchsia.com/nandpart-test#meta/nandpart-test.cmx",
+    "name": "fuchsia-pkg://fuchsia.com/netemul_lib_test#meta/sync_test.cmx",
     "runs": 1,
-    "median_duration_ms": 26457
+    "median_duration_ms": 26171
   },
   {
     "name": "fuchsia-pkg://fuchsia.com/netemul_sandbox_test#meta/inheritance_test.cmx",
     "runs": 1,
     "median_duration_ms": 27578
-  },
-  {
-    "name": "fuchsia-pkg://fuchsia.com/netemul_sandbox_test#meta/mock_device_settings.cmx",
-    "runs": 1,
-    "median_duration_ms": 34990
-  },
-  {
-    "name": "fuchsia-pkg://fuchsia.com/netemul_sandbox_test#meta/netstack_intermediary_multi_interface_test.cmx",
-    "runs": 1,
-    "median_duration_ms": 45815
   },
   {
     "name": "fuchsia-pkg://fuchsia.com/netstack3_tests#meta/netstack3_bin_test.cmx",
@@ -755,14 +695,14 @@
     "median_duration_ms": 59154
   },
   {
-    "name": "fuchsia-pkg://fuchsia.com/netstack_gotests#meta/netstack_link_eth_test.cmx",
+    "name": "fuchsia-pkg://fuchsia.com/netstack_gotests#meta/netstack_connectivity_test.cmx",
     "runs": 1,
-    "median_duration_ms": 28333
+    "median_duration_ms": 20613
   },
   {
-    "name": "fuchsia-pkg://fuchsia.com/netstack_integration_tests#meta/netstack_cobalt_integration_test.cmx",
+    "name": "fuchsia-pkg://fuchsia.com/netstack_gotests#meta/netstack_ifconfig_test.cmx",
     "runs": 1,
-    "median_duration_ms": 272909
+    "median_duration_ms": 24014
   },
   {
     "name": "fuchsia-pkg://fuchsia.com/network-device-mac-lib-test#meta/network-device-mac-lib-test.cmx",
@@ -770,9 +710,9 @@
     "median_duration_ms": 16908
   },
   {
-    "name": "fuchsia-pkg://fuchsia.com/network_manager_cli_tests#meta/network_manager_cli_lib_lib_test.cmx",
+    "name": "fuchsia-pkg://fuchsia.com/network-device-test#meta/network-device-test.cmx",
     "runs": 1,
-    "median_duration_ms": 36185
+    "median_duration_ms": 27499
   },
   {
     "name": "fuchsia-pkg://fuchsia.com/network_manager_tests#meta/network_manager_bin_test.cmx",
@@ -780,34 +720,29 @@
     "median_duration_ms": 17262
   },
   {
+    "name": "fuchsia-pkg://fuchsia.com/no_ambient_executable#meta/no_ambient_executable.cmx",
+    "runs": 1,
+    "median_duration_ms": 26105
+  },
+  {
     "name": "fuchsia-pkg://fuchsia.com/no_ambient_executable_with_features#meta/no_ambient_executable_with_features.cmx",
     "runs": 1,
     "median_duration_ms": 19104
   },
   {
-    "name": "fuchsia-pkg://fuchsia.com/no_global_data#meta/no_global_data.cmx",
+    "name": "fuchsia-pkg://fuchsia.com/no_system_temp#meta/no_system_temp.cmx",
     "runs": 1,
-    "median_duration_ms": 30247
-  },
-  {
-    "name": "fuchsia-pkg://fuchsia.com/no_isolated_temp#meta/no_isolated_temp.cmx",
-    "runs": 1,
-    "median_duration_ms": 30319
+    "median_duration_ms": 30519
   },
   {
     "name": "fuchsia-pkg://fuchsia.com/odu_tests#meta/odu_bin_test.cmx",
     "runs": 1,
-    "median_duration_ms": 109118
+    "median_duration_ms": 104102
   },
   {
-    "name": "fuchsia-pkg://fuchsia.com/overnet-integration-tests#meta/integration_tests_lib_test.cmx",
+    "name": "fuchsia-pkg://fuchsia.com/ot-radio-component-tests#meta/ot_radio_ncp_ver_query_mock.cmx",
     "runs": 1,
-    "median_duration_ms": 44462
-  },
-  {
-    "name": "fuchsia-pkg://fuchsia.com/overnet_examples_tests#meta/overnet_echo_test.cmx",
-    "runs": 1,
-    "median_duration_ms": 59265
+    "median_duration_ms": 33052
   },
   {
     "name": "fuchsia-pkg://fuchsia.com/pkgctl-integration-tests#meta/pkgctl-integration-test.cmx",
@@ -815,9 +750,9 @@
     "median_duration_ms": 50617
   },
   {
-    "name": "fuchsia-pkg://fuchsia.com/pkgfs-ramdisk-tests#meta/pkgfs-ramdisk-lib-test.cmx",
+    "name": "fuchsia-pkg://fuchsia.com/pmd_tests#meta/pmd_index_test.cmx",
     "runs": 1,
-    "median_duration_ms": 131615
+    "median_duration_ms": 24828
   },
   {
     "name": "fuchsia-pkg://fuchsia.com/present_view_tests#meta/present_view_apptests.cmx",
@@ -826,23 +761,13 @@
   },
   {
     "name": "fuchsia-pkg://fuchsia.com/print-input-report-test#meta/print-input-report-test.cmx",
-    "runs": 1,
+    "runs": 2,
     "median_duration_ms": 18225
   },
   {
-    "name": "fuchsia-pkg://fuchsia.com/puppet_master_unittests#meta/dispatch_story_command_executor_unittest.cmx",
+    "name": "fuchsia-pkg://fuchsia.com/puppet_master_unittests#meta/add_mod_command_runner_unittest.cmx",
     "runs": 1,
-    "median_duration_ms": 59166
-  },
-  {
-    "name": "fuchsia-pkg://fuchsia.com/puppet_master_unittests#meta/remove_mod_command_runner_unittest.cmx",
-    "runs": 1,
-    "median_duration_ms": 48833
-  },
-  {
-    "name": "fuchsia-pkg://fuchsia.com/puppet_master_unittests#meta/set_focus_state_command_runner_unittest.cmx",
-    "runs": 1,
-    "median_duration_ms": 33528
+    "median_duration_ms": 74633
   },
   {
     "name": "fuchsia-pkg://fuchsia.com/pwm-test#meta/pwm-test.cmx",
@@ -850,19 +775,14 @@
     "median_duration_ms": 18851
   },
   {
-    "name": "fuchsia-pkg://fuchsia.com/ramdevice_client_tests#meta/ramdevice_client_lib_test.cmx",
-    "runs": 1,
-    "median_duration_ms": 25417
-  },
-  {
-    "name": "fuchsia-pkg://fuchsia.com/reachability_tests#meta/reachability_bin_test.cmx",
-    "runs": 1,
-    "median_duration_ms": 26112
-  },
-  {
     "name": "fuchsia-pkg://fuchsia.com/recovery_integration_test#meta/recovery_integration_test.cmx",
     "runs": 1,
     "median_duration_ms": 20777
+  },
+  {
+    "name": "fuchsia-pkg://fuchsia.com/regulatory_region_integration_test#meta/regulatory_region_integration_test.cmx",
+    "runs": 1,
+    "median_duration_ms": 31941
   },
   {
     "name": "fuchsia-pkg://fuchsia.com/regulatory_region_tests#meta/regulatory_region_lib_lib_test.cmx",
@@ -870,9 +790,9 @@
     "median_duration_ms": 28410
   },
   {
-    "name": "fuchsia-pkg://fuchsia.com/ril-at-tests#meta/ril-at-tests.cmx",
+    "name": "fuchsia-pkg://fuchsia.com/root_presenter_tests#meta/root_presenter_unittests.cmx",
     "runs": 1,
-    "median_duration_ms": 25561
+    "median_duration_ms": 33082
   },
   {
     "name": "fuchsia-pkg://fuchsia.com/routing_integration_test#meta/routing_integration_test.cmx",
@@ -880,19 +800,14 @@
     "median_duration_ms": 18023
   },
   {
-    "name": "fuchsia-pkg://fuchsia.com/run_test_component_unittests#meta/run_test_component_unittests.cmx",
-    "runs": 1,
-    "median_duration_ms": 39370
-  },
-  {
     "name": "fuchsia-pkg://fuchsia.com/run_tests#meta/run_return_value_test.cmx",
     "runs": 1,
     "median_duration_ms": 36360
   },
   {
-    "name": "fuchsia-pkg://fuchsia.com/rust-crates-tests#meta/fuchsia_cprng_lib_test.cmx",
+    "name": "fuchsia-pkg://fuchsia.com/rust-trace-test#meta/fuchsia_trace_lib_test.cmx",
     "runs": 1,
-    "median_duration_ms": 30549
+    "median_duration_ms": 29674
   },
   {
     "name": "fuchsia-pkg://fuchsia.com/rust-ui-crates-tests#meta/fuchsia_scenic_lib_test.cmx",
@@ -903,11 +818,6 @@
     "name": "fuchsia-pkg://fuchsia.com/rust_fidl_tests#meta/fidl_conformance_tests.cmx",
     "runs": 1,
     "median_duration_ms": 387759
-  },
-  {
-    "name": "fuchsia-pkg://fuchsia.com/rust_fidl_tests#meta/fidl_external_tests.cmx",
-    "runs": 1,
-    "median_duration_ms": 30286
   },
   {
     "name": "fuchsia-pkg://fuchsia.com/rust_fidl_tests#meta/fidl_handle_tests.cmx",
@@ -925,14 +835,14 @@
     "median_duration_ms": 21669
   },
   {
+    "name": "fuchsia-pkg://fuchsia.com/scenic_tests#meta/gfx_apptests.cmx",
+    "runs": 1,
+    "median_duration_ms": 45961
+  },
+  {
     "name": "fuchsia-pkg://fuchsia.com/scenic_tests#meta/gfx_unittests.cmx",
     "runs": 1,
     "median_duration_ms": 35955
-  },
-  {
-    "name": "fuchsia-pkg://fuchsia.com/scenic_tests#meta/scenic_unittests.cmx",
-    "runs": 1,
-    "median_duration_ms": 54901
   },
   {
     "name": "fuchsia-pkg://fuchsia.com/scenic_utils_tests#meta/sequential_fence_signaller_unittest.cmx",
@@ -942,12 +852,12 @@
   {
     "name": "fuchsia-pkg://fuchsia.com/sched_tests#meta/sched_tests.cmx",
     "runs": 1,
-    "median_duration_ms": 28036
+    "median_duration_ms": 28068
   },
   {
-    "name": "fuchsia-pkg://fuchsia.com/session_control_tests#meta/session_control_bin_test.cm",
+    "name": "fuchsia-pkg://fuchsia.com/session_manager_tests#meta/session_manager_tests.cmx",
     "runs": 1,
-    "median_duration_ms": 25115
+    "median_duration_ms": 30966
   },
   {
     "name": "fuchsia-pkg://fuchsia.com/sessionmgr_unittests#meta/annotations_unittest.cmx",
@@ -955,9 +865,14 @@
     "median_duration_ms": 21729
   },
   {
-    "name": "fuchsia-pkg://fuchsia.com/setui_client_interface_test#meta/setui_client_interface_test.cmx",
+    "name": "fuchsia-pkg://fuchsia.com/setui_client_tests#meta/setui_client_lib_lib_test.cmx",
     "runs": 1,
-    "median_duration_ms": 25578
+    "median_duration_ms": 39679
+  },
+  {
+    "name": "fuchsia-pkg://fuchsia.com/shell_tests#meta/console_unittests_bin.cmx",
+    "runs": 1,
+    "median_duration_ms": 28419
   },
   {
     "name": "fuchsia-pkg://fuchsia.com/shell_tests#meta/parser_tests_bin.cmx",
@@ -975,39 +890,24 @@
     "median_duration_ms": 19048
   },
   {
+    "name": "fuchsia-pkg://fuchsia.com/simple_element_tests#meta/simple_element_bin_test.cm",
+    "runs": 1,
+    "median_duration_ms": 20586
+  },
+  {
     "name": "fuchsia-pkg://fuchsia.com/some_services#meta/some_services.cmx",
     "runs": 1,
     "median_duration_ms": 17162
   },
   {
-    "name": "fuchsia-pkg://fuchsia.com/spinel-mold-tests#meta/spinel_mold_lib_test.cmx",
+    "name": "fuchsia-pkg://fuchsia.com/soundplayer_tests#meta/soundplayer_bin_test.cmx",
     "runs": 1,
-    "median_duration_ms": 28231
+    "median_duration_ms": 50927
   },
   {
     "name": "fuchsia-pkg://fuchsia.com/stash_tests#meta/stash_bin_test.cmx",
-    "runs": 1,
+    "runs": 2,
     "median_duration_ms": 49203
-  },
-  {
-    "name": "fuchsia-pkg://fuchsia.com/static_linking_tests#meta/static_linking_lib_test.cmx",
-    "runs": 1,
-    "median_duration_ms": 31210
-  },
-  {
-    "name": "fuchsia-pkg://fuchsia.com/storage-ext4-parser-tests#meta/ext4_parser_test.cmx",
-    "runs": 1,
-    "median_duration_ms": 36657
-  },
-  {
-    "name": "fuchsia-pkg://fuchsia.com/storage_unittests#meta/story_storage_unittest.cmx",
-    "runs": 1,
-    "median_duration_ms": 124256
-  },
-  {
-    "name": "fuchsia-pkg://fuchsia.com/story_model_unittests#meta/ledger_story_model_storage_unittest.cmx",
-    "runs": 1,
-    "median_duration_ms": 69832
   },
   {
     "name": "fuchsia-pkg://fuchsia.com/sys_service_tests#meta/sys_service_unittests.cmx",
@@ -1020,29 +920,24 @@
     "median_duration_ms": 18407
   },
   {
-    "name": "fuchsia-pkg://fuchsia.com/sysmem_connector_test#meta/sysmem_connector_test.cmx",
-    "runs": 1,
-    "median_duration_ms": 27117
-  },
-  {
     "name": "fuchsia-pkg://fuchsia.com/sysmgr_integration_tests#meta/service_startup_test.cmx",
-    "runs": 1,
+    "runs": 2,
     "median_duration_ms": 20006
   },
   {
-    "name": "fuchsia-pkg://fuchsia.com/system-update-checker-integration-tests#meta/system-update-checker-integration-test.cmx",
+    "name": "fuchsia-pkg://fuchsia.com/sysmgr_tests#meta/config_test.cmx",
     "runs": 1,
-    "median_duration_ms": 33131
-  },
-  {
-    "name": "fuchsia-pkg://fuchsia.com/system-updater-integration-tests#meta/system-updater-v2-test.cmx",
-    "runs": 1,
-    "median_duration_ms": 90269
+    "median_duration_ms": 23495
   },
   {
     "name": "fuchsia-pkg://fuchsia.com/system_time_updater_test#meta/system_time_updater_test.cmx",
     "runs": 1,
     "median_duration_ms": 24462
+  },
+  {
+    "name": "fuchsia-pkg://fuchsia.com/telephony-tests#meta/tel_fake_at_query.cmx",
+    "runs": 1,
+    "median_duration_ms": 31465
   },
   {
     "name": "fuchsia-pkg://fuchsia.com/telephony_tests#meta/telephony_bin_test.cmx",
@@ -1051,23 +946,13 @@
   },
   {
     "name": "fuchsia-pkg://fuchsia.com/terminal_tests#meta/terminal_tests.cmx",
-    "runs": 1,
+    "runs": 2,
     "median_duration_ms": 151205
   },
   {
-    "name": "fuchsia-pkg://fuchsia.com/test_executor_unittests#meta/test_executor_lib_test.cmx",
+    "name": "fuchsia-pkg://fuchsia.com/test_manager_test#meta/test_manager_test.cm",
     "runs": 1,
-    "median_duration_ms": 28075
-  },
-  {
-    "name": "fuchsia-pkg://fuchsia.com/text_test_suite_tests#meta/text_test_suite_unittests.cmx",
-    "runs": 1,
-    "median_duration_ms": 30182
-  },
-  {
-    "name": "fuchsia-pkg://fuchsia.com/thermd_tests_package#meta/thermd_bin_test.cmx",
-    "runs": 1,
-    "median_duration_ms": 21332
+    "median_duration_ms": 22228
   },
   {
     "name": "fuchsia-pkg://fuchsia.com/timestamp_extrapolator_tests#meta/timestamp_extrapolator_tests.cmx",
@@ -1076,13 +961,8 @@
   },
   {
     "name": "fuchsia-pkg://fuchsia.com/token_manager_integration_test_pkg#meta/token_manager_integration_test.cmx",
-    "runs": 1,
+    "runs": 2,
     "median_duration_ms": 33872
-  },
-  {
-    "name": "fuchsia-pkg://fuchsia.com/trace_tests#meta/detach_tests.cmx",
-    "runs": 1,
-    "median_duration_ms": 25751
   },
   {
     "name": "fuchsia-pkg://fuchsia.com/triage_tests#meta/triage_bin_test.cmx",
@@ -1090,29 +970,19 @@
     "median_duration_ms": 47310
   },
   {
-    "name": "fuchsia-pkg://fuchsia.com/tz_version_parrot_test#meta/tz_version_parrot_test.cmx",
-    "runs": 1,
-    "median_duration_ms": 42380
-  },
-  {
     "name": "fuchsia-pkg://fuchsia.com/use_h264_decoder_test#meta/use_h264_decoder_test.cmx",
     "runs": 1,
     "median_duration_ms": 30325
   },
   {
+    "name": "fuchsia-pkg://fuchsia.com/vfs_cpp_tests#meta/vfs_cpp_unittests.cmx",
+    "runs": 1,
+    "median_duration_ms": 30168
+  },
+  {
     "name": "fuchsia-pkg://fuchsia.com/video_frame_hasher_test#meta/video_frame_hasher_lib_test.cmx",
     "runs": 1,
     "median_duration_ms": 20806
-  },
-  {
-    "name": "fuchsia-pkg://fuchsia.com/virtio-block-test-package#meta/virtio-block-test-package.cmx",
-    "runs": 1,
-    "median_duration_ms": 20412
-  },
-  {
-    "name": "fuchsia-pkg://fuchsia.com/virtual-console-test#meta/virtual-console-test-display.cmx",
-    "runs": 1,
-    "median_duration_ms": 26814
   },
   {
     "name": "fuchsia-pkg://fuchsia.com/vmm_tests#meta/vmm_unittests.cmx",
@@ -1125,24 +995,24 @@
     "median_duration_ms": 18748
   },
   {
-    "name": "fuchsia-pkg://fuchsia.com/wlan-hw-sim-test#meta/configure_legacy_privacy_off.cmx",
+    "name": "fuchsia-pkg://fuchsia.com/wlan-common-tests#meta/wlan_common_lib_test.cmx",
     "runs": 1,
-    "median_duration_ms": 45788
+    "median_duration_ms": 465190
   },
   {
-    "name": "fuchsia-pkg://fuchsia.com/wlan-hw-sim-test#meta/sim_client_vs_sim_ap.cmx",
+    "name": "fuchsia-pkg://fuchsia.com/wlan-sim-env-test#meta/rx_tests.cmx",
     "runs": 1,
-    "median_duration_ms": 36759
+    "median_duration_ms": 24897
   },
   {
     "name": "fuchsia-pkg://fuchsia.com/wlan-sim-fake-ap-test#meta/beacon_unittests.cmx",
     "runs": 1,
-    "median_duration_ms": 25490
+    "median_duration_ms": 28809
   },
   {
-    "name": "fuchsia-pkg://fuchsia.com/wlan-smoke-test-tests#meta/wlan-smoke-test-bin-test.cmx",
+    "name": "fuchsia-pkg://fuchsia.com/wlan-sim-fake-ap-test#meta/probe_unittests.cmx",
     "runs": 1,
-    "median_duration_ms": 46872
+    "median_duration_ms": 27734
   },
   {
     "name": "fuchsia-pkg://fuchsia.com/wlan_drivers_tests#meta/wlan_minstrel_unittest.cmx",
@@ -1150,14 +1020,14 @@
     "median_duration_ms": 19887
   },
   {
-    "name": "fuchsia-pkg://fuchsia.com/wlan_tests#meta/wlan_client_mlme_unittest.cmx",
+    "name": "fuchsia-pkg://fuchsia.com/wlan_tests#meta/wlan_service_unittest.cmx",
     "runs": 1,
-    "median_duration_ms": 35935
+    "median_duration_ms": 25341
   },
   {
-    "name": "fuchsia-pkg://fuchsia.com/wlan_tests#meta/wlan_common_unittest.cmx",
+    "name": "fuchsia-pkg://fuchsia.com/wlanif_unittest#meta/wlanif_device_unittest.cmx",
     "runs": 1,
-    "median_duration_ms": 24898
+    "median_duration_ms": 23948
   },
   {
     "name": "fuchsia-pkg://fuchsia.com/wlanif_unittest#meta/wlanif_impl_unittest.cmx",
@@ -1168,16 +1038,6 @@
     "name": "fuchsia-pkg://fuchsia.com/wlantool-tests#meta/wlan_bin_test.cmx",
     "runs": 1,
     "median_duration_ms": 33064
-  },
-  {
-    "name": "fuchsia-pkg://fuchsia.com/work_scheduler_integration_test#meta/work_scheduler_integration_test.cmx",
-    "runs": 1,
-    "median_duration_ms": 39187
-  },
-  {
-    "name": "fuchsia-pkg://fuchsia.com/workstation_session_tests#meta/workstation_session_bin_test.cm",
-    "runs": 1,
-    "median_duration_ms": 21312
   },
   {
     "name": "fuchsia-pkg://fuchsia.com/zircon_fuzzers#meta/ftl-read-write-fuzzer_test.cmx",
@@ -1195,11 +1055,6 @@
     "median_duration_ms": 17666
   },
   {
-    "name": "fuchsia-pkg://fuchsia.com/zircon_fuzzers#meta/journal-replay-fuzzer_test.cmx",
-    "runs": 1,
-    "median_duration_ms": 27219
-  },
-  {
     "name": "fuchsia-pkg://fuchsia.com/zircon_fuzzers#meta/noop-fuzzer_test.cmx",
     "runs": 1,
     "median_duration_ms": 16443
@@ -1208,6 +1063,11 @@
     "name": "fuchsia-pkg://fuchsia.com/zircon_fuzzers#meta/paver-validation-fuzzer_test.cmx",
     "runs": 1,
     "median_duration_ms": 20843
+  },
+  {
+    "name": "fuchsia-pkg://fuchsia.com/zircon_fuzzers#meta/usb-cdc-ecm-descriptor-fuzzer_test.cmx",
+    "runs": 1,
+    "median_duration_ms": 26430
   },
   {
     "name": "fuchsia-pkg://fuchsia.com/zircon_fuzzers#meta/utf_conversion-fuzzer_test.cmx",

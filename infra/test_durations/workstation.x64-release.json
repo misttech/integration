@@ -2,26 +2,71 @@
   {
     "name": "*",
     "runs": 0,
-    "median_duration_ms": 23842
+    "median_duration_ms": 18032
+  },
+  {
+    "name": "fuchsia-pkg://fuchsia.com/guest_interaction_tests#meta/client_operation_test.cmx",
+    "runs": 1,
+    "median_duration_ms": 2097
+  },
+  {
+    "name": "fuchsia-pkg://fuchsia.com/guest_interaction_tests#meta/guest_interaction_service_test.cmx",
+    "runs": 1,
+    "median_duration_ms": 27660
+  },
+  {
+    "name": "fuchsia-pkg://fuchsia.com/guest_interaction_tests#meta/server_daemon_test.cmx",
+    "runs": 1,
+    "median_duration_ms": 13763
+  },
+  {
+    "name": "fuchsia-pkg://fuchsia.com/guest_interaction_tests#meta/server_operation_test.cmx",
+    "runs": 1,
+    "median_duration_ms": 77
+  },
+  {
+    "name": "fuchsia-pkg://fuchsia.com/guest_unit_tests#meta/guest_unit_tests.cmx",
+    "runs": 2,
+    "median_duration_ms": 63
+  },
+  {
+    "name": "fuchsia-pkg://fuchsia.com/netemul_dhcp_tests#meta/dhcp_validity_test.cmx",
+    "runs": 1,
+    "median_duration_ms": 18788
+  },
+  {
+    "name": "fuchsia-pkg://fuchsia.com/netemul_guest_test#meta/grpc_client_stress_test.cmx",
+    "runs": 1,
+    "median_duration_ms": 34784
+  },
+  {
+    "name": "fuchsia-pkg://fuchsia.com/netemul_guest_test#meta/guest_test.cmx",
+    "runs": 1,
+    "median_duration_ms": 14538
+  },
+  {
+    "name": "fuchsia-pkg://fuchsia.com/netemul_guest_test#meta/multiple_guests_test.cmx",
+    "runs": 1,
+    "median_duration_ms": 18618
   },
   {
     "name": "host_x64-asan/merge_sdk_bin_test",
-    "runs": 7,
-    "median_duration_ms": 15
+    "runs": 113,
+    "median_duration_ms": 19
   },
   {
     "name": "host_x64-asan/sdk_metadata_lib_test",
-    "runs": 7,
-    "median_duration_ms": 14
+    "runs": 113,
+    "median_duration_ms": 17
   },
   {
     "name": "host_x64/screen_is_not_black_test",
-    "runs": 7,
-    "median_duration_ms": 56344
+    "runs": 104,
+    "median_duration_ms": 63819
   },
   {
     "name": "host_x64/sl4f_test",
-    "runs": 7,
-    "median_duration_ms": 38997
+    "runs": 104,
+    "median_duration_ms": 40178
   }
 ]
