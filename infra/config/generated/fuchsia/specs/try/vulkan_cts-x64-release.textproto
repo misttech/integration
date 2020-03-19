@@ -13,8 +13,8 @@ build: <
   build_type: "release"
   board: "boards/x64.gni"
   environment_tags: "vulkan-cts"
-  packages: "//garnet/packages:garnet"
   packages: "//garnet/packages/testing:all"
+  packages: "//garnet/packages:garnet"
   packages: "//third_party/vulkan-cts/fuchsia:vulkan-cts"
   product: "products/core.gni"
   run_tests: true

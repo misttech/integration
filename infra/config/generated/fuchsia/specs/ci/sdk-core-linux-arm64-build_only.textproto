@@ -15,8 +15,8 @@ build: <
   ninja_targets: "sdk/archive/core.tar.gz"
   ninja_targets: "sdk/archive/fuchsia_dart2.tar.gz"
   ninja_targets: "sdk/archive/modular_testing.tar.gz"
-  packages: "//topaz/packages/sdk:topaz"
   packages: "//sdk/bundles:tools"
+  packages: "//topaz/packages/sdk:topaz"
   product: "products/core.gni"
   target: "arm64"
   sdk_subbuild: true

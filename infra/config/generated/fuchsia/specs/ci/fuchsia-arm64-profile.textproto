@@ -17,8 +17,8 @@ build: <
   product: "products/core.gni"
   run_tests: true
   target: "arm64"
-  variants: "profile"
   variants: "host_asan"
+  variants: "profile"
   upload_results: true
 >
 test: <
