@@ -100,6 +100,14 @@
              platforms="linux-amd64,mac-amd64"
              path="prebuilt/third_party/aemu/{{.OS}}-{{.Arch}}"/>
 
+    <!-- OVMF, needed to emulate a UEFI firmware, from
+         https://ci.chromium.org/p/fuchsia/builders/ci/ovmf-x64
+    -->
+    <package name="fuchsia/firmware/ovmf/amd64"
+             version="git_revision:52664c525223a36e5cb9b141b11dec413908b1dd"
+             platforms="linux-amd64,mac-amd64"
+             path="prebuilt/third_party/ovmf/{{.OS}}-{{.Arch}}"/>
+
     <!-- Breakpad
          TODO(phosek): repo/bot link about provenance
     -->
