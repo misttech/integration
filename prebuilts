@@ -140,6 +140,12 @@
               version="git_revision:2155d0d436bf346333810cc352791063e1dda952"
               path="prebuilt/third_party/vpython"/>
 
+     <!-- Python3 interpreter, used for host tools after bootstrap.
+     -->
+     <package name="infra/3pp/tools/cpython3/${platform}"
+              version="version:3.8.2.chromium.10"
+              path="prebuilt/third_party/python3"/>
+
     <!--
         ************************************************************
         Tools maintained by Fuchsia outside fuchsia.git
