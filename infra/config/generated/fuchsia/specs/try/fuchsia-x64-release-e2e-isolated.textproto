@@ -34,6 +34,7 @@ test: <
   default_service_account: "artifact-readers@fuchsia-infra.iam.gserviceaccount.com"
   per_test_timeout_secs: 1200
   upload_results: true
+  max_shards_per_env: 30
 >
 gcs_bucket: "fuchsia-build"
 artifact_gcs_bucket: "fuchsia-artifacts"
