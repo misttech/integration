@@ -2,31 +2,56 @@
   {
     "name": "*",
     "runs": 0,
-    "median_duration_ms": 35717
+    "median_duration_ms": 18961
+  },
+  {
+    "name": "fuchsia-pkg://fuchsia.com/my-component-v2-cpp-tests#meta/my-component-v2-cpp_unittests.cm",
+    "runs": 140,
+    "median_duration_ms": 7422
+  },
+  {
+    "name": "fuchsia-pkg://fuchsia.com/my-component-v2-rust-tests#meta/my-component-v2-rust_test.cm",
+    "runs": 140,
+    "median_duration_ms": 1811
+  },
+  {
+    "name": "host_x64/create_bin_test",
+    "runs": 71,
+    "median_duration_ms": 46
+  },
+  {
+    "name": "host_x64/gen/tools/create/goldens/my-component-v2-cpp/test_script.py",
+    "runs": 71,
+    "median_duration_ms": 122
+  },
+  {
+    "name": "host_x64/gen/tools/create/goldens/my-component-v2-rust/test_script.py",
+    "runs": 71,
+    "median_duration_ms": 59
   },
   {
     "name": "host_x64/inspect_metrics_test",
-    "runs": 57,
-    "median_duration_ms": 8542
+    "runs": 181,
+    "median_duration_ms": 8556
   },
   {
     "name": "host_x64/merge_sdk_bin_test",
-    "runs": 162,
-    "median_duration_ms": 116
+    "runs": 200,
+    "median_duration_ms": 117
   },
   {
     "name": "host_x64/screen_is_not_black_test",
-    "runs": 163,
-    "median_duration_ms": 118626
+    "runs": 198,
+    "median_duration_ms": 118397
   },
   {
     "name": "host_x64/sdk_metadata_lib_test",
-    "runs": 165,
-    "median_duration_ms": 83
+    "runs": 200,
+    "median_duration_ms": 84
   },
   {
     "name": "host_x64/sl4f_test",
-    "runs": 163,
-    "median_duration_ms": 51219
+    "runs": 198,
+    "median_duration_ms": 52998
   }
 ]
