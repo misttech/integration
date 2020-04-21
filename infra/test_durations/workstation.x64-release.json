@@ -2,56 +2,66 @@
   {
     "name": "*",
     "runs": 0,
-    "median_duration_ms": 15988
+    "median_duration_ms": 13391
+  },
+  {
+    "name": "fuchsia-pkg://fuchsia.com/my-component-v1-rust-tests#meta/my-component-v1-rust_test.cmx",
+    "runs": 72,
+    "median_duration_ms": 1270
   },
   {
     "name": "fuchsia-pkg://fuchsia.com/my-component-v2-cpp-tests#meta/my-component-v2-cpp_unittests.cm",
-    "runs": 141,
-    "median_duration_ms": 2711
+    "runs": 191,
+    "median_duration_ms": 2404
   },
   {
     "name": "fuchsia-pkg://fuchsia.com/my-component-v2-rust-tests#meta/my-component-v2-rust_test.cm",
-    "runs": 141,
-    "median_duration_ms": 634
+    "runs": 191,
+    "median_duration_ms": 618
   },
   {
     "name": "host_x64-asan/create_bin_test",
-    "runs": 72,
-    "median_duration_ms": 18
+    "runs": 96,
+    "median_duration_ms": 19
   },
   {
     "name": "host_x64-asan/merge_sdk_bin_test",
-    "runs": 199,
-    "median_duration_ms": 41
+    "runs": 96,
+    "median_duration_ms": 40
   },
   {
     "name": "host_x64-asan/sdk_metadata_lib_test",
-    "runs": 199,
-    "median_duration_ms": 31
+    "runs": 96,
+    "median_duration_ms": 30
+  },
+  {
+    "name": "host_x64/gen/tools/create/goldens/my-component-v1-rust/test_script.py",
+    "runs": 36,
+    "median_duration_ms": 57
   },
   {
     "name": "host_x64/gen/tools/create/goldens/my-component-v2-cpp/test_script.py",
-    "runs": 72,
-    "median_duration_ms": 60
+    "runs": 96,
+    "median_duration_ms": 56
   },
   {
     "name": "host_x64/gen/tools/create/goldens/my-component-v2-rust/test_script.py",
-    "runs": 72,
-    "median_duration_ms": 42
+    "runs": 96,
+    "median_duration_ms": 43
   },
   {
     "name": "host_x64/inspect_metrics_test",
-    "runs": 197,
-    "median_duration_ms": 4957
+    "runs": 95,
+    "median_duration_ms": 4836
   },
   {
     "name": "host_x64/screen_is_not_black_test",
-    "runs": 197,
-    "median_duration_ms": 111481
+    "runs": 95,
+    "median_duration_ms": 111564
   },
   {
     "name": "host_x64/sl4f_test",
-    "runs": 197,
-    "median_duration_ms": 39910
+    "runs": 95,
+    "median_duration_ms": 39760
   }
 ]

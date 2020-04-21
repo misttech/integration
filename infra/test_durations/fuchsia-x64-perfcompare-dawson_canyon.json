@@ -2,71 +2,111 @@
   {
     "name": "*",
     "runs": 0,
-    "median_duration_ms": 54910
+    "median_duration_ms": 34722
+  },
+  {
+    "name": "fuchsia-pkg://fuchsia.com/my-component-v1-rust-tests#meta/my-component-v1-rust_test.cmx",
+    "runs": 10,
+    "median_duration_ms": 173
+  },
+  {
+    "name": "fuchsia-pkg://fuchsia.com/my-component-v2-cpp-tests#meta/my-component-v2-cpp_unittests.cm",
+    "runs": 55,
+    "median_duration_ms": 2111
+  },
+  {
+    "name": "fuchsia-pkg://fuchsia.com/my-component-v2-rust-tests#meta/my-component-v2-rust_test.cm",
+    "runs": 55,
+    "median_duration_ms": 586
+  },
+  {
+    "name": "host_x64-asan/create_bin_test",
+    "runs": 25,
+    "median_duration_ms": 18
   },
   {
     "name": "host_x64-asan/merge_sdk_bin_test",
     "runs": 25,
-    "median_duration_ms": 47
+    "median_duration_ms": 36
   },
   {
     "name": "host_x64-asan/sdk_metadata_lib_test",
     "runs": 25,
-    "median_duration_ms": 31
+    "median_duration_ms": 27
   },
   {
     "name": "host_x64/fidl_microbenchmarks_test",
-    "runs": 16,
-    "median_duration_ms": 78735
+    "runs": 31,
+    "median_duration_ms": 133559
+  },
+  {
+    "name": "host_x64/fidl_roundtrip_test",
+    "runs": 26,
+    "median_duration_ms": 35661
   },
   {
     "name": "host_x64/garnet_input_latency_benchmarks_test",
-    "runs": 16,
-    "median_duration_ms": 49086
+    "runs": 27,
+    "median_duration_ms": 45734
+  },
+  {
+    "name": "host_x64/gen/tools/create/goldens/my-component-v1-rust/test_script.py",
+    "runs": 5,
+    "median_duration_ms": 57
+  },
+  {
+    "name": "host_x64/gen/tools/create/goldens/my-component-v2-cpp/test_script.py",
+    "runs": 25,
+    "median_duration_ms": 52
+  },
+  {
+    "name": "host_x64/gen/tools/create/goldens/my-component-v2-rust/test_script.py",
+    "runs": 25,
+    "median_duration_ms": 41
   },
   {
     "name": "host_x64/kernel_boot_timeline_test",
-    "runs": 16,
-    "median_duration_ms": 2418
+    "runs": 31,
+    "median_duration_ms": 2384
   },
   {
     "name": "host_x64/ledger_perf_test",
-    "runs": 16,
-    "median_duration_ms": 20897
+    "runs": 26,
+    "median_duration_ms": 18782
   },
   {
     "name": "host_x64/microbenchmarks_test",
-    "runs": 21,
-    "median_duration_ms": 166523
+    "runs": 25,
+    "median_duration_ms": 96478
   },
   {
     "name": "host_x64/netstack_benchmarks_test",
-    "runs": 16,
-    "median_duration_ms": 4414
+    "runs": 27,
+    "median_duration_ms": 3821
   },
   {
     "name": "host_x64/netstack_iperf_test",
-    "runs": 15,
-    "median_duration_ms": 202345
+    "runs": 25,
+    "median_duration_ms": 202036
   },
   {
     "name": "host_x64/rust_inspect_benchmarks_test",
-    "runs": 16,
-    "median_duration_ms": 34708
+    "runs": 30,
+    "median_duration_ms": 34159
   },
   {
     "name": "host_x64/screen_is_not_black_test",
-    "runs": 21,
-    "median_duration_ms": 110748
+    "runs": 26,
+    "median_duration_ms": 110733
   },
   {
     "name": "host_x64/sl4f_test",
-    "runs": 21,
-    "median_duration_ms": 38066
+    "runs": 31,
+    "median_duration_ms": 37205
   },
   {
     "name": "host_x64/tspec_example_test",
-    "runs": 16,
-    "median_duration_ms": 5814
+    "runs": 27,
+    "median_duration_ms": 5519
   }
 ]
