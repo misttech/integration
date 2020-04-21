@@ -13,7 +13,7 @@ build: <
   build_type: "release"
   exclude_images: true
   ninja_targets: "sdk/archive/core.tar.gz"
-  ninja_targets: "sdk/archive/fuchsia_dart2.tar.gz"
+  ninja_targets: "sdk/archive/fuchsia_dart.tar.gz"
   ninja_targets: "sdk/archive/modular_testing.tar.gz"
   packages: "//sdk/bundles:tools"
   packages: "//topaz/packages/sdk:topaz"
