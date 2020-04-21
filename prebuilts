@@ -61,7 +61,7 @@
     -->
     <package name="fuchsia/rust_extra_tools/${platform}"
              version="git_revision:bf1f2eedda4fa02b7c9347dd849ed73ddd43dedc"
-             path="prebuilt/third_party/rust_extra_tools/{{.OS}}-{{.Arch}}"/>
+             path="prebuilt/third_party/rust_tools/{{.OS}}-{{.Arch}}"/>
 
     <!-- sysroot trees built from public OS images
          TODO(mcgrathr): repo/bot link about provenance
