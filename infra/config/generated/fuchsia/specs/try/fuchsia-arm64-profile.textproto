@@ -30,6 +30,7 @@ test: <
   default_service_account: "artifact-readers@fuchsia-infra.iam.gserviceaccount.com"
   upload_results: true
   target_shard_duration_secs: 540
+  zircon_args: "kernel.x86.disable_spec_mitigations=true"
 >
 gcs_bucket: "fuchsia-build"
 artifact_gcs_bucket: "fuchsia-artifacts"
