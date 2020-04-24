@@ -2,66 +2,76 @@
   {
     "name": "*",
     "runs": 0,
-    "median_duration_ms": 13391
+    "median_duration_ms": 11460
+  },
+  {
+    "name": "fuchsia-pkg://fuchsia.com/my-component-v1-cpp-tests#meta/my-component-v1-cpp_test.cmx",
+    "runs": 13,
+    "median_duration_ms": 1279
   },
   {
     "name": "fuchsia-pkg://fuchsia.com/my-component-v1-rust-tests#meta/my-component-v1-rust_test.cmx",
-    "runs": 72,
-    "median_duration_ms": 1270
+    "runs": 95,
+    "median_duration_ms": 730
   },
   {
     "name": "fuchsia-pkg://fuchsia.com/my-component-v2-cpp-tests#meta/my-component-v2-cpp_unittests.cm",
-    "runs": 191,
-    "median_duration_ms": 2404
+    "runs": 95,
+    "median_duration_ms": 2637
   },
   {
     "name": "fuchsia-pkg://fuchsia.com/my-component-v2-rust-tests#meta/my-component-v2-rust_test.cm",
-    "runs": 191,
-    "median_duration_ms": 618
+    "runs": 95,
+    "median_duration_ms": 611
   },
   {
     "name": "host_x64-asan/create_bin_test",
-    "runs": 96,
+    "runs": 49,
     "median_duration_ms": 19
   },
   {
     "name": "host_x64-asan/merge_sdk_bin_test",
-    "runs": 96,
-    "median_duration_ms": 40
+    "runs": 135,
+    "median_duration_ms": 39
   },
   {
     "name": "host_x64-asan/sdk_metadata_lib_test",
-    "runs": 96,
+    "runs": 135,
     "median_duration_ms": 30
   },
   {
-    "name": "host_x64/gen/tools/create/goldens/my-component-v1-rust/test_script.py",
-    "runs": 36,
-    "median_duration_ms": 57
+    "name": "host_x64/gen/tools/create/goldens/my-component-v1-cpp/test_script.py",
+    "runs": 7,
+    "median_duration_ms": 58
   },
   {
-    "name": "host_x64/gen/tools/create/goldens/my-component-v2-cpp/test_script.py",
-    "runs": 96,
+    "name": "host_x64/gen/tools/create/goldens/my-component-v1-rust/test_script.py",
+    "runs": 49,
     "median_duration_ms": 56
   },
   {
-    "name": "host_x64/gen/tools/create/goldens/my-component-v2-rust/test_script.py",
-    "runs": 96,
+    "name": "host_x64/gen/tools/create/goldens/my-component-v2-cpp/test_script.py",
+    "runs": 49,
     "median_duration_ms": 43
   },
   {
+    "name": "host_x64/gen/tools/create/goldens/my-component-v2-rust/test_script.py",
+    "runs": 49,
+    "median_duration_ms": 41
+  },
+  {
     "name": "host_x64/inspect_metrics_test",
-    "runs": 95,
-    "median_duration_ms": 4836
+    "runs": 134,
+    "median_duration_ms": 2665
   },
   {
     "name": "host_x64/screen_is_not_black_test",
-    "runs": 95,
-    "median_duration_ms": 111564
+    "runs": 134,
+    "median_duration_ms": 112368
   },
   {
     "name": "host_x64/sl4f_test",
-    "runs": 95,
-    "median_duration_ms": 39760
+    "runs": 134,
+    "median_duration_ms": 39869
   }
 ]

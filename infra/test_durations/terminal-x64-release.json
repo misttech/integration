@@ -2,111 +2,226 @@
   {
     "name": "*",
     "runs": 0,
-    "median_duration_ms": 34917
+    "median_duration_ms": 18068
+  },
+  {
+    "name": "fuchsia-pkg://fuchsia.com/my-component-v1-cpp-tests#meta/my-component-v1-cpp_test.cmx",
+    "runs": 17,
+    "median_duration_ms": 1213
+  },
+  {
+    "name": "fuchsia-pkg://fuchsia.com/my-component-v1-cpp-tests#meta/my-component-v1-cpp_test.cmx-(1)",
+    "runs": 2,
+    "median_duration_ms": 764
+  },
+  {
+    "name": "fuchsia-pkg://fuchsia.com/my-component-v1-cpp-tests#meta/my-component-v1-cpp_test.cmx-(10)",
+    "runs": 2,
+    "median_duration_ms": 1134
+  },
+  {
+    "name": "fuchsia-pkg://fuchsia.com/my-component-v1-cpp-tests#meta/my-component-v1-cpp_test.cmx-(11)",
+    "runs": 2,
+    "median_duration_ms": 76
+  },
+  {
+    "name": "fuchsia-pkg://fuchsia.com/my-component-v1-cpp-tests#meta/my-component-v1-cpp_test.cmx-(12)",
+    "runs": 2,
+    "median_duration_ms": 347
+  },
+  {
+    "name": "fuchsia-pkg://fuchsia.com/my-component-v1-cpp-tests#meta/my-component-v1-cpp_test.cmx-(13)",
+    "runs": 2,
+    "median_duration_ms": 79
+  },
+  {
+    "name": "fuchsia-pkg://fuchsia.com/my-component-v1-cpp-tests#meta/my-component-v1-cpp_test.cmx-(14)",
+    "runs": 2,
+    "median_duration_ms": 375
+  },
+  {
+    "name": "fuchsia-pkg://fuchsia.com/my-component-v1-cpp-tests#meta/my-component-v1-cpp_test.cmx-(15)",
+    "runs": 2,
+    "median_duration_ms": 73
+  },
+  {
+    "name": "fuchsia-pkg://fuchsia.com/my-component-v1-cpp-tests#meta/my-component-v1-cpp_test.cmx-(16)",
+    "runs": 2,
+    "median_duration_ms": 377
+  },
+  {
+    "name": "fuchsia-pkg://fuchsia.com/my-component-v1-cpp-tests#meta/my-component-v1-cpp_test.cmx-(17)",
+    "runs": 2,
+    "median_duration_ms": 68
+  },
+  {
+    "name": "fuchsia-pkg://fuchsia.com/my-component-v1-cpp-tests#meta/my-component-v1-cpp_test.cmx-(18)",
+    "runs": 2,
+    "median_duration_ms": 352
+  },
+  {
+    "name": "fuchsia-pkg://fuchsia.com/my-component-v1-cpp-tests#meta/my-component-v1-cpp_test.cmx-(19)",
+    "runs": 2,
+    "median_duration_ms": 68
+  },
+  {
+    "name": "fuchsia-pkg://fuchsia.com/my-component-v1-cpp-tests#meta/my-component-v1-cpp_test.cmx-(2)",
+    "runs": 2,
+    "median_duration_ms": 357
+  },
+  {
+    "name": "fuchsia-pkg://fuchsia.com/my-component-v1-cpp-tests#meta/my-component-v1-cpp_test.cmx-(20)",
+    "runs": 2,
+    "median_duration_ms": 77
+  },
+  {
+    "name": "fuchsia-pkg://fuchsia.com/my-component-v1-cpp-tests#meta/my-component-v1-cpp_test.cmx-(3)",
+    "runs": 2,
+    "median_duration_ms": 343
+  },
+  {
+    "name": "fuchsia-pkg://fuchsia.com/my-component-v1-cpp-tests#meta/my-component-v1-cpp_test.cmx-(4)",
+    "runs": 2,
+    "median_duration_ms": 72
+  },
+  {
+    "name": "fuchsia-pkg://fuchsia.com/my-component-v1-cpp-tests#meta/my-component-v1-cpp_test.cmx-(5)",
+    "runs": 2,
+    "median_duration_ms": 321
+  },
+  {
+    "name": "fuchsia-pkg://fuchsia.com/my-component-v1-cpp-tests#meta/my-component-v1-cpp_test.cmx-(6)",
+    "runs": 2,
+    "median_duration_ms": 72
+  },
+  {
+    "name": "fuchsia-pkg://fuchsia.com/my-component-v1-cpp-tests#meta/my-component-v1-cpp_test.cmx-(7)",
+    "runs": 2,
+    "median_duration_ms": 322
+  },
+  {
+    "name": "fuchsia-pkg://fuchsia.com/my-component-v1-cpp-tests#meta/my-component-v1-cpp_test.cmx-(8)",
+    "runs": 2,
+    "median_duration_ms": 73
+  },
+  {
+    "name": "fuchsia-pkg://fuchsia.com/my-component-v1-cpp-tests#meta/my-component-v1-cpp_test.cmx-(9)",
+    "runs": 2,
+    "median_duration_ms": 318
   },
   {
     "name": "fuchsia-pkg://fuchsia.com/my-component-v1-rust-tests#meta/my-component-v1-rust_test.cmx",
-    "runs": 178,
-    "median_duration_ms": 1271
+    "runs": 495,
+    "median_duration_ms": 695
   },
   {
     "name": "fuchsia-pkg://fuchsia.com/my-component-v2-cpp-tests#meta/my-component-v2-cpp_unittests.cm",
-    "runs": 686,
-    "median_duration_ms": 2559
+    "runs": 493,
+    "median_duration_ms": 2734
   },
   {
     "name": "fuchsia-pkg://fuchsia.com/my-component-v2-rust-tests#meta/my-component-v2-rust_test.cm",
-    "runs": 686,
-    "median_duration_ms": 618
+    "runs": 494,
+    "median_duration_ms": 563
   },
   {
     "name": "host_x64-asan/create_bin_test",
-    "runs": 347,
-    "median_duration_ms": 19
+    "runs": 252,
+    "median_duration_ms": 18
   },
   {
     "name": "host_x64-asan/merge_sdk_bin_test",
-    "runs": 343,
-    "median_duration_ms": 39
+    "runs": 576,
+    "median_duration_ms": 38
   },
   {
     "name": "host_x64-asan/sdk_metadata_lib_test",
-    "runs": 347,
+    "runs": 577,
     "median_duration_ms": 30
   },
   {
     "name": "host_x64/fidl_microbenchmarks_test",
-    "runs": 338,
-    "median_duration_ms": 132867
+    "runs": 516,
+    "median_duration_ms": 185268
   },
   {
     "name": "host_x64/fidl_roundtrip_test",
-    "runs": 342,
-    "median_duration_ms": 35813
+    "runs": 29,
+    "median_duration_ms": 35808
   },
   {
     "name": "host_x64/garnet_input_latency_benchmarks_test",
-    "runs": 342,
-    "median_duration_ms": 46309
+    "runs": 621,
+    "median_duration_ms": 46256
   },
   {
-    "name": "host_x64/gen/tools/create/goldens/my-component-v1-rust/test_script.py",
-    "runs": 91,
+    "name": "host_x64/gen/tools/create/goldens/my-component-v1-cpp/test_script.py",
+    "runs": 9,
     "median_duration_ms": 58
   },
   {
+    "name": "host_x64/gen/tools/create/goldens/my-component-v1-rust/test_script.py",
+    "runs": 252,
+    "median_duration_ms": 56
+  },
+  {
     "name": "host_x64/gen/tools/create/goldens/my-component-v2-cpp/test_script.py",
-    "runs": 347,
-    "median_duration_ms": 57
+    "runs": 252,
+    "median_duration_ms": 43
   },
   {
     "name": "host_x64/gen/tools/create/goldens/my-component-v2-rust/test_script.py",
-    "runs": 347,
+    "runs": 252,
     "median_duration_ms": 42
   },
   {
     "name": "host_x64/kernel_boot_timeline_test",
-    "runs": 342,
-    "median_duration_ms": 2404
+    "runs": 616,
+    "median_duration_ms": 2402
   },
   {
     "name": "host_x64/ledger_perf_test",
-    "runs": 342,
-    "median_duration_ms": 18820
+    "runs": 623,
+    "median_duration_ms": 18833
   },
   {
     "name": "host_x64/microbenchmarks_test",
-    "runs": 342,
-    "median_duration_ms": 98510
+    "runs": 574,
+    "median_duration_ms": 98541
   },
   {
     "name": "host_x64/netstack_benchmarks_test",
-    "runs": 342,
+    "runs": 575,
     "median_duration_ms": 3856
   },
   {
     "name": "host_x64/netstack_iperf_test",
-    "runs": 346,
-    "median_duration_ms": 202293
+    "runs": 565,
+    "median_duration_ms": 205881
   },
   {
     "name": "host_x64/rust_inspect_benchmarks_test",
-    "runs": 346,
-    "median_duration_ms": 34120
+    "runs": 573,
+    "median_duration_ms": 34108
   },
   {
     "name": "host_x64/screen_is_not_black_test",
-    "runs": 338,
-    "median_duration_ms": 110617
+    "runs": 619,
+    "median_duration_ms": 109991
   },
   {
     "name": "host_x64/sl4f_test",
-    "runs": 346,
-    "median_duration_ms": 37395
+    "runs": 617,
+    "median_duration_ms": 37336
+  },
+  {
+    "name": "host_x64/testparser_tests",
+    "runs": 2,
+    "median_duration_ms": 23
   },
   {
     "name": "host_x64/tspec_example_test",
-    "runs": 342,
-    "median_duration_ms": 5562
+    "runs": 575,
+    "median_duration_ms": 5552
   }
 ]
