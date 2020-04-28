@@ -189,6 +189,19 @@
              path="prebuilt/tools/banjo/{{.OS}}-{{.Arch}}"
              platforms="linux-amd64,mac-amd64"/>
 
+    <!-- See //tools/vboot_reference.
+	 These are updated by the vboot_reference-roller bot whenever
+	 the host_prebuilts bot publishes new packages.
+      -->
+    <package name="fuchsia/tools/cgpt/${platform}"
+             version="git_revision:abf8b59c11f1bfb4dfc49969af3838d2842ae649"
+             path="prebuilt/tools/cgpt/{{.OS}}-{{.Arch}}"
+             platforms="linux-amd64,mac-amd64"/>
+    <package name="fuchsia/tools/futility/${platform}"
+             version="git_revision:abf8b59c11f1bfb4dfc49969af3838d2842ae649"
+             path="prebuilt/tools/futility/{{.OS}}-{{.Arch}}"
+             platforms="linux-amd64,mac-amd64"/>
+
     <!-- Packages for build -->
     <!--   Dart -->
     <package name="fuchsia/dart-sdk/${platform}"
