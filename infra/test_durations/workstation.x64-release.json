@@ -2,31 +2,36 @@
   {
     "name": "*",
     "runs": 0,
-    "median_duration_ms": 23672
+    "median_duration_ms": 19620
+  },
+  {
+    "name": "fuchsia-pkg://fuchsia.com/usb-video-test#meta/usb-video-test.cmx",
+    "runs": 111,
+    "median_duration_ms": 577
   },
   {
     "name": "host_x64-asan/ffx_e2e_test",
-    "runs": 2,
+    "runs": 32,
     "median_duration_ms": 2909
   },
   {
     "name": "host_x64-asan/merge_sdk_bin_test",
-    "runs": 92,
+    "runs": 123,
     "median_duration_ms": 40
   },
   {
     "name": "host_x64-asan/sdk_metadata_lib_test",
-    "runs": 92,
+    "runs": 123,
     "median_duration_ms": 30
   },
   {
     "name": "host_x64/inspect_metrics_test",
-    "runs": 90,
-    "median_duration_ms": 2659
+    "runs": 119,
+    "median_duration_ms": 2664
   },
   {
     "name": "host_x64/screen_is_not_black_test",
-    "runs": 90,
-    "median_duration_ms": 112722
+    "runs": 119,
+    "median_duration_ms": 111498
   }
 ]

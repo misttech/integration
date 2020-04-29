@@ -2,71 +2,81 @@
   {
     "name": "*",
     "runs": 0,
-    "median_duration_ms": 58018
+    "median_duration_ms": 50399
+  },
+  {
+    "name": "fuchsia-pkg://fuchsia.com/usb-video-test#meta/usb-video-test.cmx",
+    "runs": 40,
+    "median_duration_ms": 522
+  },
+  {
+    "name": "host_x64-asan/ffx_e2e_test",
+    "runs": 10,
+    "median_duration_ms": 2825
   },
   {
     "name": "host_x64-asan/merge_sdk_bin_test",
-    "runs": 41,
-    "median_duration_ms": 41
+    "runs": 56,
+    "median_duration_ms": 38
   },
   {
     "name": "host_x64-asan/sdk_metadata_lib_test",
-    "runs": 41,
-    "median_duration_ms": 30
+    "runs": 56,
+    "median_duration_ms": 29
   },
   {
     "name": "host_x64/fidl_microbenchmarks_test",
-    "runs": 41,
+    "runs": 55,
     "median_duration_ms": 183138
   },
   {
     "name": "host_x64/garnet_input_latency_benchmarks_test",
-    "runs": 41,
+    "runs": 56,
     "median_duration_ms": 46245
   },
   {
     "name": "host_x64/kernel_boot_timeline_test",
-    "runs": 41,
-    "median_duration_ms": 2395
+    "runs": 56,
+    "median_duration_ms": 2393
   },
   {
     "name": "host_x64/ledger_perf_test",
-    "runs": 41,
-    "median_duration_ms": 18797
+    "runs": 56,
+    "median_duration_ms": 18756
   },
   {
     "name": "host_x64/microbenchmarks_test",
-    "runs": 41,
-    "median_duration_ms": 101139
+    "runs": 56,
+    "median_duration_ms": 99020
   },
   {
     "name": "host_x64/netstack_benchmarks_test",
-    "runs": 41,
-    "median_duration_ms": 3877
+    "runs": 56,
+    "median_duration_ms": 3874
   },
   {
     "name": "host_x64/netstack_iperf_test",
-    "runs": 41,
-    "median_duration_ms": 205625
+    "runs": 56,
+    "median_duration_ms": 205899
   },
   {
     "name": "host_x64/rust_inspect_benchmarks_test",
-    "runs": 41,
-    "median_duration_ms": 34067
+    "runs": 56,
+    "median_duration_ms": 33990
   },
   {
     "name": "host_x64/screen_is_not_black_test",
-    "runs": 41,
-    "median_duration_ms": 109920
+    "runs": 56,
+    "median_duration_ms": 109925
   },
   {
     "name": "host_x64/sl4f_test",
-    "runs": 41,
-    "median_duration_ms": 43406
+    "runs": 56,
+    "median_duration_ms": 43760
   },
   {
     "name": "host_x64/tspec_example_test",
-    "runs": 41,
-    "median_duration_ms": 5557
+    "runs": 56,
+    "median_duration_ms": 5564
   }
 ]
