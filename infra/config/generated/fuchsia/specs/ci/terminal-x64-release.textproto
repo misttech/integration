@@ -12,7 +12,7 @@ checkout: <
 >
 build: <
   build_type: "release"
-  board: "boards/x64.gni"
+  board: "boards/x64-reduced-perf-variation.gni"
   packages: "//bundles/buildbot:terminal"
   product: "products/terminal.gni"
   run_tests: true
