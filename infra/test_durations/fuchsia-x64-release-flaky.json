@@ -2,11 +2,16 @@
   {
     "name": "*",
     "runs": 0,
-    "median_duration_ms": 384
+    "median_duration_ms": 15976
   },
   {
     "name": "fuchsia-pkg://fuchsia.com/e2e_input_tests#meta/minimal_input_test.cmx",
-    "runs": 51,
+    "runs": 47,
     "median_duration_ms": 384
+  },
+  {
+    "name": "fuchsia-pkg://fuchsia.com/netemul_guest_test#meta/grpc_client_stress_test.cmx",
+    "runs": 7,
+    "median_duration_ms": 31569
   }
 ]

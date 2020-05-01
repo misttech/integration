@@ -2,17 +2,17 @@
   {
     "name": "*",
     "runs": 0,
-    "median_duration_ms": 17151
+    "median_duration_ms": 60769
   },
   {
     "name": "fuchsia-pkg://fuchsia.com/usb-video-test#meta/usb-video-test.cmx",
-    "runs": 804,
-    "median_duration_ms": 859
+    "runs": 1039,
+    "median_duration_ms": 944
   },
   {
     "name": "host_x64-asan/ffx_e2e_test",
-    "runs": 71,
-    "median_duration_ms": 3140
+    "runs": 43,
+    "median_duration_ms": 2954
   },
   {
     "name": "host_x64-asan/merge_sdk_bin_test",
@@ -20,213 +20,63 @@
     "median_duration_ms": 38
   },
   {
-    "name": "host_x64-asan/merge_sdk_bin_test-(1)",
-    "runs": 2,
-    "median_duration_ms": 16
-  },
-  {
-    "name": "host_x64-asan/merge_sdk_bin_test-(10)",
-    "runs": 2,
-    "median_duration_ms": 14
-  },
-  {
-    "name": "host_x64-asan/merge_sdk_bin_test-(11)",
-    "runs": 2,
-    "median_duration_ms": 17
-  },
-  {
-    "name": "host_x64-asan/merge_sdk_bin_test-(12)",
-    "runs": 2,
-    "median_duration_ms": 15
-  },
-  {
-    "name": "host_x64-asan/merge_sdk_bin_test-(13)",
-    "runs": 2,
-    "median_duration_ms": 15
-  },
-  {
-    "name": "host_x64-asan/merge_sdk_bin_test-(14)",
-    "runs": 2,
-    "median_duration_ms": 14
-  },
-  {
-    "name": "host_x64-asan/merge_sdk_bin_test-(15)",
-    "runs": 2,
-    "median_duration_ms": 15
-  },
-  {
-    "name": "host_x64-asan/merge_sdk_bin_test-(16)",
-    "runs": 2,
-    "median_duration_ms": 16
-  },
-  {
-    "name": "host_x64-asan/merge_sdk_bin_test-(17)",
-    "runs": 2,
-    "median_duration_ms": 13
-  },
-  {
-    "name": "host_x64-asan/merge_sdk_bin_test-(18)",
-    "runs": 2,
-    "median_duration_ms": 16
-  },
-  {
-    "name": "host_x64-asan/merge_sdk_bin_test-(19)",
-    "runs": 2,
-    "median_duration_ms": 15
-  },
-  {
-    "name": "host_x64-asan/merge_sdk_bin_test-(2)",
-    "runs": 2,
-    "median_duration_ms": 14
-  },
-  {
-    "name": "host_x64-asan/merge_sdk_bin_test-(20)",
-    "runs": 2,
-    "median_duration_ms": 15
-  },
-  {
-    "name": "host_x64-asan/merge_sdk_bin_test-(21)",
-    "runs": 2,
-    "median_duration_ms": 15
-  },
-  {
-    "name": "host_x64-asan/merge_sdk_bin_test-(22)",
-    "runs": 2,
-    "median_duration_ms": 15
-  },
-  {
-    "name": "host_x64-asan/merge_sdk_bin_test-(23)",
-    "runs": 2,
-    "median_duration_ms": 15
-  },
-  {
-    "name": "host_x64-asan/merge_sdk_bin_test-(24)",
-    "runs": 2,
-    "median_duration_ms": 15
-  },
-  {
-    "name": "host_x64-asan/merge_sdk_bin_test-(25)",
-    "runs": 2,
-    "median_duration_ms": 15
-  },
-  {
-    "name": "host_x64-asan/merge_sdk_bin_test-(26)",
-    "runs": 2,
-    "median_duration_ms": 15
-  },
-  {
-    "name": "host_x64-asan/merge_sdk_bin_test-(27)",
-    "runs": 2,
-    "median_duration_ms": 14
-  },
-  {
-    "name": "host_x64-asan/merge_sdk_bin_test-(28)",
-    "runs": 2,
-    "median_duration_ms": 15
-  },
-  {
-    "name": "host_x64-asan/merge_sdk_bin_test-(29)",
-    "runs": 2,
-    "median_duration_ms": 13
-  },
-  {
-    "name": "host_x64-asan/merge_sdk_bin_test-(3)",
-    "runs": 2,
-    "median_duration_ms": 13
-  },
-  {
-    "name": "host_x64-asan/merge_sdk_bin_test-(30)",
-    "runs": 2,
-    "median_duration_ms": 16
-  },
-  {
-    "name": "host_x64-asan/merge_sdk_bin_test-(4)",
-    "runs": 2,
-    "median_duration_ms": 15
-  },
-  {
-    "name": "host_x64-asan/merge_sdk_bin_test-(5)",
-    "runs": 2,
-    "median_duration_ms": 14
-  },
-  {
-    "name": "host_x64-asan/merge_sdk_bin_test-(6)",
-    "runs": 2,
-    "median_duration_ms": 18
-  },
-  {
-    "name": "host_x64-asan/merge_sdk_bin_test-(7)",
-    "runs": 2,
-    "median_duration_ms": 15
-  },
-  {
-    "name": "host_x64-asan/merge_sdk_bin_test-(8)",
-    "runs": 2,
-    "median_duration_ms": 16
-  },
-  {
-    "name": "host_x64-asan/merge_sdk_bin_test-(9)",
-    "runs": 2,
-    "median_duration_ms": 13
-  },
-  {
     "name": "host_x64-asan/sdk_metadata_lib_test",
-    "runs": 529,
+    "runs": 526,
     "median_duration_ms": 30
   },
   {
     "name": "host_x64/fidl_microbenchmarks_test",
-    "runs": 522,
-    "median_duration_ms": 195890
+    "runs": 517,
+    "median_duration_ms": 312040
   },
   {
     "name": "host_x64/garnet_input_latency_benchmarks_test",
     "runs": 524,
-    "median_duration_ms": 46463
+    "median_duration_ms": 45161
   },
   {
     "name": "host_x64/kernel_boot_timeline_test",
-    "runs": 520,
-    "median_duration_ms": 2389
+    "runs": 524,
+    "median_duration_ms": 2392
   },
   {
     "name": "host_x64/ledger_perf_test",
-    "runs": 520,
-    "median_duration_ms": 18828
+    "runs": 524,
+    "median_duration_ms": 19149
   },
   {
     "name": "host_x64/microbenchmarks_test",
-    "runs": 520,
-    "median_duration_ms": 100678
+    "runs": 523,
+    "median_duration_ms": 108277
   },
   {
     "name": "host_x64/netstack_benchmarks_test",
-    "runs": 520,
-    "median_duration_ms": 3861
+    "runs": 524,
+    "median_duration_ms": 3885
   },
   {
     "name": "host_x64/netstack_iperf_test",
     "runs": 518,
-    "median_duration_ms": 205699
+    "median_duration_ms": 205106
   },
   {
     "name": "host_x64/rust_inspect_benchmarks_test",
-    "runs": 530,
-    "median_duration_ms": 34193
+    "runs": 529,
+    "median_duration_ms": 51636
   },
   {
     "name": "host_x64/screen_is_not_black_test",
     "runs": 530,
-    "median_duration_ms": 109979
+    "median_duration_ms": 110070
   },
   {
     "name": "host_x64/sl4f_test",
     "runs": 519,
-    "median_duration_ms": 43771
+    "median_duration_ms": 44301
   },
   {
     "name": "host_x64/tspec_example_test",
-    "runs": 520,
-    "median_duration_ms": 5545
+    "runs": 524,
+    "median_duration_ms": 5547
   }
 ]
