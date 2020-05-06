@@ -10,23 +10,22 @@ checkout: <
   remote: "https://fuchsia.googlesource.com/integration"
 >
 build: <
-  build_type: "debug"
-  board: "boards/x64.gni"
-  packages: "//bundles/buildbot:bringup"
-  product: "products/bringup.gni"
+  build_type: "release"
+  board: "boards/arm64.gni"
+  packages: "//bundles/buildbot:core"
+  product: "products/core.gni"
   run_tests: true
-  target: "x64"
-  variants: "gcc"
+  target: "arm64"
   variants: "host_asan"
 >
 test: <
-  device_type: "QEMU"
+  pave: true
   pool: "fuchsia.tests"
   swarming_expiration_timeout_secs: 18000
   swarming_io_timeout_secs: 310
+  test_in_shards: true
   timeout_secs: 2400
   max_attempts: 1
-  use_runtests: true
   default_service_account: "artifact-readers@fuchsia-infra.iam.gserviceaccount.com"
   per_test_timeout_secs: 300
   upload_results: true
