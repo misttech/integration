@@ -2,36 +2,41 @@
   {
     "name": "*",
     "runs": 0,
-    "median_duration_ms": 27103
+    "median_duration_ms": 22550
+  },
+  {
+    "name": "//src/camera/drivers/usb_video:usb-video-test-package(//build/toolchain/fuchsia:x64)",
+    "runs": 24,
+    "median_duration_ms": 30
   },
   {
     "name": "fuchsia-pkg://fuchsia.com/usb-video-test#meta/usb-video-test.cmx",
-    "runs": 232,
-    "median_duration_ms": 1136
+    "runs": 217,
+    "median_duration_ms": 1162
   },
   {
     "name": "host_x64-asan/merge_sdk_bin_test",
-    "runs": 130,
-    "median_duration_ms": 36
+    "runs": 133,
+    "median_duration_ms": 37
   },
   {
     "name": "host_x64-asan/sdk_metadata_lib_test",
-    "runs": 132,
-    "median_duration_ms": 29
+    "runs": 135,
+    "median_duration_ms": 30
   },
   {
     "name": "host_x64/inspect_metrics_test",
-    "runs": 105,
-    "median_duration_ms": 2600
+    "runs": 107,
+    "median_duration_ms": 2595
   },
   {
     "name": "host_x64/screen_is_not_black_test",
-    "runs": 101,
-    "median_duration_ms": 111508
+    "runs": 103,
+    "median_duration_ms": 111762
   },
   {
     "name": "host_x64/sl4f_test",
-    "runs": 4,
-    "median_duration_ms": 47311
+    "runs": 9,
+    "median_duration_ms": 42232
   }
 ]

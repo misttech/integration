@@ -2,16 +2,26 @@
   {
     "name": "*",
     "runs": 0,
-    "median_duration_ms": 22546
+    "median_duration_ms": 11490
+  },
+  {
+    "name": "//src/connectivity/network/testing/netemul/runner/test:netemul_guest_test(//build/toolchain/fuchsia:x64)",
+    "runs": 12,
+    "median_duration_ms": 2
+  },
+  {
+    "name": "//src/ui/tests/e2e_input_tests/scenic:e2e_input_tests(//build/toolchain/fuchsia:x64)",
+    "runs": 12,
+    "median_duration_ms": 2
   },
   {
     "name": "fuchsia-pkg://fuchsia.com/e2e_input_tests#meta/minimal_input_test.cmx",
-    "runs": 47,
-    "median_duration_ms": 1921
+    "runs": 44,
+    "median_duration_ms": 1927
   },
   {
     "name": "fuchsia-pkg://fuchsia.com/netemul_guest_test#meta/grpc_client_stress_test.cmx",
-    "runs": 48,
-    "median_duration_ms": 43172
+    "runs": 45,
+    "median_duration_ms": 44027
   }
 ]

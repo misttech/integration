@@ -2,81 +2,81 @@
   {
     "name": "*",
     "runs": 0,
-    "median_duration_ms": 77350
+    "median_duration_ms": 71013
+  },
+  {
+    "name": "//src/camera/drivers/usb_video:usb-video-test-package(//build/toolchain/fuchsia:x64)",
+    "runs": 27,
+    "median_duration_ms": 7
   },
   {
     "name": "fuchsia-pkg://fuchsia.com/usb-video-test#meta/usb-video-test.cmx",
-    "runs": 108,
-    "median_duration_ms": 1158
+    "runs": 103,
+    "median_duration_ms": 1216
   },
   {
     "name": "host_x64-asan/merge_sdk_bin_test",
-    "runs": 61,
-    "median_duration_ms": 37
+    "runs": 68,
+    "median_duration_ms": 38
   },
   {
     "name": "host_x64-asan/sdk_metadata_lib_test",
-    "runs": 61,
+    "runs": 68,
     "median_duration_ms": 29
   },
   {
     "name": "host_x64/fidl_microbenchmarks_test",
-    "runs": 56,
-    "median_duration_ms": 483887
+    "runs": 63,
+    "median_duration_ms": 484207
   },
   {
     "name": "host_x64/garnet_input_latency_benchmarks_test",
-    "runs": 54,
-    "median_duration_ms": 25261
+    "runs": 63,
+    "median_duration_ms": 25216
   },
   {
     "name": "host_x64/kernel_boot_timeline_test",
-    "runs": 53,
-    "median_duration_ms": 2387
+    "runs": 63,
+    "median_duration_ms": 2380
   },
   {
     "name": "host_x64/ledger_perf_test",
-    "runs": 44,
-    "median_duration_ms": 19197
+    "runs": 26,
+    "median_duration_ms": 19160
   },
   {
     "name": "host_x64/microbenchmarks_test",
-    "runs": 49,
-    "median_duration_ms": 110122
+    "runs": 61,
+    "median_duration_ms": 109802
   },
   {
     "name": "host_x64/netstack_benchmarks_test",
-    "runs": 55,
-    "median_duration_ms": 3914
+    "runs": 62,
+    "median_duration_ms": 3904
   },
   {
     "name": "host_x64/netstack_iperf_test",
-    "runs": 48,
-    "median_duration_ms": 203096
+    "runs": 61,
+    "median_duration_ms": 203067
   },
   {
     "name": "host_x64/rust_inspect_benchmarks_test",
-    "runs": 48,
-    "median_duration_ms": 53687
-  },
-  {
-    "name": "host_x64/screen_is_not_black_no_basemgr_test",
-    "runs": 1,
-    "median_duration_ms": 94462
+    "runs": 61,
+    "median_duration_ms": 54296
   },
   {
     "name": "host_x64/screen_is_not_black_test",
-    "runs": 48,
-    "median_duration_ms": 110682
+    "runs": 61,
+    "median_duration_ms": 109953
   },
   {
     "name": "host_x64/sl4f_test",
-    "runs": 47,
-    "median_duration_ms": 46781
+    "runs": 60,
+    "median_duration_ms": 46366
   },
   {
     "name": "host_x64/tspec_example_test",
-    "runs": 52,
-    "median_duration_ms": 5552
+    "runs": 62,
+    "median_duration_ms": 5555
   }
 ]
