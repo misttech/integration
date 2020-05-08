@@ -13,6 +13,7 @@ build: <
   build_type: "debug"
   board: "boards/arm64.gni"
   gn_args: "enable_netboot = false"
+  gn_args: "optimize = \"sanitizer\""
   packages: "//bundles/buildbot:core"
   product: "products/core.gni"
   run_tests: true

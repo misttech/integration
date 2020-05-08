@@ -12,7 +12,7 @@ checkout: <
 build: <
   build_type: "debug"
   board: "boards/x64.gni"
-  gn_args: "zircon_extra_args = { opt_level=-1 }"
+  gn_args: "zircon_extra_args = { optimize = \"none\" }"
   packages: "//bundles/buildbot:bringup"
   product: "products/bringup.gni"
   target: "x64"

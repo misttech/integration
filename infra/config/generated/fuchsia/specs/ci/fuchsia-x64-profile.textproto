@@ -13,6 +13,7 @@ checkout: <
 build: <
   build_type: "debug"
   board: "boards/qemu-x64.gni"
+  gn_args: "optimize = \"profile\""
   packages: "//bundles/buildbot:core"
   product: "products/core.gni"
   run_tests: true

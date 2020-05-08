@@ -12,6 +12,7 @@ checkout: <
 build: <
   build_type: "debug"
   board: "boards/qemu-x64.gni"
+  gn_args: "optimize = \"sanitizer\""
   packages: "//bundles/buildbot:core"
   product: "products/core.gni"
   target: "x64"
