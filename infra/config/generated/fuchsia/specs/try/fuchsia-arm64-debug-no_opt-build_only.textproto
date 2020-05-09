@@ -11,12 +11,11 @@ checkout: <
 >
 build: <
   build_type: "debug"
-  board: "boards/x64.gni"
+  board: "boards/arm64.gni"
   gn_args: "optimize = \"none\""
-  packages: "//bundles/buildbot:bringup"
-  product: "products/bringup.gni"
-  target: "x64"
-  variants: "clang"
+  packages: "//bundles/buildbot:core"
+  product: "products/core.gni"
+  target: "arm64"
   variants: "host_asan"
 >
 gcs_bucket: "fuchsia-build"

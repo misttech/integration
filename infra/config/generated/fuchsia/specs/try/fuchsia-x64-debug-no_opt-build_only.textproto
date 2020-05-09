@@ -13,10 +13,9 @@ build: <
   build_type: "debug"
   board: "boards/x64.gni"
   gn_args: "optimize = \"none\""
-  packages: "//bundles/buildbot:bringup"
-  product: "products/bringup.gni"
+  packages: "//bundles/buildbot:core"
+  product: "products/core.gni"
   target: "x64"
-  variants: "clang"
   variants: "host_asan"
 >
 gcs_bucket: "fuchsia-build"
