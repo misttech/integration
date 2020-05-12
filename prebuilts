@@ -189,12 +189,6 @@
         TODO(BLD-353): Probably these can all go away after build unification.
     -->
 
-    <!-- See //tools/banjo/banjo/README.md -->
-    <package name="fuchsia/tools/banjo_bin/${platform}"
-             version="git_revision:ccb646d0096e1fa8fe763b6888de1875eab70be4"
-             path="prebuilt/tools/banjo/{{.OS}}-{{.Arch}}"
-             platforms="linux-amd64,mac-amd64"/>
-
     <!-- See //tools/vboot_reference.
 	 These are updated by the vboot_reference-roller bot whenever
 	 the host_prebuilts bot publishes new packages.
