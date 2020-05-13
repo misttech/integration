@@ -25,13 +25,8 @@
     -->
     <package name="fuchsia/third_party/clang/${platform}"
              version="git_revision:65f58878e72a40d68ef3899c766846ee9ec7cf29"
-             platforms="linux-amd64,linux-arm64"
+             platforms="linux-amd64,linux-arm64,mac-amd64"
              path="prebuilt/third_party/clang/{{.OS}}-{{.Arch}}"/>
-    <package name="fuchsia/third_party/clang/${platform}"
-             version="git_revision:74e6a5b2a3b0e1992fb38c986b18f1aa7ca6fabd"
-             platforms="mac-amd64"
-             path="prebuilt/third_party/clang/mac-x64"/>
-
     <!-- GCC
          TODO(mcgrathr): repo/bot link about provenance
     -->
