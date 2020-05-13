@@ -25,6 +25,7 @@ test: <
   swarming_io_timeout_secs: 310
   test_in_shards: true
   timeout_secs: 2400
+  max_attempts: 1
   default_service_account: "artifact-readers@fuchsia-infra.iam.gserviceaccount.com"
   per_test_timeout_secs: 300
   upload_results: true
