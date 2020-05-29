@@ -110,6 +110,15 @@
              gerrithost="https://fuchsia-review.googlesource.com"
              revision="fa150a82cc8be87700a513f4d58cafeebae19082"
              path="third_party/go"/>
+    <project name="third_party/go.uber.org/multierr"
+             remote="https://fuchsia.googlesource.com/third_party/go.uber.org/multierr"
+             path="third_party/golibs/go.uber.org/multierr"
+             gerrithost="https://fuchsia-review.googlesource.com"
+             revision="4a27324ebb71d5097bb088c40aa6348a52c57829"/>
+    <project name="third_party/go.uber.org/atomic"
+             remote="https://fuchsia.googlesource.com/third_party/go.uber.org/atomic"
+             path="third_party/golibs/go.uber.org/atomic"
+             revision="7ccfa79b883fc5ba5bd24ee88a8e5a455556d2dd"/>
     <project name="third_party/github.com/intel/intel-linux-processor-microcode-data-files"
              path="third_party/github.com/intel/intel-linux-processor-microcode-data-files"
              remote="https://fuchsia.googlesource.com/third_party/github.com/intel/intel-linux-processor-microcode-data-files"
