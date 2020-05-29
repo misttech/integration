@@ -5,6 +5,7 @@
 #   https://fuchsia.googlesource.com/infra/recipes/+/HEAD/recipe_proto/infra/fuchsia.proto
 
 checkout: <
+  attributes: "debug-symbols-x64"
   manifest: "flower"
   project: "integration"
   remote: "https://fuchsia.googlesource.com/integration"
@@ -12,6 +13,7 @@ checkout: <
 build: <
   build_type: "release"
   exclude_images: true
+  gn_args: "unpack_debug_archives = true output_breakpad_syms = true if (!defined(zircon_extra_args)) { zircon_extra_args = { } } zircon_extra_args.output_breakpad_syms = true"
   ninja_targets: "sdk/archive/core.tar.gz"
   ninja_targets: "sdk/archive/fuchsia_dart.tar.gz"
   ninja_targets: "sdk/archive/modular_testing.tar.gz"
