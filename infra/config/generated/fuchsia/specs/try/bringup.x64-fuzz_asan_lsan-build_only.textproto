@@ -4,12 +4,12 @@
 # For the schema of this file, see Fuchsia message:
 #   https://fuchsia.googlesource.com/infra/recipes/+/HEAD/recipe_proto/infra/fuchsia.proto
 
-checkout: <
+checkout {
   manifest: "flower"
   project: "integration"
   remote: "https://fuchsia.googlesource.com/integration"
->
-build: <
+}
+build {
   build_type: "debug"
   board: "boards/qemu-x64.gni"
   gn_args: "asan_default_options = \"\""
@@ -20,6 +20,6 @@ build: <
   target: "x64"
   variants: "host_asan"
   variants: "{variant=\"asan-fuzzer\" target_type=[\"fuzzed_executable\"]}"
->
+}
 gcs_bucket: "fuchsia-build"
 artifact_gcs_bucket: "fuchsia-artifacts"

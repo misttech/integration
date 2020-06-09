@@ -4,12 +4,12 @@
 # For the schema of this file, see Fuchsia message:
 #   https://fuchsia.googlesource.com/infra/recipes/+/HEAD/recipe_proto/infra/fuchsia.proto
 
-checkout: <
+checkout {
   manifest: "flower"
   project: "integration"
   remote: "https://fuchsia.googlesource.com/integration"
->
-build: <
+}
+build {
   build_type: "release"
   exclude_images: true
   ninja_targets: "sdk/archive/core.tar.gz"
@@ -20,5 +20,5 @@ build: <
   product: "products/core.gni"
   target: "arm64"
   sdk_subbuild: true
->
+}
 artifact_gcs_bucket: "fuchsia-artifacts"

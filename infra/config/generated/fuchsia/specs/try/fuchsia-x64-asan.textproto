@@ -4,12 +4,12 @@
 # For the schema of this file, see Fuchsia message:
 #   https://fuchsia.googlesource.com/infra/recipes/+/HEAD/recipe_proto/infra/fuchsia.proto
 
-checkout: <
+checkout {
   manifest: "flower"
   project: "integration"
   remote: "https://fuchsia.googlesource.com/integration"
->
-build: <
+}
+build {
   build_type: "debug"
   board: "boards/qemu-x64.gni"
   gn_args: "include_tests_that_fail_on_nuc_asan = false"
@@ -20,8 +20,8 @@ build: <
   target: "x64"
   variants: "asan-ubsan"
   variants: "host_asan"
->
-test: <
+}
+test {
   pave: true
   pool: "fuchsia.tests"
   swarming_expiration_timeout_secs: 18000
@@ -33,6 +33,6 @@ test: <
   upload_results: true
   target_shard_duration_secs: 540
   max_shards_per_env: 12
->
+}
 gcs_bucket: "fuchsia-build"
 artifact_gcs_bucket: "fuchsia-artifacts"

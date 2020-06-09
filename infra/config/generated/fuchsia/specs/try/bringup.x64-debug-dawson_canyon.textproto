@@ -4,12 +4,12 @@
 # For the schema of this file, see Fuchsia message:
 #   https://fuchsia.googlesource.com/infra/recipes/+/HEAD/recipe_proto/infra/fuchsia.proto
 
-checkout: <
+checkout {
   manifest: "flower"
   project: "integration"
   remote: "https://fuchsia.googlesource.com/integration"
->
-build: <
+}
+build {
   build_type: "debug"
   board: "boards/x64.gni"
   packages: "//bundles/buildbot:bringup"
@@ -18,8 +18,8 @@ build: <
   target: "x64"
   variants: "clang"
   variants: "host_asan"
->
-test: <
+}
+test {
   device_type: "Intel NUC Kit NUC7i5DNHE"
   pool: "fuchsia.tests"
   swarming_expiration_timeout_secs: 18000
@@ -30,6 +30,6 @@ test: <
   per_test_timeout_secs: 300
   upload_results: true
   target_shard_duration_secs: 540
->
+}
 gcs_bucket: "fuchsia-build"
 artifact_gcs_bucket: "fuchsia-artifacts"

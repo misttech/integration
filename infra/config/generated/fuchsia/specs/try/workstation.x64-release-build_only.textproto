@@ -4,13 +4,13 @@
 # For the schema of this file, see Fuchsia message:
 #   https://fuchsia.googlesource.com/infra/recipes/+/HEAD/recipe_proto/infra/fuchsia.proto
 
-checkout: <
+checkout {
   attributes: "debug-symbols-x64"
   manifest: "flower"
   project: "integration"
   remote: "https://fuchsia.googlesource.com/integration"
->
-build: <
+}
+build {
   build_type: "release"
   board: "boards/x64.gni"
   gn_args: "unpack_debug_archives = true output_breakpad_syms = true if (!defined(zircon_extra_args)) { zircon_extra_args = { } } zircon_extra_args.output_breakpad_syms = true"
@@ -18,6 +18,6 @@ build: <
   product: "products/workstation.gni"
   target: "x64"
   variants: "host_asan"
->
+}
 gcs_bucket: "fuchsia-build"
 artifact_gcs_bucket: "fuchsia-artifacts"

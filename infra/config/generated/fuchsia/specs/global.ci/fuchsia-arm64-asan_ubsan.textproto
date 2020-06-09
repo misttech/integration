@@ -4,13 +4,13 @@
 # For the schema of this file, see Fuchsia message:
 #   https://fuchsia.googlesource.com/infra/recipes/+/HEAD/recipe_proto/infra/fuchsia.proto
 
-checkout: <
+checkout {
   manifest: "flower"
   project: "integration"
   remote: "https://fuchsia.googlesource.com/integration"
   upload_results: true
->
-build: <
+}
+build {
   build_type: "debug"
   board: "boards/arm64.gni"
   gn_args: "enable_netboot = false"
@@ -22,8 +22,8 @@ build: <
   variants: "asan-ubsan"
   variants: "host_asan"
   upload_results: true
->
-test: <
+}
+test {
   pave: true
   pool: "fuchsia.tests"
   swarming_expiration_timeout_secs: 18000
@@ -35,6 +35,6 @@ test: <
   per_test_timeout_secs: 360
   upload_results: true
   target_shard_duration_secs: 540
->
+}
 gcs_bucket: "fuchsia-build"
 artifact_gcs_bucket: "fuchsia-artifacts"

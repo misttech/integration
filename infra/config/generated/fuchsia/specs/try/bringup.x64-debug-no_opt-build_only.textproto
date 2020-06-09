@@ -4,12 +4,12 @@
 # For the schema of this file, see Fuchsia message:
 #   https://fuchsia.googlesource.com/infra/recipes/+/HEAD/recipe_proto/infra/fuchsia.proto
 
-checkout: <
+checkout {
   manifest: "flower"
   project: "integration"
   remote: "https://fuchsia.googlesource.com/integration"
->
-build: <
+}
+build {
   build_type: "debug"
   board: "boards/x64.gni"
   gn_args: "optimize = \"none\""
@@ -18,6 +18,6 @@ build: <
   target: "x64"
   variants: "clang"
   variants: "host_asan"
->
+}
 gcs_bucket: "fuchsia-build"
 artifact_gcs_bucket: "fuchsia-artifacts"
