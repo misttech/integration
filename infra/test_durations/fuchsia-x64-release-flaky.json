@@ -2,16 +2,21 @@
   {
     "name": "*",
     "runs": 0,
-    "median_duration_ms": 17512
+    "median_duration_ms": 12898
+  },
+  {
+    "name": "fuchsia-pkg://fuchsia.com/bluetooth-tests#meta/bt-integration-tests.cmx",
+    "runs": 10,
+    "median_duration_ms": 3768
   },
   {
     "name": "fuchsia-pkg://fuchsia.com/e2e_input_tests#meta/minimal_input_test.cmx",
-    "runs": 41,
-    "median_duration_ms": 382
+    "runs": 61,
+    "median_duration_ms": 375
   },
   {
     "name": "fuchsia-pkg://fuchsia.com/netemul_guest_test#meta/grpc_client_stress_test.cmx",
-    "runs": 41,
-    "median_duration_ms": 34642
+    "runs": 62,
+    "median_duration_ms": 34551
   }
 ]
