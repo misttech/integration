@@ -16,7 +16,7 @@ build {
   packages: "//bundles/buildbot:core"
   product: "products/core.gni"
   target: "x64"
-  variants: "{variant=\"ubsan-fuzzer\" target_type=[\"fuzzed_executable\"]}"
+  variants: "{variant=\"ubsan-fuzzer\" target_type=[\"fuzzed_executable\"]},{variant=\"ubsan\" label=[\"//zircon/system/ulib/fdio\"]}"
 }
 gcs_bucket: "fuchsia-build"
 artifact_gcs_bucket: "fuchsia-artifacts"
