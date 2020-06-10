@@ -12,9 +12,10 @@ checkout {
 }
 build {
   build_type: "release"
-  board: "boards/x64.gni"
-  packages: "//bundles/buildbot:core"
-  product: "products/core.gni"
+  board: "boards/x64-reduced-perf-variation.gni"
+  gn_args: "basic_env_names = [ \"emu\", \"nuc\" ]"
+  packages: "//bundles/buildbot:terminal"
+  product: "products/terminal.gni"
   run_tests: true
   target: "x64"
   variants: "host_asan"
@@ -24,12 +25,11 @@ test {
   pave: true
   pool: "fuchsia.tests"
   swarming_expiration_timeout_secs: 18000
-  swarming_io_timeout_secs: 310
+  swarming_io_timeout_secs: 300
   test_in_shards: true
-  timeout_secs: 2400
+  timeout_secs: 1800
   max_attempts: 1
   default_service_account: "artifact-readers@fuchsia-infra.iam.gserviceaccount.com"
-  per_test_timeout_secs: 300
   upload_results: true
   target_shard_duration_secs: 540
 }

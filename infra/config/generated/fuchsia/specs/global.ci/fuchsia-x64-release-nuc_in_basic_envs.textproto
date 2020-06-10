@@ -11,15 +11,13 @@ checkout {
   upload_results: true
 }
 build {
-  build_type: "debug"
-  board: "boards/qemu-x64.gni"
-  gn_args: "include_tests_that_fail_on_nuc_asan = false"
-  gn_args: "optimize = \"sanitizer\""
+  build_type: "release"
+  board: "boards/x64.gni"
+  gn_args: "basic_env_names = [ \"emu\", \"nuc\" ]"
   packages: "//bundles/buildbot:core"
   product: "products/core.gni"
   run_tests: true
   target: "x64"
-  variants: "asan-ubsan"
   variants: "host_asan"
   upload_results: true
 }
@@ -27,15 +25,14 @@ test {
   pave: true
   pool: "fuchsia.tests"
   swarming_expiration_timeout_secs: 18000
-  swarming_io_timeout_secs: 370
+  swarming_io_timeout_secs: 310
   test_in_shards: true
   timeout_secs: 2400
   max_attempts: 1
   default_service_account: "artifact-readers@fuchsia-infra.iam.gserviceaccount.com"
-  per_test_timeout_secs: 360
+  per_test_timeout_secs: 300
   upload_results: true
   target_shard_duration_secs: 540
-  max_shards_per_env: 12
 }
 gcs_bucket: "fuchsia-build"
 artifact_gcs_bucket: "fuchsia-artifacts"
