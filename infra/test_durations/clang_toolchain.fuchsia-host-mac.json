@@ -2,27 +2,27 @@
   {
     "name": "*",
     "runs": 0,
-    "median_duration_ms": 1806
+    "median_duration_ms": 1760
   },
   {
     "name": "host_x64/affectedtests_tests",
     "runs": 9,
-    "median_duration_ms": 6208
+    "median_duration_ms": 1194
   },
   {
     "name": "host_x64/artifactory_lib_tests",
     "runs": 9,
-    "median_duration_ms": 29
+    "median_duration_ms": 31
   },
   {
     "name": "host_x64/artifactory_main_tests",
     "runs": 9,
-    "median_duration_ms": 186
+    "median_duration_ms": 183
   },
   {
     "name": "host_x64/banjo_unittests",
     "runs": 9,
-    "median_duration_ms": 66
+    "median_duration_ms": 71
   },
   {
     "name": "host_x64/baz_fuzzer_test",
@@ -47,22 +47,32 @@
   {
     "name": "host_x64/blobfs-host",
     "runs": 9,
-    "median_duration_ms": 46
+    "median_duration_ms": 45
+  },
+  {
+    "name": "host_x64/blobstats_tests",
+    "runs": 1,
+    "median_duration_ms": 298
   },
   {
     "name": "host_x64/bootserver_cmd_tests",
     "runs": 9,
-    "median_duration_ms": 41
+    "median_duration_ms": 42
   },
   {
     "name": "host_x64/bootserver_lib_tests",
     "runs": 9,
-    "median_duration_ms": 49
+    "median_duration_ms": 48
   },
   {
     "name": "host_x64/botanist_lib_tests",
     "runs": 9,
-    "median_duration_ms": 1122
+    "median_duration_ms": 1073
+  },
+  {
+    "name": "host_x64/botanist_main_tests",
+    "runs": 3,
+    "median_duration_ms": 43
   },
   {
     "name": "host_x64/botanist_target_tests",
@@ -82,12 +92,12 @@
   {
     "name": "host_x64/cache_tests",
     "runs": 9,
-    "median_duration_ms": 4251
+    "median_duration_ms": 4092
   },
   {
     "name": "host_x64/cmc_bin_test",
     "runs": 9,
-    "median_duration_ms": 1017
+    "median_duration_ms": 1052
   },
   {
     "name": "host_x64/cmdline",
@@ -97,7 +107,7 @@
   {
     "name": "host_x64/cmpctmalloc_test",
     "runs": 9,
-    "median_duration_ms": 54
+    "median_duration_ms": 53
   },
   {
     "name": "host_x64/color_tests",
@@ -107,7 +117,12 @@
   {
     "name": "host_x64/component_id_index_bin_test",
     "runs": 9,
-    "median_duration_ms": 15
+    "median_duration_ms": 25
+  },
+  {
+    "name": "host_x64/component_plugin_lib_lib_test",
+    "runs": 4,
+    "median_duration_ms": 14
   },
   {
     "name": "host_x64/composition_delegate_tests",
@@ -142,7 +157,7 @@
   {
     "name": "host_x64/dart_fidl_json_test",
     "runs": 9,
-    "median_duration_ms": 242
+    "median_duration_ms": 243
   },
   {
     "name": "host_x64/dev_finder_tests",
@@ -152,12 +167,12 @@
   {
     "name": "host_x64/digest_tests",
     "runs": 9,
-    "median_duration_ms": 27
+    "median_duration_ms": 28
   },
   {
     "name": "host_x64/doc-checker-tests",
     "runs": 9,
-    "median_duration_ms": 451
+    "median_duration_ms": 460
   },
   {
     "name": "host_x64/dockyard_host_test",
@@ -167,7 +182,7 @@
   {
     "name": "host_x64/dockyard_tests",
     "runs": 9,
-    "median_duration_ms": 27
+    "median_duration_ms": 26
   },
   {
     "name": "host_x64/escher_examples_test",
@@ -192,7 +207,7 @@
   {
     "name": "host_x64/fbl",
     "runs": 9,
-    "median_duration_ms": 2218
+    "median_duration_ms": 2215
   },
   {
     "name": "host_x64/ffl",
@@ -222,7 +237,7 @@
   {
     "name": "host_x64/ffx_daemon_lib_test",
     "runs": 9,
-    "median_duration_ms": 155
+    "median_duration_ms": 32
   },
   {
     "name": "host_x64/ffx_echo_args_lib_test",
@@ -236,12 +251,12 @@
   },
   {
     "name": "host_x64/ffx_lib_args_lib_test",
-    "runs": 3,
+    "runs": 7,
     "median_duration_ms": 13
   },
   {
     "name": "host_x64/ffx_lib_lib_test",
-    "runs": 3,
+    "runs": 7,
     "median_duration_ms": 13
   },
   {
@@ -252,7 +267,7 @@
   {
     "name": "host_x64/ffx_powerctl_lib_test",
     "runs": 9,
-    "median_duration_ms": 16
+    "median_duration_ms": 15
   },
   {
     "name": "host_x64/ffx_run_component_args_lib_test",
@@ -292,12 +307,12 @@
   {
     "name": "host_x64/fidl-compiler",
     "runs": 9,
-    "median_duration_ms": 3165
+    "median_duration_ms": 3164
   },
   {
     "name": "host_x64/fidl_cpp_host_conformance_test",
     "runs": 9,
-    "median_duration_ms": 28
+    "median_duration_ms": 18
   },
   {
     "name": "host_x64/fidl_cpp_host_unittests",
@@ -305,39 +320,29 @@
     "median_duration_ms": 21
   },
   {
-    "name": "host_x64/fidl_handle_tests_lib_test",
-    "runs": 3,
-    "median_duration_ms": 1538
-  },
-  {
-    "name": "host_x64/fidl_lib_test",
-    "runs": 3,
-    "median_duration_ms": 15
-  },
-  {
     "name": "host_x64/fidl_rust_conformance_tests",
-    "runs": 6,
-    "median_duration_ms": 31
+    "runs": 9,
+    "median_duration_ms": 32
   },
   {
     "name": "host_x64/fidl_rust_handle_tests",
-    "runs": 6,
-    "median_duration_ms": 3691
+    "runs": 9,
+    "median_duration_ms": 3920
   },
   {
     "name": "host_x64/fidl_rust_lib_tests",
-    "runs": 6,
+    "runs": 9,
     "median_duration_ms": 15
   },
   {
     "name": "host_x64/fidlcat_host_tests",
     "runs": 9,
-    "median_duration_ms": 1022
+    "median_duration_ms": 998
   },
   {
     "name": "host_x64/fidldoc_bin_test",
     "runs": 9,
-    "median_duration_ms": 89
+    "median_duration_ms": 90
   },
   {
     "name": "host_x64/fidlgen_common_test",
@@ -347,7 +352,7 @@
   {
     "name": "host_x64/fidlgen_dart_backend_test",
     "runs": 9,
-    "median_duration_ms": 6808
+    "median_duration_ms": 6770
   },
   {
     "name": "host_x64/fidlgen_go_test",
@@ -357,22 +362,22 @@
   {
     "name": "host_x64/fidlgen_hlcpp_test",
     "runs": 9,
-    "median_duration_ms": 1875
+    "median_duration_ms": 1876
   },
   {
     "name": "host_x64/fidlgen_libfuzzer_test",
     "runs": 9,
-    "median_duration_ms": 398
+    "median_duration_ms": 397
   },
   {
     "name": "host_x64/fidlgen_llcpp_test",
     "runs": 9,
-    "median_duration_ms": 1956
+    "median_duration_ms": 1949
   },
   {
     "name": "host_x64/fidlgen_rust_test",
     "runs": 9,
-    "median_duration_ms": 434
+    "median_duration_ms": 438
   },
   {
     "name": "host_x64/fidlgen_syzkaller_test",
@@ -407,7 +412,7 @@
   {
     "name": "host_x64/font_manifest_generator_bin_test",
     "runs": 9,
-    "median_duration_ms": 14
+    "median_duration_ms": 15
   },
   {
     "name": "host_x64/font_manifest_generator_integration_tests",
@@ -417,7 +422,7 @@
   {
     "name": "host_x64/fs-host",
     "runs": 9,
-    "median_duration_ms": 217366
+    "median_duration_ms": 216133
   },
   {
     "name": "host_x64/fs-transaction",
@@ -427,12 +432,12 @@
   {
     "name": "host_x64/fuchsia-diagnostic-streams-unittests",
     "runs": 9,
-    "median_duration_ms": 257
+    "median_duration_ms": 255
   },
   {
     "name": "host_x64/fuchsia_inspect_package_unittests",
     "runs": 9,
-    "median_duration_ms": 510
+    "median_duration_ms": 511
   },
   {
     "name": "host_x64/fuchsia_logger_package_unittests",
@@ -452,42 +457,47 @@
   {
     "name": "host_x64/fvm-host",
     "runs": 9,
-    "median_duration_ms": 2534
+    "median_duration_ms": 2539
   },
   {
     "name": "host_x64/fvm-unit",
     "runs": 9,
-    "median_duration_ms": 27
+    "median_duration_ms": 26
+  },
+  {
+    "name": "host_x64/fxtest_tests",
+    "runs": 1,
+    "median_duration_ms": 617
   },
   {
     "name": "host_x64/gen/tools/create/goldens/my-component-v1-cpp/test_script.py",
     "runs": 9,
-    "median_duration_ms": 69
+    "median_duration_ms": 72
   },
   {
     "name": "host_x64/gen/tools/create/goldens/my-component-v1-rust/test_script.py",
     "runs": 9,
-    "median_duration_ms": 67
+    "median_duration_ms": 72
   },
   {
     "name": "host_x64/gen/tools/create/goldens/my-component-v2-cpp/test_script.py",
     "runs": 9,
-    "median_duration_ms": 69
+    "median_duration_ms": 73
   },
   {
     "name": "host_x64/gen/tools/create/goldens/my-component-v2-rust/test_script.py",
     "runs": 9,
-    "median_duration_ms": 67
+    "median_duration_ms": 73
   },
   {
     "name": "host_x64/gen/tools/create/goldens/my-driver-cpp/test_script.py",
     "runs": 9,
-    "median_duration_ms": 72
+    "median_duration_ms": 68
   },
   {
     "name": "host_x64/gidl_golang_test",
     "runs": 9,
-    "median_duration_ms": 9
+    "median_duration_ms": 10
   },
   {
     "name": "host_x64/gidl_mixer_test",
@@ -502,7 +512,7 @@
   {
     "name": "host_x64/gn_sdk_script_tests",
     "runs": 9,
-    "median_duration_ms": 36312
+    "median_duration_ms": 36395
   },
   {
     "name": "host_x64/go_tuf_data_test",
@@ -512,17 +522,17 @@
   {
     "name": "host_x64/go_tuf_encrypted_test",
     "runs": 9,
-    "median_duration_ms": 567
+    "median_duration_ms": 565
   },
   {
     "name": "host_x64/go_tuf_leveldbstore_test",
     "runs": 9,
-    "median_duration_ms": 75
+    "median_duration_ms": 79
   },
   {
     "name": "host_x64/go_tuf_repo_test",
     "runs": 9,
-    "median_duration_ms": 756
+    "median_duration_ms": 758
   },
   {
     "name": "host_x64/go_tuf_util_test",
@@ -542,27 +552,27 @@
   {
     "name": "host_x64/hoist_lib_test",
     "runs": 9,
-    "median_duration_ms": 21
+    "median_duration_ms": 1043
   },
   {
     "name": "host_x64/host-target-testing-avb-test",
     "runs": 9,
-    "median_duration_ms": 27
+    "median_duration_ms": 37
   },
   {
     "name": "host_x64/host-target-testing-omaha-test",
     "runs": 9,
-    "median_duration_ms": 39
+    "median_duration_ms": 36
   },
   {
     "name": "host_x64/host-target-testing-packages-test",
     "runs": 9,
-    "median_duration_ms": 2600
+    "median_duration_ms": 2569
   },
   {
     "name": "host_x64/host-target-testing-paver-test",
     "runs": 9,
-    "median_duration_ms": 260
+    "median_duration_ms": 208
   },
   {
     "name": "host_x64/host_fuzzers_test",
@@ -577,12 +587,12 @@
   {
     "name": "host_x64/icu_data_extractor_tests",
     "runs": 9,
-    "median_duration_ms": 31
+    "median_duration_ms": 32
   },
   {
     "name": "host_x64/inspect_dart_codelab_part_1_unittests",
     "runs": 9,
-    "median_duration_ms": 214
+    "median_duration_ms": 215
   },
   {
     "name": "host_x64/inspect_dart_codelab_part_2_unittests",
@@ -592,17 +602,12 @@
   {
     "name": "host_x64/inspect_dart_codelab_part_3_unittests",
     "runs": 9,
-    "median_duration_ms": 228
+    "median_duration_ms": 229
   },
   {
     "name": "host_x64/inspect_dart_codelab_part_4_unittests",
     "runs": 9,
-    "median_duration_ms": 270
-  },
-  {
-    "name": "host_x64/integration_tests_lib_test",
-    "runs": 4,
-    "median_duration_ms": 1445
+    "median_duration_ms": 271
   },
   {
     "name": "host_x64/intl_model_lib_test",
@@ -642,12 +647,12 @@
   {
     "name": "host_x64/mdns_tools_test",
     "runs": 9,
-    "median_duration_ms": 24
+    "median_duration_ms": 22
   },
   {
     "name": "host_x64/merge_sdk_bin_test",
     "runs": 9,
-    "median_duration_ms": 111
+    "median_duration_ms": 113
   },
   {
     "name": "host_x64/minfs-host",
@@ -657,7 +662,7 @@
   {
     "name": "host_x64/netboot_tests",
     "runs": 9,
-    "median_duration_ms": 1182
+    "median_duration_ms": 1169
   },
   {
     "name": "host_x64/netstack_bsdsocket_c_api_test",
@@ -677,7 +682,7 @@
   {
     "name": "host_x64/netstack_link_bridge_test",
     "runs": 9,
-    "median_duration_ms": 4612
+    "median_duration_ms": 4725
   },
   {
     "name": "host_x64/netstack_util_test",
@@ -692,7 +697,7 @@
   {
     "name": "host_x64/osmisc_tests",
     "runs": 9,
-    "median_duration_ms": 10
+    "median_duration_ms": 20
   },
   {
     "name": "host_x64/out_of_memory_fuzzer_test",
@@ -707,17 +712,17 @@
   {
     "name": "host_x64/overnet_core_lib_test",
     "runs": 9,
-    "median_duration_ms": 12205
+    "median_duration_ms": 12787
   },
   {
     "name": "host_x64/overnet_host_examples_bin_test",
     "runs": 9,
-    "median_duration_ms": 2648
+    "median_duration_ms": 2585
   },
   {
     "name": "host_x64/pm_build_test",
     "runs": 9,
-    "median_duration_ms": 23
+    "median_duration_ms": 34
   },
   {
     "name": "host_x64/pm_cmd_pm_genkey_test",
@@ -732,12 +737,12 @@
   {
     "name": "host_x64/pm_cmd_pm_serve_test",
     "runs": 9,
-    "median_duration_ms": 1346
+    "median_duration_ms": 1365
   },
   {
     "name": "host_x64/pm_repo_test",
     "runs": 9,
-    "median_duration_ms": 1430
+    "median_duration_ms": 1449
   },
   {
     "name": "host_x64/qemu_tests",
@@ -757,7 +762,7 @@
   {
     "name": "host_x64/repo_tests",
     "runs": 9,
-    "median_duration_ms": 31
+    "median_duration_ms": 13
   },
   {
     "name": "host_x64/retry_tests",
@@ -772,7 +777,7 @@
   {
     "name": "host_x64/runner_tests",
     "runs": 9,
-    "median_duration_ms": 22
+    "median_duration_ms": 12
   },
   {
     "name": "host_x64/runtests_tests",
@@ -781,12 +786,12 @@
   },
   {
     "name": "host_x64/scrutiny_bin_test",
-    "runs": 6,
+    "runs": 2,
     "median_duration_ms": 13
   },
   {
     "name": "host_x64/scrutiny_lib_test",
-    "runs": 3,
+    "runs": 7,
     "median_duration_ms": 14
   },
   {
@@ -807,7 +812,7 @@
   {
     "name": "host_x64/sl4f_client_tests",
     "runs": 9,
-    "median_duration_ms": 36798
+    "median_duration_ms": 36923
   },
   {
     "name": "host_x64/spinel_pack_lib_test",
@@ -817,17 +822,17 @@
   {
     "name": "host_x64/sse_test",
     "runs": 9,
-    "median_duration_ms": 34
+    "median_duration_ms": 33
   },
   {
     "name": "host_x64/sshutil_tests",
     "runs": 9,
-    "median_duration_ms": 2751
+    "median_duration_ms": 2976
   },
   {
     "name": "host_x64/storage-volume-image-test",
     "runs": 9,
-    "median_duration_ms": 22
+    "median_duration_ms": 16
   },
   {
     "name": "host_x64/strings_to_fidl_bin_test",
@@ -837,17 +842,17 @@
   {
     "name": "host_x64/strings_to_json_bin_test",
     "runs": 9,
-    "median_duration_ms": 15
+    "median_duration_ms": 22
   },
   {
     "name": "host_x64/symbolize_tests",
     "runs": 9,
-    "median_duration_ms": 54
+    "median_duration_ms": 55
   },
   {
     "name": "host_x64/syslog_tests",
     "runs": 9,
-    "median_duration_ms": 23
+    "median_duration_ms": 12
   },
   {
     "name": "host_x64/tap_tests",
@@ -857,22 +862,27 @@
   {
     "name": "host_x64/tarutil_tests",
     "runs": 9,
-    "median_duration_ms": 17
+    "median_duration_ms": 15
   },
   {
     "name": "host_x64/tefmocheck_tests",
     "runs": 9,
-    "median_duration_ms": 14
+    "median_duration_ms": 13
   },
   {
     "name": "host_x64/test_extract_zircon_constants",
     "runs": 9,
-    "median_duration_ms": 176
+    "median_duration_ms": 175
+  },
+  {
+    "name": "host_x64/test_runner_test",
+    "runs": 1,
+    "median_duration_ms": 276
   },
   {
     "name": "host_x64/testparser_tests",
     "runs": 9,
-    "median_duration_ms": 7
+    "median_duration_ms": 6
   },
   {
     "name": "host_x64/testrunner_tests",
@@ -882,12 +892,12 @@
   {
     "name": "host_x64/testsharder_tests",
     "runs": 9,
-    "median_duration_ms": 10
+    "median_duration_ms": 19
   },
   {
     "name": "host_x64/tftp_tests",
     "runs": 9,
-    "median_duration_ms": 19
+    "median_duration_ms": 15
   },
   {
     "name": "host_x64/thinfs_bitops_test",
@@ -902,7 +912,7 @@
   {
     "name": "host_x64/thinfs_block_file_test",
     "runs": 9,
-    "median_duration_ms": 297
+    "median_duration_ms": 298
   },
   {
     "name": "host_x64/thinfs_cache_test",
@@ -922,7 +932,7 @@
   {
     "name": "host_x64/thinfs_thinio_test",
     "runs": 9,
-    "median_duration_ms": 2752
+    "median_duration_ms": 2726
   },
   {
     "name": "host_x64/tools_debug_elflib_tests",
@@ -937,12 +947,12 @@
   {
     "name": "host_x64/trace-reader-test",
     "runs": 9,
-    "median_duration_ms": 20
+    "median_duration_ms": 19
   },
   {
     "name": "host_x64/trace2json_tests",
     "runs": 9,
-    "median_duration_ms": 56
+    "median_duration_ms": 55
   },
   {
     "name": "host_x64/trap_fuzzer_test",
@@ -957,12 +967,12 @@
   {
     "name": "host_x64/triage_configs_test.triage_config_test",
     "runs": 9,
-    "median_duration_ms": 22
+    "median_duration_ms": 23
   },
   {
     "name": "host_x64/triage_lib_test",
     "runs": 9,
-    "median_duration_ms": 96
+    "median_duration_ms": 98
   },
   {
     "name": "host_x64/triage_sample_config_test.triage_config_test",
@@ -977,7 +987,7 @@
   {
     "name": "host_x64/undercoat_tests",
     "runs": 9,
-    "median_duration_ms": 3665
+    "median_duration_ms": 3801
   },
   {
     "name": "host_x64/unit-tests",
@@ -1002,7 +1012,7 @@
   {
     "name": "host_x64/whereiscl_test",
     "runs": 9,
-    "median_duration_ms": 36
+    "median_duration_ms": 34
   },
   {
     "name": "host_x64/zedmon_bin_test",
@@ -1012,12 +1022,12 @@
   {
     "name": "host_x64/zedmon_test",
     "runs": 9,
-    "median_duration_ms": 36
+    "median_duration_ms": 53
   },
   {
     "name": "host_x64/zerocopy_derive_test",
     "runs": 9,
-    "median_duration_ms": 12
+    "median_duration_ms": 13
   },
   {
     "name": "host_x64/zircon-migrated/libzbi-test",
@@ -1027,7 +1037,7 @@
   {
     "name": "host_x64/zxdb_tests",
     "runs": 9,
-    "median_duration_ms": 479
+    "median_duration_ms": 388
   },
   {
     "name": "host_x64/zxtest",
