@@ -2,1801 +2,3551 @@
   {
     "name": "*",
     "runs": 0,
-    "median_duration_ms": 1550
+    "median_duration_ms": 1490
+  },
+  {
+    "name": "/boot/test/abs_clock_test",
+    "runs": 35,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/affine-fuzzer_test",
+    "runs": 33,
+    "median_duration_ms": 105
+  },
+  {
+    "name": "/boot/test/affine-test",
+    "runs": 35,
+    "median_duration_ms": 105
+  },
+  {
+    "name": "/boot/test/ahci-unittest",
+    "runs": 35,
+    "median_duration_ms": 105
+  },
+  {
+    "name": "/boot/test/aml-axg-gpio-test",
+    "runs": 35,
+    "median_duration_ms": 7334
+  },
+  {
+    "name": "/boot/test/aml-cpu-test",
+    "runs": 35,
+    "median_duration_ms": 105
+  },
+  {
+    "name": "/boot/test/aml-securemem-test",
+    "runs": 33,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/amlogic-clk-test",
+    "runs": 34,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/as370-power-test",
+    "runs": 35,
+    "median_duration_ms": 103
+  },
+  {
+    "name": "/boot/test/astro-audio-out-test",
+    "runs": 35,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/async-loop-test",
+    "runs": 35,
+    "median_duration_ms": 505
+  },
+  {
+    "name": "/boot/test/async-test",
+    "runs": 35,
+    "median_duration_ms": 105
+  },
+  {
+    "name": "/boot/test/async-testing-test",
+    "runs": 35,
+    "median_duration_ms": 1025
+  },
+  {
+    "name": "/boot/test/atexit",
+    "runs": 35,
+    "median_duration_ms": 103
+  },
+  {
+    "name": "/boot/test/audio-dsp-test",
+    "runs": 35,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/audio-test",
+    "runs": 34,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/backlight-test",
+    "runs": 35,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/backtrace-request-integration-test",
+    "runs": 34,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/backtrace-request-test",
+    "runs": 35,
+    "median_duration_ms": 103
+  },
+  {
+    "name": "/boot/test/biotime-test",
+    "runs": 34,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/bitmap-test",
+    "runs": 34,
+    "median_duration_ms": 205
+  },
+  {
+    "name": "/boot/test/blobfs-bench-test",
+    "runs": 35,
+    "median_duration_ms": 4504
+  },
+  {
+    "name": "/boot/test/blobfs-integration-paged-test",
+    "runs": 34,
+    "median_duration_ms": 21905
+  },
+  {
+    "name": "/boot/test/blobfs-integration-test",
+    "runs": 35,
+    "median_duration_ms": 20074
+  },
+  {
+    "name": "/boot/test/blobfs-large-integration-fragmentation-paged-test",
+    "runs": 34,
+    "median_duration_ms": 18918
+  },
+  {
+    "name": "/boot/test/blobfs-large-integration-fragmentation-test",
+    "runs": 35,
+    "median_duration_ms": 19363
+  },
+  {
+    "name": "/boot/test/blobfs-large-integration-no-space-paged-test",
+    "runs": 34,
+    "median_duration_ms": 18652
+  },
+  {
+    "name": "/boot/test/blobfs-large-integration-no-space-test",
+    "runs": 34,
+    "median_duration_ms": 18251
+  },
+  {
+    "name": "/boot/test/blobfs-large-integration-short-paged-test",
+    "runs": 35,
+    "median_duration_ms": 59581
+  },
+  {
+    "name": "/boot/test/blobfs-large-integration-short-test",
+    "runs": 35,
+    "median_duration_ms": 59808
+  },
+  {
+    "name": "/boot/test/blobfs-large-integration-use-second-bitmap-paged-test",
+    "runs": 35,
+    "median_duration_ms": 16646
+  },
+  {
+    "name": "/boot/test/blobfs-large-integration-use-second-bitmap-test",
+    "runs": 35,
+    "median_duration_ms": 15426
+  },
+  {
+    "name": "/boot/test/blobfs-unit",
+    "runs": 35,
+    "median_duration_ms": 7315
+  },
+  {
+    "name": "/boot/test/block-client-unit",
+    "runs": 35,
+    "median_duration_ms": 105
+  },
+  {
+    "name": "/boot/test/block-watcher-test",
+    "runs": 35,
+    "median_duration_ms": 1420
+  },
+  {
+    "name": "/boot/test/blockcore",
+    "runs": 35,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/bootfs-parser-fuzzer_test",
+    "runs": 34,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/bootfs-test-test",
+    "runs": 35,
+    "median_duration_ms": 103
+  },
+  {
+    "name": "/boot/test/bootsvc-unit-test",
+    "runs": 34,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/c/atexit-test",
-    "runs": 78,
+    "runs": 18,
     "median_duration_ms": 104
   },
   {
     "name": "/boot/test/c/debugdata-test",
-    "runs": 78,
-    "median_duration_ms": 105
+    "runs": 18,
+    "median_duration_ms": 104
   },
   {
     "name": "/boot/test/c/posix-clocks-test",
-    "runs": 78,
+    "runs": 18,
     "median_duration_ms": 104
   },
   {
-    "name": "/boot/test/core/c11-condvar-test",
-    "runs": 78,
+    "name": "/boot/test/channel-fatal-test",
+    "runs": 34,
     "median_duration_ms": 104
   },
   {
-    "name": "/boot/test/core/c11-mutex-test",
-    "runs": 78,
+    "name": "/boot/test/chromeos-disk-setup-test",
+    "runs": 34,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/cleanup-test",
+    "runs": 35,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/closure-queue-test",
+    "runs": 34,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/cobalt-client-unit-test",
+    "runs": 35,
+    "median_duration_ms": 107
+  },
+  {
+    "name": "/boot/test/compiler-test",
+    "runs": 34,
+    "median_duration_ms": 103
+  },
+  {
+    "name": "/boot/test/console-test",
+    "runs": 34,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/core-c11-condvar",
+    "runs": 35,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/core-c11-mutex",
+    "runs": 35,
     "median_duration_ms": 704
   },
   {
-    "name": "/boot/test/core/c11-thread-test",
-    "runs": 78,
+    "name": "/boot/test/core-c11-thread",
+    "runs": 35,
+    "median_duration_ms": 204
+  },
+  {
+    "name": "/boot/test/core-channel",
+    "runs": 35,
+    "median_duration_ms": 105
+  },
+  {
+    "name": "/boot/test/core-channel-write-etc",
+    "runs": 34,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/core-clock",
+    "runs": 35,
+    "median_duration_ms": 204
+  },
+  {
+    "name": "/boot/test/core-debug",
+    "runs": 35,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/core-display-test",
+    "runs": 34,
+    "median_duration_ms": 103
+  },
+  {
+    "name": "/boot/test/core-elf-tls",
+    "runs": 35,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/core-event-pair",
+    "runs": 35,
+    "median_duration_ms": 103
+  },
+  {
+    "name": "/boot/test/core-fifo",
+    "runs": 35,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/core-fpu",
+    "runs": 35,
+    "median_duration_ms": 103
+  },
+  {
+    "name": "/boot/test/core-futex",
+    "runs": 35,
+    "median_duration_ms": 2706
+  },
+  {
+    "name": "/boot/test/core-handle-close",
+    "runs": 34,
+    "median_duration_ms": 103
+  },
+  {
+    "name": "/boot/test/core-handle-dup",
+    "runs": 34,
+    "median_duration_ms": 103
+  },
+  {
+    "name": "/boot/test/core-handle-info",
+    "runs": 35,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/core-handle-transfer",
+    "runs": 35,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/core-handle-wait",
+    "runs": 35,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/core-job",
+    "runs": 34,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/core-memory-mapping",
+    "runs": 35,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/core-object-child",
+    "runs": 35,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/core-object-info",
+    "runs": 35,
+    "median_duration_ms": 109
+  },
+  {
+    "name": "/boot/test/core-object-wait",
+    "runs": 34,
+    "median_duration_ms": 103
+  },
+  {
+    "name": "/boot/test/core-pager",
+    "runs": 35,
+    "median_duration_ms": 1409
+  },
+  {
+    "name": "/boot/test/core-port",
+    "runs": 35,
+    "median_duration_ms": 507
+  },
+  {
+    "name": "/boot/test/core-process",
+    "runs": 35,
+    "median_duration_ms": 3508
+  },
+  {
+    "name": "/boot/test/core-pthread",
+    "runs": 33,
+    "median_duration_ms": 3207
+  },
+  {
+    "name": "/boot/test/core-pthread-barrier",
+    "runs": 35,
     "median_duration_ms": 304
   },
   {
+    "name": "/boot/test/core-pthread-tls",
+    "runs": 34,
+    "median_duration_ms": 2107
+  },
+  {
+    "name": "/boot/test/core-socket",
+    "runs": 34,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/core-stack",
+    "runs": 35,
+    "median_duration_ms": 103
+  },
+  {
+    "name": "/boot/test/core-stream",
+    "runs": 35,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/core-sync-completion",
+    "runs": 35,
+    "median_duration_ms": 905
+  },
+  {
+    "name": "/boot/test/core-sync-condition",
+    "runs": 35,
+    "median_duration_ms": 103
+  },
+  {
+    "name": "/boot/test/core-sync-mutex",
+    "runs": 35,
+    "median_duration_ms": 604
+  },
+  {
+    "name": "/boot/test/core-threads",
+    "runs": 34,
+    "median_duration_ms": 606
+  },
+  {
+    "name": "/boot/test/core-time",
+    "runs": 34,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/core-version",
+    "runs": 34,
+    "median_duration_ms": 103
+  },
+  {
+    "name": "/boot/test/core-vmar",
+    "runs": 34,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/core-vmo",
+    "runs": 34,
+    "median_duration_ms": 207
+  },
+  {
+    "name": "/boot/test/core/c11-condvar-test",
+    "runs": 18,
+    "median_duration_ms": 103
+  },
+  {
+    "name": "/boot/test/core/c11-mutex-test",
+    "runs": 18,
+    "median_duration_ms": 703
+  },
+  {
+    "name": "/boot/test/core/c11-thread-test",
+    "runs": 18,
+    "median_duration_ms": 203
+  },
+  {
     "name": "/boot/test/core/channel-test",
-    "runs": 78,
+    "runs": 18,
     "median_duration_ms": 105
   },
   {
     "name": "/boot/test/core/channel-write-etc-test",
-    "runs": 78,
-    "median_duration_ms": 105
+    "runs": 18,
+    "median_duration_ms": 104
   },
   {
     "name": "/boot/test/core/clock-test",
-    "runs": 78,
-    "median_duration_ms": 204
+    "runs": 18,
+    "median_duration_ms": 203
   },
   {
     "name": "/boot/test/core/debug-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/core/elf-tls-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/core/event-pair-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/core/fifo-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/core/fpu-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/core/futex-test",
-    "runs": 78,
-    "median_duration_ms": 2706
+    "runs": 18,
+    "median_duration_ms": 2705
   },
   {
     "name": "/boot/test/core/handle-close-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/core/handle-dup-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/core/handle-info-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/core/handle-transfer-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/core/handle-wait-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/core/job-test",
-    "runs": 78,
-    "median_duration_ms": 105
-  },
-  {
-    "name": "/boot/test/core/memory-mapping-test",
-    "runs": 78,
+    "runs": 18,
     "median_duration_ms": 104
   },
   {
+    "name": "/boot/test/core/memory-mapping-test",
+    "runs": 18,
+    "median_duration_ms": 103
+  },
+  {
     "name": "/boot/test/core/object-child-test",
-    "runs": 78,
+    "runs": 18,
     "median_duration_ms": 104
   },
   {
     "name": "/boot/test/core/object-info-test",
-    "runs": 78,
-    "median_duration_ms": 110
+    "runs": 18,
+    "median_duration_ms": 109
   },
   {
     "name": "/boot/test/core/object-wait-test",
-    "runs": 78,
+    "runs": 18,
     "median_duration_ms": 104
   },
   {
     "name": "/boot/test/core/pager-test",
-    "runs": 78,
-    "median_duration_ms": 1507
+    "runs": 18,
+    "median_duration_ms": 1407
   },
   {
     "name": "/boot/test/core/port-test",
-    "runs": 78,
-    "median_duration_ms": 507
+    "runs": 18,
+    "median_duration_ms": 506
   },
   {
     "name": "/boot/test/core/process-test",
-    "runs": 78,
-    "median_duration_ms": 3508
+    "runs": 18,
+    "median_duration_ms": 3506
   },
   {
     "name": "/boot/test/core/pthread-barrier-test",
-    "runs": 78,
-    "median_duration_ms": 304
+    "runs": 18,
+    "median_duration_ms": 204
   },
   {
     "name": "/boot/test/core/pthread-test",
-    "runs": 78,
-    "median_duration_ms": 3208
+    "runs": 18,
+    "median_duration_ms": 3206
   },
   {
     "name": "/boot/test/core/pthread-tls-test",
-    "runs": 78,
-    "median_duration_ms": 2108
+    "runs": 18,
+    "median_duration_ms": 2107
   },
   {
     "name": "/boot/test/core/socket-test",
-    "runs": 78,
+    "runs": 18,
     "median_duration_ms": 104
   },
   {
     "name": "/boot/test/core/stack-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/core/stream-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/core/sync-completion-test",
-    "runs": 78,
-    "median_duration_ms": 905
+    "runs": 18,
+    "median_duration_ms": 904
   },
   {
     "name": "/boot/test/core/sync-condition-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/core/sync-mutex-test",
-    "runs": 78,
-    "median_duration_ms": 605
+    "runs": 18,
+    "median_duration_ms": 604
   },
   {
     "name": "/boot/test/core/threads-test",
-    "runs": 78,
-    "median_duration_ms": 606
+    "runs": 18,
+    "median_duration_ms": 605
   },
   {
     "name": "/boot/test/core/time-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/core/version-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/core/vmar-test",
-    "runs": 78,
-    "median_duration_ms": 105
+    "runs": 18,
+    "median_duration_ms": 104
   },
   {
     "name": "/boot/test/core/vmo-test",
-    "runs": 78,
-    "median_duration_ms": 208
+    "runs": 18,
+    "median_duration_ms": 206
+  },
+  {
+    "name": "/boot/test/cprng-test",
+    "runs": 34,
+    "median_duration_ms": 103
+  },
+  {
+    "name": "/boot/test/crashsvc-test",
+    "runs": 34,
+    "median_duration_ms": 108
+  },
+  {
+    "name": "/boot/test/ctor-test",
+    "runs": 35,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/ddk-fidl-test",
+    "runs": 35,
+    "median_duration_ms": 306
+  },
+  {
+    "name": "/boot/test/ddk-lifecycle",
+    "runs": 33,
+    "median_duration_ms": 808
+  },
+  {
+    "name": "/boot/test/ddk-power",
+    "runs": 35,
+    "median_duration_ms": 3936
+  },
+  {
+    "name": "/boot/test/ddk-runcompatibilityhook",
+    "runs": 35,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/ddk-schedule-work",
+    "runs": 35,
+    "median_duration_ms": 813
+  },
+  {
+    "name": "/boot/test/ddk-unittest-test",
+    "runs": 35,
+    "median_duration_ms": 104
   },
   {
     "name": "/boot/test/ddk/block-watcher-test-test",
-    "runs": 78,
-    "median_duration_ms": 1620
+    "runs": 18,
+    "median_duration_ms": 1317
   },
   {
     "name": "/boot/test/ddk/devmgr-integration-test",
-    "runs": 78,
-    "median_duration_ms": 508
+    "runs": 18,
+    "median_duration_ms": 409
   },
   {
     "name": "/boot/test/ddk/driver-integration-test",
-    "runs": 78,
-    "median_duration_ms": 205
+    "runs": 18,
+    "median_duration_ms": 115
   },
   {
     "name": "/boot/test/ddk/fallback-rtc",
-    "runs": 78,
-    "median_duration_ms": 406
+    "runs": 18,
+    "median_duration_ms": 306
   },
   {
     "name": "/boot/test/ddk/fshost-metrics-test-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/ddk/fshost-test-test",
-    "runs": 78,
+    "runs": 18,
     "median_duration_ms": 104
   },
   {
-    "name": "/boot/test/fs/blobfs-integration-paged-test",
-    "runs": 78,
-    "median_duration_ms": 21091
+    "name": "/boot/test/ddktl-test",
+    "runs": 34,
+    "median_duration_ms": 104
   },
   {
-    "name": "/boot/test/fs/blobfs-integration-test",
-    "runs": 78,
-    "median_duration_ms": 20533
+    "name": "/boot/test/debugdata",
+    "runs": 35,
+    "median_duration_ms": 104
   },
   {
-    "name": "/boot/test/fs/blobfs-large-integration-fragmentation-paged-test",
-    "runs": 78,
-    "median_duration_ms": 19132
+    "name": "/boot/test/debugdata-test",
+    "runs": 34,
+    "median_duration_ms": 104
   },
   {
-    "name": "/boot/test/fs/blobfs-large-integration-fragmentation-test",
-    "runs": 78,
-    "median_duration_ms": 18687
+    "name": "/boot/test/debugger-test",
+    "runs": 35,
+    "median_duration_ms": 104
   },
   {
-    "name": "/boot/test/fs/blobfs-large-integration-no-space-paged-test",
-    "runs": 78,
-    "median_duration_ms": 18930
+    "name": "/boot/test/default-stack-size-default",
+    "runs": 34,
+    "median_duration_ms": 104
   },
   {
-    "name": "/boot/test/fs/blobfs-large-integration-no-space-test",
-    "runs": 78,
-    "median_duration_ms": 17831
+    "name": "/boot/test/default-stack-size-phdr",
+    "runs": 34,
+    "median_duration_ms": 104
   },
   {
-    "name": "/boot/test/fs/blobfs-large-integration-short-paged-test",
-    "runs": 78,
-    "median_duration_ms": 60295
+    "name": "/boot/test/devcoordinator-namespace-test",
+    "runs": 34,
+    "median_duration_ms": 104
   },
   {
-    "name": "/boot/test/fs/blobfs-large-integration-short-test",
-    "runs": 78,
-    "median_duration_ms": 59402
+    "name": "/boot/test/devfs",
+    "runs": 34,
+    "median_duration_ms": 104
   },
   {
-    "name": "/boot/test/fs/blobfs-large-integration-use-second-bitmap-paged-test",
-    "runs": 78,
-    "median_duration_ms": 17374
+    "name": "/boot/test/device-enumeration-test",
+    "runs": 34,
+    "median_duration_ms": 103
   },
   {
-    "name": "/boot/test/fs/blobfs-large-integration-use-second-bitmap-test",
-    "runs": 78,
-    "median_duration_ms": 15589
+    "name": "/boot/test/device-protocol-pci",
+    "runs": 35,
+    "median_duration_ms": 103
   },
   {
-    "name": "/boot/test/fs/blobfs-unit-test",
-    "runs": 78,
-    "median_duration_ms": 7609
+    "name": "/boot/test/device-protocol-pdev-test",
+    "runs": 34,
+    "median_duration_ms": 104
   },
   {
-    "name": "/boot/test/fs/block-client-unit-test",
-    "runs": 78,
+    "name": "/boot/test/devmgr-integration",
+    "runs": 34,
+    "median_duration_ms": 508
+  },
+  {
+    "name": "/boot/test/digest-test",
+    "runs": 34,
+    "median_duration_ms": 605
+  },
+  {
+    "name": "/boot/test/disk-inspector-unit-test",
+    "runs": 35,
+    "median_duration_ms": 105
+  },
+  {
+    "name": "/boot/test/dlfcn",
+    "runs": 35,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/dlopen-indirect-deps-test",
+    "runs": 34,
+    "median_duration_ms": 103
+  },
+  {
+    "name": "/boot/test/driver-integration",
+    "runs": 33,
+    "median_duration_ms": 204
+  },
+  {
+    "name": "/boot/test/elf-search",
+    "runs": 34,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/elfload-fuzzer_test",
+    "runs": 35,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/entropy-test",
+    "runs": 34,
+    "median_duration_ms": 103
+  },
+  {
+    "name": "/boot/test/errno-test",
+    "runs": 34,
+    "median_duration_ms": 404
+  },
+  {
+    "name": "/boot/test/ethernet-test",
+    "runs": 34,
+    "median_duration_ms": 2706
+  },
+  {
+    "name": "/boot/test/events-test",
+    "runs": 34,
+    "median_duration_ms": 1304
+  },
+  {
+    "name": "/boot/test/exception-test",
+    "runs": 34,
+    "median_duration_ms": 1907
+  },
+  {
+    "name": "/boot/test/exit-test",
+    "runs": 35,
+    "median_duration_ms": 103
+  },
+  {
+    "name": "/boot/test/fallback-rtc",
+    "runs": 34,
+    "median_duration_ms": 409
+  },
+  {
+    "name": "/boot/test/fbl-test",
+    "runs": 35,
+    "median_duration_ms": 279
+  },
+  {
+    "name": "/boot/test/fdio-caller-test",
+    "runs": 35,
+    "median_duration_ms": 103
+  },
+  {
+    "name": "/boot/test/fdio-constructor",
+    "runs": 34,
+    "median_duration_ms": 3
+  },
+  {
+    "name": "/boot/test/fdio-test",
+    "runs": 35,
+    "median_duration_ms": 2509
+  },
+  {
+    "name": "/boot/test/ffl-test",
+    "runs": 34,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/fidl",
+    "runs": 34,
+    "median_duration_ms": 116
+  },
+  {
+    "name": "/boot/test/fidl-async-test",
+    "runs": 34,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/fidl-utils-test",
+    "runs": 34,
+    "median_duration_ms": 103
+  },
+  {
+    "name": "/boot/test/fit",
+    "runs": 35,
+    "median_duration_ms": 107
+  },
+  {
+    "name": "/boot/test/fit-unittest-test",
+    "runs": 35,
+    "median_duration_ms": 107
+  },
+  {
+    "name": "/boot/test/fpu-test",
+    "runs": 34,
+    "median_duration_ms": 606
+  },
+  {
+    "name": "/boot/test/framebuffer-test-test",
+    "runs": 35,
+    "median_duration_ms": 103
+  },
+  {
+    "name": "/boot/test/fs",
+    "runs": 35,
+    "median_duration_ms": 28707
+  },
+  {
+    "name": "/boot/test/fs-bench",
+    "runs": 35,
+    "median_duration_ms": 722
+  },
+  {
+    "name": "/boot/test/fs-connection-test",
+    "runs": 33,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/fs-management",
+    "runs": 34,
+    "median_duration_ms": 2226
+  },
+  {
+    "name": "/boot/test/fs-recovery",
+    "runs": 35,
+    "median_duration_ms": 1205
+  },
+  {
+    "name": "/boot/test/fs-test-support-test",
+    "runs": 35,
+    "median_duration_ms": 914
+  },
+  {
+    "name": "/boot/test/fs-test-utils",
+    "runs": 35,
+    "median_duration_ms": 5730
+  },
+  {
+    "name": "/boot/test/fs-transaction-test",
+    "runs": 34,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/fs-vnode-test",
+    "runs": 34,
     "median_duration_ms": 106
   },
   {
+    "name": "/boot/test/fs/blobfs-integration-paged-test",
+    "runs": 18,
+    "median_duration_ms": 18646
+  },
+  {
+    "name": "/boot/test/fs/blobfs-integration-test",
+    "runs": 18,
+    "median_duration_ms": 18461
+  },
+  {
+    "name": "/boot/test/fs/blobfs-large-integration-fragmentation-paged-test",
+    "runs": 18,
+    "median_duration_ms": 16341
+  },
+  {
+    "name": "/boot/test/fs/blobfs-large-integration-fragmentation-test",
+    "runs": 18,
+    "median_duration_ms": 16130
+  },
+  {
+    "name": "/boot/test/fs/blobfs-large-integration-no-space-paged-test",
+    "runs": 18,
+    "median_duration_ms": 16094
+  },
+  {
+    "name": "/boot/test/fs/blobfs-large-integration-no-space-test",
+    "runs": 18,
+    "median_duration_ms": 16118
+  },
+  {
+    "name": "/boot/test/fs/blobfs-large-integration-short-paged-test",
+    "runs": 18,
+    "median_duration_ms": 54787
+  },
+  {
+    "name": "/boot/test/fs/blobfs-large-integration-short-test",
+    "runs": 18,
+    "median_duration_ms": 54260
+  },
+  {
+    "name": "/boot/test/fs/blobfs-large-integration-use-second-bitmap-paged-test",
+    "runs": 18,
+    "median_duration_ms": 15713
+  },
+  {
+    "name": "/boot/test/fs/blobfs-large-integration-use-second-bitmap-test",
+    "runs": 18,
+    "median_duration_ms": 14211
+  },
+  {
+    "name": "/boot/test/fs/blobfs-unit-test",
+    "runs": 18,
+    "median_duration_ms": 6339
+  },
+  {
+    "name": "/boot/test/fs/block-client-unit-test",
+    "runs": 18,
+    "median_duration_ms": 105
+  },
+  {
     "name": "/boot/test/fs/devfs-test",
-    "runs": 78,
+    "runs": 18,
     "median_duration_ms": 104
   },
   {
     "name": "/boot/test/fs/fs-bench-test",
-    "runs": 78,
-    "median_duration_ms": 708
+    "runs": 18,
+    "median_duration_ms": 608
   },
   {
     "name": "/boot/test/fs/fs-management-test",
-    "runs": 78,
-    "median_duration_ms": 2225
+    "runs": 18,
+    "median_duration_ms": 1912
   },
   {
     "name": "/boot/test/fs/fs-test",
-    "runs": 78,
-    "median_duration_ms": 28316
+    "runs": 18,
+    "median_duration_ms": 23962
   },
   {
     "name": "/boot/test/fs/fs-test-utils-test",
-    "runs": 78,
-    "median_duration_ms": 5422
+    "runs": 18,
+    "median_duration_ms": 4806
   },
   {
     "name": "/boot/test/fs/journal-unit-test",
-    "runs": 78,
-    "median_duration_ms": 109
+    "runs": 18,
+    "median_duration_ms": 108
   },
   {
     "name": "/boot/test/fs/memfs-test",
-    "runs": 78,
+    "runs": 18,
     "median_duration_ms": 104
   },
   {
     "name": "/boot/test/fs/metrics-cobalt-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/fs/metrics-composite-latency-event-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/fs/metrics-inspect-test",
-    "runs": 78,
+    "runs": 18,
     "median_duration_ms": 104
   },
   {
     "name": "/boot/test/fs/minfs-allocator-unit-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/fs/minfs-integration-test",
-    "runs": 78,
-    "median_duration_ms": 5175
+    "runs": 18,
+    "median_duration_ms": 4526
   },
   {
     "name": "/boot/test/fs/minfs-micro-benchmark-test",
-    "runs": 78,
-    "median_duration_ms": 1010
+    "runs": 18,
+    "median_duration_ms": 816
   },
   {
     "name": "/boot/test/fs/minfs-power-test",
-    "runs": 78,
-    "median_duration_ms": 2353
+    "runs": 18,
+    "median_duration_ms": 2015
   },
   {
     "name": "/boot/test/fs/minfs-unit-test",
-    "runs": 78,
-    "median_duration_ms": 1527
+    "runs": 18,
+    "median_duration_ms": 1416
+  },
+  {
+    "name": "/boot/test/fshost-metrics-test",
+    "runs": 35,
+    "median_duration_ms": 103
+  },
+  {
+    "name": "/boot/test/fshost-test",
+    "runs": 34,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/ftdi-i2c-test-test",
+    "runs": 35,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/ftl-integration-test",
+    "runs": 34,
+    "median_duration_ms": 6475
+  },
+  {
+    "name": "/boot/test/ftl-lib-test",
+    "runs": 35,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/ftl-read-write-fuzzer_test",
+    "runs": 34,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/ftl-test",
+    "runs": 35,
+    "median_duration_ms": 15849
+  },
+  {
+    "name": "/boot/test/futex-ownership",
+    "runs": 33,
+    "median_duration_ms": 624
+  },
+  {
+    "name": "/boot/test/fvm-driver-integration-test",
+    "runs": 35,
+    "median_duration_ms": 205
+  },
+  {
+    "name": "/boot/test/fvm-driver-unittests-test",
+    "runs": 34,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/fvm-integration-test",
+    "runs": 35,
+    "median_duration_ms": 708
+  },
+  {
+    "name": "/boot/test/fvm-test",
+    "runs": 35,
+    "median_duration_ms": 5752
+  },
+  {
+    "name": "/boot/test/fvm-unit-test",
+    "runs": 35,
+    "median_duration_ms": 105
+  },
+  {
+    "name": "/boot/test/fzl-test",
+    "runs": 35,
+    "median_duration_ms": 808
+  },
+  {
+    "name": "/boot/test/fzl-zxtest-test",
+    "runs": 34,
+    "median_duration_ms": 951
+  },
+  {
+    "name": "/boot/test/generic-power-driver-test",
+    "runs": 35,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/getentropy-test",
+    "runs": 35,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/gfx-fuzzer_test",
+    "runs": 34,
+    "median_duration_ms": 103
+  },
+  {
+    "name": "/boot/test/gpt-device-test",
+    "runs": 35,
+    "median_duration_ms": 103
+  },
+  {
+    "name": "/boot/test/gpt-unit-test",
+    "runs": 35,
+    "median_duration_ms": 1208
+  },
+  {
+    "name": "/boot/test/handle-alias-test",
+    "runs": 34,
+    "median_duration_ms": 103
+  },
+  {
+    "name": "/boot/test/handles-test",
+    "runs": 35,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/hid-driver-test",
+    "runs": 35,
+    "median_duration_ms": 204
+  },
+  {
+    "name": "/boot/test/hid-parser-fuzzer_test",
+    "runs": 34,
+    "median_duration_ms": 103
+  },
+  {
+    "name": "/boot/test/hid-parser-test",
+    "runs": 35,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/hmac-fuzzer_test",
+    "runs": 33,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/id_allocator-test",
+    "runs": 35,
+    "median_duration_ms": 4308
+  },
+  {
+    "name": "/boot/test/image-format-test-test",
+    "runs": 34,
+    "median_duration_ms": 105
+  },
+  {
+    "name": "/boot/test/inspect",
+    "runs": 34,
+    "median_duration_ms": 220
+  },
+  {
+    "name": "/boot/test/inspect-reader-fuzzer_test",
+    "runs": 35,
+    "median_duration_ms": 105
+  },
+  {
+    "name": "/boot/test/inspector-test",
+    "runs": 34,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/int-types-test",
+    "runs": 35,
+    "median_duration_ms": 103
+  },
+  {
+    "name": "/boot/test/intel-hda-test-test",
+    "runs": 34,
+    "median_duration_ms": 103
+  },
+  {
+    "name": "/boot/test/intel-hda-utils-test-test",
+    "runs": 34,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/iosched",
+    "runs": 34,
+    "median_duration_ms": 105
+  },
+  {
+    "name": "/boot/test/isolateddevmgr-test",
+    "runs": 35,
+    "median_duration_ms": 305
+  },
+  {
+    "name": "/boot/test/journal-entry-fuzzer_test",
+    "runs": 35,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/journal-fuzzer_test",
+    "runs": 35,
+    "median_duration_ms": 103
+  },
+  {
+    "name": "/boot/test/journal-replay-fuzzer_test",
+    "runs": 35,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/journal-unit",
+    "runs": 34,
+    "median_duration_ms": 108
+  },
+  {
+    "name": "/boot/test/kcounter",
+    "runs": 35,
+    "median_duration_ms": 103
+  },
+  {
+    "name": "/boot/test/kernel-clocks-test",
+    "runs": 35,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/kernel-cmdline-fuzzer_test",
+    "runs": 34,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/kernel-cmdline-test",
+    "runs": 34,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/kernel-mexec-test-test",
+    "runs": 34,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/kernel-unittests-test",
+    "runs": 35,
+    "median_duration_ms": 5314
+  },
+  {
+    "name": "/boot/test/launchpad-test",
+    "runs": 34,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/lazy_init-test",
+    "runs": 35,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/ldmsg-fuzzer_test",
+    "runs": 35,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/libabr-test",
+    "runs": 35,
+    "median_duration_ms": 106
   },
   {
     "name": "/boot/test/libc/sanitizer-utils-test",
-    "runs": 78,
+    "runs": 18,
+    "median_duration_ms": 103
+  },
+  {
+    "name": "/boot/test/libdriver-integration-test",
+    "runs": 34,
+    "median_duration_ms": 204
+  },
+  {
+    "name": "/boot/test/libfs-pty-test-test",
+    "runs": 35,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/libhwreg-i2c-test",
+    "runs": 35,
+    "median_duration_ms": 103
+  },
+  {
+    "name": "/boot/test/libhwreg-test",
+    "runs": 33,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/libzbi-test",
+    "runs": 34,
+    "median_duration_ms": 105
+  },
+  {
+    "name": "/boot/test/linenoise-test",
+    "runs": 35,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/loader-service-test",
+    "runs": 34,
+    "median_duration_ms": 103
+  },
+  {
+    "name": "/boot/test/lockdep-test-test",
+    "runs": 34,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/log",
+    "runs": 34,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/logger-test",
+    "runs": 33,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/logger-unit-test",
+    "runs": 35,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/lz4-decompress-fuzzer_test",
+    "runs": 34,
+    "median_duration_ms": 1084
+  },
+  {
+    "name": "/boot/test/lz4-roundtrip-fuzzer_test",
+    "runs": 35,
+    "median_duration_ms": 158
+  },
+  {
+    "name": "/boot/test/mbr-test",
+    "runs": 35,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/memfs",
+    "runs": 35,
+    "median_duration_ms": 106
+  },
+  {
+    "name": "/boot/test/memfs-tests-test",
+    "runs": 34,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/metrics-cobalt",
+    "runs": 35,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/metrics-composite-latency-event",
+    "runs": 34,
+    "median_duration_ms": 103
+  },
+  {
+    "name": "/boot/test/metrics-inspect",
+    "runs": 35,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/minfs-allocator-unit",
+    "runs": 35,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/minfs-fuzzer_test",
+    "runs": 35,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/minfs-integration",
+    "runs": 34,
+    "median_duration_ms": 5132
+  },
+  {
+    "name": "/boot/test/minfs-micro-benchmark",
+    "runs": 35,
+    "median_duration_ms": 1008
+  },
+  {
+    "name": "/boot/test/minfs-power",
+    "runs": 35,
+    "median_duration_ms": 2418
+  },
+  {
+    "name": "/boot/test/minfs-unit",
+    "runs": 35,
+    "median_duration_ms": 1620
+  },
+  {
+    "name": "/boot/test/mipidsi-test",
+    "runs": 35,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/miscsvc-test",
+    "runs": 33,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/mmio-ptr-unittest-test",
+    "runs": 34,
+    "median_duration_ms": 103
+  },
+  {
+    "name": "/boot/test/mock-function-test",
+    "runs": 35,
+    "median_duration_ms": 103
+  },
+  {
+    "name": "/boot/test/msm8x53-clk-test",
+    "runs": 33,
+    "median_duration_ms": 404
+  },
+  {
+    "name": "/boot/test/msm8x53-power-test",
+    "runs": 35,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/mt-hci-request-queue-test",
+    "runs": 33,
+    "median_duration_ms": 105
+  },
+  {
+    "name": "/boot/test/mt-hci-test",
+    "runs": 35,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/mt-hci-transaction-test",
+    "runs": 34,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/mt8167-audio-lib-test",
+    "runs": 35,
+    "median_duration_ms": 103
+  },
+  {
+    "name": "/boot/test/mt8167s_ref-test",
+    "runs": 35,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/mtk-spi-test",
+    "runs": 34,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/mtk-thermal-integration-test-test",
+    "runs": 35,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/namespace-test",
+    "runs": 34,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/nand-broker-test",
+    "runs": 35,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/nandpart-broker-test",
+    "runs": 35,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/netsvc-stress-test",
+    "runs": 35,
+    "median_duration_ms": 48400
+  },
+  {
+    "name": "/boot/test/netsvc-test",
+    "runs": 34,
+    "median_duration_ms": 6575
+  },
+  {
+    "name": "/boot/test/nhlt-fuzzer_test",
+    "runs": 34,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/noop-fuzzer_test",
+    "runs": 34,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/optee-message-test",
+    "runs": 34,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/pci-driver-test",
+    "runs": 35,
+    "median_duration_ms": 706
+  },
+  {
+    "name": "/boot/test/pci-unit-test",
+    "runs": 35,
+    "median_duration_ms": 806
+  },
+  {
+    "name": "/boot/test/perf-mon-tests-test",
+    "runs": 35,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/perf-test",
+    "runs": 33,
+    "median_duration_ms": 105
+  },
+  {
+    "name": "/boot/test/pixelbook-eve-test-test",
+    "runs": 35,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/platform-bus-test",
+    "runs": 34,
+    "median_duration_ms": 406
+  },
+  {
+    "name": "/boot/test/policy-test",
+    "runs": 35,
+    "median_duration_ms": 105
+  },
+  {
+    "name": "/boot/test/posix-clocks",
+    "runs": 34,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/posixio-test",
+    "runs": 35,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/pretty-test-test",
+    "runs": 34,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/processor-test",
+    "runs": 35,
+    "median_duration_ms": 103
+  },
+  {
+    "name": "/boot/test/profile-test",
+    "runs": 35,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/property-test",
+    "runs": 35,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/ps-test",
+    "runs": 35,
+    "median_duration_ms": 106
+  },
+  {
+    "name": "/boot/test/pty-test",
+    "runs": 35,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/ptysvc-test",
+    "runs": 34,
+    "median_duration_ms": 105
+  },
+  {
+    "name": "/boot/test/qsort-test",
+    "runs": 34,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/race-tests-test",
+    "runs": 35,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/ram-crashlog-test",
+    "runs": 34,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/ram-nand-test",
+    "runs": 35,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/ramdisk-test",
+    "runs": 34,
+    "median_duration_ms": 707
+  },
+  {
+    "name": "/boot/test/range",
+    "runs": 35,
+    "median_duration_ms": 106
+  },
+  {
+    "name": "/boot/test/raw-bitmap-fuzzer_test",
+    "runs": 33,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/refcount-test-test",
+    "runs": 35,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/region-alloc-test",
+    "runs": 35,
+    "median_duration_ms": 105
+  },
+  {
+    "name": "/boot/test/register-state-test",
+    "runs": 34,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/rtc-lib-test",
+    "runs": 34,
+    "median_duration_ms": 105
+  },
+  {
+    "name": "/boot/test/running_on_bootfs_test",
+    "runs": 35,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/runtests-utils",
+    "runs": 35,
+    "median_duration_ms": 309
+  },
+  {
+    "name": "/boot/test/sa-unittest-test",
+    "runs": 35,
+    "median_duration_ms": 806
+  },
+  {
+    "name": "/boot/test/sanitizer-utils",
+    "runs": 35,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/scsilib-disk-test-test",
+    "runs": 35,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/service-llcpp-test",
+    "runs": 34,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/service-proxy-dir-test",
+    "runs": 35,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/sgm37603a-test",
+    "runs": 34,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/sherlock-audio-out-test",
+    "runs": 35,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/simplehid-test",
+    "runs": 35,
+    "median_duration_ms": 4106
+  },
+  {
+    "name": "/boot/test/smbios-test-test",
+    "runs": 35,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/spi-test",
+    "runs": 35,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/status-test",
+    "runs": 35,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/stdio-test-test",
+    "runs": 35,
+    "median_duration_ms": 5109
+  },
+  {
+    "name": "/boot/test/storage-buffer-test",
+    "runs": 34,
+    "median_duration_ms": 106
+  },
+  {
+    "name": "/boot/test/storage-metrics",
+    "runs": 34,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/storage-operation-test",
+    "runs": 35,
     "median_duration_ms": 104
   },
   {
     "name": "/boot/test/storage/storage-buffer-test",
-    "runs": 78,
-    "median_duration_ms": 106
-  },
-  {
-    "name": "/boot/test/storage/storage-operation-test",
-    "runs": 78,
+    "runs": 18,
     "median_duration_ms": 105
   },
   {
-    "name": "/boot/test/sys/abs_clock_test-test",
-    "runs": 78,
+    "name": "/boot/test/storage/storage-operation-test",
+    "runs": 18,
     "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/svchost-test",
+    "runs": 35,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/syn-audio-in-test",
+    "runs": 34,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/sys/abs_clock_test",
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/affine-fuzzer_test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/affine-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/ahci-unittest",
-    "runs": 78,
+    "runs": 18,
     "median_duration_ms": 104
   },
   {
     "name": "/boot/test/sys/aml-axg-gpio-test",
-    "runs": 78,
-    "median_duration_ms": 6909
+    "runs": 18,
+    "median_duration_ms": 6108
   },
   {
     "name": "/boot/test/sys/aml-cpu-test",
-    "runs": 78,
-    "median_duration_ms": 105
+    "runs": 18,
+    "median_duration_ms": 104
   },
   {
     "name": "/boot/test/sys/aml-securemem-test",
-    "runs": 78,
+    "runs": 18,
     "median_duration_ms": 104
   },
   {
     "name": "/boot/test/sys/amlogic-clk-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/as370-power-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/astro-audio-out-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/async-loop-test",
-    "runs": 78,
-    "median_duration_ms": 506
+    "runs": 18,
+    "median_duration_ms": 504
   },
   {
     "name": "/boot/test/sys/async-test",
-    "runs": 78,
-    "median_duration_ms": 105
+    "runs": 18,
+    "median_duration_ms": 104
   },
   {
     "name": "/boot/test/sys/async-testing-test",
-    "runs": 78,
-    "median_duration_ms": 1008
+    "runs": 18,
+    "median_duration_ms": 906
   },
   {
     "name": "/boot/test/sys/audio-dsp-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/audio-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/backlight-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/backtrace-request-integration-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/backtrace-request-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/biotime-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/bitmap-test",
-    "runs": 78,
-    "median_duration_ms": 205
+    "runs": 18,
+    "median_duration_ms": 204
   },
   {
     "name": "/boot/test/sys/blobfs-bench-test",
-    "runs": 78,
-    "median_duration_ms": 4316
+    "runs": 18,
+    "median_duration_ms": 3811
   },
   {
     "name": "/boot/test/sys/blockcore",
-    "runs": 78,
+    "runs": 18,
     "median_duration_ms": 105
   },
   {
     "name": "/boot/test/sys/bootfs-parser-fuzzer_test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/bootfs-test-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/bootsvc-unit-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/channel-fatal-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/chromeos-disk-setup-test",
-    "runs": 78,
-    "median_duration_ms": 105
-  },
-  {
-    "name": "/boot/test/sys/cleanup-test",
-    "runs": 78,
+    "runs": 18,
     "median_duration_ms": 104
   },
   {
+    "name": "/boot/test/sys/cleanup-test",
+    "runs": 18,
+    "median_duration_ms": 103
+  },
+  {
     "name": "/boot/test/sys/closure-queue-test",
-    "runs": 78,
+    "runs": 18,
     "median_duration_ms": 104
   },
   {
     "name": "/boot/test/sys/cobalt-client-unit-test",
-    "runs": 78,
-    "median_duration_ms": 107
+    "runs": 18,
+    "median_duration_ms": 105
   },
   {
     "name": "/boot/test/sys/compiler-test",
-    "runs": 78,
+    "runs": 18,
     "median_duration_ms": 104
   },
   {
     "name": "/boot/test/sys/console-test-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/core-display-test",
-    "runs": 78,
+    "runs": 18,
     "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/cprng-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/crashsvc-test",
-    "runs": 78,
+    "runs": 18,
     "median_duration_ms": 109
   },
   {
     "name": "/boot/test/sys/ctor-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/ddk-fidl-test-test",
-    "runs": 78,
-    "median_duration_ms": 306
+    "runs": 18,
+    "median_duration_ms": 206
   },
   {
     "name": "/boot/test/sys/ddk-lifecycle-test",
-    "runs": 78,
-    "median_duration_ms": 808
+    "runs": 18,
+    "median_duration_ms": 608
   },
   {
     "name": "/boot/test/sys/ddk-power-test",
-    "runs": 78,
-    "median_duration_ms": 4095
+    "runs": 18,
+    "median_duration_ms": 3479
   },
   {
     "name": "/boot/test/sys/ddk-runcompatibilityhook-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/ddk-schedule-work-test",
-    "runs": 78,
-    "median_duration_ms": 909
+    "runs": 18,
+    "median_duration_ms": 710
   },
   {
     "name": "/boot/test/sys/ddk-unittest-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/ddktl-test",
-    "runs": 78,
-    "median_duration_ms": 105
+    "runs": 18,
+    "median_duration_ms": 104
   },
   {
     "name": "/boot/test/sys/debugdata-test",
-    "runs": 78,
-    "median_duration_ms": 105
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/debugger-test",
-    "runs": 78,
-    "median_duration_ms": 105
+    "runs": 18,
+    "median_duration_ms": 104
   },
   {
     "name": "/boot/test/sys/default-stack-size-default-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/default-stack-size-phdr-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/devcoordinator-namespace-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/device-enumeration-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/device-protocol-pci-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/device-protocol-pdev-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/digest-test",
-    "runs": 78,
-    "median_duration_ms": 606
+    "runs": 18,
+    "median_duration_ms": 604
   },
   {
     "name": "/boot/test/sys/disk-inspector-unit-test",
-    "runs": 78,
-    "median_duration_ms": 105
+    "runs": 18,
+    "median_duration_ms": 106
   },
   {
     "name": "/boot/test/sys/dlfcn-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/dlopen-indirect-deps-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/elf-search-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/elfload-fuzzer_test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/entropy-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/errno-test",
-    "runs": 78,
-    "median_duration_ms": 404
+    "runs": 18,
+    "median_duration_ms": 403
   },
   {
     "name": "/boot/test/sys/ethernet-test",
-    "runs": 78,
-    "median_duration_ms": 2707
+    "runs": 18,
+    "median_duration_ms": 2705
   },
   {
     "name": "/boot/test/sys/events-test",
-    "runs": 78,
+    "runs": 18,
     "median_duration_ms": 1304
   },
   {
     "name": "/boot/test/sys/exception-test",
-    "runs": 78,
-    "median_duration_ms": 1908
+    "runs": 18,
+    "median_duration_ms": 1806
   },
   {
     "name": "/boot/test/sys/exit-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/fbl-test",
-    "runs": 78,
-    "median_duration_ms": 251
+    "runs": 18,
+    "median_duration_ms": 247
   },
   {
     "name": "/boot/test/sys/fdio-caller-test",
-    "runs": 78,
+    "runs": 18,
     "median_duration_ms": 104
   },
   {
     "name": "/boot/test/sys/fdio-constructor-test",
-    "runs": 78,
+    "runs": 18,
     "median_duration_ms": 3
   },
   {
     "name": "/boot/test/sys/fdio-test",
-    "runs": 78,
-    "median_duration_ms": 2510
+    "runs": 18,
+    "median_duration_ms": 2506
   },
   {
     "name": "/boot/test/sys/ffl-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/fidl-async-test-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/fidl-test",
-    "runs": 78,
-    "median_duration_ms": 114
+    "runs": 18,
+    "median_duration_ms": 112
   },
   {
     "name": "/boot/test/sys/fidl-utils-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/fit-test",
-    "runs": 78,
+    "runs": 18,
     "median_duration_ms": 108
   },
   {
     "name": "/boot/test/sys/fit-unittest-test",
-    "runs": 78,
-    "median_duration_ms": 106
+    "runs": 18,
+    "median_duration_ms": 105
   },
   {
     "name": "/boot/test/sys/fpu-test",
-    "runs": 78,
-    "median_duration_ms": 605
+    "runs": 18,
+    "median_duration_ms": 604
   },
   {
     "name": "/boot/test/sys/framebuffer-test-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/fs-connection-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/fs-recovery-test",
-    "runs": 78,
-    "median_duration_ms": 1205
+    "runs": 18,
+    "median_duration_ms": 1204
   },
   {
     "name": "/boot/test/sys/fs-test-support-test",
-    "runs": 78,
-    "median_duration_ms": 820
+    "runs": 18,
+    "median_duration_ms": 710
   },
   {
     "name": "/boot/test/sys/fs-transaction-test",
-    "runs": 78,
-    "median_duration_ms": 105
+    "runs": 18,
+    "median_duration_ms": 104
   },
   {
     "name": "/boot/test/sys/fs-vnode-test",
-    "runs": 78,
-    "median_duration_ms": 106
+    "runs": 18,
+    "median_duration_ms": 105
   },
   {
     "name": "/boot/test/sys/ftdi-i2c-test-test",
-    "runs": 78,
-    "median_duration_ms": 105
+    "runs": 18,
+    "median_duration_ms": 104
   },
   {
     "name": "/boot/test/sys/ftl-integration-test",
-    "runs": 78,
-    "median_duration_ms": 7216
+    "runs": 18,
+    "median_duration_ms": 7511
   },
   {
     "name": "/boot/test/sys/ftl-lib-test",
-    "runs": 78,
-    "median_duration_ms": 105
+    "runs": 18,
+    "median_duration_ms": 104
   },
   {
     "name": "/boot/test/sys/ftl-read-write-fuzzer_test",
-    "runs": 78,
-    "median_duration_ms": 105
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/ftl-test",
-    "runs": 78,
-    "median_duration_ms": 15940
+    "runs": 18,
+    "median_duration_ms": 13933
   },
   {
     "name": "/boot/test/sys/futex-ownership-test",
-    "runs": 78,
-    "median_duration_ms": 612
+    "runs": 18,
+    "median_duration_ms": 604
   },
   {
     "name": "/boot/test/sys/fvm-driver-integration-test",
-    "runs": 78,
-    "median_duration_ms": 205
+    "runs": 18,
+    "median_duration_ms": 204
   },
   {
     "name": "/boot/test/sys/fvm-driver-unittests-test",
-    "runs": 78,
+    "runs": 18,
     "median_duration_ms": 104
   },
   {
     "name": "/boot/test/sys/fvm-integration-test",
-    "runs": 78,
-    "median_duration_ms": 613
+    "runs": 18,
+    "median_duration_ms": 608
   },
   {
     "name": "/boot/test/sys/fvm-test",
-    "runs": 78,
-    "median_duration_ms": 5954
+    "runs": 18,
+    "median_duration_ms": 5042
   },
   {
     "name": "/boot/test/sys/fvm-unit-test",
-    "runs": 78,
-    "median_duration_ms": 105
+    "runs": 18,
+    "median_duration_ms": 106
   },
   {
     "name": "/boot/test/sys/fzl-test",
-    "runs": 78,
-    "median_duration_ms": 807
+    "runs": 18,
+    "median_duration_ms": 706
   },
   {
     "name": "/boot/test/sys/fzl-zxtest-test",
-    "runs": 78,
-    "median_duration_ms": 938
+    "runs": 18,
+    "median_duration_ms": 831
   },
   {
     "name": "/boot/test/sys/generic-power-driver-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/getentropy-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/gfx-fuzzer_test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/gpt-device-test",
-    "runs": 78,
+    "runs": 18,
     "median_duration_ms": 104
   },
   {
     "name": "/boot/test/sys/gpt-unit-test",
-    "runs": 78,
-    "median_duration_ms": 1207
+    "runs": 18,
+    "median_duration_ms": 1007
   },
   {
     "name": "/boot/test/sys/handle-alias-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/handles-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
+  },
+  {
+    "name": "/boot/test/sys/hid-driver-test",
+    "runs": 18,
+    "median_duration_ms": 204
   },
   {
     "name": "/boot/test/sys/hid-parser-fuzzer_test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/hid-parser-test",
-    "runs": 78,
-    "median_duration_ms": 105
-  },
-  {
-    "name": "/boot/test/sys/hid-test",
-    "runs": 78,
-    "median_duration_ms": 205
+    "runs": 18,
+    "median_duration_ms": 104
   },
   {
     "name": "/boot/test/sys/hmac-fuzzer_test",
-    "runs": 78,
-    "median_duration_ms": 104
-  },
-  {
-    "name": "/boot/test/sys/hypervisor-test",
-    "runs": 59,
-    "median_duration_ms": 105
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/id_allocator-test",
-    "runs": 78,
-    "median_duration_ms": 4407
+    "runs": 18,
+    "median_duration_ms": 3915
   },
   {
     "name": "/boot/test/sys/image-format-test-test",
-    "runs": 78,
-    "median_duration_ms": 105
+    "runs": 18,
+    "median_duration_ms": 104
   },
   {
     "name": "/boot/test/sys/inspect-reader-fuzzer_test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/inspect-test",
-    "runs": 78,
-    "median_duration_ms": 220
+    "runs": 18,
+    "median_duration_ms": 216
   },
   {
     "name": "/boot/test/sys/inspector-test",
-    "runs": 78,
-    "median_duration_ms": 105
+    "runs": 18,
+    "median_duration_ms": 104
   },
   {
     "name": "/boot/test/sys/int-types-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/intel-hda-test-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/intel-hda-utils-test-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/iosched",
-    "runs": 78,
-    "median_duration_ms": 105
+    "runs": 18,
+    "median_duration_ms": 104
   },
   {
     "name": "/boot/test/sys/isolateddevmgr-test",
-    "runs": 78,
-    "median_duration_ms": 306
+    "runs": 18,
+    "median_duration_ms": 304
   },
   {
     "name": "/boot/test/sys/journal-entry-fuzzer_test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/journal-fuzzer_test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/journal-replay-fuzzer_test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/kcounter-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/kernel-clocks-test",
-    "runs": 78,
+    "runs": 18,
     "median_duration_ms": 104
   },
   {
     "name": "/boot/test/sys/kernel-cmdline-fuzzer_test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/kernel-cmdline-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/kernel-mexec-test-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/kernel-unittests-test",
-    "runs": 78,
-    "median_duration_ms": 5318
+    "runs": 18,
+    "median_duration_ms": 5116
   },
   {
     "name": "/boot/test/sys/launchpad-test",
-    "runs": 78,
-    "median_duration_ms": 105
-  },
-  {
-    "name": "/boot/test/sys/lazy_init-test",
-    "runs": 78,
-    "median_duration_ms": 105
-  },
-  {
-    "name": "/boot/test/sys/ldmsg-fuzzer_test",
-    "runs": 78,
+    "runs": 18,
     "median_duration_ms": 104
   },
   {
+    "name": "/boot/test/sys/lazy_init-test",
+    "runs": 18,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/sys/ldmsg-fuzzer_test",
+    "runs": 18,
+    "median_duration_ms": 103
+  },
+  {
     "name": "/boot/test/sys/libabr-test",
-    "runs": 78,
-    "median_duration_ms": 106
+    "runs": 18,
+    "median_duration_ms": 105
   },
   {
     "name": "/boot/test/sys/libc-test",
-    "runs": 78,
+    "runs": 53,
     "median_duration_ms": 1004
   },
   {
     "name": "/boot/test/sys/libdriver-integration-test",
-    "runs": 78,
-    "median_duration_ms": 205
+    "runs": 18,
+    "median_duration_ms": 204
   },
   {
     "name": "/boot/test/sys/libfs-pty-test-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/libhwreg-i2c-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/libhwreg-test",
-    "runs": 78,
-    "median_duration_ms": 105
+    "runs": 18,
+    "median_duration_ms": 106
   },
   {
     "name": "/boot/test/sys/libzbi-test",
-    "runs": 78,
-    "median_duration_ms": 105
+    "runs": 18,
+    "median_duration_ms": 104
   },
   {
     "name": "/boot/test/sys/linenoise-test-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/loader-service-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/lockdep-test-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/log-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/logger-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/logger-unit-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/lz4-decompress-fuzzer_test",
-    "runs": 78,
-    "median_duration_ms": 960
+    "runs": 18,
+    "median_duration_ms": 903
   },
   {
     "name": "/boot/test/sys/lz4-roundtrip-fuzzer_test",
-    "runs": 78,
-    "median_duration_ms": 179
+    "runs": 18,
+    "median_duration_ms": 131
   },
   {
     "name": "/boot/test/sys/mbr-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/memfs-tests-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/minfs-fuzzer_test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/mipidsi-test",
-    "runs": 78,
+    "runs": 18,
     "median_duration_ms": 104
   },
   {
     "name": "/boot/test/sys/miscsvc-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/mmio-ptr-unittest-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/mock-function-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/msm8x53-clk-test",
-    "runs": 78,
-    "median_duration_ms": 404
+    "runs": 18,
+    "median_duration_ms": 304
   },
   {
     "name": "/boot/test/sys/msm8x53-power-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/mt-hci-request-queue-test-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/mt-hci-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/mt-hci-transaction-test-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/mt8167-audio-lib-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/mt8167s_ref-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/mtk-spi-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
-    "name": "/boot/test/sys/mtk-thermal-integration-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "name": "/boot/test/sys/mtk-thermal-integration-test-test",
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/namespace-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/nand-broker-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/nandpart-broker-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/netsvc-stress-test",
-    "runs": 78,
-    "median_duration_ms": 49518
+    "runs": 18,
+    "median_duration_ms": 44151
   },
   {
     "name": "/boot/test/sys/netsvc-test",
-    "runs": 78,
-    "median_duration_ms": 6483
+    "runs": 18,
+    "median_duration_ms": 5928
   },
   {
     "name": "/boot/test/sys/nhlt-fuzzer_test",
-    "runs": 78,
-    "median_duration_ms": 105
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/noop-fuzzer_test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/noop-test",
-    "runs": 78,
+    "runs": 52,
     "median_duration_ms": 3
   },
   {
     "name": "/boot/test/sys/noop-test.asan",
-    "runs": 78,
-    "median_duration_ms": 105
-  },
-  {
-    "name": "/boot/test/sys/noop-test.asan-ubsan",
-    "runs": 78,
+    "runs": 52,
     "median_duration_ms": 106
   },
   {
-    "name": "/boot/test/sys/noop-test.profile",
-    "runs": 78,
+    "name": "/boot/test/sys/noop-test.asan-ubsan",
+    "runs": 52,
     "median_duration_ms": 105
+  },
+  {
+    "name": "/boot/test/sys/noop-test.profile",
+    "runs": 51,
+    "median_duration_ms": 104
   },
   {
     "name": "/boot/test/sys/noop-test.sancov",
-    "runs": 78,
-    "median_duration_ms": 105
+    "runs": 53,
+    "median_duration_ms": 106
   },
   {
     "name": "/boot/test/sys/noop-test.ubsan",
-    "runs": 78,
+    "runs": 52,
     "median_duration_ms": 105
   },
   {
     "name": "/boot/test/sys/noop-test.ubsan-sancov",
-    "runs": 78,
+    "runs": 52,
     "median_duration_ms": 106
   },
   {
     "name": "/boot/test/sys/noop-test.ubsan-sancov-full",
-    "runs": 78,
+    "runs": 52,
     "median_duration_ms": 106
   },
   {
     "name": "/boot/test/sys/optee-message-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 105
   },
   {
     "name": "/boot/test/sys/pci-driver-test",
-    "runs": 78,
-    "median_duration_ms": 706
+    "runs": 18,
+    "median_duration_ms": 605
   },
   {
     "name": "/boot/test/sys/pci-unit-test",
-    "runs": 78,
-    "median_duration_ms": 806
+    "runs": 18,
+    "median_duration_ms": 706
   },
   {
     "name": "/boot/test/sys/perf-mon-tests-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/perf-test",
-    "runs": 78,
+    "runs": 18,
     "median_duration_ms": 104
   },
   {
     "name": "/boot/test/sys/pixelbook-eve-test-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/platform-bus-test",
-    "runs": 78,
-    "median_duration_ms": 408
+    "runs": 18,
+    "median_duration_ms": 307
   },
   {
     "name": "/boot/test/sys/policy-test",
-    "runs": 78,
-    "median_duration_ms": 105
+    "runs": 18,
+    "median_duration_ms": 104
   },
   {
     "name": "/boot/test/sys/posixio-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/pretty-test-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/processor-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/profile-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/property-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/ps-test",
-    "runs": 78,
-    "median_duration_ms": 107
-  },
-  {
-    "name": "/boot/test/sys/pty-test",
-    "runs": 78,
-    "median_duration_ms": 104
-  },
-  {
-    "name": "/boot/test/sys/ptysvc-test-test",
-    "runs": 78,
-    "median_duration_ms": 105
-  },
-  {
-    "name": "/boot/test/sys/qsort-test",
-    "runs": 78,
-    "median_duration_ms": 104
-  },
-  {
-    "name": "/boot/test/sys/race-tests-test",
-    "runs": 78,
-    "median_duration_ms": 104
-  },
-  {
-    "name": "/boot/test/sys/ram-crashlog-test",
-    "runs": 78,
-    "median_duration_ms": 104
-  },
-  {
-    "name": "/boot/test/sys/ram-nand-test",
-    "runs": 78,
-    "median_duration_ms": 104
-  },
-  {
-    "name": "/boot/test/sys/ramdisk-test",
-    "runs": 78,
-    "median_duration_ms": 707
-  },
-  {
-    "name": "/boot/test/sys/range-test",
-    "runs": 78,
+    "runs": 18,
     "median_duration_ms": 106
   },
   {
+    "name": "/boot/test/sys/pty-test",
+    "runs": 18,
+    "median_duration_ms": 103
+  },
+  {
+    "name": "/boot/test/sys/ptysvc-test-test",
+    "runs": 18,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/sys/qsort-test",
+    "runs": 18,
+    "median_duration_ms": 103
+  },
+  {
+    "name": "/boot/test/sys/race-tests-test",
+    "runs": 18,
+    "median_duration_ms": 103
+  },
+  {
+    "name": "/boot/test/sys/ram-crashlog-test",
+    "runs": 18,
+    "median_duration_ms": 103
+  },
+  {
+    "name": "/boot/test/sys/ram-nand-test",
+    "runs": 18,
+    "median_duration_ms": 105
+  },
+  {
+    "name": "/boot/test/sys/ramdisk-test",
+    "runs": 18,
+    "median_duration_ms": 606
+  },
+  {
+    "name": "/boot/test/sys/range-test",
+    "runs": 18,
+    "median_duration_ms": 105
+  },
+  {
     "name": "/boot/test/sys/raw-bitmap-fuzzer_test",
-    "runs": 78,
+    "runs": 18,
     "median_duration_ms": 104
   },
   {
     "name": "/boot/test/sys/refcount-test-test",
-    "runs": 78,
+    "runs": 18,
     "median_duration_ms": 104
   },
   {
     "name": "/boot/test/sys/region-alloc-test",
-    "runs": 78,
-    "median_duration_ms": 105
-  },
-  {
-    "name": "/boot/test/sys/register-state-test",
-    "runs": 78,
+    "runs": 18,
     "median_duration_ms": 104
   },
   {
+    "name": "/boot/test/sys/register-state-test",
+    "runs": 18,
+    "median_duration_ms": 103
+  },
+  {
     "name": "/boot/test/sys/rtc-lib-test",
-    "runs": 78,
+    "runs": 18,
     "median_duration_ms": 104
   },
   {
     "name": "/boot/test/sys/running_on_bootfs_test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/runtests-utils-test",
-    "runs": 78,
-    "median_duration_ms": 310
+    "runs": 18,
+    "median_duration_ms": 307
   },
   {
     "name": "/boot/test/sys/sa-unittest-test",
-    "runs": 78,
+    "runs": 18,
     "median_duration_ms": 806
   },
   {
     "name": "/boot/test/sys/scsilib-disk-test-test",
-    "runs": 78,
+    "runs": 18,
     "median_duration_ms": 104
   },
   {
     "name": "/boot/test/sys/service-llcpp-test-test",
-    "runs": 78,
-    "median_duration_ms": 105
+    "runs": 18,
+    "median_duration_ms": 104
   },
   {
     "name": "/boot/test/sys/service-proxy-dir-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/sgm37603a-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/sherlock-audio-out-test",
-    "runs": 78,
+    "runs": 18,
     "median_duration_ms": 104
   },
   {
     "name": "/boot/test/sys/simplehid-test",
-    "runs": 78,
-    "median_duration_ms": 4107
+    "runs": 18,
+    "median_duration_ms": 4105
   },
   {
     "name": "/boot/test/sys/smbios-test-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/spi-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/status-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/stdio-test-test",
-    "runs": 78,
-    "median_duration_ms": 5109
+    "runs": 18,
+    "median_duration_ms": 5108
   },
   {
     "name": "/boot/test/sys/storage-metrics-test",
-    "runs": 78,
-    "median_duration_ms": 105
+    "runs": 18,
+    "median_duration_ms": 104
   },
   {
     "name": "/boot/test/sys/svchost-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/syn-audio-in-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/syscall-generation-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/sysconf-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/sysconfig-sync-client-test",
-    "runs": 78,
-    "median_duration_ms": 6088
+    "runs": 18,
+    "median_duration_ms": 5062
   },
   {
     "name": "/boot/test/sys/sysinfo-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/syslog-static-test",
-    "runs": 78,
-    "median_duration_ms": 105
+    "runs": 18,
+    "median_duration_ms": 104
   },
   {
     "name": "/boot/test/sys/syslog-test",
-    "runs": 78,
+    "runs": 18,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/sys/sysmem-make-tracking-test",
+    "runs": 18,
     "median_duration_ms": 104
   },
   {
     "name": "/boot/test/sys/sysmem-test",
-    "runs": 78,
-    "median_duration_ms": 6511
+    "runs": 18,
+    "median_duration_ms": 5806
   },
   {
     "name": "/boot/test/sys/sysmem-version-test",
-    "runs": 78,
-    "median_duration_ms": 1305
+    "runs": 18,
+    "median_duration_ms": 1028
   },
   {
     "name": "/boot/test/sys/task-utils-test",
-    "runs": 78,
-    "median_duration_ms": 105
+    "runs": 18,
+    "median_duration_ms": 104
   },
   {
     "name": "/boot/test/sys/test-exceptions-test",
-    "runs": 78,
-    "median_duration_ms": 105
+    "runs": 18,
+    "median_duration_ms": 104
   },
   {
     "name": "/boot/test/sys/test-utils-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/tftp-fuzzer_test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/tftp-test",
-    "runs": 78,
-    "median_duration_ms": 307
+    "runs": 18,
+    "median_duration_ms": 305
   },
   {
     "name": "/boot/test/sys/thread-initial-state-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/thread-safe-deleter-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/thread-state-test",
-    "runs": 78,
+    "runs": 18,
     "median_duration_ms": 104
   },
   {
     "name": "/boot/test/sys/ti-lp8556-test",
-    "runs": 78,
+    "runs": 18,
     "median_duration_ms": 104
   },
   {
     "name": "/boot/test/sys/time-test",
-    "runs": 78,
+    "runs": 18,
     "median_duration_ms": 104
   },
   {
     "name": "/boot/test/sys/timers-test",
-    "runs": 78,
-    "median_duration_ms": 5108
+    "runs": 18,
+    "median_duration_ms": 5106
   },
   {
     "name": "/boot/test/sys/trace-engine-hash-table-test",
-    "runs": 78,
+    "runs": 18,
     "median_duration_ms": 104
   },
   {
     "name": "/boot/test/sys/trace-provider-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/trace-reader-test-test",
-    "runs": 78,
+    "runs": 18,
     "median_duration_ms": 104
   },
   {
     "name": "/boot/test/sys/trace-static-engine-test",
-    "runs": 78,
-    "median_duration_ms": 2109
+    "runs": 18,
+    "median_duration_ms": 2107
   },
   {
     "name": "/boot/test/sys/trace-test",
-    "runs": 78,
-    "median_duration_ms": 2109
+    "runs": 18,
+    "median_duration_ms": 2107
   },
   {
     "name": "/boot/test/sys/trace-vthread-test-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/trace-vthread-with-static-engine-test-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/uart-unittests-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/uart16550-test",
-    "runs": 78,
+    "runs": 18,
     "median_duration_ms": 104
   },
   {
     "name": "/boot/test/sys/unittest-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/usb-cdc-ecm-descriptor-fuzzer_test",
-    "runs": 78,
+    "runs": 18,
     "median_duration_ms": 104
   },
   {
     "name": "/boot/test/sys/usb-cdc-ecm-unittest",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/usb-desc-lib-test",
-    "runs": 78,
+    "runs": 18,
     "median_duration_ms": 104
   },
   {
     "name": "/boot/test/sys/usb-device-test",
-    "runs": 78,
-    "median_duration_ms": 105
+    "runs": 18,
+    "median_duration_ms": 104
   },
   {
     "name": "/boot/test/sys/usb-request-test",
-    "runs": 78,
-    "median_duration_ms": 106
+    "runs": 18,
+    "median_duration_ms": 105
   },
   {
     "name": "/boot/test/sys/usb-test",
-    "runs": 78,
+    "runs": 18,
     "median_duration_ms": 104
   },
   {
     "name": "/boot/test/sys/usb-video-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/usb-virtual-bus-asix-88179-test",
-    "runs": 78,
-    "median_duration_ms": 1411
+    "runs": 18,
+    "median_duration_ms": 1308
   },
   {
     "name": "/boot/test/sys/usb-virtual-bus-cdc-acm-test",
-    "runs": 78,
-    "median_duration_ms": 5210
+    "runs": 18,
+    "median_duration_ms": 5207
   },
   {
     "name": "/boot/test/sys/usb-virtual-bus-cdc-ecm-test",
-    "runs": 78,
-    "median_duration_ms": 514
+    "runs": 18,
+    "median_duration_ms": 411
   },
   {
     "name": "/boot/test/sys/usb-virtual-bus-ftdi-test",
-    "runs": 78,
-    "median_duration_ms": 206
+    "runs": 18,
+    "median_duration_ms": 204
   },
   {
     "name": "/boot/test/sys/usb-virtual-bus-hid-test",
-    "runs": 78,
-    "median_duration_ms": 609
+    "runs": 18,
+    "median_duration_ms": 506
   },
   {
     "name": "/boot/test/sys/usb-virtual-bus-test-test",
-    "runs": 78,
+    "runs": 18,
     "median_duration_ms": 205
   },
   {
     "name": "/boot/test/sys/usb-wrapper-test",
-    "runs": 78,
+    "runs": 18,
     "median_duration_ms": 104
   },
   {
     "name": "/boot/test/sys/utc-procargs-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/utf_conversion-fuzzer_test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/utf_conversion-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/util-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/vdso-base-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/vdso-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/vdso-variant-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/virtio-gpu-test-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/vmo-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/vmo_file-fuzzer_test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/zbi-bootfs-fuzzer_test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/zbi-bootfs-test-test",
-    "runs": 78,
+    "runs": 18,
     "median_duration_ms": 104
   },
   {
     "name": "/boot/test/sys/zircon-crypto-test",
-    "runs": 78,
-    "median_duration_ms": 106
+    "runs": 18,
+    "median_duration_ms": 105
   },
   {
     "name": "/boot/test/sys/zstd-fuzzer_test",
-    "runs": 78,
-    "median_duration_ms": 105
+    "runs": 18,
+    "median_duration_ms": 104
   },
   {
     "name": "/boot/test/sys/zstd-seekable-fuzzer_test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/zstd-seekable-symmetric-fuzzer_test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/zx-panic-libc-test-test",
-    "runs": 78,
-    "median_duration_ms": 104
+    "runs": 18,
+    "median_duration_ms": 103
   },
   {
     "name": "/boot/test/sys/zx-test",
-    "runs": 78,
-    "median_duration_ms": 105
+    "runs": 18,
+    "median_duration_ms": 104
   },
   {
     "name": "/boot/test/sys/zxcrypt-test",
-    "runs": 78,
-    "median_duration_ms": 7584
+    "runs": 18,
+    "median_duration_ms": 6386
   },
   {
     "name": "/boot/test/sys/zxio-test",
-    "runs": 78,
-    "median_duration_ms": 106
+    "runs": 18,
+    "median_duration_ms": 105
   },
   {
     "name": "/boot/test/sys/zxtest-integration-test",
-    "runs": 78,
-    "median_duration_ms": 117
+    "runs": 18,
+    "median_duration_ms": 115
   },
   {
     "name": "/boot/test/sys/zxtest-test",
-    "runs": 78,
+    "runs": 18,
+    "median_duration_ms": 105
+  },
+  {
+    "name": "/boot/test/syscall-generation-test",
+    "runs": 35,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/sysconf-test",
+    "runs": 34,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/sysconfig-sync-client-test",
+    "runs": 35,
+    "median_duration_ms": 6270
+  },
+  {
+    "name": "/boot/test/sysinfo-test",
+    "runs": 34,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/syslog-static-test",
+    "runs": 35,
+    "median_duration_ms": 105
+  },
+  {
+    "name": "/boot/test/syslog-test",
+    "runs": 35,
+    "median_duration_ms": 105
+  },
+  {
+    "name": "/boot/test/sysmem",
+    "runs": 35,
+    "median_duration_ms": 6511
+  },
+  {
+    "name": "/boot/test/sysmem-make-tracking-test",
+    "runs": 35,
+    "median_duration_ms": 105
+  },
+  {
+    "name": "/boot/test/sysmem-version-test",
+    "runs": 34,
+    "median_duration_ms": 1306
+  },
+  {
+    "name": "/boot/test/task-utils-test",
+    "runs": 35,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/test-exceptions-test",
+    "runs": 35,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/test-utils-test",
+    "runs": 35,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/tftp-fuzzer_test",
+    "runs": 35,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/tftp-test",
+    "runs": 34,
+    "median_duration_ms": 306
+  },
+  {
+    "name": "/boot/test/thread-initial-state-test",
+    "runs": 34,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/thread-safe-deleter-test",
+    "runs": 35,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/thread-state-test",
+    "runs": 35,
+    "median_duration_ms": 105
+  },
+  {
+    "name": "/boot/test/ti-lp8556-test",
+    "runs": 35,
+    "median_duration_ms": 105
+  },
+  {
+    "name": "/boot/test/time",
+    "runs": 35,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/timers-test",
+    "runs": 35,
+    "median_duration_ms": 5108
+  },
+  {
+    "name": "/boot/test/trace",
+    "runs": 35,
+    "median_duration_ms": 2110
+  },
+  {
+    "name": "/boot/test/trace-engine-hash-table-test",
+    "runs": 34,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/trace-provider-test",
+    "runs": 35,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/trace-reader-test-test",
+    "runs": 35,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/trace-static-engine",
+    "runs": 35,
+    "median_duration_ms": 2109
+  },
+  {
+    "name": "/boot/test/trace-vthread-test-test",
+    "runs": 34,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/trace-vthread-with-static-engine-test-test",
+    "runs": 35,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/uart-unittests",
+    "runs": 35,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/uart16550-test",
+    "runs": 34,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/unittest",
+    "runs": 34,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/usb-cdc-ecm-descriptor-fuzzer_test",
+    "runs": 35,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/usb-cdc-ecm-unittest",
+    "runs": 35,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/usb-desc-lib-test",
+    "runs": 34,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/usb-device",
+    "runs": 34,
+    "median_duration_ms": 105
+  },
+  {
+    "name": "/boot/test/usb-request-test",
+    "runs": 35,
+    "median_duration_ms": 106
+  },
+  {
+    "name": "/boot/test/usb-test",
+    "runs": 35,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/usb-video-test",
+    "runs": 34,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/usb-virtual-bus-asix-88179",
+    "runs": 35,
+    "median_duration_ms": 1411
+  },
+  {
+    "name": "/boot/test/usb-virtual-bus-cdc-acm-test",
+    "runs": 33,
+    "median_duration_ms": 5211
+  },
+  {
+    "name": "/boot/test/usb-virtual-bus-cdc-ecm-test",
+    "runs": 34,
+    "median_duration_ms": 512
+  },
+  {
+    "name": "/boot/test/usb-virtual-bus-ftdi-test",
+    "runs": 34,
+    "median_duration_ms": 205
+  },
+  {
+    "name": "/boot/test/usb-virtual-bus-hid-test",
+    "runs": 34,
+    "median_duration_ms": 613
+  },
+  {
+    "name": "/boot/test/usb-virtual-bus-test-test",
+    "runs": 34,
+    "median_duration_ms": 206
+  },
+  {
+    "name": "/boot/test/usb-wrapper-test",
+    "runs": 34,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/utc-procargs",
+    "runs": 35,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/utf_conversion-fuzzer_test",
+    "runs": 34,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/utf_conversion-test",
+    "runs": 35,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/util-test",
+    "runs": 34,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/vdso-base-test",
+    "runs": 35,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/vdso-test",
+    "runs": 33,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/vdso-variant",
+    "runs": 34,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/virtio-gpu-test-test",
+    "runs": 34,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/vmo-test",
+    "runs": 35,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/vmo_file-fuzzer_test",
+    "runs": 34,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/zbi-bootfs-fuzzer_test",
+    "runs": 33,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/zbi-bootfs-test",
+    "runs": 34,
+    "median_duration_ms": 105
+  },
+  {
+    "name": "/boot/test/zircon-crypto-test",
+    "runs": 35,
+    "median_duration_ms": 106
+  },
+  {
+    "name": "/boot/test/zstd-fuzzer_test",
+    "runs": 35,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/zstd-seekable-fuzzer_test",
+    "runs": 35,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/zstd-seekable-symmetric-fuzzer_test",
+    "runs": 35,
+    "median_duration_ms": 105
+  },
+  {
+    "name": "/boot/test/zx-panic-libc-test-test",
+    "runs": 35,
+    "median_duration_ms": 104
+  },
+  {
+    "name": "/boot/test/zx-test",
+    "runs": 35,
+    "median_duration_ms": 106
+  },
+  {
+    "name": "/boot/test/zxcrypt-test",
+    "runs": 34,
+    "median_duration_ms": 7956
+  },
+  {
+    "name": "/boot/test/zxio-test",
+    "runs": 34,
+    "median_duration_ms": 106
+  },
+  {
+    "name": "/boot/test/zxtest-integration-test",
+    "runs": 35,
+    "median_duration_ms": 118
+  },
+  {
+    "name": "/boot/test/zxtest-test",
+    "runs": 35,
     "median_duration_ms": 105
   }
 ]
