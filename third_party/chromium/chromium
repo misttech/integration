@@ -3,33 +3,33 @@
   <packages>
     <!-- Chromium and web_runner amd64 / x64 implementation -->
     <package name="chromium/fuchsia/webrunner-amd64"
-             version="version:85.0.4162.0"
+             version="version:85.0.4169.5"
              path="prebuilt/third_party/chromium/arch/x64"/>
     <!-- Chromium and web_runner arm64 / aarch64 implementation -->
     <package name="chromium/fuchsia/webrunner-arm64"
-             version="version:85.0.4162.0"
+             version="version:85.0.4169.5"
              path="prebuilt/third_party/chromium/arch/arm64"/>
     <!-- Cast_runner amd64 / x64 implementation -->
     <package name="chromium/fuchsia/castrunner-amd64"
-             version="version:85.0.4162.0"
+             version="version:85.0.4169.5"
              path="prebuilt/third_party/cast_runner/arch/x64"/>
     <!-- cast_runner arm64 / aarch64 implementation -->
     <package name="chromium/fuchsia/castrunner-arm64"
-             version="version:85.0.4162.0"
+             version="version:85.0.4169.5"
              path="prebuilt/third_party/cast_runner/arch/arm64"/>
     <!-- Chromium amd64 / x64 tests -->
     <package name="chromium/fuchsia/tests-amd64"
-             version="version:85.0.4162.0"
+             version="version:85.0.4169.5"
              path="prebuilt/third_party/chromium_tests/arch/x64"/>
     <!-- Chromium arm64 / aarch64 tests -->
     <package name="chromium/fuchsia/tests-arm64"
-             version="version:85.0.4162.0"
+             version="version:85.0.4169.5"
              path="prebuilt/third_party/chromium_tests/arch/arm64"/>
     <!-- Chromedriver
     TODO(IN-1321): The restriction to linux only is temporary; mac is
     not currently supported.  -->
     <package name="chromium/fuchsia/chromedriver/${platform}"
-             version="version:85.0.4162.0"
+             version="version:85.0.4169.5"
              platforms="linux-amd64"
              path="prebuilt/third_party/chromedriver/{{.OS}}-{{.Arch}}"/>
     <!-- Debug symbols
@@ -38,11 +38,11 @@
     Download paths must be of the form //prebuilt/build_ids/<target cpu>/<name>
     -->
     <package name="chromium/fuchsia/debug-symbols-amd64"
-             version="version:85.0.4162.0"
+             version="version:85.0.4169.5"
              path="prebuilt/build_ids/x64/chromium"
              attributes="debug-symbols,debug-symbols-x64,debug-symbols-chromium"/>
     <package name="chromium/fuchsia/debug-symbols-arm64"
-             version="version:85.0.4162.0"
+             version="version:85.0.4169.5"
              path="prebuilt/build_ids/arm64/chromium"
              attributes="debug-symbols,debug-symbols-arm64,debug-symbols-chromium"/>
   </packages>
