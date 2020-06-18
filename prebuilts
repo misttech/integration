@@ -128,11 +128,9 @@
              version="version:4.0.0-2-copy"
              path="prebuilt/third_party/tesseract-ocr/tesseract/linux-amd64"/>
 
-     <!-- YAPF for formatting python code
-          Please keep in sync with tricium-recipes builder properties.
-     -->
+     <!-- YAPF for formatting python code -->
      <package name="infra/tools/yapf"
-              version="git_revision:2155d0d436bf346333810cc352791063e1dda952"
+              version="git_revision:c3517c148417dc7c53141c4edda4a85765b04c62"
               path="prebuilt/third_party/yapf"/>
 
      <!-- VPython interpreter, needed for running YAPF (and possibly more).
