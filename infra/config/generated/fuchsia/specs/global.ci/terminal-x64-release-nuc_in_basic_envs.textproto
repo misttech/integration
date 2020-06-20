@@ -25,11 +25,12 @@ test {
   pave: true
   pool: "fuchsia.tests"
   swarming_expiration_timeout_secs: 18000
-  swarming_io_timeout_secs: 300
+  swarming_io_timeout_secs: 310
   test_in_shards: true
   timeout_secs: 1800
   max_attempts: 1
   default_service_account: "artifact-readers@fuchsia-infra.iam.gserviceaccount.com"
+  per_test_timeout_secs: 300
   upload_results: true
   target_shard_duration_secs: 540
   catapult_dashboard_master: "fuchsia.global.ci"
