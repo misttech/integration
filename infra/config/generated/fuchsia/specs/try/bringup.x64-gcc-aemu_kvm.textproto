@@ -25,7 +25,6 @@ test {
   swarming_expiration_timeout_secs: 18000
   swarming_io_timeout_secs: 310
   timeout_secs: 2400
-  max_attempts: 1
   use_runtests: true
   default_service_account: "artifact-readers@fuchsia-infra.iam.gserviceaccount.com"
   per_test_timeout_secs: 300
