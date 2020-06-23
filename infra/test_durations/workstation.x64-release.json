@@ -2,36 +2,56 @@
   {
     "name": "*",
     "runs": 0,
-    "median_duration_ms": 10981
+    "median_duration_ms": 7146
+  },
+  {
+    "name": "fuchsia-pkg://fuchsia.com/example-hlcpp-protocol-test#meta/example-hlcpp-protocol-test.cmx",
+    "runs": 43,
+    "median_duration_ms": 496
+  },
+  {
+    "name": "fuchsia-pkg://fuchsia.com/examples-integration-test#meta/examples-integration-test.cmx",
+    "runs": 43,
+    "median_duration_ms": 2249
+  },
+  {
+    "name": "fuchsia-pkg://fuchsia.com/fostr-example-test#meta/fostr-example-test.cmx",
+    "runs": 43,
+    "median_duration_ms": 395
   },
   {
     "name": "fuchsia-pkg://fuchsia.com/usb-video-test#meta/usb-video-test.cmx",
-    "runs": 24,
-    "median_duration_ms": 240
+    "runs": 62,
+    "median_duration_ms": 235
+  },
+  {
+    "name": "host_x64/example-cpp-host-test",
+    "runs": 43,
+    "median_duration_ms": 25
   },
   {
     "name": "host_x64/inspect_metrics_emulator_test",
-    "runs": 24,
-    "median_duration_ms": 20940
+    "runs": 62,
+    "median_duration_ms": 21089
   },
   {
     "name": "host_x64/inspect_metrics_test",
-    "runs": 23,
-    "median_duration_ms": 3642
+    "runs": 59,
+    "median_duration_ms": 5191
   },
   {
     "name": "host_x64/merge_sdk_bin_test",
-    "runs": 24,
-    "median_duration_ms": 158
+    "runs": 62,
+    "median_duration_ms": 151
   },
   {
     "name": "host_x64/sdk_metadata_lib_test",
-    "runs": 24,
-    "median_duration_ms": 126
+    "runs": 62,
+    "median_duration_ms": 121
   },
   {
     "name": "host_x64/sl4f_test",
-    "runs": 24,
-    "median_duration_ms": 40781
+    "runs": 62,
+    "median_duration_ms": 41508
   }
 ]
