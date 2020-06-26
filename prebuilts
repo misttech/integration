@@ -427,11 +427,6 @@
              path="prebuilt/tools/lkg"
              version="git_revision:22886bd1b229d02e28330e43b495bbeb86592ac4"
              platforms="linux-amd64,linux-arm64,mac-amd64"/>
-    <!-- TODO(fxb/55049): Delete in favor of lkg. -->
-    <package name="fuchsia/infra/lkgb/${platform}"
-             path="prebuilt/tools/lkgb"
-             version="git_revision:c17ffddf23280693c932c2c535bca4baff5cfb84"
-             platforms="linux-amd64,linux-arm64,mac-amd64"/>
     <!-- Dachsiaboard -->
     <package name="fuchsia/infra/dachsiaboard"
              version="g3-revision:dachsiaboard_fe_20200622_RC00"
