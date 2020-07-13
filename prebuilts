@@ -81,7 +81,7 @@
     <!-- Ninja from https://ninja-build.org/ -->
     <!-- TODO(BLD-341): add linux-arm64 -->
     <package name="fuchsia/third_party/ninja/${platform}"
-             version="git_revision:0ccc7886fd4694ae1372d29b4954e2dd3be118be"
+             version="git_revision:48a9fb5d0de6f7bb850863d122ba736b62546746"
              platforms="linux-amd64,mac-amd64"
              path="prebuilt/third_party/ninja/{{.OS}}-{{.Arch}}"/>
 
