@@ -153,6 +153,14 @@
              platforms="linux-amd64,mac-amd64"
              path="prebuilt/third_party/fargo/{{.OS}}-{{.Arch}}"/>
 
+    <!-- bloaty from
+         https://fuchsia.googlesource.com/third_party/bloaty/+/{{.git_revision}}
+    -->
+    <package name="fuchsia/third_party/bloaty/${platform}"
+             version="git_revision:1f9068e434fe85a8887be15a6eed6fe1058207e7"
+             platforms="linux-amd64,mac-amd64"
+             path="prebuilt/third_party/bloaty/{{.OS}}-{{.Arch}}"/>
+
     <!--
         ************************************************************
         Tools maintained by Fuchsia outside fuchsia.git
