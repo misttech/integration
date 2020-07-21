@@ -79,10 +79,10 @@
              path="prebuilt/third_party/gn/{{.OS}}-{{.Arch}}"/>
 
     <!-- Ninja from https://ninja-build.org/ -->
-    <!-- TODO(BLD-341): add linux-arm64 -->
+    <!-- TODO(phosek): link to bot/recipe/autoroller(?) -->
     <package name="fuchsia/third_party/ninja/${platform}"
              version="git_revision:086a9b2f8833fd45f2119596f74f90b9f7e2cdf5"
-             platforms="linux-amd64,mac-amd64"
+             platforms="linux-amd64,linux-arm64,mac-amd64"
              path="prebuilt/third_party/ninja/{{.OS}}-{{.Arch}}"/>
 
     <!-- QEMU
