@@ -384,6 +384,12 @@
              path="prebuilt/connectivity/openthread/radio-firmware"
              internal="true"/>
 
+    <!-- Camera Gym Assets -->
+    <package name="fuchsia_internal/camera/camera-gym-assets"
+             version="QlF5mB8M4n7agTFPO_7B2biMIdm34G-cZMUKl18NXygC"
+             path="prebuilt/camera/camera_gym_assets"
+             internal="true"/>
+
     <!--   GUI Tools -->
     <!-- Add with `jiri init -fetch-optional=fuchsia_devtools` -->
     <package name="fuchsia_internal/gui_tools/fuchsia_devtools/${platform}"
