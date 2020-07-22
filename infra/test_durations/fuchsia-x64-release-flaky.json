@@ -2,16 +2,81 @@
   {
     "name": "*",
     "runs": 0,
-    "median_duration_ms": 2036
+    "median_duration_ms": 3746
   },
   {
     "name": "fuchsia-pkg://fuchsia.com/bluetooth-tests#meta/bt-integration-tests.cmx",
-    "runs": 45,
-    "median_duration_ms": 3280
+    "runs": 59,
+    "median_duration_ms": 3044
+  },
+  {
+    "name": "fuchsia-pkg://fuchsia.com/wlan-hw-sim-test#meta/configure-legacy-privacy-off.cmx",
+    "runs": 19,
+    "median_duration_ms": 3111
+  },
+  {
+    "name": "fuchsia-pkg://fuchsia.com/wlan-hw-sim-test#meta/configure-legacy-privacy-on.cmx",
+    "runs": 20,
+    "median_duration_ms": 2913
+  },
+  {
+    "name": "fuchsia-pkg://fuchsia.com/wlan-hw-sim-test#meta/connect-to-open-network.cmx",
+    "runs": 19,
+    "median_duration_ms": 3534
+  },
+  {
+    "name": "fuchsia-pkg://fuchsia.com/wlan-hw-sim-test#meta/connect-to-wpa2-network.cmx",
+    "runs": 19,
+    "median_duration_ms": 3585
+  },
+  {
+    "name": "fuchsia-pkg://fuchsia.com/wlan-hw-sim-test#meta/connect-with-failed-association.cmx",
+    "runs": 20,
+    "median_duration_ms": 20709
+  },
+  {
+    "name": "fuchsia-pkg://fuchsia.com/wlan-hw-sim-test#meta/ethernet-tx-rx.cmx",
+    "runs": 20,
+    "median_duration_ms": 3554
+  },
+  {
+    "name": "fuchsia-pkg://fuchsia.com/wlan-hw-sim-test#meta/multi-ifaces.cmx",
+    "runs": 19,
+    "median_duration_ms": 680
+  },
+  {
+    "name": "fuchsia-pkg://fuchsia.com/wlan-hw-sim-test#meta/multiple-clients-ap.cmx",
+    "runs": 19,
+    "median_duration_ms": 5219
+  },
+  {
+    "name": "fuchsia-pkg://fuchsia.com/wlan-hw-sim-test#meta/open-ap-connect.cmx",
+    "runs": 20,
+    "median_duration_ms": 692
+  },
+  {
+    "name": "fuchsia-pkg://fuchsia.com/wlan-hw-sim-test#meta/set-country.cmx",
+    "runs": 20,
+    "median_duration_ms": 659
+  },
+  {
+    "name": "fuchsia-pkg://fuchsia.com/wlan-hw-sim-test#meta/sim-client-vs-sim-ap.cmx",
+    "runs": 19,
+    "median_duration_ms": 4068
+  },
+  {
+    "name": "fuchsia-pkg://fuchsia.com/wlan-hw-sim-test#meta/simulate-scan.cmx",
+    "runs": 19,
+    "median_duration_ms": 2944
+  },
+  {
+    "name": "fuchsia-pkg://fuchsia.com/wlan-hw-sim-test#meta/verify-ethernet.cmx",
+    "runs": 20,
+    "median_duration_ms": 677
   },
   {
     "name": "fuchsia-pkg://fuchsia.com/wlanstack-tests#meta/wlanstack_bin_test.cmx",
-    "runs": 54,
-    "median_duration_ms": 791
+    "runs": 68,
+    "median_duration_ms": 803
   }
 ]
