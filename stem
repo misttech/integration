@@ -21,6 +21,6 @@
           action="zircon/scripts/download-prebuilt"/>
     <hook name="gen-ssh-keys"
           project="fuchsia"
-          action="garnet/tools/gen-ssh-keys.sh"/>
+          action="tools/ssh-keys/gen-ssh-keys.sh"/>
   </hooks>
 </manifest>
