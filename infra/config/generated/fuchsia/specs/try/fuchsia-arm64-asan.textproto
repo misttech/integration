@@ -17,18 +17,18 @@ build {
   product: "products/core.gni"
   run_tests: true
   target: "arm64"
-  variants: "asan"
+  variants: "asan-ubsan"
   variants: "host_asan"
 }
 test {
   pave: true
   pool: "fuchsia.tests"
   swarming_expiration_timeout_secs: 18000
-  swarming_io_timeout_secs: 310
+  swarming_io_timeout_secs: 370
   test_in_shards: true
   timeout_secs: 3840
   default_service_account: "artifact-readers@fuchsia-infra.iam.gserviceaccount.com"
-  per_test_timeout_secs: 300
+  per_test_timeout_secs: 360
   upload_results: true
   target_shard_duration_secs: 540
   max_shards_per_env: 5
