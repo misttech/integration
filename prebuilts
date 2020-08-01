@@ -74,7 +74,7 @@
     <!-- GN from https://gn.googlesource.com/gn/ -->
     <!-- TODO(BLD-341): add linux-arm64 -->
     <package name="gn/gn/${platform}"
-             version="git_revision:783cc138f9ac3e7ca214317e44a3b04bcbb334cb"
+             version="git_revision:bca0631828a5564a81628680cc6151bc418224f2"
              platforms="linux-amd64,mac-amd64"
              path="prebuilt/third_party/gn/{{.OS}}-{{.Arch}}"/>
 
