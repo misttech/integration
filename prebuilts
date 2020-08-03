@@ -281,15 +281,6 @@
              version="version:1.1.130.0"
              path="prebuilt/third_party/vulkansdk/{{.OS}}"
              platforms="linux-amd64,mac-amd64"/>
-    <!--   Goldfish Vulkan ICD -->
-    <package name="fuchsia/lib/libvulkan/libvulkan_goldfish/x64"
-             version="git_revision:39ef5bd8180a37f52817f06d2492154c8cd5a057"
-             path="prebuilt/third_party/libvulkan_goldfish/x64"/>
-    <!--   Goldfish Vulkan ICD debug symbols -->
-    <package name="fuchsia/lib/libvulkan/libvulkan_goldfish/debug-symbols-x64"
-             version="git_revision:39ef5bd8180a37f52817f06d2492154c8cd5a057"
-             path="prebuilt/.build-id"
-             attributes="debug-symbols,debug-symbols-x64"/>
 
     <!--   gRPC Web Proxy -->
     <package name="fuchsia/third_party/grpcwebproxy/${platform}"
