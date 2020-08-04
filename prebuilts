@@ -24,7 +24,7 @@
          TODO(mcgrathr): repo/bot link about provenance
     -->
     <package name="fuchsia/third_party/clang/${platform}"
-             version="git_revision:8e058feae0b0d07cd86257f0aa3154acfa887fe0"
+             version="git_revision:3520297039d69381cb5776235209fc08863b9095"
              platforms="linux-amd64,linux-arm64,mac-amd64"
              path="prebuilt/third_party/clang/{{.OS}}-{{.Arch}}"/>
     <!-- GCC
@@ -240,7 +240,7 @@
     <!-- General packages -->
     <!--   LLVM libraries -->
     <package name="fuchsia/lib/llvm/${platform}"
-             version="git_revision:964f816dbae777c5f1ee1eebc220739bb37c2861"
+             version="git_revision:b46680407d992b4499de499c7b39c3038dffc07a"
              path="prebuilt/third_party/llvm"/>
     <!--   Chromium media test data -->
     <package name="fuchsia/test_data/third_party/chromium_media_test_data"
