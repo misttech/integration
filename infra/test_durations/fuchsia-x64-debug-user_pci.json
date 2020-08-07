@@ -2,7 +2,7 @@
   {
     "name": "*",
     "runs": 0,
-    "median_duration_ms": 1855
+    "median_duration_ms": 2261
   },
   {
     "name": "host_x64/affected_targets_bin_test",
@@ -11,23 +11,23 @@
   },
   {
     "name": "host_x64/affected_targets_lib_lib_test",
-    "runs": 6,
-    "median_duration_ms": 24
+    "runs": 12,
+    "median_duration_ms": 25
   },
   {
     "name": "host_x64/affectedtests_tests",
-    "runs": 9,
-    "median_duration_ms": 1733
+    "runs": 15,
+    "median_duration_ms": 1737
   },
   {
     "name": "host_x64/artifactory_lib_tests",
-    "runs": 6,
-    "median_duration_ms": 32
+    "runs": 12,
+    "median_duration_ms": 33
   },
   {
     "name": "host_x64/artifactory_main_tests",
-    "runs": 1,
-    "median_duration_ms": 204
+    "runs": 7,
+    "median_duration_ms": 504
   },
   {
     "name": "host_x64/banjo_unittests",
@@ -36,7 +36,7 @@
   },
   {
     "name": "host_x64/baz_fuzzer_test",
-    "runs": 9,
+    "runs": 28,
     "median_duration_ms": 26
   },
   {
@@ -46,38 +46,38 @@
   },
   {
     "name": "host_x64/blackout_host_lib_test",
-    "runs": 9,
+    "runs": 15,
     "median_duration_ms": 31
   },
   {
     "name": "host_x64/bloaty_tests",
-    "runs": 1,
-    "median_duration_ms": 30
+    "runs": 7,
+    "median_duration_ms": 33
   },
   {
     "name": "host_x64/blobfs-host",
-    "runs": 6,
-    "median_duration_ms": 41
+    "runs": 25,
+    "median_duration_ms": 42
   },
   {
     "name": "host_x64/blobstats_tests",
-    "runs": 1,
-    "median_duration_ms": 261
+    "runs": 20,
+    "median_duration_ms": 265
   },
   {
     "name": "host_x64/bootserver_cmd_tests",
-    "runs": 1,
+    "runs": 20,
     "median_duration_ms": 90
   },
   {
     "name": "host_x64/bootserver_lib_tests",
-    "runs": 1,
-    "median_duration_ms": 100
+    "runs": 20,
+    "median_duration_ms": 103
   },
   {
     "name": "host_x64/botanist_lib_tests",
-    "runs": 9,
-    "median_duration_ms": 1053
+    "runs": 22,
+    "median_duration_ms": 1054
   },
   {
     "name": "host_x64/botanist_main_tests",
@@ -91,18 +91,18 @@
   },
   {
     "name": "host_x64/breakpad_tests",
-    "runs": 9,
+    "runs": 28,
     "median_duration_ms": 22
   },
   {
     "name": "host_x64/build_tests",
-    "runs": 1,
+    "runs": 20,
     "median_duration_ms": 25
   },
   {
     "name": "host_x64/cache_tests",
-    "runs": 9,
-    "median_duration_ms": 1831
+    "runs": 22,
+    "median_duration_ms": 1847
   },
   {
     "name": "host_x64/cargo_gnaw_golden_integration_test",
@@ -111,8 +111,8 @@
   },
   {
     "name": "host_x64/cargo_gnaw_tests",
-    "runs": 6,
-    "median_duration_ms": 26
+    "runs": 25,
+    "median_duration_ms": 27
   },
   {
     "name": "host_x64/check-licenses_golden_tests",
@@ -121,12 +121,12 @@
   },
   {
     "name": "host_x64/check-licenses_lib_tests",
-    "runs": 4,
+    "runs": 23,
     "median_duration_ms": 29
   },
   {
     "name": "host_x64/check-licenses_main_tests",
-    "runs": 9,
+    "runs": 22,
     "median_duration_ms": 27
   },
   {
@@ -141,8 +141,8 @@
   },
   {
     "name": "host_x64/cmpctmalloc_test",
-    "runs": 9,
-    "median_duration_ms": 349
+    "runs": 28,
+    "median_duration_ms": 348
   },
   {
     "name": "host_x64/codesize_tests",
@@ -155,28 +155,33 @@
     "median_duration_ms": 21
   },
   {
+    "name": "host_x64/compdb_tests",
+    "runs": 13,
+    "median_duration_ms": 25
+  },
+  {
     "name": "host_x64/component_id_index_bin_test",
     "runs": 1,
     "median_duration_ms": 264
   },
   {
     "name": "host_x64/composition_delegate_tests",
-    "runs": 9,
-    "median_duration_ms": 322
+    "runs": 22,
+    "median_duration_ms": 324
   },
   {
     "name": "host_x64/containers_cpp_unittests",
-    "runs": 1,
-    "median_duration_ms": 35
+    "runs": 20,
+    "median_duration_ms": 36
   },
   {
     "name": "host_x64/coresight_tests",
-    "runs": 4,
-    "median_duration_ms": 21
+    "runs": 23,
+    "median_duration_ms": 22
   },
   {
     "name": "host_x64/corpus_fuzzer_test",
-    "runs": 1,
+    "runs": 20,
     "median_duration_ms": 26
   },
   {
@@ -186,7 +191,7 @@
   },
   {
     "name": "host_x64/cpuperf_raw_printer_test",
-    "runs": 4,
+    "runs": 17,
     "median_duration_ms": 43
   },
   {
@@ -201,8 +206,8 @@
   },
   {
     "name": "host_x64/dev_finder_tests",
-    "runs": 1,
-    "median_duration_ms": 280
+    "runs": 14,
+    "median_duration_ms": 277
   },
   {
     "name": "host_x64/devicetree-tests",
@@ -226,8 +231,8 @@
   },
   {
     "name": "host_x64/dm_reboot_recovery_test",
-    "runs": 9,
-    "median_duration_ms": 6713
+    "runs": 28,
+    "median_duration_ms": 7003
   },
   {
     "name": "host_x64/dm_reboot_test",
@@ -241,17 +246,17 @@
   },
   {
     "name": "host_x64/dockyard_host_test",
-    "runs": 6,
+    "runs": 12,
     "median_duration_ms": 82
   },
   {
     "name": "host_x64/dockyard_tests",
-    "runs": 9,
+    "runs": 22,
     "median_duration_ms": 111
   },
   {
     "name": "host_x64/environment_tests",
-    "runs": 9,
+    "runs": 28,
     "median_duration_ms": 27
   },
   {
@@ -261,13 +266,13 @@
   },
   {
     "name": "host_x64/escher_renderer_tests",
-    "runs": 6,
+    "runs": 25,
     "median_duration_ms": 85
   },
   {
     "name": "host_x64/escher_unittests",
-    "runs": 9,
-    "median_duration_ms": 5061
+    "runs": 28,
+    "median_duration_ms": 5068
   },
   {
     "name": "host_x64/example-cpp-host-test",
@@ -276,7 +281,7 @@
   },
   {
     "name": "host_x64/expr_parser_fuzzer_test",
-    "runs": 4,
+    "runs": 23,
     "median_duration_ms": 52
   },
   {
@@ -286,13 +291,13 @@
   },
   {
     "name": "host_x64/fdio_hosttests",
-    "runs": 1,
+    "runs": 14,
     "median_duration_ms": 238
   },
   {
     "name": "host_x64/ffl-test",
-    "runs": 4,
-    "median_duration_ms": 23
+    "runs": 10,
+    "median_duration_ms": 22
   },
   {
     "name": "host_x64/ffx_bin_test",
@@ -301,8 +306,8 @@
   },
   {
     "name": "host_x64/ffx_component_args_lib_test",
-    "runs": 1,
-    "median_duration_ms": 19
+    "runs": 14,
+    "median_duration_ms": 20
   },
   {
     "name": "host_x64/ffx_component_lib_test",
@@ -311,28 +316,28 @@
   },
   {
     "name": "host_x64/ffx_component_run_args_lib_test",
-    "runs": 6,
+    "runs": 25,
     "median_duration_ms": 21
   },
   {
     "name": "host_x64/ffx_component_run_lib_test",
-    "runs": 9,
+    "runs": 22,
     "median_duration_ms": 68
   },
   {
     "name": "host_x64/ffx_component_run_suite_lib_test",
-    "runs": 5,
-    "median_duration_ms": 19
+    "runs": 24,
+    "median_duration_ms": 20
   },
   {
     "name": "host_x64/ffx_component_suite_lib_test",
-    "runs": 5,
+    "runs": 18,
     "median_duration_ms": 20
   },
   {
     "name": "host_x64/ffx_config_lib_test",
-    "runs": 6,
-    "median_duration_ms": 102
+    "runs": 25,
+    "median_duration_ms": 103
   },
   {
     "name": "host_x64/ffx_config_plugin_args_lib_test",
@@ -346,8 +351,8 @@
   },
   {
     "name": "host_x64/ffx_config_plugin_suite_lib_test",
-    "runs": 5,
-    "median_duration_ms": 19
+    "runs": 24,
+    "median_duration_ms": 20
   },
   {
     "name": "host_x64/ffx_core_impl_lib_test",
@@ -356,28 +361,48 @@
   },
   {
     "name": "host_x64/ffx_daemon_lib_test",
-    "runs": 9,
+    "runs": 22,
     "median_duration_ms": 225
   },
   {
+    "name": "host_x64/ffx_daemon_plugin_args_lib_test",
+    "runs": 13,
+    "median_duration_ms": 21
+  },
+  {
+    "name": "host_x64/ffx_daemon_plugin_suite_lib_test",
+    "runs": 6,
+    "median_duration_ms": 12
+  },
+  {
     "name": "host_x64/ffx_daemon_start_args_lib_test",
-    "runs": 4,
+    "runs": 10,
     "median_duration_ms": 20
   },
   {
     "name": "host_x64/ffx_daemon_start_lib_test",
-    "runs": 6,
+    "runs": 25,
     "median_duration_ms": 13
   },
   {
+    "name": "host_x64/ffx_daemon_start_suite_lib_test",
+    "runs": 13,
+    "median_duration_ms": 14
+  },
+  {
     "name": "host_x64/ffx_daemon_stop_args_lib_test",
-    "runs": 6,
+    "runs": 19,
     "median_duration_ms": 20
   },
   {
     "name": "host_x64/ffx_daemon_stop_lib_test",
-    "runs": 1,
-    "median_duration_ms": 32
+    "runs": 14,
+    "median_duration_ms": 33
+  },
+  {
+    "name": "host_x64/ffx_daemon_stop_suite_lib_test",
+    "runs": 6,
+    "median_duration_ms": 19
   },
   {
     "name": "host_x64/ffx_daemon_suite_args_lib_test",
@@ -391,28 +416,28 @@
   },
   {
     "name": "host_x64/ffx_doctor_args_lib_test",
-    "runs": 1,
-    "median_duration_ms": 20
+    "runs": 7,
+    "median_duration_ms": 19
   },
   {
     "name": "host_x64/ffx_doctor_lib_test",
-    "runs": 9,
-    "median_duration_ms": 2064
+    "runs": 28,
+    "median_duration_ms": 2066
   },
   {
     "name": "host_x64/ffx_doctor_suite_lib_test",
-    "runs": 5,
+    "runs": 11,
     "median_duration_ms": 13
   },
   {
     "name": "host_x64/ffx_echo_args_lib_test",
-    "runs": 9,
+    "runs": 22,
     "median_duration_ms": 20
   },
   {
     "name": "host_x64/ffx_echo_lib_test",
-    "runs": 4,
-    "median_duration_ms": 34
+    "runs": 17,
+    "median_duration_ms": 35
   },
   {
     "name": "host_x64/ffx_echo_suite_lib_test",
@@ -421,17 +446,22 @@
   },
   {
     "name": "host_x64/ffx_knock_args_lib_test",
-    "runs": 1,
+    "runs": 7,
     "median_duration_ms": 20
   },
   {
     "name": "host_x64/ffx_knock_lib_test",
-    "runs": 6,
+    "runs": 19,
     "median_duration_ms": 61
   },
   {
+    "name": "host_x64/ffx_knock_suite_lib_test",
+    "runs": 13,
+    "median_duration_ms": 20
+  },
+  {
     "name": "host_x64/ffx_lib_args_lib_test",
-    "runs": 9,
+    "runs": 22,
     "median_duration_ms": 20
   },
   {
@@ -440,9 +470,14 @@
     "median_duration_ms": 12
   },
   {
+    "name": "host_x64/ffx_lib_suite_lib_test",
+    "runs": 6,
+    "median_duration_ms": 12
+  },
+  {
     "name": "host_x64/ffx_list_args_lib_test",
-    "runs": 1,
-    "median_duration_ms": 19
+    "runs": 20,
+    "median_duration_ms": 20
   },
   {
     "name": "host_x64/ffx_list_lib_test",
@@ -450,18 +485,23 @@
     "median_duration_ms": 109
   },
   {
+    "name": "host_x64/ffx_list_suite_lib_test",
+    "runs": 13,
+    "median_duration_ms": 13
+  },
+  {
     "name": "host_x64/ffx_off_args_lib_test",
-    "runs": 9,
+    "runs": 15,
     "median_duration_ms": 20
   },
   {
     "name": "host_x64/ffx_off_lib_test",
-    "runs": 6,
-    "median_duration_ms": 31
+    "runs": 19,
+    "median_duration_ms": 32
   },
   {
     "name": "host_x64/ffx_off_suite_lib_test",
-    "runs": 5,
+    "runs": 18,
     "median_duration_ms": 20
   },
   {
@@ -471,37 +511,47 @@
   },
   {
     "name": "host_x64/ffx_packaging_lib_test",
-    "runs": 4,
-    "median_duration_ms": 73
+    "runs": 10,
+    "median_duration_ms": 74
   },
   {
     "name": "host_x64/ffx_packaging_suite_lib_test",
-    "runs": 5,
+    "runs": 18,
     "median_duration_ms": 13
   },
   {
     "name": "host_x64/ffx_reboot_args_lib_test",
-    "runs": 9,
+    "runs": 15,
     "median_duration_ms": 20
   },
   {
     "name": "host_x64/ffx_reboot_lib_test",
-    "runs": 9,
+    "runs": 28,
     "median_duration_ms": 37
   },
   {
-    "name": "host_x64/ffx_select_args_lib_test",
-    "runs": 1,
+    "name": "host_x64/ffx_reboot_suite_lib_test",
+    "runs": 6,
     "median_duration_ms": 19
   },
   {
+    "name": "host_x64/ffx_select_args_lib_test",
+    "runs": 20,
+    "median_duration_ms": 20
+  },
+  {
     "name": "host_x64/ffx_select_lib_test",
-    "runs": 1,
-    "median_duration_ms": 58
+    "runs": 7,
+    "median_duration_ms": 59
+  },
+  {
+    "name": "host_x64/ffx_select_suite_lib_test",
+    "runs": 13,
+    "median_duration_ms": 20
   },
   {
     "name": "host_x64/ffx_target_args_lib_test",
-    "runs": 5,
+    "runs": 18,
     "median_duration_ms": 20
   },
   {
@@ -511,7 +561,7 @@
   },
   {
     "name": "host_x64/ffx_target_suite_lib_test",
-    "runs": 9,
+    "runs": 15,
     "median_duration_ms": 13
   },
   {
@@ -521,21 +571,26 @@
   },
   {
     "name": "host_x64/ffx_test_lib_test",
-    "runs": 4,
+    "runs": 10,
     "median_duration_ms": 20
   },
   {
     "name": "host_x64/ffx_test_suite_lib_test",
-    "runs": 5,
-    "median_duration_ms": 19
+    "runs": 24,
+    "median_duration_ms": 20
   },
   {
     "name": "host_x64/ffx_zxdb_plugin_args_lib_test",
-    "runs": 4,
+    "runs": 17,
     "median_duration_ms": 20
   },
   {
     "name": "host_x64/ffx_zxdb_plugin_lib_test",
+    "runs": 6,
+    "median_duration_ms": 19
+  },
+  {
+    "name": "host_x64/ffx_zxdb_plugin_suite_lib_test",
     "runs": 6,
     "median_duration_ms": 19
   },
@@ -551,7 +606,7 @@
   },
   {
     "name": "host_x64/fidl-walker-host-tests",
-    "runs": 9,
+    "runs": 22,
     "median_duration_ms": 85
   },
   {
@@ -561,8 +616,8 @@
   },
   {
     "name": "host_x64/fidl_cpp_host_unittests",
-    "runs": 4,
-    "median_duration_ms": 56
+    "runs": 23,
+    "median_duration_ms": 55
   },
   {
     "name": "host_x64/fidl_crates_test",
@@ -571,8 +626,8 @@
   },
   {
     "name": "host_x64/fidl_rust_conformance_tests",
-    "runs": 9,
-    "median_duration_ms": 623
+    "runs": 28,
+    "median_duration_ms": 644
   },
   {
     "name": "host_x64/fidl_rust_handle_tests",
@@ -581,8 +636,8 @@
   },
   {
     "name": "host_x64/fidl_rust_lib_tests",
-    "runs": 1,
-    "median_duration_ms": 41
+    "runs": 7,
+    "median_duration_ms": 43
   },
   {
     "name": "host_x64/fidlcat_host_tests",
@@ -591,8 +646,8 @@
   },
   {
     "name": "host_x64/fidldoc_bin_test",
-    "runs": 1,
-    "median_duration_ms": 1596
+    "runs": 14,
+    "median_duration_ms": 1606
   },
   {
     "name": "host_x64/fidlgen_common_test",
@@ -606,8 +661,8 @@
   },
   {
     "name": "host_x64/fidlgen_go_test",
-    "runs": 1,
-    "median_duration_ms": 137
+    "runs": 20,
+    "median_duration_ms": 140
   },
   {
     "name": "host_x64/fidlgen_hlcpp_test",
@@ -616,23 +671,23 @@
   },
   {
     "name": "host_x64/fidlgen_libfuzzer_test",
-    "runs": 9,
-    "median_duration_ms": 401
+    "runs": 22,
+    "median_duration_ms": 398
   },
   {
     "name": "host_x64/fidlgen_llcpp_test",
-    "runs": 1,
-    "median_duration_ms": 2058
+    "runs": 20,
+    "median_duration_ms": 2099
   },
   {
     "name": "host_x64/fidlgen_rust_ir_test",
-    "runs": 9,
+    "runs": 22,
     "median_duration_ms": 28
   },
   {
     "name": "host_x64/fidlgen_rust_test",
-    "runs": 9,
-    "median_duration_ms": 607
+    "runs": 22,
+    "median_duration_ms": 577
   },
   {
     "name": "host_x64/fidlgen_syzkaller_test",
@@ -641,33 +696,33 @@
   },
   {
     "name": "host_x64/fidlgen_types_test",
-    "runs": 1,
-    "median_duration_ms": 188
+    "runs": 7,
+    "median_duration_ms": 30
   },
   {
     "name": "host_x64/firmware_zbi_test",
-    "runs": 6,
-    "median_duration_ms": 27
+    "runs": 25,
+    "median_duration_ms": 28
   },
   {
     "name": "host_x64/fit",
-    "runs": 1,
-    "median_duration_ms": 3020
+    "runs": 20,
+    "median_duration_ms": 3025
   },
   {
     "name": "host_x64/fit-unittest-test",
-    "runs": 1,
-    "median_duration_ms": 39
+    "runs": 14,
+    "median_duration_ms": 41
   },
   {
     "name": "host_x64/flagmisc_tests",
-    "runs": 4,
-    "median_duration_ms": 22
+    "runs": 23,
+    "median_duration_ms": 21
   },
   {
     "name": "host_x64/flutter_startup_time_metric_test",
-    "runs": 1,
-    "median_duration_ms": 300
+    "runs": 14,
+    "median_duration_ms": 286
   },
   {
     "name": "host_x64/font_info_test",
@@ -676,8 +731,8 @@
   },
   {
     "name": "host_x64/font_manifest_generator_bin_test",
-    "runs": 6,
-    "median_duration_ms": 71
+    "runs": 19,
+    "median_duration_ms": 76
   },
   {
     "name": "host_x64/font_manifest_generator_integration_tests",
@@ -691,33 +746,33 @@
   },
   {
     "name": "host_x64/ftl-volume-wrapper",
-    "runs": 6,
+    "runs": 12,
     "median_duration_ms": 33
   },
   {
     "name": "host_x64/ftl-volume-wrapper-integration",
-    "runs": 9,
-    "median_duration_ms": 53
+    "runs": 22,
+    "median_duration_ms": 54
   },
   {
     "name": "host_x64/fuchsia-diagnostic-streams-unittests",
-    "runs": 1,
-    "median_duration_ms": 270
+    "runs": 14,
+    "median_duration_ms": 278
   },
   {
     "name": "host_x64/fuchsia_async_lib_test",
-    "runs": 1,
-    "median_duration_ms": 141
+    "runs": 20,
+    "median_duration_ms": 139
   },
   {
     "name": "host_x64/fuchsia_inspect_package_unittests",
-    "runs": 9,
-    "median_duration_ms": 535
+    "runs": 15,
+    "median_duration_ms": 537
   },
   {
     "name": "host_x64/fuchsia_logger_package_unittests",
-    "runs": 9,
-    "median_duration_ms": 308
+    "runs": 15,
+    "median_duration_ms": 311
   },
   {
     "name": "host_x64/fuzz_input_unittests",
@@ -726,7 +781,7 @@
   },
   {
     "name": "host_x64/fuzzed_data_provider_fuzzer_test",
-    "runs": 9,
+    "runs": 28,
     "median_duration_ms": 26
   },
   {
@@ -736,7 +791,7 @@
   },
   {
     "name": "host_x64/fvm-unit-test",
-    "runs": 9,
+    "runs": 28,
     "median_duration_ms": 38
   },
   {
@@ -746,13 +801,13 @@
   },
   {
     "name": "host_x64/fxtest_tests",
-    "runs": 9,
-    "median_duration_ms": 667
+    "runs": 22,
+    "median_duration_ms": 657
   },
   {
     "name": "host_x64/fxutils_tests",
-    "runs": 1,
-    "median_duration_ms": 310
+    "runs": 14,
+    "median_duration_ms": 295
   },
   {
     "name": "host_x64/gen/src/experiences/examples/hello_experiences/hello_experiences_unittests",
@@ -766,13 +821,13 @@
   },
   {
     "name": "host_x64/gen/src/experiences/session_shells/ermine/keyboard_shortcuts/keyboard_shortcuts_unittests",
-    "runs": 1,
-    "median_duration_ms": 1157
+    "runs": 20,
+    "median_duration_ms": 1130
   },
   {
     "name": "host_x64/gen/src/experiences/session_shells/ermine/settings/ermine_settings_unittests",
-    "runs": 1,
-    "median_duration_ms": 2319
+    "runs": 20,
+    "median_duration_ms": 2425
   },
   {
     "name": "host_x64/gen/src/experiences/session_shells/ermine/shell/ermine_unittests",
@@ -786,8 +841,8 @@
   },
   {
     "name": "host_x64/gen/src/experiences/settings/bin/settings_tests",
-    "runs": 9,
-    "median_duration_ms": 1172
+    "runs": 28,
+    "median_duration_ms": 1188
   },
   {
     "name": "host_x64/gen/tools/create/goldens/my-component-v1-cpp/test_script.py",
@@ -796,7 +851,7 @@
   },
   {
     "name": "host_x64/gen/tools/create/goldens/my-component-v1-rust/test_script.py",
-    "runs": 9,
+    "runs": 15,
     "median_duration_ms": 70
   },
   {
@@ -806,23 +861,23 @@
   },
   {
     "name": "host_x64/gen/tools/create/goldens/my-component-v2-rust/test_script.py",
-    "runs": 4,
-    "median_duration_ms": 79
+    "runs": 17,
+    "median_duration_ms": 128
   },
   {
     "name": "host_x64/gen/tools/create/goldens/my-driver-cpp/test_script.py",
-    "runs": 9,
-    "median_duration_ms": 91
+    "runs": 15,
+    "median_duration_ms": 92
   },
   {
     "name": "host_x64/gen/topaz/public/dart/fuchsia_inspect_flutter/examples/torus15/torus15_flutter_test",
-    "runs": 9,
-    "median_duration_ms": 1777
+    "runs": 15,
+    "median_duration_ms": 1657
   },
   {
     "name": "host_x64/gen/topaz/public/dart/fuchsia_inspect_flutter/inspect_flutter_test",
-    "runs": 9,
-    "median_duration_ms": 1141
+    "runs": 22,
+    "median_duration_ms": 1155
   },
   {
     "name": "host_x64/gen/topaz/public/dart/fuchsia_internationalization_flutter/fuchsia_internationalization_flutter_unittests",
@@ -831,23 +886,23 @@
   },
   {
     "name": "host_x64/gen/topaz/public/dart/fuchsia_modular/fuchsia_modular_package_unittests",
-    "runs": 1,
-    "median_duration_ms": 1753
+    "runs": 14,
+    "median_duration_ms": 1799
   },
   {
     "name": "host_x64/gen/topaz/public/dart/fuchsia_scenic_flutter/fuchsia_scenic_flutter_unittests",
-    "runs": 1,
+    "runs": 20,
     "median_duration_ms": 1090
   },
   {
     "name": "host_x64/gen/topaz/public/dart/fuchsia_services/fuchsia_services_package_unittests",
-    "runs": 1,
-    "median_duration_ms": 1202
+    "runs": 7,
+    "median_duration_ms": 1122
   },
   {
     "name": "host_x64/gen/topaz/public/dart/fuchsia_webview_flutter/fuchsia_webview_flutter_unittests",
-    "runs": 1,
-    "median_duration_ms": 1413
+    "runs": 7,
+    "median_duration_ms": 1426
   },
   {
     "name": "host_x64/generate_config_bin_test",
@@ -861,27 +916,27 @@
   },
   {
     "name": "host_x64/gidl_golang_test",
-    "runs": 9,
-    "median_duration_ms": 33
+    "runs": 22,
+    "median_duration_ms": 34
   },
   {
     "name": "host_x64/gidl_mixer_test",
-    "runs": 1,
-    "median_duration_ms": 28
+    "runs": 7,
+    "median_duration_ms": 27
   },
   {
     "name": "host_x64/gidl_parser_test",
-    "runs": 9,
+    "runs": 15,
     "median_duration_ms": 33
   },
   {
     "name": "host_x64/gn_sdk_script_tests",
-    "runs": 9,
-    "median_duration_ms": 29589
+    "runs": 28,
+    "median_duration_ms": 29612
   },
   {
     "name": "host_x64/go_tuf_data_test",
-    "runs": 9,
+    "runs": 15,
     "median_duration_ms": 34
   },
   {
@@ -891,23 +946,23 @@
   },
   {
     "name": "host_x64/go_tuf_leveldbstore_test",
-    "runs": 9,
-    "median_duration_ms": 82
+    "runs": 22,
+    "median_duration_ms": 80
   },
   {
     "name": "host_x64/go_tuf_repo_test",
-    "runs": 1,
-    "median_duration_ms": 956
+    "runs": 20,
+    "median_duration_ms": 972
   },
   {
     "name": "host_x64/go_tuf_util_test",
-    "runs": 1,
-    "median_duration_ms": 31
+    "runs": 7,
+    "median_duration_ms": 33
   },
   {
     "name": "host_x64/go_tuf_verify_test",
-    "runs": 6,
-    "median_duration_ms": 58
+    "runs": 25,
+    "median_duration_ms": 60
   },
   {
     "name": "host_x64/graphics-compute-unittests",
@@ -916,12 +971,12 @@
   },
   {
     "name": "host_x64/gt_log_tests",
-    "runs": 9,
+    "runs": 28,
     "median_duration_ms": 26
   },
   {
     "name": "host_x64/hoist_lib_test",
-    "runs": 9,
+    "runs": 15,
     "median_duration_ms": 1112
   },
   {
@@ -941,13 +996,18 @@
   },
   {
     "name": "host_x64/host-target-testing-paver-test",
-    "runs": 9,
-    "median_duration_ms": 191
+    "runs": 22,
+    "median_duration_ms": 217
   },
   {
     "name": "host_x64/host-target-testing-zbi-test",
-    "runs": 1,
-    "median_duration_ms": 28
+    "runs": 14,
+    "median_duration_ms": 29
+  },
+  {
+    "name": "host_x64/host_fs_test",
+    "runs": 13,
+    "median_duration_ms": 145023
   },
   {
     "name": "host_x64/host_fuzzers_test",
@@ -956,37 +1016,37 @@
   },
   {
     "name": "host_x64/host_perfcompare_test",
-    "runs": 4,
+    "runs": 23,
     "median_duration_ms": 22
   },
   {
     "name": "host_x64/icu_data_extractor_tests",
-    "runs": 1,
-    "median_duration_ms": 107
+    "runs": 20,
+    "median_duration_ms": 110
   },
   {
     "name": "host_x64/inspect_dart_codelab_part_1_unittests",
-    "runs": 9,
+    "runs": 28,
     "median_duration_ms": 223
   },
   {
     "name": "host_x64/inspect_dart_codelab_part_2_unittests",
-    "runs": 1,
+    "runs": 14,
     "median_duration_ms": 249
   },
   {
     "name": "host_x64/inspect_dart_codelab_part_3_unittests",
-    "runs": 9,
+    "runs": 15,
     "median_duration_ms": 238
   },
   {
     "name": "host_x64/inspect_dart_codelab_part_4_unittests",
-    "runs": 9,
-    "median_duration_ms": 287
+    "runs": 15,
+    "median_duration_ms": 289
   },
   {
     "name": "host_x64/intl_model_lib_test",
-    "runs": 1,
+    "runs": 14,
     "median_duration_ms": 24
   },
   {
@@ -996,7 +1056,7 @@
   },
   {
     "name": "host_x64/iomisc_tests",
-    "runs": 9,
+    "runs": 28,
     "median_duration_ms": 23
   },
   {
@@ -1006,8 +1066,8 @@
   },
   {
     "name": "host_x64/kernel_crashlog_tests",
-    "runs": 1,
-    "median_duration_ms": 611
+    "runs": 7,
+    "median_duration_ms": 617
   },
   {
     "name": "host_x64/kill_critical_process_test",
@@ -1016,17 +1076,17 @@
   },
   {
     "name": "host_x64/line_input_tests",
-    "runs": 9,
+    "runs": 22,
     "median_duration_ms": 33
   },
   {
     "name": "host_x64/listnode-tests",
-    "runs": 6,
-    "median_duration_ms": 19
+    "runs": 25,
+    "median_duration_ms": 20
   },
   {
     "name": "host_x64/logger_tests",
-    "runs": 9,
+    "runs": 28,
     "median_duration_ms": 22
   },
   {
@@ -1036,7 +1096,7 @@
   },
   {
     "name": "host_x64/mdns_tools_test",
-    "runs": 4,
+    "runs": 23,
     "median_duration_ms": 38
   },
   {
@@ -1051,43 +1111,43 @@
   },
   {
     "name": "host_x64/mtd",
-    "runs": 9,
-    "median_duration_ms": 315
+    "runs": 15,
+    "median_duration_ms": 305
   },
   {
     "name": "host_x64/nand-redundant-storage",
-    "runs": 1,
+    "runs": 20,
     "median_duration_ms": 1594
   },
   {
     "name": "host_x64/nand-volume-driver",
-    "runs": 1,
-    "median_duration_ms": 1243
+    "runs": 20,
+    "median_duration_ms": 1239
   },
   {
     "name": "host_x64/netboot_tests",
-    "runs": 1,
-    "median_duration_ms": 1029
+    "runs": 14,
+    "median_duration_ms": 1030
   },
   {
     "name": "host_x64/netstack_bsdsocket_c_api_test",
-    "runs": 9,
-    "median_duration_ms": 1303
+    "runs": 22,
+    "median_duration_ms": 1308
   },
   {
     "name": "host_x64/netstack_external_network_test_client",
-    "runs": 1,
-    "median_duration_ms": 130782
+    "runs": 20,
+    "median_duration_ms": 130158
   },
   {
     "name": "host_x64/netstack_if_nameindex_test",
-    "runs": 6,
+    "runs": 25,
     "median_duration_ms": 26
   },
   {
     "name": "host_x64/netstack_link_bridge_test",
-    "runs": 1,
-    "median_duration_ms": 4262
+    "runs": 20,
+    "median_duration_ms": 4261
   },
   {
     "name": "host_x64/netstack_util_test",
@@ -1096,18 +1156,18 @@
   },
   {
     "name": "host_x64/ninjagraph_tests",
-    "runs": 9,
+    "runs": 15,
     "median_duration_ms": 850
   },
   {
     "name": "host_x64/ninjalog_tests",
-    "runs": 4,
+    "runs": 10,
     "median_duration_ms": 25
   },
   {
     "name": "host_x64/oom_tests",
-    "runs": 1,
-    "median_duration_ms": 22579
+    "runs": 20,
+    "median_duration_ms": 23667
   },
   {
     "name": "host_x64/osmisc_tests",
@@ -1116,18 +1176,18 @@
   },
   {
     "name": "host_x64/out_of_memory_fuzzer_test",
-    "runs": 1,
-    "median_duration_ms": 25
+    "runs": 14,
+    "median_duration_ms": 26
   },
   {
     "name": "host_x64/overflow_fuzzer_test",
-    "runs": 9,
+    "runs": 15,
     "median_duration_ms": 25
   },
   {
     "name": "host_x64/overnet_core_test",
-    "runs": 9,
-    "median_duration_ms": 6231
+    "runs": 28,
+    "median_duration_ms": 11085
   },
   {
     "name": "host_x64/overnet_host_examples_bin_test",
@@ -1136,8 +1196,8 @@
   },
   {
     "name": "host_x64/overnet_serial_tests",
-    "runs": 9,
-    "median_duration_ms": 13801
+    "runs": 28,
+    "median_duration_ms": 13823
   },
   {
     "name": "host_x64/pm_build_test",
@@ -1146,38 +1206,38 @@
   },
   {
     "name": "host_x64/pm_cmd_pm_genkey_test",
-    "runs": 9,
-    "median_duration_ms": 24
+    "runs": 15,
+    "median_duration_ms": 25
   },
   {
     "name": "host_x64/pm_cmd_pm_publish_test",
-    "runs": 9,
-    "median_duration_ms": 1053
+    "runs": 15,
+    "median_duration_ms": 1044
   },
   {
     "name": "host_x64/pm_cmd_pm_serve_test",
-    "runs": 1,
-    "median_duration_ms": 1562
+    "runs": 20,
+    "median_duration_ms": 1558
   },
   {
     "name": "host_x64/pm_repo_test",
-    "runs": 1,
-    "median_duration_ms": 2300
+    "runs": 20,
+    "median_duration_ms": 2325
   },
   {
     "name": "host_x64/qemu_tests",
-    "runs": 1,
+    "runs": 20,
     "median_duration_ms": 27
   },
   {
     "name": "host_x64/qmigen_unittests",
-    "runs": 9,
-    "median_duration_ms": 34
+    "runs": 22,
+    "median_duration_ms": 35
   },
   {
     "name": "host_x64/quickui_unittests",
-    "runs": 9,
-    "median_duration_ms": 243
+    "runs": 28,
+    "median_duration_ms": 246
   },
   {
     "name": "host_x64/recovery_simulator_boot_test",
@@ -1186,22 +1246,22 @@
   },
   {
     "name": "host_x64/recovery_simulator_serial_test",
-    "runs": 1,
-    "median_duration_ms": 3460
+    "runs": 20,
+    "median_duration_ms": 3458
   },
   {
     "name": "host_x64/repo_tests",
-    "runs": 1,
-    "median_duration_ms": 53
+    "runs": 20,
+    "median_duration_ms": 54
   },
   {
     "name": "host_x64/resultdb_tests",
-    "runs": 4,
+    "runs": 23,
     "median_duration_ms": 69
   },
   {
     "name": "host_x64/retry_tests",
-    "runs": 4,
+    "runs": 23,
     "median_duration_ms": 22
   },
   {
@@ -1211,37 +1271,37 @@
   },
   {
     "name": "host_x64/runner_tests",
-    "runs": 1,
+    "runs": 20,
     "median_duration_ms": 23
   },
   {
     "name": "host_x64/runtests_tests",
-    "runs": 1,
-    "median_duration_ms": 54
+    "runs": 14,
+    "median_duration_ms": 57
   },
   {
     "name": "host_x64/scrutiny_bin_test",
-    "runs": 1,
-    "median_duration_ms": 30
+    "runs": 20,
+    "median_duration_ms": 31
   },
   {
     "name": "host_x64/scrutiny_lib_test",
-    "runs": 9,
-    "median_duration_ms": 108
+    "runs": 28,
+    "median_duration_ms": 115
   },
   {
     "name": "host_x64/scrutiny_plugins_lib_test",
-    "runs": 1,
-    "median_duration_ms": 150
+    "runs": 7,
+    "median_duration_ms": 143
   },
   {
     "name": "host_x64/scrutiny_utils_lib_test",
-    "runs": 4,
-    "median_duration_ms": 43
+    "runs": 23,
+    "median_duration_ms": 45
   },
   {
     "name": "host_x64/sdk_metadata_lib_test",
-    "runs": 9,
+    "runs": 28,
     "median_duration_ms": 164
   },
   {
@@ -1251,18 +1311,18 @@
   },
   {
     "name": "host_x64/serial_tests",
-    "runs": 1,
-    "median_duration_ms": 181
+    "runs": 14,
+    "median_duration_ms": 172
   },
   {
     "name": "host_x64/shell_default_test",
-    "runs": 9,
-    "median_duration_ms": 2573
+    "runs": 28,
+    "median_duration_ms": 2575
   },
   {
     "name": "host_x64/shell_disabled_test",
-    "runs": 1,
-    "median_duration_ms": 8010
+    "runs": 20,
+    "median_duration_ms": 8912
   },
   {
     "name": "host_x64/shell_enabled_test",
@@ -1271,8 +1331,8 @@
   },
   {
     "name": "host_x64/shutdown_tests",
-    "runs": 9,
-    "median_duration_ms": 5281
+    "runs": 28,
+    "median_duration_ms": 5397
   },
   {
     "name": "host_x64/size_checker_tests",
@@ -1286,7 +1346,7 @@
   },
   {
     "name": "host_x64/spinel_pack_lib_test",
-    "runs": 9,
+    "runs": 28,
     "median_duration_ms": 26
   },
   {
@@ -1296,17 +1356,17 @@
   },
   {
     "name": "host_x64/sshutil_tests",
-    "runs": 9,
-    "median_duration_ms": 2659
+    "runs": 28,
+    "median_duration_ms": 3125
   },
   {
     "name": "host_x64/storage-volume-image-test",
-    "runs": 1,
-    "median_duration_ms": 117
+    "runs": 20,
+    "median_duration_ms": 122
   },
   {
     "name": "host_x64/strings_to_fidl_bin_test",
-    "runs": 1,
+    "runs": 7,
     "median_duration_ms": 68
   },
   {
@@ -1326,42 +1386,42 @@
   },
   {
     "name": "host_x64/syslog_tests",
-    "runs": 9,
+    "runs": 22,
     "median_duration_ms": 31
   },
   {
     "name": "host_x64/tap_tests",
-    "runs": 4,
+    "runs": 23,
     "median_duration_ms": 27
   },
   {
     "name": "host_x64/tarutil_tests",
-    "runs": 1,
-    "median_duration_ms": 25
+    "runs": 14,
+    "median_duration_ms": 24
   },
   {
     "name": "host_x64/tefmocheck_lib_tests",
-    "runs": 4,
-    "median_duration_ms": 63
+    "runs": 23,
+    "median_duration_ms": 64
   },
   {
     "name": "host_x64/tefmocheck_tests",
-    "runs": 1,
-    "median_duration_ms": 67
+    "runs": 14,
+    "median_duration_ms": 66
   },
   {
     "name": "host_x64/test_extract_zircon_constants",
-    "runs": 1,
-    "median_duration_ms": 194
+    "runs": 20,
+    "median_duration_ms": 260
   },
   {
     "name": "host_x64/test_runner_test",
-    "runs": 9,
-    "median_duration_ms": 245
+    "runs": 15,
+    "median_duration_ms": 242
   },
   {
     "name": "host_x64/testparser_cmd_test",
-    "runs": 1,
+    "runs": 7,
     "median_duration_ms": 28
   },
   {
@@ -1371,12 +1431,12 @@
   },
   {
     "name": "host_x64/testrunner_tests",
-    "runs": 9,
-    "median_duration_ms": 96
+    "runs": 28,
+    "median_duration_ms": 98
   },
   {
     "name": "host_x64/testsharder_tests",
-    "runs": 9,
+    "runs": 28,
     "median_duration_ms": 30
   },
   {
@@ -1386,27 +1446,27 @@
   },
   {
     "name": "host_x64/thinfs_bitops_test",
-    "runs": 6,
-    "median_duration_ms": 20
+    "runs": 12,
+    "median_duration_ms": 22
   },
   {
     "name": "host_x64/thinfs_block_fake_test",
-    "runs": 1,
-    "median_duration_ms": 250
+    "runs": 7,
+    "median_duration_ms": 224
   },
   {
     "name": "host_x64/thinfs_block_file_test",
-    "runs": 1,
-    "median_duration_ms": 345
+    "runs": 7,
+    "median_duration_ms": 361
   },
   {
     "name": "host_x64/thinfs_cache_test",
-    "runs": 1,
-    "median_duration_ms": 327
+    "runs": 7,
+    "median_duration_ms": 324
   },
   {
     "name": "host_x64/thinfs_gpt_test",
-    "runs": 4,
+    "runs": 23,
     "median_duration_ms": 29
   },
   {
@@ -1416,22 +1476,22 @@
   },
   {
     "name": "host_x64/thinfs_thinio_test",
-    "runs": 9,
-    "median_duration_ms": 3656
+    "runs": 28,
+    "median_duration_ms": 3715
   },
   {
     "name": "host_x64/tools_debug_elflib_tests",
-    "runs": 9,
-    "median_duration_ms": 23
+    "runs": 28,
+    "median_duration_ms": 25
   },
   {
     "name": "host_x64/touch_input_latency_metric_test",
-    "runs": 9,
+    "runs": 15,
     "median_duration_ms": 278
   },
   {
     "name": "host_x64/trace-reader-test-test",
-    "runs": 6,
+    "runs": 12,
     "median_duration_ms": 35
   },
   {
@@ -1441,13 +1501,13 @@
   },
   {
     "name": "host_x64/trap_fuzzer_test",
-    "runs": 4,
+    "runs": 10,
     "median_duration_ms": 25
   },
   {
     "name": "host_x64/triage_config_test_runner_test",
-    "runs": 4,
-    "median_duration_ms": 53
+    "runs": 23,
+    "median_duration_ms": 54
   },
   {
     "name": "host_x64/triage_configs_test.triage_config_test",
@@ -1456,28 +1516,28 @@
   },
   {
     "name": "host_x64/triage_lib_test",
-    "runs": 1,
-    "median_duration_ms": 495
+    "runs": 20,
+    "median_duration_ms": 508
   },
   {
     "name": "host_x64/triage_lib_unittests",
-    "runs": 1,
-    "median_duration_ms": 257
+    "runs": 20,
+    "median_duration_ms": 272
   },
   {
     "name": "host_x64/triage_sample_config_test.triage_config_test",
-    "runs": 9,
+    "runs": 22,
     "median_duration_ms": 337
   },
   {
     "name": "host_x64/uart-unittests",
-    "runs": 9,
+    "runs": 22,
     "median_duration_ms": 24
   },
   {
     "name": "host_x64/undercoat_tests",
-    "runs": 1,
-    "median_duration_ms": 3055
+    "runs": 20,
+    "median_duration_ms": 3349
   },
   {
     "name": "host_x64/unit-tests",
@@ -1486,22 +1546,22 @@
   },
   {
     "name": "host_x64/usb-peripheral-test",
-    "runs": 1,
-    "median_duration_ms": 18
+    "runs": 20,
+    "median_duration_ms": 19
   },
   {
     "name": "host_x64/vfs_macro_test",
-    "runs": 4,
-    "median_duration_ms": 54
+    "runs": 10,
+    "median_duration_ms": 55
   },
   {
     "name": "host_x64/whereiscl_test",
-    "runs": 9,
+    "runs": 15,
     "median_duration_ms": 63
   },
   {
     "name": "host_x64/yuv_unittests",
-    "runs": 1,
+    "runs": 20,
     "median_duration_ms": 26
   },
   {
@@ -1511,7 +1571,7 @@
   },
   {
     "name": "host_x64/zedmon_bin_test",
-    "runs": 1,
+    "runs": 14,
     "median_duration_ms": 25
   },
   {
@@ -1521,7 +1581,7 @@
   },
   {
     "name": "host_x64/zerocopy_derive_test",
-    "runs": 6,
+    "runs": 25,
     "median_duration_ms": 22
   },
   {
@@ -1536,8 +1596,8 @@
   },
   {
     "name": "host_x64/zxtest-integration-test",
-    "runs": 6,
-    "median_duration_ms": 50
+    "runs": 12,
+    "median_duration_ms": 52
   },
   {
     "name": "host_x64/zxtest-test",
@@ -1546,12 +1606,12 @@
   },
   {
     "name": "hwreg-asm-header",
-    "runs": 1,
-    "median_duration_ms": 8
+    "runs": 14,
+    "median_duration_ms": 13
   },
   {
     "name": "kazoo-unittests",
-    "runs": 4,
-    "median_duration_ms": 82
+    "runs": 10,
+    "median_duration_ms": 83
   }
 ]
