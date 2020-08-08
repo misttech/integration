@@ -6,6 +6,14 @@
   <imports>
     <localimport file="../minimal"/>
   </imports>
+  <projects>
+    <project name="infra/recipes"
+             path="infra/recipes"
+             remote="https://fuchsia.googlesource.com/infra/recipes"
+             gerrithost="https://fuchsia-review.googlesource.com"
+             revision="2c7295532678a0f6544d1b6224dc8a75fef96341"/>
+  </projects>
+  <!-- TODO(atyfto): Delete this package definition in favor of the project definition. -->
   <packages>
     <package name="fuchsia/infra/recipe_bundles/fuchsia.googlesource.com/infra/recipes"
              path="prebuilt/infra/recipes"
