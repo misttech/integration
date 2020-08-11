@@ -18,7 +18,6 @@ build {
   target: "arm64"
   variants: "clang"
   variants: "host_asan"
-  skip_if_unaffected: true
 }
 test {
   pool: "fuchsia.tests"

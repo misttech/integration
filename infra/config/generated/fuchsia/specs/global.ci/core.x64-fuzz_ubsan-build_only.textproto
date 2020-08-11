@@ -19,7 +19,6 @@ build {
   target: "x64"
   variants: "{variant=\"ubsan-fuzzer\" target_type=[\"fuzzed_executable\"]},{variant=\"ubsan\" label=[\"//sdk/lib/fdio\"]}"
   upload_results: true
-  skip_if_unaffected: true
 }
 gcs_bucket: "fuchsia-build"
 artifact_gcs_bucket: "fuchsia-artifacts"

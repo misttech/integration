@@ -19,7 +19,6 @@ build {
   target: "x64"
   variants: "clang"
   variants: "host_asan"
-  skip_if_unaffected: true
 }
 test {
   pave: true
