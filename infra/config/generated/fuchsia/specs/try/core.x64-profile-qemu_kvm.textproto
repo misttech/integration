@@ -19,7 +19,6 @@ build {
   target: "x64"
   variants: "host_asan"
   variants: "profile"
-  skip_if_unaffected: true
 }
 test {
   pave: true

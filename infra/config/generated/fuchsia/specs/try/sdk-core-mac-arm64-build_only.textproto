@@ -20,6 +20,5 @@ build {
   product: "products/core.gni"
   target: "arm64"
   sdk_subbuild: true
-  skip_if_unaffected: true
 }
 artifact_gcs_bucket: "fuchsia-artifacts"

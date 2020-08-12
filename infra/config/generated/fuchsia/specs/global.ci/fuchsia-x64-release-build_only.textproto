@@ -19,7 +19,6 @@ build {
   variants: "host_asan"
   upload_results: true
   include_archives: true
-  skip_if_unaffected: true
 }
 gcs_bucket: "fuchsia-build"
 artifact_gcs_bucket: "fuchsia-artifacts"
