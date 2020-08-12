@@ -17,6 +17,7 @@ build {
   product: "products/workstation.gni"
   run_tests: true
   target: "x64"
+  skip_if_unaffected: true
 }
 test {
   pave: true

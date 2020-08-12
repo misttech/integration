@@ -19,6 +19,7 @@ build {
   target: "x64"
   variants: "asan-ubsan"
   variants: "host_asan"
+  skip_if_unaffected: true
 }
 test {
   device_type: "AEMU"

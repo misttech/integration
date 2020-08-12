@@ -18,6 +18,7 @@ build {
   target: "x64"
   variants: "clang"
   variants: "host_asan"
+  skip_if_unaffected: true
 }
 test {
   device_type: "Intel NUC Kit NUC7i5DNHE"

@@ -18,6 +18,7 @@ build {
   target: "x64"
   variants: "clang"
   variants: "host_asan"
+  skip_if_unaffected: true
 }
 gcs_bucket: "fuchsia-build"
 artifact_gcs_bucket: "fuchsia-artifacts"

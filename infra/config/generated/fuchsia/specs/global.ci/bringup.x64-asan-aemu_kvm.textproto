@@ -21,6 +21,7 @@ build {
   variants: "asan-ubsan"
   variants: "host_asan"
   upload_results: true
+  skip_if_unaffected: true
 }
 test {
   device_type: "AEMU"

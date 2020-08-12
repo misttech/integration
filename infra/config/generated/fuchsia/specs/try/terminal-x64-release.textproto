@@ -17,6 +17,7 @@ build {
   run_tests: true
   target: "x64"
   variants: "host_asan"
+  skip_if_unaffected: true
 }
 test {
   pave: true
