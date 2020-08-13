@@ -263,6 +263,11 @@
     <package name="fuchsia/third_party/fonts"
              version="git_revision:14a06ef446352995e8805edbdc2460ba210415e4"
              path="prebuilt/third_party/fonts"/>
+    <!--   jq -->
+    <package name="fuchsia/third_party/jq/${platform}"
+             version="git_revision:a17dd3248a666d01be75f6b16be37e80e20b0954"
+             path="prebuilt/third_party/jq/{{.OS}}-{{.Arch}}"
+             platforms="linux-amd64,linux-arm64,mac-amd64"/>
     <!--   Skia Gold -->
     <package name="skia/tools/goldctl/${platform}"
              version="git_revision:5373450ba9cc3b7a4e4b0f3495043be666afc100"
