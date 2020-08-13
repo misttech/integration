@@ -20,6 +20,7 @@ build {
   variants: "host_asan"
   variants: "lto"
   upload_results: true
+  skip_if_unaffected: true
 }
 test {
   device_type: "QEMU"
