@@ -473,5 +473,11 @@
              path="prebuilt/sdk/bazel"
              version="version:0.17.2"
              platforms="linux-amd64,mac-amd64"/>
+
+    <!-- Virtual Device Launcher -->
+    <package name="fuchsia/vdl/${platform}"
+             path="prebuilt/vdl"
+             version="g3-revision:vdl_fuchsia_20200819_RC00"
+             platforms="linux-amd64,mac-amd64"/>
   </packages>
 </manifest>
