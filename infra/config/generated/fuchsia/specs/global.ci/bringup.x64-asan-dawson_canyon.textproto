@@ -13,6 +13,7 @@ checkout {
 build {
   build_type: "debug"
   board: "boards/x64.gni"
+  gn_args: "optimize = \"sanitizer\""
   packages: "//bundles/buildbot:bringup"
   product: "products/bringup.gni"
   run_tests: true
