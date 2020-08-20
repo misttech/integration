@@ -22,6 +22,7 @@ build {
   variants: "kasan"
   upload_results: true
   skip_if_unaffected: true
+  use_goma: true
 }
 test {
   device_type: "Intel NUC Kit NUC7i5DNHE"

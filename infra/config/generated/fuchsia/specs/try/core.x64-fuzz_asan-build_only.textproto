@@ -18,6 +18,7 @@ build {
   target: "x64"
   variants: "{variant=\"asan-fuzzer\" target_type=[\"fuzzed_executable\"]},{variant=\"asan\" label=[\"//sdk/lib/fdio\"]}"
   skip_if_unaffected: true
+  use_goma: true
 }
 gcs_bucket: "fuchsia-build"
 artifact_gcs_bucket: "fuchsia-artifacts"

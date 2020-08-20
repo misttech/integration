@@ -19,6 +19,7 @@ build {
   target: "x64"
   variants: "host_asan"
   skip_if_unaffected: true
+  use_goma: true
 }
 test {
   device_type: "Intel NUC Kit NUC7i5DNHE"

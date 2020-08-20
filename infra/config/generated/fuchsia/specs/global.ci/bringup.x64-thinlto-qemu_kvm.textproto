@@ -21,6 +21,7 @@ build {
   variants: "thinlto"
   upload_results: true
   skip_if_unaffected: true
+  use_goma: true
 }
 test {
   device_type: "QEMU"

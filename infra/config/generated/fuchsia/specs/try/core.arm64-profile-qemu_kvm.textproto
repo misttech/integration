@@ -20,6 +20,7 @@ build {
   variants: "host_asan"
   variants: "profile"
   skip_if_unaffected: true
+  use_goma: true
 }
 test {
   pave: true

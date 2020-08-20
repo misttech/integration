@@ -20,6 +20,7 @@ build {
   run_tests: true
   target: "x64"
   skip_if_unaffected: true
+  use_goma: true
 }
 test {
   device_type: "Intel NUC Kit NUC7i5DNHE"

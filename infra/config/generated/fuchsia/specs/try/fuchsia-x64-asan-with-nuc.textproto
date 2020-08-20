@@ -21,6 +21,7 @@ build {
   variants: "asan"
   variants: "host_asan"
   skip_if_unaffected: true
+  use_goma: true
 }
 test {
   pave: true
