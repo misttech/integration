@@ -22,7 +22,6 @@ build {
   variants: "profile"
   upload_results: true
   skip_if_unaffected: true
-  use_goma: true
 }
 test {
   pave: true
