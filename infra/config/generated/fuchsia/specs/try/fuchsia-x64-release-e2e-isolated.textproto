@@ -32,7 +32,6 @@ test {
   test_in_shards: true
   timeout_secs: 2400
   max_shard_size: 1
-  max_attempts: 1
   default_service_account: "artifact-readers@fuchsia-infra.iam.gserviceaccount.com"
   per_test_timeout_secs: 1200
   upload_results: true
