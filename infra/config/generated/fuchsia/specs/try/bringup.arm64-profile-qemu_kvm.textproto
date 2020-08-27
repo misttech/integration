@@ -16,7 +16,7 @@ build {
   product: "products/bringup.gni"
   run_tests: true
   target: "arm64"
-  variants: "host_asan"
+  variants: "host_profile"
   variants: "profile"
   skip_if_unaffected: true
 }
