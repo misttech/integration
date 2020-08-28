@@ -32,11 +32,12 @@ test {
   test_in_shards: true
   timeout_secs: 2400
   max_shard_size: 1
+  max_attempts: 2
   default_service_account: "artifact-readers@fuchsia-infra.iam.gserviceaccount.com"
   per_test_timeout_secs: 1200
   upload_results: true
   max_shards_per_env: 30
-  max_attempts_per_test: 3
+  max_attempts_per_test: 1
 }
 gcs_bucket: "fuchsia-build"
 artifact_gcs_bucket: "fuchsia-artifacts"

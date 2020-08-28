@@ -37,7 +37,7 @@ test {
   per_test_timeout_secs: 1200
   upload_results: true
   max_shards_per_env: 30
-  max_attempts_per_test: 3
+  max_attempts_per_test: 1
 }
 gcs_bucket: "fuchsia-build"
 artifact_gcs_bucket: "fuchsia-artifacts"
