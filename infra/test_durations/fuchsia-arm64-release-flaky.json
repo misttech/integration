@@ -2,11 +2,16 @@
   {
     "name": "*",
     "runs": 0,
-    "median_duration_ms": 347
+    "median_duration_ms": 15216
+  },
+  {
+    "name": "fuchsia-pkg://fuchsia.com/bluetooth-tests#meta/bt-integration-tests.cmx",
+    "runs": 10,
+    "median_duration_ms": 30095
   },
   {
     "name": "fuchsia-pkg://fuchsia.com/wlanstack-tests#meta/wlanstack_bin_test.cmx",
-    "runs": 64,
-    "median_duration_ms": 347
+    "runs": 68,
+    "median_duration_ms": 336
   }
 ]
