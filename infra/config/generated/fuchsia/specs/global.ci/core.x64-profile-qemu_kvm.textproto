@@ -35,7 +35,7 @@ test {
   default_service_account: "artifact-readers@fuchsia-infra.iam.gserviceaccount.com"
   per_test_timeout_secs: 600
   upload_results: true
-  target_shard_duration_secs: 10800
+  target_shard_duration_secs: 7200
   zircon_args: "kernel.x86.disable_spec_mitigations=true"
   max_attempts_per_test: 3
 }
