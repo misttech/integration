@@ -38,6 +38,7 @@ test {
   catapult_dashboard_master: "fuchsia.global.ci"
   catapult_dashboard_bot: "fuchsia-x64-nuc"
   max_attempts_per_test: 1
+  retry_task_on_test_failure: true
 }
 gcs_bucket: "fuchsia-build"
 artifact_gcs_bucket: "fuchsia-artifacts"
