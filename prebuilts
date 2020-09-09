@@ -12,6 +12,9 @@
   Then fetch the packages:
   `jiri fetch-packages -local-manifest=true`
   -->
+  <imports>
+    <localimport file="test_durations"/>
+  </imports>
   <packages>
 
     <!--
