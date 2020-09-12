@@ -34,7 +34,7 @@
     <project name="third_party/android/platform/system/bt"
              path="third_party/android/platform/system/bt"
              remote="https://fuchsia.googlesource.com/third_party/android/platform/system/bt"
-             revision="ccdeabf3305c9463683ec66d919f48b04c3e3aa4"/>
+             revision="cd5fd6d7f0d41b387561ee58cde0f685f5e29ef0"/>
     <project name="third_party/bcmdhd"
              path="third_party/bcmdhd"
              remote="https://fuchsia.googlesource.com/third_party/bcmdhd"
@@ -69,7 +69,7 @@
              path="third_party/curl"
              remote="https://fuchsia.googlesource.com/third_party/curl"
              gerrithost="https://fuchsia-review.googlesource.com"
-             revision="e29e7316470b9e30002d757b9e40d61c78784c71"/>
+             revision="8cd4a43bde2289a1808283ab94347dfba6375eda"/>
     <project name="third_party/etnaviv_gpu_tests"
              path="third_party/etnaviv_gpu_tests"
              remote="https://fuchsia.googlesource.com/third_party/etnaviv_gpu_tests"
@@ -79,12 +79,12 @@
              path="third_party/expat"
              remote="https://fuchsia.googlesource.com/third_party/expat"
              gerrithost="https://fuchsia-review.googlesource.com"
-             revision="66a4adc042f17bd113d3d940bcff46ec17c15f61"/>
+             revision="0261fe81de4b2c0c04964302da1b5e3fff2fc881"/>
     <project name="third_party/flatbuffers"
              path="third_party/flatbuffers"
              remote="https://fuchsia.googlesource.com/third_party/flatbuffers"
              gerrithost="https://fuchsia-review.googlesource.com"
-             revision="9ef7f1647e643427f10e8d8b0c3b8cdba0adecd1"/>
+             revision="30f6d86d851d5947bbbaf51ca2fd8d6af4b81aae"/>
     <project name="third_party/flite"
              path="third_party/flite"
              remote="https://fuchsia.googlesource.com/third_party/flite"
@@ -108,7 +108,7 @@
     <project name="third_party/github.com/ARM-software/HWCPipe"
              path="third_party/github.com/ARM-software/HWCPipe"
              remote="https://fuchsia.googlesource.com/third_party/github.com/ARM-software/HWCPipe"
-             revision="8082b2f73e25a93b43c20e72d1d73a66cbf39cee"/>
+             revision="b2b74e6a567c8d184626777408f9e5358764edbc"/>
     <project name="external/github.com/g-truc/glm"
              path="third_party/glm"
              remote="https://chromium.googlesource.com/external/github.com/g-truc/glm"
@@ -306,7 +306,7 @@
              path="third_party/googletest"
              remote="https://fuchsia.googlesource.com/third_party/googletest"
              gerrithost="https://fuchsia-review.googlesource.com"
-             revision="46c7fb9715a4fd395c3546d0511ac19a30f9c2c0"/>
+             revision="243680c5ed6ade7d7774ba7a9c5f000498281c19"/>
     <project name="third_party/github.com/gperftools/gperftools"
              path="third_party/gperftools"
              remote="https://fuchsia.googlesource.com/third_party/github.com/gperftools/gperftools"
@@ -357,7 +357,7 @@
              path="third_party/libffi"
              remote="https://fuchsia.googlesource.com/third_party/github.com/libffi/libffi"
              gerrithost="https://fuchsia-review.googlesource.com"
-             revision="035f38b67f1a01318f1e80c5700391812e3e978b"/>
+             revision="f074b9e74bccc1c53217f9a9ba24ab7cacaab8e9"/>
     <project name="third_party/libpng"
              path="third_party/libpng"
              remote="https://fuchsia.googlesource.com/third_party/libpng"
@@ -402,7 +402,7 @@
     <project name="third_party/github.com/kmackay/micro-ecc"
              path="third_party/micro-ecc"
              remote="https://fuchsia.googlesource.com/third_party/github.com/kmackay/micro-ecc"
-             revision="7661a2d217c8baea1fb2c6751458b5d871d690cd"
+             revision="56b1f1c719f447f30c6868745b897d221ae7bd89"
              gerrithost="https://fuchsia-review.googlesource.com"/>
     <project name="third_party/github.com/google/farmhash"
              path="third_party/github.com/google/farmhash"
@@ -447,7 +447,7 @@
     <project name="third_party/openssl-ecjpake"
              path="third_party/openssl-ecjpake"
              remote="https://fuchsia.googlesource.com/third_party/openssl-ecjpake"
-             revision="c1ed824a117e6ce82ecf614cd9a275de8c3f4c71"
+             revision="380c94c492ed126e3f58530bf95b24b5fb1cf199"
              gerrithost="https://fuchsia-review.googlesource.com"/>
     <project name="third_party/opus"
              path="third_party/opus"
@@ -458,12 +458,12 @@
              path="third_party/processor-trace"
              remote="https://fuchsia.googlesource.com/third_party/processor-trace"
              gerrithost="https://fuchsia-review.googlesource.com"
-             revision="a94454c938a6552f34a285fa3c31a9d8d5cbb019"/>
+             revision="16306be83d147df4893fadcef578984c524ff039"/>
     <!-- Protobuf contact: rudominer. -->
     <project name="third_party/protobuf"
              path="third_party/protobuf"
              remote="https://fuchsia.googlesource.com/third_party/protobuf"
-             revision="4a3b3032b788bf4651cce3e7af096e491aa2e144"
+             revision="c01d865f5c496bcdd96033ead84ff4ab3dc64d26"
              gerrithost="https://fuchsia-review.googlesource.com"/>
     <project name="third_party/python/mock"
              path="third_party/python/mock"
@@ -484,7 +484,7 @@
              path="third_party/quickjs"
              remote="https://fuchsia.googlesource.com/third_party/quickjs"
              gerrithost="https://fuchsia-review.googlesource.com"
-             revision="6c3eb1197a590bac536ec7d24aa514b3e6622224"/>
+             revision="29703a31500be5dc51ad047813bdb36f738cbcb2"/>
     <!-- TODO(57392): Move it back to //third_party once unification completes. -->
     <project name="zircon/third_party/rapidjson"
              path="zircon/third_party/rapidjson"
@@ -544,7 +544,7 @@
     <project name="third_party/sbase"
              path="third_party/sbase"
              remote="https://fuchsia.googlesource.com/third_party/sbase"
-             revision="b6eb0ea69d08024f156419f70a34fdc37c0c3adc"
+             revision="a427130b2ec69ecac6ba02b14db7b2db445f4324"
              gerrithost="https://fuchsia-review.googlesource.com"/>
     <project name="third_party/shaderc"
              path="third_party/shaderc"
@@ -580,7 +580,7 @@
              path="third_party/tink"
              remote="https://fuchsia.googlesource.com/third_party/tink"
              gerrithost="https://fuchsia-review.googlesource.com"
-             revision="2152b765df7ffa75ebba328d2a856e6618dcb6a0"/>
+             revision="04e651401ac8b71b5d83d04dfe92db1ff4f19e7e"/>
     <project name="third_party/openssh-portable"
              path="third_party/openssh-portable"
              remote="https://fuchsia.googlesource.com/third_party/openssh-portable"
@@ -599,7 +599,7 @@
     <project name="third_party/vim"
              path="third_party/vim"
              remote="https://fuchsia.googlesource.com/third_party/vim"
-             revision="e897b192646649eabfceca8af4f6fa29f0b94c38"
+             revision="4ce524cd621002862f9db6b4cac7ee3acfeb6d81"
              gerrithost="https://fuchsia-review.googlesource.com"/>
     <project name="third_party/vulkan-cts"
              path="third_party/vulkan-cts"
@@ -640,7 +640,7 @@
              path="third_party/zlib"
              remote="https://fuchsia.googlesource.com/third_party/zlib"
              gerrithost="https://fuchsia-review.googlesource.com"
-             revision="a9feae6d5d9d9a0f94bd41a4c203343ff2d883c0"/>
+             revision="31333bc3baba162bc213e4b9d4b5c603c3709d27"/>
     <!-- TODO(57392): Move it back to //third_party once unification completes. -->
     <project name="zircon/third_party/zstd"
              path="zircon/third_party/zstd"
@@ -651,7 +651,7 @@
              path="third_party/openthread"
              remote="https://fuchsia.googlesource.com/third_party/openthread"
              gerrithost="https://fuchsia-review.googlesource.com"
-             revision="5dd673bfa58af9cd0326d1e06c3a1e23dee293db"/>
+             revision="21c3994d6ac32ff6b1c92dcda6ea1b1142817848"/>
     <!-- TODO(abarth): These projects have the wrong names. The names should
          match the path under fuchsia.googlesource.com -->
 
