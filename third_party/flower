@@ -706,5 +706,9 @@
              remote="https://fuchsia.googlesource.com/third_party/github.com/kr/text"
              gerrithost="https://fuchsia-review.googlesource.com"
              revision="e2ffdb16a802fe2bb95e2e35ff34f0e53aeef34f"/>
+    <project name="scudo"
+             path="zircon/third_party/scudo/src"
+             remote="https://llvm.googlesource.com/scudo"
+             revision="996049d45c81f55a4bf4e98cb741621d8876a586"/>
   </projects>
 </manifest>
