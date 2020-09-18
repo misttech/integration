@@ -8,6 +8,7 @@ checkout {
   manifest: "flower"
   project: "integration"
   remote: "https://fuchsia.googlesource.com/integration"
+  upload_results: true
 }
 build {
   build_type: "release"
@@ -18,6 +19,8 @@ build {
   target: "x64"
   universe_packages: "//src/sys/pkg:e2e_tests"
   variants: "host_asan"
+  upload_results: true
+  include_archives: true
   skip_if_unaffected: true
   use_goma: true
 }

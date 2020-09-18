@@ -20,6 +20,7 @@ build {
   universe_packages: "//src/sys/pkg:e2e_tests"
   variants: "host_asan"
   upload_results: true
+  include_archives: true
   skip_if_unaffected: true
   use_goma: true
 }
