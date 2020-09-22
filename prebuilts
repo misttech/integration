@@ -75,7 +75,7 @@
              path="prebuilt/third_party/sysroot/linux"/>
 
     <!-- GN from https://gn.googlesource.com/gn/ -->
-    <!-- TODO(BLD-341): add linux-arm64 -->
+    <!-- TODO(fxbug.dev/3146): add linux-arm64 -->
     <package name="gn/gn/${platform}"
              version="git_revision:5233fa13e84fa4adddaf6e00f22aaee16f94342f"
              platforms="linux-amd64,mac-amd64"
@@ -190,7 +190,7 @@
         Tools maintained in fuchsia.git itself.
         ************************************************************
 
-        TODO(BLD-353): Probably these can all go away after build unification.
+        TODO(fxbug.dev/3156): Probably these can all go away after build unification.
     -->
 
     <!-- See //tools/vboot_reference.
