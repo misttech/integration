@@ -22,6 +22,8 @@ build {
   upload_results: true
   skip_if_unaffected: true
   use_goma: true
+  test_durations_file: "prebuilt/infra/test_durations/fuchsia/fuchsia-x64-release-nuc_in_basic_envs.json"
+  default_test_durations_file: "prebuilt/infra/test_durations/fuchsia/default.json"
 }
 test {
   pave: true

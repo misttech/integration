@@ -20,6 +20,8 @@ build {
   variants: "thinlto"
   skip_if_unaffected: true
   use_goma: true
+  test_durations_file: "prebuilt/infra/test_durations/fuchsia/bringup.x64-thinlto-qemu_kvm.json"
+  default_test_durations_file: "prebuilt/infra/test_durations/fuchsia/default.json"
 }
 test {
   device_type: "QEMU"

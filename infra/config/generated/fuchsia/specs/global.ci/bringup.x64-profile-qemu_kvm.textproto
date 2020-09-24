@@ -21,6 +21,8 @@ build {
   variants: "profile"
   upload_results: true
   skip_if_unaffected: true
+  test_durations_file: "prebuilt/infra/test_durations/fuchsia/bringup.x64-profile-qemu_kvm.json"
+  default_test_durations_file: "prebuilt/infra/test_durations/fuchsia/default.json"
 }
 test {
   device_type: "QEMU"

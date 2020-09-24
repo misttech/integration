@@ -22,6 +22,8 @@ build {
   upload_results: true
   skip_if_unaffected: true
   use_goma: true
+  test_durations_file: "prebuilt/infra/test_durations/fuchsia/bringup.arm64-debug-no_opt-build_only.json"
+  default_test_durations_file: "prebuilt/infra/test_durations/fuchsia/default.json"
 }
 gcs_bucket: "fuchsia-build"
 artifact_gcs_bucket: "fuchsia-artifacts"

@@ -21,5 +21,7 @@ build {
   target: "x64"
   sdk_subbuild: true
   use_goma: true
+  test_durations_file: "prebuilt/infra/test_durations/fuchsia/sdk-core-mac-x64-build_only.json"
+  default_test_durations_file: "prebuilt/infra/test_durations/fuchsia/default.json"
 }
 artifact_gcs_bucket: "fuchsia-artifacts"

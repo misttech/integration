@@ -23,6 +23,8 @@ build {
   upload_results: true
   skip_if_unaffected: true
   use_goma: true
+  test_durations_file: "prebuilt/infra/test_durations/fuchsia/fuchsia-x64-acts-bt2-dawson_canyon.json"
+  default_test_durations_file: "prebuilt/infra/test_durations/fuchsia/default.json"
 }
 test {
   device_type: "Intel NUC Kit NUC7i5DNHE"
