@@ -19,8 +19,6 @@ build {
   target: "arm64"
   skip_if_unaffected: true
   use_goma: true
-  test_durations_file: "prebuilt/infra/test_durations/fuchsia/fuchsia-arm64-debug-mac-build_default.json"
-  default_test_durations_file: "prebuilt/infra/test_durations/fuchsia/default.json"
 }
 gcs_bucket: "fuchsia-build"
 artifact_gcs_bucket: "fuchsia-artifacts"
