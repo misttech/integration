@@ -77,7 +77,7 @@
     <!-- GN from https://gn.googlesource.com/gn/ -->
     <!-- TODO(fxbug.dev/3146): add linux-arm64 -->
     <package name="gn/gn/${platform}"
-             version="git_revision:5233fa13e84fa4adddaf6e00f22aaee16f94342f"
+             version="git_revision:99f72f881a3acdadb1572eaee8467b7f17b3338a"
              platforms="linux-amd64,mac-amd64"
              path="prebuilt/third_party/gn/{{.OS}}-{{.Arch}}"/>
 
