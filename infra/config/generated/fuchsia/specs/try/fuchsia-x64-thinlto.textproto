@@ -22,6 +22,7 @@ build {
   use_goma: true
   test_durations_file: "prebuilt/infra/test_durations/fuchsia/fuchsia-x64-thinlto.json"
   default_test_durations_file: "prebuilt/infra/test_durations/fuchsia/default.json"
+  stats_gcs_bucket: "fuchsia-build"
 }
 test {
   pave: true

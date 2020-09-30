@@ -21,5 +21,6 @@ build {
   target: "x64"
   sdk_subbuild: true
   use_goma: true
+  stats_gcs_bucket: "fuchsia-build"
 }
 artifact_gcs_bucket: "fuchsia-artifacts"

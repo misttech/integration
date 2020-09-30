@@ -25,6 +25,7 @@ build {
   use_goma: true
   test_durations_file: "prebuilt/infra/test_durations/fuchsia/bringup.x64-debug-enable_lock_dep-aemu_kvm.json"
   default_test_durations_file: "prebuilt/infra/test_durations/fuchsia/default.json"
+  stats_gcs_bucket: "fuchsia-build"
 }
 test {
   device_type: "AEMU"
