@@ -719,5 +719,9 @@
              path="zircon/third_party/scudo/src"
              remote="https://llvm.googlesource.com/scudo"
              revision="8beeaec90e4a8f68069c39f83bfdc6bccb9b46d8"/>
+    <project name="gwp_asan"
+             path="zircon/third_party/scudo/gwp_asan"
+             remote="https://llvm.googlesource.com/gwp-asan"
+             revision="ed9d4b9ed96fbfb4e626f3f4c185dfa76c3cce02"/>
   </projects>
 </manifest>
