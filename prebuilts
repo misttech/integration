@@ -311,12 +311,12 @@
     <!--   Mediatek bluetooth firmware -->
     <package name="fuchsia_internal/firmware/bluetooth/mt7668"
              version="git_revision:ed8b2eb6b877e93afb8a9f9281b93a7b91df0f09"
-             path="src/connectivity/bluetooth/hci/vendor/mediatek/firmware"
+             path="prebuilt/connectivity/bluetooth/firmware/mediatek"
              internal="true"/>
     <!--   Broadcom bluetooth firmware -->
-    <package name="fuchsia_internal/firmware/bluetooth/bcm4345c4"
-             version="git_revision:1e41b7d6f96f09558a36a636de2819068cd71ea0"
-             path="src/connectivity/bluetooth/hci/vendor/broadcom/firmware"
+    <package name="fuchsia_internal/firmware/bluetooth/bcm4345c5"
+             version="version:001"
+             path="prebuilt/connectivity/bluetooth/firmware/broadcom"
              internal="true"/>
     <!--   Intel bluetooth firmware -->
     <package name="fuchsia_internal/firmware/bluetooth/intel"
