@@ -318,16 +318,6 @@
              version="version:001"
              path="prebuilt/connectivity/bluetooth/firmware/broadcom"
              internal="true"/>
-    <!--   Intel bluetooth firmware old location -->
-    <package name="fuchsia_internal/firmware/bluetooth/intel"
-             version="git_revision:44d4fca9922a252a0bd81f6307bcc072a78da54a"
-             path="src/connectivity/bluetooth/hci/vendor/intel/firmware"
-             internal="true"/>
-    <!--   Atheros bluetooth firmware old location -->
-    <package name="fuchsia_internal/firmware/bluetooth/qualcomm_atheros"
-             version="git_revision:7b5835fd37630d18ac0c755329172f6a17c1af29"
-             path="src/connectivity/bluetooth/hci/vendor/atheros/firmware"
-             internal="true"/>
     <!--   Intel bluetooth firmware -->
     <package name="fuchsia_internal/firmware/bluetooth/intel"
              version="git_revision:44d4fca9922a252a0bd81f6307bcc072a78da54a"
