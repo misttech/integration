@@ -21,7 +21,6 @@ build {
   target: "x64"
   upload_results: true
   skip_if_unaffected: true
-  use_goma: true
   test_durations_file: "prebuilt/infra/test_durations/fuchsia/clang_toolchain.fuchsia-host-mac.json"
   default_test_durations_file: "prebuilt/infra/test_durations/fuchsia/default.json"
   stats_gcs_bucket: "fuchsia-build"
