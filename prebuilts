@@ -283,7 +283,7 @@
     <package name="fuchsia/third_party/vulkan_runtime/${platform}"
              version="build_config:a86307d4ccac0891a4fa1e3aebe7d7768a8ff62fd8d32289babf311535cdd399-v2"
              path="prebuilt/third_party/vulkan_runtime/{{.OS}}-{{.Arch}}"
-             platforms="linux-amd64"/>
+             platforms="linux-amd64,mac-amd64"/>
     <!--   Vulkan SDK (for host builds) -->
     <package name="fuchsia/third_party/vulkansdk/${platform}"
              version="version:1.2.148.0-genEnumBeginEndRange-true"
