@@ -18,7 +18,7 @@ build {
   run_tests: true
   target: "arm64"
   variants: "gcc"
-  variants: "host_asan"
+  variants: "host_asan-ubsan"
   upload_results: true
   skip_if_unaffected: true
   test_durations_file: "prebuilt/infra/test_durations/fuchsia/gcc_toolchain.bringup.arm64-gcc-qemu_kvm.json"

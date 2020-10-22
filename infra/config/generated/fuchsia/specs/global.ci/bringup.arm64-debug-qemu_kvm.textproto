@@ -18,7 +18,7 @@ build {
   run_tests: true
   target: "arm64"
   variants: "clang"
-  variants: "host_asan"
+  variants: "host_asan-ubsan"
   upload_results: true
   skip_if_unaffected: true
   use_goma: true

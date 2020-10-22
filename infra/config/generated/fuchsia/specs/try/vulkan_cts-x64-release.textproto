@@ -20,7 +20,7 @@ build {
   product: "products/core.gni"
   run_tests: true
   target: "x64"
-  variants: "host_asan"
+  variants: "host_asan-ubsan"
   skip_if_unaffected: true
   use_goma: true
   test_durations_file: "prebuilt/infra/test_durations/fuchsia/vulkan_cts-x64-release.json"

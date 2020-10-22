@@ -16,7 +16,7 @@ build {
   packages: "//bundles/buildbot:core"
   product: "products/core.gni"
   target: "x64"
-  variants: "host_asan"
+  variants: "host_asan-ubsan"
   upload_results: true
   include_archives: true
   skip_if_unaffected: true

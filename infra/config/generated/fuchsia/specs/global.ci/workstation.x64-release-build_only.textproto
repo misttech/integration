@@ -18,7 +18,7 @@ build {
   packages: "//bundles/buildbot:workstation"
   product: "products/workstation.gni"
   target: "x64"
-  variants: "host_asan"
+  variants: "host_asan-ubsan"
   upload_results: true
   skip_if_unaffected: true
   use_goma: true

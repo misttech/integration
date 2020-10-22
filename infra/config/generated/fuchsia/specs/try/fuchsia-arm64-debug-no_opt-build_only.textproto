@@ -16,7 +16,7 @@ build {
   packages: "//bundles/buildbot:core"
   product: "products/core.gni"
   target: "arm64"
-  variants: "host_asan"
+  variants: "host_asan-ubsan"
   skip_if_unaffected: true
   use_goma: true
   stats_gcs_bucket: "fuchsia-build"

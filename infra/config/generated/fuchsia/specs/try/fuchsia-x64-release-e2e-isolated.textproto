@@ -18,7 +18,7 @@ build {
   run_tests: true
   target: "x64"
   universe_packages: "//src/sys/pkg:e2e_tests"
-  variants: "host_asan"
+  variants: "host_asan-ubsan"
   upload_results: true
   include_archives: true
   skip_if_unaffected: true

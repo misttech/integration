@@ -19,7 +19,7 @@ build {
   run_tests: true
   target: "x64"
   variants: "asan-ubsan"
-  variants: "host_asan"
+  variants: "host_asan-ubsan"
   variants: "kasan"
   upload_results: true
   skip_if_unaffected: true

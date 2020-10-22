@@ -16,7 +16,7 @@ build {
   packages: "//bundles/buildbot:bringup"
   product: "products/bringup.gni"
   target: "arm64"
-  variants: "host_asan"
+  variants: "host_asan-ubsan"
   variants: "{variant=\"asan-fuzzer\" target_type=[\"fuzzed_executable\"]},{variant=\"asan\" label=[\"//sdk/lib/fdio\"]}"
   upload_results: true
   skip_if_unaffected: true
