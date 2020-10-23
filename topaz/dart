@@ -2,26 +2,8 @@
 <!-- See README.dart.md for instructions on how to update this -->
 <manifest>
   <imports>
-    <localimport file="dart_third_party_pkg"/>
   </imports>
   <projects>
-    <!-- When performing a manual roll of dart/sdk project, the version tags of
-         the prebuilt packages (there are two) fuchsia/dart-sdk/${platform} in
-         fuchsia/prebuilts should be rolled to ensure version consistency. A
-         build breakage may occur if these two project and package do not share
-         the same revision hash. -->
-    <project name="dart/sdk"
-             path="third_party/dart"
-             remote="https://dart.googlesource.com/sdk"
-             gerrithost="https://dart-review.googlesource.com"
-             revision="04cf6ade9fc4fb960a6f43177ecc8b9a20805250"
-             flag="third_party/dart/build/config/gclient_args.gni|checkout_llvm = false|checkout_llvm = false"/>
-    <project name="dart/observatory_pub_packages"
-             path="third_party/dart/third_party/observatory_pub_packages"
-             remote="https://dart.googlesource.com/observatory_pub_packages/"
-             gerrithost="https://dart-review.googlesource.com"
-             revision="0894122173b0f98eb08863a7712e78407d4477bc"/>
-
     <project name="third_party/dart-pkg"
              path="third_party/dart-pkg/pub"
              remote="https://fuchsia.googlesource.com/third_party/dart-pkg"

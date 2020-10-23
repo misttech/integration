@@ -211,11 +211,6 @@
     <package name="fuchsia/dart-sdk/${platform}"
              version="git_revision:04cf6ade9fc4fb960a6f43177ecc8b9a20805250"
              path="prebuilt/third_party/dart/{{.OS}}-{{.Arch}}"/>
-    <!--   Dart TODO: haowei remove this once all dart related projects no
-           longer depends on "topaz/tools/prebuilt-dart-sdk/" -->
-    <package name="fuchsia/dart-sdk/${platform}"
-             version="git_revision:04cf6ade9fc4fb960a6f43177ecc8b9a20805250"
-             path="topaz/tools/prebuilt-dart-sdk/{{.OS}}-{{.Arch}}"/>
 
     <!--   Flutter -->
     <!--   Note that the files in the Flutter CIPD package currently have paths
