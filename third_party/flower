@@ -727,5 +727,9 @@
              path="zircon/third_party/scudo/gwp_asan"
              remote="https://llvm.googlesource.com/gwp-asan"
              revision="ed9d4b9ed96fbfb4e626f3f4c185dfa76c3cce02"/>
+    <project name="llvm-libc"
+             path="zircon/third_party/llvm-libc"
+             remote="https://llvm.googlesource.com/llvm-project/libc/"
+             revision="8577ec9312c30c9c84aabf277935c030453239a4"/>
   </projects>
 </manifest>
