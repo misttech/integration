@@ -12,7 +12,7 @@ checkout {
 build {
   build_type: "debug"
   board: "boards/x64.gni"
-  gn_args: "if (!defined(zircon_extra_args)) { zircon_extra_args = { } } zircon_extra_args.assert_level=0"
+  gn_args: "zircon_extra_args.assert_level=0"
   packages: "//bundles/buildbot:bringup"
   product: "products/bringup.gni"
   run_tests: true

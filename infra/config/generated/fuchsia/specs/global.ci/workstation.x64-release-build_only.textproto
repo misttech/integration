@@ -14,7 +14,7 @@ checkout {
 build {
   build_type: "release"
   board: "boards/x64.gni"
-  gn_args: "unpack_debug_archives = true output_breakpad_syms = true if (!defined(zircon_extra_args)) { zircon_extra_args = { } } zircon_extra_args.output_breakpad_syms = true"
+  gn_args: "unpack_debug_archives = true output_breakpad_syms = true zircon_extra_args.output_breakpad_syms = true"
   packages: "//bundles/buildbot:workstation"
   product: "products/workstation.gni"
   target: "x64"

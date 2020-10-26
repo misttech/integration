@@ -14,7 +14,7 @@ build {
   build_type: "release"
   environment_tags: "mac"
   exclude_images: true
-  gn_args: "if (!defined(zircon_extra_args)) { zircon_extra_args = { } } zircon_extra_args.variants = [ \"clang\" ]"
+  gn_args: "zircon_extra_args.variants = [ \"clang\" ]"
   packages: "//bundles/buildbot:core"
   product: "products/core.gni"
   run_tests: true
