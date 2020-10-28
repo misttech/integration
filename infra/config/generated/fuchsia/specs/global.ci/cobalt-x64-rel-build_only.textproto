@@ -19,7 +19,6 @@ build {
   packages: "//src/lib/cobalt:tests"
   product: "products/core.gni"
   target: "x64"
-  enforce_size_limits: true
   upload_results: true
   skip_if_unaffected: true
   use_goma: true
