@@ -43,6 +43,7 @@
     -->
     <package name="fuchsia/go/${platform}"
              version="git_revision:781104849e9a930c073b5dbd275c71472e2a70a6"
+             platforms="linux-amd64,linux-arm64,mac-amd64"
              path="prebuilt/third_party/go/{{.OS}}-{{.Arch}}"/>
 
     <!-- Goma
@@ -58,6 +59,7 @@
     -->
     <package name="fuchsia/third_party/rust/${platform}"
              version="git_revision:35debd4c111610317346f46d791f32551d449bd8"
+             platforms="linux-amd64,linux-arm64,mac-amd64"
              path="prebuilt/third_party/rust/{{.OS}}-{{.Arch}}"/>
 
     <!-- Rust
@@ -65,6 +67,7 @@
     -->
     <package name="fuchsia/rust_extra_tools/${platform}"
              version="git_revision:feb3536eba10c2e4585d066629598f03d5ddc7c6"
+             platforms="linux-amd64,mac-amd64"
              path="prebuilt/third_party/rust_tools/{{.OS}}-{{.Arch}}"/>
 
     <!-- sysroot trees built from public OS images
@@ -72,6 +75,7 @@
     -->
     <package name="fuchsia/third_party/sysroot/linux"
              version="git_revision:47910c0625ad625def7d9e21c9213c91eb9cfa51"
+             platforms="linux-amd64,linux-arm64,mac-amd64"
              path="prebuilt/third_party/sysroot/linux"/>
 
     <!-- GN from https://gn.googlesource.com/gn/ -->
@@ -109,7 +113,7 @@
     -->
     <package name="fuchsia/firmware/ovmf/amd64"
              version="git_revision:52664c525223a36e5cb9b141b11dec413908b1dd"
-             platforms="linux-amd64,mac-amd64"
+             platforms="linux-amd64,linux-arm64,mac-amd64"
              path="prebuilt/third_party/ovmf/{{.OS}}-{{.Arch}}"/>
 
     <!-- Breakpad
@@ -117,6 +121,7 @@
     -->
     <package name="fuchsia/tools/breakpad/${os=linux}-${arch}"
              version="git_revision:28d7cbdd426311c1b13b648a370212f130d8dff0"
+             platforms="linux-amd64,mac-amd64"
              path="prebuilt/third_party/breakpad/{{.OS}}-{{.Arch}}"/>
 
     <!-- CMake
@@ -124,29 +129,34 @@
     -->
     <package name="infra/cmake/${platform}"
              version="version:3.10.0"
+             platforms="linux-amd64,mac-amd64"
              path="prebuilt/third_party/cmake/{{.OS}}-{{.Arch}}"/>
 
     <!-- Tesseract OCR for e2e-longevity tests -->
     <package name="fuchsia/third_party/tesseract-ocr/tesseract/linux-amd64"
              version="version:4.0.0-2-copy"
+             platforms="linux-amd64,linux-arm64,mac-amd64"
              path="prebuilt/third_party/tesseract-ocr/tesseract/linux-amd64"/>
 
-     <!-- YAPF for formatting python code -->
-     <package name="infra/tools/yapf"
-              version="git_revision:c3517c148417dc7c53141c4edda4a85765b04c62"
-              path="prebuilt/third_party/yapf"/>
+    <!-- YAPF for formatting python code -->
+    <package name="infra/tools/yapf"
+             version="git_revision:c3517c148417dc7c53141c4edda4a85765b04c62"
+             platforms="linux-amd64,linux-arm64,mac-amd64"
+             path="prebuilt/third_party/yapf"/>
 
-     <!-- VPython interpreter, needed for running YAPF (and possibly more).
-     -->
-     <package name="infra/tools/luci/vpython/${platform}"
-              version="git_revision:2155d0d436bf346333810cc352791063e1dda952"
-              path="prebuilt/third_party/vpython"/>
+    <!-- VPython interpreter, needed for running YAPF (and possibly more).
+    -->
+    <package name="infra/tools/luci/vpython/${platform}"
+             version="git_revision:2155d0d436bf346333810cc352791063e1dda952"
+             platforms="linux-amd64,linux-arm64,mac-amd64"
+             path="prebuilt/third_party/vpython"/>
 
-     <!-- Python3 interpreter, used for host tools after bootstrap.
-     -->
-     <package name="infra/3pp/tools/cpython3/${platform}"
-              version="version:3.8.2.chromium.10"
-              path="prebuilt/third_party/python3/{{.OS}}-{{.Arch}}"/>
+    <!-- Python3 interpreter, used for host tools after bootstrap.
+    -->
+    <package name="infra/3pp/tools/cpython3/${platform}"
+             version="version:3.8.2.chromium.10"
+             platforms="linux-amd64,linux-arm64,mac-amd64"
+             path="prebuilt/third_party/python3/{{.OS}}-{{.Arch}}"/>
 
     <!-- Fargo from
          https://fuchsia.googlesource.com/fargo/+/{{.git_revision}}
@@ -183,6 +193,7 @@
     -->
     <package name="fuchsia/tools/godepfile/${platform}"
              version="git_revision:8310c31eea050a1a7b7306d90af8c153994785cb"
+             platforms="linux-amd64,linux-arm64,mac-amd64"
              path="prebuilt/tools/godepfile/{{.OS}}-{{.Arch}}"/>
 
     <!--
@@ -210,6 +221,7 @@
     <!--   Dart -->
     <package name="fuchsia/dart-sdk/${platform}"
              version="git_revision:a3d902d8598eabf68db42c6f7911fb7fb63f7012"
+             platforms="linux-amd64,mac-amd64"
              path="prebuilt/third_party/dart/{{.OS}}-{{.Arch}}"/>
 
     <!--   Flutter -->
@@ -221,32 +233,39 @@
            package and change this path to prebuilt/third_party/flutter -->
     <package name="flutter/fuchsia"
              version="git_revision:defa8be2b10650dad50dfee9324ed8d16eeec13f"
+             platforms="linux-amd64,linux-arm64,mac-amd64"
              path="prebuilt/third_party"/>
     <package name="flutter/sky_engine"
              version="git_revision:defa8be2b10650dad50dfee9324ed8d16eeec13f"
-      path="prebuilt/third_party/sky_engine"/>
+             platforms="linux-amd64,linux-arm64,mac-amd64"
+             path="prebuilt/third_party/sky_engine"/>
     <!-- Flutter Debug symbols -->
     <package name="flutter/fuchsia-debug-symbols-x64"
              version="git_revision:defa8be2b10650dad50dfee9324ed8d16eeec13f"
              path="prebuilt/.build-id"
+             platforms="linux-amd64,linux-arm64,mac-amd64"
              attributes="debug-symbols,debug-symbols-x64,debug-symbols-flutter"/>
     <package name="flutter/fuchsia-debug-symbols-arm64"
              version="git_revision:defa8be2b10650dad50dfee9324ed8d16eeec13f"
              path="prebuilt/.build-id"
+             platforms="linux-amd64,linux-arm64,mac-amd64"
              attributes="debug-symbols,debug-symbols-arm64,debug-symbols-flutter"/>
 
     <!-- General packages -->
     <!--   LLVM libraries -->
     <package name="fuchsia/lib/llvm/${platform}"
              version="git_revision:b46680407d992b4499de499c7b39c3038dffc07a"
+             platforms="linux-amd64,mac-amd64"
              path="prebuilt/third_party/llvm"/>
     <!--   Chromium media test data -->
     <package name="fuchsia/test_data/third_party/chromium_media_test_data"
              version="90a7f69f134fffcb58c127847fc35f3ae56684dc"
+             platforms="linux-amd64,linux-arm64,mac-amd64"
              path="garnet/test_data/media/third_party/chromium_media_test_data"/>
     <!--   Chromium media test data downstream -->
     <package name="fuchsia/test_data/third_party/chromium_media_test_data_downstream"
              version="2Of--sGBe3FPX2Sr_hL28A-H8iEXTeB4nGjJw7-QpnwC"
+             platforms="linux-amd64,linux-arm64,mac-amd64"
              path="garnet/test_data/media/third_party/chromium_media_test_data_downstream"/>
     <!--   Fastboot -->
     <package name="fuchsia/third_party/fastboot/${platform}"
@@ -256,10 +275,12 @@
     <!--   FFMPEG library -->
     <package name="fuchsia/lib/ffmpeg/fuchsia"
              version="git_revision:5fcc14ec6217e972808e65fdd6c08a950401ea6d"
+             platforms="linux-amd64,linux-arm64,mac-amd64"
              path="prebuilt/third_party/ffmpeg"/>
     <!--   Fonts -->
     <package name="fuchsia/third_party/fonts"
              version="git_revision:14a06ef446352995e8805edbdc2460ba210415e4"
+             platforms="linux-amd64,linux-arm64,mac-amd64"
              path="prebuilt/third_party/fonts"/>
     <!--   jq -->
     <package name="fuchsia/third_party/jq/${platform}"
@@ -269,10 +290,12 @@
     <!--   Skia Gold -->
     <package name="skia/tools/goldctl/${platform}"
              version="git_revision:9c4ec59ff08730f794a109b75ce95986446c7ac5"
+             platforms="linux-amd64,linux-arm64,mac-amd64"
              path="prebuilt/third_party/goldctl"/>
     <!--   Skia skqp -->
     <package name="skia/fuchsia/skqp/arch/arm64"
              version="git_revision:fd6bf2121df3dbe15c6d677ea996180a6f5fc16c"
+             platforms="linux-amd64,linux-arm64,mac-amd64"
              path="prebuilt/third_party/skia/skqp/arch/arm64"/>
     <!--   Vulkan Runtime (for host builds) -->
     <package name="fuchsia/third_party/vulkan_runtime/${platform}"
@@ -297,97 +320,116 @@
              version="git_revision:12987cadb37de28719990dfc2397ec6d09e10566"
              path="src/connectivity/wlan/drivers/mediatek/ralink/firmware"
              internal="true"
+             platforms="linux-amd64,linux-arm64,mac-amd64"
              flag="build/cipd.gni|internal_access = true|internal_access = false"/>
     <!--   Broadcom wlan firmware -->
     <package name="fuchsia_internal/firmware/wlan/broadcom/brcmfmac"
              version="version:20"
              path="src/connectivity/wlan/drivers/third_party/broadcom/brcmfmac/firmware"
+             platforms="linux-amd64,linux-arm64,mac-amd64"
              internal="true"/>
     <!--   Mediatek bluetooth firmware -->
     <package name="fuchsia_internal/firmware/bluetooth/mt7668"
              version="git_revision:ed8b2eb6b877e93afb8a9f9281b93a7b91df0f09"
              path="prebuilt/connectivity/bluetooth/firmware/mediatek"
+             platforms="linux-amd64,linux-arm64,mac-amd64"
              internal="true"/>
     <!--   Broadcom bluetooth firmware -->
     <package name="fuchsia_internal/firmware/bluetooth/bcm4345c5"
              version="version:001"
              path="prebuilt/connectivity/bluetooth/firmware/broadcom"
+             platforms="linux-amd64,linux-arm64,mac-amd64"
              internal="true"/>
     <!--   Intel bluetooth firmware -->
     <package name="fuchsia_internal/firmware/bluetooth/intel"
              version="git_revision:44d4fca9922a252a0bd81f6307bcc072a78da54a"
              path="prebuilt/connectivity/bluetooth/firmware/intel"
+             platforms="linux-amd64,linux-arm64,mac-amd64"
              internal="true"/>
     <!--   Atheros bluetooth firmware -->
     <package name="fuchsia_internal/firmware/bluetooth/qualcomm_atheros"
              version="git_revision:7b5835fd37630d18ac0c755329172f6a17c1af29"
              path="prebuilt/connectivity/bluetooth/firmware/atheros"
+             platforms="linux-amd64,linux-arm64,mac-amd64"
              internal="true"/>
     <!--   Atheros wlan firmware -->
     <package name="fuchsia_internal/firmware/wlan/atheros/ath10k"
              version="git_revision:7518922bd5b98b137af7aaf3c836f5a498e91609"
              path="src/connectivity/wlan/drivers/third_party/atheros/ath10k/firmware"
+             platforms="linux-amd64,linux-arm64,mac-amd64"
              internal="true"/>
     <!--   Intel wlan firmware -->
     <package name="fuchsia/firmware/wlan/intel/iwlwifi"
              version="git_revision:0148cfefcbf98898ca65bb26d9d7d638b30e211d"
+             platforms="linux-amd64,linux-arm64,mac-amd64"
              path="prebuilt/connectivity/wlan/firmware/intel/iwlwifi"/>
     <!--   Mediatek wlan firmware -->
     <package name="fuchsia_internal/firmware/wlan/mediatek/mt7668"
              version="git_revision:e5f55786be98900bc8efc1e138864e60230b8c60"
              path="src/connectivity/wlan/drivers/third_party/mediatek/mt7668-wifi-mod/firmware"
+             platforms="linux-amd64,linux-arm64,mac-amd64"
              internal="true"/>
     <!--   Amlogic video decoder firmware -->
     <package name="fuchsia_internal/firmware/amlogic-video"
              version="OWTrox4JhZFganPz-mUULyVvGLnXbGhDA9cYCZYAH-4C"
              path="prebuilt/media/firmware/amlogic-decoder"
+             platforms="linux-amd64,linux-arm64,mac-amd64"
              internal="true"/>
     <!--   Amlogic video encoder firmware -->
     <package name="fuchsia_internal/firmware/amlogic_encoder"
              version="jPDB8LDlQkKxQ2xRsZS9Fj0AmVU-X2bQ0l-cn_f0jmkC"
              path="prebuilt/media/firmware/amlogic_encoder"
+             platforms="linux-amd64,linux-arm64,mac-amd64"
              internal="true"/>
     <!--   Geometric Distortion Correction (GDC) firmware -->
     <package name="fuchsia_internal/firmware/gdc"
              version="3zL46KF8N1tNniE1QlADLBrnm5Lu3T0WsFtS91P1ZiEC"
              path="prebuilt/camera/arm/gdc/configs"
+             platforms="linux-amd64,linux-arm64,mac-amd64"
              internal="true"/>
     <!--   Camera Watermark Images  -->
     <package name="fuchsia_internal/firmware/camera/watermark"
              version="wLeXEAjROWrNYxYGtTYhDJV0AFpkTe1cP86Bqwt7C_0C"
              path="prebuilt/camera/watermark"
+             platforms="linux-amd64,linux-arm64,mac-amd64"
              internal="true"/>
     <!--   Imagination GPU firmware for MT8167 -->
     <package name="fuchsia_internal/firmware/imgtec/imgtec-rgx-mt8167"
              version="git_revision:a663911de2166be76f0044b828c6b375cf64fecb"
              path="src/graphics/drivers/msd-img-rgx/mtk/firmware"
+             platforms="linux-amd64,linux-arm64,mac-amd64"
              internal="true"/>
     <!--   OpenThread Radio firmware for NRF52840 chip -->
     <package name="fuchsia_internal/firmware/ot-radio-firmware"
              version="idRX2qOW1eCcGaos96suwL4sJ5NGFhWpuku0MpZEAbgC"
              path="prebuilt/connectivity/openthread/radio-firmware"
+             platforms="linux-amd64,linux-arm64,mac-amd64"
              internal="true"/>
     <!--   FocalTech 8201 touch firmware -->
     <package name="fuchsia_internal/firmware/touch/ft8201"
              version="RA5zxsVszkb8wd4IW2hYfQ6mnEOwG1_RQEncGx2kEvgC"
              path="prebuilt/touch/ft8201"
+             platforms="linux-amd64,linux-arm64,mac-amd64"
              internal="true"/>
     <!--   Goodix 6853 touch firmware -->
     <package name="fuchsia_internal/firmware/touch/gt6853"
              version="cJxnOKnVZ0N42j80QhFvzm95X9FMzEGMtt_bnhe4p6AC"
              path="prebuilt/touch/gt6853"
+             platforms="linux-amd64,linux-arm64,mac-amd64"
              internal="true"/>
 
     <!--   ADSP SST firmware -->
     <package name="fuchsia_internal/firmware/intel-adsp-sst"
              version="git_revision:4c0bf113a55975d702673e57c5542f150807ad66"
              path="prebuilt/firmware/media/intel-adsp-sst"
+             platforms="linux-amd64,linux-arm64,mac-amd64"
              internal="true"/>
 
     <!-- Camera Gym Assets -->
     <package name="fuchsia_internal/camera/camera-gym-assets"
              version="QlF5mB8M4n7agTFPO_7B2biMIdm34G-cZMUKl18NXygC"
              path="prebuilt/camera/camera_gym_assets"
+             platforms="linux-amd64,linux-arm64,mac-amd64"
              internal="true"/>
 
     <!--   GUI Tools -->
@@ -403,39 +445,46 @@
     <package name="fuchsia_internal/linux/linux_guest-4.18-x64"
              version="HkAR6Y6Pvl2lu93Xm6CnyGgaKFTNH1tUZyIyxUiPuWMC"
              path="prebuilt/virtualization/packages/linux_guest/images/x64"
+             platforms="linux-amd64,linux-arm64,mac-amd64"
              internal="true"/>
     <!--   Linux guest kernel images for arm64 -->
     <package name="fuchsia_internal/linux/linux_guest-4.18-arm64"
              version="0CnuhYJt3lFtgUKkZM2bIfijssQTOTQ6ISqCWTB-RtoC"
              path="prebuilt/virtualization/packages/linux_guest/images/arm64"
+             platforms="linux-amd64,linux-arm64,mac-amd64"
              internal="true"/>
     <!--   Debian guest kernel images for x64 -->
     <package name="fuchsia_internal/linux/debian_guest-x64"
              version="AzHg0AkSgLdKESzokpT-iYuQQJ1PlFXyqSP2XXlVD7cC"
              path="prebuilt/virtualization/packages/debian_guest/images/x64"
+             platforms="linux-amd64,linux-arm64,mac-amd64"
              internal="true"/>
     <!--   Debian guest kernel images for arm64 -->
     <package name="fuchsia_internal/linux/debian_guest-arm64"
              version="zqRqJatHjWtjejcuu-Y0M-qnvpN9bS4Z60Gl5ghqkCUC"
              path="prebuilt/virtualization/packages/debian_guest/images/arm64"
+             platforms="linux-amd64,linux-arm64,mac-amd64"
              internal="true"/>
     <!-- termina guest images -->
     <package name="fuchsia_internal/linux/termina-x64"
              version="termina-rev:R76-12217.0.0-rc1"
              path="prebuilt/virtualization/packages/termina_guest/images/x64"
+             platforms="linux-amd64,linux-arm64,mac-amd64"
              internal="true"/>
     <package name="fuchsia_internal/linux/termina-arm64"
              version="termina-rev:R76-12217.0.0-rc1"
              path="prebuilt/virtualization/packages/termina_guest/images/arm64"
+             platforms="linux-amd64,linux-arm64,mac-amd64"
              internal="true"/>
 
     <!-- Packages in /infra/tools/ -->
     <package name="infra/tools/bb/${platform}"
              path="prebuilt/tools/buildbucket"
              version="git_revision:9c4ec59ff08730f794a109b75ce95986446c7ac5"
-             platforms="linux-amd64,mac-amd64"/>
+             platforms="linux-amd64,linux-arm64,mac-amd64"/>
     <package name="infra/tools/luci/gsutil/${platform}"
              path="prebuilt/tools/gsutil"
+             platforms="linux-amd64,linux-arm64,mac-amd64"
              version="git_revision:9c4ec59ff08730f794a109b75ce95986446c7ac5"/>
 
     <!-- Packages in /fuchsia/infra -->
@@ -451,6 +500,7 @@
     <package name="fuchsia/infra/dachsiaboard"
              version="g3-revision:dachsiaboard_fe_20201026_RC00"
              path="prebuilt/infra/dachsiaboard"
+             platforms="linux-amd64,linux-arm64,mac-amd64"
              attributes="dachsiaboard"/>
     <package name="fuchsia/infra/zedmon/${platform}"
              path="prebuilt/tools/zedmon"
@@ -460,20 +510,24 @@
     <!-- debugger test data, the "large_test_data" is optional  -->
     <package name="fuchsia/test_data/debug/sample_core"
              path="prebuilt/test_data/debug/sample_core"
+             platforms="linux-amd64,linux-arm64,mac-amd64"
              version="version:20190627"/>
     <package name="fuchsia_internal/test_data/debug/large_test_data"
              path="prebuilt/test_data/debug/large_test_data"
              internal="true"
              attributes="zxdb-large-test-data"
+             platforms="linux-amd64,linux-arm64,mac-amd64"
              version="git_revision:e51da43d6a6e10bea4669473a477f13bac9b8652"/>
     <!-- Symbolizer test data, optional -->
     <package name="fuchsia/test_data/symbolizer/symbols"
              path="prebuilt/test_data/symbolizer/symbols"
              attributes="symbolizer-test-data"
+             platforms="linux-amd64,linux-arm64,mac-amd64"
              version="version:20200901"/>
     <!-- connectivity test data -->
     <package name="fuchsia/infra/acts"
              path="prebuilt/test_data/connectivity/acts"
+             platforms="linux-amd64,linux-arm64,mac-amd64"
              version="android-build-id:6824201"/>
 
     <!-- Packages for SDK -->
