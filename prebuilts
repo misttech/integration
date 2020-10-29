@@ -253,10 +253,15 @@
 
     <!-- General packages -->
     <!--   LLVM libraries -->
+    <!-- TODO(fxbug.dev/47403): old copy left during transition -->
     <package name="fuchsia/lib/llvm/${platform}"
              version="git_revision:b46680407d992b4499de499c7b39c3038dffc07a"
              platforms="linux-amd64,mac-amd64"
              path="prebuilt/third_party/llvm"/>
+    <package name="fuchsia/third_party/llvm/${platform}"
+             version="git_revision:930a8c60b60805567e3cc0c7958be3ceeafd01f9"
+             platforms="linux-amd64,linux-arm64,mac-amd64"
+             path="prebuilt/third_party/llvm/{{.OS}}-{{.Arch}}"/>
     <!--   Chromium media test data -->
     <package name="fuchsia/test_data/third_party/chromium_media_test_data"
              version="90a7f69f134fffcb58c127847fc35f3ae56684dc"
