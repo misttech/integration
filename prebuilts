@@ -436,6 +436,12 @@
              path="prebuilt/camera/camera_gym_assets"
              platforms="linux-amd64,linux-arm64,mac-amd64"
              internal="true"/>
+    <!-- Audio drivers configuration assets -->
+    <package name="fuchsia_internal/audio/config/tas5805m_config"
+             version="sLs9BdOFjCOtR6rG_CbZUeuNyadMPqvi0_-xecxf344C"
+             path="prebuilt/audio/config"
+             platforms="linux-amd64,linux-arm64,mac-amd64"
+             internal="true"/>
 
     <!--   GUI Tools -->
     <!-- Add with `jiri init -fetch-optional=fuchsia_devtools` -->
