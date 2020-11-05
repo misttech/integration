@@ -20,7 +20,6 @@ build {
   target: "x64"
   universe_packages: "//bundles:infratools"
   variants: "gcc"
-  variants: "host_asan-ubsan"
   upload_results: true
   skip_if_unaffected: true
   use_goma: true

@@ -21,7 +21,6 @@ build {
   target: "arm64"
   universe_packages: "//bundles:infratools"
   variants: "clang"
-  variants: "host_asan-ubsan"
   upload_results: true
   skip_if_unaffected: true
   use_goma: true
