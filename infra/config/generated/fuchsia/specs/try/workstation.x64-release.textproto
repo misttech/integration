@@ -12,10 +12,12 @@ checkout {
 build {
   build_type: "release"
   board: "boards/x64.gni"
+  ninja_targets: "bundles:infratools"
   packages: "//bundles/buildbot:workstation"
   product: "products/workstation.gni"
   run_tests: true
   target: "x64"
+  universe_packages: "//bundles:infratools"
   variants: "host_asan-ubsan"
   skip_if_unaffected: true
   use_goma: true

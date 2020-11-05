@@ -14,6 +14,7 @@ build {
   build_type: "release"
   exclude_images: true
   gn_args: "unpack_debug_archives = true output_breakpad_syms = true zircon_extra_args.output_breakpad_syms = true"
+  ninja_targets: "bundles:infratools"
   ninja_targets: "sdk/archive/core.tar.gz"
   ninja_targets: "sdk/archive/fuchsia_dart.tar.gz"
   ninja_targets: "sdk/archive/modular_testing.tar.gz"
@@ -21,6 +22,7 @@ build {
   packages: "//topaz/packages/sdk:topaz"
   product: "products/core.gni"
   target: "arm64"
+  universe_packages: "//bundles:infratools"
   sdk_subbuild: true
   use_goma: true
   stats_gcs_bucket: "fuchsia-artifacts"

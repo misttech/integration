@@ -13,9 +13,11 @@ build {
   build_type: "debug"
   board: "boards/arm64.gni"
   gn_args: "optimize = \"none\""
+  ninja_targets: "bundles:infratools"
   packages: "//bundles/buildbot:core"
   product: "products/core.gni"
   target: "arm64"
+  universe_packages: "//bundles:infratools"
   variants: "host_asan-ubsan"
   skip_if_unaffected: true
   use_goma: true

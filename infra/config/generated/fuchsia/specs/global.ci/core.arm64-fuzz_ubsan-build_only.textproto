@@ -13,9 +13,11 @@ checkout {
 build {
   build_type: "debug"
   board: "boards/qemu-arm64.gni"
+  ninja_targets: "bundles:infratools"
   packages: "//bundles/buildbot:core"
   product: "products/core.gni"
   target: "arm64"
+  universe_packages: "//bundles:infratools"
   variants: "{variant=\"ubsan-fuzzer\" target_type=[\"fuzzed_executable\"]},{variant=\"ubsan\" label=[\"//sdk/lib/fdio\"]}"
   upload_results: true
   skip_if_unaffected: true

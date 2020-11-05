@@ -13,10 +13,12 @@ build {
   build_type: "debug"
   board: "boards/x64.gni"
   gn_args: "platform_enable_user_pci = true"
+  ninja_targets: "bundles:infratools"
   packages: "//bundles/buildbot:core"
   product: "products/core.gni"
   run_tests: true
   target: "x64"
+  universe_packages: "//bundles:infratools"
   variants: "clang"
   variants: "host_asan-ubsan"
   skip_if_unaffected: true

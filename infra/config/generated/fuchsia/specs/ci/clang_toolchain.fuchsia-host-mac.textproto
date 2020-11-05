@@ -15,10 +15,12 @@ build {
   environment_tags: "mac"
   exclude_images: true
   gn_args: "zircon_extra_args.variants = [ \"clang\" ]"
+  ninja_targets: "bundles:infratools"
   packages: "//bundles/buildbot:core"
   product: "products/core.gni"
   run_tests: true
   target: "x64"
+  universe_packages: "//bundles:infratools"
   upload_results: true
   skip_if_unaffected: true
   test_durations_file: "prebuilt/infra/test_durations/fuchsia/clang_toolchain.fuchsia-host-mac.json"

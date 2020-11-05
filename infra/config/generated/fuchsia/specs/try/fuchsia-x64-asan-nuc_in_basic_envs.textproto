@@ -15,10 +15,12 @@ build {
   gn_args: "basic_env_names = [ \"emu\", \"nuc\" ]"
   gn_args: "include_tests_that_fail_on_nuc_asan = false"
   gn_args: "optimize = \"sanitizer\""
+  ninja_targets: "bundles:infratools"
   packages: "//bundles/buildbot:core"
   product: "products/core.gni"
   run_tests: true
   target: "x64"
+  universe_packages: "//bundles:infratools"
   variants: "asan-ubsan"
   variants: "host_asan-ubsan"
   skip_if_unaffected: true

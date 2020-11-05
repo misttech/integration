@@ -13,9 +13,11 @@ build {
   build_type: "debug"
   board: "boards/x64.gni"
   gn_args: "optimize = \"none\""
+  ninja_targets: "bundles:infratools"
   packages: "//bundles/buildbot:bringup"
   product: "products/bringup.gni"
   target: "x64"
+  universe_packages: "//bundles:infratools"
   variants: "clang"
   variants: "host_asan-ubsan"
   skip_if_unaffected: true

@@ -7,7 +7,9 @@ product: "products/core.gni"
 gn_args: "basic_env_names = [ \"emu\", \"nuc\" ]"
 gn_args: "include_tests_that_fail_on_nuc_asan = false"
 gn_args: "optimize = \"sanitizer\""
+ninja_targets: "bundles:infratools"
 base_packages: "//bundles/buildbot:core"
+universe_packages: "//bundles:infratools"
 include_host_tests: true
 target_arch: X64
 variants: "asan-ubsan"

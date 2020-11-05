@@ -14,9 +14,11 @@ build {
   build_type: "debug"
   board: "boards/qemu-x64.gni"
   gn_args: "optimize = \"sanitizer\""
+  ninja_targets: "bundles:infratools"
   packages: "//bundles/buildbot:bringup"
   product: "products/bringup.gni"
   target: "x64"
+  universe_packages: "//bundles:infratools"
   variants: "host_asan-ubsan"
   variants: "{variant=\"asan-fuzzer\" target_type=[\"fuzzed_executable\"]},{variant=\"asan\" label=[\"//sdk/lib/fdio\"]}"
   upload_results: true

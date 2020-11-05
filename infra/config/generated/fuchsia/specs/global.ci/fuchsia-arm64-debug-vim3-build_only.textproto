@@ -13,9 +13,11 @@ checkout {
 build {
   build_type: "debug"
   board: "boards/vim3.gni"
+  ninja_targets: "bundles:infratools"
   packages: "//bundles/buildbot:core"
   product: "products/core.gni"
   target: "arm64"
+  universe_packages: "//bundles:infratools"
   variants: "clang"
   variants: "host_asan-ubsan"
   upload_results: true

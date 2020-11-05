@@ -4,7 +4,9 @@
 optimize: RELEASE
 board: "boards/x64.gni"
 product: "products/core.gni"
+ninja_targets: "bundles:infratools"
 base_packages: "//bundles/buildbot:core"
+universe_packages: "//bundles:infratools"
 include_host_tests: true
 target_arch: X64
 variants: "host_asan-ubsan"

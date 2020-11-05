@@ -13,12 +13,14 @@ checkout {
 build {
   build_type: "release"
   exclude_images: true
+  ninja_targets: "bundles:infratools"
   ninja_targets: "src/cobalt:cobalt"
   ninja_targets: "src/lib/cobalt:cobalt"
   packages: "//src/cobalt:tests"
   packages: "//src/lib/cobalt:tests"
   product: "products/core.gni"
   target: "x64"
+  universe_packages: "//bundles:infratools"
   upload_results: true
   skip_if_unaffected: true
   use_goma: true

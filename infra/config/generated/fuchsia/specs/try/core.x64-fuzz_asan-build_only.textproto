@@ -13,9 +13,11 @@ build {
   build_type: "debug"
   board: "boards/qemu-x64.gni"
   gn_args: "optimize = \"sanitizer\""
+  ninja_targets: "bundles:infratools"
   packages: "//bundles/buildbot:core"
   product: "products/core.gni"
   target: "x64"
+  universe_packages: "//bundles:infratools"
   variants: "{variant=\"asan-fuzzer\" target_type=[\"fuzzed_executable\"]},{variant=\"asan\" label=[\"//sdk/lib/fdio\"]}"
   skip_if_unaffected: true
   use_goma: true

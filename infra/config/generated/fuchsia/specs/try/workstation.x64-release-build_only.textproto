@@ -14,9 +14,11 @@ build {
   build_type: "release"
   board: "boards/x64.gni"
   gn_args: "unpack_debug_archives = true output_breakpad_syms = true zircon_extra_args.output_breakpad_syms = true"
+  ninja_targets: "bundles:infratools"
   packages: "//bundles/buildbot:workstation"
   product: "products/workstation.gni"
   target: "x64"
+  universe_packages: "//bundles:infratools"
   variants: "host_asan-ubsan"
   skip_if_unaffected: true
   use_goma: true

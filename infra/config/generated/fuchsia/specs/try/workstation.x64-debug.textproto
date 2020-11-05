@@ -13,10 +13,12 @@ build {
   build_type: "debug"
   board: "boards/x64.gni"
   gn_args: "flutter_driver_enabled=true"
+  ninja_targets: "bundles:infratools"
   packages: "//bundles/buildbot:workstation"
   product: "products/workstation.gni"
   run_tests: true
   target: "x64"
+  universe_packages: "//bundles:infratools"
   skip_if_unaffected: true
   use_goma: true
   test_durations_file: "prebuilt/infra/test_durations/fuchsia/workstation.x64-debug.json"

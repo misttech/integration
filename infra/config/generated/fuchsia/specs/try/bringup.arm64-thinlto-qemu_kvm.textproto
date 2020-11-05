@@ -12,10 +12,12 @@ checkout {
 build {
   build_type: "debug"
   board: "boards/arm64.gni"
+  ninja_targets: "bundles:infratools"
   packages: "//bundles/buildbot:bringup"
   product: "products/bringup.gni"
   run_tests: true
   target: "arm64"
+  universe_packages: "//bundles:infratools"
   variants: "host_asan-ubsan"
   variants: "thinlto"
   skip_if_unaffected: true
