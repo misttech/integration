@@ -8,7 +8,6 @@ checkout {
   manifest: "flower"
   project: "integration"
   remote: "https://fuchsia.googlesource.com/integration"
-  upload_results: true
 }
 build {
   build_type: "release"
@@ -21,8 +20,6 @@ build {
   universe_packages: "//bundles:infratools"
   universe_packages: "//src/sys/pkg:e2e_tests"
   variants: "host_asan-ubsan"
-  upload_results: true
-  include_archives: true
   skip_if_unaffected: true
   use_goma: true
   test_durations_file: "prebuilt/infra/test_durations/fuchsia/fuchsia-x64-release-e2e-isolated.json"
