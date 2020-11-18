@@ -18,7 +18,6 @@ build {
   run_tests: true
   target: "x64"
   universe_packages: "//bundles:infratools"
-  variants: "host_asan-ubsan"
   variants: "lto"
   skip_if_unaffected: true
   use_goma: true
