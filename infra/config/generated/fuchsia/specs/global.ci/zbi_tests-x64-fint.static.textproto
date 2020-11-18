@@ -6,4 +6,6 @@ product: "products/bringup.gni"
 ninja_targets: "bundles:infratools"
 base_packages: "//bundles:infratools"
 target_arch: X64
+variants: "host_asan-ubsan"
+variants: "clang"
 use_goma: true

@@ -19,6 +19,7 @@ build {
   product: "products/core.gni"
   target: "arm64"
   universe_packages: "//bundles:infratools"
+  variants: "host_asan-ubsan"
   upload_results: true
   skip_if_unaffected: true
   use_goma: true

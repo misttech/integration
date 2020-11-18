@@ -20,6 +20,7 @@ build {
   target: "x64"
   universe_packages: "//bundles:infratools"
   universe_packages: "//src/sys/pkg:e2e_tests"
+  variants: "host_asan-ubsan"
   upload_results: true
   skip_if_unaffected: true
   use_goma: true
