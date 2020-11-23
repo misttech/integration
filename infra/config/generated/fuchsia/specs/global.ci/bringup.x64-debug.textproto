@@ -39,6 +39,7 @@ test {
   default_service_account: "artifact-readers@fuchsia-infra.iam.gserviceaccount.com"
   per_test_timeout_secs: 300
   upload_results: true
+  targets_serial: true
   target_shard_duration_secs: 540
   max_attempts_per_test: 3
 }
