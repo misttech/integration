@@ -17,6 +17,7 @@ build {
   product: "products/core.gni"
   target: "arm64"
   universe_packages: "//bundles:infratools"
+  universe_packages: "//tools/fuzz"
   variants: "{variant=\"ubsan-fuzzer\" target_type=[\"fuzzed_executable\"]},{variant=\"ubsan\" label=[\"//sdk/lib/fdio\"]}"
   skip_if_unaffected: true
   use_goma: true

@@ -18,6 +18,7 @@ build {
   product: "products/core.gni"
   target: "x64"
   universe_packages: "//bundles:infratools"
+  universe_packages: "//tools/fuzz"
   variants: "{variant=\"asan-fuzzer\" target_type=[\"fuzzed_executable\"]},{variant=\"asan\" label=[\"//sdk/lib/fdio\"]}"
   skip_if_unaffected: true
   use_goma: true
