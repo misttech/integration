@@ -8,21 +8,22 @@ checkout {
   manifest: "flower"
   project: "integration"
   remote: "https://fuchsia.googlesource.com/integration"
+  upload_results: true
 }
 build {
   build_type: "debug"
-  board: "boards/x64.gni"
-  gn_args: "basic_env_names = [ \"aemu\", \"qemu\" ]"
+  board: "boards/arm64.gni"
   ninja_targets: "bundles:infratools"
   packages: "//bundles/buildbot:bringup"
   product: "products/bringup.gni"
   run_tests: true
-  target: "x64"
+  target: "arm64"
   universe_packages: "//bundles:infratools"
   variants: "gcc"
+  upload_results: true
   skip_if_unaffected: true
   use_goma: true
-  test_durations_file: "prebuilt/infra/test_durations/fuchsia/bringup.x64-gcc.json"
+  test_durations_file: "prebuilt/infra/test_durations/fuchsia/bringup.arm64-gcc.json"
   default_test_durations_file: "prebuilt/infra/test_durations/fuchsia/default.json"
   stats_gcs_bucket: "fuchsia-artifacts"
 }
@@ -32,6 +33,7 @@ test {
   swarming_io_timeout_secs: 310
   test_in_shards: true
   timeout_secs: 2400
+  max_attempts: 1
   use_runtests: true
   default_service_account: "artifact-readers@fuchsia-infra.iam.gserviceaccount.com"
   per_test_timeout_secs: 300
