@@ -12,7 +12,7 @@ checkout {
 build {
   build_type: "debug"
   board: "boards/x64.gni"
-  gn_args: "basic_env_names = [ \"aemu\", \"nuc\", \"qemu\" ]"
+  gn_args: "basic_env_names = [ \"aemu\", \"qemu\" ]"
   gn_args: "optimize = \"sanitizer\""
   ninja_targets: "bundles:infratools"
   packages: "//bundles/buildbot:bringup"
