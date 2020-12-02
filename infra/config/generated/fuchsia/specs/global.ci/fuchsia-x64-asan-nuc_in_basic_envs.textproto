@@ -30,7 +30,6 @@ build {
   test_durations_file: "prebuilt/infra/test_durations/fuchsia/fuchsia-x64-asan-nuc_in_basic_envs.json"
   default_test_durations_file: "prebuilt/infra/test_durations/fuchsia/default.json"
   stats_gcs_bucket: "fuchsia-artifacts"
-  static_spec_path: "integration/infra/config/generated/fuchsia/specs/global.ci/fuchsia-x64-asan-nuc_in_basic_envs.fint.textproto"
   fint_set: true
   fint_params_path: "integration/infra/config/generated/fuchsia/specs/global.ci/fuchsia-x64-asan-nuc_in_basic_envs.fint.textproto"
 }
