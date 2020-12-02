@@ -28,7 +28,6 @@ build {
   stats_gcs_bucket: "fuchsia-artifacts"
 }
 test {
-  device_type: "Intel NUC Kit NUC7i5DNHE"
   pave: true
   pool: "fuchsia.tests.usb"
   swarming_expiration_timeout_secs: 18000
