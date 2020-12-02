@@ -19,27 +19,26 @@ build {
   run_tests: true
   target: "arm64"
   universe_packages: "//bundles:infratools"
-  variants: "host_profile"
-  variants: "profile"
+  variants: "thinlto"
   upload_results: true
   skip_if_unaffected: true
-  test_durations_file: "prebuilt/infra/test_durations/fuchsia/bringup.arm64-profile-qemu_kvm.json"
+  use_goma: true
+  test_durations_file: "prebuilt/infra/test_durations/fuchsia/bringup.arm64-thinlto.json"
   default_test_durations_file: "prebuilt/infra/test_durations/fuchsia/default.json"
   stats_gcs_bucket: "fuchsia-artifacts"
 }
 test {
-  device_type: "QEMU"
   pool: "fuchsia.tests"
   swarming_expiration_timeout_secs: 18000
-  swarming_io_timeout_secs: 610
+  swarming_io_timeout_secs: 310
+  test_in_shards: true
   timeout_secs: 2400
   max_attempts: 1
   use_runtests: true
   default_service_account: "artifact-readers@fuchsia-infra.iam.gserviceaccount.com"
-  per_test_timeout_secs: 600
+  per_test_timeout_secs: 300
   upload_results: true
   target_shard_duration_secs: 540
-  zircon_args: "kernel.x86.disable_spec_mitigations=true"
   max_attempts_per_test: 3
 }
 gcs_bucket: "fuchsia-build"

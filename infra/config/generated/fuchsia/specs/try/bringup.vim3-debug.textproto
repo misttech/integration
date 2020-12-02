@@ -12,6 +12,7 @@ checkout {
 build {
   build_type: "debug"
   board: "boards/vim3.gni"
+  gn_args: "basic_env_names = [ \"vim3\" ]"
   ninja_targets: "bundles:infratools"
   packages: "//bundles/buildbot:bringup"
   product: "products/bringup.gni"
@@ -26,10 +27,10 @@ build {
   stats_gcs_bucket: "fuchsia-artifacts"
 }
 test {
-  device_type: "Vim3"
   pool: "fuchsia.tests"
   swarming_expiration_timeout_secs: 18000
   swarming_io_timeout_secs: 310
+  test_in_shards: true
   timeout_secs: 2400
   use_runtests: true
   default_service_account: "artifact-readers@fuchsia-infra.iam.gserviceaccount.com"

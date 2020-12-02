@@ -8,33 +8,29 @@ checkout {
   manifest: "flower"
   project: "integration"
   remote: "https://fuchsia.googlesource.com/integration"
-  upload_results: true
 }
 build {
   build_type: "debug"
-  board: "boards/x64.gni"
+  board: "boards/arm64.gni"
   gn_args: "platform_enable_user_pci = true"
   ninja_targets: "bundles:infratools"
   packages: "//bundles/buildbot:bringup"
   product: "products/bringup.gni"
   run_tests: true
-  target: "x64"
+  target: "arm64"
   universe_packages: "//bundles:infratools"
-  variants: "clang"
-  upload_results: true
   skip_if_unaffected: true
   use_goma: true
-  test_durations_file: "prebuilt/infra/test_durations/fuchsia/bringup.x64-debug-user_pci-nuc.json"
+  test_durations_file: "prebuilt/infra/test_durations/fuchsia/bringup.arm64-debug-user_pci.json"
   default_test_durations_file: "prebuilt/infra/test_durations/fuchsia/default.json"
   stats_gcs_bucket: "fuchsia-artifacts"
 }
 test {
-  device_type: "Intel NUC Kit NUC7i5DNHE"
   pool: "fuchsia.tests"
   swarming_expiration_timeout_secs: 18000
   swarming_io_timeout_secs: 310
+  test_in_shards: true
   timeout_secs: 2400
-  max_attempts: 1
   use_runtests: true
   default_service_account: "artifact-readers@fuchsia-infra.iam.gserviceaccount.com"
   per_test_timeout_secs: 300

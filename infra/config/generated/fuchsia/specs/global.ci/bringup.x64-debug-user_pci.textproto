@@ -13,34 +13,33 @@ checkout {
 build {
   build_type: "debug"
   board: "boards/x64.gni"
-  gn_args: "optimize = \"sanitizer\""
+  gn_args: "basic_env_names = [ \"nuc\", \"qemu\" ]"
+  gn_args: "platform_enable_user_pci = true"
   ninja_targets: "bundles:infratools"
   packages: "//bundles/buildbot:bringup"
   product: "products/bringup.gni"
   run_tests: true
   target: "x64"
   universe_packages: "//bundles:infratools"
-  variants: "asan-ubsan"
-  variants: "host_asan-ubsan"
-  variants: "kasan"
   upload_results: true
   skip_if_unaffected: true
   use_goma: true
-  test_durations_file: "prebuilt/infra/test_durations/fuchsia/bringup.x64-asan-aemu_kvm-kasan.json"
+  test_durations_file: "prebuilt/infra/test_durations/fuchsia/bringup.x64-debug-user_pci.json"
   default_test_durations_file: "prebuilt/infra/test_durations/fuchsia/default.json"
   stats_gcs_bucket: "fuchsia-artifacts"
 }
 test {
-  device_type: "AEMU"
   pool: "fuchsia.tests"
   swarming_expiration_timeout_secs: 18000
-  swarming_io_timeout_secs: 370
-  timeout_secs: 3000
+  swarming_io_timeout_secs: 310
+  test_in_shards: true
+  timeout_secs: 2400
   max_attempts: 1
   use_runtests: true
   default_service_account: "artifact-readers@fuchsia-infra.iam.gserviceaccount.com"
-  per_test_timeout_secs: 360
+  per_test_timeout_secs: 300
   upload_results: true
+  targets_serial: true
   target_shard_duration_secs: 540
   max_attempts_per_test: 3
 }
