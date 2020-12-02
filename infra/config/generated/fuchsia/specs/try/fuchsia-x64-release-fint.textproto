@@ -23,8 +23,9 @@ build {
   test_durations_file: "prebuilt/infra/test_durations/fuchsia/fuchsia-x64-release-fint.json"
   default_test_durations_file: "prebuilt/infra/test_durations/fuchsia/default.json"
   stats_gcs_bucket: "fuchsia-artifacts"
-  static_spec_path: "integration/infra/config/generated/fuchsia/specs/try/fuchsia-x64-release-fint.static.textproto"
+  static_spec_path: "integration/infra/config/generated/fuchsia/specs/try/fuchsia-x64-release-fint.fint.textproto"
   fint_set: true
+  fint_params_path: "integration/infra/config/generated/fuchsia/specs/try/fuchsia-x64-release-fint.fint.textproto"
 }
 test {
   pave: true
