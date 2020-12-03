@@ -42,6 +42,7 @@ test {
   target_shard_duration_secs: 540
   max_shards_per_env: 12
   max_attempts_per_test: 3
+  affected_tests_multiply_threshold: 3
 }
 gcs_bucket: "fuchsia-build"
 artifact_gcs_bucket: "fuchsia-artifacts"
