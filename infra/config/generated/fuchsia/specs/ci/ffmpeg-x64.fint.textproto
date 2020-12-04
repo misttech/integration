@@ -2,7 +2,7 @@
 # Do not modify manually.
 
 optimize: RELEASE
-product: "release"
+product: "products/core.gni"
 exclude_images: true
 gn_args: "use_prebuilt_ffmpeg = false"
 ninja_targets: "x64-shared/libffmpeg.so"
