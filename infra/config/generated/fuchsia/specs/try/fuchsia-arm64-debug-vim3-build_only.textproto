@@ -21,6 +21,8 @@ build {
   skip_if_unaffected: true
   use_goma: true
   stats_gcs_bucket: "fuchsia-artifacts"
+  fint_set: true
+  fint_params_path: "integration/infra/config/generated/fuchsia/specs/try/fuchsia-arm64-debug-vim3-build_only.fint.textproto"
 }
 test {
   pave: true

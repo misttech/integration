@@ -24,6 +24,7 @@ build {
   default_test_durations_file: "prebuilt/infra/test_durations/fuchsia/default.json"
   stats_gcs_bucket: "fuchsia-artifacts"
   fint_set: true
+  fint_build: true
   fint_params_path: "integration/infra/config/generated/fuchsia/specs/try/fuchsia-x64-release-fint.fint.textproto"
 }
 test {
