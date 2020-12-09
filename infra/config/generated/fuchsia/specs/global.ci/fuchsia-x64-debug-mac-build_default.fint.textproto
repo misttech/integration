@@ -6,9 +6,9 @@ board: "boards/x64.gni"
 product: "products/core.gni"
 exclude_images: true
 ninja_targets: ":default"
-ninja_targets: "bundles:infratools"
+ninja_targets: "bundles:build_infra"
 base_packages: "//bundles/buildbot:core"
-universe_packages: "//bundles:infratools"
+universe_packages: "//bundles:build_infra"
 target_arch: X64
 skip_if_unaffected: true
 use_goma: true

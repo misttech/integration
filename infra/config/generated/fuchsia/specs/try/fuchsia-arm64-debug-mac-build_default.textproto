@@ -14,11 +14,11 @@ build {
   board: "boards/arm64.gni"
   exclude_images: true
   ninja_targets: ":default"
-  ninja_targets: "bundles:infratools"
+  ninja_targets: "bundles:build_infra"
   packages: "//bundles/buildbot:core"
   product: "products/core.gni"
   target: "arm64"
-  universe_packages: "//bundles:infratools"
+  universe_packages: "//bundles:build_infra"
   skip_if_unaffected: true
   use_goma: true
   stats_gcs_bucket: "fuchsia-artifacts"

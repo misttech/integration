@@ -6,9 +6,11 @@ board: "boards/x64.gni"
 product: "products/bringup.gni"
 gn_args: "basic_env_names = [ \"aemu\", \"qemu\" ]"
 gn_args: "zircon_extra_args.assert_level=0"
-ninja_targets: "bundles:infratools"
+ninja_targets: "bundles:build_infra"
+ninja_targets: "bundles:test_infra"
 base_packages: "//bundles/buildbot:bringup"
-universe_packages: "//bundles:infratools"
+universe_packages: "//bundles:build_infra"
+universe_packages: "//bundles:test_infra"
 include_host_tests: true
 target_arch: X64
 skip_if_unaffected: true

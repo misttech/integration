@@ -12,12 +12,14 @@ checkout {
 build {
   build_type: "release"
   board: "boards/arm64.gni"
-  ninja_targets: "bundles:infratools"
+  ninja_targets: "bundles:build_infra"
+  ninja_targets: "bundles:test_infra"
   packages: "//bundles/buildbot:core"
   product: "products/core.gni"
   run_tests: true
   target: "arm64"
-  universe_packages: "//bundles:infratools"
+  universe_packages: "//bundles:build_infra"
+  universe_packages: "//bundles:test_infra"
   variants: "lto"
   skip_if_unaffected: true
   use_goma: true

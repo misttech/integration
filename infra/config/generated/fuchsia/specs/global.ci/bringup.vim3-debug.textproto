@@ -14,12 +14,14 @@ build {
   build_type: "debug"
   board: "boards/vim3.gni"
   gn_args: "basic_env_names = [ \"vim3\" ]"
-  ninja_targets: "bundles:infratools"
+  ninja_targets: "bundles:build_infra"
+  ninja_targets: "bundles:test_infra"
   packages: "//bundles/buildbot:bringup"
   product: "products/bringup.gni"
   run_tests: true
   target: "arm64"
-  universe_packages: "//bundles:infratools"
+  universe_packages: "//bundles:build_infra"
+  universe_packages: "//bundles:test_infra"
   variants: "clang"
   upload_results: true
   skip_if_unaffected: true
