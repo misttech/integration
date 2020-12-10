@@ -138,7 +138,7 @@
              platforms="linux-amd64,linux-arm64,mac-amd64"
              path="prebuilt/third_party/tesseract-ocr/tesseract/linux-amd64"/>
 
-    <!-- YAPF for formatting python code -->
+    <!-- YAPF for formatting python code TODO(fxbug.dev/65196): Remove -->
     <package name="infra/tools/yapf"
              version="git_revision:0d457e7ac4ca9dc21109e107e20a4ac8af6cf056"
              platforms="linux-amd64,linux-arm64,mac-amd64"
@@ -150,6 +150,12 @@
              version="git_revision:2155d0d436bf346333810cc352791063e1dda952"
              platforms="linux-amd64,linux-arm64,mac-amd64"
              path="prebuilt/third_party/vpython"/>
+
+    <!-- Black python formatter -->
+    <package name="fuchsia/tools/black/${platform}"
+             version="version:19.10b0"
+             platforms="linux-amd64,mac-amd64"
+             path="prebuilt/third_party/black"/>
 
     <!-- Python3 interpreter, used for host tools after bootstrap.
     -->
