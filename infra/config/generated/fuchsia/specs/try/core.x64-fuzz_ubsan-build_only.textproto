@@ -12,18 +12,13 @@ checkout {
 build {
   build_type: "debug"
   board: "boards/qemu-x64.gni"
-  gn_args: "optimize = \"sanitizer\""
   ninja_targets: "bundles:build_infra"
-  packages: "//bundles/buildbot:core"
   product: "products/core.gni"
   target: "x64"
-  universe_packages: "//bundles:build_infra"
-  universe_packages: "//tools/fuzz"
   variants: "{variant=\"ubsan-fuzzer\" target_type=[\"fuzzed_executable\"]},{variant=\"ubsan\" label=[\"//sdk/lib/fdio\"]}"
   skip_if_unaffected: true
   use_goma: true
   stats_gcs_bucket: "fuchsia-artifacts"
-  fint_set: true
   fint_params_path: "integration/infra/config/generated/fuchsia/specs/try/core.x64-fuzz_ubsan-build_only.fint.textproto"
 }
 test {

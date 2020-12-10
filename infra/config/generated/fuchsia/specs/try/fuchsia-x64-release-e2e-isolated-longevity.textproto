@@ -18,15 +18,9 @@ build {
   product: "products/core.gni"
   run_tests: true
   target: "x64"
-  universe_packages: "//bundles:build_infra"
-  universe_packages: "//bundles:test_infra"
-  universe_packages: "//src/sys/pkg:e2e_tests"
   skip_if_unaffected: true
   use_goma: true
-  test_durations_file: "prebuilt/infra/test_durations/fuchsia/fuchsia-x64-release-e2e-isolated-longevity.json"
-  default_test_durations_file: "prebuilt/infra/test_durations/fuchsia/default.json"
   stats_gcs_bucket: "fuchsia-artifacts"
-  fint_set: true
   fint_params_path: "integration/infra/config/generated/fuchsia/specs/try/fuchsia-x64-release-e2e-isolated-longevity.fint.textproto"
 }
 test {

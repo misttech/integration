@@ -14,16 +14,13 @@ build {
   build_type: "debug"
   board: "boards/vim3.gni"
   ninja_targets: "bundles:build_infra"
-  packages: "//bundles/buildbot:bringup"
   product: "products/bringup.gni"
   target: "arm64"
-  universe_packages: "//bundles:build_infra"
   variants: "clang"
   upload_results: true
   skip_if_unaffected: true
   use_goma: true
   stats_gcs_bucket: "fuchsia-artifacts"
-  fint_set: true
   fint_params_path: "integration/infra/config/generated/fuchsia/specs/global.ci/bringup.vim3-debug-build_only.fint.textproto"
 }
 gcs_bucket: "fuchsia-build"

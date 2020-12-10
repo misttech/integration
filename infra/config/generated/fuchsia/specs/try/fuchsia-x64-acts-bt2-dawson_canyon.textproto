@@ -15,20 +15,12 @@ build {
   environment_tags: "acts-connectivity-bt2"
   ninja_targets: "bundles:build_infra"
   ninja_targets: "bundles:test_infra"
-  packages: "//garnet/packages/tools:sl4f"
-  packages: "//garnet/packages:garnet"
-  packages: "//garnet/tests/acts_tests"
   product: "products/core.gni"
   run_tests: true
   target: "x64"
-  universe_packages: "//bundles:build_infra"
-  universe_packages: "//bundles:test_infra"
   skip_if_unaffected: true
   use_goma: true
-  test_durations_file: "prebuilt/infra/test_durations/fuchsia/fuchsia-x64-acts-bt2-dawson_canyon.json"
-  default_test_durations_file: "prebuilt/infra/test_durations/fuchsia/default.json"
   stats_gcs_bucket: "fuchsia-artifacts"
-  fint_set: true
   fint_params_path: "integration/infra/config/generated/fuchsia/specs/try/fuchsia-x64-acts-bt2-dawson_canyon.fint.textproto"
 }
 test {

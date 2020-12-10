@@ -12,25 +12,16 @@ checkout {
 build {
   build_type: "debug"
   board: "boards/qemu-x64.gni"
-  gn_args: "basic_env_names = [ \"emu\", \"nuc\" ]"
-  gn_args: "include_tests_that_fail_on_nuc_asan = false"
-  gn_args: "optimize = \"sanitizer\""
   ninja_targets: "bundles:build_infra"
   ninja_targets: "bundles:test_infra"
-  packages: "//bundles/buildbot:core"
   product: "products/core.gni"
   run_tests: true
   target: "x64"
-  universe_packages: "//bundles:build_infra"
-  universe_packages: "//bundles:test_infra"
   variants: "asan-ubsan"
   variants: "host_asan-ubsan"
   skip_if_unaffected: true
   use_goma: true
-  test_durations_file: "prebuilt/infra/test_durations/fuchsia/fuchsia-x64-asan-nuc_in_basic_envs.json"
-  default_test_durations_file: "prebuilt/infra/test_durations/fuchsia/default.json"
   stats_gcs_bucket: "fuchsia-artifacts"
-  fint_set: true
   fint_params_path: "integration/infra/config/generated/fuchsia/specs/try/fuchsia-x64-asan-nuc_in_basic_envs.fint.textproto"
 }
 test {

@@ -13,24 +13,17 @@ checkout {
 build {
   build_type: "debug"
   board: "boards/arm64.gni"
-  gn_args: "optimize = \"sanitizer\""
   ninja_targets: "bundles:build_infra"
   ninja_targets: "bundles:test_infra"
-  packages: "//bundles/buildbot:core"
   product: "products/core.gni"
   run_tests: true
   target: "arm64"
-  universe_packages: "//bundles:build_infra"
-  universe_packages: "//bundles:test_infra"
   variants: "asan-ubsan"
   variants: "host_asan-ubsan"
   upload_results: true
   skip_if_unaffected: true
   use_goma: true
-  test_durations_file: "prebuilt/infra/test_durations/fuchsia/fuchsia-arm64-asan.json"
-  default_test_durations_file: "prebuilt/infra/test_durations/fuchsia/default.json"
   stats_gcs_bucket: "fuchsia-artifacts"
-  fint_set: true
   fint_params_path: "integration/infra/config/generated/fuchsia/specs/global.ci/fuchsia-arm64-asan.fint.textproto"
 }
 test {

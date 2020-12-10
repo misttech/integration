@@ -14,17 +14,13 @@ build {
   build_type: "debug"
   board: "boards/qemu-arm64.gni"
   ninja_targets: "bundles:build_infra"
-  packages: "//bundles/buildbot:core"
   product: "products/core.gni"
   target: "arm64"
-  universe_packages: "//bundles:build_infra"
-  universe_packages: "//tools/fuzz"
   variants: "{variant=\"asan-fuzzer\" target_type=[\"fuzzed_executable\"]},{variant=\"asan\" label=[\"//sdk/lib/fdio\"]}"
   upload_results: true
   skip_if_unaffected: true
   use_goma: true
   stats_gcs_bucket: "fuchsia-artifacts"
-  fint_set: true
   fint_params_path: "integration/infra/config/generated/fuchsia/specs/global.ci/core.arm64-fuzz_asan-build_only.fint.textproto"
 }
 test {

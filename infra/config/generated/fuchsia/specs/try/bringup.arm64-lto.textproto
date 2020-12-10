@@ -14,19 +14,13 @@ build {
   board: "boards/arm64.gni"
   ninja_targets: "bundles:build_infra"
   ninja_targets: "bundles:test_infra"
-  packages: "//bundles/buildbot:bringup"
   product: "products/bringup.gni"
   run_tests: true
   target: "arm64"
-  universe_packages: "//bundles:build_infra"
-  universe_packages: "//bundles:test_infra"
   variants: "lto"
   skip_if_unaffected: true
   use_goma: true
-  test_durations_file: "prebuilt/infra/test_durations/fuchsia/bringup.arm64-lto.json"
-  default_test_durations_file: "prebuilt/infra/test_durations/fuchsia/default.json"
   stats_gcs_bucket: "fuchsia-artifacts"
-  fint_set: true
   fint_params_path: "integration/infra/config/generated/fuchsia/specs/try/bringup.arm64-lto.fint.textproto"
 }
 test {

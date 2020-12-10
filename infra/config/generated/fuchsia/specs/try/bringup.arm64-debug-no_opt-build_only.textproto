@@ -12,17 +12,13 @@ checkout {
 build {
   build_type: "debug"
   board: "boards/arm64.gni"
-  gn_args: "optimize = \"none\""
   ninja_targets: "bundles:build_infra"
-  packages: "//bundles/buildbot:bringup"
   product: "products/bringup.gni"
   target: "arm64"
-  universe_packages: "//bundles:build_infra"
   variants: "clang"
   skip_if_unaffected: true
   use_goma: true
   stats_gcs_bucket: "fuchsia-artifacts"
-  fint_set: true
   fint_params_path: "integration/infra/config/generated/fuchsia/specs/try/bringup.arm64-debug-no_opt-build_only.fint.textproto"
 }
 gcs_bucket: "fuchsia-build"

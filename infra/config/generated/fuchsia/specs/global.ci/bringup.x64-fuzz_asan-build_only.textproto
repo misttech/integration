@@ -13,20 +13,15 @@ checkout {
 build {
   build_type: "debug"
   board: "boards/qemu-x64.gni"
-  gn_args: "optimize = \"sanitizer\""
   ninja_targets: "bundles:build_infra"
-  packages: "//bundles/buildbot:bringup"
   product: "products/bringup.gni"
   target: "x64"
-  universe_packages: "//bundles:build_infra"
-  universe_packages: "//tools/fuzz"
   variants: "host_asan-ubsan"
   variants: "{variant=\"asan-fuzzer\" target_type=[\"fuzzed_executable\"]},{variant=\"asan\" label=[\"//sdk/lib/fdio\"]}"
   upload_results: true
   skip_if_unaffected: true
   use_goma: true
   stats_gcs_bucket: "fuchsia-artifacts"
-  fint_set: true
   fint_params_path: "integration/infra/config/generated/fuchsia/specs/global.ci/bringup.x64-fuzz_asan-build_only.fint.textproto"
 }
 gcs_bucket: "fuchsia-build"

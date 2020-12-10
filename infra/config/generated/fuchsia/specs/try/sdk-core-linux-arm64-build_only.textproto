@@ -13,19 +13,15 @@ checkout {
 build {
   build_type: "release"
   exclude_images: true
-  gn_args: "unpack_debug_archives = true output_breakpad_syms = true zircon_extra_args.output_breakpad_syms = true"
   ninja_targets: "bundles:build_infra"
   ninja_targets: "sdk/archive/core.tar.gz"
   ninja_targets: "sdk/archive/fuchsia_dart.tar.gz"
   ninja_targets: "sdk/archive/modular_testing.tar.gz"
-  packages: "//sdk/bundles:tools"
   product: "products/core.gni"
   target: "arm64"
-  universe_packages: "//bundles:build_infra"
   sdk_subbuild: true
   use_goma: true
   stats_gcs_bucket: "fuchsia-artifacts"
-  fint_set: true
   fint_params_path: "integration/infra/config/generated/fuchsia/specs/try/sdk-core-linux-arm64-build_only.fint.textproto"
 }
 test {

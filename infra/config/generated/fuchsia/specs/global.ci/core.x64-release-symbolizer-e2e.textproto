@@ -17,19 +17,13 @@ build {
   environment_tags: "symbolizer-e2e"
   ninja_targets: "bundles:build_infra"
   ninja_targets: "bundles:test_infra"
-  packages: "//tools/symbolizer:e2e_tests"
   product: "products/core.gni"
   run_tests: true
   target: "x64"
-  universe_packages: "//bundles:build_infra"
-  universe_packages: "//bundles:test_infra"
   upload_results: true
   skip_if_unaffected: true
   use_goma: true
-  test_durations_file: "prebuilt/infra/test_durations/fuchsia/core.x64-release-symbolizer-e2e.json"
-  default_test_durations_file: "prebuilt/infra/test_durations/fuchsia/default.json"
   stats_gcs_bucket: "fuchsia-artifacts"
-  fint_set: true
   fint_params_path: "integration/infra/config/generated/fuchsia/specs/global.ci/core.x64-release-symbolizer-e2e.fint.textproto"
 }
 test {

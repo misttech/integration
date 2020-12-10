@@ -16,15 +16,12 @@ build {
   exclude_images: true
   ninja_targets: ":default"
   ninja_targets: "bundles:build_infra"
-  packages: "//bundles/buildbot:core"
   product: "products/core.gni"
   target: "arm64"
-  universe_packages: "//bundles:build_infra"
   upload_results: true
   skip_if_unaffected: true
   use_goma: true
   stats_gcs_bucket: "fuchsia-artifacts"
-  fint_set: true
   fint_params_path: "integration/infra/config/generated/fuchsia/specs/global.ci/fuchsia-arm64-debug-build_default.fint.textproto"
 }
 test {

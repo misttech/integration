@@ -14,17 +14,13 @@ checkout {
 build {
   build_type: "release"
   board: "boards/x64.gni"
-  gn_args: "unpack_debug_archives = true output_breakpad_syms = true zircon_extra_args.output_breakpad_syms = true"
   ninja_targets: "bundles:build_infra"
-  packages: "//bundles/buildbot:workstation"
   product: "products/workstation.gni"
   target: "x64"
-  universe_packages: "//bundles:build_infra"
   upload_results: true
   skip_if_unaffected: true
   use_goma: true
   stats_gcs_bucket: "fuchsia-artifacts"
-  fint_set: true
   fint_params_path: "integration/infra/config/generated/fuchsia/specs/global.ci/workstation.x64-release-build_only.fint.textproto"
 }
 test {
