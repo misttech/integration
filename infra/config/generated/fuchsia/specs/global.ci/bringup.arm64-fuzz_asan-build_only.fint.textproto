@@ -4,6 +4,7 @@
 optimize: DEBUG
 board: "boards/qemu-arm64.gni"
 product: "products/bringup.gni"
+gn_args: "optimize = \"sanitizer\""
 ninja_targets: "bundles:build_infra"
 base_packages: "//bundles/buildbot:bringup"
 universe_packages: "//bundles:build_infra"
