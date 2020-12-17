@@ -58,7 +58,7 @@
          TODO(phosek): repo/bot link about provenance
     -->
     <package name="fuchsia/third_party/rust/${platform}"
-             version="git_revision:d32c320d7eee56706486fef6be778495303afe9e"
+             version="git_revision:fa416394275d2468d104b8f72ac31b1ddf7ee52e"
              platforms="linux-amd64,linux-arm64,mac-amd64"
              path="prebuilt/third_party/rust/{{.OS}}-{{.Arch}}"/>
 
@@ -66,7 +66,7 @@
          TODO(phosek): repo/bot link about provenance
     -->
     <package name="fuchsia/third_party/rust_tools/${platform}"
-             version="git_revision:ffa2e7ae8fbf9badc035740db949b9dae271c29f"
+             version="git_revision:fa416394275d2468d104b8f72ac31b1ddf7ee52e"
              platforms="linux-amd64,mac-amd64"
              path="prebuilt/third_party/rust_tools/{{.OS}}-{{.Arch}}"/>
 
