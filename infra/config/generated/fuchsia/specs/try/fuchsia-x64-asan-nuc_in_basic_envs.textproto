@@ -11,7 +11,7 @@ checkout {
 }
 build {
   build_type: "debug"
-  board: "boards/qemu-x64.gni"
+  board: "boards/x64.gni"
   ninja_targets: "bundles:build_infra"
   ninja_targets: "bundles:test_infra"
   product: "products/core.gni"
