@@ -39,7 +39,6 @@ test {
   upload_results: true
   zircon_args: "kernel.x86.disable_spec_mitigations=true"
   max_attempts_per_test: 3
-  affected_tests_multiply_threshold: 3
 }
 gcs_bucket: "fuchsia-build"
 artifact_gcs_bucket: "fuchsia-artifacts"
