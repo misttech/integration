@@ -257,6 +257,16 @@
              version="git_revision:3aa8e071dd1ae7e9fb9e28fa9fcdb9f9fdb7aa06"
              platforms="linux-amd64,linux-arm64,mac-amd64"
              path="prebuilt/third_party/llvm/{{.OS}}-{{.Arch}}"/>
+    <!--   Since Jiri doesn't support downloading for multiple platforms,
+           duplicates the above to make it possible to download arm64 version on
+           amd64, so that we could cross compile host tools that depend on LLVM
+           library for arm64. It's optional so the majority of developers don't
+           need to download it. -->
+    <package name="fuchsia/third_party/llvm/linux-arm64"
+             version="git_revision:3aa8e071dd1ae7e9fb9e28fa9fcdb9f9fdb7aa06"
+             platforms="linux-amd64"
+             path="prebuilt/third_party/llvm/linux-arm64"
+             attributes="prebuilt-libraries-linux-arm64"/>
     <!--   Chromium media test data -->
     <package name="fuchsia/test_data/third_party/chromium_media_test_data"
              version="90a7f69f134fffcb58c127847fc35f3ae56684dc"
