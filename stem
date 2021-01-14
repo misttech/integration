@@ -13,7 +13,7 @@
              revision="6380fc48be78bd2b06a3d76e6490527b3020d3b9"/>
   </projects>
   <hooks>
-    <hook name="install-fx"
+    <hook name="install-environment"
           project="fuchsia"
           action="scripts/devshell/lib/add_symlink_to_bin.sh"/>
     <hook name="zircon-download-prebuilt"
