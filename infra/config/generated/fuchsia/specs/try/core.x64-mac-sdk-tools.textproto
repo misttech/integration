@@ -12,7 +12,6 @@ checkout {
 build {
   build_type: "debug"
   board: "boards/x64.gni"
-  exclude_images: true
   ninja_targets: "bundles:build_infra"
   product: "products/core.gni"
   target: "x64"
