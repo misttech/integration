@@ -10,4 +10,5 @@ target_arch: X64
 variants: "asan-ubsan"
 variants: "host_asan-ubsan"
 variants: "kasan"
+skip_if_unaffected: true
 use_goma: true

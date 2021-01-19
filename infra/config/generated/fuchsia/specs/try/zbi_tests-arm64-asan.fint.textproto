@@ -9,4 +9,5 @@ base_packages: "//bundles:test_infra"
 target_arch: ARM64
 variants: "asan-ubsan"
 variants: "host_asan-ubsan"
+skip_if_unaffected: true
 use_goma: true
