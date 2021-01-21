@@ -17,7 +17,6 @@ build {
   ninja_targets: "bundles:build_infra"
   product: "products/core.gni"
   target: "arm64"
-  skip_if_unaffected: true
   use_goma: true
   stats_gcs_bucket: "fuchsia-artifacts"
   fint_params_path: "integration/infra/config/generated/fuchsia/specs/try/fuchsia-arm64-debug-build_default.fint.textproto"

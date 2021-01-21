@@ -17,7 +17,6 @@ build {
   product: "products/core.gni"
   run_tests: true
   target: "arm64"
-  skip_if_unaffected: true
   stats_gcs_bucket: "fuchsia-artifacts"
   fint_params_path: "integration/infra/config/generated/fuchsia/specs/try/clang_toolchain.fuchsia-arm64-release.fint.textproto"
 }

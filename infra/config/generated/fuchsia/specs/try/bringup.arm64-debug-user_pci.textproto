@@ -17,7 +17,6 @@ build {
   product: "products/bringup.gni"
   run_tests: true
   target: "arm64"
-  skip_if_unaffected: true
   use_goma: true
   stats_gcs_bucket: "fuchsia-artifacts"
   fint_params_path: "integration/infra/config/generated/fuchsia/specs/try/bringup.arm64-debug-user_pci.fint.textproto"

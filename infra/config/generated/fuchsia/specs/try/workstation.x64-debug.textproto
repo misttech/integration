@@ -17,7 +17,6 @@ build {
   product: "products/workstation.gni"
   run_tests: true
   target: "x64"
-  skip_if_unaffected: true
   use_goma: true
   stats_gcs_bucket: "fuchsia-artifacts"
   fint_params_path: "integration/infra/config/generated/fuchsia/specs/try/workstation.x64-debug.fint.textproto"

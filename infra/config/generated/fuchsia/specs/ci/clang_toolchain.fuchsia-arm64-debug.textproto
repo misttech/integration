@@ -19,7 +19,6 @@ build {
   run_tests: true
   target: "arm64"
   upload_results: true
-  skip_if_unaffected: true
   stats_gcs_bucket: "fuchsia-artifacts"
   fint_params_path: "integration/infra/config/generated/fuchsia/specs/ci/clang_toolchain.fuchsia-arm64-debug.fint.textproto"
 }

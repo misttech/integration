@@ -18,7 +18,6 @@ build {
   run_tests: true
   target: "x64"
   variants: "clang"
-  skip_if_unaffected: true
   use_goma: true
   stats_gcs_bucket: "fuchsia-artifacts"
   fint_params_path: "integration/infra/config/generated/fuchsia/specs/try/fuchsia-x64-debug-user_pci.fint.textproto"

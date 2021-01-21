@@ -16,7 +16,6 @@ build {
   product: "products/bringup.gni"
   target: "x64"
   variants: "clang"
-  skip_if_unaffected: true
   use_goma: true
   stats_gcs_bucket: "fuchsia-artifacts"
   fint_params_path: "integration/infra/config/generated/fuchsia/specs/try/bringup.x64-debug-no_opt-build_only.fint.textproto"

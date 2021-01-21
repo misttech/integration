@@ -20,7 +20,6 @@ build {
   run_tests: true
   target: "x64"
   upload_results: true
-  skip_if_unaffected: true
   use_goma: true
   stats_gcs_bucket: "fuchsia-artifacts"
   fint_params_path: "integration/infra/config/generated/fuchsia/specs/global.ci/fuchsia-x64-debug-acts-bt1-dawson_canyon.fint.textproto"

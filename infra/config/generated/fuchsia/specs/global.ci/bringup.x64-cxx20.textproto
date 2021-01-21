@@ -19,7 +19,6 @@ build {
   run_tests: true
   target: "x64"
   upload_results: true
-  skip_if_unaffected: true
   use_goma: true
   stats_gcs_bucket: "fuchsia-artifacts"
   fint_params_path: "integration/infra/config/generated/fuchsia/specs/global.ci/bringup.x64-cxx20.fint.textproto"

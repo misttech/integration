@@ -17,7 +17,6 @@ build {
   product: "products/core.gni"
   target: "x64"
   upload_results: true
-  skip_if_unaffected: true
   use_goma: true
   stats_gcs_bucket: "fuchsia-artifacts"
   fint_params_path: "integration/infra/config/generated/fuchsia/specs/global.ci/fuchsia-x64-debug-no_opt-build_only.fint.textproto"
