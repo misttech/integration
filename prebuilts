@@ -559,5 +559,11 @@
              path="prebuilt/vdl"
              version="g3-revision:vdl_fuchsia_20210114_RC00"
              platforms="linux-amd64,mac-amd64"/>
+
+    <!-- fsatrace -->
+    <package name="fuchsia/fsatrace/${platform}"
+             path="prebuilt/fsatrace"
+             version="git_revision:41b02a096d166d6e05332a95f3ce63865b3e3ce5"
+             platforms="linux-amd64"/>
   </packages>
 </manifest>
