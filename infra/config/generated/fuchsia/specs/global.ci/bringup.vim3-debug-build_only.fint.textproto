@@ -9,5 +9,4 @@ base_packages: "//bundles/buildbot:bringup"
 universe_packages: "//bundles:build_infra"
 target_arch: ARM64
 variants: "clang"
-skip_if_unaffected: true
 use_goma: true

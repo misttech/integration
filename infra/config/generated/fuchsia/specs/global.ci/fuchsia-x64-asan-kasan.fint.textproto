@@ -17,7 +17,6 @@ target_arch: X64
 variants: "asan-ubsan"
 variants: "host_asan-ubsan"
 variants: "kasan"
-skip_if_unaffected: true
 test_durations_file: "prebuilt/infra/test_durations/fuchsia/fuchsia-x64-asan-kasan.json"
 default_test_durations_file: "prebuilt/infra/test_durations/fuchsia/default.json"
 use_goma: true

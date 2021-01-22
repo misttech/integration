@@ -10,5 +10,4 @@ ninja_targets: "bundles:build_infra"
 base_packages: "//bundles/buildbot:core"
 universe_packages: "//bundles:build_infra"
 target_arch: ARM64
-skip_if_unaffected: true
 use_goma: true

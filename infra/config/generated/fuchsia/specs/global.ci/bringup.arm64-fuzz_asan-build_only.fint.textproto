@@ -12,5 +12,4 @@ universe_packages: "//tools/fuzz"
 target_arch: ARM64
 variants: "host_asan-ubsan"
 variants: "{variant=\"asan-fuzzer\" target_type=[\"fuzzed_executable\"]},{variant=\"asan\" label=[\"//sdk/lib/fdio\"]}"
-skip_if_unaffected: true
 use_goma: true

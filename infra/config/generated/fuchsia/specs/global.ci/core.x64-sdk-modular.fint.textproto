@@ -9,5 +9,4 @@ ninja_targets: "bundles:build_infra"
 base_packages: "//sdk:sdk.modular"
 universe_packages: "//bundles:build_infra"
 target_arch: X64
-skip_if_unaffected: true
 use_goma: true
