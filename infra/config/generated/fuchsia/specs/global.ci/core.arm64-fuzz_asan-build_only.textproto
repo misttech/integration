@@ -11,6 +11,7 @@ checkout {
   upload_results: true
 }
 build {
+  fint_params_path: "integration/infra/config/generated/fuchsia/specs/global.ci/core.arm64-fuzz_asan-build_only.fint.textproto"
   build_type: "debug"
   board: "boards/qemu-arm64.gni"
   ninja_targets: "bundles:build_infra"
@@ -20,7 +21,6 @@ build {
   upload_results: true
   use_goma: true
   stats_gcs_bucket: "fuchsia-artifacts"
-  fint_params_path: "integration/infra/config/generated/fuchsia/specs/global.ci/core.arm64-fuzz_asan-build_only.fint.textproto"
 }
 test {
   pave: true

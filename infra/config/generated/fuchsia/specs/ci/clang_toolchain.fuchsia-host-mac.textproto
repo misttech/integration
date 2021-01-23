@@ -11,6 +11,7 @@ checkout {
   upload_results: true
 }
 build {
+  fint_params_path: "integration/infra/config/generated/fuchsia/specs/ci/clang_toolchain.fuchsia-host-mac.fint.textproto"
   build_type: "release"
   environment_tags: "mac"
   exclude_images: true
@@ -21,7 +22,6 @@ build {
   target: "x64"
   upload_results: true
   stats_gcs_bucket: "fuchsia-artifacts"
-  fint_params_path: "integration/infra/config/generated/fuchsia/specs/ci/clang_toolchain.fuchsia-host-mac.fint.textproto"
 }
 test {
   pave: true

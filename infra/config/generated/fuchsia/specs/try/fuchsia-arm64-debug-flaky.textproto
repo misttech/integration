@@ -10,6 +10,7 @@ checkout {
   remote: "https://fuchsia.googlesource.com/integration"
 }
 build {
+  fint_params_path: "integration/infra/config/generated/fuchsia/specs/try/fuchsia-arm64-debug-flaky.fint.textproto"
   build_type: "debug"
   board: "boards/arm64.gni"
   environment_tags: "flaky"
@@ -20,7 +21,6 @@ build {
   target: "arm64"
   use_goma: true
   stats_gcs_bucket: "fuchsia-artifacts"
-  fint_params_path: "integration/infra/config/generated/fuchsia/specs/try/fuchsia-arm64-debug-flaky.fint.textproto"
 }
 test {
   pave: true

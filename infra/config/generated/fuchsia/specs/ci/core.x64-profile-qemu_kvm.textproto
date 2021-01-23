@@ -11,6 +11,7 @@ checkout {
   upload_results: true
 }
 build {
+  fint_params_path: "integration/infra/config/generated/fuchsia/specs/ci/core.x64-profile-qemu_kvm.fint.textproto"
   build_type: "debug"
   board: "boards/qemu-x64.gni"
   ninja_targets: "bundles:build_infra"
@@ -22,7 +23,6 @@ build {
   variants: "profile"
   upload_results: true
   stats_gcs_bucket: "fuchsia-artifacts"
-  fint_params_path: "integration/infra/config/generated/fuchsia/specs/ci/core.x64-profile-qemu_kvm.fint.textproto"
 }
 test {
   pave: true

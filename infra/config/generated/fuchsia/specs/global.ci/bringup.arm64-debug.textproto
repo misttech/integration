@@ -11,6 +11,7 @@ checkout {
   upload_results: true
 }
 build {
+  fint_params_path: "integration/infra/config/generated/fuchsia/specs/global.ci/bringup.arm64-debug.fint.textproto"
   build_type: "debug"
   board: "boards/arm64.gni"
   ninja_targets: "bundles:build_infra"
@@ -22,7 +23,6 @@ build {
   upload_results: true
   use_goma: true
   stats_gcs_bucket: "fuchsia-artifacts"
-  fint_params_path: "integration/infra/config/generated/fuchsia/specs/global.ci/bringup.arm64-debug.fint.textproto"
 }
 test {
   pool: "fuchsia.tests"

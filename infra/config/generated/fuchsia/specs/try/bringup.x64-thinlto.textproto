@@ -10,6 +10,7 @@ checkout {
   remote: "https://fuchsia.googlesource.com/integration"
 }
 build {
+  fint_params_path: "integration/infra/config/generated/fuchsia/specs/try/bringup.x64-thinlto.fint.textproto"
   build_type: "debug"
   board: "boards/x64.gni"
   ninja_targets: "bundles:build_infra"
@@ -20,7 +21,6 @@ build {
   variants: "thinlto"
   use_goma: true
   stats_gcs_bucket: "fuchsia-artifacts"
-  fint_params_path: "integration/infra/config/generated/fuchsia/specs/try/bringup.x64-thinlto.fint.textproto"
 }
 test {
   pool: "fuchsia.tests"

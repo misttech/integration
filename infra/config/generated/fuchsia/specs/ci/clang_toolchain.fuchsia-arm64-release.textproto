@@ -11,6 +11,7 @@ checkout {
   upload_results: true
 }
 build {
+  fint_params_path: "integration/infra/config/generated/fuchsia/specs/ci/clang_toolchain.fuchsia-arm64-release.fint.textproto"
   build_type: "release"
   board: "boards/arm64.gni"
   ninja_targets: "bundles:build_infra"
@@ -20,7 +21,6 @@ build {
   target: "arm64"
   upload_results: true
   stats_gcs_bucket: "fuchsia-artifacts"
-  fint_params_path: "integration/infra/config/generated/fuchsia/specs/ci/clang_toolchain.fuchsia-arm64-release.fint.textproto"
 }
 test {
   pave: true

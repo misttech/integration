@@ -12,6 +12,7 @@ checkout {
   upload_results: true
 }
 build {
+  fint_params_path: "integration/infra/config/generated/fuchsia/specs/global.ci/core.x64-release-symbolizer-e2e.fint.textproto"
   build_type: "release"
   board: "boards/x64.gni"
   environment_tags: "symbolizer-e2e"
@@ -23,7 +24,6 @@ build {
   upload_results: true
   use_goma: true
   stats_gcs_bucket: "fuchsia-artifacts"
-  fint_params_path: "integration/infra/config/generated/fuchsia/specs/global.ci/core.x64-release-symbolizer-e2e.fint.textproto"
 }
 test {
   pave: true

@@ -10,6 +10,7 @@ checkout {
   remote: "https://fuchsia.googlesource.com/integration"
 }
 build {
+  fint_params_path: "integration/infra/config/generated/fuchsia/specs/try/fuchsia-x64-debug-build_default.fint.textproto"
   build_type: "debug"
   board: "boards/x64.gni"
   exclude_images: true
@@ -19,7 +20,6 @@ build {
   target: "x64"
   use_goma: true
   stats_gcs_bucket: "fuchsia-artifacts"
-  fint_params_path: "integration/infra/config/generated/fuchsia/specs/try/fuchsia-x64-debug-build_default.fint.textproto"
 }
 test {
   pave: true

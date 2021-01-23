@@ -10,6 +10,7 @@ checkout {
   remote: "https://fuchsia.googlesource.com/integration"
 }
 build {
+  fint_params_path: "integration/infra/config/generated/fuchsia/specs/try/clang_toolchain.fuchsia-arm64-debug.fint.textproto"
   build_type: "debug"
   board: "boards/arm64.gni"
   ninja_targets: "bundles:build_infra"
@@ -18,7 +19,6 @@ build {
   run_tests: true
   target: "arm64"
   stats_gcs_bucket: "fuchsia-artifacts"
-  fint_params_path: "integration/infra/config/generated/fuchsia/specs/try/clang_toolchain.fuchsia-arm64-debug.fint.textproto"
 }
 test {
   pave: true

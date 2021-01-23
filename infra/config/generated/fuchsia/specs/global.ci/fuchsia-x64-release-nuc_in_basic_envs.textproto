@@ -11,6 +11,7 @@ checkout {
   upload_results: true
 }
 build {
+  fint_params_path: "integration/infra/config/generated/fuchsia/specs/global.ci/fuchsia-x64-release-nuc_in_basic_envs.fint.textproto"
   build_type: "release"
   board: "boards/x64.gni"
   ninja_targets: "bundles:build_infra"
@@ -21,7 +22,6 @@ build {
   upload_results: true
   use_goma: true
   stats_gcs_bucket: "fuchsia-artifacts"
-  fint_params_path: "integration/infra/config/generated/fuchsia/specs/global.ci/fuchsia-x64-release-nuc_in_basic_envs.fint.textproto"
 }
 test {
   pave: true
