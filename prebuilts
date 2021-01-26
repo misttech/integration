@@ -132,12 +132,6 @@
              platforms="linux-amd64,mac-amd64"
              path="prebuilt/third_party/cmake/{{.OS}}-{{.Arch}}"/>
 
-    <!-- Tesseract OCR for e2e-longevity tests -->
-    <package name="fuchsia/third_party/tesseract-ocr/tesseract/linux-amd64"
-             version="version:4.0.0-2-copy"
-             platforms="linux-amd64,linux-arm64,mac-amd64"
-             path="prebuilt/third_party/tesseract-ocr/tesseract/linux-amd64"/>
-
     <!-- YAPF for formatting python code -->
     <package name="infra/tools/yapf"
              version="git_revision:0d457e7ac4ca9dc21109e107e20a4ac8af6cf056"
