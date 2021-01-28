@@ -4,7 +4,6 @@
 optimize: DEBUG
 board: "boards/arm64.gni"
 product: "products/core.gni"
-gn_args: "host_labels += [\"//bundles/buildbot:host-tests\"]"
 ninja_targets: "bundles:build_infra"
 ninja_targets: "bundles:test_infra"
 base_packages: "//bundles/buildbot:core"
@@ -16,3 +15,4 @@ skip_if_unaffected: true
 test_durations_file: "prebuilt/infra/test_durations/fuchsia/fuchsia-arm64-debug.json"
 default_test_durations_file: "prebuilt/infra/test_durations/fuchsia/default.json"
 use_goma: true
+host_labels: "//bundles/buildbot:host-tests"

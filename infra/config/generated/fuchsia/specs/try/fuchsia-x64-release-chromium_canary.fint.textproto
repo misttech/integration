@@ -4,7 +4,6 @@
 optimize: RELEASE
 board: "boards/x64.gni"
 product: "products/core.gni"
-gn_args: "host_labels += [\"//bundles/buildbot:host-tests\"]"
 gn_args: "use_chromium_canary = true use_cast_runner_canary = true"
 ninja_targets: "bundles:build_infra"
 ninja_targets: "bundles:test_infra"
@@ -17,3 +16,4 @@ skip_if_unaffected: true
 test_durations_file: "prebuilt/infra/test_durations/fuchsia/fuchsia-x64-release-chromium_canary.json"
 default_test_durations_file: "prebuilt/infra/test_durations/fuchsia/default.json"
 use_goma: true
+host_labels: "//bundles/buildbot:host-tests"

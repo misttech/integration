@@ -4,7 +4,6 @@
 optimize: RELEASE
 product: "products/core.gni"
 exclude_images: true
-gn_args: "host_labels += [\"//bundles/buildbot:host-tests\"]"
 ninja_targets: "bundles:build_infra"
 ninja_targets: "bundles:test_infra"
 base_packages: "//bundles/buildbot:core"
@@ -15,3 +14,4 @@ target_arch: X64
 test_durations_file: "prebuilt/infra/test_durations/fuchsia/fuchsia-host-mac.json"
 default_test_durations_file: "prebuilt/infra/test_durations/fuchsia/default.json"
 use_goma: true
+host_labels: "//bundles/buildbot:host-tests"
