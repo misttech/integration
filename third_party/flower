@@ -616,6 +616,11 @@
              remote="https://fuchsia.googlesource.com/third_party/openssh-portable"
              gerrithost="https://fuchsia-review.googlesource.com"
              revision="61377cba376de66048884cde8d81e537e9c10e48"/>
+    <project name="third_party/openthread"
+             path="third_party/openthread"
+             remote="https://fuchsia.googlesource.com/third_party/openthread"
+             gerrithost="https://fuchsia-review.googlesource.com"
+             revision="7e19f43cca493cd6a7f89768f9ee2d132b94177b"/>
     <project name="third_party/openweave-core"
              path="third_party/openweave-core"
              remote="https://fuchsia.googlesource.com/third_party/openweave-core"
@@ -667,17 +672,18 @@
              remote="https://fuchsia.googlesource.com/third_party/zlib"
              gerrithost="https://fuchsia-review.googlesource.com"
              revision="cbb6a29e47bd09040d8fc08d63d66278a8abd3e2"/>
-    <!-- TODO(57392): Move it back to //third_party once unification completes. -->
+    <!-- TODO(68624): old version left in zircon/ during transition -->
     <project name="zircon/third_party/zstd"
              path="zircon/third_party/zstd"
              remote="https://fuchsia.googlesource.com/third_party/zstd"
              gerrithost="https://fuchsia-review.googlesource.com"
              revision="158401d740c308b652a5eb5eae57b282c0fcb011"/>
-    <project name="third_party/openthread"
-             path="third_party/openthread"
-             remote="https://fuchsia.googlesource.com/third_party/openthread"
+    <project name="third_party/zstd/src"
+             path="third_party/zstd/src"
+             remote="https://fuchsia.googlesource.com/third_party/zstd"
              gerrithost="https://fuchsia-review.googlesource.com"
-             revision="7e19f43cca493cd6a7f89768f9ee2d132b94177b"/>
+             revision="97a3da1df009d4dc67251de0c4b1c9d7fe286fc1"/>
+
     <!-- TODO(abarth): These projects have the wrong names. The names should
          match the path under fuchsia.googlesource.com -->
 
