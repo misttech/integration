@@ -10,13 +10,13 @@ checkout {
   remote: "https://fuchsia.googlesource.com/integration"
 }
 build {
-  fint_params_path: "integration/infra/config/generated/fuchsia/specs/try/fuchsia-x64-release-e2e-isolated.fint.textproto"
+  fint_params_path: "integration/infra/config/generated/fuchsia/specs/try/workstation.x64-release-e2e-isolated.fint.textproto"
   build_type: "release"
   board: "boards/x64.gni"
   environment_tags: "e2e-isolated"
   ninja_targets: "bundles:build_infra"
   ninja_targets: "bundles:test_infra"
-  product: "products/core.gni"
+  product: "products/workstation.gni"
   run_tests: true
   target: "x64"
   use_goma: true

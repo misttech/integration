@@ -8,17 +8,19 @@ checkout {
   manifest: "flower"
   project: "integration"
   remote: "https://fuchsia.googlesource.com/integration"
+  upload_results: true
 }
 build {
-  fint_params_path: "integration/infra/config/generated/fuchsia/specs/try/fuchsia-x64-release-e2e-isolated-longevity.fint.textproto"
+  fint_params_path: "integration/infra/config/generated/fuchsia/specs/global.ci/workstation.x64-release-e2e-isolated.fint.textproto"
   build_type: "release"
   board: "boards/x64.gni"
-  environment_tags: "e2e-isolated-longevity"
+  environment_tags: "e2e-isolated"
   ninja_targets: "bundles:build_infra"
   ninja_targets: "bundles:test_infra"
-  product: "products/core.gni"
+  product: "products/workstation.gni"
   run_tests: true
   target: "x64"
+  upload_results: true
   use_goma: true
   stats_gcs_bucket: "fuchsia-artifacts"
 }
@@ -26,12 +28,12 @@ test {
   pave: true
   pool: "fuchsia.tests"
   swarming_expiration_timeout_secs: 18000
-  swarming_io_timeout_secs: 7210
-  timeout_secs: 10800
+  swarming_io_timeout_secs: 1210
+  timeout_secs: 2400
   max_shard_size: 1
-  max_attempts: 2
+  max_attempts: 1
   default_service_account: "artifact-readers@fuchsia-infra.iam.gserviceaccount.com"
-  per_test_timeout_secs: 7200
+  per_test_timeout_secs: 1200
   upload_results: true
   max_shards_per_env: 30
   max_attempts_per_test: 1
