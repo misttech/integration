@@ -4,6 +4,7 @@
 optimize: RELEASE
 product: "products/core.gni"
 exclude_images: true
+gn_args: "build_should_trace_actions = true"
 gn_args: "unpack_debug_archives = true output_breakpad_syms = true zircon_extra_args.output_breakpad_syms = true"
 ninja_targets: "bundles:build_infra"
 ninja_targets: "sdk/archive/core.tar.gz"

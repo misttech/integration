@@ -4,6 +4,7 @@
 optimize: RELEASE
 board: "boards/x64.gni"
 product: "products/workstation.gni"
+gn_args: "build_should_trace_actions = true"
 gn_args: "unpack_debug_archives = true output_breakpad_syms = true zircon_extra_args.output_breakpad_syms = true"
 ninja_targets: "bundles:build_infra"
 base_packages: "//bundles/buildbot:workstation"
