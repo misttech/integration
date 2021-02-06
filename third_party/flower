@@ -393,6 +393,10 @@
              remote="https://fuchsia.googlesource.com/third_party/libxml2"
              gerrithost="https://fuchsia-review.googlesource.com"
              revision="0772f84817c83d9fb655e8395e05db7a762ed545"/>
+    <project name="third_party/llvm-libc/src"
+             path="third_party/llvm-libc/src"
+             remote="https://llvm.googlesource.com/llvm-project/libc"
+             revision="77fb813d8a742f4863af35214c3ec0d3186d0aff"/>
     <project name="third_party/lz4"
              path="third_party/lz4"
              remote="https://fuchsia.googlesource.com/third_party/lz4"
@@ -579,6 +583,14 @@
              remote="https://fuchsia.googlesource.com/third_party/sbase"
              revision="ee9c1513c05854d19ce34bc3d8ed6482abf56cae"
              gerrithost="https://fuchsia-review.googlesource.com"/>
+    <project name="third_party/scudo/src"
+             path="third_party/scudo/src"
+             remote="https://llvm.googlesource.com/scudo"
+             revision="67e6c2de051ade4f93fe6b8f5f58a3e4cb1b9d32"/>
+    <project name="third_party/scudo/gwp_asan"
+             path="third_party/scudo/gwp_asan"
+             remote="https://llvm.googlesource.com/gwp-asan"
+             revision="30fc6a50bc04d2125056b95011acf84d2717d0c0"/>
     <project name="third_party/shaderc"
              path="third_party/shaderc"
              remote="https://fuchsia.googlesource.com/third_party/shaderc"
@@ -740,6 +752,10 @@
              remote="https://fuchsia.googlesource.com/third_party/github.com/kr/text"
              gerrithost="https://fuchsia-review.googlesource.com"
              revision="e2ffdb16a802fe2bb95e2e35ff34f0e53aeef34f"/>
+
+    <!-- TODO(mcgrathr): these old pins used by the libc build
+	 are duplicates being migrated to //third_party/*/src locations
+      -->
     <project name="scudo"
              path="zircon/third_party/scudo/src"
              remote="https://llvm.googlesource.com/scudo"
