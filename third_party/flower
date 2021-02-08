@@ -746,21 +746,5 @@
              remote="https://fuchsia.googlesource.com/third_party/github.com/kr/text"
              gerrithost="https://fuchsia-review.googlesource.com"
              revision="e2ffdb16a802fe2bb95e2e35ff34f0e53aeef34f"/>
-
-    <!-- TODO(mcgrathr): these old pins used by the libc build
-	 are duplicates being migrated to //third_party/*/src locations
-      -->
-    <project name="scudo"
-             path="zircon/third_party/scudo/src"
-             remote="https://llvm.googlesource.com/scudo"
-             revision="e630ab4240ba2e3dc0c0659f8d918bd1202120d2"/>
-    <project name="gwp_asan"
-             path="zircon/third_party/scudo/gwp_asan"
-             remote="https://llvm.googlesource.com/gwp-asan"
-             revision="3a2adbe34caad3c8503d7ec0077cd73ba668c0fe"/>
-    <project name="llvm-libc"
-             path="zircon/third_party/llvm-libc"
-             remote="https://llvm.googlesource.com/llvm-project/libc"
-             revision="77fb813d8a742f4863af35214c3ec0d3186d0aff"/>
   </projects>
 </manifest>
