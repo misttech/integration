@@ -4,6 +4,7 @@
 optimize: RELEASE
 product: "products/core.gni"
 exclude_images: true
+gn_args: "build_should_trace_actions = true"
 gn_args: "zircon_extra_args.variants = [ \"clang\" ]"
 ninja_targets: "bundles:build_infra"
 ninja_targets: "bundles:test_infra"

@@ -4,6 +4,7 @@
 optimize: RELEASE
 product: "products/core.gni"
 exclude_images: true
+gn_args: "build_should_trace_actions = true"
 ninja_targets: "bundles:build_infra"
 ninja_targets: "src/cobalt:cobalt"
 ninja_targets: "src/lib/cobalt:cobalt"
