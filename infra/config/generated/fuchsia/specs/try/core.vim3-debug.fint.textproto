@@ -4,6 +4,7 @@
 optimize: DEBUG
 board: "boards/vim3.gni"
 product: "products/core.gni"
+gn_args: "basic_env_names = [ \"vim3\" ]"
 gn_args: "build_should_trace_actions = true"
 ninja_targets: "bundles:build_infra"
 ninja_targets: "bundles:test_infra"
