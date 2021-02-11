@@ -4,7 +4,6 @@
 optimize: DEBUG
 board: "boards/arm64.gni"
 product: "products/core.gni"
-gn_args: "build_should_trace_actions = true"
 gn_args: "optimize = \"profile\""
 ninja_targets: "bundles:build_infra"
 ninja_targets: "bundles:test_infra"
