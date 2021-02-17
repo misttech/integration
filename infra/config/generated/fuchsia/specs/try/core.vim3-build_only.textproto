@@ -11,11 +11,7 @@ checkout {
 }
 build {
   fint_params_path: "integration/infra/config/generated/fuchsia/specs/try/core.vim3-build_only.fint.textproto"
-  build_type: "debug"
-  board: "boards/vim3.gni"
   ninja_targets: "bundles:build_infra"
-  product: "products/core.gni"
-  target: "arm64"
   use_goma: true
   stats_gcs_bucket: "fuchsia-artifacts"
 }

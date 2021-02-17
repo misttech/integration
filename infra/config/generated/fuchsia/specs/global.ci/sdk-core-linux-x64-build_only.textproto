@@ -12,14 +12,11 @@ checkout {
 }
 build {
   fint_params_path: "integration/infra/config/generated/fuchsia/specs/global.ci/sdk-core-linux-x64-build_only.fint.textproto"
-  build_type: "release"
   exclude_images: true
   ninja_targets: "bundles:build_infra"
   ninja_targets: "sdk/archive/core.tar.gz"
   ninja_targets: "sdk/archive/fuchsia_dart.tar.gz"
   ninja_targets: "sdk/archive/modular_testing.tar.gz"
-  product: "products/core.gni"
-  target: "x64"
   sdk_subbuild: true
   use_goma: true
   stats_gcs_bucket: "fuchsia-artifacts"

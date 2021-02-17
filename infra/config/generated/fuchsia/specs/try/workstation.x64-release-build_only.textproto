@@ -12,11 +12,7 @@ checkout {
 }
 build {
   fint_params_path: "integration/infra/config/generated/fuchsia/specs/try/workstation.x64-release-build_only.fint.textproto"
-  build_type: "release"
-  board: "boards/x64.gni"
   ninja_targets: "bundles:build_infra"
-  product: "products/workstation.gni"
-  target: "x64"
   use_goma: true
   stats_gcs_bucket: "fuchsia-artifacts"
 }

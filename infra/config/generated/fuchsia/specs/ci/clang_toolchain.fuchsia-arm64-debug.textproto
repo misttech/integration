@@ -12,13 +12,9 @@ checkout {
 }
 build {
   fint_params_path: "integration/infra/config/generated/fuchsia/specs/ci/clang_toolchain.fuchsia-arm64-debug.fint.textproto"
-  build_type: "debug"
-  board: "boards/arm64.gni"
   ninja_targets: "bundles:build_infra"
   ninja_targets: "bundles:test_infra"
-  product: "products/core.gni"
   run_tests: true
-  target: "arm64"
   upload_results: true
   stats_gcs_bucket: "fuchsia-artifacts"
 }

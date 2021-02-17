@@ -12,14 +12,11 @@ checkout {
 }
 build {
   fint_params_path: "integration/infra/config/generated/fuchsia/specs/global.ci/fuchsia-host-mac.fint.textproto"
-  build_type: "release"
   environment_tags: "mac"
   exclude_images: true
   ninja_targets: "bundles:build_infra"
   ninja_targets: "bundles:test_infra"
-  product: "products/core.gni"
   run_tests: true
-  target: "x64"
   upload_results: true
   use_goma: true
   stats_gcs_bucket: "fuchsia-artifacts"

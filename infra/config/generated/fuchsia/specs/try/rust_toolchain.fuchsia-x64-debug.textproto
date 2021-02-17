@@ -11,13 +11,9 @@ checkout {
 }
 build {
   fint_params_path: "integration/infra/config/generated/fuchsia/specs/try/rust_toolchain.fuchsia-x64-debug.fint.textproto"
-  build_type: "debug"
-  board: "boards/x64.gni"
   ninja_targets: "bundles:build_infra"
   ninja_targets: "bundles:test_infra"
-  product: "products/core.gni"
   run_tests: true
-  target: "x64"
   use_goma: true
   stats_gcs_bucket: "fuchsia-artifacts"
 }

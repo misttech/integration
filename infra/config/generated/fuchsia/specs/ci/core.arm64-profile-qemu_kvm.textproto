@@ -12,15 +12,9 @@ checkout {
 }
 build {
   fint_params_path: "integration/infra/config/generated/fuchsia/specs/ci/core.arm64-profile-qemu_kvm.fint.textproto"
-  build_type: "debug"
-  board: "boards/arm64.gni"
   ninja_targets: "bundles:build_infra"
   ninja_targets: "bundles:test_infra"
-  product: "products/core.gni"
   run_tests: true
-  target: "arm64"
-  variants: "host_profile"
-  variants: "profile"
   upload_results: true
   stats_gcs_bucket: "fuchsia-artifacts"
 }
