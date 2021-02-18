@@ -30,6 +30,7 @@ test {
   per_test_timeout_secs: 300
   upload_results: true
   target_shard_duration_secs: 540
+  zircon_args: "kernel.pmm-checker.enable=true"
   max_attempts_per_test: 3
   affected_tests_multiply_threshold: 3
 }
