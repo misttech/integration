@@ -14,7 +14,6 @@ build {
   exclude_images: true
   ninja_targets: ":default"
   ninja_targets: "bundles:build_infra"
-  use_goma: true
   stats_gcs_bucket: "fuchsia-artifacts"
 }
 test {
