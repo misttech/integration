@@ -497,11 +497,16 @@
              remote="https://fuchsia.googlesource.com/third_party/processor-trace"
              gerrithost="https://fuchsia-review.googlesource.com"
              revision="d73f26a6e250e0abb55630f11ef48cf5149c9c18"/>
-    <!-- Protobuf contact: rudominer. -->
+    <!-- Protobuf contact: tq-cobalt-eng. -->
     <project name="third_party/protobuf"
              path="third_party/protobuf"
              remote="https://fuchsia.googlesource.com/third_party/protobuf"
-             revision="4b7d80c23dea36a57d4a5227b695a62dd732dfa9"
+             revision="d74e6b62d3f30c135edf7e417ea61fadfb333d84"
+             gerrithost="https://fuchsia-review.googlesource.com"/>
+    <project name="protobuf-gn"
+             path="build/secondary/third_party/protobuf"
+             remote="https://fuchsia.googlesource.com/protobuf-gn"
+             revision="699f43271e185f72322f647ceca81b745255c1ef"
              gerrithost="https://fuchsia-review.googlesource.com"/>
     <project name="third_party/python/parameterized"
              path="third_party/python/parameterized"
