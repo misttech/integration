@@ -18,7 +18,6 @@ build {
   ninja_targets: "sdk/archive/fuchsia_dart.tar.gz"
   ninja_targets: "sdk/archive/modular_testing.tar.gz"
   sdk_subbuild: true
-  use_goma: true
   stats_gcs_bucket: "fuchsia-artifacts"
 }
 test {

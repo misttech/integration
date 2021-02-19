@@ -14,7 +14,6 @@ build {
   fint_params_path: "integration/infra/config/generated/fuchsia/specs/global.ci/bringup.vim3-debug-build_only.fint.textproto"
   ninja_targets: "bundles:build_infra"
   upload_results: true
-  use_goma: true
   stats_gcs_bucket: "fuchsia-artifacts"
 }
 gcs_bucket: "fuchsia-build"

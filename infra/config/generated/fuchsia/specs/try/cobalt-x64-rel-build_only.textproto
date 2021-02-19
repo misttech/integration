@@ -15,7 +15,6 @@ build {
   ninja_targets: "bundles:build_infra"
   ninja_targets: "src/cobalt:cobalt"
   ninja_targets: "src/lib/cobalt:cobalt"
-  use_goma: true
   stats_gcs_bucket: "fuchsia-artifacts"
 }
 test {

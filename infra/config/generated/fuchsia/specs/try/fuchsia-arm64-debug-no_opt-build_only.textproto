@@ -12,7 +12,6 @@ checkout {
 build {
   fint_params_path: "integration/infra/config/generated/fuchsia/specs/try/fuchsia-arm64-debug-no_opt-build_only.fint.textproto"
   ninja_targets: "bundles:build_infra"
-  use_goma: true
   stats_gcs_bucket: "fuchsia-artifacts"
 }
 test {

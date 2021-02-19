@@ -12,7 +12,6 @@ checkout {
 build {
   fint_params_path: "integration/infra/config/generated/fuchsia/specs/try/bringup.x64-kasan_sancov-build_only.fint.textproto"
   ninja_targets: "bundles:build_infra"
-  use_goma: true
   stats_gcs_bucket: "fuchsia-artifacts"
 }
 gcs_bucket: "fuchsia-build"

@@ -14,7 +14,6 @@ build {
   ninja_targets: "bundles:build_infra"
   ninja_targets: "bundles:test_infra"
   run_tests: true
-  use_goma: true
   stats_gcs_bucket: "fuchsia-artifacts"
   fint_build: true
 }
