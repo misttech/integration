@@ -4,7 +4,6 @@
 optimize: RELEASE
 board: "boards/x64.gni"
 product: "products/core.gni"
-exclude_images: true
 base_packages: "//tools/debroot"
 target_arch: X64
 use_goma: true
