@@ -726,11 +726,16 @@
              remote="https://fuchsia.googlesource.com/third_party/canonical-json-go"
              gerrithost="https://fuchsia-review.googlesource.com"
              revision="96e4ba3a7613a1216cbd1badca4efe382adea337"/>
-    <project name="go-tuf"
+    <project name="go-tuf-old"
              path="third_party/golibs/github.com/flynn/go-tuf"
              remote="https://fuchsia.googlesource.com/third_party/go-tuf"
              gerrithost="https://fuchsia-review.googlesource.com"
              revision="a90d70916791302382bf3bc6d17fbcff945518c6"/>
+    <project name="go-tuf"
+             path="third_party/golibs/github.com/theupdateframework/go-tuf"
+             remote="https://fuchsia.googlesource.com/third_party/go-tuf"
+             gerrithost="https://fuchsia-review.googlesource.com"
+             revision="aee6270feb5596036edde4b6d7564fa17db811cb"/>
     <project name="go-cmp"
              path="third_party/golibs/github.com/google/go-cmp"
              remote="https://fuchsia.googlesource.com/third_party/github.com/google/go-cmp"
