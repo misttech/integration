@@ -16,3 +16,4 @@ test_durations_file: "prebuilt/infra/test_durations/fuchsia/core.x64-release-sym
 default_test_durations_file: "prebuilt/infra/test_durations/fuchsia/default.json"
 use_goma: true
 host_labels: "//bundles/buildbot:host-tests"
+pave: true

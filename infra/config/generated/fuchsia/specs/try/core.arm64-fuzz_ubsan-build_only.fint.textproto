@@ -13,3 +13,4 @@ target_arch: ARM64
 variants: "{variant=\"ubsan-fuzzer\" target_type=[\"fuzzed_executable\"]},{variant=\"ubsan\" label=[\"//sdk/lib/fdio\"]}"
 skip_if_unaffected: true
 use_goma: true
+pave: true

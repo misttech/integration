@@ -17,3 +17,4 @@ skip_if_unaffected: true
 test_durations_file: "prebuilt/infra/test_durations/fuchsia/clang_toolchain.fuchsia-x64-debug.json"
 default_test_durations_file: "prebuilt/infra/test_durations/fuchsia/default.json"
 host_labels: "//bundles/buildbot:host-tests"
+pave: true
