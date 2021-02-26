@@ -17,3 +17,4 @@ variants: "profile"
 test_durations_file: "prebuilt/infra/test_durations/fuchsia/core.arm64-profile-qemu_kvm.json"
 default_test_durations_file: "prebuilt/infra/test_durations/fuchsia/default.json"
 host_labels: "//bundles/buildbot:host-tests"
+pave: true
