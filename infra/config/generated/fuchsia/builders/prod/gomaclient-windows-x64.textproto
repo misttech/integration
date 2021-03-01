@@ -25,8 +25,8 @@ swarming {
     dimensions: "os:Windows"
     dimensions: "pool:luci.fuchsia.prod"
     exe {
-      cipd_package: "fuchsia/infra/recipe_bundles/fuchsia.googlesource.com/infra/recipes"
-      cipd_version: "refs/heads/master"
+      cipd_package: "fuchsia/infra/recipe_bootstrap/${platform}"
+      cipd_version: "git_revision:8b4898c2e828b6e566bdda383036191337c25a1a"
       cmd: "luciexe"
     }
     properties:
@@ -37,7 +37,8 @@ swarming {
       '  "$recipe_engine/swarming": {'
       '    "server": "https://chromium-swarm.appspot.com"'
       '  },'
-      '  "recipe": "goma_client"'
+      '  "recipe": "goma_client",'
+      '  "recipes_host_override": "fuchsia.googlesource.com"'
       '}'
     execution_timeout_secs: 8400
     caches {
