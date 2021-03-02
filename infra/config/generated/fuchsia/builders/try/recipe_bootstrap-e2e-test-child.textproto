@@ -34,7 +34,7 @@ acls {
 }
 swarming {
   builders {
-    name: "recipe_bootstrap-e2e-test"
+    name: "recipe_bootstrap-e2e-test-child"
     swarming_host: "chromium-swarm.appspot.com"
     dimensions: "cores:32"
     dimensions: "cpu:x64"
@@ -53,11 +53,7 @@ swarming {
       '  "$recipe_engine/swarming": {'
       '    "server": "https://chromium-swarm.appspot.com"'
       '  },'
-      '  "child_builder": "recipe_bootstrap-e2e-test-child",'
-      '  "go_package": "go.fuchsia.dev/infra/cmd/recipe_bootstrap",'
-      '  "mastername": "infra.try",'
-      '  "recipe": "recipe_bootstrap_test/parent",'
-      '  "repo": "https://fuchsia.googlesource.com/infra/infra"'
+      '  "unused_property": "unused_value"'
       '}'
     execution_timeout_secs: 4200
     caches {

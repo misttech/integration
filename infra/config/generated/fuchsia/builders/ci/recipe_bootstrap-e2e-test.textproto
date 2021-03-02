@@ -49,6 +49,7 @@ swarming {
       '  "$recipe_engine/swarming": {'
       '    "server": "https://chromium-swarm.appspot.com"'
       '  },'
+      '  "child_builder": "recipe_bootstrap-e2e-test-child",'
       '  "go_package": "go.fuchsia.dev/infra/cmd/recipe_bootstrap",'
       '  "mastername": "infra",'
       '  "recipe": "recipe_bootstrap_test/parent",'

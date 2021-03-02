@@ -4,9 +4,13 @@
 # For the schema of this file, see Bucket message:
 #   https://luci-config.appspot.com/schemas/projects:buildbucket.cfg
 
-name: "try"
+name: "ci"
 acls {
   group: "all"
+}
+acls {
+  role: SCHEDULER
+  identity: "user:fuchsia-ci-builder@fuchsia-infra.iam.gserviceaccount.com"
 }
 acls {
   role: SCHEDULER
@@ -14,32 +18,24 @@ acls {
 }
 acls {
   role: SCHEDULER
-  identity: "user:fuchsia-try-builder@fuchsia-infra.iam.gserviceaccount.com"
+  identity: "user:infra-ci-builder@fuchsia-infra.iam.gserviceaccount.com"
 }
 acls {
   role: SCHEDULER
-  identity: "user:infra-try-builder@fuchsia-infra.iam.gserviceaccount.com"
+  identity: "user:luci-scheduler@appspot.gserviceaccount.com"
 }
 acls {
   role: SCHEDULER
   identity: "user:tools-ci-builder@fuchsia-infra.iam.gserviceaccount.com"
 }
-acls {
-  role: SCHEDULER
-  group: "project-fuchsia-tryjob-access"
-}
-acls {
-  role: SCHEDULER
-  identity: "project:turquoise"
-}
 swarming {
   builders {
-    name: "recipe_bootstrap-e2e-test"
+    name: "recipe_bootstrap-e2e-test-child"
     swarming_host: "chromium-swarm.appspot.com"
     dimensions: "cores:32"
     dimensions: "cpu:x64"
     dimensions: "os:Linux"
-    dimensions: "pool:luci.fuchsia.try"
+    dimensions: "pool:luci.fuchsia.ci"
     exe {
       cipd_package: "fuchsia/infra/recipe_bootstrap/${platform}"
       cipd_version: "git_revision:8b4898c2e828b6e566bdda383036191337c25a1a"
@@ -53,11 +49,7 @@ swarming {
       '  "$recipe_engine/swarming": {'
       '    "server": "https://chromium-swarm.appspot.com"'
       '  },'
-      '  "child_builder": "recipe_bootstrap-e2e-test-child",'
-      '  "go_package": "go.fuchsia.dev/infra/cmd/recipe_bootstrap",'
-      '  "mastername": "infra.try",'
-      '  "recipe": "recipe_bootstrap_test/parent",'
-      '  "repo": "https://fuchsia.googlesource.com/infra/infra"'
+      '  "unused_property": "unused_value"'
       '}'
     execution_timeout_secs: 4200
     caches {
@@ -68,6 +60,6 @@ swarming {
       name: "symbol"
       path: "symbol"
     }
-    service_account: "infra-try-builder@fuchsia-infra.iam.gserviceaccount.com"
+    service_account: "infra-ci-builder@fuchsia-infra.iam.gserviceaccount.com"
   }
 }
