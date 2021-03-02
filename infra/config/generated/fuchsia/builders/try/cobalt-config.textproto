@@ -53,6 +53,7 @@ swarming {
       '  "$recipe_engine/swarming": {'
       '    "server": "https://chromium-swarm.appspot.com"'
       '  },'
+      '  "fint_params_path": "integration/infra/config/generated/fuchsia/specs/try/cobalt-config.fint.textproto",'
       '  "manifest": "third_party/flower",'
       '  "recipe": "cobalt_config",'
       '  "remote": "https://fuchsia.googlesource.com/integration"'
