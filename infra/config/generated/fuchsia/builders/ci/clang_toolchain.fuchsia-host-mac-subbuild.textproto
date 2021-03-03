@@ -34,6 +34,7 @@ swarming {
     swarming_host: "chromium-swarm.appspot.com"
     dimensions: "cores:12"
     dimensions: "cpu:x64"
+    dimensions: "gce:0"
     dimensions: "os:Mac"
     dimensions: "pool:luci.fuchsia.ci"
     dimensions: "role:builder"

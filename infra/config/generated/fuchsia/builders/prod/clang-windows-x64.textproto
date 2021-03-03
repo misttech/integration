@@ -22,6 +22,7 @@ swarming {
     swarming_host: "chromium-swarm.appspot.com"
     dimensions: "cores:32"
     dimensions: "cpu:x64"
+    dimensions: "gce:1"
     dimensions: "os:Windows"
     dimensions: "pool:luci.fuchsia.prod"
     exe {
