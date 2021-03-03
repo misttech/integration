@@ -12,6 +12,6 @@ universe_packages: "//bundles:build_infra"
 target_arch: ARM64
 variants: "host_asan-ubsan"
 variants: "hwasan"
+pave: true
 skip_if_unaffected: true
 use_goma: true
-pave: true

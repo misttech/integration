@@ -3,7 +3,6 @@
 
 optimize: RELEASE
 product: "products/core.gni"
-exclude_images: true
 gn_args: "build_should_trace_actions = true"
 ninja_targets: "bundles:build_infra"
 ninja_targets: "src/cobalt:cobalt"
@@ -12,5 +11,6 @@ base_packages: "//src/cobalt:tests"
 base_packages: "//src/lib/cobalt:tests"
 universe_packages: "//bundles:build_infra"
 target_arch: X64
-use_goma: true
 pave: true
+exclude_images: true
+use_goma: true

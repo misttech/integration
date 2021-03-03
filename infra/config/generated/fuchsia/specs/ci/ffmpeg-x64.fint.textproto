@@ -3,7 +3,6 @@
 
 optimize: RELEASE
 product: "products/core.gni"
-exclude_images: true
 gn_args: "use_prebuilt_ffmpeg = false"
 ninja_targets: "x64-shared/libffmpeg.so"
 ninja_targets: "x64-asan-ubsan-shared/libffmpeg.so"
@@ -20,4 +19,5 @@ variants: "lto"
 variants: "profile"
 variants: "thinlto"
 variants: "ubsan"
+exclude_images: true
 use_goma: true
