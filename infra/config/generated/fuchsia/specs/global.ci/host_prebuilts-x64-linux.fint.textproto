@@ -3,11 +3,11 @@
 
 optimize: RELEASE
 product: "products/core.gni"
-exclude_images: true
 ninja_targets: "host_x64/json_validator"
 ninja_targets: "host_x64/cgpt"
 ninja_targets: "host_x64/futility"
 base_packages: "//build/packages:json_validator"
 base_packages: "//tools/vboot_reference"
 target_arch: X64
+exclude_images: true
 use_goma: true

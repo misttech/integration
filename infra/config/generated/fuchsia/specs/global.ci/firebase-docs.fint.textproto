@@ -4,12 +4,12 @@
 optimize: RELEASE
 board: "boards/x64.gni"
 product: "products/core.gni"
-exclude_images: true
 base_packages: "//tools/fidl/fidldoc"
 base_packages: "//topaz/bundles:buildbot"
 base_packages: "//bundles:kitchen_sink"
 base_packages: "//build/rust:cargo_toml_gen"
 target_arch: X64
+exclude_images: true
 use_goma: true
 generate_compdb: true
 ide_files: "json"

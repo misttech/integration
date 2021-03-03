@@ -3,6 +3,6 @@
 
 optimize: RELEASE
 product: "products/bringup.gni"
-target_arch: X64
 host_labels: "//third_party/cobalt/src/bin/config_parser/src:bin"
 host_labels: "//third_party/cobalt/src/bin/config_change_validator/src:bin"
+target_arch: X64

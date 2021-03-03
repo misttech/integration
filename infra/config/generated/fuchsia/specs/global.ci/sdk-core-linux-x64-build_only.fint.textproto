@@ -3,7 +3,6 @@
 
 optimize: RELEASE
 product: "products/core.gni"
-exclude_images: true
 gn_args: "build_should_trace_actions = true"
 gn_args: "unpack_debug_archives = true output_breakpad_syms = true"
 ninja_targets: "bundles:build_infra"
@@ -13,5 +12,6 @@ ninja_targets: "sdk/archive/modular_testing.tar.gz"
 base_packages: "//sdk/bundles:tools"
 universe_packages: "//bundles:build_infra"
 target_arch: X64
-use_goma: true
 pave: true
+exclude_images: true
+use_goma: true
