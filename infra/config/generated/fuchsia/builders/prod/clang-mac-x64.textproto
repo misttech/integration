@@ -25,8 +25,8 @@ swarming {
     dimensions: "os:Mac"
     dimensions: "pool:luci.fuchsia.prod"
     exe {
-      cipd_package: "fuchsia/infra/recipe_bundles/fuchsia.googlesource.com/infra/recipes"
-      cipd_version: "refs/heads/master"
+      cipd_package: "fuchsia/infra/recipe_bootstrap/${platform}"
+      cipd_version: "git_revision:8b4898c2e828b6e566bdda383036191337c25a1a"
       cmd: "luciexe"
     }
     properties:
