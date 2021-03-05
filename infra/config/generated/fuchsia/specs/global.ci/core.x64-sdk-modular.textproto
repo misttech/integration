@@ -13,11 +13,24 @@ checkout {
 build {
   fint_params_path: "integration/infra/config/generated/fuchsia/specs/global.ci/core.x64-sdk-modular.fint.textproto"
   ninja_targets: "bundles:build_infra"
+  ninja_targets: "bundles:test_infra"
+  run_tests: true
   upload_results: true
   stats_gcs_bucket: "fuchsia-artifacts"
 }
 test {
   pave: true
+  pool: "fuchsia.tests"
+  swarming_expiration_timeout_secs: 18000
+  swarming_io_timeout_secs: 310
+  timeout_secs: 1800
+  max_attempts: 1
+  default_service_account: "artifact-readers@fuchsia-infra.iam.gserviceaccount.com"
+  per_test_timeout_secs: 300
+  upload_results: true
+  target_shard_duration_secs: 540
+  max_attempts_per_test: 3
+  affected_tests_multiply_threshold: 3
 }
 gcs_bucket: "fuchsia-build"
 artifact_gcs_bucket: "fuchsia-artifacts"
