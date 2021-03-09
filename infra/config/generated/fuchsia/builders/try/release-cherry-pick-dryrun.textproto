@@ -68,7 +68,8 @@ swarming {
       '  "recipe": "release/cherry_pick",'
       '  "remote": "https://fuchsia.googlesource.com/infra/roller-tests/integration",'
       '  "target_branch": "releases/test-branch",'
-      '  "target_project": "infra/roller-tests/test-project/rollable"'
+      '  "target_project": "infra/roller-tests/test-project/rollable",'
+      '  "target_remote": "https://fuchsia.googlesource.com/infra/roller-tests/test-project"'
       '}'
     execution_timeout_secs: 6000
     caches {
