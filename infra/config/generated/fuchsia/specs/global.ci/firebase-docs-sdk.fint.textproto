@@ -7,7 +7,6 @@ product: "products/core.gni"
 base_packages: "//tools/fidl/fidldoc"
 base_packages: "//sdk"
 target_arch: X64
-exclude_images: true
 use_goma: true
 generate_compdb: true
 ide_files: "json"

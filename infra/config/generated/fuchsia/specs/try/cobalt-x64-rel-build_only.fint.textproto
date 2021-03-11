@@ -12,6 +12,5 @@ base_packages: "//src/lib/cobalt:tests"
 universe_packages: "//bundles:build_infra"
 target_arch: X64
 pave: true
-exclude_images: true
 skip_if_unaffected: true
 use_goma: true
