@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!--
+  Recipe bundle definitions read by infra at builder runtime.
+  -->
+  <imports>
+    <localimport file="../minimal"/>
+  </imports>
+  <projects>
+    <project name="infra/recipes"
+             path="infra/recipes"
+             remote="https://fuchsia.googlesource.com/infra/recipes"
+             gerrithost="https://fuchsia-review.googlesource.com"
+             revision="8e3646c5f9db2f34e748200bff39d18340908bf0"/>
+  </projects>
+</manifest>
