@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <projects>
+    <project name="third_party/boringssl"
+             path="third_party/boringssl"
+             remote="https://fuchsia.googlesource.com/third_party/boringssl"
+             gerrithost="https://fuchsia-review.googlesource.com"
+             revision="c5e65a950e98c1ca863862992ab31d9aecf85616"/>
+    <project name="third_party/boringssl/src"
+             path="third_party/boringssl/src"
+             remote="https://fuchsia.googlesource.com/third_party/boringssl"
+             gerrithost="https://fuchsia-review.googlesource.com"
+             revision="13da180506b4c0fa3b9232e77167dae4d694bf32"/>
+  </projects>
+</manifest>
