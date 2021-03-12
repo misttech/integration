@@ -14,6 +14,7 @@ universe_packages: "//bundles:test_infra"
 host_labels: "//bundles/buildbot:host-tests"
 target_arch: X64
 pave: true
+include_images: true
 include_host_tests: true
 skip_if_unaffected: true
 test_durations_file: "prebuilt/infra/test_durations/fuchsia/fuchsia-x64-release-chromium_canary.json"

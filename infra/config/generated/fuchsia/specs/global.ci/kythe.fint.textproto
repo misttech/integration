@@ -7,5 +7,6 @@ product: "products/core.gni"
 gn_args: "is_analysis = true"
 base_packages: "//bundles:kitchen_sink"
 target_arch: X64
+include_images: true
 use_goma: true
 generate_compdb: true

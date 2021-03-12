@@ -6,3 +6,4 @@ board: "boards/arm64.gni"
 product: "products/bringup.gni"
 base_packages: "//bundles:kitchen_sink"
 target_arch: ARM64
+include_images: true

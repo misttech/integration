@@ -13,5 +13,6 @@ target_arch: ARM64
 variants: "host_asan-ubsan"
 variants: "hwasan"
 pave: true
+include_images: true
 skip_if_unaffected: true
 use_goma: true
