@@ -9,5 +9,6 @@ base_packages: "//bundles:test_infra"
 target_arch: ARM64
 variants: "asan-ubsan"
 variants: "host_asan-ubsan"
+include_prebuilt_binary_manifests: true
 include_zbi_tests: true
 use_goma: true

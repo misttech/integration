@@ -10,5 +10,6 @@ target_arch: X64
 variants: "asan-ubsan"
 variants: "host_asan-ubsan"
 variants: "kasan"
+include_prebuilt_binary_manifests: true
 include_zbi_tests: true
 use_goma: true

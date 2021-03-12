@@ -12,4 +12,5 @@ base_packages: "//sdk/bundles:tools"
 universe_packages: "//bundles:build_infra"
 target_arch: X64
 pave: true
+include_prebuilt_binary_manifests: true
 use_goma: true
