@@ -11,5 +11,6 @@ universe_packages: "//bundles:build_infra"
 target_arch: ARM64
 variants: "clang"
 include_images: true
+include_prebuilt_binary_manifests: true
 skip_if_unaffected: true
 use_goma: true

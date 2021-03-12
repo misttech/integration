@@ -6,3 +6,4 @@ product: "products/bringup.gni"
 host_labels: "//third_party/cobalt/src/bin/config_parser/src:bin"
 host_labels: "//third_party/cobalt/src/bin/config_change_validator/src:bin"
 target_arch: X64
+include_prebuilt_binary_manifests: true

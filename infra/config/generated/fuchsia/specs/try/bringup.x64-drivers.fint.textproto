@@ -10,5 +10,6 @@ ninja_targets: "bundles:drivers-build-only"
 base_packages: "//bundles/buildbot:bringup"
 universe_packages: "//bundles:build_infra"
 target_arch: X64
+include_prebuilt_binary_manifests: true
 skip_if_unaffected: true
 use_goma: true

@@ -8,5 +8,6 @@ gn_args: "is_analysis = true"
 base_packages: "//bundles:kitchen_sink"
 target_arch: X64
 include_images: true
+include_prebuilt_binary_manifests: true
 use_goma: true
 generate_compdb: true

@@ -9,6 +9,7 @@ base_packages: "//topaz/bundles:buildbot"
 base_packages: "//bundles:kitchen_sink"
 base_packages: "//build/rust:cargo_toml_gen"
 target_arch: X64
+include_prebuilt_binary_manifests: true
 use_goma: true
 generate_compdb: true
 ide_files: "json"

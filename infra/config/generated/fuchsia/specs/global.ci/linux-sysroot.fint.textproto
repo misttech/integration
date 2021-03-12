@@ -7,4 +7,5 @@ product: "products/core.gni"
 base_packages: "//tools/debroot"
 target_arch: X64
 include_images: true
+include_prebuilt_binary_manifests: true
 use_goma: true

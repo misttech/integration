@@ -13,5 +13,6 @@ target_arch: X64
 variants: "host_asan-ubsan"
 variants: "kasan-sancov"
 include_images: true
+include_prebuilt_binary_manifests: true
 skip_if_unaffected: true
 use_goma: true
