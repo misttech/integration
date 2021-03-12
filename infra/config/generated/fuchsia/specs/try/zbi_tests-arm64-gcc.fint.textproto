@@ -7,5 +7,6 @@ ninja_targets: "bundles:test_infra"
 base_packages: "//bundles:test_infra"
 target_arch: ARM64
 variants: "gcc"
+include_zbi_tests: true
 skip_if_unaffected: true
 use_goma: true
