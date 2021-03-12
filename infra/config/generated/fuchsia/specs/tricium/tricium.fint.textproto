@@ -6,5 +6,6 @@ board: "boards/x64.gni"
 product: "products/core.gni"
 base_packages: "//bundles:kitchen_sink"
 target_arch: X64
+include_generated_sources: true
 use_goma: true
 generate_compdb: true
