@@ -8,4 +8,5 @@ ninja_targets: "bundles:test_infra"
 base_packages: "//bundles:test_infra"
 target_arch: ARM64
 variants: "kasan"
+include_zbi_tests: true
 use_goma: true
