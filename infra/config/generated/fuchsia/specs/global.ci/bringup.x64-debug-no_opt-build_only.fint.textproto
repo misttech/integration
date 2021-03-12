@@ -11,4 +11,5 @@ base_packages: "//bundles/buildbot:bringup"
 universe_packages: "//bundles:build_infra"
 target_arch: X64
 variants: "clang"
+include_images: true
 use_goma: true

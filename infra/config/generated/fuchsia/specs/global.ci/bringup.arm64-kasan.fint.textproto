@@ -13,6 +13,7 @@ universe_packages: "//bundles:build_infra"
 universe_packages: "//bundles:test_infra"
 target_arch: ARM64
 variants: "kasan"
+include_images: true
 include_host_tests: true
 test_durations_file: "prebuilt/infra/test_durations/fuchsia/bringup.arm64-kasan.json"
 default_test_durations_file: "prebuilt/infra/test_durations/fuchsia/default.json"

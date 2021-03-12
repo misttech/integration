@@ -13,5 +13,6 @@ universe_packages: "//tools/fuzz"
 target_arch: X64
 variants: "{variant=\"ubsan-fuzzer\" target_type=[\"fuzzed_executable\"]},{variant=\"ubsan\" label=[\"//sdk/lib/fdio\"]}"
 pave: true
+include_images: true
 skip_if_unaffected: true
 use_goma: true
