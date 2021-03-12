@@ -12,5 +12,6 @@ universe_packages: "//bundles:build_infra"
 target_arch: X64
 variants: "host_asan-ubsan"
 variants: "kasan-sancov"
+include_images: true
 skip_if_unaffected: true
 use_goma: true
