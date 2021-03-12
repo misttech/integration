@@ -11,4 +11,5 @@ base_packages: "//bundles/buildbot:bringup"
 universe_packages: "//bundles:build_infra"
 target_arch: ARM64
 include_images: true
+include_prebuilt_binary_manifests: true
 use_goma: true

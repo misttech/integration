@@ -14,5 +14,6 @@ target_arch: ARM64
 variants: "host_asan-ubsan"
 variants: "{variant=\"asan-fuzzer\" target_type=[\"fuzzed_executable\"]},{variant=\"asan\" label=[\"//sdk/lib/fdio\"]}"
 include_images: true
+include_prebuilt_binary_manifests: true
 skip_if_unaffected: true
 use_goma: true

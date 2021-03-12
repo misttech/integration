@@ -14,4 +14,5 @@ variants: "host_asan-ubsan"
 variants: "hwasan"
 pave: true
 include_images: true
+include_prebuilt_binary_manifests: true
 use_goma: true

@@ -14,5 +14,6 @@ target_arch: X64
 variants: "{variant=\"asan-fuzzer\" target_type=[\"fuzzed_executable\"]},{variant=\"asan\" label=[\"//sdk/lib/fdio\"]}"
 pave: true
 include_images: true
+include_prebuilt_binary_manifests: true
 skip_if_unaffected: true
 use_goma: true
