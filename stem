@@ -16,6 +16,9 @@
     <hook name="install-environment"
           project="fuchsia"
           action="scripts/devshell/lib/add_symlink_to_bin.sh"/>
+    <hook name="delete-fx-set-executable"
+          project="fuchsia"
+          action="scripts/devshell/lib/delete_fx_set_executable.sh"/>
     <hook name="zircon-download-prebuilt"
           project="fuchsia"
           action="zircon/scripts/download-prebuilt"/>
