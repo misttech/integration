@@ -53,7 +53,12 @@ swarming {
       '    "host_x64/futility"'
       '  ],'
       '  "recipe": "prebuilt_host_tool",'
-      '  "remote": "https://fuchsia.googlesource.com/integration"'
+      '  "remote": "https://fuchsia.googlesource.com/integration",'
+      '  "tools": ['
+      '    "cgpt",'
+      '    "futility",'
+      '    "json_validator"'
+      '  ]'
       '}'
     execution_timeout_secs: 8400
     caches {
