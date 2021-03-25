@@ -73,10 +73,12 @@ swarming {
     caches {
       name: "fuchsia_goma_869192799f323df502af49edbd60f829d15c2a6cb69ebd811f0a431982580aed"
       path: "goma"
+      wait_for_warm_cache_secs: 120
     }
     caches {
       name: "fuchsia_thinlto_869192799f323df502af49edbd60f829d15c2a6cb69ebd811f0a431982580aed"
       path: "thinlto"
+      wait_for_warm_cache_secs: 120
     }
     service_account: "fuchsia-try-builder@fuchsia-infra.iam.gserviceaccount.com"
     resultdb {
