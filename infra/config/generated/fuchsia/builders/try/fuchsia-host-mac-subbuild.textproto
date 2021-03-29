@@ -88,6 +88,12 @@ swarming {
         table: "try"
         test_results {}
       }
+      bq_exports {
+        project: "fuchsia-infra"
+        dataset: "resultdb"
+        table: "artifacts_try"
+        text_artifacts {}
+      }
     }
   }
 }
