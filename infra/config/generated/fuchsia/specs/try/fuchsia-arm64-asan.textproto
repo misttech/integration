@@ -21,12 +21,12 @@ test {
   pool: "fuchsia.tests"
   swarming_expiration_timeout_secs: 18000
   swarming_io_timeout_secs: 370
-  timeout_secs: 3840
+  timeout_secs: 2400
   default_service_account: "artifact-readers@fuchsia-infra.iam.gserviceaccount.com"
   per_test_timeout_secs: 360
   upload_results: true
   target_shard_duration_secs: 540
-  max_shards_per_env: 5
+  max_shards_per_env: 8
   max_attempts_per_test: 3
   affected_tests_multiply_threshold: 3
 }
