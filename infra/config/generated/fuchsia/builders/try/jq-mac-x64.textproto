@@ -4,13 +4,9 @@
 # For the schema of this file, see Bucket message:
 #   https://luci-config.appspot.com/schemas/projects:buildbucket.cfg
 
-name: "ci"
+name: "try"
 acls {
   group: "all"
-}
-acls {
-  role: SCHEDULER
-  identity: "user:fuchsia-ci-builder@fuchsia-infra.iam.gserviceaccount.com"
 }
 acls {
   role: SCHEDULER
@@ -18,15 +14,23 @@ acls {
 }
 acls {
   role: SCHEDULER
-  identity: "user:infra-ci-builder@fuchsia-infra.iam.gserviceaccount.com"
+  identity: "user:fuchsia-try-builder@fuchsia-infra.iam.gserviceaccount.com"
 }
 acls {
   role: SCHEDULER
-  identity: "user:luci-scheduler@appspot.gserviceaccount.com"
+  identity: "user:infra-try-builder@fuchsia-infra.iam.gserviceaccount.com"
 }
 acls {
   role: SCHEDULER
   identity: "user:tools-ci-builder@fuchsia-infra.iam.gserviceaccount.com"
+}
+acls {
+  role: SCHEDULER
+  group: "project-fuchsia-tryjob-access"
+}
+acls {
+  role: SCHEDULER
+  identity: "project:turquoise"
 }
 swarming {
   builders {
@@ -36,7 +40,7 @@ swarming {
     dimensions: "cpu:x64"
     dimensions: "gce:0"
     dimensions: "os:Mac"
-    dimensions: "pool:luci.fuchsia.ci"
+    dimensions: "pool:luci.fuchsia.try"
     exe {
       cipd_package: "fuchsia/infra/recipe_bootstrap/${platform}"
       cipd_version: "git_revision:c1dc081ff910805479dae7be6316cabd7b2d4387"
@@ -50,6 +54,7 @@ swarming {
       '  "$recipe_engine/swarming": {'
       '    "server": "https://chromium-swarm.appspot.com"'
       '  },'
+      '  "dry_run": true,'
       '  "recipe": "jq"'
       '}'
     execution_timeout_secs: 8400
@@ -65,6 +70,6 @@ swarming {
       name: "symbol"
       path: "symbol"
     }
-    service_account: "fuchsia-ci-builder@fuchsia-infra.iam.gserviceaccount.com"
+    service_account: "infra-try-builder@fuchsia-infra.iam.gserviceaccount.com"
   }
 }
