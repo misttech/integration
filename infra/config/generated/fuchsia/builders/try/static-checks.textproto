@@ -48,6 +48,9 @@ swarming {
     }
     properties:
       '{'
+      '  "$fuchsia/autocorrelator": {'
+      '    "ci_bucket": "global.ci"'
+      '  },'
       '  "$recipe_engine/isolated": {'
       '    "server": "https://isolateserver.appspot.com"'
       '  },'
