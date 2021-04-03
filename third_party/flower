@@ -513,29 +513,5 @@
              remote="https://fuchsia.googlesource.com/third_party/zstd"
              gerrithost="https://fuchsia-review.googlesource.com"
              revision="97a3da1df009d4dc67251de0c4b1c9d7fe286fc1"/>
-
-    <!-- TODO(abarth): These projects have the wrong names. The names should
-         match the path under fuchsia.googlesource.com -->
-
-    <project name="goleveldb"
-             path="third_party/golibs/github.com/syndtr/goleveldb"
-             remote="https://fuchsia.googlesource.com/third_party/goleveldb"
-             gerrithost="https://fuchsia-review.googlesource.com"
-             revision="52ea2dd038a560e2a5a69403fb759ca8a8968257"/>
-    <project name="golang_snappy"
-             path="third_party/golibs/github.com/golang/snappy"
-             remote="https://fuchsia.googlesource.com/third_party/golang/snappy"
-             gerrithost="https://fuchsia-review.googlesource.com"
-             revision="553a641470496b2327abcac10b36396bd98e45c9"/>
-    <project name="github.com/flynn/go-tuf"
-             path="third_party/golibs/github.com/flynn/go-tuf"
-             remote="https://fuchsia.googlesource.com/third_party/go-tuf"
-             gerrithost="https://fuchsia-review.googlesource.com"
-             revision="a90d70916791302382bf3bc6d17fbcff945518c6"/>
-    <project name="go-check"
-             path="third_party/golibs/github.com/go-check/check"
-             remote="https://fuchsia.googlesource.com/third_party/github.com/go-check/check"
-             gerrithost="https://fuchsia-review.googlesource.com"
-             revision="788fd78401277ebd861206a03c884797c6ec5541"/>
   </projects>
 </manifest>
