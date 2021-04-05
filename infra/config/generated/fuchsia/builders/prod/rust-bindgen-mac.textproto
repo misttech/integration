@@ -18,12 +18,12 @@ acls {
 }
 swarming {
   builders {
-    name: "rust-bindgen"
+    name: "rust-bindgen-mac"
     swarming_host: "chromium-swarm.appspot.com"
-    dimensions: "cores:32"
+    dimensions: "cores:12"
     dimensions: "cpu:x64"
-    dimensions: "gce:1"
-    dimensions: "os:Linux"
+    dimensions: "gce:0"
+    dimensions: "os:Mac"
     dimensions: "pool:luci.fuchsia.prod"
     exe {
       cipd_package: "fuchsia/infra/recipe_bootstrap/${platform}"
@@ -46,6 +46,10 @@ swarming {
     caches {
       name: "builder"
       path: "builder"
+    }
+    caches {
+      name: "macos_sdk"
+      path: "macos_sdk"
     }
     caches {
       name: "symbol"
