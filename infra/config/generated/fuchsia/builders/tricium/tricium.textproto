@@ -55,7 +55,7 @@ swarming {
       '  "recipe": "tricium/tricium",'
       '  "remote": "https://fuchsia.googlesource.com/integration"'
       '}'
-    execution_timeout_secs: 1200
+    execution_timeout_secs: 2400
     caches {
       name: "builder"
       path: "builder"
