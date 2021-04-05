@@ -34,7 +34,7 @@ acls {
 }
 swarming {
   builders {
-    name: "rust-bindgen"
+    name: "rust-bindgen-linux"
     swarming_host: "chromium-swarm.appspot.com"
     dimensions: "cores:32"
     dimensions: "cpu:x64"
