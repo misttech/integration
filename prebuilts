@@ -196,11 +196,11 @@
 	 the host_prebuilts bot publishes new packages.
       -->
     <package name="fuchsia/tools/cgpt/${platform}"
-             version="git_revision:d6c0f62b9bc5720d532764d2f620972673962763"
+             version="git_revision:11cbe1b67dc099db711c9e2816a8f30b57d142d2"
              path="prebuilt/tools/cgpt/{{.OS}}-{{.Arch}}"
              platforms="linux-amd64,mac-amd64"/>
     <package name="fuchsia/tools/futility/${platform}"
-             version="git_revision:d6c0f62b9bc5720d532764d2f620972673962763"
+             version="git_revision:11cbe1b67dc099db711c9e2816a8f30b57d142d2"
              path="prebuilt/tools/futility/{{.OS}}-{{.Arch}}"
              platforms="linux-amd64,mac-amd64"/>
 
