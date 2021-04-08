@@ -34,7 +34,7 @@ acls {
 }
 swarming {
   builders {
-    name: "core.x64-rustcoverage-qemu_kvm"
+    name: "core.x64-coverage-rust-qemu_kvm"
     swarming_host: "chromium-swarm.appspot.com"
     dimensions: "cores:2"
     dimensions: "cpu:x64"

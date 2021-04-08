@@ -11,7 +11,7 @@ checkout {
   upload_results: true
 }
 build {
-  fint_params_path: "integration/infra/config/generated/fuchsia/specs/ci/core.x64-rustcoverage-qemu_kvm.fint.textproto"
+  fint_params_path: "integration/infra/config/generated/fuchsia/specs/ci/core.x64-coverage-rust-qemu_kvm.fint.textproto"
   ninja_targets: "bundles:build_infra"
   ninja_targets: "bundles:test_infra"
   run_tests: true
