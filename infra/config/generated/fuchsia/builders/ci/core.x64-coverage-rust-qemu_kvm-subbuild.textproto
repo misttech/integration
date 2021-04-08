@@ -30,7 +30,7 @@ acls {
 }
 swarming {
   builders {
-    name: "core.x64-rustcoverage-qemu_kvm-subbuild"
+    name: "core.x64-coverage-rust-qemu_kvm-subbuild"
     swarming_host: "chromium-swarm.appspot.com"
     dimensions: "180:cores:64"
     dimensions: "cpu:x64"
@@ -64,7 +64,7 @@ swarming {
       path: "symbol"
     }
     caches {
-      name: "fuchsia_goma_bba11d681d5e1f6be52dca0b5d2157cc8553606bf75673814623000d22fd4e75"
+      name: "fuchsia_goma_4b0b269f0108bf850d19ae3b51c9582f5e97ee592bb704ae9ad9a5b380e5e3aa"
       path: "goma"
       wait_for_warm_cache_secs: 120
     }
