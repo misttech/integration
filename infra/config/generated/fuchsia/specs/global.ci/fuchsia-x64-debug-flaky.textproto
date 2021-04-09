@@ -18,6 +18,7 @@ build {
   run_tests: true
   upload_results: true
   stats_gcs_bucket: "fuchsia-artifacts"
+  fint_build: true
 }
 test {
   pave: true
