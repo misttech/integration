@@ -15,6 +15,7 @@ build {
   ninja_targets: "bundles:build_infra"
   ninja_targets: "bundles:drivers-build-only"
   stats_gcs_bucket: "fuchsia-artifacts"
+  fint_build: true
 }
 gcs_bucket: "fuchsia-build"
 artifact_gcs_bucket: "fuchsia-artifacts"

@@ -16,6 +16,7 @@ build {
   ninja_targets: "bundles:test_infra"
   run_tests: true
   stats_gcs_bucket: "fuchsia-artifacts"
+  fint_build: true
 }
 test {
   pave: true
