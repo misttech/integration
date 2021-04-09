@@ -42,7 +42,7 @@ swarming {
       '  "$recipe_engine/swarming": {'
       '    "server": "https://chromium-swarm.appspot.com"'
       '  },'
-      '  "exclude_images": true,'
+      '  "fint_build": true,'
       '  "fint_params_path": "integration/infra/config/generated/fuchsia/specs/global.ci/firebase-docs-sdk.fint.textproto",'
       '  "gcs_bucket": "fuchsia-build",'
       '  "generators": ['
