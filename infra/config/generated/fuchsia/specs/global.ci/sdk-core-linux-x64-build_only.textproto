@@ -19,6 +19,7 @@ build {
   ninja_targets: "sdk/archive/modular_testing.tar.gz"
   sdk_subbuild: true
   stats_gcs_bucket: "fuchsia-artifacts"
+  fint_build: true
 }
 test {
   pave: true
