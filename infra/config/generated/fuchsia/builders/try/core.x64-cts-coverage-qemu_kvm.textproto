@@ -4,31 +4,43 @@
 # For the schema of this file, see Bucket message:
 #   https://luci-config.appspot.com/schemas/projects:buildbucket.cfg
 
-name: "global.ci"
+name: "try"
 acls {
   group: "all"
 }
 acls {
   role: SCHEDULER
-  identity: "user:fuchsia-ci-builder@fuchsia-infra.iam.gserviceaccount.com"
+  identity: "user:fuchsia-prod-builder@fuchsia-infra.iam.gserviceaccount.com"
 }
 acls {
   role: SCHEDULER
-  identity: "user:infra-ci-builder@fuchsia-infra.iam.gserviceaccount.com"
+  identity: "user:fuchsia-try-builder@fuchsia-infra.iam.gserviceaccount.com"
 }
 acls {
   role: SCHEDULER
-  identity: "user:luci-scheduler@appspot.gserviceaccount.com"
+  identity: "user:infra-try-builder@fuchsia-infra.iam.gserviceaccount.com"
+}
+acls {
+  role: SCHEDULER
+  identity: "user:tools-ci-builder@fuchsia-infra.iam.gserviceaccount.com"
+}
+acls {
+  role: SCHEDULER
+  group: "project-fuchsia-tryjob-access"
+}
+acls {
+  role: SCHEDULER
+  identity: "project:turquoise"
 }
 swarming {
   builders {
-    name: "bringup.arm64-profile"
+    name: "core.x64-cts-coverage-qemu_kvm"
     swarming_host: "chromium-swarm.appspot.com"
     dimensions: "cores:2"
     dimensions: "cpu:x64"
     dimensions: "gce:1"
     dimensions: "os:Linux"
-    dimensions: "pool:luci.fuchsia.ci"
+    dimensions: "pool:luci.fuchsia.try"
     exe {
       cipd_package: "fuchsia/infra/recipe_bootstrap/${platform}"
       cipd_version: "git_revision:7d6ca671681ad3ed27d95052fa23283ac05a02e2"
@@ -42,12 +54,11 @@ swarming {
       '  "$recipe_engine/swarming": {'
       '    "server": "https://chromium-swarm.appspot.com"'
       '  },'
-      '  "enable_property_versioning": true,'
-      '  "mastername": "integration.fyi",'
+      '  "mastername": "fuchsia.try",'
       '  "recipe": "fuchsia/fuchsia",'
       '  "spec_remote": "https://fuchsia.googlesource.com/integration"'
       '}'
-    execution_timeout_secs: 8400
+    execution_timeout_secs: 7200
     caches {
       name: "builder"
       path: "builder"
@@ -56,19 +67,19 @@ swarming {
       name: "symbol"
       path: "symbol"
     }
-    service_account: "fuchsia-ci-builder@fuchsia-infra.iam.gserviceaccount.com"
+    service_account: "fuchsia-try-builder@fuchsia-infra.iam.gserviceaccount.com"
     resultdb {
       enable: true
       bq_exports {
         project: "fuchsia-infra"
         dataset: "resultdb"
-        table: "ci"
+        table: "try"
         test_results {}
       }
       bq_exports {
         project: "fuchsia-infra"
         dataset: "resultdb"
-        table: "artifacts_ci"
+        table: "artifacts_try"
         text_artifacts {}
       }
     }
