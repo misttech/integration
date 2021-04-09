@@ -16,6 +16,7 @@ build {
   ninja_targets: "src/cobalt:cobalt"
   ninja_targets: "src/lib/cobalt:cobalt"
   stats_gcs_bucket: "fuchsia-artifacts"
+  fint_build: true
 }
 test {
   pave: true
