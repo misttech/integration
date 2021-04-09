@@ -34,7 +34,7 @@ acls {
 }
 swarming {
   builders {
-    name: "core.x64-cts-profile-qemu_kvm-subbuild"
+    name: "core.x64-cts-coverage-qemu_kvm-subbuild"
     swarming_host: "chromium-swarm.appspot.com"
     dimensions: "180:cores:64"
     dimensions: "cpu:x64"
