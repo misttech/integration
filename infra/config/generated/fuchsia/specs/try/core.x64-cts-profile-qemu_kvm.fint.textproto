@@ -4,7 +4,7 @@
 optimize: DEBUG
 board: "boards/qemu-x64.gni"
 product: "products/core.gni"
-gn_args: "optimize = \"profile\""
+gn_args: "optimize = \"coverage\""
 ninja_targets: "bundles:build_infra"
 ninja_targets: "bundles:test_infra"
 base_packages: "//bundles:tools"
@@ -14,8 +14,8 @@ universe_packages: "//bundles:build_infra"
 universe_packages: "//bundles:test_infra"
 host_labels: "//bundles/buildbot:host-tests"
 target_arch: X64
-variants: "host_profile"
-variants: "profile"
+variants: "coverage-sdk"
+variants: "host_coverage"
 pave: true
 include_images: true
 include_prebuilt_binary_manifests: true
