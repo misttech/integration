@@ -11,11 +11,8 @@ checkout {
 }
 build {
   fint_params_path: "integration/infra/config/generated/fuchsia/specs/try/bringup.x64-thinlto.fint.textproto"
-  ninja_targets: "bundles:build_infra"
-  ninja_targets: "bundles:test_infra"
   run_tests: true
   stats_gcs_bucket: "fuchsia-artifacts"
-  fint_build: true
 }
 test {
   pool: "fuchsia.tests"

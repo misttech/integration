@@ -12,12 +12,8 @@ checkout {
 }
 build {
   fint_params_path: "integration/infra/config/generated/fuchsia/specs/global.ci/cobalt-x64-rel-build_only.fint.textproto"
-  ninja_targets: "bundles:build_infra"
-  ninja_targets: "src/cobalt:cobalt"
-  ninja_targets: "src/lib/cobalt:cobalt"
   upload_results: true
   stats_gcs_bucket: "fuchsia-artifacts"
-  fint_build: true
 }
 test {
   pave: true

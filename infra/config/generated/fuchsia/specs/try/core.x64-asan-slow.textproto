@@ -12,11 +12,8 @@ checkout {
 build {
   fint_params_path: "integration/infra/config/generated/fuchsia/specs/try/core.x64-asan-slow.fint.textproto"
   environment_tags: "slow"
-  ninja_targets: "bundles:build_infra"
-  ninja_targets: "bundles:test_infra"
   run_tests: true
   stats_gcs_bucket: "fuchsia-artifacts"
-  fint_build: true
 }
 test {
   pave: true

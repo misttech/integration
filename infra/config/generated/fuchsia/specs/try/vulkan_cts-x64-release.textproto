@@ -13,11 +13,8 @@ checkout {
 build {
   fint_params_path: "integration/infra/config/generated/fuchsia/specs/try/vulkan_cts-x64-release.fint.textproto"
   environment_tags: "vulkan-cts"
-  ninja_targets: "bundles:build_infra"
-  ninja_targets: "bundles:test_infra"
   run_tests: true
   stats_gcs_bucket: "fuchsia-artifacts"
-  fint_build: true
 }
 test {
   pave: true

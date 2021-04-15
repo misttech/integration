@@ -11,9 +11,7 @@ checkout {
 }
 build {
   fint_params_path: "integration/infra/config/generated/fuchsia/specs/try/core.x64-fuzz_ubsan-build_only.fint.textproto"
-  ninja_targets: "bundles:build_infra"
   stats_gcs_bucket: "fuchsia-artifacts"
-  fint_build: true
 }
 test {
   pave: true
