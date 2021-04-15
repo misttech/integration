@@ -12,7 +12,6 @@ checkout {
 }
 build {
   fint_params_path: "integration/infra/config/generated/fuchsia/specs/global.ci/fuchsia-x64-debug-mac-build_default.fint.textproto"
-  exclude_images: true
   ninja_targets: ":default"
   ninja_targets: "bundles:build_infra"
   upload_results: true

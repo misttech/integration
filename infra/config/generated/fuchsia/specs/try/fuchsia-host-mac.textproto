@@ -12,7 +12,6 @@ checkout {
 build {
   fint_params_path: "integration/infra/config/generated/fuchsia/specs/try/fuchsia-host-mac.fint.textproto"
   environment_tags: "mac"
-  exclude_images: true
   ninja_targets: "bundles:build_infra"
   ninja_targets: "bundles:test_infra"
   run_tests: true
