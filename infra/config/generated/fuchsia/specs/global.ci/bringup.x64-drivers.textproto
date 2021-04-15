@@ -12,7 +12,6 @@ checkout {
 }
 build {
   fint_params_path: "integration/infra/config/generated/fuchsia/specs/global.ci/bringup.x64-drivers.fint.textproto"
-  exclude_images: true
   ninja_targets: "bundles:build_infra"
   ninja_targets: "bundles:drivers-build-only"
   upload_results: true
