@@ -12,12 +12,9 @@ checkout {
 }
 build {
   fint_params_path: "integration/infra/config/generated/fuchsia/specs/ci/rust_toolchain.fuchsia-x64-release.fint.textproto"
-  ninja_targets: "bundles:build_infra"
-  ninja_targets: "bundles:test_infra"
   run_tests: true
   upload_results: true
   stats_gcs_bucket: "fuchsia-artifacts"
-  fint_build: true
 }
 test {
   pave: true
