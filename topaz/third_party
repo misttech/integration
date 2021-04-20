@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <imports>
+    <localimport file="dart"/>
+    <localimport file="flutter"/>
+    <localimport file="minimal"/>
+    <localimport file="../third_party/chromium/chromium"/>
+    <localimport file="../third_party/chromium/chromium_latest"/>
+  </imports>
+  <projects>
+    <project name="third_party/benchmark"
+             path="third_party/benchmark"
+             remote="https://fuchsia.googlesource.com/third_party/benchmark"
+             gerrithost="https://fuchsia-review.googlesource.com"
+             revision="3554d30e784a15463a5bab0fa5d805eccace5eda"/>
+  </projects>
+</manifest>
