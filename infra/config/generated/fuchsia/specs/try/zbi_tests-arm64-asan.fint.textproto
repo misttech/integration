@@ -2,6 +2,7 @@
 # Do not modify manually.
 
 optimize: DEBUG
+board: "boards/arm64.gni"
 product: "products/bringup.gni"
 gn_args: "optimize = \"sanitizer\""
 ninja_targets: "bundles:test_infra"
