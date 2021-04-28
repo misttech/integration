@@ -39,7 +39,8 @@ swarming {
       '    "server": "https://chromium-swarm.appspot.com"'
       '  },'
       '  "recipe": "goma_client",'
-      '  "recipes_host_override": "fuchsia.googlesource.com"'
+      '  "recipes_host_override": "fuchsia.googlesource.com",'
+      '  "recipes_integration_ref_override": "refs/heads/master"'
       '}'
     execution_timeout_secs: 8400
     caches {
