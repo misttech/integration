@@ -58,6 +58,7 @@ swarming {
       '  "mastername": "rust.try",'
       '  "recipe": "fuchsia/fuchsia",'
       '  "recipes_host_override": "fuchsia.googlesource.com",'
+      '  "recipes_integration_ref_override": "refs/heads/master",'
       '  "spec_remote": "https://fuchsia.googlesource.com/integration"'
       '}'
     execution_timeout_secs: 8400
