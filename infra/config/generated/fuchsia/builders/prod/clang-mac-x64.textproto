@@ -41,7 +41,8 @@ swarming {
       '  "mastername": "llvm",'
       '  "platform": "mac-amd64",'
       '  "recipe": "clang_toolchain",'
-      '  "recipes_host_override": "fuchsia.googlesource.com"'
+      '  "recipes_host_override": "fuchsia.googlesource.com",'
+      '  "recipes_integration_ref_override": "refs/heads/master"'
       '}'
     execution_timeout_secs: 21600
     caches {
