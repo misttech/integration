@@ -9,8 +9,8 @@ ninja_targets: "bundles:build_infra"
 base_packages: "//bundles:test_infra"
 base_packages: "//bundles:build_infra"
 target_arch: ARM64
-variants: "asan-ubsan"
-variants: "host_asan-ubsan"
+variants: "kasan"
 include_prebuilt_binary_manifests: true
 include_zbi_tests: true
+skip_if_unaffected: true
 use_goma: true

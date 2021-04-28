@@ -34,14 +34,13 @@ acls {
 }
 swarming {
   builders {
-    name: "bringup.arm64-asan-subbuild"
+    name: "zbi_tests-arm64-kasan"
     swarming_host: "chromium-swarm.appspot.com"
     dimensions: "cores:32"
     dimensions: "cpu:x64"
     dimensions: "gce:1"
     dimensions: "os:Linux"
     dimensions: "pool:luci.fuchsia.try"
-    dimensions: "role:builder"
     exe {
       cipd_package: "fuchsia/infra/recipe_bootstrap/${platform}"
       cipd_version: "git_revision:7d6ca671681ad3ed27d95052fa23283ac05a02e2"
@@ -58,9 +57,22 @@ swarming {
       '  "$recipe_engine/swarming": {'
       '    "server": "https://chromium-swarm.appspot.com"'
       '  },'
+      '  "allowed_device_types": ['
+      '    "QEMU"'
+      '  ],'
+      '  "artifact_gcs_bucket": "fuchsia-artifacts",'
       '  "enable_property_versioning": true,'
-      '  "recipe": "fuchsia/build",'
-      '  "spec_remote": "https://fuchsia.googlesource.com/integration"'
+      '  "fint_params_path": "integration/infra/config/generated/fuchsia/specs/try/zbi_tests-arm64-kasan.fint.textproto",'
+      '  "manifest": "flower",'
+      '  "mastername": "fuchsia.try",'
+      '  "max_attempts_per_test": 2,'
+      '  "ninja_targets": ['
+      '    "bundles:test_infra",'
+      '    "bundles:build_infra"'
+      '  ],'
+      '  "recipe": "zbi_test",'
+      '  "remote": "https://fuchsia.googlesource.com/integration",'
+      '  "test_pool": "fuchsia.tests"'
       '}'
     execution_timeout_secs: 8400
     caches {
@@ -71,26 +83,6 @@ swarming {
       name: "symbol"
       path: "symbol"
     }
-    caches {
-      name: "fuchsia_goma_9076b3bd7774f9c5438d19d848f70cad1405c7711e26ef2dd1292f11e92ab3e9"
-      path: "goma"
-      wait_for_warm_cache_secs: 120
-    }
     service_account: "fuchsia-try-builder@fuchsia-infra.iam.gserviceaccount.com"
-    resultdb {
-      enable: true
-      bq_exports {
-        project: "fuchsia-infra"
-        dataset: "resultdb"
-        table: "try"
-        test_results {}
-      }
-      bq_exports {
-        project: "fuchsia-infra"
-        dataset: "resultdb"
-        table: "artifacts_try"
-        text_artifacts {}
-      }
-    }
   }
 }
