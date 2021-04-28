@@ -34,7 +34,7 @@ acls {
 }
 swarming {
   builders {
-    name: "bringup.arm64-asan-subbuild"
+    name: "bringup.arm64-kasan-subbuild"
     swarming_host: "chromium-swarm.appspot.com"
     dimensions: "cores:32"
     dimensions: "cpu:x64"
@@ -72,7 +72,7 @@ swarming {
       path: "symbol"
     }
     caches {
-      name: "fuchsia_goma_9076b3bd7774f9c5438d19d848f70cad1405c7711e26ef2dd1292f11e92ab3e9"
+      name: "fuchsia_goma_cf82b5285164f23f19d038dab6d8e60b072886b0fe8722acf0a0a77555d2af3e"
       path: "goma"
       wait_for_warm_cache_secs: 120
     }
