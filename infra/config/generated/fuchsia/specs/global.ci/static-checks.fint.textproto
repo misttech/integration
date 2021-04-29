@@ -3,8 +3,8 @@
 
 optimize: DEBUG
 product: "products/bringup.gni"
-base_packages: "//tools/doc_checker"
 base_packages: "//tools/check-licenses:host"
+base_packages: "//tools/doc_checker"
 target_arch: X64
 include_prebuilt_binary_manifests: true
 tools: "check-licenses"
