@@ -14,6 +14,7 @@ universe_packages: "//bundles:test_infra"
 target_arch: ARM64
 variants: "asan-ubsan"
 variants: "host_asan-ubsan"
+variants: "kasan"
 include_images: true
 include_prebuilt_binary_manifests: true
 include_host_tests: true
