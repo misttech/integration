@@ -86,10 +86,9 @@
              path="prebuilt/third_party/sysroot/linux"/>
 
     <!-- GN from https://gn.googlesource.com/gn/ -->
-    <!-- TODO(fxbug.dev/3146): add linux-arm64 -->
     <package name="gn/gn/${platform}"
              version="git_revision:6771ce569fb4803dad7a427aa2e2c23e960b917e"
-             platforms="linux-amd64,mac-amd64"
+             platforms="linux-amd64,linux-arm64,mac-amd64"
              path="prebuilt/third_party/gn/{{.OS}}-{{.Arch}}"/>
 
     <!-- Ninja from https://ninja-build.org/ -->
