@@ -1,0 +1,12 @@
+[Roller Status] {{.Build.Builder.Builder}}
+
+{{ template "summary" . }}
+
+{{ range $step := .Build.Steps -}}
+{{ if or (eq $step.Name "git push") (eq $step.Name "restoring previous roll attempt") -}}
+{{/* The summary markdown contains a link to the Gerrit change, but the markdown won't be rendered.*/}}
+<div style="font-family: monospace; width: 100%">
+{{ if $step.SummaryMarkdown }} {{ $step.SummaryMarkdown }} {{ end }}
+</div>
+{{ end -}}
+{{ end -}}
