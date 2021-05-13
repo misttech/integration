@@ -4,7 +4,7 @@
 optimize: RELEASE
 product: "products/core.gni"
 gn_args: "build_should_trace_actions = true"
-gn_args: "check_vtables_in_rodata = true"
+ninja_targets: "build/images:check_vtables_in_rodata"
 ninja_targets: "bundles:build_infra"
 ninja_targets: "bundles:test_infra"
 base_packages: "//bundles/buildbot:core"
