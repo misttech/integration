@@ -34,14 +34,13 @@ acls {
 }
 swarming {
   builders {
-    name: "core.x64-release-chromium_canary-subbuild"
+    name: "core.x64-release-chromium_latest"
     swarming_host: "chromium-swarm.appspot.com"
-    dimensions: "180:cores:64"
+    dimensions: "cores:2"
     dimensions: "cpu:x64"
     dimensions: "gce:1"
     dimensions: "os:Linux"
     dimensions: "pool:luci.fuchsia.try"
-    dimensions: "role:builder"
     exe {
       cipd_package: "fuchsia/infra/recipe_bootstrap/${platform}"
       cipd_version: "git_revision:f3f2b05da49c7e686589282f7247ce8d6d9a16e5"
@@ -56,7 +55,7 @@ swarming {
       '    "server": "https://chromium-swarm.appspot.com"'
       '  },'
       '  "enable_property_versioning": true,'
-      '  "recipe": "fuchsia/build",'
+      '  "recipe": "fuchsia/fuchsia",'
       '  "spec_remote": "https://fuchsia.googlesource.com/integration"'
       '}'
     execution_timeout_secs: 8400
@@ -67,11 +66,6 @@ swarming {
     caches {
       name: "symbol"
       path: "symbol"
-    }
-    caches {
-      name: "fuchsia_goma_79fe85209c244357332a0bee1b45edd11f40d1a2fd1d859fa8646c50d914092e"
-      path: "goma"
-      wait_for_warm_cache_secs: 120
     }
     service_account: "fuchsia-try-builder@fuchsia-infra.iam.gserviceaccount.com"
     resultdb {
