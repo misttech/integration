@@ -3,7 +3,6 @@
 
 optimize: RELEASE
 product: "products/core.gni"
-ninja_targets: "build/images:check_vtables_in_rodata"
 ninja_targets: "bundles:build_infra"
 ninja_targets: "bundles:test_infra"
 base_packages: "//bundles/buildbot:core"
