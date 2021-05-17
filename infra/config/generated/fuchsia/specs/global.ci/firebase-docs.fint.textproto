@@ -8,7 +8,6 @@ ninja_targets: ":default"
 base_packages: "//build/rust:cargo_toml_gen"
 base_packages: "//bundles:kitchen_sink"
 base_packages: "//tools/fidl/fidldoc"
-base_packages: "//topaz/bundles:buildbot"
 target_arch: X64
 include_prebuilt_binary_manifests: true
 use_goma: true
