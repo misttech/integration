@@ -11,8 +11,7 @@ checkout {
   upload_results: true
 }
 build {
-  fint_params_path: "integration/infra/config/generated/fuchsia/specs/ci/rust_toolchain.core.x64-host_test_only-mac.fint.textproto"
-  environment_tags: "mac"
+  fint_params_path: "integration/infra/config/generated/fuchsia/specs/toolchain.ci/rust_toolchain.core.arm64-debug.fint.textproto"
   run_tests: true
   upload_results: true
   stats_gcs_bucket: "fuchsia-artifacts"
@@ -22,7 +21,7 @@ test {
   pool: "fuchsia.tests"
   swarming_expiration_timeout_secs: 18000
   swarming_io_timeout_secs: 300
-  timeout_secs: 2400
+  timeout_secs: 1800
   max_attempts: 1
   default_service_account: "artifact-readers@fuchsia-infra.iam.gserviceaccount.com"
   upload_results: true

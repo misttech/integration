@@ -4,7 +4,7 @@
 # For the schema of this file, see Bucket message:
 #   https://luci-config.appspot.com/schemas/projects:buildbucket.cfg
 
-name: "ci"
+name: "toolchain.ci"
 acls {
   group: "all"
 }
@@ -18,10 +18,6 @@ acls {
 }
 acls {
   role: SCHEDULER
-  identity: "user:infra-ci-builder@fuchsia-infra.iam.gserviceaccount.com"
-}
-acls {
-  role: SCHEDULER
   identity: "user:luci-scheduler@appspot.gserviceaccount.com"
 }
 acls {
@@ -30,13 +26,13 @@ acls {
 }
 swarming {
   builders {
-    name: "rust_toolchain.core.x64-debug-subbuild"
+    name: "rust_toolchain.core.x64-host_test_only-mac-subbuild"
     swarming_host: "chromium-swarm.appspot.com"
-    dimensions: "cores:32"
+    dimensions: "cores:12"
     dimensions: "cpu:x64"
-    dimensions: "gce:1"
-    dimensions: "os:Linux"
-    dimensions: "pool:luci.fuchsia.ci"
+    dimensions: "gce:0"
+    dimensions: "os:Mac"
+    dimensions: "pool:luci.fuchsia.toolchain.ci"
     dimensions: "role:builder"
     exe {
       cipd_package: "fuchsia/infra/recipe_bootstrap/${platform}"
@@ -63,11 +59,15 @@ swarming {
       path: "builder"
     }
     caches {
+      name: "macos_sdk"
+      path: "macos_sdk"
+    }
+    caches {
       name: "symbol"
       path: "symbol"
     }
     caches {
-      name: "fuchsia_goma_356910f44c627388b5fc5f405a2ba12c6b4a440927cc2c19e0cb8c1ff35e201e"
+      name: "fuchsia_goma_79fe85209c244357332a0bee1b45edd11f40d1a2fd1d859fa8646c50d914092e"
       path: "goma"
       wait_for_warm_cache_secs: 120
     }

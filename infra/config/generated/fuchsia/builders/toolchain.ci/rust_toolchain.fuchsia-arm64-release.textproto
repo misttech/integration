@@ -4,7 +4,7 @@
 # For the schema of this file, see Bucket message:
 #   https://luci-config.appspot.com/schemas/projects:buildbucket.cfg
 
-name: "ci"
+name: "toolchain.ci"
 acls {
   group: "all"
 }
@@ -18,10 +18,6 @@ acls {
 }
 acls {
   role: SCHEDULER
-  identity: "user:infra-ci-builder@fuchsia-infra.iam.gserviceaccount.com"
-}
-acls {
-  role: SCHEDULER
   identity: "user:luci-scheduler@appspot.gserviceaccount.com"
 }
 acls {
@@ -30,14 +26,13 @@ acls {
 }
 swarming {
   builders {
-    name: "rust_toolchain.core.arm64-release-subbuild"
+    name: "rust_toolchain.fuchsia-arm64-release"
     swarming_host: "chromium-swarm.appspot.com"
-    dimensions: "cores:32"
+    dimensions: "cores:2"
     dimensions: "cpu:x64"
     dimensions: "gce:1"
     dimensions: "os:Linux"
-    dimensions: "pool:luci.fuchsia.ci"
-    dimensions: "role:builder"
+    dimensions: "pool:luci.fuchsia.toolchain.ci"
     exe {
       cipd_package: "fuchsia/infra/recipe_bootstrap/${platform}"
       cipd_version: "git_revision:f3f2b05da49c7e686589282f7247ce8d6d9a16e5"
@@ -51,13 +46,10 @@ swarming {
       '  "$recipe_engine/swarming": {'
       '    "server": "https://chromium-swarm.appspot.com"'
       '  },'
-      '  "enable_property_versioning": true,'
-      '  "recipe": "fuchsia/build",'
-      '  "recipes_host_override": "fuchsia.googlesource.com",'
-      '  "recipes_integration_ref_override": "refs/heads/main",'
-      '  "spec_remote": "https://fuchsia.googlesource.com/integration"'
+      '  "recipe": "no_op",'
+      '  "summary_markdown": "This builder is deprecated. See https://ci.chromium.org/p/fuchsia/builders/toolchain.ci/rust_toolchain.core.arm64-release"'
       '}'
-    execution_timeout_secs: 8400
+    execution_timeout_secs: 600
     caches {
       name: "builder"
       path: "builder"
@@ -66,26 +58,6 @@ swarming {
       name: "symbol"
       path: "symbol"
     }
-    caches {
-      name: "fuchsia_goma_cb4bb4f46c017e91283e7d7ab26100629373a1c2e3d1f3ac9c16a472dce4f96d"
-      path: "goma"
-      wait_for_warm_cache_secs: 120
-    }
     service_account: "fuchsia-ci-builder@fuchsia-infra.iam.gserviceaccount.com"
-    resultdb {
-      enable: true
-      bq_exports {
-        project: "fuchsia-infra"
-        dataset: "resultdb"
-        table: "ci"
-        test_results {}
-      }
-      bq_exports {
-        project: "fuchsia-infra"
-        dataset: "resultdb"
-        table: "artifacts_ci"
-        text_artifacts {}
-      }
-    }
   }
 }
