@@ -559,12 +559,12 @@
     <!-- Bazel -->
     <package name="fuchsia/third_party/bazel/${platform}"
              path="prebuilt/third_party/bazel/{{.OS}}-{{.Arch}}"
-             version="version:0.17.2"
+             version="version:4.0.0"
              platforms="linux-amd64,mac-amd64"/>
 
     <package name="fuchsia/third_party/bazel/${platform}"
              path="prebuilt/sdk/bazel"
-             version="version:0.17.2"
+             version="version:4.0.0"
              platforms="linux-amd64,mac-amd64"/>
 
     <!-- Virtual Device Launcher -->
