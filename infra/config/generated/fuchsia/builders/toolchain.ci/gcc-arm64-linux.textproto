@@ -4,7 +4,7 @@
 # For the schema of this file, see Bucket message:
 #   https://luci-config.appspot.com/schemas/projects:buildbucket.cfg
 
-name: "ci"
+name: "toolchain.ci"
 acls {
   group: "all"
 }
@@ -18,10 +18,6 @@ acls {
 }
 acls {
   role: SCHEDULER
-  identity: "user:infra-ci-builder@fuchsia-infra.iam.gserviceaccount.com"
-}
-acls {
-  role: SCHEDULER
   identity: "user:luci-scheduler@appspot.gserviceaccount.com"
 }
 acls {
@@ -30,13 +26,13 @@ acls {
 }
 swarming {
   builders {
-    name: "gcc-x64-mac"
+    name: "gcc-arm64-linux"
     swarming_host: "chromium-swarm.appspot.com"
-    dimensions: "cores:24|56"
-    dimensions: "cpu:x64"
+    dimensions: "cores:256"
+    dimensions: "cpu:arm64"
     dimensions: "gce:0"
-    dimensions: "os:Mac"
-    dimensions: "pool:luci.fuchsia.ci"
+    dimensions: "os:Linux"
+    dimensions: "pool:luci.fuchsia.toolchain.ci"
     exe {
       cipd_package: "fuchsia/infra/recipe_bootstrap/${platform}"
       cipd_version: "git_revision:f3f2b05da49c7e686589282f7247ce8d6d9a16e5"
@@ -64,10 +60,6 @@ swarming {
     caches {
       name: "builder"
       path: "builder"
-    }
-    caches {
-      name: "macos_sdk_old"
-      path: "macos_sdk"
     }
     caches {
       name: "symbol"
