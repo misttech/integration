@@ -55,6 +55,15 @@
              platforms="linux-amd64,mac-amd64"
              path="prebuilt/third_party/goma/{{.OS}}-{{.Arch}}"/>
 
+    <!-- reclient
+         From Foundry-X team, for using RBE.
+         https://chrome-infra-packages.appspot.com/p/infra/rbe/client/
+    -->
+    <package name="infra/rbe/client/${platform}"
+             version="git_revision:caaa2651c667e0aa88aa25a36ccf1fe8e9076102"
+             platforms="linux-amd64"
+             path="prebuilt/proprietary/third_party/reclient/{{.OS}}-{{.Arch}}"/>
+
     <!-- Rust
          TODO(phosek): repo/bot link about provenance
     -->
