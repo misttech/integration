@@ -54,7 +54,7 @@ swarming {
       '  "$recipe_engine/swarming": {'
       '    "server": "https://chromium-swarm.appspot.com"'
       '  },'
-      '  "recipe": "fastboot"'
+      '  "recipe": "contrib/fastboot"'
       '}'
     execution_timeout_secs: 6000
     caches {
