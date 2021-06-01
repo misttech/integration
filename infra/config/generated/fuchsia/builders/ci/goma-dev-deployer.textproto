@@ -53,7 +53,7 @@ swarming {
       '  "cluster": "rbe-dev",'
       '  "deploy_endpoint": true,'
       '  "project": "fuchsia-infra-goma-dev",'
-      '  "recipe": "goma_gcp_deployer"'
+      '  "recipe": "contrib/goma_gcp_deployer"'
       '}'
     execution_timeout_secs: 8400
     caches {

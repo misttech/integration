@@ -39,7 +39,7 @@ swarming {
       '    "server": "https://chromium-swarm.appspot.com"'
       '  },'
       '  "dry_run": false,'
-      '  "recipe": "rust_bindgen"'
+      '  "recipe": "contrib/rust_bindgen"'
       '}'
     execution_timeout_secs: 4200
     caches {
