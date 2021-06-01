@@ -38,7 +38,7 @@ swarming {
       '  "$recipe_engine/swarming": {'
       '    "server": "https://chromium-swarm.appspot.com"'
       '  },'
-      '  "recipe": "gnu_build_tools"'
+      '  "recipe": "contrib/gnu_build_tools"'
       '}'
     execution_timeout_secs: 8400
     caches {
