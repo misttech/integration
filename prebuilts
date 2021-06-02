@@ -139,11 +139,10 @@
              platforms="linux-amd64"
              path="prebuilt/third_party/breakpad/{{.OS}}-{{.Arch}}"/>
 
-    <!-- CMake
-         TODO(phosek): repo/bot link about provenance
+    <!-- CMake - Uploaded by cmake CI builds. Rolled manually as needed.
     -->
-    <package name="infra/cmake/${platform}"
-             version="version:3.10.0"
+    <package name="fuchsia/third_party/cmake/${platform}"
+             version="version:3.20.20210601-g02957bb"
              platforms="linux-amd64,mac-amd64"
              path="prebuilt/third_party/cmake/{{.OS}}-{{.Arch}}"/>
 
