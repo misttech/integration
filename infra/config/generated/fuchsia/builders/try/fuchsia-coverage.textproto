@@ -54,6 +54,7 @@ swarming {
       '  "$recipe_engine/swarming": {'
       '    "server": "https://chromium-swarm.appspot.com"'
       '  },'
+      '  "artifact_gcs_bucket": "fuchsia-artifacts",'
       '  "coverage_builders": {'
       '    "core.x64-coverage-qemu_kvm": ['
       '      ".cc",'
@@ -75,8 +76,9 @@ swarming {
       '    ]'
       '  },'
       '  "enable_property_versioning": true,'
+      '  "manifest": "flower",'
       '  "recipe": "fuchsia/coverage",'
-      '  "spec_remote": "https://fuchsia.googlesource.com/integration"'
+      '  "remote": "https://fuchsia.googlesource.com/integration"'
       '}'
     execution_timeout_secs: 28800
     caches {
