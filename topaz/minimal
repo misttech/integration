@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <imports>
+    <localimport file="prebuilts"/>
+  </imports>
+  <projects>
+    <project name="topaz"
+             path="topaz"
+             remote="https://fuchsia.googlesource.com/topaz"
+             gerrithost="https://fuchsia-review.googlesource.com"
+             revision="821cc76900d956174dbe46774fe9beea38473548"/>
+  </projects>
+</manifest>
