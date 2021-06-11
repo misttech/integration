@@ -38,8 +38,11 @@ swarming {
       '  "$recipe_engine/swarming": {'
       '    "server": "https://chromium-swarm.appspot.com"'
       '  },'
+      '  "bin_name": "bindgen",'
+      '  "cipd_package": "fuchsia/third_party/rust_bindgen/${platform}",'
       '  "dry_run": false,'
-      '  "recipe": "contrib/rust_bindgen"'
+      '  "recipe": "contrib/cargo_build",'
+      '  "remote": "https://fuchsia.googlesource.com/third_party/github.com/rust-lang/rust-bindgen"'
       '}'
     execution_timeout_secs: 4200
     caches {
