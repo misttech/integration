@@ -401,12 +401,6 @@
              path="prebuilt/camera/watermark"
              platforms="linux-amd64,linux-arm64,mac-amd64"
              internal="true"/>
-    <!--   Imagination GPU firmware for MT8167 -->
-    <package name="fuchsia_internal/firmware/imgtec/imgtec-rgx-mt8167"
-             version="git_revision:a663911de2166be76f0044b828c6b375cf64fecb"
-             path="src/graphics/drivers/msd-img-rgx/mtk/firmware"
-             platforms="linux-amd64,linux-arm64,mac-amd64"
-             internal="true"/>
     <!--   OpenThread Radio firmware for NRF52840 chip -->
     <package name="fuchsia_internal/firmware/ot-radio-firmware"
              version="idRX2qOW1eCcGaos96suwL4sJ5NGFhWpuku0MpZEAbgC"
