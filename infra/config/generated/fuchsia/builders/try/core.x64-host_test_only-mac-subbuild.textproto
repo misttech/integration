@@ -81,6 +81,10 @@ swarming {
       wait_for_warm_cache_secs: 120
     }
     service_account: "fuchsia-try-builder@fuchsia-infra.iam.gserviceaccount.com"
+    experiments {
+      key: "luci.use_realms"
+      value: 100
+    }
     resultdb {
       enable: true
       bq_exports {
