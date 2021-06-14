@@ -1,0 +1,11 @@
+{
+  "$recipe_engine/isolated": {
+    "server": "https://isolateserver.appspot.com"
+  },
+  "$recipe_engine/swarming": {
+    "server": "https://chromium-swarm.appspot.com"
+  },
+  "enable_property_versioning": true,
+  "recipe": "no_op",
+  "summary_markdown": "This builder is deprecated. See https://ci.chromium.org/p/fuchsia/builders/try/core.arm64-thinlto"
+}

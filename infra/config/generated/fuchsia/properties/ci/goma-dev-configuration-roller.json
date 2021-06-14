@@ -1,0 +1,13 @@
+{
+  "$recipe_engine/isolated": {
+    "server": "https://isolateserver.appspot.com"
+  },
+  "$recipe_engine/swarming": {
+    "server": "https://chromium-swarm.appspot.com"
+  },
+  "cluster": "rbe-dev",
+  "cluster_project": "fuchsia-infra-goma-dev",
+  "dry_run": false,
+  "recipe": "contrib/goma_gcp_configurator",
+  "toolchain_project": "fuchsia-toolchain-images-gcr"
+}

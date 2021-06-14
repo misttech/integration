@@ -1,0 +1,12 @@
+{
+  "$recipe_engine/isolated": {
+    "server": "https://isolateserver.appspot.com"
+  },
+  "$recipe_engine/swarming": {
+    "server": "https://chromium-swarm.appspot.com"
+  },
+  "cluster": "rbe-dev",
+  "deploy_endpoint": true,
+  "project": "fuchsia-infra-goma-dev",
+  "recipe": "contrib/goma_gcp_deployer"
+}
