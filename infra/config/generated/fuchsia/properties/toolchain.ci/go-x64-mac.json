@@ -1,0 +1,11 @@
+{
+  "$recipe_engine/isolated": {
+    "server": "https://isolateserver.appspot.com"
+  },
+  "$recipe_engine/swarming": {
+    "server": "https://chromium-swarm.appspot.com"
+  },
+  "gcs_bucket": "fuchsia-build",
+  "platform": "mac-amd64",
+  "recipe": "contrib/go_toolchain"
+}

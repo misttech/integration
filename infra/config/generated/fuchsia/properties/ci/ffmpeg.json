@@ -1,0 +1,21 @@
+{
+  "$recipe_engine/isolated": {
+    "server": "https://isolateserver.appspot.com"
+  },
+  "$recipe_engine/swarming": {
+    "server": "https://chromium-swarm.appspot.com"
+  },
+  "builds": [
+    {
+      "fint_params_path": "integration/infra/config/generated/fuchsia/specs/ci/ffmpeg-arm64.fint.textproto",
+      "target": "arm64"
+    },
+    {
+      "fint_params_path": "integration/infra/config/generated/fuchsia/specs/ci/ffmpeg-x64.fint.textproto",
+      "target": "x64"
+    }
+  ],
+  "manifest": "third_party/ffmpeg",
+  "recipe": "contrib/ffmpeg",
+  "remote": "https://fuchsia.googlesource.com/integration"
+}

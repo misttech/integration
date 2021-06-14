@@ -1,0 +1,17 @@
+{
+  "$recipe_engine/isolated": {
+    "server": "https://isolateserver.appspot.com"
+  },
+  "$recipe_engine/swarming": {
+    "server": "https://chromium-swarm.appspot.com"
+  },
+  "check_deps": true,
+  "include_private": false,
+  "include_public": true,
+  "manifest": "manifest/minimal",
+  "project": "integration",
+  "recipe": "recipes",
+  "remote": "https://fuchsia.googlesource.com/infra/recipes",
+  "unittest_only": true,
+  "use_buildbucket": false
+}
