@@ -57,5 +57,9 @@ swarming {
       path: "windows_sdk"
     }
     service_account: "tools-prod-builder@fuchsia-infra.iam.gserviceaccount.com"
+    experiments {
+      key: "luci.use_realms"
+      value: 100
+    }
   }
 }

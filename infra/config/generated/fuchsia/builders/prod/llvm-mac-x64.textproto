@@ -57,5 +57,9 @@ swarming {
       path: "symbol"
     }
     service_account: "fuchsia-prod-builder@fuchsia-infra.iam.gserviceaccount.com"
+    experiments {
+      key: "luci.use_realms"
+      value: 100
+    }
   }
 }
