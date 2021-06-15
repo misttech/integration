@@ -50,6 +50,7 @@ swarming {
       '  "$recipe_engine/swarming": {'
       '    "server": "https://chromium-swarm.appspot.com"'
       '  },'
+      '  "enable_property_versioning": true,'
       '  "gcs_bucket": "fuchsia-build",'
       '  "manifest": "manifest",'
       '  "project": "jiri",'
