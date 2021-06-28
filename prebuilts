@@ -437,6 +437,12 @@
              path="prebuilt/touch/gt9293-astro"
              platforms="linux-amd64,linux-arm64,mac-amd64"
              internal="true"/>
+    <!--   FocalTech FT5726 touch firmware for Sherlock -->
+    <package name="fuchsia_internal/firmware/touch/ft5726-sherlock"
+             version="40FAV8HHKUjyMdHNgOJDMSOKowsEiFQ_6opma5HZnN8C"
+             path="prebuilt/touch/ft5726-sherlock"
+             platforms="linux-amd64,linux-arm64,mac-amd64"
+             internal="true"/>
 
     <!--   ADSP SST firmware -->
     <package name="fuchsia_internal/firmware/intel-adsp-sst"
