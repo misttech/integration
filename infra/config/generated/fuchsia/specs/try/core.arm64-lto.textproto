@@ -13,6 +13,7 @@ build {
   fint_params_path: "integration/infra/config/generated/fuchsia/specs/try/core.arm64-lto.fint.textproto"
   run_tests: true
   stats_gcs_bucket: "fuchsia-artifacts"
+  timeout_secs: 10800
 }
 test {
   pave: true
