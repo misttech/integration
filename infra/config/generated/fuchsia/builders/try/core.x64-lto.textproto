@@ -59,7 +59,7 @@ swarming {
       '  "recipe": "fuchsia/fuchsia",'
       '  "spec_remote": "https://fuchsia.googlesource.com/integration"'
       '}'
-    execution_timeout_secs: 8400
+    execution_timeout_secs: 14400
     caches {
       name: "builder"
       path: "builder"
