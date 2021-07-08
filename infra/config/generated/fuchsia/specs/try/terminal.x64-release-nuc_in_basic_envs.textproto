@@ -19,7 +19,7 @@ test {
   pool: "fuchsia.tests"
   swarming_expiration_timeout_secs: 18000
   swarming_io_timeout_secs: 310
-  timeout_secs: 1800
+  timeout_secs: 1200
   max_attempts: 2
   default_service_account: "artifact-readers@fuchsia-infra.iam.gserviceaccount.com"
   per_test_timeout_secs: 300
