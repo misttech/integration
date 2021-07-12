@@ -1,0 +1,12 @@
+{
+  "$fuchsia/autocorrelator": {
+    "ci_bucket": "global.ci"
+  },
+  "$recipe_engine/swarming": {
+    "server": "https://chromium-swarm.appspot.com"
+  },
+  "enable_property_versioning": true,
+  "experimental.rbe_cas": true,
+  "recipe": "fuchsia/fuchsia",
+  "spec_remote": "https://fuchsia.googlesource.com/integration"
+}
