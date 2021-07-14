@@ -34,7 +34,7 @@ acls {
 }
 swarming {
   builders {
-    name: "terminal.x64-perfcompare-dawson_canyon"
+    name: "terminal.x64-release-perfcompare"
     swarming_host: "chromium-swarm.appspot.com"
     dimensions: "cores:2"
     dimensions: "cpu:x64"
@@ -53,10 +53,11 @@ swarming {
       '  },'
       '  "enable_property_versioning": true,'
       '  "experimental.rbe_cas": true,'
-      '  "recipe": "no_op",'
-      '  "summary_markdown": ""'
+      '  "perfcompare": true,'
+      '  "recipe": "fuchsia/fuchsia",'
+      '  "spec_remote": "https://fuchsia.googlesource.com/integration"'
       '}'
-    execution_timeout_secs: 600
+    execution_timeout_secs: 16800
     caches {
       name: "builder"
       path: "builder"
@@ -69,6 +70,21 @@ swarming {
     experiments {
       key: "luci.use_realms"
       value: 100
+    }
+    resultdb {
+      enable: true
+      bq_exports {
+        project: "fuchsia-infra"
+        dataset: "resultdb"
+        table: "try"
+        test_results {}
+      }
+      bq_exports {
+        project: "fuchsia-infra"
+        dataset: "resultdb"
+        table: "artifacts_try"
+        text_artifacts {}
+      }
     }
   }
 }

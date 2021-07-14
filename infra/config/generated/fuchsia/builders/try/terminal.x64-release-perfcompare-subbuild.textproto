@@ -34,7 +34,7 @@ acls {
 }
 swarming {
   builders {
-    name: "terminal.x64-perfcompare-dawson_canyon-subbuild"
+    name: "terminal.x64-release-perfcompare-subbuild"
     swarming_host: "chromium-swarm.appspot.com"
     dimensions: "cores:32"
     dimensions: "cpu:x64"
