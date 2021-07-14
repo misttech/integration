@@ -10,7 +10,7 @@ checkout {
   remote: "https://fuchsia.googlesource.com/integration"
 }
 build {
-  fint_params_path: "integration/infra/config/generated/fuchsia/specs/try/terminal.x64-perfcompare-dawson_canyon.fint.textproto"
+  fint_params_path: "integration/infra/config/generated/fuchsia/specs/try/terminal.x64-release-perfcompare.fint.textproto"
   run_tests: true
   stats_gcs_bucket: "fuchsia-artifacts"
 }
