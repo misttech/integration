@@ -514,6 +514,12 @@
              platforms="linux-amd64,linux-arm64,mac-amd64"
              internal="true"/>
 
+    <!-- Packages for CTS -->
+    <package name="fuchsia/cts/canary/${platform}"
+             path="prebuilt/cts/canary/{{.OS}}-{{.Arch}}"
+             platforms="linux-amd64"
+             version="git_revision:6871872ebaf9062a96a04d613ebd799e046963bc"/>
+
     <!-- Packages in /infra/tools/ -->
     <package name="infra/tools/bb/${platform}"
              path="prebuilt/tools/buildbucket"
