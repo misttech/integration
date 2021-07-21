@@ -1,0 +1,13 @@
+{
+  "$recipe_engine/swarming": {
+    "server": "https://chromium-swarm.appspot.com"
+  },
+  "bin_name": "bindgen",
+  "cipd_package": "fuchsia/third_party/rust_bindgen/${platform}",
+  "dry_run": true,
+  "enable_property_versioning": true,
+  "experimental.rbe_cas": true,
+  "features": [],
+  "recipe": "contrib/cargo_build",
+  "remote": "https://fuchsia.googlesource.com/third_party/github.com/rust-lang/rust-bindgen"
+}

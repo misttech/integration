@@ -1,0 +1,9 @@
+{
+  "$recipe_engine/swarming": {
+    "server": "https://chromium-swarm.appspot.com"
+  },
+  "experimental.rbe_cas": true,
+  "gcs_bucket": "fuchsia-build",
+  "platform": "mac-amd64",
+  "recipe": "contrib/bloaty"
+}

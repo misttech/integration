@@ -1,0 +1,9 @@
+{
+  "$recipe_engine/swarming": {
+    "server": "https://chromium-swarm.appspot.com"
+  },
+  "enable_property_versioning": true,
+  "experimental.rbe_cas": true,
+  "recipe": "contrib/tensorflow",
+  "version": "1.15.0"
+}

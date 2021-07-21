@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <imports>
+    <localimport file="../flower"/>
+  </imports>
+  <projects>
+    <project name="third_party/ffmpeg"
+             path="third_party/ffmpeg"
+             remote="https://fuchsia.googlesource.com/third_party/ffmpeg"
+             gerrithost="https://fuchsia-review.googlesource.com"
+             revision="9737a5e69edf380d74d1956a5982f7380b2c628d"/>
+    <project name="third_party/yasm"
+             path="third_party/yasm"
+             remote="https://fuchsia.googlesource.com/third_party/yasm"
+             gerrithost="https://fuchsia-review.googlesource.com"
+             revision="0132c5ac1619460139eb0bc5dedc7193f4a59500"/>
+  </projects>
+</manifest>

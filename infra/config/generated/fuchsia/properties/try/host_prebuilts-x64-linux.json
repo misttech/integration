@@ -1,0 +1,26 @@
+{
+  "$recipe_engine/swarming": {
+    "server": "https://chromium-swarm.appspot.com"
+  },
+  "enable_property_versioning": true,
+  "experimental.rbe_cas": true,
+  "fint_params_path": "integration/infra/config/generated/fuchsia/specs/try/host_prebuilts-x64-linux.fint.textproto",
+  "manifest": "flower",
+  "recipe": "prebuilt_host_tool",
+  "remote": "https://fuchsia.googlesource.com/integration",
+  "tools": [
+    {
+      "cipd_package": "fuchsia/tools/futility/${platform}",
+      "name": "futility"
+    },
+    {
+      "cipd_package": "fuchsia/tools/json_validator/${platform}",
+      "name": "json_validator"
+    },
+    {
+      "gcs_bucket": "fuchsia-ffx",
+      "gcs_path": "ffx-linux-x64",
+      "name": "ffx"
+    }
+  ]
+}

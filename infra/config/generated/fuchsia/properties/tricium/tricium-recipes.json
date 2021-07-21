@@ -1,0 +1,26 @@
+{
+  "$recipe_engine/swarming": {
+    "server": "https://chromium-swarm.appspot.com"
+  },
+  "analyses": [
+    "Black"
+  ],
+  "cipd_packages": [
+    {
+      "name": "fuchsia/tools/black/linux-amd64",
+      "subdir": "",
+      "version": "version:20.8b1"
+    }
+  ],
+  "enable_property_versioning": true,
+  "experimental.rbe_cas": true,
+  "luci_analyzers": [
+    "Copyright",
+    "Pylint",
+    "Spacey",
+    "Spellchecker"
+  ],
+  "manifest": "manifest/minimal",
+  "recipe": "tricium/tricium",
+  "remote": "https://fuchsia.googlesource.com/infra/recipes"
+}

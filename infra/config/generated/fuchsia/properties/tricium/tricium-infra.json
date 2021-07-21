@@ -1,0 +1,26 @@
+{
+  "$recipe_engine/swarming": {
+    "server": "https://chromium-swarm.appspot.com"
+  },
+  "analyses": [
+    "GoFmt",
+    "GoVet"
+  ],
+  "cipd_packages": [
+    {
+      "name": "fuchsia/go/linux-amd64",
+      "subdir": "go/linux-x64",
+      "version": "integration"
+    }
+  ],
+  "enable_property_versioning": true,
+  "experimental.rbe_cas": true,
+  "luci_analyzers": [
+    "Copyright",
+    "Spacey",
+    "Spellchecker"
+  ],
+  "manifest": "manifest",
+  "recipe": "tricium/tricium",
+  "remote": "https://fuchsia.googlesource.com/infra/infra"
+}

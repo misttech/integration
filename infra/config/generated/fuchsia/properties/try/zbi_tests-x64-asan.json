@@ -1,0 +1,22 @@
+{
+  "$fuchsia/autocorrelator": {
+    "ci_bucket": "global.ci"
+  },
+  "$recipe_engine/swarming": {
+    "server": "https://chromium-swarm.appspot.com"
+  },
+  "allowed_device_types": [
+    "QEMU",
+    "AEMU",
+    "Intel NUC Kit NUC7i5DNHE"
+  ],
+  "artifact_gcs_bucket": "fuchsia-artifacts",
+  "enable_property_versioning": true,
+  "experimental.rbe_cas": true,
+  "fint_params_path": "integration/infra/config/generated/fuchsia/specs/try/zbi_tests-x64-asan.fint.textproto",
+  "manifest": "flower",
+  "max_attempts_per_test": 2,
+  "recipe": "zbi_test",
+  "remote": "https://fuchsia.googlesource.com/integration",
+  "test_pool": "fuchsia.tests"
+}

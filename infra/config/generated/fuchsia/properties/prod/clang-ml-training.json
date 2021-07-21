@@ -1,0 +1,14 @@
+{
+  "$recipe_engine/swarming": {
+    "server": "https://chromium-swarm.appspot.com"
+  },
+  "enable_property_versioning": true,
+  "experimental.rbe_cas": true,
+  "fint_params_paths": {
+    "arm64": "integration/infra/config/generated/fuchsia/specs/prod/clang-ml-training-arm64.fint.textproto",
+    "x64": "integration/infra/config/generated/fuchsia/specs/prod/clang-ml-training-x64.fint.textproto"
+  },
+  "manifest": "flower",
+  "recipe": "contrib/clang_ml_training",
+  "remote": "https://fuchsia.googlesource.com/integration"
+}

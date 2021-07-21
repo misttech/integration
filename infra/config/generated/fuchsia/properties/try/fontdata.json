@@ -1,0 +1,14 @@
+{
+  "$recipe_engine/swarming": {
+    "server": "https://chromium-swarm.appspot.com"
+  },
+  "cipd_pkg_name": "fuchsia/third_party/fonts",
+  "content_manifest": "fontdata/contents.json",
+  "enable_property_versioning": true,
+  "experimental.rbe_cas": true,
+  "manifest": "manifest.xml",
+  "packing_script": "fontdata/packing_script.py",
+  "project": "fontdata",
+  "recipe": "contrib/3p_prebuilts",
+  "remote": "https://fuchsia.googlesource.com/fontdata"
+}

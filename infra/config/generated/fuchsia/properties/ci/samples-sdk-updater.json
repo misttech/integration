@@ -1,0 +1,15 @@
+{
+  "$recipe_engine/swarming": {
+    "server": "https://chromium-swarm.appspot.com"
+  },
+  "attempt_roll": true,
+  "enable_property_versioning": true,
+  "experimental.rbe_cas": true,
+  "recipe": "run_script",
+  "remote": "https://fuchsia.googlesource.com/samples",
+  "roll_props": {
+    "commit_untracked_files": true,
+    "dry_run": false
+  },
+  "script": "scripts/update-fuchsia-sdk.sh"
+}

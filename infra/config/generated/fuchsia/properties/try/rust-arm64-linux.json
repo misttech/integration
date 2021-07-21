@@ -1,0 +1,21 @@
+{
+  "$recipe_engine/swarming": {
+    "server": "https://chromium-swarm.appspot.com"
+  },
+  "builders": {
+    "linux-amd64": [
+      "rust_toolchain.core.arm64-debug",
+      "rust_toolchain.core.arm64-release",
+      "rust_toolchain.core.x64-debug",
+      "rust_toolchain.core.x64-release"
+    ],
+    "mac-amd64": [
+      "rust_toolchain.core.x64-host_test_only-mac"
+    ]
+  },
+  "experimental.rbe_cas": true,
+  "package": "rust",
+  "project": "integration",
+  "recipe": "contrib/rust_toolchain",
+  "remote": "https://fuchsia.googlesource.com/integration"
+}

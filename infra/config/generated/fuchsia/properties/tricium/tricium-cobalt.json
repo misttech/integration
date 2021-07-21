@@ -1,0 +1,19 @@
+{
+  "$recipe_engine/swarming": {
+    "server": "https://chromium-swarm.appspot.com"
+  },
+  "analyses": [
+    "ClangTidy"
+  ],
+  "enable_property_versioning": true,
+  "experimental.rbe_cas": true,
+  "fint_params_path": "integration/infra/config/generated/fuchsia/specs/tricium/tricium-cobalt.fint.textproto",
+  "luci_analyzers": [
+    "Copyright",
+    "Spacey",
+    "Spellchecker"
+  ],
+  "manifest": "flower",
+  "recipe": "tricium/tricium",
+  "remote": "https://fuchsia.googlesource.com/integration"
+}

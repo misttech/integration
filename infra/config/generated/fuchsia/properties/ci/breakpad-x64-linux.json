@@ -1,0 +1,12 @@
+{
+  "$recipe_engine/swarming": {
+    "server": "https://chromium-swarm.appspot.com"
+  },
+  "cipd_target": "linux-amd64",
+  "enable_property_versioning": true,
+  "experimental.rbe_cas": true,
+  "gcs_bucket": "fuchsia-build",
+  "recipe": "contrib/breakpad_tools",
+  "recipes_host_override": "fuchsia.googlesource.com",
+  "recipes_integration_ref_override": "refs/heads/main"
+}

@@ -1,0 +1,11 @@
+{
+  "$recipe_engine/swarming": {
+    "server": "https://chromium-swarm.appspot.com"
+  },
+  "enable_property_versioning": true,
+  "experimental.rbe_cas": true,
+  "fint_params_path": "integration/infra/config/generated/fuchsia/specs/global.ci/static-checks.fint.textproto",
+  "manifest": "flower",
+  "recipe": "static_checks",
+  "remote": "https://fuchsia.googlesource.com/integration"
+}

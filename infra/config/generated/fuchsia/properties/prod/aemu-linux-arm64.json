@@ -1,0 +1,10 @@
+{
+  "$recipe_engine/swarming": {
+    "server": "https://chromium-swarm.appspot.com"
+  },
+  "experimental.rbe_cas": true,
+  "platform": "linux-arm64",
+  "recipe": "contrib/aemu",
+  "recipes_host_override": "fuchsia.googlesource.com",
+  "recipes_integration_ref_override": "refs/heads/main"
+}

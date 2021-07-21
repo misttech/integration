@@ -1,0 +1,11 @@
+{
+  "$recipe_engine/swarming": {
+    "server": "https://chromium-swarm.appspot.com"
+  },
+  "child_builder": "recipe_bootstrap-e2e-test-child",
+  "enable_property_versioning": true,
+  "experimental.rbe_cas": true,
+  "go_package": "go.fuchsia.dev/infra/cmd/recipe_bootstrap",
+  "recipe": "recipe_bootstrap_test/parent",
+  "repo": "https://fuchsia.googlesource.com/infra/infra"
+}
