@@ -2,7 +2,7 @@
 # Do not modify manually.
 
 optimize: DEBUG
-board: "boards/vim3.gni"
+board: "boards/vim3-reduced-perf-variation.gni"
 product: "products/terminal.gni"
 gn_args: "build_should_trace_actions = true"
 ninja_targets: "bundles:build_infra"
