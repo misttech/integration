@@ -604,6 +604,11 @@
              path="prebuilt/starnix/android-root-amd64"
              version="version:0.2"/>
 
+    <!-- Starnix root filesystem image for testing -->
+    <package name="fuchsia/starnix/android-image-amd64"
+             path="prebuilt/starnix/android-image-amd64"
+             version="version:0.1"/>
+
     <!-- Starnix test binaries -->
     <package name="fuchsia/starnix/tests/syscalls/linux-amd64"
              path="prebuilt/starnix/tests/syscalls/linux-amd64"
