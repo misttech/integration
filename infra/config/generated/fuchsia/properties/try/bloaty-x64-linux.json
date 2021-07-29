@@ -5,5 +5,6 @@
   "enable_property_versioning": false,
   "gcs_bucket": "fuchsia-build",
   "platform": "linux-amd64",
-  "recipe": "contrib/bloaty"
+  "recipe": "contrib/bloaty",
+  "recipes_integration_ref_override": "refs/heads/main"
 }
