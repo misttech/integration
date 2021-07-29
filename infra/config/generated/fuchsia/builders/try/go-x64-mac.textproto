@@ -51,6 +51,7 @@ swarming {
       '  "$recipe_engine/swarming": {'
       '    "server": "https://chromium-swarm.appspot.com"'
       '  },'
+      '  "enable_property_versioning": false,'
       '  "platform": "mac-amd64",'
       '  "recipe": "contrib/go_toolchain"'
       '}'
