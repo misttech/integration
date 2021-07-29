@@ -50,7 +50,8 @@ swarming {
       '  "enable_property_versioning": false,'
       '  "gcs_bucket": "fuchsia-build",'
       '  "platform": "linux-arm64",'
-      '  "recipe": "contrib/bloaty"'
+      '  "recipe": "contrib/bloaty",'
+      '  "recipes_integration_ref_override": "refs/heads/main"'
       '}'
     execution_timeout_secs: 8400
     caches {
