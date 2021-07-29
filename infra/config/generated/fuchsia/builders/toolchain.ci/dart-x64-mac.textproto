@@ -43,6 +43,7 @@ swarming {
       '  "$recipe_engine/swarming": {'
       '    "server": "https://chromium-swarm.appspot.com"'
       '  },'
+      '  "enable_property_versioning": false,'
       '  "gcs_bucket": "fuchsia-build",'
       '  "macos_sdk.version": "11C29",'
       '  "recipe": "contrib/dart_toolchain",'
