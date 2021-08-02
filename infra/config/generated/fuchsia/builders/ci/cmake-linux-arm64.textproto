@@ -47,8 +47,9 @@ swarming {
       '  "$recipe_engine/swarming": {'
       '    "server": "https://chromium-swarm.appspot.com"'
       '  },'
-      '  "enable_property_versioning": false,'
-      '  "recipe": "contrib/cmake"'
+      '  "enable_property_versioning": true,'
+      '  "recipe": "contrib/cmake",'
+      '  "recipes_integration_ref_override": "refs/heads/main"'
       '}'
     execution_timeout_secs: 8400
     caches {
