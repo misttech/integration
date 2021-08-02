@@ -13,10 +13,11 @@
       "rust_toolchain.core.x64-host_test_only-mac"
     ]
   },
-  "enable_property_versioning": false,
+  "enable_property_versioning": true,
   "gcs_bucket": "fuchsia-build",
   "package": "rust_tools",
   "project": "integration",
   "recipe": "contrib/rust_toolchain",
+  "recipes_integration_ref_override": "refs/heads/main",
   "remote": "https://fuchsia.googlesource.com/integration"
 }

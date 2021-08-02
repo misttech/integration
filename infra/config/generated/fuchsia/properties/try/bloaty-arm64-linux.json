@@ -2,7 +2,7 @@
   "$recipe_engine/swarming": {
     "server": "https://chromium-swarm.appspot.com"
   },
-  "enable_property_versioning": false,
+  "enable_property_versioning": true,
   "gcs_bucket": "fuchsia-build",
   "platform": "linux-arm64",
   "recipe": "contrib/bloaty",
