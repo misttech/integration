@@ -44,7 +44,7 @@ swarming {
       '  "recipe": "contrib/clang_ml_training",'
       '  "remote": "https://fuchsia.googlesource.com/integration"'
       '}'
-    execution_timeout_secs: 86400
+    execution_timeout_secs: 129600
     caches {
       name: "builder"
       path: "builder"
