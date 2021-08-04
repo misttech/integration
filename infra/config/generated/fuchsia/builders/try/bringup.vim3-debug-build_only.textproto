@@ -49,9 +49,6 @@ swarming {
     }
     properties:
       '{'
-      '  "$fuchsia/autocorrelator": {'
-      '    "ci_bucket": "global.ci"'
-      '  },'
       '  "$recipe_engine/swarming": {'
       '    "server": "https://chromium-swarm.appspot.com"'
       '  },'
