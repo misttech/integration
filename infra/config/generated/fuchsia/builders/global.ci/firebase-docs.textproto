@@ -36,20 +36,7 @@ swarming {
     }
     properties:
       '{'
-      '  "$recipe_engine/swarming": {'
-      '    "server": "https://chromium-swarm.appspot.com"'
-      '  },'
       '  "enable_property_versioning": true,'
-      '  "fint_params_path": "integration/infra/config/generated/fuchsia/specs/global.ci/firebase-docs.fint.textproto",'
-      '  "gcs_bucket": "fuchsia-build",'
-      '  "generators": ['
-      '    "clangdoc",'
-      '    "dartdoc",'
-      '    "fidldoc",'
-      '    "rustdoc"'
-      '  ],'
-      '  "manifest": "flower",'
-      '  "output_name": "all",'
       '  "recipe": "contrib/firebase_docs"'
       '}'
     execution_timeout_secs: 16200

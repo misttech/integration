@@ -48,10 +48,6 @@ swarming {
     }
     properties:
       '{'
-      '  "$recipe_engine/swarming": {'
-      '    "server": "https://chromium-swarm.appspot.com"'
-      '  },'
-      '  "dry_run": true,'
       '  "enable_property_versioning": true,'
       '  "recipe": "contrib/jq"'
       '}'

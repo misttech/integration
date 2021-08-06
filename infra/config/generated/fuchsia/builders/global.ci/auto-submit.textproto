@@ -36,12 +36,6 @@ swarming {
     }
     properties:
       '{'
-      '  "$fuchsia/gerrit_auto_submit": {'
-      '    "tree_status_host": "fuchsia-stem-status.appspot.com"'
-      '  },'
-      '  "$recipe_engine/swarming": {'
-      '    "server": "https://chromium-swarm.appspot.com"'
-      '  },'
       '  "enable_property_versioning": true,'
       '  "recipe": "gerrit_auto_submit"'
       '}'
