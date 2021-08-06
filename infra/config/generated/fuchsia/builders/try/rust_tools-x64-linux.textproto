@@ -48,26 +48,9 @@ swarming {
     }
     properties:
       '{'
-      '  "$recipe_engine/swarming": {'
-      '    "server": "https://chromium-swarm.appspot.com"'
-      '  },'
-      '  "builders": {'
-      '    "linux-amd64": ['
-      '      "rust_toolchain.core.arm64-debug",'
-      '      "rust_toolchain.core.arm64-release",'
-      '      "rust_toolchain.core.x64-debug",'
-      '      "rust_toolchain.core.x64-release"'
-      '    ],'
-      '    "mac-amd64": ['
-      '      "rust_toolchain.core.x64-host_test_only-mac"'
-      '    ]'
-      '  },'
       '  "enable_property_versioning": true,'
-      '  "package": "rust_tools",'
-      '  "project": "integration",'
       '  "recipe": "contrib/rust_toolchain",'
-      '  "recipes_integration_ref_override": "refs/heads/main",'
-      '  "remote": "https://fuchsia.googlesource.com/integration"'
+      '  "recipes_integration_ref_override": "refs/heads/main"'
       '}'
     execution_timeout_secs: 18000
     caches {

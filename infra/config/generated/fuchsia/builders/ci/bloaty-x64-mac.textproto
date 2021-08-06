@@ -44,12 +44,7 @@ swarming {
     }
     properties:
       '{'
-      '  "$recipe_engine/swarming": {'
-      '    "server": "https://chromium-swarm.appspot.com"'
-      '  },'
       '  "enable_property_versioning": true,'
-      '  "gcs_bucket": "fuchsia-build",'
-      '  "platform": "mac-amd64",'
       '  "recipe": "contrib/bloaty",'
       '  "recipes_integration_ref_override": "refs/heads/main"'
       '}'

@@ -44,15 +44,8 @@ swarming {
     }
     properties:
       '{'
-      '  "$recipe_engine/swarming": {'
-      '    "server": "https://chromium-swarm.appspot.com"'
-      '  },'
-      '  "cluster": "rbe-dev",'
-      '  "cluster_project": "fuchsia-infra-goma-dev",'
-      '  "dry_run": false,'
       '  "enable_property_versioning": true,'
-      '  "recipe": "contrib/goma_gcp_configurator",'
-      '  "toolchain_project": "fuchsia-toolchain-images-gcr"'
+      '  "recipe": "contrib/goma_gcp_configurator"'
       '}'
     execution_timeout_secs: 8400
     caches {
