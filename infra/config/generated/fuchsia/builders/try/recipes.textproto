@@ -48,20 +48,8 @@ swarming {
     }
     properties:
       '{'
-      '  "$recipe_engine/swarming": {'
-      '    "server": "https://chromium-swarm.appspot.com"'
-      '  },'
-      '  "check_deps": true,'
-      '  "cq_config_name": "fake-commit-queue.cfg",'
       '  "enable_property_versioning": true,'
-      '  "include_private": false,'
-      '  "include_public": true,'
-      '  "manifest": "manifest/minimal",'
-      '  "project": "integration",'
-      '  "recipe": "recipes",'
-      '  "remote": "https://fuchsia.googlesource.com/infra/recipes",'
-      '  "unittest_only": false,'
-      '  "use_buildbucket": true'
+      '  "recipe": "recipes"'
       '}'
     execution_timeout_secs: 16800
     caches {

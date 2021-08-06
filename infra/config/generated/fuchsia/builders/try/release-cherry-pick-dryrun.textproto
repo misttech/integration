@@ -48,25 +48,8 @@ swarming {
     }
     properties:
       '{'
-      '  "$recipe_engine/swarming": {'
-      '    "server": "https://chromium-swarm.appspot.com"'
-      '  },'
-      '  "bug": "71162",'
-      '  "changes": ['
-      '    {'
-      '      "change_id": "470562",'
-      '      "revision": "dde714227d7ec0fa474274d56d62b2d6c4ab62a1"'
-      '    }'
-      '  ],'
-      '  "dryrun": true,'
       '  "enable_property_versioning": true,'
-      '  "manifest": "manifests/flower",'
-      '  "project": "infra/roller-tests/integration",'
-      '  "recipe": "release/cherry_pick",'
-      '  "remote": "https://fuchsia.googlesource.com/infra/roller-tests/integration",'
-      '  "target_branch": "releases/test-branch",'
-      '  "target_project": "infra/roller-tests/test-project/rollable",'
-      '  "target_remote": "https://fuchsia.googlesource.com/infra/roller-tests/test-project"'
+      '  "recipe": "release/cherry_pick"'
       '}'
     execution_timeout_secs: 6000
     caches {

@@ -48,23 +48,8 @@ swarming {
     }
     properties:
       '{'
-      '  "$fuchsia/autocorrelator": {'
-      '    "ci_bucket": "global.ci"'
-      '  },'
-      '  "$recipe_engine/swarming": {'
-      '    "server": "https://chromium-swarm.appspot.com"'
-      '  },'
-      '  "allowed_device_types": ['
-      '    "QEMU"'
-      '  ],'
-      '  "artifact_gcs_bucket": "fuchsia-artifacts",'
       '  "enable_property_versioning": true,'
-      '  "fint_params_path": "integration/infra/config/generated/fuchsia/specs/try/zbi_tests-arm64.fint.textproto",'
-      '  "manifest": "flower",'
-      '  "max_attempts_per_test": 2,'
-      '  "recipe": "zbi_test",'
-      '  "remote": "https://fuchsia.googlesource.com/integration",'
-      '  "test_pool": "fuchsia.tests"'
+      '  "recipe": "zbi_test"'
       '}'
     execution_timeout_secs: 8400
     caches {

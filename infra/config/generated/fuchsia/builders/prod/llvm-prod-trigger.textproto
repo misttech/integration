@@ -32,22 +32,10 @@ swarming {
     }
     properties:
       '{'
-      '  "$recipe_engine/swarming": {'
-      '    "server": "https://chromium-swarm.appspot.com"'
-      '  },'
-      '  "bucket": "prod",'
-      '  "builders": ['
-      '    "llvm-fuchsia",'
-      '    "llvm-linux-arm64",'
-      '    "llvm-linux-x64",'
-      '    "llvm-mac-x64"'
-      '  ],'
       '  "enable_property_versioning": true,'
-      '  "enforce_output": true,'
       '  "recipe": "contrib/toolchain_trigger",'
       '  "recipes_host_override": "fuchsia.googlesource.com",'
-      '  "recipes_integration_ref_override": "refs/heads/main",'
-      '  "timeout": 21600'
+      '  "recipes_integration_ref_override": "refs/heads/main"'
       '}'
     execution_timeout_secs: 36000
     caches {

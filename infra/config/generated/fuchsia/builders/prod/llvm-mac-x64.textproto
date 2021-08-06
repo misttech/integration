@@ -32,11 +32,7 @@ swarming {
     }
     properties:
       '{'
-      '  "$recipe_engine/swarming": {'
-      '    "server": "https://chromium-swarm.appspot.com"'
-      '  },'
       '  "enable_property_versioning": true,'
-      '  "platform": "mac-amd64",'
       '  "recipe": "contrib/llvm",'
       '  "recipes_host_override": "fuchsia.googlesource.com",'
       '  "recipes_integration_ref_override": "refs/heads/main"'

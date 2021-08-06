@@ -36,15 +36,8 @@ swarming {
     }
     properties:
       '{'
-      '  "$recipe_engine/swarming": {'
-      '    "server": "https://chromium-swarm.appspot.com"'
-      '  },'
       '  "enable_property_versioning": true,'
-      '  "fint_params_path": "integration/infra/config/generated/fuchsia/specs/global.ci/kythe.fint.textproto",'
-      '  "gcs_bucket": "fuchsia-kythe",'
-      '  "manifest": "flower",'
-      '  "recipe": "contrib/kythe",'
-      '  "remote": "https://fuchsia.googlesource.com/integration"'
+      '  "recipe": "contrib/kythe"'
       '}'
     execution_timeout_secs: 18000
     caches {

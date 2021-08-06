@@ -36,18 +36,8 @@ swarming {
     }
     properties:
       '{'
-      '  "$recipe_engine/swarming": {'
-      '    "server": "https://chromium-swarm.appspot.com"'
-      '  },'
-      '  "cipd_root": "fuchsia",'
       '  "enable_property_versioning": true,'
-      '  "fint_params_path": "integration/infra/config/generated/fuchsia/specs/global.ci/sdk-core-mac.fint.textproto",'
-      '  "gcs_bucket": "fuchsia-artifacts",'
-      '  "manifest": "flower",'
-      '  "recipe": "sdk",'
-      '  "remote": "https://fuchsia.googlesource.com/integration",'
-      '  "sdk_name": "core",'
-      '  "subbuild_collect_timeout_secs": 7200'
+      '  "recipe": "sdk"'
       '}'
     execution_timeout_secs: 8400
     caches {

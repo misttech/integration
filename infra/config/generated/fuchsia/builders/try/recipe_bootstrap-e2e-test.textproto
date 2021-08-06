@@ -48,14 +48,8 @@ swarming {
     }
     properties:
       '{'
-      '  "$recipe_engine/swarming": {'
-      '    "server": "https://chromium-swarm.appspot.com"'
-      '  },'
-      '  "child_builder": "recipe_bootstrap-e2e-test-child",'
       '  "enable_property_versioning": true,'
-      '  "go_package": "go.fuchsia.dev/infra/cmd/recipe_bootstrap",'
-      '  "recipe": "recipe_bootstrap_test/parent",'
-      '  "repo": "https://fuchsia.googlesource.com/infra/infra"'
+      '  "recipe": "recipe_bootstrap_test/parent"'
       '}'
     execution_timeout_secs: 4200
     caches {

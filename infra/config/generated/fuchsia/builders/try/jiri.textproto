@@ -48,14 +48,8 @@ swarming {
     }
     properties:
       '{'
-      '  "$recipe_engine/swarming": {'
-      '    "server": "https://chromium-swarm.appspot.com"'
-      '  },'
       '  "enable_property_versioning": true,'
-      '  "manifest": "manifest",'
-      '  "project": "jiri",'
-      '  "recipe": "jiri",'
-      '  "remote": "https://fuchsia.googlesource.com/jiri"'
+      '  "recipe": "jiri"'
       '}'
     execution_timeout_secs: 8400
     caches {

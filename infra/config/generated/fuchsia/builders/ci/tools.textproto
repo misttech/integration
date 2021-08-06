@@ -44,14 +44,8 @@ swarming {
     }
     properties:
       '{'
-      '  "$recipe_engine/swarming": {'
-      '    "server": "https://chromium-swarm.appspot.com"'
-      '  },'
       '  "enable_property_versioning": true,'
-      '  "manifest": "manifest",'
-      '  "project": "tools",'
-      '  "recipe": "tools",'
-      '  "remote": "https://fuchsia.googlesource.com/tools"'
+      '  "recipe": "tools"'
       '}'
     execution_timeout_secs: 4200
     caches {

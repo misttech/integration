@@ -48,17 +48,8 @@ swarming {
     }
     properties:
       '{'
-      '  "$fuchsia/autocorrelator": {'
-      '    "ci_bucket": "global.ci"'
-      '  },'
-      '  "$recipe_engine/swarming": {'
-      '    "server": "https://chromium-swarm.appspot.com"'
-      '  },'
       '  "enable_property_versioning": true,'
-      '  "fint_params_path": "integration/infra/config/generated/fuchsia/specs/try/static-checks.fint.textproto",'
-      '  "manifest": "flower",'
-      '  "recipe": "static_checks",'
-      '  "remote": "https://fuchsia.googlesource.com/integration"'
+      '  "recipe": "static_checks"'
       '}'
     execution_timeout_secs: 4200
     caches {

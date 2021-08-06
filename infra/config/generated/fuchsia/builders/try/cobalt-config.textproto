@@ -48,14 +48,8 @@ swarming {
     }
     properties:
       '{'
-      '  "$recipe_engine/swarming": {'
-      '    "server": "https://chromium-swarm.appspot.com"'
-      '  },'
       '  "enable_property_versioning": true,'
-      '  "fint_params_path": "integration/infra/config/generated/fuchsia/specs/try/cobalt-config.fint.textproto",'
-      '  "manifest": "flower",'
-      '  "recipe": "cobalt_config",'
-      '  "remote": "https://fuchsia.googlesource.com/integration"'
+      '  "recipe": "cobalt_config"'
       '}'
     execution_timeout_secs: 1800
     caches {

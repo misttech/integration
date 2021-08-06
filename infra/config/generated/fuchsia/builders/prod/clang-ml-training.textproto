@@ -32,17 +32,8 @@ swarming {
     }
     properties:
       '{'
-      '  "$recipe_engine/swarming": {'
-      '    "server": "https://chromium-swarm.appspot.com"'
-      '  },'
       '  "enable_property_versioning": true,'
-      '  "fint_params_paths": {'
-      '    "arm64": "integration/infra/config/generated/fuchsia/specs/prod/clang-ml-training-arm64.fint.textproto",'
-      '    "x64": "integration/infra/config/generated/fuchsia/specs/prod/clang-ml-training-x64.fint.textproto"'
-      '  },'
-      '  "manifest": "flower",'
-      '  "recipe": "contrib/clang_ml_training",'
-      '  "remote": "https://fuchsia.googlesource.com/integration"'
+      '  "recipe": "contrib/clang_ml_training"'
       '}'
     execution_timeout_secs: 129600
     caches {

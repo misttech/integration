@@ -44,13 +44,7 @@ swarming {
     }
     properties:
       '{'
-      '  "$recipe_engine/swarming": {'
-      '    "server": "https://chromium-swarm.appspot.com"'
-      '  },'
-      '  "cluster": "rbe-dev",'
-      '  "deploy_endpoint": true,'
       '  "enable_property_versioning": true,'
-      '  "project": "fuchsia-infra-goma-dev",'
       '  "recipe": "contrib/goma_gcp_deployer"'
       '}'
     execution_timeout_secs: 8400

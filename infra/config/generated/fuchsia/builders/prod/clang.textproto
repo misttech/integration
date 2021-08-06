@@ -32,17 +32,8 @@ swarming {
     }
     properties:
       '{'
-      '  "$recipe_engine/swarming": {'
-      '    "server": "https://chromium-swarm.appspot.com"'
-      '  },'
-      '  "builders": ['
-      '    "clang-linux-arm64",'
-      '    "clang-linux-x64",'
-      '    "clang-mac-x64"'
-      '  ],'
       '  "enable_property_versioning": true,'
-      '  "recipe": "contrib/buildbucket_trigger",'
-      '  "timeout": 21600'
+      '  "recipe": "contrib/buildbucket_trigger"'
       '}'
     execution_timeout_secs: 21600
     caches {
