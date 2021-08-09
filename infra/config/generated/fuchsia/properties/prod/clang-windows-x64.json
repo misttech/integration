@@ -1,0 +1,21 @@
+{
+  "$recipe_engine/swarming": {
+    "server": "https://chromium-swarm.appspot.com"
+  },
+  "builders": {
+    "linux-amd64": [
+      "clang_toolchain.core.arm64-debug",
+      "clang_toolchain.core.arm64-release",
+      "clang_toolchain.core.x64-debug",
+      "clang_toolchain.core.x64-release"
+    ],
+    "mac-amd64": [
+      "clang_toolchain.core.x64-host_test_only-mac"
+    ]
+  },
+  "enable_property_versioning": true,
+  "platform": "windows-amd64",
+  "recipe": "contrib/clang_toolchain",
+  "recipes_host_override": "fuchsia.googlesource.com",
+  "recipes_integration_ref_override": "refs/heads/main"
+}
