@@ -5,7 +5,6 @@
   "$recipe_engine/swarming": {
     "server": "https://chromium-swarm.appspot.com"
   },
-  "enable_property_versioning": true,
   "recipe": "fuchsia/build",
   "spec": {
     "artifact_gcs_bucket": "fuchsia-artifacts",
