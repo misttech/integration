@@ -3,8 +3,6 @@
     "server": "https://chromium-swarm.appspot.com"
   },
   "recipe": "fuchsia/fuchsia",
-  "recipes_host_override": "fuchsia.googlesource.com",
-  "recipes_integration_ref_override": "refs/heads/main",
   "spec": {
     "artifact_gcs_bucket": "fuchsia-artifacts",
     "build": {
