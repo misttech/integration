@@ -2,7 +2,6 @@
   "$recipe_engine/swarming": {
     "server": "https://chromium-swarm.appspot.com"
   },
-  "enable_property_versioning": true,
   "fint_params_path": "integration/infra/config/generated/fuchsia/specs/global.ci/linux-sysroot.fint.textproto",
   "manifest": "flower",
   "recipe": "contrib/linux_sysroot",

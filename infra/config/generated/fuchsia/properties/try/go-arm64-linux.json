@@ -2,7 +2,6 @@
   "$recipe_engine/swarming": {
     "server": "https://chromium-swarm.appspot.com"
   },
-  "enable_property_versioning": true,
   "platform": "linux-arm64",
   "recipe": "contrib/go_toolchain",
   "recipes_integration_ref_override": "refs/heads/main"
