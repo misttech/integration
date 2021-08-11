@@ -2,7 +2,6 @@
   "$recipe_engine/swarming": {
     "server": "https://chromium-swarm.appspot.com"
   },
-  "enable_property_versioning": true,
   "manifest": "flower",
   "recipe": "fuchsia/go_tests",
   "remote": "https://fuchsia.googlesource.com/integration"
