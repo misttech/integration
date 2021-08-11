@@ -20,6 +20,8 @@
     "gcs_bucket": "fuchsia-build",
     "test": {
       "affected_tests_multiply_threshold": 3,
+      "catapult_dashboard_bot": "fuchsia-arm64-vim3",
+      "catapult_dashboard_master": "fuchsia.global.ci",
       "default_service_account": "artifact-readers@fuchsia-infra.iam.gserviceaccount.com",
       "max_attempts": 1,
       "max_attempts_per_test": 1,
