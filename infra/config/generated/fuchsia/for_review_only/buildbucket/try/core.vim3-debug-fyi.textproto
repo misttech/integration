@@ -34,14 +34,13 @@ acls {
 }
 swarming {
   builders {
-    name: "core.vim3-debug-subbuild"
+    name: "core.vim3-debug-fyi"
     swarming_host: "chromium-swarm.appspot.com"
-    dimensions: "cores:32"
+    dimensions: "cores:2"
     dimensions: "cpu:x64"
     dimensions: "gce:1"
     dimensions: "os:Linux"
     dimensions: "pool:luci.fuchsia.try"
-    dimensions: "role:builder"
     exe {
       cipd_package: "fuchsia/infra/recipe_bootstrap/${platform}"
       cipd_version: "git_revision:e3fffe61742253e962ab81eceda7533d86910e34"
@@ -49,7 +48,7 @@ swarming {
     }
     properties:
       '{'
-      '  "recipe": "fuchsia/build"'
+      '  "recipe": "fuchsia/fuchsia"'
       '}'
     execution_timeout_secs: 8400
     caches {
@@ -59,11 +58,6 @@ swarming {
     caches {
       name: "symbol"
       path: "symbol"
-    }
-    caches {
-      name: "fuchsia_goma_a60ff3505d740cce43467461155fbe05dc7a056c89794387022e46208eecc1b6"
-      path: "goma"
-      wait_for_warm_cache_secs: 120
     }
     service_account: "fuchsia-try-builder@fuchsia-infra.iam.gserviceaccount.com"
     experiments {

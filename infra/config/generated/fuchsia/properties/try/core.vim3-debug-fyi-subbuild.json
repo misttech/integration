@@ -5,11 +5,11 @@
   "$recipe_engine/swarming": {
     "server": "https://chromium-swarm.appspot.com"
   },
-  "recipe": "fuchsia/fuchsia",
+  "recipe": "fuchsia/build",
   "spec": {
     "artifact_gcs_bucket": "fuchsia-artifacts",
     "build": {
-      "fint_params_path": "integration/infra/config/generated/fuchsia/specs/try/core.vim3-debug.fint.textproto",
+      "fint_params_path": "integration/infra/config/generated/fuchsia/specs/try/core.vim3-debug-fyi.fint.textproto",
       "run_tests": true,
       "stats_gcs_bucket": "fuchsia-artifacts"
     },
