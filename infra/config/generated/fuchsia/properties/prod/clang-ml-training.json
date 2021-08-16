@@ -3,8 +3,8 @@
     "server": "https://chromium-swarm.appspot.com"
   },
   "fint_params_paths": {
-    "arm64": "integration/infra/config/generated/fuchsia/fint_params/prod/clang-ml-training-arm64.textproto",
-    "x64": "integration/infra/config/generated/fuchsia/fint_params/prod/clang-ml-training-x64.textproto"
+    "arm64": "integration/infra/config/generated/fuchsia/specs/prod/clang-ml-training-arm64.fint.textproto",
+    "x64": "integration/infra/config/generated/fuchsia/specs/prod/clang-ml-training-x64.fint.textproto"
   },
   "manifest": "flower",
   "recipe": "contrib/clang_ml_training",

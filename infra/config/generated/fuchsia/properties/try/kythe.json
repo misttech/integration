@@ -2,7 +2,7 @@
   "$recipe_engine/swarming": {
     "server": "https://chromium-swarm.appspot.com"
   },
-  "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/try/kythe.textproto",
+  "fint_params_path": "integration/infra/config/generated/fuchsia/specs/try/kythe.fint.textproto",
   "gcs_bucket": "fuchsia-artifacts",
   "manifest": "flower",
   "recipe": "contrib/kythe",
