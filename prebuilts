@@ -513,6 +513,12 @@
              path="prebuilt/virtualization/packages/termina_guest/images/arm64"
              platforms="linux-amd64,linux-arm64,mac-amd64"
              internal="true"/>
+    <!-- biscotti stateful images -->
+    <package name="fuchsia_internal/linux/biscotti-stateful-x64"
+             version="9POs-OG-RMc4HA-pi9AI88gfQJnx6dh3jLT6ZTGcuS8C"
+             path="prebuilt/virtualization/packages/biscotti_guest/stateful/x64"
+             platforms="linux-amd64,mac-amd64"
+             internal="true"/>
 
     <!-- Packages for CTS -->
     <package name="fuchsia/cts/canary/${platform}"
