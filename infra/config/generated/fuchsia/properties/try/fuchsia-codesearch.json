@@ -1,0 +1,11 @@
+{
+  "$recipe_engine/swarming": {
+    "server": "https://chromium-swarm.appspot.com"
+  },
+  "dry_run": true,
+  "manifest": "flower",
+  "preserve_root": true,
+  "recipe": "code_search",
+  "remote": "https://fuchsia.googlesource.com/integration",
+  "super_manifest_project": "https://fuchsia.googlesource.com/codesearch"
+}
