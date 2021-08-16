@@ -2,7 +2,7 @@
   "$recipe_engine/swarming": {
     "server": "https://chromium-swarm.appspot.com"
   },
-  "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/global.ci/static-checks.textproto",
+  "fint_params_path": "integration/infra/config/generated/fuchsia/specs/global.ci/static-checks.fint.textproto",
   "manifest": "flower",
   "recipe": "static_checks",
   "remote": "https://fuchsia.googlesource.com/integration"
