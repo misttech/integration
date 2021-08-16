@@ -2,7 +2,7 @@
   "$recipe_engine/swarming": {
     "server": "https://chromium-swarm.appspot.com"
   },
-  "fint_params_path": "integration/infra/config/generated/fuchsia/specs/host_prebuilts-x64-linux.fint.textproto",
+  "fint_params_path": "integration/infra/config/generated/fuchsia/specs/global.ci/host_prebuilts-x64-linux.fint.textproto",
   "manifest": "flower",
   "recipe": "prebuilt_host_tool",
   "remote": "https://fuchsia.googlesource.com/integration",
