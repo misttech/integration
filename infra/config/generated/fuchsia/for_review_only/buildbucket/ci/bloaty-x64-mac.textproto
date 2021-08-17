@@ -44,8 +44,7 @@ swarming {
     }
     properties:
       '{'
-      '  "recipe": "contrib/bloaty",'
-      '  "recipes_integration_ref_override": "refs/heads/main"'
+      '  "recipe": "contrib/bloaty"'
       '}'
     execution_timeout_secs: 8400
     caches {
