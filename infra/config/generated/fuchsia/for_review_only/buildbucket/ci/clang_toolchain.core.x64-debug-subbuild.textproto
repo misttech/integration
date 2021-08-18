@@ -58,6 +58,10 @@ swarming {
       name: "symbol"
       path: "symbol"
     }
+    caches {
+      name: "fuchsia_incremental_356910f44c627388b5fc5f405a2ba12c6b4a440927cc2c19e0cb8c1ff35e201e"
+      path: "incremental"
+    }
     service_account: "fuchsia-ci-builder@fuchsia-infra.iam.gserviceaccount.com"
     experiments {
       key: "luci.use_realms"
