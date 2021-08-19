@@ -32,6 +32,7 @@ swarming {
     }
     properties:
       '{'
+      '  "led_builder_is_bootstrapped": true,'
       '  "recipe": "contrib/clang_ml_training"'
       '}'
     execution_timeout_secs: 129600

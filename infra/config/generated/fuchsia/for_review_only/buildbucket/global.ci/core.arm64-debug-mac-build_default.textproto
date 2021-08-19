@@ -37,6 +37,7 @@ swarming {
     }
     properties:
       '{'
+      '  "led_builder_is_bootstrapped": true,'
       '  "recipe": "fuchsia/build"'
       '}'
     execution_timeout_secs: 10200
