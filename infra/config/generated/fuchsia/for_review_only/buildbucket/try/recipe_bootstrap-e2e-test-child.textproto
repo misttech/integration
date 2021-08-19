@@ -48,6 +48,7 @@ swarming {
     }
     properties:
       '{'
+      '  "led_builder_is_bootstrapped": true,'
       '  "recipe": "recipe_bootstrap_test/child"'
       '}'
     execution_timeout_secs: 4200
