@@ -36,6 +36,7 @@ swarming {
     }
     properties:
       '{'
+      '  "led_builder_is_bootstrapped": true,'
       '  "recipe": "contrib/kythe"'
       '}'
     execution_timeout_secs: 18000
