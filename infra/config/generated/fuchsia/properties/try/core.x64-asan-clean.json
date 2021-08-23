@@ -1,7 +1,4 @@
 {
-  "$fuchsia/autocorrelator": {
-    "ci_bucket": "global.ci"
-  },
   "$recipe_engine/swarming": {
     "server": "https://chromium-swarm.appspot.com"
   },
@@ -9,8 +6,7 @@
   "spec": {
     "artifact_gcs_bucket": "fuchsia-artifacts",
     "build": {
-      "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/try/core.x64-asan.textproto",
-      "incremental": true,
+      "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/try/core.x64-asan-clean.textproto",
       "run_tests": true,
       "stats_gcs_bucket": "fuchsia-artifacts"
     },
