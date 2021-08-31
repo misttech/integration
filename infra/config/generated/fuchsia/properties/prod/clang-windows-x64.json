@@ -4,13 +4,13 @@
   },
   "builders": {
     "linux-amd64": [
-      "clang_toolchain.core.arm64-debug",
-      "clang_toolchain.core.arm64-release",
-      "clang_toolchain.core.x64-debug",
-      "clang_toolchain.core.x64-release"
+      "prod-clang_toolchain.core.arm64-debug",
+      "prod-clang_toolchain.core.arm64-release",
+      "prod-clang_toolchain.core.x64-debug",
+      "prod-clang_toolchain.core.x64-release"
     ],
     "mac-amd64": [
-      "clang_toolchain.core.x64-host_test_only-mac"
+      "prod-clang_toolchain.core.x64-host_test_only-mac"
     ]
   },
   "platform": "windows-amd64",
