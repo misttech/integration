@@ -308,6 +308,12 @@
              remote="https://fuchsia.googlesource.com/protobuf-gn"
              revision="c0a0aab0eae15a3f1bd765ae087fe3cc8f3aa8f8"
              gerrithost="https://fuchsia-review.googlesource.com"/>
+    <project name="parameterized"
+             path="third_party/parameterized/src"
+             remote="https://fuchsia.googlesource.com/third_party/github.com/wolever/parameterized"
+             gerrithost="https://fuchsia-review.googlesource.com"
+             revision="ff5a1dac3a704777100380229dce4ea149da8d41"/>
+    <!-- TODO(jayzhuang): remove old parameterized after transition is done. -->
     <project name="third_party/python/parameterized"
              path="third_party/python/parameterized"
              remote="https://fuchsia.googlesource.com/third_party/github.com/wolever/parameterized"
