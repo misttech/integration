@@ -16,6 +16,10 @@ acls {
   role: SCHEDULER
   identity: "user:luci-scheduler@appspot.gserviceaccount.com"
 }
+acls {
+  role: SCHEDULER
+  identity: "user:tools-prod-builder@fuchsia-infra.iam.gserviceaccount.com"
+}
 swarming {
   builders {
     name: "ninja-linux-arm64"
