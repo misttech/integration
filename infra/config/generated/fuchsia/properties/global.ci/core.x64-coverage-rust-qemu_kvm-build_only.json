@@ -1,7 +1,4 @@
 {
-  "$fuchsia/autocorrelator": {
-    "ci_bucket": "global.ci"
-  },
   "$recipe_engine/swarming": {
     "server": "https://chromium-swarm.appspot.com"
   },
@@ -9,13 +6,15 @@
   "spec": {
     "artifact_gcs_bucket": "fuchsia-artifacts",
     "build": {
-      "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/try/core.x64-coverage-rust-qemu_kvm-build_only.textproto",
-      "stats_gcs_bucket": "fuchsia-artifacts"
+      "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/global.ci/core.x64-coverage-rust-qemu_kvm-build_only.textproto",
+      "stats_gcs_bucket": "fuchsia-artifacts",
+      "upload_results": true
     },
     "checkout": {
       "manifest": "flower",
       "project": "integration",
-      "remote": "https://fuchsia.googlesource.com/integration"
+      "remote": "https://fuchsia.googlesource.com/integration",
+      "upload_results": true
     },
     "gcs_bucket": "fuchsia-build",
     "test": {
