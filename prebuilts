@@ -473,15 +473,27 @@
              internal="true"/>
 
     <!--   Linux guest kernel images for x64 -->
+    <!--   Listed twice for a soft migration: https://fxbug.dev/84205 -->
     <package name="fuchsia_internal/linux/linux_guest-4.18-x64"
              version="r4yuTxC-m_43eFAKoYcwkMgyG0Eln2ixujOfvUjnW2wC"
              path="prebuilt/virtualization/packages/linux_guest/images/x64"
              platforms="linux-amd64,linux-arm64,mac-amd64"
              internal="true"/>
+    <package name="fuchsia_internal/linux/linux_kernel-machina-4.18-x64"
+             version="VH6R-lR92IGg-ZeeT_7qktJmqDIdZJXSmRGecaPVkPoC"
+             path="prebuilt/virtualization/packages/termina_guest/kernel/x64"
+             platforms="linux-amd64,linux-arm64,mac-amd64"
+             internal="true"/>
     <!--   Linux guest kernel images for arm64 -->
+    <!--   Listed twice for a soft migration: https://fxbug.dev/84205 -->
     <package name="fuchsia_internal/linux/linux_guest-4.18-arm64"
              version="0CnuhYJt3lFtgUKkZM2bIfijssQTOTQ6ISqCWTB-RtoC"
              path="prebuilt/virtualization/packages/linux_guest/images/arm64"
+             platforms="linux-amd64,linux-arm64,mac-amd64"
+             internal="true"/>
+    <package name="fuchsia_internal/linux/linux_kernel-machina-4.18-arm64"
+             version="wrXUq26piwyxtLpavFpwDtOuJBVH9P7woTiWBoTgGM0C"
+             path="prebuilt/virtualization/packages/termina_guest/kernel/arm64"
              platforms="linux-amd64,linux-arm64,mac-amd64"
              internal="true"/>
     <!--   Debian guest kernel images for x64 -->
