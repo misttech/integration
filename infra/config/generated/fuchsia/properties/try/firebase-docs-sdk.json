@@ -2,16 +2,14 @@
   "$recipe_engine/swarming": {
     "server": "https://chromium-swarm.appspot.com"
   },
-  "dry_run": false,
-  "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/global.ci/firebase-docs.textproto",
+  "dry_run": true,
+  "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/try/firebase-docs-sdk.textproto",
   "gcs_bucket": "fuchsia-build",
   "generators": [
-    "clangdoc",
     "dartdoc",
-    "fidldoc",
-    "rustdoc"
+    "fidldoc"
   ],
   "manifest": "flower",
-  "output_name": "all",
+  "output_name": "sdk",
   "recipe": "contrib/firebase_docs"
 }
