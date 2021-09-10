@@ -1,7 +1,4 @@
 {
-  "$fuchsia/autocorrelator": {
-    "ci_bucket": "global.ci"
-  },
   "$recipe_engine/swarming": {
     "server": "https://chromium-swarm.appspot.com"
   },
@@ -10,14 +7,16 @@
   "spec": {
     "artifact_gcs_bucket": "fuchsia-artifacts",
     "build": {
-      "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/try/bringup.x64-gce.textproto",
+      "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/global.ci/bringup.x64-gce.textproto",
       "run_tests": true,
-      "stats_gcs_bucket": "fuchsia-artifacts"
+      "stats_gcs_bucket": "fuchsia-artifacts",
+      "upload_results": true
     },
     "checkout": {
       "manifest": "flower",
       "project": "integration",
-      "remote": "https://fuchsia.googlesource.com/integration"
+      "remote": "https://fuchsia.googlesource.com/integration",
+      "upload_results": true
     },
     "gcs_bucket": "fuchsia-build",
     "test": {
@@ -28,6 +27,7 @@
         "endpoint": "fuchsia-gce-mediator-prod.uc.r.appspot.com",
         "machine_shape": "n2-standard-4"
       },
+      "max_attempts": 1,
       "max_attempts_per_test": 3,
       "per_test_timeout_secs": 300,
       "pool": "fuchsia.tests",
