@@ -4,6 +4,7 @@
 optimize: DEBUG
 board: "boards/arm64.gni"
 product: "products/core.gni"
+gn_args: "gocache_dir = getenv(\"TMPDIR\") + \"/gocache\""
 ninja_targets: ":default"
 ninja_targets: "bundles:build_infra"
 base_packages: "//bundles/buildbot:core"
@@ -13,3 +14,4 @@ pave: true
 include_prebuilt_binary_manifests: true
 skip_if_unaffected: true
 use_goma: true
+incremental: true
