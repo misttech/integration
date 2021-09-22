@@ -1,0 +1,7 @@
+{
+  "$recipe_engine/swarming": {
+    "server": "https://chromium-swarm.appspot.com"
+  },
+  "gcs_bucket": "fuchsia-build",
+  "recipe": "contrib/binutils"
+}
