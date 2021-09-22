@@ -1,7 +1,4 @@
 {
-  "$recipe_engine/swarming": {
-    "server": "https://chromium-swarm.appspot.com"
-  },
   "dry_run": true,
   "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/try/firebase-docs.textproto",
   "gcs_bucket": "fuchsia-build",
