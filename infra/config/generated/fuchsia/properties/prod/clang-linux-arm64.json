@@ -1,7 +1,4 @@
 {
-  "$recipe_engine/swarming": {
-    "server": "https://chromium-swarm.appspot.com"
-  },
   "builders": {
     "linux-amd64": [
       "clang_toolchain.prod.core.arm64-debug",

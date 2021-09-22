@@ -1,7 +1,4 @@
 {
-  "$recipe_engine/swarming": {
-    "server": "https://chromium-swarm.appspot.com"
-  },
   "bin_name": "bindgen",
   "cipd_package": "fuchsia/third_party/rust_bindgen/${platform}",
   "dry_run": true,

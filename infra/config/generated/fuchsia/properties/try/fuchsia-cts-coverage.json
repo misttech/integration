@@ -1,7 +1,4 @@
 {
-  "$recipe_engine/swarming": {
-    "server": "https://chromium-swarm.appspot.com"
-  },
   "artifact_gcs_bucket": "fuchsia-artifacts",
   "coverage_builders": {
     "core.x64-cts-coverage-qemu_kvm": [
