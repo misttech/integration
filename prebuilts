@@ -31,6 +31,15 @@
              version="git_revision:92904cc68fbc1d000387b30accc8b05b3fe95daa"
              platforms="linux-amd64,linux-arm64,mac-amd64,windows-amd64"
              path="prebuilt/third_party/clang/{{.OS}}-{{.Arch}}"/>
+
+    <!-- Binutils & GDB for diagnostic use
+         Built by bots at https://ci.chromium.org/p/fuchsia/g/binutils/
+    -->
+    <package name="fuchsia/third_party/binutils-gdb/${platform}"
+             version="git_revision:cf11ebea1206a7c459a94fef8e0880087dd9f38f"
+             platforms="linux-amd64,linux-arm64,mac-amd64"
+             path="prebuilt/third_party/binutils-gdb/{{.OS}}-{{.Arch}}"/>
+
     <!-- GCC
          TODO(mcgrathr): repo/bot link about provenance
     -->
@@ -211,8 +220,8 @@
     -->
 
     <!-- See //tools/vboot_reference.
-	 These are updated by the vboot_reference-roller bot whenever
-	 the host_prebuilts bot publishes new packages.
+         These are updated by the vboot_reference-roller bot whenever
+         the host_prebuilts bot publishes new packages.
       -->
     <package name="fuchsia/tools/cgpt/${platform}"
              version="git_revision:1d2e3387ad0b8137b053afc7c9475a10277ed095"
