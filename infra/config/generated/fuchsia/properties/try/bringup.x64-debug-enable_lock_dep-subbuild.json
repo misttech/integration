@@ -2,9 +2,6 @@
   "$fuchsia/autocorrelator": {
     "ci_bucket": "global.ci"
   },
-  "$recipe_engine/swarming": {
-    "server": "https://chromium-swarm.appspot.com"
-  },
   "recipe": "fuchsia/build",
   "spec": {
     "artifact_gcs_bucket": "fuchsia-artifacts",
