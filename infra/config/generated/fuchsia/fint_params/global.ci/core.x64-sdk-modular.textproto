@@ -11,7 +11,6 @@ ninja_targets: "bundles:test_infra"
 base_packages: "//sdk:sdk.modular"
 universe_packages: "//bundles:build_infra"
 universe_packages: "//bundles:test_infra"
-host_labels: "//bundles/buildbot:host-tests"
 target_arch: X64
 pave: true
 include_images: true
