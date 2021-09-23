@@ -7,5 +7,9 @@
     "commit_untracked_files": true,
     "dry_run": false
   },
-  "script": "scripts/update-fuchsia-sdk.sh"
+  "script_configs": [
+    {
+      "script": "scripts/update-fuchsia-sdk.sh"
+    }
+  ]
 }
