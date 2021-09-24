@@ -4,6 +4,7 @@
   },
   "experimental.test_on_gce": true,
   "recipe": "fuchsia/fuchsia",
+  "recipes_use_py3": true,
   "spec": {
     "artifact_gcs_bucket": "fuchsia-artifacts",
     "build": {
