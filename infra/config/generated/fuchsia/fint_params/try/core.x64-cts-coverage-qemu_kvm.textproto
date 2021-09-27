@@ -4,7 +4,9 @@
 optimize: DEBUG
 board: "boards/qemu-x64.gni"
 product: "products/core.gni"
+gn_args: "gocache_dir = getenv(\"TMPDIR\") + \"/gocache\""
 gn_args: "optimize = \"coverage\""
+gn_args: "restat_rust = true"
 ninja_targets: "bundles:build_infra"
 ninja_targets: "bundles:test_infra"
 base_packages: "//bundles:tools"
@@ -22,3 +24,4 @@ skip_if_unaffected: true
 test_durations_file: "prebuilt/infra/test_durations/fuchsia/core.x64-cts-coverage-qemu_kvm.json"
 default_test_durations_file: "prebuilt/infra/test_durations/fuchsia/default.json"
 use_goma: true
+incremental: true
