@@ -10,6 +10,7 @@
     "clang-linux-arm64"
   ],
   "recipe": "contrib/toolchain_trigger",
+  "recipes_use_py3": true,
   "timeout": 21600,
   "triggers": [
     "clang-goma",

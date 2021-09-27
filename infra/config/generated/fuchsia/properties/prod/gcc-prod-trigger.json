@@ -7,6 +7,7 @@
   ],
   "enforce_output": true,
   "recipe": "contrib/toolchain_trigger",
+  "recipes_use_py3": true,
   "timeout": 7200,
   "triggers": [
     "gcc-goma"
