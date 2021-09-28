@@ -10,11 +10,12 @@ gn_args: "restat_rust = true"
 ninja_targets: "bundles:build_infra"
 ninja_targets: "bundles:test_infra"
 base_packages: "//bundles:tools"
+base_packages: "//sdk/cts/tests:fidl_mangled_to_api_mapping"
 base_packages: "//sdk/cts/tests:tests"
 universe_packages: "//bundles:build_infra"
 universe_packages: "//bundles:test_infra"
 target_arch: X64
-variants: "coverage-sdk"
+variants: "coverage"
 variants: "host_coverage"
 pave: true
 include_images: true
