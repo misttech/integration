@@ -40,6 +40,11 @@
              version="version:95.0.4638.28"
              platforms="linux-amd64"
              path="prebuilt/third_party/chromedriver/{{.OS}}-{{.Arch}}"/>
+    <!-- Chromium browser -->
+    <package name="chromium/fuchsia/chrome/amd64/chrome"
+             version="version:96.0.4659.0"
+             path="prebuilt/third_party/chrome"
+             attributes="chrome-browser"/>
     <!-- Debug symbols
     -->
     <package name="chromium/fuchsia/debug-symbols-amd64"
