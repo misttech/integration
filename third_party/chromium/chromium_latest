@@ -40,6 +40,11 @@
              version="version:96.0.4659.0"
              platforms="linux-amd64"
              path="prebuilt/third_party/chromedriver_latest/{{.OS}}-{{.Arch}}"/>
+    <!-- Chrome browser -->
+    <package name="chromium/fuchsia/chrome/amd64/chrome"
+             version="version:96.0.4659.0"
+             path="prebuilt/third_party/chrome_latest"
+             attributes="chrome-browser"/>
     <!-- Debug symbols
     A debug symbol package is expected to contain one to many .build-id
     directories compressed and archived into .tar.bz2 files.
