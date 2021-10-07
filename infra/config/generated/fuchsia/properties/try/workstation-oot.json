@@ -7,7 +7,11 @@
       "script": "scripts/bootstrap.sh"
     },
     {
-      "script": "scripts/build.sh"
+      "script": "scripts/build.sh",
+      "script_args": [
+        "--ouput_user_root",
+        "$TMPDIR"
+      ]
     }
   ]
 }
