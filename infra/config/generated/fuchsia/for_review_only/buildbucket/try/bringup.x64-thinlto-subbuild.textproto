@@ -67,13 +67,13 @@ swarming {
       wait_for_warm_cache_secs: 120
     }
     caches {
+      name: "fuchsia_incremental_ce0d781ba25f0e88c3a07e1714303725a4cb2ab9cf090effd2b609dfe0211b86"
+      path: "incremental"
+    }
+    caches {
       name: "fuchsia_thinlto_534e6fb0801d617097fa01a5d3217aa21b4f8ba2375a065f9b7bd6f19b561580"
       path: "thinlto"
       wait_for_warm_cache_secs: 120
-    }
-    caches {
-      name: "fuchsia_incremental_534e6fb0801d617097fa01a5d3217aa21b4f8ba2375a065f9b7bd6f19b561580"
-      path: "incremental"
     }
     service_account: "fuchsia-try-builder@fuchsia-infra.iam.gserviceaccount.com"
     experiments {
