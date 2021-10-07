@@ -10,7 +10,7 @@ base_packages: "//bundles:tools"
 base_packages: "//sdk/cts/tests:fidl_mangled_to_api_mapping"
 base_packages: "//sdk/cts/tests:tests"
 target_arch: X64
-variants: "coverage-cts"
+variants: "coverage"
 variants: "host_coverage"
 include_images: true
 include_prebuilt_binary_manifests: true
