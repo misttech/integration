@@ -4,33 +4,21 @@
 # For the schema of this file, see Bucket message:
 #   https://luci-config.appspot.com/schemas/projects:buildbucket.cfg
 
-name: "try"
+name: "global.ci"
 acls {
   group: "all"
 }
 acls {
   role: SCHEDULER
-  identity: "user:fuchsia-prod-builder@fuchsia-infra.iam.gserviceaccount.com"
+  identity: "user:fuchsia-ci-builder@fuchsia-infra.iam.gserviceaccount.com"
 }
 acls {
   role: SCHEDULER
-  identity: "user:fuchsia-try-builder@fuchsia-infra.iam.gserviceaccount.com"
+  identity: "user:infra-ci-builder@fuchsia-infra.iam.gserviceaccount.com"
 }
 acls {
   role: SCHEDULER
-  identity: "user:infra-try-builder@fuchsia-infra.iam.gserviceaccount.com"
-}
-acls {
-  role: SCHEDULER
-  identity: "user:tools-ci-builder@fuchsia-infra.iam.gserviceaccount.com"
-}
-acls {
-  role: SCHEDULER
-  group: "project-fuchsia-tryjob-access"
-}
-acls {
-  role: SCHEDULER
-  identity: "project:turquoise"
+  identity: "user:luci-scheduler@appspot.gserviceaccount.com"
 }
 swarming {
   builders {
@@ -40,7 +28,7 @@ swarming {
     dimensions: "cpu:x64"
     dimensions: "gce:1"
     dimensions: "os:Linux"
-    dimensions: "pool:luci.fuchsia.try"
+    dimensions: "pool:luci.fuchsia.ci"
     exe {
       cipd_package: "fuchsia/infra/recipe_bootstrap/${platform}"
       cipd_version: "git_revision:8c3b7af35d03ed5976e5b2cc3c0491d85df1a046"
@@ -69,7 +57,7 @@ swarming {
       name: "fuchsia_incremental_42ed793017f9b155318b9b600c79d395490d54fddfb814e2f1c8de2fde826060"
       path: "incremental"
     }
-    service_account: "fuchsia-try-builder@fuchsia-infra.iam.gserviceaccount.com"
+    service_account: "firebase-hosting-deployer@fuchsia-infra.iam.gserviceaccount.com"
     experiments {
       key: "luci.use_realms"
       value: 100
