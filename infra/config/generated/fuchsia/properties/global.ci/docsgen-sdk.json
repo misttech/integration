@@ -1,0 +1,12 @@
+{
+  "dry_run": false,
+  "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/global.ci/docsgen-sdk.textproto",
+  "gcs_bucket": "fuchsia-build",
+  "generators": [
+    "dartdoc"
+  ],
+  "manifest": "flower",
+  "output_name": "sdk",
+  "recipe": "contrib/docsgen",
+  "recipes_use_py3": true
+}
