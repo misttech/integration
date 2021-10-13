@@ -235,7 +235,7 @@
     <!-- Packages for build -->
     <!--   Dart -->
     <package name="fuchsia/dart-sdk/${platform}"
-             version="git_revision:7e8e12d4d296407e82fab674bc26822a28743d91"
+             version="git_revision:aea166168df41b02355580f041b210a527e54b0c"
              platforms="linux-amd64,mac-amd64"
              path="prebuilt/third_party/dart/{{.OS}}-{{.Arch}}"/>
 
@@ -247,11 +247,11 @@
            TODO(kaushikiska): fix the internal structure of the Flutter CIPD
            package and change this path to prebuilt/third_party/flutter -->
     <package name="flutter/fuchsia"
-             version="git_revision:d8ec16ccf1b96a5019ea668d3e5ca879c35ebfc5"
+             version="git_revision:c7714158950347bd54b1a33af20aaf902a6a0c41"
              platforms="linux-amd64,linux-arm64,mac-amd64"
              path="prebuilt/third_party"/>
     <package name="flutter/sky_engine"
-             version="git_revision:d8ec16ccf1b96a5019ea668d3e5ca879c35ebfc5"
+             version="git_revision:c7714158950347bd54b1a33af20aaf902a6a0c41"
              platforms="linux-amd64,linux-arm64,mac-amd64"
              path="prebuilt/third_party/sky_engine"/>
     <!-- Flutter Debug symbols -->
