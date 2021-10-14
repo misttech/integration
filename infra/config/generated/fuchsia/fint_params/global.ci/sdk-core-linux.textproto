@@ -3,7 +3,7 @@
 
 optimize: DEBUG
 product: "products/bringup.gni"
-base_packages: "//sdk"
+universe_packages: "//sdk"
 target_arch: X64
 include_prebuilt_binary_manifests: true
 use_goma: true

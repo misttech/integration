@@ -5,7 +5,7 @@ optimize: RELEASE
 product: "products/core.gni"
 ninja_targets: "bundles:build_infra"
 ninja_targets: "bundles:test_infra"
-base_packages: "//bundles/buildbot:core"
+universe_packages: "//bundles/buildbot:core"
 universe_packages: "//bundles:build_infra"
 universe_packages: "//bundles:test_infra"
 host_labels: "//bundles/buildbot:host-tests"

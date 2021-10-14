@@ -9,9 +9,9 @@ gn_args: "restat_rust = true"
 ninja_targets: "bundles:build_infra"
 ninja_targets: "src/cobalt:cobalt"
 ninja_targets: "src/lib/cobalt:cobalt"
-base_packages: "//src/cobalt:tests"
-base_packages: "//src/lib/cobalt:tests"
 universe_packages: "//bundles:build_infra"
+universe_packages: "//src/cobalt:tests"
+universe_packages: "//src/lib/cobalt:tests"
 target_arch: X64
 pave: true
 include_prebuilt_binary_manifests: true

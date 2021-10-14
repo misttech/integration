@@ -7,7 +7,7 @@ product: "products/workstation.gni"
 gn_args: "build_should_trace_actions = true"
 gn_args: "output_breakpad_syms = true"
 ninja_targets: "bundles:build_infra"
-base_packages: "//bundles/buildbot:workstation"
+universe_packages: "//bundles/buildbot:workstation"
 universe_packages: "//bundles:build_infra"
 target_arch: X64
 pave: true

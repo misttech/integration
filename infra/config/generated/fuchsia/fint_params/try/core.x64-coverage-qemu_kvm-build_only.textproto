@@ -8,7 +8,7 @@ gn_args: "gocache_dir = getenv(\"TMPDIR\") + \"/gocache\""
 gn_args: "optimize = \"coverage\""
 gn_args: "restat_rust = true"
 ninja_targets: "bundles:build_infra"
-base_packages: "//bundles/buildbot:core_no_e2e"
+universe_packages: "//bundles/buildbot:core_no_e2e"
 universe_packages: "//bundles:build_infra"
 host_labels: "//bundles/buildbot:host-tests_no_e2e"
 target_arch: X64

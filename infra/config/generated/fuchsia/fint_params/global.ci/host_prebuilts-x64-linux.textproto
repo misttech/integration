@@ -3,8 +3,8 @@
 
 optimize: RELEASE
 product: "products/core.gni"
-base_packages: "//build/packages:json_validator"
-base_packages: "//tools/vboot_reference"
+universe_packages: "//build/packages:json_validator"
+universe_packages: "//tools/vboot_reference"
 target_arch: X64
 include_prebuilt_binary_manifests: true
 tools: "ffx"

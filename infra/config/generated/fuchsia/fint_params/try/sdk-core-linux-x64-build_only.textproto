@@ -9,8 +9,8 @@ ninja_targets: "bundles:build_infra"
 ninja_targets: "sdk/archive/core.tar.gz"
 ninja_targets: "sdk/archive/fuchsia_dart.tar.gz"
 ninja_targets: "sdk/archive/modular_testing.tar.gz"
-base_packages: "//sdk/bundles:tools"
 universe_packages: "//bundles:build_infra"
+universe_packages: "//sdk/bundles:tools"
 target_arch: X64
 pave: true
 include_prebuilt_binary_manifests: true
