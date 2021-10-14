@@ -6,7 +6,7 @@ board: "boards/qemu-x64.gni"
 product: "products/core.gni"
 gn_args: "optimize = \"coverage\""
 ninja_targets: "bundles:build_infra"
-base_packages: "//bundles/buildbot:core_no_e2e"
+universe_packages: "//bundles/buildbot:core_no_e2e"
 universe_packages: "//bundles:build_infra"
 host_labels: "//bundles/buildbot:host-tests_no_e2e"
 target_arch: X64

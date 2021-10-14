@@ -6,10 +6,9 @@ board: "boards/x64.gni"
 product: "products/core.gni"
 gn_args: "build_sdk_archives = true"
 ninja_targets: "bundles:build_infra"
-base_packages: "//sdk:host_tools.all"
 universe_packages: "//bundles:build_infra"
+universe_packages: "//sdk:host_tools.all"
 target_arch: X64
 pave: true
-include_images: true
 include_prebuilt_binary_manifests: true
 use_goma: true
