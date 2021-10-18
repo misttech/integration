@@ -42,7 +42,8 @@ swarming {
       '{'
       '  "led_builder_is_bootstrapped": true,'
       '  "recipe": "contrib/binutils",'
-      '  "recipes_host_override": "fuchsia.googlesource.com"'
+      '  "recipes_host_override": "fuchsia.googlesource.com",'
+      '  "recipes_integration_ref_override": "refs/heads/main"'
       '}'
     execution_timeout_secs: 18000
     caches {
