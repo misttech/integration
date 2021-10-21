@@ -528,6 +528,10 @@
              path="prebuilt/cts/canary/{{.OS}}-{{.Arch}}"
              platforms="linux-amd64"
              version="git_revision:6911474bb1a88b9bc88c868b07ebda2732a005ab"/>
+    <package name="fuchsia/cts/${platform}"
+             path="prebuilt/cts/current_milestone/{{.OS}}-{{.Arch}}"
+             platforms="linux-amd64"
+             version="git_revision:0900620fc1c4f4c9d347235c3a0a7d95441ac3aa" />
 
     <!-- Packages in /infra/tools/ -->
     <package name="infra/tools/bb/${platform}"
