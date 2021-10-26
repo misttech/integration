@@ -119,7 +119,7 @@
     <!-- TODO(phosek): link to bot/recipe/autoroller(?) -->
     <package name="fuchsia/third_party/ninja/${platform}"
              version="git_revision:0cd88287a4cd77d11c92c7a9b44bb15fb787a1ee"
-             platforms="linux-amd64,linux-arm64,mac-amd64"
+             platforms="linux-amd64,linux-arm64,mac-amd64,windows-amd64"
              path="prebuilt/third_party/ninja/{{.OS}}-{{.Arch}}"/>
 
     <!-- QEMU
@@ -157,8 +157,8 @@
     <!-- CMake - Uploaded by cmake CI builds. Rolled manually as needed.
     -->
     <package name="fuchsia/third_party/cmake/${platform}"
-             version="version:3.20.20210601-g02957bb"
-             platforms="linux-amd64,mac-amd64"
+             version="version:3.22.20211020-g3b5e1b5"
+             platforms="linux-amd64,linux-arm64,mac-amd64,windows-amd64"
              path="prebuilt/third_party/cmake/{{.OS}}-{{.Arch}}"/>
 
     <!-- YAPF for formatting python code -->
