@@ -74,20 +74,13 @@
              path="prebuilt/proprietary/third_party/reclient/{{.OS}}-{{.Arch}}"/>
 
     <!-- Rust
-         TODO(phosek): repo/bot link about provenance
+         From Rust on Fuchsia team.
+         https://ci.chromium.org/p/fuchsia/g/rust/console
     -->
     <package name="fuchsia/third_party/rust/${platform}"
              version="git_revision:1af55d19c7a9189374d89472f97dc119659bb67e"
              platforms="linux-amd64,linux-arm64,mac-amd64"
              path="prebuilt/third_party/rust/{{.OS}}-{{.Arch}}"/>
-
-    <!-- Rust
-         TODO(phosek): repo/bot link about provenance
-    -->
-    <package name="fuchsia/third_party/rust_tools/${platform}"
-             version="git_revision:fc24bcead1d401ae061538d011e4a319c4195b56"
-             platforms="linux-amd64,mac-amd64"
-             path="prebuilt/third_party/rust_tools/{{.OS}}-{{.Arch}}"/>
 
      <!-- rust-bindgen, used for generating rust bindings to c/c++ headers -->
      <package name="fuchsia/third_party/rust_bindgen/${platform}"
