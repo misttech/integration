@@ -28,6 +28,7 @@ swarming {
   builders {
     name: "rust_toolchain.core.x64-host_test_only-mac-subbuild"
     swarming_host: "chromium-swarm.appspot.com"
+    swarming_tags: "is_fyi:true"
     dimensions: "cores:8|12"
     dimensions: "cpu:x64"
     dimensions: "gce:0"

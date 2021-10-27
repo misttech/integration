@@ -24,6 +24,7 @@ swarming {
   builders {
     name: "rust-bindgen-mac"
     swarming_host: "chromium-swarm.appspot.com"
+    swarming_tags: "is_fyi:true"
     dimensions: "cores:12|24|56"
     dimensions: "cpu:x64"
     dimensions: "gce:0"
