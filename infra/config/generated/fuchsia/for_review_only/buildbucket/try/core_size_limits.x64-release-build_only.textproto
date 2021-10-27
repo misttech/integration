@@ -36,6 +36,7 @@ swarming {
   builders {
     name: "core_size_limits.x64-release-build_only"
     swarming_host: "chromium-swarm.appspot.com"
+    swarming_tags: "is_fyi:true"
     dimensions: "cores:32"
     dimensions: "cpu:x64"
     dimensions: "gce:1"

@@ -36,6 +36,7 @@ swarming {
   builders {
     name: "jq-linux-arm64"
     swarming_host: "chromium-swarm.appspot.com"
+    swarming_tags: "is_fyi:true"
     dimensions: "cores:256"
     dimensions: "cpu:arm64"
     dimensions: "gce:0"
