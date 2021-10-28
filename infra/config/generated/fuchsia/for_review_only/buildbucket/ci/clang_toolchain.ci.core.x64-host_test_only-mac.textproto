@@ -32,7 +32,6 @@ swarming {
   builders {
     name: "clang_toolchain.ci.core.x64-host_test_only-mac"
     swarming_host: "chromium-swarm.appspot.com"
-    swarming_tags: "is_fyi:true"
     dimensions: "cores:2"
     dimensions: "cpu:x64"
     dimensions: "gce:1"

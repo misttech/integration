@@ -32,7 +32,6 @@ swarming {
   builders {
     name: "core.x64-profile-qemu_kvm-subbuild"
     swarming_host: "chromium-swarm.appspot.com"
-    swarming_tags: "is_fyi:true"
     dimensions: "cores:64"
     dimensions: "cpu:x64"
     dimensions: "gce:1"

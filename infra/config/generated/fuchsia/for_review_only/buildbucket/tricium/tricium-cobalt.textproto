@@ -20,7 +20,6 @@ swarming {
   builders {
     name: "tricium-cobalt"
     swarming_host: "chromium-swarm.appspot.com"
-    swarming_tags: "is_fyi:true"
     dimensions: "cores:16"
     dimensions: "cpu:x64"
     dimensions: "gce:1"
