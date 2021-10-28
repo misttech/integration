@@ -28,7 +28,6 @@ swarming {
   builders {
     name: "dart-x64-linux"
     swarming_host: "chromium-swarm.appspot.com"
-    swarming_tags: "is_fyi:true"
     dimensions: "cores:32"
     dimensions: "cpu:x64"
     dimensions: "gce:1"
