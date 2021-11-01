@@ -4,7 +4,6 @@
 optimize: RELEASE
 board: "boards/x64.gni"
 product: "products/core.gni"
-ninja_targets: ":default"
 universe_packages: "//sdk"
 universe_packages: "//tools/fidl/fidldoc"
 target_arch: X64
@@ -12,3 +11,4 @@ include_prebuilt_binary_manifests: true
 use_goma: true
 generate_compdb: true
 ide_files: "json"
+include_default_ninja_target: true
