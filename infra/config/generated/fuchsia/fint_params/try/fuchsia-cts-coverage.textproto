@@ -4,10 +4,8 @@
 optimize: DEBUG
 board: "boards/qemu-x64.gni"
 product: "products/core.gni"
-gn_args: "generate_plasa_artifacts = true"
 gn_args: "optimize = \"coverage\""
 base_packages: "//bundles:tools"
-base_packages: "//sdk/cts/tests:fidl_mangled_to_api_mapping"
 base_packages: "//sdk/cts/tests:tests"
 target_arch: X64
 variants: "coverage"
@@ -15,5 +13,4 @@ variants: "host_coverage"
 include_images: true
 include_prebuilt_binary_manifests: true
 use_goma: true
-generate_compdb: true
 include_default_ninja_target: true
