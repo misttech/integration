@@ -6,6 +6,10 @@
   "remote": "https://fuchsia.googlesource.com/integration",
   "tools": [
     {
+      "cipd_package": "fuchsia/tools/bundle_fetcher/${platform}",
+      "name": "bundle_fetcher"
+    },
+    {
       "cipd_package": "fuchsia/tools/futility/${platform}",
       "name": "futility"
     },
