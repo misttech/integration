@@ -69,6 +69,7 @@ swarming {
     caches {
       name: "fuchsia_incremental_ce0d781ba25f0e88c3a07e1714303725a4cb2ab9cf090effd2b609dfe0211b86"
       path: "incremental"
+      wait_for_warm_cache_secs: 120
     }
     caches {
       name: "fuchsia_thinlto_ce0d781ba25f0e88c3a07e1714303725a4cb2ab9cf090effd2b609dfe0211b86"

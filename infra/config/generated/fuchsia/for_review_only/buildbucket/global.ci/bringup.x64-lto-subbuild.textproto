@@ -58,6 +58,7 @@ swarming {
     caches {
       name: "fuchsia_incremental_fe84e3183349a7ad2280630d40915b9af7f99c0a1d0d861c0095e1915257abd1"
       path: "incremental"
+      wait_for_warm_cache_secs: 120
     }
     service_account: "fuchsia-ci-builder@fuchsia-infra.iam.gserviceaccount.com"
     experiments {
