@@ -1,0 +1,25 @@
+{
+  "analyses": [
+    "ClangFormat",
+    "ClangTidy",
+    "CmlFormat",
+    "DartFmt",
+    "FidlFormat",
+    "FidlLint",
+    "GNFormat",
+    "GoFmt",
+    "GoVet",
+    "MdLint",
+    "RustFmt"
+  ],
+  "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/tricium/tricium.textproto",
+  "luci_analyzers": [
+    "Copyright",
+    "Spacey",
+    "Spellchecker"
+  ],
+  "manifest": "flower",
+  "recipe": "tricium/tricium",
+  "recipes_use_py3": true,
+  "remote": "https://fuchsia.googlesource.com/integration"
+}

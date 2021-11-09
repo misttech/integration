@@ -1,0 +1,22 @@
+{
+  "analyses": [
+    "GoFmt",
+    "GoVet"
+  ],
+  "cipd_packages": [
+    {
+      "name": "fuchsia/go/linux-amd64",
+      "subdir": "go/linux-x64",
+      "version": "integration"
+    }
+  ],
+  "luci_analyzers": [
+    "Copyright",
+    "Spacey",
+    "Spellchecker"
+  ],
+  "manifest": "manifest",
+  "recipe": "tricium/tricium",
+  "recipes_use_py3": true,
+  "remote": "https://fuchsia.googlesource.com/infra/infra"
+}

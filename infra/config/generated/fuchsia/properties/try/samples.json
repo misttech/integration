@@ -1,0 +1,10 @@
+{
+  "recipe": "run_script",
+  "recipes_use_py3": true,
+  "remote": "https://fuchsia.googlesource.com/samples",
+  "script_configs": [
+    {
+      "script": "scripts/setup-and-test.sh"
+    }
+  ]
+}

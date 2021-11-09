@@ -1,0 +1,12 @@
+{
+  "check_deps": true,
+  "include_private": false,
+  "include_public": true,
+  "manifest": "manifest/minimal",
+  "project": "integration",
+  "recipe": "recipes",
+  "recipes_use_py3": true,
+  "remote": "https://fuchsia.googlesource.com/infra/recipes",
+  "unittest_only": true,
+  "use_buildbucket": false
+}

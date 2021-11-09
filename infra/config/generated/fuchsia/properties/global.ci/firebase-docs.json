@@ -1,0 +1,14 @@
+{
+  "dry_run": false,
+  "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/global.ci/firebase-docs.textproto",
+  "gcs_bucket": "fuchsia-build",
+  "generators": [
+    "clangdoc",
+    "fidldoc",
+    "rustdoc"
+  ],
+  "manifest": "flower",
+  "output_name": "all",
+  "recipe": "contrib/firebase_docs",
+  "recipes_use_py3": true
+}
