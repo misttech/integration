@@ -44,12 +44,11 @@ swarming {
     dimensions: "role:builder"
     exe {
       cipd_package: "fuchsia/infra/recipe_bootstrap/${platform}"
-      cipd_version: "git_revision:f3f721f39254c4199b61f81a16e614e5ba6ac8a8"
+      cipd_version: "git_revision:18493ea31bba4cff7ba2abe31c2da4e4c4fff5e9"
       cmd: "luciexe"
     }
     properties:
       '{'
-      '  "is_fyi": true,'
       '  "led_builder_is_bootstrapped": true,'
       '  "recipe": "fuchsia/build"'
       '}'
