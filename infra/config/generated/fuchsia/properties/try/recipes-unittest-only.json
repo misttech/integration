@@ -1,9 +1,5 @@
 {
   "check_deps": true,
-  "commit_queue_project": null,
-  "cq_config_name": "commit-queue.cfg",
-  "include_private": false,
-  "include_public": true,
   "manifest": "manifest/minimal",
   "project": "integration",
   "recipe": "recipes",
@@ -20,6 +16,5 @@
   },
   "recipes_use_py3": true,
   "remote": "https://fuchsia.googlesource.com/infra/recipes",
-  "unittest_only": true,
-  "use_buildbucket": false
+  "unittest_only": true
 }
