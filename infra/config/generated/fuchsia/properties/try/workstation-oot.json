@@ -12,6 +12,15 @@
         "-o",
         "{outdir}"
       ]
+    },
+    {
+      "script": "scripts/upload.sh",
+      "script_args": [
+        "-b",
+        "fuchsia-artifacts",
+        "-n",
+        "{build-id}"
+      ]
     }
   ]
 }
