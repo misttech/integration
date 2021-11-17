@@ -4,8 +4,6 @@
 optimize: RELEASE
 product: "products/core.gni"
 gn_args: "build_should_trace_actions = true"
-gn_args: "gocache_dir = getenv(\"TMPDIR\") + \"/gocache\""
-gn_args: "restat_rust = true"
 ninja_targets: "bundles:build_infra"
 ninja_targets: "src/cobalt:cobalt"
 ninja_targets: "src/lib/cobalt:cobalt"
@@ -16,4 +14,3 @@ target_arch: X64
 pave: true
 include_prebuilt_binary_manifests: true
 use_goma: true
-incremental: true
