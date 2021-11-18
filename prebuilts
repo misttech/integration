@@ -240,21 +240,21 @@
            TODO(kaushikiska): fix the internal structure of the Flutter CIPD
            package and change this path to prebuilt/third_party/flutter -->
     <package name="flutter/fuchsia"
-             version="git_revision:766f3a5bec7bb393c3aabb872ed472f0b455c11b"
+             version="git_revision:e022c9283c4053a533599ab9b1e3559931248670"
              platforms="linux-amd64,linux-arm64,mac-amd64"
              path="prebuilt/third_party"/>
     <package name="flutter/sky_engine"
-             version="git_revision:766f3a5bec7bb393c3aabb872ed472f0b455c11b"
+             version="git_revision:e022c9283c4053a533599ab9b1e3559931248670"
              platforms="linux-amd64,linux-arm64,mac-amd64"
              path="prebuilt/third_party/sky_engine"/>
     <!-- Flutter Debug symbols -->
     <package name="flutter/fuchsia-debug-symbols-x64"
-             version="git_revision:766f3a5bec7bb393c3aabb872ed472f0b455c11b"
+             version="git_revision:e022c9283c4053a533599ab9b1e3559931248670"
              path="prebuilt/.build-id"
              platforms="linux-amd64,linux-arm64,mac-amd64"
              attributes="debug-symbols,debug-symbols-x64,debug-symbols-flutter"/>
     <package name="flutter/fuchsia-debug-symbols-arm64"
-             version="git_revision:766f3a5bec7bb393c3aabb872ed472f0b455c11b"
+             version="git_revision:e022c9283c4053a533599ab9b1e3559931248670"
              path="prebuilt/.build-id"
              platforms="linux-amd64,linux-arm64,mac-amd64"
              attributes="debug-symbols,debug-symbols-arm64,debug-symbols-flutter"/>
