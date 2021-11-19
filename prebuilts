@@ -15,6 +15,7 @@
   <imports>
     <localimport file="firmware"/>
     <localimport file="test_durations"/>
+    <localimport file="cts"/>
   </imports>
   <packages>
 
@@ -517,14 +518,10 @@
              internal="true"/>
 
     <!-- Packages for CTS -->
-    <package name="fuchsia/cts/canary/${platform}"
+    <package name="fuchsia/cts/${platform}"
              path="prebuilt/cts/canary/{{.OS}}-{{.Arch}}"
              platforms="linux-amd64"
-             version="git_revision:34fa36dbd706b3f196fce71f987f97dedb77c3ae"/>
-    <package name="fuchsia/cts/${platform}"
-             path="prebuilt/cts/current_milestone/{{.OS}}-{{.Arch}}"
-             platforms="linux-amd64"
-             version="git_revision:1f1fef165c91ecf0d28d8b02eb92aacee43f1ce5" />
+             version="git_revision:3b3f09ffcbf2f8f13cee2695ea863869d27156d4"/>
 
     <!-- Packages in /infra/tools/ -->
     <package name="infra/tools/bb/${platform}"
