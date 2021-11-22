@@ -4,7 +4,6 @@
 optimize: DEBUG
 board: "boards/qemu-x64.gni"
 product: "products/core.gni"
-gn_args: "gocache_dir = getenv(\"TMPDIR\") + \"/gocache\""
 gn_args: "optimize = \"coverage\""
 gn_args: "restat_rust = true"
 ninja_targets: "bundles:build_infra"
@@ -20,3 +19,4 @@ include_prebuilt_binary_manifests: true
 use_goma: true
 incremental: true
 include_default_ninja_target: true
+use_temporary_go_cache: true
