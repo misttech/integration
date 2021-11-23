@@ -1,13 +1,10 @@
 {
-  "$fuchsia/autocorrelator": {
-    "ci_bucket": "global.ci"
-  },
   "recipe": "fuchsia/fuchsia",
   "recipes_use_py3": true,
   "spec": {
     "artifact_gcs_bucket": "fuchsia-artifacts",
     "build": {
-      "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/try/core.x64-release-fxfs.textproto",
+      "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/try/core.x64-release-fxfs-no_hardware.textproto",
       "incremental": true,
       "run_tests": true,
       "stats_gcs_bucket": "fuchsia-artifacts"
@@ -21,6 +18,15 @@
     "test": {
       "affected_tests_multiply_threshold": 3,
       "default_service_account": "artifact-readers@fuchsia-infra.iam.gserviceaccount.com",
+      "disabled_device_types": [
+        "Astro",
+        "Intel NUC Kit NUC7i5DNHE",
+        "Khadas Vim2 Max",
+        "Luis",
+        "Nelson",
+        "Sherlock",
+        "Vim3"
+      ],
       "max_attempts_per_test": 3,
       "pave": true,
       "per_test_timeout_secs": 300,
