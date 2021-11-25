@@ -129,7 +129,7 @@
          TODO(fxbug.dev/89045): Remove once we've switched to using third_party/android/aemu/release
     -->
     <package name="fuchsia/third_party/aemu/${platform}"
-             version="git_revision:c853f5ec84d9606318e52099d941b630ecfe2aaa"
+             version="git_revision:791218df81bf0a0dc5ce992cd6a8d8a8ff8d379a"
              platforms="linux-amd64,mac-amd64"
              path="prebuilt/third_party/aemu/{{.OS}}-{{.Arch}}"/>
 
