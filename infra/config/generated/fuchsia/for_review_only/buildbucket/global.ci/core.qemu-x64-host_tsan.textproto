@@ -22,14 +22,13 @@ acls {
 }
 swarming {
   builders {
-    name: "core.x64-host_tsan-subbuild"
+    name: "core.qemu-x64-host_tsan"
     swarming_host: "chromium-swarm.appspot.com"
-    dimensions: "cores:64"
+    dimensions: "cores:2"
     dimensions: "cpu:x64"
     dimensions: "gce:1"
     dimensions: "os:Linux"
     dimensions: "pool:luci.fuchsia.ci"
-    dimensions: "role:builder"
     exe {
       cipd_package: "fuchsia/infra/recipe_bootstrap/${platform}"
       cipd_version: "git_revision:db592fb7206f979c9f9d1d932b876dd76115885c"
@@ -39,7 +38,7 @@ swarming {
       '{'
       '  "is_fyi": true,'
       '  "led_builder_is_bootstrapped": true,'
-      '  "recipe": "fuchsia/build"'
+      '  "recipe": "fuchsia/fuchsia"'
       '}'
     execution_timeout_secs: 8400
     caches {
@@ -49,16 +48,6 @@ swarming {
     caches {
       name: "symbol"
       path: "symbol"
-    }
-    caches {
-      name: "fuchsia_goma_2c49fcbd862ce15876be6c74f536cdb9813d872c3b8875cc73ebf04b87d4c277"
-      path: "goma"
-      wait_for_warm_cache_secs: 120
-    }
-    caches {
-      name: "fuchsia_incremental_2c49fcbd862ce15876be6c74f536cdb9813d872c3b8875cc73ebf04b87d4c277"
-      path: "incremental"
-      wait_for_warm_cache_secs: 120
     }
     service_account: "fuchsia-ci-builder@fuchsia-infra.iam.gserviceaccount.com"
     experiments {

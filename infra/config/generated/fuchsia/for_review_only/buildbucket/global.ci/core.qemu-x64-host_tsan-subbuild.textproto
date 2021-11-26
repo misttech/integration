@@ -4,43 +4,32 @@
 # For the schema of this file, see Bucket message:
 #   https://luci-config.appspot.com/schemas/projects:buildbucket.cfg
 
-name: "try"
+name: "global.ci"
 acls {
   group: "all"
 }
 acls {
   role: SCHEDULER
-  identity: "user:fuchsia-prod-builder@fuchsia-infra.iam.gserviceaccount.com"
+  identity: "user:fuchsia-ci-builder@fuchsia-infra.iam.gserviceaccount.com"
 }
 acls {
   role: SCHEDULER
-  identity: "user:fuchsia-try-builder@fuchsia-infra.iam.gserviceaccount.com"
+  identity: "user:infra-ci-builder@fuchsia-infra.iam.gserviceaccount.com"
 }
 acls {
   role: SCHEDULER
-  identity: "user:infra-try-builder@fuchsia-infra.iam.gserviceaccount.com"
-}
-acls {
-  role: SCHEDULER
-  identity: "user:tools-ci-builder@fuchsia-infra.iam.gserviceaccount.com"
-}
-acls {
-  role: SCHEDULER
-  group: "project-fuchsia-tryjob-access"
-}
-acls {
-  role: SCHEDULER
-  identity: "project:turquoise"
+  identity: "user:luci-scheduler@appspot.gserviceaccount.com"
 }
 swarming {
   builders {
-    name: "core.x64-host_tsan"
+    name: "core.qemu-x64-host_tsan-subbuild"
     swarming_host: "chromium-swarm.appspot.com"
-    dimensions: "cores:2"
+    dimensions: "cores:64"
     dimensions: "cpu:x64"
     dimensions: "gce:1"
     dimensions: "os:Linux"
-    dimensions: "pool:luci.fuchsia.try"
+    dimensions: "pool:luci.fuchsia.ci"
+    dimensions: "role:builder"
     exe {
       cipd_package: "fuchsia/infra/recipe_bootstrap/${platform}"
       cipd_version: "git_revision:db592fb7206f979c9f9d1d932b876dd76115885c"
@@ -50,7 +39,7 @@ swarming {
       '{'
       '  "is_fyi": true,'
       '  "led_builder_is_bootstrapped": true,'
-      '  "recipe": "fuchsia/fuchsia"'
+      '  "recipe": "fuchsia/build"'
       '}'
     execution_timeout_secs: 8400
     caches {
@@ -61,7 +50,17 @@ swarming {
       name: "symbol"
       path: "symbol"
     }
-    service_account: "fuchsia-try-builder@fuchsia-infra.iam.gserviceaccount.com"
+    caches {
+      name: "fuchsia_goma_ef08606577c246ca8ec2e17df0650356bcc79b8dbec362195f36bb54f23f2cd2"
+      path: "goma"
+      wait_for_warm_cache_secs: 120
+    }
+    caches {
+      name: "fuchsia_incremental_ef08606577c246ca8ec2e17df0650356bcc79b8dbec362195f36bb54f23f2cd2"
+      path: "incremental"
+      wait_for_warm_cache_secs: 120
+    }
+    service_account: "fuchsia-ci-builder@fuchsia-infra.iam.gserviceaccount.com"
     experiments {
       key: "luci.use_realms"
       value: 100
@@ -71,13 +70,13 @@ swarming {
       bq_exports {
         project: "fuchsia-infra"
         dataset: "resultdb"
-        table: "try"
+        table: "ci"
         test_results {}
       }
       bq_exports {
         project: "fuchsia-infra"
         dataset: "resultdb"
-        table: "artifacts_try"
+        table: "artifacts_ci"
         text_artifacts {}
       }
     }

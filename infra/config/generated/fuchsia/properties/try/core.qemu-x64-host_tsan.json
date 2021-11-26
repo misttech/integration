@@ -2,12 +2,12 @@
   "$fuchsia/autocorrelator": {
     "ci_bucket": "global.ci"
   },
-  "recipe": "fuchsia/build",
+  "recipe": "fuchsia/fuchsia",
   "recipes_use_py3": true,
   "spec": {
     "artifact_gcs_bucket": "fuchsia-artifacts",
     "build": {
-      "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/try/core.x64-host_tsan.textproto",
+      "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/try/core.qemu-x64-host_tsan.textproto",
       "incremental": true,
       "run_tests": true,
       "stats_gcs_bucket": "fuchsia-artifacts"
