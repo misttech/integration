@@ -34,7 +34,7 @@ acls {
 }
 swarming {
   builders {
-    name: "core.x64-host_tsan-subbuild"
+    name: "core.qemu-x64-host_tsan-subbuild"
     swarming_host: "chromium-swarm.appspot.com"
     dimensions: "cores:64"
     dimensions: "cpu:x64"
@@ -63,12 +63,12 @@ swarming {
       path: "symbol"
     }
     caches {
-      name: "fuchsia_goma_2c49fcbd862ce15876be6c74f536cdb9813d872c3b8875cc73ebf04b87d4c277"
+      name: "fuchsia_goma_ef08606577c246ca8ec2e17df0650356bcc79b8dbec362195f36bb54f23f2cd2"
       path: "goma"
       wait_for_warm_cache_secs: 120
     }
     caches {
-      name: "fuchsia_incremental_2c49fcbd862ce15876be6c74f536cdb9813d872c3b8875cc73ebf04b87d4c277"
+      name: "fuchsia_incremental_ef08606577c246ca8ec2e17df0650356bcc79b8dbec362195f36bb54f23f2cd2"
       path: "incremental"
       wait_for_warm_cache_secs: 120
     }
