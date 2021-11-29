@@ -35,7 +35,7 @@ swarming {
     dimensions: "pool:luci.fuchsia.toolchain.ci"
     exe {
       cipd_package: "fuchsia/infra/recipe_bootstrap/${platform}"
-      cipd_version: "git_revision:db592fb7206f979c9f9d1d932b876dd76115885c"
+      cipd_version: "git_revision:4be1c1a4994eeae818d4c77286a6d5851b73877e"
       cmd: "luciexe"
     }
     properties:
