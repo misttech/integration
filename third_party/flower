@@ -132,7 +132,7 @@
     <project name="third_party/go"
              remote="https://fuchsia.googlesource.com/third_party/go"
              gerrithost="https://fuchsia-review.googlesource.com"
-             revision="cedc6f67093031746c37dcf93adc501bc329de0d"
+             revision="fef10977eded1dec6e4a9313e82c001292e06e32"
              path="third_party/go"/>
     <project name="third_party/github.com/intel/intel-linux-processor-microcode-data-files"
              path="third_party/github.com/intel/intel-linux-processor-microcode-data-files"
@@ -348,6 +348,11 @@
              revision="5d5f3cc5f0808c0ee734bf951004de2ecd8095c2"/>
     <project name="third_party/rust-mirrors/quiche"
              path="third_party/rust_crates/mirrors/quiche"
+             remote="https://fuchsia.googlesource.com/third_party/rust-mirrors/quiche"
+             gerrithost="https://fuchsia-review.googlesource.com"
+             revision="259e6a03755690199620b63eba868a3eb4de50d4"/>
+    <project name="third_party/rust-mirrors/quiche-legacy"
+             path="third_party/rust_crates/mirrors/quiche-legacy"
              remote="https://fuchsia.googlesource.com/third_party/rust-mirrors/quiche"
              gerrithost="https://fuchsia-review.googlesource.com"
              revision="259e6a03755690199620b63eba868a3eb4de50d4"/>
