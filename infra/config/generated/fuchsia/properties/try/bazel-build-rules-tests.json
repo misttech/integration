@@ -1,0 +1,14 @@
+{
+  "recipe": "run_script",
+  "recipes_use_py3": true,
+  "remote": "https://fuchsia.googlesource.com/sdk-integration",
+  "script_configs": [
+    {
+      "script": "scripts/run_bazel_tests.sh",
+      "script_args": [
+        "-o",
+        "{outdir}"
+      ]
+    }
+  ]
+}
