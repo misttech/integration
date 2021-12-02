@@ -1,14 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <packages>
-    <!-- Old web_runner amd64 / x64 implementation -->
-    <package name="chromium/fuchsia/webrunner-amd64"
-             version="version:97.0.4666.2"
-             path="prebuilt/third_party/chromium/arch/x64"/>
-    <!-- Old web_runner arm64 / aarch64 implementation -->
-    <package name="chromium/fuchsia/webrunner-arm64"
-             version="version:97.0.4666.2"
-             path="prebuilt/third_party/chromium/arch/arm64"/>
     <!-- web_engine amd64 / x64 implementation -->
     <package name="chromium/fuchsia/web_engine/amd64/web_engine"
              version="version:97.0.4692.33"
@@ -41,19 +33,11 @@
     <package name="chromium/fuchsia/web_engine/arm64/cast_runner"
              version="version:97.0.4692.33"
              path="prebuilt/third_party/cast_runner/arch/arm64"/>
-    <!-- Old Chromium amd64 / x64 tests -->
-    <package name="chromium/fuchsia/tests-amd64"
-             version="version:97.0.4666.2"
-             path="prebuilt/third_party/chromium_tests/arch/x64"/>
-    <!-- Old Chromium arm64 / aarch64 tests -->
-    <package name="chromium/fuchsia/tests-arm64"
-             version="version:97.0.4666.2"
-             path="prebuilt/third_party/chromium_tests/arch/arm64"/>
-    <!-- New Chromium amd64 / x64 tests -->
+    <!-- Chromium amd64 / x64 tests -->
     <package name="chromium/fuchsia/web_engine/amd64/tests"
              version="version:97.0.4692.33"
              path="prebuilt/third_party/web_engine_tests/arch/x64"/>
-    <!-- New Chromium arm64 / aarch64 tests -->
+    <!-- Chromium arm64 / aarch64 tests -->
     <package name="chromium/fuchsia/web_engine/arm64/tests"
              version="version:97.0.4692.33"
              path="prebuilt/third_party/web_engine_tests/arch/arm64"/>
