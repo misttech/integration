@@ -1,9 +1,10 @@
 {
   "fint_params_paths": {
-    "arm64": "integration/infra/config/generated/fuchsia/fint_params/toolchain.ci/clang-ml-training-arm64.textproto",
-    "x64": "integration/infra/config/generated/fuchsia/fint_params/toolchain.ci/clang-ml-training-x64.textproto"
+    "core.chromebook_x64": "integration/infra/config/generated/fuchsia/fint_params/toolchain.ci/clang-ml-training.core.chromebook_x64.textproto",
+    "core.vim3": "integration/infra/config/generated/fuchsia/fint_params/toolchain.ci/clang-ml-training.core.vim3.textproto"
   },
   "manifest": "flower",
+  "project": "integration",
   "recipe": "contrib/clang_ml_training",
   "recipes_use_py3": true,
   "remote": "https://fuchsia.googlesource.com/integration"
