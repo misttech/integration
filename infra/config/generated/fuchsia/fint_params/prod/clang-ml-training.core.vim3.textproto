@@ -2,14 +2,10 @@
 # Do not modify manually.
 
 optimize: RELEASE
-board: "boards/arm64.gni"
+board: "boards/vim3.gni"
 product: "products/core.gni"
 gn_args: "clang_embed_bitcode=true"
 gn_args: "debuginfo = \"none\""
 gn_args: "optimize = \"size\""
-universe_packages: "//bundles:kitchen_sink"
 target_arch: ARM64
-include_images: true
-include_prebuilt_binary_manifests: true
 generate_compdb: true
-include_default_ninja_target: true
