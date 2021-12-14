@@ -4,6 +4,7 @@
 optimize: RELEASE
 product: "products/core.gni"
 gn_args: "build_should_trace_actions = true"
+gn_args: "clang_ml_inliner = false"
 ninja_targets: "bundles:build_infra"
 ninja_targets: "bundles:test_infra"
 universe_packages: "//bundles/buildbot:core"
