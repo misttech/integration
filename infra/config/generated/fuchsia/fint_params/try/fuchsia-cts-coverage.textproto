@@ -8,7 +8,7 @@ gn_args: "optimize = \"coverage\""
 base_packages: "//bundles:tools"
 base_packages: "//sdk/cts/tests:tests"
 target_arch: X64
-variants: "coverage"
+variants: "coverage-cts"
 variants: "host_coverage"
 include_images: true
 include_prebuilt_binary_manifests: true
