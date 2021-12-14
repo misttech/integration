@@ -16,7 +16,7 @@ base_packages: "//sdk/cts/tests:tests"
 universe_packages: "//bundles:build_infra"
 universe_packages: "//bundles:test_infra"
 target_arch: X64
-variants: "coverage"
+variants: "coverage-cts"
 variants: "host_coverage"
 pave: true
 include_images: true
