@@ -10,7 +10,9 @@
       "script": "scripts/build.sh",
       "script_args": [
         "-o",
-        "{outdir}"
+        "{outdir}",
+        "-v",
+        "{version}"
       ]
     },
     {
