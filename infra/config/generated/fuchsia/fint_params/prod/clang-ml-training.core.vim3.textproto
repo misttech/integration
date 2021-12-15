@@ -4,7 +4,8 @@
 optimize: RELEASE
 board: "boards/vim3.gni"
 product: "products/core.gni"
-gn_args: "clang_embed_bitcode=true"
+gn_args: "clang_embed_bitcode = true"
+gn_args: "clang_ml_inliner = false"
 gn_args: "debuginfo = \"none\""
 gn_args: "optimize = \"size\""
 target_arch: ARM64
