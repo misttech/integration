@@ -1,0 +1,12 @@
+#!/bin/sh
+
+# Check for Googlers not configuring their email address.
+# There are many examples of this in the git logs.
+AUTHORINFO=$(git var GIT_AUTHOR_IDENT) || exit 1
+EMAIL=$(echo "${AUTHORINFO}" | sed -n 's/^.* <\(.*\)> .*$/\1/p')
+
+if [[ "${EMAIL}" == *".corp.google.com" ]]; then
+  echo "Git is inferring your email to be ${EMAIL}. Please run:"
+  echo " git config --global user.email ${USER}@google.com"
+  exit 1
+fi
