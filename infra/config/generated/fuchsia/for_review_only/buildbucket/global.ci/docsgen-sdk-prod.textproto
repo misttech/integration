@@ -22,7 +22,7 @@ acls {
 }
 swarming {
   builders {
-    name: "docsgen-sdk"
+    name: "docsgen-sdk-prod"
     swarming_host: "chromium-swarm.appspot.com"
     dimensions: "cores:32"
     dimensions: "cpu:x64"
@@ -58,7 +58,7 @@ swarming {
       name: "fuchsia_incremental_42ed793017f9b155318b9b600c79d395490d54fddfb814e2f1c8de2fde826060"
       path: "incremental"
     }
-    service_account: "fuchsia-ci-builder@fuchsia-infra.iam.gserviceaccount.com"
+    service_account: "firebase-hosting-deployer@fuchsia-infra.iam.gserviceaccount.com"
     experiments {
       key: "luci.use_realms"
       value: 100
