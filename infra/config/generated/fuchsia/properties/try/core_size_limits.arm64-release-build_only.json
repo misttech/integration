@@ -8,6 +8,7 @@
     "artifact_gcs_bucket": "fuchsia-artifacts",
     "build": {
       "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/try/core_size_limits.arm64-release-build_only.textproto",
+      "size_diff_ci_bucket": "global.ci",
       "stats_gcs_bucket": "fuchsia-artifacts"
     },
     "checkout": {
