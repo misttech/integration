@@ -165,7 +165,7 @@
     <!-- VPython interpreter, needed for running YAPF (and possibly more).
     -->
     <package name="infra/tools/luci/vpython/${platform}"
-             version="git_revision:0e37c8a614467528725c5181beb720c3ea3b1b65"
+             version="git_revision:f7eb097f84a47624ba30084f3608bbd2d31eeb9b"
              platforms="linux-amd64,linux-arm64,mac-amd64"
              path="prebuilt/third_party/vpython"/>
 
@@ -313,7 +313,7 @@
              platforms="linux-amd64,linux-arm64,mac-amd64"/>
     <!--   Skia Gold -->
     <package name="skia/tools/goldctl/${platform}"
-             version="git_revision:0e37c8a614467528725c5181beb720c3ea3b1b65"
+             version="git_revision:f7eb097f84a47624ba30084f3608bbd2d31eeb9b"
              platforms="linux-amd64,linux-arm64,mac-amd64"
              path="prebuilt/third_party/goldctl"/>
     <!--   Skia skqp -->
@@ -521,12 +521,12 @@
     <!-- Packages in /infra/tools/ -->
     <package name="infra/tools/bb/${platform}"
              path="prebuilt/tools/buildbucket"
-             version="git_revision:0e37c8a614467528725c5181beb720c3ea3b1b65"
+             version="git_revision:f7eb097f84a47624ba30084f3608bbd2d31eeb9b"
              platforms="linux-amd64,linux-arm64,mac-amd64"/>
     <package name="infra/tools/luci/gsutil/${platform}"
              path="prebuilt/tools/gsutil"
              platforms="linux-amd64,linux-arm64,mac-amd64"
-             version="git_revision:0e37c8a614467528725c5181beb720c3ea3b1b65"/>
+             version="git_revision:f7eb097f84a47624ba30084f3608bbd2d31eeb9b"/>
 
     <!-- Packages in /fuchsia/infra -->
     <package name="fuchsia/infra/artifacts/${platform}"
