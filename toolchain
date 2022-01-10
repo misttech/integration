@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!--
+  Configuration of toolchain packages.
+
+  To manually fetch packages after local edits to this file, please regenerate
+  the corresponding lock files first by running:
+  `//integration/update-lockfiles.sh`
+
+  Then fetch the packages:
+  `jiri fetch-packages -local-manifest=true`
+
+  TODO(atyfto): Migrate remaining packages from "prebuilts" manifest.
+  -->
+  <packages>
+
+    <!-- Clang
+         TODO(mcgrathr): repo/bot link about provenance
+    -->
+    <package name="fuchsia/third_party/clang/${platform}"
+             version="git_revision:1aa59ff2f789776ebfa2d4b315fd3ea589652b4a"
+             platforms="linux-amd64,linux-arm64,mac-amd64,windows-amd64"
+             path="prebuilt/third_party/clang/{{.OS}}-{{.Arch}}"/>
+
+    <!-- GCC
+         TODO(mcgrathr): repo/bot link about provenance
+    -->
+    <package name="fuchsia/third_party/gcc/${platform}"
+             version="git_revision:32d0d5fe3e522c18fc40109325f9dc055619cedc,3747999c6bd40a7ac905ef306a82214b336067b6"
+             platforms="linux-amd64,linux-arm64,mac-amd64"
+             path="prebuilt/third_party/gcc/{{.OS}}-{{.Arch}}"/>
+
+  </packages>
+</manifest>
