@@ -30,5 +30,20 @@
              platforms="linux-amd64,linux-arm64,mac-amd64"
              path="prebuilt/third_party/gcc/{{.OS}}-{{.Arch}}"/>
 
+    <!-- Rust
+         From Rust on Fuchsia team.
+         https://ci.chromium.org/p/fuchsia/g/rust/console
+    -->
+    <package name="fuchsia/third_party/rust/${platform}"
+             version="git_revision:f1ce0e6a00593493a12e0e3662119786c761f375"
+             platforms="linux-amd64,linux-arm64,mac-amd64"
+             path="prebuilt/third_party/rust/{{.OS}}-{{.Arch}}"/>
+
+     <!-- rust-bindgen, used for generating rust bindings to c/c++ headers -->
+     <package name="fuchsia/third_party/rust_bindgen/${platform}"
+              version="git_revision:9b2f8f73ea26c935cf509fe3f22afa41e1009c13"
+              platforms="linux-amd64,mac-amd64"
+              path="prebuilt/third_party/rust_bindgen/{{.OS}}-{{.Arch}}"/>
+
   </packages>
 </manifest>
