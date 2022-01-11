@@ -280,7 +280,7 @@
 | llvm_test_suite-linux-x64 | ✓ | x | x | x | x | x |
 | milestone-roller | x | x | x | x | x | ✓ |
 | ninja-linux-arm64 | ✓ | x | ✓ | x | x | x |
-| ninja-linux-x64 | ✓ | x | ✓ | x | x | x |
+| ninja-linux-x64 | ✓ | x | ✓ | x | x | ✓ |
 | ninja-mac-x64 | ✓ | x | ✓ | x | x | x |
 | ninja-windows-x64 | ✓ | x | ✓ | x | x | x |
 | ovmf-x64 | ✓ | x | x | x | x | x |
