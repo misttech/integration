@@ -30,6 +30,14 @@
              platforms="linux-amd64,linux-arm64,mac-amd64"
              path="prebuilt/third_party/gcc/{{.OS}}-{{.Arch}}"/>
 
+    <!-- Go
+         TODO(phosek): repo/bot link about provenance
+    -->
+    <package name="fuchsia/go/${platform}"
+             version="git_revision:946d15b9a72b115a67a2269858fb232bd32e9818"
+             platforms="linux-amd64,linux-arm64,mac-amd64"
+             path="prebuilt/third_party/go/{{.OS}}-{{.Arch}}"/>
+
     <!-- Rust
          From Rust on Fuchsia team.
          https://ci.chromium.org/p/fuchsia/g/rust/console
