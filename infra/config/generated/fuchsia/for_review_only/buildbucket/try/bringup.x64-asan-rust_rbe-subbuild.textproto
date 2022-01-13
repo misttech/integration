@@ -34,9 +34,9 @@ acls {
 }
 swarming {
   builders {
-    name: "core.arm64-asan-subbuild"
+    name: "bringup.x64-asan-rust_rbe-subbuild"
     swarming_host: "chromium-swarm.appspot.com"
-    dimensions: "cores:64"
+    dimensions: "cores:32"
     dimensions: "cpu:x64"
     dimensions: "gce:1"
     dimensions: "os:Linux"
@@ -49,6 +49,7 @@ swarming {
     }
     properties:
       '{'
+      '  "is_fyi": true,'
       '  "led_builder_is_bootstrapped": true,'
       '  "recipe": "fuchsia/build"'
       '}'
@@ -62,14 +63,18 @@ swarming {
       path: "symbol"
     }
     caches {
-      name: "fuchsia_goma_c70a0be81fff0d4b2d75ec22fd375ce9b46e4d1759d380d14a2a6e71306ab02b"
+      name: "fuchsia_goma_79c861a0d7bf5592119e902aa51875c989a870c78b353ae1c51a7eb6ec1e11ac"
       path: "goma"
       wait_for_warm_cache_secs: 120
     }
     caches {
-      name: "fuchsia_incremental_c70a0be81fff0d4b2d75ec22fd375ce9b46e4d1759d380d14a2a6e71306ab02b"
+      name: "fuchsia_incremental_79c861a0d7bf5592119e902aa51875c989a870c78b353ae1c51a7eb6ec1e11ac"
       path: "incremental"
       wait_for_warm_cache_secs: 120
+    }
+    caches {
+      name: "fuchsia_rbe_79c861a0d7bf5592119e902aa51875c989a870c78b353ae1c51a7eb6ec1e11ac"
+      path: "rbe"
     }
     service_account: "fuchsia-try-builder@fuchsia-infra.iam.gserviceaccount.com"
     experiments {

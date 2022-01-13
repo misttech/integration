@@ -26,11 +26,57 @@
         ************************************************************
     -->
 
+    <!-- Binutils & GDB for diagnostic use
+         Built by bots at https://ci.chromium.org/p/fuchsia/g/binutils/
+    -->
+    <package name="fuchsia/third_party/binutils-gdb/${platform}"
+             version="git_revision:249f1cf8e669cc2fa7832601e0bbf460c5bfb97d"
+             platforms="linux-amd64,linux-arm64,mac-amd64"
+             path="prebuilt/third_party/binutils-gdb/{{.OS}}-{{.Arch}}"/>
+
+    <!-- Goma
+         TODO(mcgrathr): repo/bot link about provenance
+    -->
+    <package name="fuchsia/third_party/goma/client/${platform}"
+             version="git_revision:a27544ebcadadef16b725403c30aa588c85e7b8c"
+             platforms="linux-amd64,mac-amd64"
+             path="prebuilt/third_party/goma/{{.OS}}-{{.Arch}}"/>
+
+    <!-- reclient
+         From Foundry-X team, for using RBE.
+         https://chrome-infra-packages.appspot.com/p/infra/rbe/client/
+    -->
+    <package name="infra/rbe/client/${platform}"
+             version="re_client_version:0.51.0.81308e6-gomaip"
+             platforms="linux-amd64"
+             path="prebuilt/proprietary/third_party/reclient/{{.OS}}-{{.Arch}}"/>
+
      <!-- cargo-outdated, used for rolling external rust deps -->
      <package name="fuchsia/third_party/rust_cargo_outdated/${platform}"
               version="git_revision:a903e255d30f2ede00feeaa47a47d6717e0f70f0"
               platforms="linux-amd64,mac-amd64"
               path="prebuilt/third_party/rust_cargo_outdated/{{.OS}}-{{.Arch}}"/>
+
+    <!-- sysroot trees built from public OS images
+         TODO(mcgrathr): repo/bot link about provenance
+    -->
+    <package name="fuchsia/third_party/sysroot/linux"
+             version="git_revision:c5efd58bb42b7c7ac763306ff7653d4e3edd922f"
+             platforms="linux-amd64,linux-arm64,mac-amd64"
+             path="prebuilt/third_party/sysroot/linux"/>
+
+    <!-- GN from https://gn.googlesource.com/gn/ -->
+    <package name="gn/gn/${platform}"
+             version="git_revision:80a40b07305373617eba2d5878d353532af77da3"
+             platforms="linux-amd64,linux-arm64,mac-amd64"
+             path="prebuilt/third_party/gn/{{.OS}}-{{.Arch}}"/>
+
+    <!-- Ninja from https://ninja-build.org/ -->
+    <!-- TODO(phosek): link to bot/recipe/autoroller(?) -->
+    <package name="fuchsia/third_party/ninja/${platform}"
+             version="git_revision:0cd88287a4cd77d11c92c7a9b44bb15fb787a1ee"
+             platforms="linux-amd64,linux-arm64,mac-amd64,windows-amd64"
+             path="prebuilt/third_party/ninja/{{.OS}}-{{.Arch}}"/>
 
     <!-- QEMU
          TODO(mcgrathr): repo/bot link about provenance
@@ -45,7 +91,7 @@
          Builder at https://ci.chromium.org/p/turquoise/builders/prod/aemu_downloader
     -->
     <package name="fuchsia/third_party/android/aemu/release/${platform}"
-             version="bid:8088499"
+             version="bid:8070104"
              platforms="linux-amd64,mac-amd64,linux-arm64,mac-arm64"
              path="prebuilt/third_party/android/aemu/release/{{.OS}}-{{.Arch}}"/>
 
@@ -56,6 +102,41 @@
              version="git_revision:19ee56c4b33faa33078894a6c8495c81c660b8be"
              platforms="linux-amd64,linux-arm64,mac-amd64"
              path="prebuilt/third_party/ovmf/{{.OS}}-{{.Arch}}"/>
+
+    <!-- Breakpad
+         TODO(phosek): repo/bot link about provenance
+    -->
+    <package name="fuchsia/tools/breakpad/${platform}"
+             version="git_revision:3846f6d297339c17663d7a797ba481b3411f13ad"
+             platforms="linux-amd64"
+             path="prebuilt/third_party/breakpad/{{.OS}}-{{.Arch}}"/>
+
+    <!-- CMake - Uploaded by cmake CI builds. Rolled manually as needed.
+    -->
+    <package name="fuchsia/third_party/cmake/${platform}"
+             version="git_revision:eeb45401163d831b8c841ef6eba81466b4067b68"
+             platforms="linux-amd64,linux-arm64,mac-amd64,windows-amd64"
+             path="prebuilt/third_party/cmake/{{.OS}}-{{.Arch}}"/>
+
+    <!-- YAPF for formatting python code -->
+    <package name="infra/tools/yapf"
+             version="git_revision:0d457e7ac4ca9dc21109e107e20a4ac8af6cf056"
+             platforms="linux-amd64,linux-arm64,mac-amd64"
+             path="prebuilt/third_party/yapf"/>
+
+    <!-- VPython interpreter, needed for running YAPF (and possibly more).
+    -->
+    <package name="infra/tools/luci/vpython/${platform}"
+             version="git_revision:efee0465a9c16ff5ca59e676e18a08fb5a8e3f73"
+             platforms="linux-amd64,linux-arm64,mac-amd64"
+             path="prebuilt/third_party/vpython"/>
+
+    <!-- Python3 interpreter, used for host tools after bootstrap.
+    -->
+    <package name="infra/3pp/tools/cpython3/${platform}"
+             version="version:3.8.6.chromium.10"
+             platforms="linux-amd64,linux-arm64,mac-amd64"
+             path="prebuilt/third_party/python3/{{.OS}}-{{.Arch}}"/>
 
     <!-- Fargo from
          https://fuchsia.googlesource.com/fargo/+/{{.git_revision}}
@@ -72,6 +153,20 @@
              version="git_revision:c9b5da2f7d01989d658c7d6d11b59481b422053e"
              platforms="linux-amd64,mac-amd64"
              path="prebuilt/third_party/bloaty/{{.OS}}-{{.Arch}}"/>
+
+    <!--
+        ************************************************************
+        Tools maintained by Fuchsia outside fuchsia.git
+        ************************************************************
+    -->
+
+    <!-- buildidtool from
+         https://fuchsia.googlesource.com/tools/+/{{.git_revision}}/cmd/buildidtool
+    -->
+    <package name="fuchsia/tools/buildidtool/${platform}"
+             version="git_revision:4f7f770d6f5a09cd4611ca7679ec33fe4a25c72c"
+             path="prebuilt/tools/buildidtool/{{.OS}}-{{.Arch}}"
+             platforms="linux-amd64,linux-arm64,mac-amd64"/>
 
     <!--
         ************************************************************
@@ -97,7 +192,7 @@
     <!-- Packages for build -->
     <!--   Dart -->
     <package name="fuchsia/dart-sdk/${platform}"
-             version="git_revision:f1c98a571d1ab7196819aadcbd3d67166b014688"
+             version="git_revision:2ace65b1b4085a8589b97a2368cb0a50d99e9bdf"
              platforms="linux-amd64,mac-amd64"
              path="prebuilt/third_party/dart/{{.OS}}-{{.Arch}}"/>
 
@@ -109,26 +204,40 @@
            TODO(kaushikiska): fix the internal structure of the Flutter CIPD
            package and change this path to prebuilt/third_party/flutter -->
     <package name="flutter/fuchsia"
-             version="git_revision:fab19829949dba28eaea411bf5f12e98f91f5e9a"
+             version="git_revision:2516ea636dfd9d6836c797f849baa5d6667ce569"
              platforms="linux-amd64,linux-arm64,mac-amd64"
              path="prebuilt/third_party"/>
     <package name="flutter/sky_engine"
-             version="git_revision:fab19829949dba28eaea411bf5f12e98f91f5e9a"
+             version="git_revision:2516ea636dfd9d6836c797f849baa5d6667ce569"
              platforms="linux-amd64,linux-arm64,mac-amd64"
              path="prebuilt/third_party/sky_engine"/>
     <!-- Flutter Debug symbols -->
     <package name="flutter/fuchsia-debug-symbols-x64"
-             version="git_revision:fab19829949dba28eaea411bf5f12e98f91f5e9a"
+             version="git_revision:2516ea636dfd9d6836c797f849baa5d6667ce569"
              path="prebuilt/.build-id"
              platforms="linux-amd64,linux-arm64,mac-amd64"
              attributes="debug-symbols,debug-symbols-x64,debug-symbols-flutter"/>
     <package name="flutter/fuchsia-debug-symbols-arm64"
-             version="git_revision:fab19829949dba28eaea411bf5f12e98f91f5e9a"
+             version="git_revision:2516ea636dfd9d6836c797f849baa5d6667ce569"
              path="prebuilt/.build-id"
              platforms="linux-amd64,linux-arm64,mac-amd64"
              attributes="debug-symbols,debug-symbols-arm64,debug-symbols-flutter"/>
 
     <!-- General packages -->
+    <!--   LLVM libraries -->
+    <!--   For Linux, download both arm64 and amd64 versions. -->
+    <package name="fuchsia/third_party/llvm/linux-arm64"
+             version="git_revision:888c5067b4dce403774536a08f79d59865db3d12"
+             platforms="linux-amd64,linux-arm64"
+             path="prebuilt/third_party/llvm/linux-arm64"/>
+    <package name="fuchsia/third_party/llvm/linux-amd64"
+             version="git_revision:888c5067b4dce403774536a08f79d59865db3d12"
+             platforms="linux-amd64,linux-arm64"
+             path="prebuilt/third_party/llvm/linux-x64"/>
+    <package name="fuchsia/third_party/llvm/mac-amd64"
+             version="git_revision:888c5067b4dce403774536a08f79d59865db3d12"
+             platforms="mac-amd64"
+             path="prebuilt/third_party/llvm/mac-x64"/>
     <!--   Chromium media test data -->
     <package name="fuchsia/test_data/third_party/chromium_media_test_data"
              version="90a7f69f134fffcb58c127847fc35f3ae56684dc"
@@ -159,9 +268,14 @@
              version="T-xKyfG9yVvdsElRZKXMxy-br0rASS_XgTSeDrYpc1UC"
              platforms="linux-amd64,linux-arm64,mac-amd64"
              path="prebuilt/third_party/zoneinfo"/>
+    <!--   jq -->
+    <package name="fuchsia/third_party/jq/${platform}"
+             version="git_revision:a17dd3248a666d01be75f6b16be37e80e20b0954"
+             path="prebuilt/third_party/jq/{{.OS}}-{{.Arch}}"
+             platforms="linux-amd64,linux-arm64,mac-amd64"/>
     <!--   Skia Gold -->
     <package name="skia/tools/goldctl/${platform}"
-             version="git_revision:0b1174e4ac658ad342e8e91d84bc7485f7958ff3"
+             version="git_revision:efee0465a9c16ff5ca59e676e18a08fb5a8e3f73"
              platforms="linux-amd64,linux-arm64,mac-amd64"
              path="prebuilt/third_party/goldctl"/>
     <!--   Skia skqp -->
@@ -350,7 +464,7 @@
              internal="true"/>
     <!--   Termina guest images -->
     <package name="fuchsia_internal/linux/termina-x64"
-             version="BEgMMAtqRKBommO9ApyIwhKvF5hZztX6ovMwcVde2fcC"
+             version="WHOOHBt5jnN4IVr14V7Y2L6wz0c3PlNoKmXpUxKZ8pIC"
              path="prebuilt/virtualization/packages/termina_guest/images/x64"
              platforms="linux-amd64,linux-arm64,mac-amd64"
              internal="true"/>
@@ -364,17 +478,17 @@
     <package name="fuchsia/cts/${platform}"
              path="prebuilt/cts/canary/{{.OS}}-{{.Arch}}"
              platforms="linux-amd64"
-             version="git_revision:0d5f9938c65bc920e18c8e252c578c88d607eb4b"/>
+             version="git_revision:d429bdd5bc404d1625e07778f517c634af6a4c82"/>
 
     <!-- Packages in /infra/tools/ -->
     <package name="infra/tools/bb/${platform}"
              path="prebuilt/tools/buildbucket"
-             version="git_revision:0b1174e4ac658ad342e8e91d84bc7485f7958ff3"
+             version="git_revision:efee0465a9c16ff5ca59e676e18a08fb5a8e3f73"
              platforms="linux-amd64,linux-arm64,mac-amd64"/>
     <package name="infra/tools/luci/gsutil/${platform}"
              path="prebuilt/tools/gsutil"
              platforms="linux-amd64,linux-arm64,mac-amd64"
-             version="git_revision:0b1174e4ac658ad342e8e91d84bc7485f7958ff3"/>
+             version="git_revision:efee0465a9c16ff5ca59e676e18a08fb5a8e3f73"/>
 
     <!-- Packages in /fuchsia/infra -->
     <package name="fuchsia/infra/artifacts/${platform}"
@@ -417,7 +531,7 @@
 
     <!-- Packages for SDK -->
     <package name="fuchsia/sdk/core/${platform}"
-             version="version:7.20220118.1.1"
+             version="version:7.20220112.1.1"
              platforms="linux-amd64,mac-amd64"
              path="prebuilt/sdk/core/{{.OS}}-{{.Arch}}"
              attributes="sdk"/>
@@ -436,7 +550,7 @@
     <!-- Virtual Device Launcher -->
     <package name="fuchsia/vdl/${platform}"
              path="prebuilt/vdl"
-             version="g3-revision:vdl_fuchsia_20220117_RC00"
+             version="g3-revision:vdl_fuchsia_20220111_RC00"
              platforms="linux-amd64,mac-amd64"/>
 
     <!-- fsatrace -->
@@ -458,7 +572,7 @@
     <!-- Starnix test binaries -->
     <package name="fuchsia/starnix/tests/syscalls/linux-amd64"
              path="prebuilt/starnix/tests/syscalls/linux-amd64"
-             version="g3-revision:fuchsia_starnix_tests_20220117_08_RC00"/>
+             version="g3-revision:fuchsia_starnix_tests_20220111_14_RC00"/>
 
     <!-- Minigbm implementation for Linux guest -->
     <package name="fuchsia/third_party/minigbm/linux-x64"
