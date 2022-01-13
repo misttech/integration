@@ -232,7 +232,6 @@
 | ffmpeg |   | [✓](https://ci.chromium.org/p/fuchsia/builders/global.ci/ffmpeg) |   |   |   | [✓](https://ci.chromium.org/p/fuchsia/builders/try/ffmpeg) |
 | firebase-docs |   | [✓](https://ci.chromium.org/p/fuchsia/builders/global.ci/firebase-docs) |   |   |   | [✓](https://ci.chromium.org/p/fuchsia/builders/try/firebase-docs) |
 | fontdata | [✓](https://ci.chromium.org/p/fuchsia/builders/ci/fontdata) |   |   |   |   | [✓](https://ci.chromium.org/p/fuchsia/builders/try/fontdata) |
-| fuchsia-codesearch |   |   |   |   |   | [✓](https://ci.chromium.org/p/fuchsia/builders/try/fuchsia-codesearch) |
 | fuchsia-coverage | [✓](https://ci.chromium.org/p/fuchsia/builders/ci/fuchsia-coverage) |   |   |   |   | [✓](https://ci.chromium.org/p/fuchsia/builders/try/fuchsia-coverage) |
 | fuchsia-coverage-absolute |   |   |   |   |   | [✓](https://ci.chromium.org/p/fuchsia/builders/try/fuchsia-coverage-absolute) |
 | fuchsia-cts-coverage |   |   |   |   |   | [✓](https://ci.chromium.org/p/fuchsia/builders/try/fuchsia-cts-coverage) |
