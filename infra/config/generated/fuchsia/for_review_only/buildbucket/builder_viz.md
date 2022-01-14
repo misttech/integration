@@ -17,8 +17,6 @@
 | bloaty-x64-mac | [✓](https://ci.chromium.org/p/fuchsia/builders/ci/bloaty-x64-mac) |   |   |   |   | [✓](https://ci.chromium.org/p/fuchsia/builders/try/bloaty-x64-mac) |
 | breakpad-x64-linux | [✓](https://ci.chromium.org/p/fuchsia/builders/ci/breakpad-x64-linux) |   |   |   |   |   |
 | bringup.arm64-asan |   | [✓](https://ci.chromium.org/p/fuchsia/builders/global.ci/bringup.arm64-asan) |   |   |   | [✓](https://ci.chromium.org/p/fuchsia/builders/try/bringup.arm64-asan) |
-| bringup.arm64-asan-rust_rbe |   |   |   |   |   | [✓](https://ci.chromium.org/p/fuchsia/builders/try/bringup.arm64-asan-rust_rbe) |
-| bringup.arm64-asan-rust_rbe-subbuild |   |   |   |   |   | [✓](https://ci.chromium.org/p/fuchsia/builders/try/bringup.arm64-asan-rust_rbe-subbuild) |
 | bringup.arm64-asan-subbuild |   | [✓](https://ci.chromium.org/p/fuchsia/builders/global.ci/bringup.arm64-asan-subbuild) |   |   |   | [✓](https://ci.chromium.org/p/fuchsia/builders/try/bringup.arm64-asan-subbuild) |
 | bringup.arm64-cxx20 |   | [✓](https://ci.chromium.org/p/fuchsia/builders/global.ci/bringup.arm64-cxx20) |   |   |   | [✓](https://ci.chromium.org/p/fuchsia/builders/try/bringup.arm64-cxx20) |
 | bringup.arm64-cxx20-subbuild |   | [✓](https://ci.chromium.org/p/fuchsia/builders/global.ci/bringup.arm64-cxx20-subbuild) |   |   |   | [✓](https://ci.chromium.org/p/fuchsia/builders/try/bringup.arm64-cxx20-subbuild) |
@@ -41,8 +39,6 @@
 | bringup.vim3-debug-build_only |   |   |   |   |   | [✓](https://ci.chromium.org/p/fuchsia/builders/try/bringup.vim3-debug-build_only) |
 | bringup.vim3-debug-subbuild |   | [✓](https://ci.chromium.org/p/fuchsia/builders/global.ci/bringup.vim3-debug-subbuild) |   |   |   | [✓](https://ci.chromium.org/p/fuchsia/builders/try/bringup.vim3-debug-subbuild) |
 | bringup.x64-asan |   | [✓](https://ci.chromium.org/p/fuchsia/builders/global.ci/bringup.x64-asan) |   |   |   | [✓](https://ci.chromium.org/p/fuchsia/builders/try/bringup.x64-asan) |
-| bringup.x64-asan-rust_rbe |   |   |   |   |   | [✓](https://ci.chromium.org/p/fuchsia/builders/try/bringup.x64-asan-rust_rbe) |
-| bringup.x64-asan-rust_rbe-subbuild |   |   |   |   |   | [✓](https://ci.chromium.org/p/fuchsia/builders/try/bringup.x64-asan-rust_rbe-subbuild) |
 | bringup.x64-asan-subbuild |   | [✓](https://ci.chromium.org/p/fuchsia/builders/global.ci/bringup.x64-asan-subbuild) |   |   |   | [✓](https://ci.chromium.org/p/fuchsia/builders/try/bringup.x64-asan-subbuild) |
 | bringup.x64-cxx20 |   | [✓](https://ci.chromium.org/p/fuchsia/builders/global.ci/bringup.x64-cxx20) |   |   |   | [✓](https://ci.chromium.org/p/fuchsia/builders/try/bringup.x64-cxx20) |
 | bringup.x64-cxx20-subbuild |   | [✓](https://ci.chromium.org/p/fuchsia/builders/global.ci/bringup.x64-cxx20-subbuild) |   |   |   | [✓](https://ci.chromium.org/p/fuchsia/builders/try/bringup.x64-cxx20-subbuild) |
@@ -109,10 +105,6 @@
 | cobalt-x64-linux |   |   |   |   |   | [✓](https://ci.chromium.org/p/fuchsia/builders/try/cobalt-x64-linux) |
 | cobalt-x64-rel-build_only |   | [✓](https://ci.chromium.org/p/fuchsia/builders/global.ci/cobalt-x64-rel-build_only) |   |   |   | [✓](https://ci.chromium.org/p/fuchsia/builders/try/cobalt-x64-rel-build_only) |
 | core.arm64-asan |   | [✓](https://ci.chromium.org/p/fuchsia/builders/global.ci/core.arm64-asan) |   |   |   | [✓](https://ci.chromium.org/p/fuchsia/builders/try/core.arm64-asan) |
-| core.arm64-asan-rust_rbe |   |   |   |   |   | [✓](https://ci.chromium.org/p/fuchsia/builders/try/core.arm64-asan-rust_rbe) |
-| core.arm64-asan-rust_rbe-clean |   |   |   |   |   | [✓](https://ci.chromium.org/p/fuchsia/builders/try/core.arm64-asan-rust_rbe-clean) |
-| core.arm64-asan-rust_rbe-clean-subbuild |   |   |   |   |   | [✓](https://ci.chromium.org/p/fuchsia/builders/try/core.arm64-asan-rust_rbe-clean-subbuild) |
-| core.arm64-asan-rust_rbe-subbuild |   |   |   |   |   | [✓](https://ci.chromium.org/p/fuchsia/builders/try/core.arm64-asan-rust_rbe-subbuild) |
 | core.arm64-asan-slow |   |   |   |   |   | [✓](https://ci.chromium.org/p/fuchsia/builders/try/core.arm64-asan-slow) |
 | core.arm64-asan-slow-subbuild |   |   |   |   |   | [✓](https://ci.chromium.org/p/fuchsia/builders/try/core.arm64-asan-slow-subbuild) |
 | core.arm64-asan-subbuild |   | [✓](https://ci.chromium.org/p/fuchsia/builders/global.ci/core.arm64-asan-subbuild) |   |   |   | [✓](https://ci.chromium.org/p/fuchsia/builders/try/core.arm64-asan-subbuild) |
