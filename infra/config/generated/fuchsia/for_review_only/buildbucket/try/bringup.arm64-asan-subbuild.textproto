@@ -71,6 +71,10 @@ swarming {
       path: "incremental"
       wait_for_warm_cache_secs: 120
     }
+    caches {
+      name: "fuchsia_rbe_d8dbc3f36a5851649ea59a8179d434b87f461cc845a49c8dcf515ee9820dfd8a"
+      path: "rbe"
+    }
     service_account: "fuchsia-try-builder@fuchsia-infra.iam.gserviceaccount.com"
     experiments {
       key: "luci.use_realms"
