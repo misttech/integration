@@ -351,7 +351,9 @@
 | workstation.x64-release-subbuild |   | [✓](https://ci.chromium.org/p/fuchsia/builders/global.ci/workstation.x64-release-subbuild) |   |   |   | [✓](https://ci.chromium.org/p/fuchsia/builders/try/workstation.x64-release-subbuild) |
 | zbi_tests-arm64 |   | [✓](https://ci.chromium.org/p/fuchsia/builders/global.ci/zbi_tests-arm64) |   |   |   | [✓](https://ci.chromium.org/p/fuchsia/builders/try/zbi_tests-arm64) |
 | zbi_tests-arm64-asan |   | [✓](https://ci.chromium.org/p/fuchsia/builders/global.ci/zbi_tests-arm64-asan) |   |   |   | [✓](https://ci.chromium.org/p/fuchsia/builders/try/zbi_tests-arm64-asan) |
+| zbi_tests-arm64-cxx20 |   | [✓](https://ci.chromium.org/p/fuchsia/builders/global.ci/zbi_tests-arm64-cxx20) |   |   |   | [✓](https://ci.chromium.org/p/fuchsia/builders/try/zbi_tests-arm64-cxx20) |
 | zbi_tests-arm64-gcc |   | [✓](https://ci.chromium.org/p/fuchsia/builders/global.ci/zbi_tests-arm64-gcc) |   |   |   | [✓](https://ci.chromium.org/p/fuchsia/builders/try/zbi_tests-arm64-gcc) |
 | zbi_tests-x64 |   | [✓](https://ci.chromium.org/p/fuchsia/builders/global.ci/zbi_tests-x64) |   |   |   | [✓](https://ci.chromium.org/p/fuchsia/builders/try/zbi_tests-x64) |
 | zbi_tests-x64-asan |   | [✓](https://ci.chromium.org/p/fuchsia/builders/global.ci/zbi_tests-x64-asan) |   |   |   | [✓](https://ci.chromium.org/p/fuchsia/builders/try/zbi_tests-x64-asan) |
+| zbi_tests-x64-cxx20 |   | [✓](https://ci.chromium.org/p/fuchsia/builders/global.ci/zbi_tests-x64-cxx20) |   |   |   | [✓](https://ci.chromium.org/p/fuchsia/builders/try/zbi_tests-x64-cxx20) |
 | zbi_tests-x64-gcc |   | [✓](https://ci.chromium.org/p/fuchsia/builders/global.ci/zbi_tests-x64-gcc) |   |   |   | [✓](https://ci.chromium.org/p/fuchsia/builders/try/zbi_tests-x64-gcc) |
