@@ -257,6 +257,7 @@
 | host_prebuilts-x64-linux |   | [✓](https://ci.chromium.org/p/fuchsia/builders/global.ci/host_prebuilts-x64-linux) |   |   |   | [✓](https://ci.chromium.org/p/fuchsia/builders/try/host_prebuilts-x64-linux) |
 | host_prebuilts-x64-mac |   | [✓](https://ci.chromium.org/p/fuchsia/builders/global.ci/host_prebuilts-x64-mac) |   |   |   | [✓](https://ci.chromium.org/p/fuchsia/builders/try/host_prebuilts-x64-mac) |
 | infra | [✓](https://ci.chromium.org/p/fuchsia/builders/ci/infra) |   | [✓](https://ci.chromium.org/p/fuchsia/builders/prod/infra) |   |   | [✓](https://ci.chromium.org/p/fuchsia/builders/try/infra) |
+| intel_wifi_driver | [✓](https://ci.chromium.org/p/fuchsia/builders/ci/intel_wifi_driver) |   |   |   |   |   |
 | jiri | [✓](https://ci.chromium.org/p/fuchsia/builders/ci/jiri) |   |   |   |   | [✓](https://ci.chromium.org/p/fuchsia/builders/try/jiri) |
 | jq-linux-arm64 |   |   | [✓](https://ci.chromium.org/p/fuchsia/builders/prod/jq-linux-arm64) |   |   | [✓](https://ci.chromium.org/p/fuchsia/builders/try/jq-linux-arm64) |
 | jq-linux-x64 |   |   | [✓](https://ci.chromium.org/p/fuchsia/builders/prod/jq-linux-x64) |   |   | [✓](https://ci.chromium.org/p/fuchsia/builders/try/jq-linux-x64) |
