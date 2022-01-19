@@ -6,7 +6,6 @@ board: "boards/x64.gni"
 product: "products/workstation.gni"
 gn_args: "build_should_trace_actions = true"
 gn_args: "output_breakpad_syms = true"
-gn_args: "restat_rust = true"
 ninja_targets: "bundles:build_infra"
 universe_packages: "//bundles/buildbot:workstation"
 universe_packages: "//bundles:build_infra"
@@ -15,6 +14,4 @@ pave: true
 include_images: true
 include_prebuilt_binary_manifests: true
 use_goma: true
-incremental: true
 include_default_ninja_target: true
-use_temporary_go_cache: true
