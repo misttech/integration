@@ -143,8 +143,8 @@
 | core.x64-asan |   |   |   |   |   | [✓](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-asan) |
 | core.x64-asan-clean |   |   |   |   |   | [✓](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-asan-clean) |
 | core.x64-asan-clean-subbuild |   |   |   |   |   | [✓](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-asan-clean-subbuild) |
-| core.x64-asan-ffx |   |   |   |   |   | [✓](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-asan-ffx) |
-| core.x64-asan-ffx-subbuild |   |   |   |   |   | [✓](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-asan-ffx-subbuild) |
+| core.x64-asan-ffx |   | [✓](https://ci.chromium.org/p/fuchsia/builders/global.ci/core.x64-asan-ffx) |   |   |   | [✓](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-asan-ffx) |
+| core.x64-asan-ffx-subbuild |   | [✓](https://ci.chromium.org/p/fuchsia/builders/global.ci/core.x64-asan-ffx-subbuild) |   |   |   | [✓](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-asan-ffx-subbuild) |
 | core.x64-asan-gocache |   |   |   |   |   | [✓](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-asan-gocache) |
 | core.x64-asan-incremental-experimental |   |   |   |   |   | [✓](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-asan-incremental-experimental) |
 | core.x64-asan-incremental-experimental-subbuild |   |   |   |   |   | [✓](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-asan-incremental-experimental-subbuild) |
@@ -193,8 +193,8 @@
 | core.x64-release |   |   |   |   |   | [✓](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-release) |
 | core.x64-release-chromium_latest |   |   |   |   |   | [✓](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-release-chromium_latest) |
 | core.x64-release-chromium_latest-subbuild |   |   |   |   |   | [✓](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-release-chromium_latest-subbuild) |
-| core.x64-release-ffx |   |   |   |   |   | [✓](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-release-ffx) |
-| core.x64-release-ffx-subbuild |   |   |   |   |   | [✓](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-release-ffx-subbuild) |
+| core.x64-release-ffx |   | [✓](https://ci.chromium.org/p/fuchsia/builders/global.ci/core.x64-release-ffx) |   |   |   | [✓](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-release-ffx) |
+| core.x64-release-ffx-subbuild |   | [✓](https://ci.chromium.org/p/fuchsia/builders/global.ci/core.x64-release-ffx-subbuild) |   |   |   | [✓](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-release-ffx-subbuild) |
 | core.x64-release-flaky |   | [✓](https://ci.chromium.org/p/fuchsia/builders/global.ci/core.x64-release-flaky) |   |   |   | [✓](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-release-flaky) |
 | core.x64-release-flaky-subbuild |   | [✓](https://ci.chromium.org/p/fuchsia/builders/global.ci/core.x64-release-flaky-subbuild) |   |   |   | [✓](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-release-flaky-subbuild) |
 | core.x64-release-fxfs |   | [✓](https://ci.chromium.org/p/fuchsia/builders/global.ci/core.x64-release-fxfs) |   |   |   | [✓](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-release-fxfs) |
