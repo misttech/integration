@@ -40,6 +40,7 @@
 | bringup.x64-gcc |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/bringup.x64-gcc) | [try](https://ci.chromium.org/p/fuchsia/builders/try/bringup.x64-gcc) |
 | bringup.x64-gce |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/bringup.x64-gce) | [try](https://ci.chromium.org/p/fuchsia/builders/try/bringup.x64-gce) |
 | bringup.x64-gce-amd |   |   | [try](https://ci.chromium.org/p/fuchsia/builders/try/bringup.x64-gce-amd) |
+| bringup.x64-gce-asan |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/bringup.x64-gce-asan) | [try](https://ci.chromium.org/p/fuchsia/builders/try/bringup.x64-gce-asan) |
 | bringup.x64-kasan_sancov-build_only |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/bringup.x64-kasan_sancov-build_only) | [try](https://ci.chromium.org/p/fuchsia/builders/try/bringup.x64-kasan_sancov-build_only) |
 | bringup.x64-lto |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/bringup.x64-lto) | [try](https://ci.chromium.org/p/fuchsia/builders/try/bringup.x64-lto) |
 | bringup.x64-thinlto |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/bringup.x64-thinlto) | [try](https://ci.chromium.org/p/fuchsia/builders/try/bringup.x64-thinlto) |
