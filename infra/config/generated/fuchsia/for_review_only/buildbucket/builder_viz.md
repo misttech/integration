@@ -91,6 +91,7 @@
 | core.x64-asan-kasan-nuc_in_basic_envs |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/core.x64-asan-kasan-nuc_in_basic_envs) | [try](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-asan-kasan-nuc_in_basic_envs) |
 | core.x64-asan-nuc_in_basic_envs |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/core.x64-asan-nuc_in_basic_envs) | [try](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-asan-nuc_in_basic_envs) |
 | core.x64-asan-rust_and_gocache |   |   | [try](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-asan-rust_and_gocache) |
+| core.x64-asan-rust_bootfs |   |   | [try](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-asan-rust_bootfs) |
 | core.x64-asan-rust_determinism |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/core.x64-asan-rust_determinism) | [try](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-asan-rust_determinism) |
 | core.x64-asan-rustcache |   |   | [try](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-asan-rustcache) |
 | core.x64-asan-slow |   |   | [try](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-asan-slow) |
