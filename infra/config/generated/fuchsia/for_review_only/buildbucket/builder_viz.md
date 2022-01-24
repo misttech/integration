@@ -138,6 +138,7 @@
 | fontdata | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/fontdata) |   | [try](https://ci.chromium.org/p/fuchsia/builders/try/fontdata) |
 | fuchsia-coverage | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/fuchsia-coverage) |   | [try](https://ci.chromium.org/p/fuchsia/builders/try/fuchsia-coverage) |
 | fuchsia-coverage-absolute |   |   | [try](https://ci.chromium.org/p/fuchsia/builders/try/fuchsia-coverage-absolute) |
+| fuchsia-coverage-x64-arm64 |   |   | [try](https://ci.chromium.org/p/fuchsia/builders/try/fuchsia-coverage-x64-arm64) |
 | fuchsia-cts-coverage |   |   | [try](https://ci.chromium.org/p/fuchsia/builders/try/fuchsia-cts-coverage) |
 | fuchsia-docs-roller |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/fuchsia-docs-roller) |   |
 | gcc_toolchain.bringup.arm64-gcc | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/gcc_toolchain.bringup.arm64-gcc) |   |   |
