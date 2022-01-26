@@ -1,5 +1,4 @@
 {
-  "experimental.test_on_gce": true,
   "recipe": "fuchsia/build",
   "recipes_use_py3": true,
   "spec": {
@@ -33,6 +32,7 @@
       "swarming_io_timeout_secs": 360,
       "target_shard_duration_secs": 540,
       "targets_serial": true,
+      "test_on_gce": true,
       "upload_results": true,
       "use_runtests": true
     }
