@@ -87,6 +87,9 @@ swarming {
         table: "artifacts_ci"
         text_artifacts {}
       }
+      history_options {
+        use_invocation_timestamp: true
+      }
     }
     description_html: "This builder is the subbuild for <a href=\"https://ci.chromium.org/p/fuchsia/builders/ci/clang_toolchain.ci.core.x64-debug\">clang_toolchain.ci.core.x64-debug</a>."
   }

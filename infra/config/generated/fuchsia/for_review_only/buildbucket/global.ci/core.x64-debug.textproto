@@ -67,6 +67,9 @@ swarming {
         table: "artifacts_ci"
         text_artifacts {}
       }
+      history_options {
+        use_invocation_timestamp: true
+      }
     }
   }
 }

@@ -83,6 +83,9 @@ swarming {
         table: "artifacts_ci"
         text_artifacts {}
       }
+      history_options {
+        use_invocation_timestamp: true
+      }
     }
     description_html: "This builder is the subbuild for <a href=\"https://ci.chromium.org/p/fuchsia/builders/ci/gcc_toolchain.bringup.x64-gcc\">gcc_toolchain.bringup.x64-gcc</a>."
   }
