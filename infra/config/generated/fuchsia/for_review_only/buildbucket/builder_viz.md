@@ -4,9 +4,6 @@
 
 | Builder Names | ci | global.ci | try |
 ---|:---:|:---:|:---:
-| aemu-linux-arm64 | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/aemu-linux-arm64) |   |   |
-| aemu-linux-x64 | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/aemu-linux-x64) |   |   |
-| aemu-mac-x64 | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/aemu-mac-x64) |   |   |
 | auto-submit |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/auto-submit) |   |
 | bazel-build-rules-tests |   |   | [try](https://ci.chromium.org/p/fuchsia/builders/try/bazel-build-rules-tests) |
 | bloaty-arm64-linux | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/bloaty-arm64-linux) |   | [try](https://ci.chromium.org/p/fuchsia/builders/try/bloaty-arm64-linux) |
