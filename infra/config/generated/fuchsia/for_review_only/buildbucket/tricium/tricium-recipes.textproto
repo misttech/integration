@@ -46,9 +46,5 @@ swarming {
       path: "symbol"
     }
     service_account: "fuchsia-tricium-builder@fuchsia-infra.iam.gserviceaccount.com"
-    experiments {
-      key: "luci.use_realms"
-      value: 100
-    }
   }
 }

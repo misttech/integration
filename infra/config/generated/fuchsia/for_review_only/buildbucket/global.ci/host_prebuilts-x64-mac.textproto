@@ -63,9 +63,5 @@ swarming {
       path: "incremental"
     }
     service_account: "tools-ci-builder@fuchsia-infra.iam.gserviceaccount.com"
-    experiments {
-      key: "luci.use_realms"
-      value: 100
-    }
   }
 }
