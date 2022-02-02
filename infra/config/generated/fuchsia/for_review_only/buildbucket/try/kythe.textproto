@@ -71,9 +71,5 @@ swarming {
       path: "incremental"
     }
     service_account: "tools-try-builder@fuchsia-infra.iam.gserviceaccount.com"
-    experiments {
-      key: "luci.use_realms"
-      value: 100
-    }
   }
 }

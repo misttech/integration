@@ -64,10 +64,6 @@ swarming {
       path: "incremental"
     }
     service_account: "fuchsia-ci-builder@fuchsia-infra.iam.gserviceaccount.com"
-    experiments {
-      key: "luci.use_realms"
-      value: 100
-    }
     resultdb {
       enable: true
       bq_exports {
