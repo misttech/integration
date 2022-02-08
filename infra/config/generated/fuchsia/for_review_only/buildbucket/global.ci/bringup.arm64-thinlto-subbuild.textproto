@@ -60,6 +60,10 @@ swarming {
       wait_for_warm_cache_secs: 120
     }
     caches {
+      name: "fuchsia_rbe_3acbc0ac8e92ffdc03a6319482bb0f383d4a754516e6da13b6c3748093a49530"
+      path: "rbe"
+    }
+    caches {
       name: "fuchsia_thinlto_3acbc0ac8e92ffdc03a6319482bb0f383d4a754516e6da13b6c3748093a49530"
       path: "thinlto"
       wait_for_warm_cache_secs: 120
