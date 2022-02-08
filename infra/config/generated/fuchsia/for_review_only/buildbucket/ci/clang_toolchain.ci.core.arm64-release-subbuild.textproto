@@ -40,7 +40,7 @@ swarming {
     dimensions: "role:builder"
     exe {
       cipd_package: "fuchsia/infra/recipe_bootstrap/${platform}"
-      cipd_version: "git_revision:ce17412b8cc177d252645cce9df938642264f53a"
+      cipd_version: "git_revision:54bbae99b4ab20e117c4edbbe7552753bb0f77cf"
       cmd: "luciexe"
     }
     properties:
