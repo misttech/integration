@@ -11,6 +11,7 @@
 | bloaty-x64-mac | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/bloaty-x64-mac) |   | [try](https://ci.chromium.org/p/fuchsia/builders/try/bloaty-x64-mac) |
 | breakpad-x64-linux | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/breakpad-x64-linux) |   |   |
 | bringup.arm64-asan |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/bringup.arm64-asan) | [try](https://ci.chromium.org/p/fuchsia/builders/try/bringup.arm64-asan) |
+| bringup.arm64-asan-ffx |   |   | [try](https://ci.chromium.org/p/fuchsia/builders/try/bringup.arm64-asan-ffx) |
 | bringup.arm64-cxx20 |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/bringup.arm64-cxx20) | [try](https://ci.chromium.org/p/fuchsia/builders/try/bringup.arm64-cxx20) |
 | bringup.arm64-debug |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/bringup.arm64-debug) | [try](https://ci.chromium.org/p/fuchsia/builders/try/bringup.arm64-debug) |
 | bringup.arm64-debug-build_default |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/bringup.arm64-debug-build_default) | [try](https://ci.chromium.org/p/fuchsia/builders/try/bringup.arm64-debug-build_default) |
@@ -24,6 +25,7 @@
 | bringup.vim3-debug |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/bringup.vim3-debug) | [try](https://ci.chromium.org/p/fuchsia/builders/try/bringup.vim3-debug) |
 | bringup.vim3-debug-build_only |   |   | [try](https://ci.chromium.org/p/fuchsia/builders/try/bringup.vim3-debug-build_only) |
 | bringup.x64-asan |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/bringup.x64-asan) | [try](https://ci.chromium.org/p/fuchsia/builders/try/bringup.x64-asan) |
+| bringup.x64-asan-ffx |   |   | [try](https://ci.chromium.org/p/fuchsia/builders/try/bringup.x64-asan-ffx) |
 | bringup.x64-cxx20 |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/bringup.x64-cxx20) | [try](https://ci.chromium.org/p/fuchsia/builders/try/bringup.x64-cxx20) |
 | bringup.x64-debug |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/bringup.x64-debug) | [try](https://ci.chromium.org/p/fuchsia/builders/try/bringup.x64-debug) |
 | bringup.x64-debug-enable_lock_dep |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/bringup.x64-debug-enable_lock_dep) | [try](https://ci.chromium.org/p/fuchsia/builders/try/bringup.x64-debug-enable_lock_dep) |
@@ -59,6 +61,7 @@
 | cobalt-x64-linux |   |   | [try](https://ci.chromium.org/p/fuchsia/builders/try/cobalt-x64-linux) |
 | cobalt-x64-rel-build_only |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/cobalt-x64-rel-build_only) | [try](https://ci.chromium.org/p/fuchsia/builders/try/cobalt-x64-rel-build_only) |
 | core.arm64-asan |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/core.arm64-asan) | [try](https://ci.chromium.org/p/fuchsia/builders/try/core.arm64-asan) |
+| core.arm64-asan-ffx |   |   | [try](https://ci.chromium.org/p/fuchsia/builders/try/core.arm64-asan-ffx) |
 | core.arm64-asan-slow |   |   | [try](https://ci.chromium.org/p/fuchsia/builders/try/core.arm64-asan-slow) |
 | core.arm64-coverage-qemu_kvm | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/core.arm64-coverage-qemu_kvm) |   | [try](https://ci.chromium.org/p/fuchsia/builders/try/core.arm64-coverage-qemu_kvm) |
 | core.arm64-coverage-qemu_kvm-build_only |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/core.arm64-coverage-qemu_kvm-build_only) | [try](https://ci.chromium.org/p/fuchsia/builders/try/core.arm64-coverage-qemu_kvm-build_only) |
