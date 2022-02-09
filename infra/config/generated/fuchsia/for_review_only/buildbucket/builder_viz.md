@@ -91,6 +91,7 @@
 | core.x64-asan-incremental-experimental |   |   | [try](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-asan-incremental-experimental) |
 | core.x64-asan-kasan |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/core.x64-asan-kasan) | [try](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-asan-kasan) |
 | core.x64-asan-kasan-nuc_in_basic_envs |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/core.x64-asan-kasan-nuc_in_basic_envs) | [try](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-asan-kasan-nuc_in_basic_envs) |
+| core.x64-asan-no_rbe |   |   | [try](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-asan-no_rbe) |
 | core.x64-asan-nuc_in_basic_envs |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/core.x64-asan-nuc_in_basic_envs) | [try](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-asan-nuc_in_basic_envs) |
 | core.x64-asan-rust_and_gocache |   |   | [try](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-asan-rust_and_gocache) |
 | core.x64-asan-rust_bootfs |   |   | [try](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-asan-rust_bootfs) |
