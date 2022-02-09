@@ -5,9 +5,7 @@ optimize: RELEASE
 product: "products/core.gni"
 gn_args: "build_should_trace_actions = true"
 ninja_targets: "bundles:build_infra"
-ninja_targets: "sdk/archive/core.tar.gz"
-ninja_targets: "sdk/archive/fuchsia_dart.tar.gz"
-ninja_targets: "sdk/archive/modular_testing.tar.gz"
+ninja_targets: "sdk:archives"
 universe_packages: "//bundles:build_infra"
 universe_packages: "//sdk/bundles:tools"
 target_arch: X64
