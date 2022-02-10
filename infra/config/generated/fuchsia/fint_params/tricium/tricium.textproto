@@ -13,6 +13,8 @@ tools: "fidl-format"
 tools: "fidl-lint"
 tools: "formatjson5"
 tools: "mdlint"
+tools: "staticlints"
 use_goma: true
 generate_compdb: true
 incremental: true
+include_lint_targets: AFFECTED_LINT_TARGETS
