@@ -6,7 +6,9 @@
     "clang-windows-x64"
   ],
   "nonblocking_builders": [
-    "clang-linux-arm64"
+    "clang-linux-xarm64",
+    "clang-linux-arm64",
+    "clang-mac-arm64"
   ],
   "recipe": "contrib/toolchain_trigger",
   "recipes_use_py3": true,
