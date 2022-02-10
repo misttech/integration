@@ -13,5 +13,6 @@ universe_packages: "//bundles:build_infra"
 target_arch: X64
 include_prebuilt_binary_manifests: true
 use_goma: true
+enable_rbe: true
 incremental: true
 use_temporary_go_cache: true
