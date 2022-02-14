@@ -29,7 +29,6 @@
 | bringup.x64-debug |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/bringup.x64-debug) | [try](https://ci.chromium.org/p/fuchsia/builders/try/bringup.x64-debug) |
 | bringup.x64-debug-enable_lock_dep |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/bringup.x64-debug-enable_lock_dep) | [try](https://ci.chromium.org/p/fuchsia/builders/try/bringup.x64-debug-enable_lock_dep) |
 | bringup.x64-debug-enable_lock_dep-nuc_in_basic_envs |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/bringup.x64-debug-enable_lock_dep-nuc_in_basic_envs) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/bringup.x64-debug-enable_lock_dep-nuc_in_basic_envs) |
-| bringup.x64-debug-incremental |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/bringup.x64-debug-incremental) |
 | bringup.x64-debug-no_kernel_debug |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/bringup.x64-debug-no_kernel_debug) | [try](https://ci.chromium.org/p/fuchsia/builders/try/bringup.x64-debug-no_kernel_debug) |
 | bringup.x64-debug-no_opt-build_only |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/bringup.x64-debug-no_opt-build_only) | [try](https://ci.chromium.org/p/fuchsia/builders/try/bringup.x64-debug-no_opt-build_only) |
 | bringup.x64-debug-recipe_bootstrap-canary |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/bringup.x64-debug-recipe_bootstrap-canary) |
