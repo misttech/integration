@@ -128,7 +128,7 @@
     <!-- Python3 interpreter, used for host tools after bootstrap.
     -->
     <package name="infra/3pp/tools/cpython3/${platform}"
-             version="version:3.8.6.chromium.10"
+             version="version:3.8.8.chromium.12"
              platforms="linux-amd64,linux-arm64,mac-amd64"
              path="prebuilt/third_party/python3/{{.OS}}-{{.Arch}}"/>
 
