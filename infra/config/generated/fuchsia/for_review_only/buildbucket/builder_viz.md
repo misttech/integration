@@ -3,10 +3,10 @@
 | Builder | ci | global.ci | try |
 ---|:---:|:---:|:---:
 | auto-submit |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/auto-submit) |   |
-| bazel-build-rules-tests |   |   | [try](https://ci.chromium.org/p/fuchsia/builders/try/bazel-build-rules-tests) |
+| bazel-build-rules-tests |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/bazel-build-rules-tests) |
 | bloaty-arm64-linux | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/bloaty-arm64-linux) |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/bloaty-arm64-linux) |
-| bloaty-x64-linux | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/bloaty-x64-linux) |   | [try](https://ci.chromium.org/p/fuchsia/builders/try/bloaty-x64-linux) |
-| bloaty-x64-mac | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/bloaty-x64-mac) |   | [try](https://ci.chromium.org/p/fuchsia/builders/try/bloaty-x64-mac) |
+| bloaty-x64-linux | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/bloaty-x64-linux) |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/bloaty-x64-linux) |
+| bloaty-x64-mac | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/bloaty-x64-mac) |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/bloaty-x64-mac) |
 | breakpad-x64-linux | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/breakpad-x64-linux) |   |   |
 | bringup.arm64-asan |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/bringup.arm64-asan) | [try](https://ci.chromium.org/p/fuchsia/builders/try/bringup.arm64-asan) |
 | bringup.arm64-asan-ffx |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/bringup.arm64-asan-ffx) |
@@ -55,9 +55,9 @@
 | cmake-linux-x64 | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/cmake-linux-x64) |   |   |
 | cmake-mac-x64 | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/cmake-mac-x64) |   |   |
 | cmake-windows-x64 | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/cmake-windows-x64) |   |   |
-| cobalt-config |   |   | [try](https://ci.chromium.org/p/fuchsia/builders/try/cobalt-config) |
-| cobalt-x64-linux |   |   | [try](https://ci.chromium.org/p/fuchsia/builders/try/cobalt-x64-linux) |
-| cobalt-x64-rel-build_only |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/cobalt-x64-rel-build_only) | [try](https://ci.chromium.org/p/fuchsia/builders/try/cobalt-x64-rel-build_only) |
+| cobalt-config |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/cobalt-config) |
+| cobalt-x64-linux |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/cobalt-x64-linux) |
+| cobalt-x64-rel-build_only |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/cobalt-x64-rel-build_only) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/cobalt-x64-rel-build_only) |
 | core.arm64-asan |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/core.arm64-asan) | [try](https://ci.chromium.org/p/fuchsia/builders/try/core.arm64-asan) |
 | core.arm64-asan-ffx |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/core.arm64-asan-ffx) |
 | core.arm64-asan-slow |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/core.arm64-asan-slow) |
@@ -135,7 +135,7 @@
 | fastboot-mac-x64 | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/fastboot-mac-x64) |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/fastboot-mac-x64) |
 | ffmpeg |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/ffmpeg) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/ffmpeg) |
 | firebase-docs |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/firebase-docs) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/firebase-docs) |
-| fontdata | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/fontdata) |   | [try](https://ci.chromium.org/p/fuchsia/builders/try/fontdata) |
+| fontdata | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/fontdata) |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/fontdata) |
 | fuchsia-coverage | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/fuchsia-coverage) |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/fuchsia-coverage) |
 | fuchsia-coverage-absolute |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/fuchsia-coverage-absolute) |
 | fuchsia-coverage-x64-arm64 |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/fuchsia-coverage-x64-arm64) |
@@ -148,47 +148,47 @@
 | gnu_build_tools-linux-arm64 | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/gnu_build_tools-linux-arm64) |   |   |
 | gnu_build_tools-linux-x64 | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/gnu_build_tools-linux-x64) |   |   |
 | gnu_build_tools-mac-x64 | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/gnu_build_tools-mac-x64) |   |   |
-| go-arm64-linux |   |   | [try](https://ci.chromium.org/p/fuchsia/builders/try/go-arm64-linux) |
+| go-arm64-linux |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/go-arm64-linux) |
 | go-tests |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/go-tests) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/go-tests) |
-| go-x64-linux |   |   | [try](https://ci.chromium.org/p/fuchsia/builders/try/go-x64-linux) |
-| go-x64-mac |   |   | [try](https://ci.chromium.org/p/fuchsia/builders/try/go-x64-mac) |
+| go-x64-linux |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/go-x64-linux) |
+| go-x64-mac |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/go-x64-mac) |
 | goma-dev-configuration-roller | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/goma-dev-configuration-roller) |   |   |
 | goma-dev-deployer | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/goma-dev-deployer) |   |   |
 | goma-prod-configuration-roller | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/goma-prod-configuration-roller) |   |   |
 | goma-prod-deployer | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/goma-prod-deployer) |   |   |
 | host_prebuilts-x64-linux |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/host_prebuilts-x64-linux) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/host_prebuilts-x64-linux) |
 | host_prebuilts-x64-mac |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/host_prebuilts-x64-mac) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/host_prebuilts-x64-mac) |
-| infra | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/infra) |   | [try](https://ci.chromium.org/p/fuchsia/builders/try/infra) |
-| intel_wifi_driver | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/intel_wifi_driver) |   | [try](https://ci.chromium.org/p/fuchsia/builders/try/intel_wifi_driver) |
-| jiri | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/jiri) |   | [try](https://ci.chromium.org/p/fuchsia/builders/try/jiri) |
+| infra | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/infra) |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/infra) |
+| intel_wifi_driver | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/intel_wifi_driver) |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/intel_wifi_driver) |
+| jiri | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/jiri) |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/jiri) |
 | jq-linux-arm64 |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/jq-linux-arm64) |
 | jq-linux-x64 |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/jq-linux-x64) |
 | jq-mac-x64 |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/jq-mac-x64) |
 | kythe |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/kythe) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/kythe) |
 | linux-sysroot |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/linux-sysroot) |   |
 | llvm_test_suite-linux-x64 | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/llvm_test_suite-linux-x64) |   |   |
-| milestone-roller |   |   | [try](https://ci.chromium.org/p/fuchsia/builders/try/milestone-roller) |
+| milestone-roller |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/milestone-roller) |
 | ninja-linux-arm64 | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/ninja-linux-arm64) |   |   |
 | ninja-linux-x64 | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/ninja-linux-x64) |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/ninja-linux-x64) |
 | ninja-mac-x64 | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/ninja-mac-x64) |   |   |
 | ninja-windows-x64 | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/ninja-windows-x64) |   |   |
 | ovmf-x64 | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/ovmf-x64) |   |   |
-| partially-rollable-package-roller |   |   | [try](https://ci.chromium.org/p/fuchsia/builders/try/partially-rollable-package-roller) |
+| partially-rollable-package-roller |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/partially-rollable-package-roller) |
 | qemu-arm64-linux | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/qemu-arm64-linux) |   |   |
 | qemu-x64-linux | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/qemu-x64-linux) |   |   |
 | qemu-x64-mac | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/qemu-x64-mac) |   |   |
-| recipe_bootstrap-e2e-test | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/recipe_bootstrap-e2e-test) |   | [try](https://ci.chromium.org/p/fuchsia/builders/try/recipe_bootstrap-e2e-test) |
+| recipe_bootstrap-e2e-test | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/recipe_bootstrap-e2e-test) |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/recipe_bootstrap-e2e-test) |
 | recipe_bootstrap-e2e-test-child | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/recipe_bootstrap-e2e-test-child) |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/recipe_bootstrap-e2e-test-child) |
-| recipes |   |   | [try](https://ci.chromium.org/p/fuchsia/builders/try/recipes) |
-| recipes-unittest-only |   |   | [try](https://ci.chromium.org/p/fuchsia/builders/try/recipes-unittest-only) |
-| release-cherry-pick-dryrun |   |   | [try](https://ci.chromium.org/p/fuchsia/builders/try/release-cherry-pick-dryrun) |
-| release-create-branch-dryrun |   |   | [try](https://ci.chromium.org/p/fuchsia/builders/try/release-create-branch-dryrun) |
-| release-increment-version-dryrun |   |   | [try](https://ci.chromium.org/p/fuchsia/builders/try/release-increment-version-dryrun) |
-| release-snap-branch-dryrun |   |   | [try](https://ci.chromium.org/p/fuchsia/builders/try/release-snap-branch-dryrun) |
-| release-update-packages-dryrun |   |   | [try](https://ci.chromium.org/p/fuchsia/builders/try/release-update-packages-dryrun) |
-| release-update-project-dryrun |   |   | [try](https://ci.chromium.org/p/fuchsia/builders/try/release-update-project-dryrun) |
-| rollable-package-roller |   |   | [try](https://ci.chromium.org/p/fuchsia/builders/try/rollable-package-roller) |
-| rollable-project-roller |   |   | [try](https://ci.chromium.org/p/fuchsia/builders/try/rollable-project-roller) |
+| recipes |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/recipes) |
+| recipes-unittest-only |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/recipes-unittest-only) |
+| release-cherry-pick-dryrun |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/release-cherry-pick-dryrun) |
+| release-create-branch-dryrun |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/release-create-branch-dryrun) |
+| release-increment-version-dryrun |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/release-increment-version-dryrun) |
+| release-snap-branch-dryrun |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/release-snap-branch-dryrun) |
+| release-update-packages-dryrun |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/release-update-packages-dryrun) |
+| release-update-project-dryrun |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/release-update-project-dryrun) |
+| rollable-package-roller |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/rollable-package-roller) |
+| rollable-project-roller |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/rollable-project-roller) |
 | roller-tests-no-op |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/roller-tests-no-op) |
 | rust-arm64-linux |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/rust-arm64-linux) |
 | rust-bindgen-linux |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/rust-bindgen-linux) |
@@ -202,7 +202,7 @@
 | rust_toolchain.core.x64-debug |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/rust_toolchain.core.x64-debug) |
 | rust_toolchain.core.x64-host_test_only-mac |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/rust_toolchain.core.x64-host_test_only-mac) |
 | rust_toolchain.core.x64-release |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/rust_toolchain.core.x64-release) |
-| samples | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/samples) |   | [try](https://ci.chromium.org/p/fuchsia/builders/try/samples) |
+| samples | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/samples) |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/samples) |
 | samples-sdk-updater | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/samples-sdk-updater) |   |   |
 | sdk-core-linux |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/sdk-core-linux) | [try](https://ci.chromium.org/p/fuchsia/builders/try/sdk-core-linux) |
 | sdk-core-linux-arm64-build_only |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/sdk-core-linux-arm64-build_only) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/sdk-core-linux-arm64-build_only) |
@@ -217,12 +217,12 @@
 | terminal.x64-release-nuc_in_basic_envs |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/terminal.x64-release-nuc_in_basic_envs) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/terminal.x64-release-nuc_in_basic_envs) |
 | terminal.x64-release-perfcompare |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/terminal.x64-release-perfcompare) |
 | third-party-rust-licenses |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/third-party-rust-licenses) |
-| tools | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/tools) |   | [try](https://ci.chromium.org/p/fuchsia/builders/try/tools) |
-| uptodate-package-roller |   |   | [try](https://ci.chromium.org/p/fuchsia/builders/try/uptodate-package-roller) |
-| uptodate-project-roller |   |   | [try](https://ci.chromium.org/p/fuchsia/builders/try/uptodate-project-roller) |
+| tools | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/tools) |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/tools) |
+| uptodate-package-roller |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/uptodate-package-roller) |
+| uptodate-project-roller |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/uptodate-project-roller) |
 | vulkan_cts-x64-release |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/vulkan_cts-x64-release) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/vulkan_cts-x64-release) |
 | vulkan_sdk | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/vulkan_sdk) |   |   |
-| workstation-oot | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/workstation-oot) |   | [try](https://ci.chromium.org/p/fuchsia/builders/try/workstation-oot) |
+| workstation-oot | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/workstation-oot) |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/workstation-oot) |
 | workstation.chromebook-x64-release-build_only |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/workstation.chromebook-x64-release-build_only) | [try](https://ci.chromium.org/p/fuchsia/builders/try/workstation.chromebook-x64-release-build_only) |
 | workstation.x64-debug |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/workstation.x64-debug) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/workstation.x64-debug) |
 | workstation.x64-release |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/workstation.x64-release) | [try](https://ci.chromium.org/p/fuchsia/builders/try/workstation.x64-release) |
