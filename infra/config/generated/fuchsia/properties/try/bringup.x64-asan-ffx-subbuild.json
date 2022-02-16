@@ -21,6 +21,7 @@
     "test": {
       "affected_tests_multiply_threshold": 3,
       "default_service_account": "artifact-readers@fuchsia-infra.iam.gserviceaccount.com",
+      "ffx_experiment_level": 2,
       "max_attempts_per_test": 3,
       "per_test_timeout_secs": 360,
       "pool": "fuchsia.tests",
@@ -29,7 +30,6 @@
       "target_shard_duration_secs": 540,
       "targets_serial": true,
       "upload_results": true,
-      "use_ffx_experimental": true,
       "use_runtests": true
     }
   }
