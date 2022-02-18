@@ -175,8 +175,11 @@
 | ovmf-x64 | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/ovmf-x64) |   |   |
 | partially-rollable-package-roller |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/partially-rollable-package-roller) |
 | qemu-arm64-linux | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/qemu-arm64-linux) |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/qemu-arm64-linux) |
+| qemu-arm64-linux-upstream | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/qemu-arm64-linux-upstream) |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/qemu-arm64-linux-upstream) |
 | qemu-x64-linux | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/qemu-x64-linux) |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/qemu-x64-linux) |
+| qemu-x64-linux-upstream | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/qemu-x64-linux-upstream) |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/qemu-x64-linux-upstream) |
 | qemu-x64-mac | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/qemu-x64-mac) |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/qemu-x64-mac) |
+| qemu-x64-mac-upstream | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/qemu-x64-mac-upstream) |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/qemu-x64-mac-upstream) |
 | recipe_bootstrap-e2e-test | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/recipe_bootstrap-e2e-test) |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/recipe_bootstrap-e2e-test) |
 | recipe_bootstrap-e2e-test-child | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/recipe_bootstrap-e2e-test-child) |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/recipe_bootstrap-e2e-test-child) |
 | recipes |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/recipes) |
