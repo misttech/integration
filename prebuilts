@@ -375,6 +375,10 @@
              path="prebuilt/tools/gsutil"
              platforms="linux-amd64,linux-arm64,mac-amd64"
              version="git_revision:24535624eae3aad53c25a75e6eb3d15865f66fb2"/>
+    <package name="infra/tools/luci/logdog/logdog/${platform}"
+             path="prebuilt/tools/logdog"
+             platforms="linux-amd64,mac-amd64"
+             version="git_revision:24535624eae3aad53c25a75e6eb3d15865f66fb2"/>
 
     <!-- Packages in /fuchsia/infra -->
     <package name="fuchsia/infra/artifacts/${platform}"
