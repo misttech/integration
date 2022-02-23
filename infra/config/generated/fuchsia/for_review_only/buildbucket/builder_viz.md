@@ -63,6 +63,7 @@
 | core.arm64-asan-slow |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/core.arm64-asan-slow) |
 | core.arm64-coverage-qemu_kvm | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/core.arm64-coverage-qemu_kvm) |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/core.arm64-coverage-qemu_kvm) |
 | core.arm64-coverage-qemu_kvm-build_only |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/core.arm64-coverage-qemu_kvm-build_only) | [try](https://ci.chromium.org/p/fuchsia/builders/try/core.arm64-coverage-qemu_kvm-build_only) |
+| core.arm64-cxx20 |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/core.arm64-cxx20) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/core.arm64-cxx20) |
 | core.arm64-debug |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/core.arm64-debug) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/core.arm64-debug) |
 | core.arm64-debug-build_default |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/core.arm64-debug-build_default) | [try](https://ci.chromium.org/p/fuchsia/builders/try/core.arm64-debug-build_default) |
 | core.arm64-debug-flaky |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/core.arm64-debug-flaky) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/core.arm64-debug-flaky) |
@@ -101,6 +102,7 @@
 | core.x64-coverage-rust-qemu_kvm | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/core.x64-coverage-rust-qemu_kvm) |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-coverage-rust-qemu_kvm) |
 | core.x64-coverage-rust-qemu_kvm-build_only |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/core.x64-coverage-rust-qemu_kvm-build_only) | [try](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-coverage-rust-qemu_kvm-build_only) |
 | core.x64-cts-coverage-qemu_kvm |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-cts-coverage-qemu_kvm) |
+| core.x64-cxx20 |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/core.x64-cxx20) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-cxx20) |
 | core.x64-debug |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/core.x64-debug) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-debug) |
 | core.x64-debug-build_default |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/core.x64-debug-build_default) | [try](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-debug-build_default) |
 | core.x64-debug-cts |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/core.x64-debug-cts) | [try](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-debug-cts) |
