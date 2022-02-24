@@ -33,6 +33,7 @@
 | bringup.x64-debug-no_opt-build_only |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/bringup.x64-debug-no_opt-build_only) | [try](https://ci.chromium.org/p/fuchsia/builders/try/bringup.x64-debug-no_opt-build_only) |
 | bringup.x64-debug-recipe_bootstrap-canary |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/bringup.x64-debug-recipe_bootstrap-canary) |
 | bringup.x64-drivers-build_only |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/bringup.x64-drivers-build_only) | [try](https://ci.chromium.org/p/fuchsia/builders/try/bringup.x64-drivers-build_only) |
+| bringup.x64-drivers-cxx20-build_only |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/bringup.x64-drivers-cxx20-build_only) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/bringup.x64-drivers-cxx20-build_only) |
 | bringup.x64-fuzz_asan-build_only |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/bringup.x64-fuzz_asan-build_only) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/bringup.x64-fuzz_asan-build_only) |
 | bringup.x64-gcc |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/bringup.x64-gcc) | [try](https://ci.chromium.org/p/fuchsia/builders/try/bringup.x64-gcc) |
 | bringup.x64-gce |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/bringup.x64-gce) | [try](https://ci.chromium.org/p/fuchsia/builders/try/bringup.x64-gce) |
