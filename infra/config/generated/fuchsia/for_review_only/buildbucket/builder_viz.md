@@ -4,7 +4,6 @@
 ---|:---:|:---:|:---:
 | auto-submit |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/auto-submit) |   |
 | bazel-build-rules |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/bazel-build-rules) |
-| bazel-build-rules-tests |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/bazel-build-rules-tests) |
 | bloaty-arm64-linux | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/bloaty-arm64-linux) |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/bloaty-arm64-linux) |
 | bloaty-x64-linux | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/bloaty-x64-linux) |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/bloaty-x64-linux) |
 | bloaty-x64-mac | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/bloaty-x64-mac) |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/bloaty-x64-mac) |
