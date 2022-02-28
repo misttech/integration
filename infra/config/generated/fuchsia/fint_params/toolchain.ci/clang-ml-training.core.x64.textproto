@@ -2,11 +2,10 @@
 # Do not modify manually.
 
 optimize: RELEASE
-board: "boards/vim3.gni"
-product: "products/core.gni"
-gn_args: "clang_embed_bitcode = true"
-gn_args: "clang_ml_inliner = false"
+board: "boards/x64.gni"
+product: "products/core_size_limits.gni"
 gn_args: "debuginfo = \"none\""
 gn_args: "optimize = \"size\""
-target_arch: ARM64
+target_arch: X64
+include_images: true
 generate_compdb: true
