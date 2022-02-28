@@ -1,0 +1,16 @@
+{
+  "builds": [
+    {
+      "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/global.ci/ffmpeg-arm64.textproto",
+      "target": "arm64"
+    },
+    {
+      "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/global.ci/ffmpeg-x64.textproto",
+      "target": "x64"
+    }
+  ],
+  "manifest": "third_party/ffmpeg",
+  "recipe": "contrib/ffmpeg",
+  "recipes_use_py3": true,
+  "remote": "https://fuchsia.googlesource.com/integration"
+}

@@ -1,0 +1,20 @@
+{
+  "recipe": "fuchsia/build",
+  "recipes_use_py3": true,
+  "spec": {
+    "artifact_gcs_bucket": "fuchsia-artifacts",
+    "build": {
+      "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/global.ci/sdk-core-mac-arm64-build_only.textproto",
+      "sdk_subbuild": true,
+      "stats_gcs_bucket": "fuchsia-artifacts"
+    },
+    "checkout": {
+      "manifest": "flower",
+      "project": "integration",
+      "remote": "https://fuchsia.googlesource.com/integration"
+    },
+    "test": {
+      "pave": true
+    }
+  }
+}

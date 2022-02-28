@@ -1,0 +1,15 @@
+{
+  "analyses": [
+    "ClangTidy"
+  ],
+  "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/tricium/tricium-cobalt.textproto",
+  "luci_analyzers": [
+    "Copyright",
+    "Spacey",
+    "Spellchecker"
+  ],
+  "manifest": "flower",
+  "recipe": "tricium/tricium",
+  "recipes_use_py3": true,
+  "remote": "https://fuchsia.googlesource.com/integration"
+}
