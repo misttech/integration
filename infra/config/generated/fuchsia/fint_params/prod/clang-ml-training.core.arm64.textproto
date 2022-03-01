@@ -6,6 +6,8 @@ board: "boards/arm64.gni"
 product: "products/core_size_limits.gni"
 gn_args: "debuginfo = \"none\""
 gn_args: "optimize = \"size\""
+ninja_targets: "bundles:build_infra"
+universe_packages: "//bundles:build_infra"
 target_arch: ARM64
 include_images: true
 generate_compdb: true
