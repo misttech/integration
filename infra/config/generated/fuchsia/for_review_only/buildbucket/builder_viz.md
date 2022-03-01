@@ -219,6 +219,7 @@
 | static-checks |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/static-checks) | [try](https://ci.chromium.org/p/fuchsia/builders/try/static-checks) |
 | tensorflow | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/tensorflow) |   |   |
 | terminal.vim3-release |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/terminal.vim3-release) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/terminal.vim3-release) |
+| terminal.vim3-release-perfcompare |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/terminal.vim3-release-perfcompare) |
 | terminal.x64-release |   |   | [try](https://ci.chromium.org/p/fuchsia/builders/try/terminal.x64-release) |
 | terminal.x64-release-nuc_in_basic_envs |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/terminal.x64-release-nuc_in_basic_envs) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/terminal.x64-release-nuc_in_basic_envs) |
 | terminal.x64-release-perfcompare |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/terminal.x64-release-perfcompare) |
