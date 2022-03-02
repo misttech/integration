@@ -92,11 +92,9 @@
 | core.x64-asan-kasan-nuc_in_basic_envs |   | [global.ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/global.ci/core.x64-asan-kasan-nuc_in_basic_envs) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-asan-kasan-nuc_in_basic_envs) |
 | core.x64-asan-no_rbe |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-asan-no_rbe) |
 | core.x64-asan-nuc_in_basic_envs |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/core.x64-asan-nuc_in_basic_envs) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-asan-nuc_in_basic_envs) |
-| core.x64-asan-rust_and_gocache |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-asan-rust_and_gocache) |
 | core.x64-asan-rust_bootfs |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-asan-rust_bootfs) |
 | core.x64-asan-rust_consistency-build_only |   | [global.ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/global.ci/core.x64-asan-rust_consistency-build_only) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-asan-rust_consistency-build_only) |
 | core.x64-asan-rust_determinism |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/core.x64-asan-rust_determinism) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-asan-rust_determinism) |
-| core.x64-asan-rustcache |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-asan-rustcache) |
 | core.x64-asan-slow |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-asan-slow) |
 | core.x64-coverage-qemu_kvm | [ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/ci/core.x64-coverage-qemu_kvm) |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-coverage-qemu_kvm) |
 | core.x64-coverage-qemu_kvm-build_only |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/core.x64-coverage-qemu_kvm-build_only) | [try](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-coverage-qemu_kvm-build_only) |
