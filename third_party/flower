@@ -5,6 +5,7 @@
     <localimport file="chromium/chromium_latest"/>
     <localimport file="dart"/>
     <localimport file="flutter"/>
+    <localimport file="goldfish-opengl"/>
   </imports>
   <projects>
     <!-- Third Party -->
@@ -27,10 +28,6 @@
              remote="https://fuchsia.googlesource.com/third_party/github.com/alacritty/alacritty"
              gerrithost="https://fuchsia-review.googlesource.com"
              revision="250a0d14060050b3cd42cddd74484cd6d7b0deaf"/>
-    <project name="third_party/android/device/generic/goldfish-opengl"
-             path="third_party/android/device/generic/goldfish-opengl"
-             remote="https://fuchsia.googlesource.com/third_party/android/device/generic/goldfish-opengl"
-             revision="95d2e356c740a77dfa829015d4322430ffa4956d"/>
     <project name="third_party/android/platform/external/aac"
              path="third_party/android/platform/external/aac"
              remote="https://fuchsia.googlesource.com/third_party/android/platform/external/aac"
