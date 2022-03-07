@@ -228,6 +228,7 @@
 | vulkan_cts-x64-release |   | [global.ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/global.ci/vulkan_cts-x64-release) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/vulkan_cts-x64-release) |
 | vulkan_sdk | [ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/ci/vulkan_sdk) |   |   |
 | workstation-oot | [ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/ci/workstation-oot) |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/workstation-oot) |
+| workstation-oot-experimental |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/workstation-oot-experimental) |
 | workstation.chromebook-x64-release-build_only |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/workstation.chromebook-x64-release-build_only) | [try](https://ci.chromium.org/p/fuchsia/builders/try/workstation.chromebook-x64-release-build_only) |
 | workstation.x64-debug |   | [global.ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/global.ci/workstation.x64-debug) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/workstation.x64-debug) |
 | workstation.x64-release |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/workstation.x64-release) | [try](https://ci.chromium.org/p/fuchsia/builders/try/workstation.x64-release) |
