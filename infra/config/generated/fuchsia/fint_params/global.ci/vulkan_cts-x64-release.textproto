@@ -11,9 +11,9 @@ ninja_targets: "bundles:test_infra"
 base_packages: "//garnet/packages/testing:all"
 base_packages: "//garnet/packages:garnet"
 base_packages: "//third_party/vulkan-cts/fuchsia:vulkan-cts"
-universe_packages: "//bundles:build_infra"
-universe_packages: "//bundles:test_infra"
 host_labels: "//bundles/buildbot:host-tests"
+host_labels: "//bundles:build_infra"
+host_labels: "//bundles:test_infra"
 target_arch: X64
 pave: true
 include_images: true

@@ -9,8 +9,8 @@ gn_args: "build_should_trace_actions = true"
 ninja_targets: "bundles:build_infra"
 ninja_targets: "bundles:test_infra"
 base_packages: "//sdk:sdk.modular"
-universe_packages: "//bundles:build_infra"
-universe_packages: "//bundles:test_infra"
+host_labels: "//bundles:build_infra"
+host_labels: "//bundles:test_infra"
 target_arch: X64
 pave: true
 include_images: true
