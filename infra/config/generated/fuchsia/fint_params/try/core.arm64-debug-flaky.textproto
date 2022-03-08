@@ -9,9 +9,9 @@ gn_args: "restat_rust = true"
 ninja_targets: "bundles:build_infra"
 ninja_targets: "bundles:test_infra"
 base_packages: "//bundles/buildbot:core"
-universe_packages: "//bundles:build_infra"
-universe_packages: "//bundles:test_infra"
 host_labels: "//bundles/buildbot:host-tests"
+host_labels: "//bundles:build_infra"
+host_labels: "//bundles:test_infra"
 target_arch: ARM64
 pave: true
 include_images: true

@@ -8,8 +8,8 @@ gn_args: "basic_env_names = [ \"aemu\", \"qemu\" ]"
 ninja_targets: "bundles:build_infra"
 ninja_targets: "bundles:test_infra"
 base_packages: "//bundles/buildbot:bringup"
-universe_packages: "//bundles:build_infra"
-universe_packages: "//bundles:test_infra"
+host_labels: "//bundles:build_infra"
+host_labels: "//bundles:test_infra"
 target_arch: X64
 variants: "gcc"
 include_images: true

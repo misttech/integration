@@ -9,7 +9,7 @@ gn_args: "check_rustc_determinism = true"
 gn_args: "optimize = \"sanitizer\""
 ninja_targets: "bundles:build_infra"
 universe_packages: "//bundles/buildbot:core"
-universe_packages: "//bundles:build_infra"
+host_labels: "//bundles:build_infra"
 target_arch: X64
 variants: "asan-ubsan"
 variants: "host_asan-ubsan"

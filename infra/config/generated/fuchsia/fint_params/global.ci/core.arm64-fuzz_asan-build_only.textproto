@@ -9,8 +9,8 @@ gn_args: "optimize = \"sanitizer\""
 gn_args: "restat_rust = true"
 ninja_targets: "bundles:build_infra"
 universe_packages: "//bundles/buildbot:core"
-universe_packages: "//bundles:build_infra"
 universe_packages: "//tools/fuzz"
+host_labels: "//bundles:build_infra"
 target_arch: ARM64
 variants: "{variant=\"asan-fuzzer\" target_type=[\"fuzzed_executable\"]},{variant=\"asan\" label=[\"//sdk/lib/fdio\"]}"
 pave: true

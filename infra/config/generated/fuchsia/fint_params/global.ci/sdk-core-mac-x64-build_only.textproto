@@ -6,8 +6,8 @@ product: "products/core.gni"
 gn_args: "build_should_trace_actions = true"
 ninja_targets: "bundles:build_infra"
 ninja_targets: "sdk:archives"
-universe_packages: "//bundles:build_infra"
 universe_packages: "//sdk/bundles:tools"
+host_labels: "//bundles:build_infra"
 target_arch: X64
 pave: true
 include_prebuilt_binary_manifests: true
