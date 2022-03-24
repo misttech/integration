@@ -137,6 +137,7 @@
 | ffmpeg |   | [global.ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/global.ci/ffmpeg) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/ffmpeg) |
 | firebase-docs |   | [global.ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/global.ci/firebase-docs) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/firebase-docs) |
 | fontdata | [ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/ci/fontdata) |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/fontdata) |
+| fortune-teller | [ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/ci/fortune-teller) |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/fortune-teller) |
 | fuchsia-coverage | [ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/ci/fuchsia-coverage) |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/fuchsia-coverage) |
 | fuchsia-coverage-absolute |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/fuchsia-coverage-absolute) |
 | fuchsia-coverage-x64-arm64 |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/fuchsia-coverage-x64-arm64) |
