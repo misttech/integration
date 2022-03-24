@@ -1,0 +1,14 @@
+{
+  "bucket": "prod",
+  "input_builder_bucket": "toolchain.ci",
+  "input_builders": [
+    "clang-linux-x64",
+    "clang-mac-x64",
+    "clang-windows-x64"
+  ],
+  "recipe": "contrib/clang_trigger",
+  "recipes_use_py3": true,
+  "repo": "https://llvm.googlesource.com/llvm-project/",
+  "timeout_secs": 21600,
+  "triggers": "clang-prod-trigger"
+}
