@@ -78,6 +78,7 @@
 | core.arm64-lto |   | [global.ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/global.ci/core.arm64-lto) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/core.arm64-lto) |
 | core.arm64-profile-qemu_kvm | [ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/ci/core.arm64-profile-qemu_kvm) |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/core.arm64-profile-qemu_kvm) |
 | core.arm64-release |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/core.arm64-release) | [try](https://ci.chromium.org/p/fuchsia/builders/try/core.arm64-release) |
+| core.arm64-release-ffx |   | [global.ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/global.ci/core.arm64-release-ffx) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/core.arm64-release-ffx) |
 | core.arm64-release-flaky |   | [global.ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/global.ci/core.arm64-release-flaky) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/core.arm64-release-flaky) |
 | core.arm64-thinlto |   | [global.ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/global.ci/core.arm64-thinlto) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/core.arm64-thinlto) |
 | core.qemu-x64-host_tsan |   | [global.ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/global.ci/core.qemu-x64-host_tsan) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/core.qemu-x64-host_tsan) |
