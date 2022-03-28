@@ -1,7 +1,6 @@
 {
   "bucket": "toolchain.ci",
-  "builders": null,
-  "nonblocking_builders": [
+  "builders": [
     "clang-linux-xarm64",
     "clang-linux-arm64",
     "clang-mac-arm64"
