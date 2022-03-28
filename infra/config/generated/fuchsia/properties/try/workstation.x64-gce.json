@@ -1,0 +1,38 @@
+{
+  "recipe": "fuchsia/fuchsia",
+  "recipes_use_py3": true,
+  "spec": {
+    "artifact_gcs_bucket": "fuchsia-artifacts",
+    "build": {
+      "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/try/workstation.x64-gce.textproto",
+      "incremental": true,
+      "run_tests": true
+    },
+    "checkout": {
+      "manifest": "flower",
+      "project": "integration",
+      "remote": "https://fuchsia.googlesource.com/integration"
+    },
+    "gcs_bucket": "fuchsia-build",
+    "test": {
+      "affected_tests_multiply_threshold": 3,
+      "default_service_account": "artifact-readers@fuchsia-infra.iam.gserviceaccount.com",
+      "gce_mediator": {
+        "cloud_project": "fuchsia-testing-vms",
+        "endpoint": "fuchsia-gce-mediator-prod.uc.r.appspot.com",
+        "machine_shape": "n2-standard-4"
+      },
+      "max_attempts": 1,
+      "max_attempts_per_test": 3,
+      "pave": true,
+      "per_test_timeout_secs": 300,
+      "pool": "fuchsia.tests",
+      "swarming_expiration_timeout_secs": 18000,
+      "swarming_io_timeout_secs": 360,
+      "target_shard_duration_secs": 540,
+      "test_on_gce": true,
+      "upload_results": true
+    }
+  },
+  "uses_subbuild": true
+}
