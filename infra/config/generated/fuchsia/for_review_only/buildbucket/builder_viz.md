@@ -231,6 +231,7 @@
 | workstation-oot-experimental |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/workstation-oot-experimental) |
 | workstation.chromebook-x64-release-build_only |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/workstation.chromebook-x64-release-build_only) | [try](https://ci.chromium.org/p/fuchsia/builders/try/workstation.chromebook-x64-release-build_only) |
 | workstation.x64-debug |   | [global.ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/global.ci/workstation.x64-debug) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/workstation.x64-debug) |
+| workstation.x64-gce |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/workstation.x64-gce) |
 | workstation.x64-release |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/workstation.x64-release) | [try](https://ci.chromium.org/p/fuchsia/builders/try/workstation.x64-release) |
 | workstation.x64-release-build_only |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/workstation.x64-release-build_only) | [try](https://ci.chromium.org/p/fuchsia/builders/try/workstation.x64-release-build_only) |
 | workstation.x64-release-e2e-isolated |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/workstation.x64-release-e2e-isolated) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/workstation.x64-release-e2e-isolated) |
