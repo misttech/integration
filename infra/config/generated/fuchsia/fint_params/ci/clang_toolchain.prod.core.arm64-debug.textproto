@@ -19,3 +19,4 @@ include_host_tests: true
 test_durations_file: "prebuilt/infra/test_durations/fuchsia/clang_toolchain.prod.core.arm64-debug.json"
 default_test_durations_file: "prebuilt/infra/test_durations/fuchsia/default.json"
 include_default_ninja_target: true
+ninja_args: "-k0"
