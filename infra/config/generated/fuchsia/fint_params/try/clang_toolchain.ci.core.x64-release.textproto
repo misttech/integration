@@ -22,3 +22,4 @@ skip_if_unaffected: true
 test_durations_file: "prebuilt/infra/test_durations/fuchsia/clang_toolchain.ci.core.x64-release.json"
 default_test_durations_file: "prebuilt/infra/test_durations/fuchsia/default.json"
 include_default_ninja_target: true
+ninja_args: "-k0"
