@@ -1,0 +1,25 @@
+{
+  "builders": {
+    "linux-amd64": [
+      "rust_toolchain.core.arm64-debug",
+      "rust_toolchain.core.arm64-release",
+      "rust_toolchain.core.x64-debug",
+      "rust_toolchain.core.x64-release"
+    ],
+    "mac-amd64": [
+      "rust_toolchain.core.x64-host_test_only-mac"
+    ]
+  },
+  "gcs_bucket": "fuchsia-build",
+  "package": "rust",
+  "project": "integration",
+  "recipe": "contrib/rust_toolchain",
+  "recipes_use_py3": true,
+  "remote": "https://fuchsia.googlesource.com/integration",
+  "run_on_target": true,
+  "test_suites": [
+    "src/test/ui/allocator/*",
+    "src/test/ui/anon-params/*",
+    "src/test/ui/array-slice-vec/*"
+  ]
+}

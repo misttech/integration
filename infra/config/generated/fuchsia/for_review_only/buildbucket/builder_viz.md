@@ -201,6 +201,7 @@
 | rust-cargo-outdated-mac |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/rust-cargo-outdated-mac) |
 | rust-x64-linux |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/rust-x64-linux) |
 | rust-x64-mac |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/rust-x64-mac) |
+| rust_test-x64-linux |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/rust_test-x64-linux) |
 | rust_toolchain.core.arm64-debug |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/rust_toolchain.core.arm64-debug) |
 | rust_toolchain.core.arm64-release |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/rust_toolchain.core.arm64-release) |
 | rust_toolchain.core.x64-debug |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/rust_toolchain.core.x64-debug) |
