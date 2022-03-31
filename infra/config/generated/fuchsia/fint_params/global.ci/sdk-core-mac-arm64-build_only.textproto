@@ -3,6 +3,7 @@
 
 optimize: RELEASE
 product: "products/core.gni"
+gn_args: "build_sdk_archives = true"
 gn_args: "build_should_trace_actions = true"
 ninja_targets: "bundles:build_infra"
 ninja_targets: "sdk:archives"
