@@ -207,6 +207,7 @@
 | rust_toolchain.core.x64-debug |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/rust_toolchain.core.x64-debug) |
 | rust_toolchain.core.x64-host_test_only-mac |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/rust_toolchain.core.x64-host_test_only-mac) |
 | rust_toolchain.core.x64-release |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/rust_toolchain.core.x64-release) |
+| sample-drivers | [ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/ci/sample-drivers) |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/sample-drivers) |
 | samples | [ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/ci/samples) |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/samples) |
 | samples-sdk-updater | [ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/ci/samples-sdk-updater) |   |   |
 | sdk-core-linux |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/sdk-core-linux) | [try](https://ci.chromium.org/p/fuchsia/builders/try/sdk-core-linux) |

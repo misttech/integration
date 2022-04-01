@@ -1,0 +1,11 @@
+{
+  "build_command": {
+    "path": "scripts/build.sh"
+  },
+  "download_command": {
+    "path": "scripts/bootstrap.sh"
+  },
+  "recipe": "build_test_upload",
+  "recipes_use_py3": true,
+  "remote": "https://fuchsia.googlesource.com/sdk-samples/drivers"
+}
