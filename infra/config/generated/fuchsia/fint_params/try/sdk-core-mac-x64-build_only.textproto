@@ -5,6 +5,7 @@ optimize: RELEASE
 product: "products/core.gni"
 gn_args: "build_should_trace_actions = true"
 ninja_targets: "bundles:build_infra"
+ninja_targets: "sdk:ddk"
 ninja_targets: "sdk:merged"
 universe_packages: "//sdk/bundles:tools"
 host_labels: "//bundles:build_infra"
