@@ -13,6 +13,11 @@
       "name": "bundle_fetcher"
     },
     {
+      "gcs_bucket": "fuchsia-ffx",
+      "gcs_path": "ffx-macos-x64",
+      "name": "ffx"
+    },
+    {
       "cipd_package": "fuchsia/tools/futility/${platform}",
       "name": "futility"
     },
@@ -21,9 +26,8 @@
       "name": "json_validator"
     },
     {
-      "gcs_bucket": "fuchsia-ffx",
-      "gcs_path": "ffx-macos-x64",
-      "name": "ffx"
+      "cipd_package": "fuchsia/tools/ninjatrace/${platform}",
+      "name": "ninjatrace"
     }
   ]
 }
