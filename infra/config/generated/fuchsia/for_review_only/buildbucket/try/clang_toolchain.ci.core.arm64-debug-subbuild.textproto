@@ -36,7 +36,7 @@ swarming {
   builders {
     name: "clang_toolchain.ci.core.arm64-debug-subbuild"
     swarming_host: "chromium-swarm.appspot.com"
-    dimensions: "cores:32"
+    dimensions: "cores:64"
     dimensions: "cpu:x64"
     dimensions: "gce:1"
     dimensions: "os:Linux"
