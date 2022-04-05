@@ -59,10 +59,6 @@ swarming {
       name: "fuchsia_incremental_a4d451ec23463726f72c43d64c710968f6b602cd653b4de8adee1b556240a829"
       path: "incremental"
     }
-    caches {
-      name: "fuchsia_rbe_a4d451ec23463726f72c43d64c710968f6b602cd653b4de8adee1b556240a829"
-      path: "rbe"
-    }
     service_account: "fuchsia-ci-builder@fuchsia-infra.iam.gserviceaccount.com"
     resultdb {
       enable: true
