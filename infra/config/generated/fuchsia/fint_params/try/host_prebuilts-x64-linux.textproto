@@ -3,13 +3,15 @@
 
 optimize: RELEASE
 product: "products/core.gni"
-universe_packages: "//build/packages:json_validator"
-universe_packages: "//tools/bundle_fetcher"
-universe_packages: "//tools/vboot_reference"
+host_labels: "//build/packages:json_validator"
+host_labels: "//tools/build/ninjago/ninjatrace"
+host_labels: "//tools/bundle_fetcher"
+host_labels: "//tools/vboot_reference"
 target_arch: X64
 include_prebuilt_binary_manifests: true
 tools: "bundle_fetcher"
 tools: "ffx"
 tools: "futility"
 tools: "json_validator"
+tools: "ninjatrace"
 use_goma: true
