@@ -16,6 +16,7 @@ target_arch: X64
 variants: "gcc"
 include_images: true
 include_prebuilt_binary_manifests: true
+include_zbi_tests: true
 include_host_tests: true
 test_durations_file: "prebuilt/infra/test_durations/fuchsia/bringup.x64-gcc.json"
 default_test_durations_file: "prebuilt/infra/test_durations/fuchsia/default.json"
