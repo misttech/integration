@@ -21,7 +21,6 @@
 | bringup.arm64-hwasan |   | [global.ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/global.ci/bringup.arm64-hwasan) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/bringup.arm64-hwasan) |
 | bringup.arm64-lto |   | [global.ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/global.ci/bringup.arm64-lto) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/bringup.arm64-lto) |
 | bringup.arm64-thinlto |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/bringup.arm64-thinlto) | [try](https://ci.chromium.org/p/fuchsia/builders/try/bringup.arm64-thinlto) |
-| bringup.chromebook-x64-asan |   | [global.ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/global.ci/bringup.chromebook-x64-asan) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/bringup.chromebook-x64-asan) |
 | bringup.vim3-debug |   | [global.ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/global.ci/bringup.vim3-debug) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/bringup.vim3-debug) |
 | bringup.vim3-debug-build_only |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/bringup.vim3-debug-build_only) |
 | bringup.x64-asan |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/bringup.x64-asan) | [try](https://ci.chromium.org/p/fuchsia/builders/try/bringup.x64-asan) |
