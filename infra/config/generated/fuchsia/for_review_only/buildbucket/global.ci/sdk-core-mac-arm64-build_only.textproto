@@ -24,10 +24,10 @@ swarming {
   builders {
     name: "sdk-core-mac-arm64-build_only"
     swarming_host: "chromium-swarm.appspot.com"
-    dimensions: "120:mac_model:VMware7,1|Macmini8,1"
     dimensions: "cores:8|12"
     dimensions: "cpu:x64"
     dimensions: "gce:0"
+    dimensions: "120:mac_model:VMware7,1|Macmini8,1"
     dimensions: "os:Mac"
     dimensions: "pool:luci.fuchsia.ci"
     dimensions: "role:builder"
