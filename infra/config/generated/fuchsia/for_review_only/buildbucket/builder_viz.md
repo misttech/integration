@@ -238,10 +238,10 @@
 | workstation.x64-release-e2e-isolated |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/workstation.x64-release-e2e-isolated) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/workstation.x64-release-e2e-isolated) |
 | workstation.x64-release-e2e-isolated-longevity |   | [global.ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/global.ci/workstation.x64-release-e2e-isolated-longevity) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/workstation.x64-release-e2e-isolated-longevity) |
 | zbi_tests-arm64 |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/zbi_tests-arm64) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/zbi_tests-arm64) |
-| zbi_tests-arm64-asan |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/zbi_tests-arm64-asan) | [try](https://ci.chromium.org/p/fuchsia/builders/try/zbi_tests-arm64-asan) |
+| zbi_tests-arm64-asan |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/zbi_tests-arm64-asan) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/zbi_tests-arm64-asan) |
 | zbi_tests-arm64-cxx20 |   | [global.ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/global.ci/zbi_tests-arm64-cxx20) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/zbi_tests-arm64-cxx20) |
-| zbi_tests-arm64-gcc |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/zbi_tests-arm64-gcc) | [try](https://ci.chromium.org/p/fuchsia/builders/try/zbi_tests-arm64-gcc) |
-| zbi_tests-x64 |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/zbi_tests-x64) | [try](https://ci.chromium.org/p/fuchsia/builders/try/zbi_tests-x64) |
-| zbi_tests-x64-asan |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/zbi_tests-x64-asan) | [try](https://ci.chromium.org/p/fuchsia/builders/try/zbi_tests-x64-asan) |
+| zbi_tests-arm64-gcc |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/zbi_tests-arm64-gcc) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/zbi_tests-arm64-gcc) |
+| zbi_tests-x64 |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/zbi_tests-x64) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/zbi_tests-x64) |
+| zbi_tests-x64-asan |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/zbi_tests-x64-asan) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/zbi_tests-x64-asan) |
 | zbi_tests-x64-cxx20 |   | [global.ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/global.ci/zbi_tests-x64-cxx20) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/zbi_tests-x64-cxx20) |
-| zbi_tests-x64-gcc |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/zbi_tests-x64-gcc) | [try](https://ci.chromium.org/p/fuchsia/builders/try/zbi_tests-x64-gcc) |
+| zbi_tests-x64-gcc |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/zbi_tests-x64-gcc) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/zbi_tests-x64-gcc) |
