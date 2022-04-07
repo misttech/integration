@@ -1,0 +1,14 @@
+{
+  "$fuchsia/rbe": {
+    "instance": "projects/rbe-fuchsia-prod/instances/default"
+  },
+  "cipd_root": "fuchsia",
+  "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/global.ci/sdk-experimental-linux.textproto",
+  "gcs_bucket": "fuchsia-artifacts",
+  "manifest": "flower",
+  "recipe": "sdk",
+  "recipes_use_py3": true,
+  "remote": "https://fuchsia.googlesource.com/integration",
+  "sdk_name": "experimental",
+  "subbuild_collect_timeout_secs": 3600
+}

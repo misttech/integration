@@ -216,6 +216,12 @@
 | sdk-core-mac |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/sdk-core-mac) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/sdk-core-mac) |
 | sdk-core-mac-arm64-build_only |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/sdk-core-mac-arm64-build_only) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/sdk-core-mac-arm64-build_only) |
 | sdk-core-mac-x64-build_only |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/sdk-core-mac-x64-build_only) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/sdk-core-mac-x64-build_only) |
+| sdk-experimental-linux |   | [global.ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/global.ci/sdk-experimental-linux) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/sdk-experimental-linux) |
+| sdk-experimental-linux-arm64-build_only |   | [global.ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/global.ci/sdk-experimental-linux-arm64-build_only) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/sdk-experimental-linux-arm64-build_only) |
+| sdk-experimental-linux-x64-build_only |   | [global.ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/global.ci/sdk-experimental-linux-x64-build_only) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/sdk-experimental-linux-x64-build_only) |
+| sdk-experimental-mac |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/sdk-experimental-mac) |
+| sdk-experimental-mac-arm64-build_only |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/sdk-experimental-mac-arm64-build_only) |
+| sdk-experimental-mac-x64-build_only |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/sdk-experimental-mac-x64-build_only) |
 | static-checks |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/static-checks) | [try](https://ci.chromium.org/p/fuchsia/builders/try/static-checks) |
 | tensorflow | [ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/ci/tensorflow) |   |   |
 | terminal.vim3-release |   | [global.ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/global.ci/terminal.vim3-release) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/terminal.vim3-release) |
