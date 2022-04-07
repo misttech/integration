@@ -1,5 +1,18 @@
 {
-  "recipe": "no_op",
+  "$fuchsia/rbe": {
+    "instance": "projects/rbe-fuchsia-prod/instances/default"
+  },
+  "allowed_device_types": [
+    "QEMU",
+    "AEMU",
+    "Intel NUC Kit NUC7i5DNHE"
+  ],
+  "artifact_gcs_bucket": "fuchsia-artifacts",
+  "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/global.ci/zbi_tests-x64.textproto",
+  "manifest": "flower",
+  "max_attempts_per_test": 1,
+  "recipe": "zbi_test",
   "recipes_use_py3": true,
-  "summary_markdown": "This builder is deprecated. See https://ci.chromium.org/p/fuchsia/builders/global.ci/bringup.x64-debug"
+  "remote": "https://fuchsia.googlesource.com/integration",
+  "test_pool": "fuchsia.tests"
 }
