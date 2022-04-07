@@ -32,7 +32,7 @@ swarming {
   builders {
     name: "gcc_toolchain.zbi_tests-x64-gcc"
     swarming_host: "chromium-swarm.appspot.com"
-    dimensions: "cores:32"
+    dimensions: "cores:2"
     dimensions: "cpu:x64"
     dimensions: "gce:1"
     dimensions: "os:Linux"
@@ -46,11 +46,9 @@ swarming {
       '{'
       '  "is_fyi": true,'
       '  "led_builder_is_bootstrapped": true,'
-      '  "recipe": "zbi_test",'
-      '  "recipes_host_override": "fuchsia.googlesource.com",'
-      '  "recipes_integration_ref_override": "refs/heads/main"'
+      '  "recipe": "no_op"'
       '}'
-    execution_timeout_secs: 8400
+    execution_timeout_secs: 1800
     caches {
       name: "builder"
       path: "builder"
@@ -58,10 +56,6 @@ swarming {
     caches {
       name: "symbol"
       path: "symbol"
-    }
-    caches {
-      name: "fuchsia_incremental_def0835709682a871fc2528b089ce4e9837630257f2bd143cee41610c9c09474"
-      path: "incremental"
     }
     service_account: "fuchsia-ci-builder@fuchsia-infra.iam.gserviceaccount.com"
   }
