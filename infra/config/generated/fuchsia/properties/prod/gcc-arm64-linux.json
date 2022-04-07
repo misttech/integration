@@ -1,9 +1,7 @@
 {
   "builders": [
     "gcc_toolchain.bringup.arm64-gcc",
-    "gcc_toolchain.bringup.x64-gcc",
-    "gcc_toolchain.zbi_tests-arm64-gcc",
-    "gcc_toolchain.zbi_tests-x64-gcc"
+    "gcc_toolchain.bringup.x64-gcc"
   ],
   "recipe": "contrib/gcc_toolchain",
   "recipes_use_py3": true
