@@ -170,7 +170,7 @@
 | kythe |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/kythe) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/kythe) |
 | linux-sysroot |   | [global.ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/global.ci/linux-sysroot) |   |
 | llvm_test_suite-linux-x64 | [ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/ci/llvm_test_suite-linux-x64) |   |   |
-| lsc-suggester |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/lsc-suggester) |
+| lsc-suggester |   | [global.ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/global.ci/lsc-suggester) |   |
 | milestone-roller |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/milestone-roller) |
 | ninja-linux-arm64 | [ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/ci/ninja-linux-arm64) |   |   |
 | ninja-linux-x64 | [ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/ci/ninja-linux-x64) |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/ninja-linux-x64) |
