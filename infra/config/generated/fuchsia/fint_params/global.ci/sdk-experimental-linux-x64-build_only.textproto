@@ -6,7 +6,7 @@ product: "products/core.gni"
 gn_args: "build_should_trace_actions = true"
 gn_args: "output_breakpad_syms = true"
 ninja_targets: "bundles:build_infra"
-ninja_targets: "sdk:ddk"
+ninja_targets: "sdk:ddk_archive"
 universe_packages: "//sdk/bundles:tools"
 host_labels: "//bundles:build_infra"
 target_arch: X64
