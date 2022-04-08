@@ -36,7 +36,7 @@ swarming {
   builders {
     name: "zbi_tests-arm64-cxx20"
     swarming_host: "chromium-swarm.appspot.com"
-    dimensions: "cores:2"
+    dimensions: "cores:32"
     dimensions: "cpu:x64"
     dimensions: "gce:1"
     dimensions: "os:Linux"
