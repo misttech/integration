@@ -452,7 +452,13 @@
     <!-- Starnix root filesystem image for testing -->
     <package name="fuchsia/starnix/android-image-amd64"
              path="prebuilt/starnix/android-image-amd64"
-             version="version:0.6"/>
+             version="version:0.8"/>
+
+    <!-- Starnix Android Debug symbols -->
+    <package name="fuchsia/starnix/android-image-debug-symbols-amd64"
+             path="prebuilt/.build-id"
+             version="version:0.8"
+             attributes="debug-symbols,debug-symbols-x64"/>
 
     <!-- Starnix root filesystem image for testing Chromium OS -->
     <package name="fuchsia/starnix/chromiumos-image-amd64"
