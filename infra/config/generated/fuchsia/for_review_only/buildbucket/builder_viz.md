@@ -230,6 +230,7 @@
 | terminal.x64-release-nuc_in_basic_envs |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/terminal.x64-release-nuc_in_basic_envs) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/terminal.x64-release-nuc_in_basic_envs) |
 | terminal.x64-release-perfcompare |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/terminal.x64-release-perfcompare) |
 | third-party-rust-licenses |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/third-party-rust-licenses) |
+| third_party_source_layout_audit |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/third_party_source_layout_audit) |
 | tools | [ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/ci/tools) |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/tools) |
 | uptodate-package-roller |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/uptodate-package-roller) |
 | uptodate-project-roller |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/uptodate-project-roller) |
