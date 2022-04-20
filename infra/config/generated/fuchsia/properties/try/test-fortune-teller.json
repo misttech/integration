@@ -1,0 +1,25 @@
+{
+  "build_command": {
+    "path": "scripts/build.sh"
+  },
+  "download_command": {
+    "path": "scripts/bootstrap.sh"
+  },
+  "mos_upload_options": {
+    "gcs_bucket": "discover-cloud.appspot.com",
+    "manifest_path": "execroot/__main__/bazel-out/x86_64-fastbuild/bin/src/upload_manifest.json",
+    "repo_hostname": "e20c92ac-1c24-4052-8ff9-8aaa31a0f820.fuchsia-updates.googleusercontent.com"
+  },
+  "recipe": "build_test_upload",
+  "recipes_use_py3": true,
+  "remote": "https://fuchsia.googlesource.com/sdk-samples/fortune-teller",
+  "upload_command": {
+    "args": [
+      "-o",
+      "{build_dir}",
+      "-v",
+      "{placeholder_version}"
+    ],
+    "path": "scripts/upload.sh"
+  }
+}

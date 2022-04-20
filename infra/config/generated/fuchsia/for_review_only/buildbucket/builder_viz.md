@@ -229,6 +229,7 @@
 | [terminal.x64-release](https://luci-scheduler.appspot.com/jobs/fuchsia/terminal.x64-release-nuc_in_basic_envs-e5a0ec7f) |   |   | [try](https://ci.chromium.org/p/fuchsia/builders/try/terminal.x64-release) |
 | [terminal.x64-release-nuc_in_basic_envs](https://luci-scheduler.appspot.com/jobs/fuchsia/terminal.x64-release-nuc_in_basic_envs-e5a0ec7f) |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/terminal.x64-release-nuc_in_basic_envs) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/terminal.x64-release-nuc_in_basic_envs) |
 | terminal.x64-release-perfcompare |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/terminal.x64-release-perfcompare) |
+| test-fortune-teller |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/test-fortune-teller) |
 | [third-party-rust-licenses](https://luci-scheduler.appspot.com/jobs/fuchsia/toolchain.ci-third-party-rust-licenses-49def413) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/third-party-rust-licenses) |
 | [third_party_source_layout_audit](https://luci-scheduler.appspot.com/jobs/fuchsia/third_party_source_layout_audit) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/third_party_source_layout_audit) |
 | [tools](https://luci-scheduler.appspot.com/jobs/fuchsia/ci-tools-ebbe54c0) | [ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/ci/tools) |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/tools) |
