@@ -1,0 +1,22 @@
+{
+  "checkout_manifest": "manifests/minimal",
+  "cl_notify_option": "NONE",
+  "create_unique_change_id": true,
+  "dry_run": true,
+  "force_submit": false,
+  "lockfiles": [
+    "manifests/flower=jiri.lock"
+  ],
+  "packages_by_manifest": {
+    "manifests/rollable": [
+      "fuchsia/infra/roller-tests/test-package1",
+      "fuchsia/infra/roller-tests/test-package2"
+    ]
+  },
+  "project": "infra/roller-tests/integration",
+  "recipe": "fuchsia_cipd_roller",
+  "recipes_use_py3": true,
+  "ref": "bar",
+  "remote": "https://fuchsia.googlesource.com/infra/roller-tests/integration",
+  "tag": "version"
+}

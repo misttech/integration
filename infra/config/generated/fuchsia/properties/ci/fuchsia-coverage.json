@@ -1,0 +1,47 @@
+{
+  "absolute_coverage_args": {
+    "host": "turquoise-internal",
+    "project": "turquoise"
+  },
+  "artifact_gcs_bucket": "fuchsia-artifacts",
+  "coverage_builders": {
+    "core.arm64-coverage-qemu_kvm": [
+      ".cc",
+      ".cpp",
+      ".cxx",
+      ".c++",
+      ".h",
+      ".hpp",
+      ".hxx",
+      ".hh",
+      ".inc",
+      ".ipp",
+      ".inl",
+      ".def",
+      ".c"
+    ],
+    "core.x64-coverage-qemu_kvm": [
+      ".cc",
+      ".cpp",
+      ".cxx",
+      ".c++",
+      ".h",
+      ".hpp",
+      ".hxx",
+      ".hh",
+      ".inc",
+      ".ipp",
+      ".inl",
+      ".def",
+      ".c"
+    ],
+    "core.x64-coverage-rust-qemu_kvm": [
+      ".rs"
+    ]
+  },
+  "manifest": "flower",
+  "recipe": "fuchsia/coverage",
+  "recipes_use_py3": true,
+  "remote": "https://fuchsia.googlesource.com/integration",
+  "use_authenticated_url": false
+}

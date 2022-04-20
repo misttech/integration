@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <imports>
+    <localimport file="minimal"/>
+    <localimport file="prebuilts"/>
+  </imports>
+  <projects>
+    <project name="fuchsia"
+             path="."
+             githooks=""
+             remote="https://fuchsia.googlesource.com/fuchsia"
+             gerrithost="https://fuchsia-review.googlesource.com"
+             revision="b42cc70028e49c6a1412a25331470ada9301c0fb"/>
+  </projects>
+  <hooks>
+    <hook name="install-environment"
+          project="fuchsia"
+          action="scripts/devshell/lib/add_symlink_to_bin.sh"/>
+    <hook name="zircon-download-prebuilt"
+          project="fuchsia"
+          action="zircon/scripts/download-prebuilt"/>
+    <hook name="gen-ssh-keys"
+          project="fuchsia"
+          action="tools/ssh-keys/gen-ssh-keys.sh"/>
+  </hooks>
+</manifest>

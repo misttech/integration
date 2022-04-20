@@ -1,0 +1,10 @@
+{
+  "domain": "gcr.io",
+  "package": "fuchsia/third_party/gcc",
+  "project": "fuchsia-toolchain-images-gcr",
+  "recipe": "contrib/goma_toolchain",
+  "recipes_use_py3": true,
+  "root": "fuchsia_linux",
+  "toolchain": "gcc",
+  "update_goma_base_images": false
+}

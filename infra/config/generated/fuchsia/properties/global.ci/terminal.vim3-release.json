@@ -1,0 +1,36 @@
+{
+  "recipe": "fuchsia/fuchsia",
+  "recipes_use_py3": true,
+  "spec": {
+    "artifact_gcs_bucket": "fuchsia-artifacts",
+    "build": {
+      "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/global.ci/terminal.vim3-release.textproto",
+      "run_tests": true,
+      "upload_results": true
+    },
+    "checkout": {
+      "manifest": "flower",
+      "project": "integration",
+      "remote": "https://fuchsia.googlesource.com/integration"
+    },
+    "gcs_bucket": "fuchsia-build",
+    "test": {
+      "affected_tests_multiply_threshold": 3,
+      "catapult_dashboard_bot": "fuchsia-arm64-vim3",
+      "catapult_dashboard_master": "fuchsia.global.ci",
+      "default_service_account": "artifact-readers@fuchsia-infra.iam.gserviceaccount.com",
+      "max_attempts": 1,
+      "max_attempts_per_test": 1,
+      "max_shards_per_env": 4,
+      "pave": true,
+      "per_test_timeout_secs": 600,
+      "pool": "fuchsia.tests",
+      "retry_task_on_test_failure": true,
+      "swarming_expiration_timeout_secs": 18000,
+      "swarming_io_timeout_secs": 660,
+      "target_shard_duration_secs": 540,
+      "upload_results": true
+    }
+  },
+  "uses_subbuild": true
+}

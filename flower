@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <imports>
+    <localimport file="minimal"/>
+    <localimport file="stem"/>
+    <localimport file="third_party/flower"/>
+  </imports>
+  <projects>
+    <project name="experiences"
+             path="src/experiences"
+             githooks=""
+             remote="https://fuchsia.googlesource.com/experiences"
+             gerrithost="https://fuchsia-review.googlesource.com"
+             revision="9c783685ec2ef44c2026300e3c3ea66e522ba59d"/>
+  </projects>
+</manifest>

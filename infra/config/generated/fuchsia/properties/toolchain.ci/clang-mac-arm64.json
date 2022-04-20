@@ -1,0 +1,22 @@
+{
+  "builders": {
+    "linux-amd64": [
+      "clang_toolchain.ci.core.arm64-debug",
+      "clang_toolchain.ci.core.arm64-release",
+      "clang_toolchain.ci.core.x64-debug",
+      "clang_toolchain.ci.core.x64-release"
+    ],
+    "mac-amd64": [
+      "clang_toolchain.ci.core.x64-host_test_only-mac"
+    ]
+  },
+  "do_2stage": true,
+  "enable_assertions": true,
+  "enable_backtraces": true,
+  "enable_lto": false,
+  "gcs_bucket": "fuchsia-build",
+  "platform": "mac-arm64",
+  "recipe": "contrib/clang_toolchain",
+  "recipes_use_py3": true,
+  "upload_package": false
+}

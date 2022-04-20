@@ -1,0 +1,11 @@
+{
+  "bucket": "toolchain.ci",
+  "builders": [
+    "clang-linux-xarm64",
+    "clang-linux-arm64",
+    "clang-mac-arm64"
+  ],
+  "recipe": "contrib/toolchain_trigger",
+  "recipes_use_py3": true,
+  "timeout": 7200
+}

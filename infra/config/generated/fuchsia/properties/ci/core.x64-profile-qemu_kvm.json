@@ -1,0 +1,36 @@
+{
+  "recipe": "fuchsia/fuchsia",
+  "recipes_use_py3": true,
+  "spec": {
+    "artifact_gcs_bucket": "fuchsia-artifacts",
+    "build": {
+      "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/ci/core.x64-profile-qemu_kvm.textproto",
+      "run_tests": true,
+      "upload_results": true
+    },
+    "checkout": {
+      "manifest": "flower",
+      "project": "integration",
+      "remote": "https://fuchsia.googlesource.com/integration"
+    },
+    "gcs_bucket": "fuchsia-build",
+    "test": {
+      "default_service_account": "artifact-readers@fuchsia-infra.iam.gserviceaccount.com",
+      "max_attempts": 1,
+      "max_attempts_per_test": 3,
+      "max_shard_size": 250,
+      "pave": true,
+      "per_test_timeout_secs": 600,
+      "pool": "fuchsia.tests",
+      "swarming_expiration_timeout_secs": 18000,
+      "swarming_io_timeout_secs": 660,
+      "timeout_secs": 18000,
+      "upload_results": true,
+      "use_runtests": true,
+      "zircon_args": [
+        "kernel.x86.disable_spec_mitigations=true"
+      ]
+    }
+  },
+  "uses_subbuild": true
+}
