@@ -475,5 +475,21 @@
              path="prebuilt/proprietary/vendor/arm/libvulkan_arm_g52_r0p0"
              version="1LeNWUMeGD-TttM9-wQ-zGMomkAkPT2ycFPDDV9o8WwC"
              internal="true"/>
+
+    <!-- Intel media codecs -->
+    <package name="fuchsia/third_party/intel/media-driver/codec_runner_intel_gen-debug-x64"
+             path="prebuilt/third_party/intel/media-driver/codec_runner_intel_gen-debug-x64"
+             version="U40AA9ZdLCKMK42qPGcKlPc2JPiJ64y1j2uRORzdX9sC"/>
+    <package name="fuchsia/third_party/intel/media-driver/codec_runner_intel_gen-debug-debug-symbols-x64"
+             path="prebuilt/.build-id"
+             version="oQNdVbShmaYPE6bVgP7LHUJu1rWpwfbt6-FIGYKAeWwC"
+             attributes="debug-symbols,debug-symbols-x64,debug-symbols-intel-gen"/>
+    <package name="fuchsia/third_party/intel/media-driver/codec_runner_intel_gen-x64"
+             path="prebuilt/third_party/intel/media-driver/codec_runner_intel_gen-x64"
+             version="nwUQq7qaziHgl5gGjxVe7x4WhG4NHEdVGvaPG9HQzxAC"/>
+    <package name="fuchsia/third_party/intel/media-driver/codec_runner_intel_gen-debug-symbols-x64"
+             path="prebuilt/.build-id"
+             version="1ICJpC_YLEVkU-hxTutNXz56HWiL5DzrzuOfJiaKpj8C"
+             attributes="debug-symbols,debug-symbols-x64,debug-symbols-intel-gen"/>
   </packages>
 </manifest>
