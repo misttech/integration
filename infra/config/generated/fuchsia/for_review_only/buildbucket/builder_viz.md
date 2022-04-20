@@ -2,6 +2,8 @@
 <!-- Do not modify manually. -->
 | Builder | ci | global.ci | try |
 ---|:---:|:---:|:---:
+| [3pp-linux-amd64](https://luci-scheduler.appspot.com/jobs/fuchsia/3pp-linux-amd64-6cc1a7e0) | [ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/ci/3pp-linux-amd64) |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/3pp-linux-amd64) |
+| [3pp-mac-amd64](https://luci-scheduler.appspot.com/jobs/fuchsia/3pp-mac-amd64-6cc1a7e0) | [ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/ci/3pp-mac-amd64) |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/3pp-mac-amd64) |
 | [auto-submit](https://luci-scheduler.appspot.com/jobs/fuchsia/auto-submit) |   | [global.ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/global.ci/auto-submit) |   |
 | bazel-build-rules |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/bazel-build-rules) |
 | [bloaty-arm64-linux](https://luci-scheduler.appspot.com/jobs/fuchsia/ci-bloaty-arm64-linux-1d8267ce) | [ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/ci/bloaty-arm64-linux) |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/bloaty-arm64-linux) |
