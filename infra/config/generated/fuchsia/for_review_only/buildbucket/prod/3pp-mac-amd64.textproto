@@ -4,13 +4,9 @@
 # For the schema of this file, see Bucket message:
 #   https://luci-config.appspot.com/schemas/projects:buildbucket.cfg
 
-name: "ci"
+name: "prod"
 acls {
   group: "all"
-}
-acls {
-  role: SCHEDULER
-  identity: "user:fuchsia-ci-builder@fuchsia-infra.iam.gserviceaccount.com"
 }
 acls {
   role: SCHEDULER
@@ -18,15 +14,11 @@ acls {
 }
 acls {
   role: SCHEDULER
-  identity: "user:infra-ci-builder@fuchsia-infra.iam.gserviceaccount.com"
-}
-acls {
-  role: SCHEDULER
   identity: "user:luci-scheduler@appspot.gserviceaccount.com"
 }
 acls {
   role: SCHEDULER
-  identity: "user:tools-ci-builder@fuchsia-infra.iam.gserviceaccount.com"
+  identity: "user:tools-prod-builder@fuchsia-infra.iam.gserviceaccount.com"
 }
 swarming {
   builders {
@@ -36,7 +28,7 @@ swarming {
     dimensions: "cpu:x64"
     dimensions: "gce:0"
     dimensions: "os:Mac"
-    dimensions: "pool:luci.fuchsia.ci"
+    dimensions: "pool:luci.fuchsia.prod"
     exe {
       cipd_package: "infra/recipe_bundles/chromium.googlesource.com/infra/infra"
       cipd_version: "git_revision:553f7099a0b10df515092c44ff43c890cd99e1bb"
@@ -68,7 +60,7 @@ swarming {
       name: "symbol"
       path: "symbol"
     }
-    service_account: "fuchsia-ci-builder@fuchsia-infra.iam.gserviceaccount.com"
+    service_account: "fuchsia-prod-builder@fuchsia-infra.iam.gserviceaccount.com"
     experiments {
       key: "luci.recipes.use_python3"
       value: 100
