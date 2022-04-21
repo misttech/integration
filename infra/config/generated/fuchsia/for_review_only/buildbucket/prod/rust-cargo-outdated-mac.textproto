@@ -38,8 +38,7 @@ swarming {
       '{'
       '  "is_fyi": true,'
       '  "led_builder_is_bootstrapped": true,'
-      '  "recipe": "contrib/cargo_build",'
-      '  "recipes_integration_ref_override": "refs/heads/main"'
+      '  "recipe": "contrib/cargo_build"'
       '}'
     execution_timeout_secs: 4200
     caches {
