@@ -199,8 +199,8 @@
 | [rust-arm64-linux](https://luci-scheduler.appspot.com/jobs/fuchsia/toolchain.ci-rust-arm64-linux-49def413) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/rust-arm64-linux) |
 | [rust-bindgen-linux](https://luci-scheduler.appspot.com/jobs/fuchsia/rust-bindgen-linux-43d5aa34) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/rust-bindgen-linux) |
 | [rust-bindgen-mac](https://luci-scheduler.appspot.com/jobs/fuchsia/rust-bindgen-mac-43d5aa34) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/rust-bindgen-mac) |
-| [rust-cargo-outdated-linux](https://luci-scheduler.appspot.com/jobs/fuchsia/rust-cargo-outdated-linux-7d775840) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/rust-cargo-outdated-linux) |
-| [rust-cargo-outdated-mac](https://luci-scheduler.appspot.com/jobs/fuchsia/rust-cargo-outdated-mac-7d775840) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/rust-cargo-outdated-mac) |
+| [rust-cargo-outdated-linux](https://luci-scheduler.appspot.com/jobs/fuchsia/rust-cargo-outdated-linux-2ac1260a) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/rust-cargo-outdated-linux) |
+| [rust-cargo-outdated-mac](https://luci-scheduler.appspot.com/jobs/fuchsia/rust-cargo-outdated-mac-2ac1260a) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/rust-cargo-outdated-mac) |
 | [rust-x64-linux](https://luci-scheduler.appspot.com/jobs/fuchsia/toolchain.ci-rust-x64-linux-49def413) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/rust-x64-linux) |
 | [rust-x64-mac](https://luci-scheduler.appspot.com/jobs/fuchsia/toolchain.ci-rust-x64-mac-49def413) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/rust-x64-mac) |
 | [rust_test-x64-linux](https://luci-scheduler.appspot.com/jobs/fuchsia/toolchain.ci-rust_test-x64-linux-49def413) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/rust_test-x64-linux) |
