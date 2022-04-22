@@ -34,7 +34,7 @@ acls {
 }
 swarming {
   builders {
-    name: "workstation.chromebook-x64-release-dfv2-build_only"
+    name: "workstation.chromebook-x64-dfv2-release-build_only"
     swarming_host: "chromium-swarm.appspot.com"
     dimensions: "cores:32"
     dimensions: "cpu:x64"

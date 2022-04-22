@@ -1,7 +1,4 @@
 {
-  "$fuchsia/autocorrelator": {
-    "ci_bucket": "global.ci"
-  },
   "$fuchsia/rbe": {
     "instance": "projects/rbe-fuchsia-prod/instances/default"
   },
@@ -10,8 +7,9 @@
   "spec": {
     "artifact_gcs_bucket": "fuchsia-artifacts",
     "build": {
-      "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/try/workstation.x64-release-dfv2-build_only.textproto",
-      "incremental": true
+      "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/global.ci/workstation.chromebook-x64-dfv2-release-build_only.textproto",
+      "incremental": true,
+      "upload_results": true
     },
     "checkout": {
       "manifest": "flower",
