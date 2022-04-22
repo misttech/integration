@@ -6,9 +6,9 @@
 | [3pp-mac-amd64](https://luci-scheduler.appspot.com/jobs/fuchsia/3pp-mac-amd64-6cc1a7e0) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/3pp-mac-amd64) |
 | [auto-submit](https://luci-scheduler.appspot.com/jobs/fuchsia/auto-submit) |   | [global.ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/global.ci/auto-submit) |   |
 | bazel-build-rules |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/bazel-build-rules) |
-| [bloaty-arm64-linux](https://luci-scheduler.appspot.com/jobs/fuchsia/ci-bloaty-arm64-linux-1d8267ce) | [ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/ci/bloaty-arm64-linux) |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/bloaty-arm64-linux) |
-| [bloaty-x64-linux](https://luci-scheduler.appspot.com/jobs/fuchsia/ci-bloaty-x64-linux-1d8267ce) | [ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/ci/bloaty-x64-linux) |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/bloaty-x64-linux) |
-| [bloaty-x64-mac](https://luci-scheduler.appspot.com/jobs/fuchsia/ci-bloaty-x64-mac-1d8267ce) | [ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/ci/bloaty-x64-mac) |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/bloaty-x64-mac) |
+| [bloaty-arm64-linux](https://luci-scheduler.appspot.com/jobs/fuchsia/bloaty-arm64-linux-1d8267ce) | [ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/ci/bloaty-arm64-linux) |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/bloaty-arm64-linux) |
+| [bloaty-x64-linux](https://luci-scheduler.appspot.com/jobs/fuchsia/bloaty-x64-linux-1d8267ce) | [ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/ci/bloaty-x64-linux) |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/bloaty-x64-linux) |
+| [bloaty-x64-mac](https://luci-scheduler.appspot.com/jobs/fuchsia/bloaty-x64-mac-1d8267ce) | [ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/ci/bloaty-x64-mac) |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/bloaty-x64-mac) |
 | [breakpad-x64-linux](https://luci-scheduler.appspot.com/jobs/fuchsia/breakpad-x64-linux-bf1acd24) | [ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/ci/breakpad-x64-linux) |   |   |
 | [bringup.arm64-asan](https://luci-scheduler.appspot.com/jobs/fuchsia/bringup.arm64-asan-e5a0ec7f) |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/bringup.arm64-asan) | [try](https://ci.chromium.org/p/fuchsia/builders/try/bringup.arm64-asan) |
 | bringup.arm64-asan-ffx |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/bringup.arm64-asan-ffx) |
@@ -139,7 +139,7 @@
 | [fastboot-mac-x64](https://luci-scheduler.appspot.com/jobs/fuchsia/fastboot-mac-x64) | [ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/ci/fastboot-mac-x64) |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/fastboot-mac-x64) |
 | [ffmpeg](https://luci-scheduler.appspot.com/jobs/fuchsia/ffmpeg-7aa0f802) |   | [global.ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/global.ci/ffmpeg) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/ffmpeg) |
 | [firebase-docs](https://luci-scheduler.appspot.com/jobs/fuchsia/firebase-docs-e5a0ec7f) |   | [global.ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/global.ci/firebase-docs) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/firebase-docs) |
-| [fontdata](https://luci-scheduler.appspot.com/jobs/fuchsia/ci-fontdata-917b9260) | [ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/ci/fontdata) |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/fontdata) |
+| [fontdata](https://luci-scheduler.appspot.com/jobs/fuchsia/fontdata-917b9260) | [ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/ci/fontdata) |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/fontdata) |
 | [fortune-teller](https://luci-scheduler.appspot.com/jobs/fuchsia/fortune-teller-beb0b30f) | [ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/ci/fortune-teller) |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/fortune-teller) |
 | [fuchsia-coverage](https://luci-scheduler.appspot.com/jobs/fuchsia/fuchsia-coverage-af244ac6) | [ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/ci/fuchsia-coverage) |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/fuchsia-coverage) |
 | fuchsia-coverage-absolute |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/fuchsia-coverage-absolute) |
@@ -187,23 +187,23 @@
 | recipe_bootstrap-e2e-test-child | [ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/ci/recipe_bootstrap-e2e-test-child) |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/recipe_bootstrap-e2e-test-child) |
 | recipes |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/recipes) |
 | recipes-unittest-only |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/recipes-unittest-only) |
-| [release-cherry-pick-dryrun](https://luci-scheduler.appspot.com/jobs/fuchsia/release-cherry-pick-dryrun) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/release-cherry-pick-dryrun) |
-| [release-create-branch-dryrun](https://luci-scheduler.appspot.com/jobs/fuchsia/release-create-branch-dryrun) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/release-create-branch-dryrun) |
-| [release-increment-version-dryrun](https://luci-scheduler.appspot.com/jobs/fuchsia/release-increment-version-dryrun) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/release-increment-version-dryrun) |
-| [release-snap-branch-dryrun](https://luci-scheduler.appspot.com/jobs/fuchsia/release-snap-branch-dryrun) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/release-snap-branch-dryrun) |
-| [release-update-packages-dryrun](https://luci-scheduler.appspot.com/jobs/fuchsia/release-update-packages-dryrun) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/release-update-packages-dryrun) |
-| [release-update-project-dryrun](https://luci-scheduler.appspot.com/jobs/fuchsia/release-update-project-dryrun) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/release-update-project-dryrun) |
+| release-cherry-pick-dryrun |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/release-cherry-pick-dryrun) |
+| release-create-branch-dryrun |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/release-create-branch-dryrun) |
+| release-increment-version-dryrun |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/release-increment-version-dryrun) |
+| release-snap-branch-dryrun |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/release-snap-branch-dryrun) |
+| release-update-packages-dryrun |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/release-update-packages-dryrun) |
+| release-update-project-dryrun |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/release-update-project-dryrun) |
 | rollable-package-roller |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/rollable-package-roller) |
 | rollable-project-roller |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/rollable-project-roller) |
 | roller-tests-no-op |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/roller-tests-no-op) |
-| [rust-arm64-linux](https://luci-scheduler.appspot.com/jobs/fuchsia/toolchain.ci-rust-arm64-linux-49def413) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/rust-arm64-linux) |
+| [rust-arm64-linux](https://luci-scheduler.appspot.com/jobs/fuchsia/rust-arm64-linux-49def413) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/rust-arm64-linux) |
 | [rust-bindgen-linux](https://luci-scheduler.appspot.com/jobs/fuchsia/rust-bindgen-linux-43d5aa34) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/rust-bindgen-linux) |
 | [rust-bindgen-mac](https://luci-scheduler.appspot.com/jobs/fuchsia/rust-bindgen-mac-43d5aa34) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/rust-bindgen-mac) |
 | [rust-cargo-outdated-linux](https://luci-scheduler.appspot.com/jobs/fuchsia/rust-cargo-outdated-linux-2ac1260a) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/rust-cargo-outdated-linux) |
 | [rust-cargo-outdated-mac](https://luci-scheduler.appspot.com/jobs/fuchsia/rust-cargo-outdated-mac-2ac1260a) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/rust-cargo-outdated-mac) |
-| [rust-x64-linux](https://luci-scheduler.appspot.com/jobs/fuchsia/toolchain.ci-rust-x64-linux-49def413) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/rust-x64-linux) |
-| [rust-x64-mac](https://luci-scheduler.appspot.com/jobs/fuchsia/toolchain.ci-rust-x64-mac-49def413) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/rust-x64-mac) |
-| [rust_test-x64-linux](https://luci-scheduler.appspot.com/jobs/fuchsia/toolchain.ci-rust_test-x64-linux-49def413) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/rust_test-x64-linux) |
+| [rust-x64-linux](https://luci-scheduler.appspot.com/jobs/fuchsia/rust-x64-linux-49def413) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/rust-x64-linux) |
+| [rust-x64-mac](https://luci-scheduler.appspot.com/jobs/fuchsia/rust-x64-mac-49def413) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/rust-x64-mac) |
+| [rust_test-x64-linux](https://luci-scheduler.appspot.com/jobs/fuchsia/rust_test-x64-linux-49def413) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/rust_test-x64-linux) |
 | [rust_toolchain.core.arm64-debug](https://luci-scheduler.appspot.com/jobs/fuchsia/rust_toolchain.core.arm64-debug) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/rust_toolchain.core.arm64-debug) |
 | [rust_toolchain.core.arm64-release](https://luci-scheduler.appspot.com/jobs/fuchsia/rust_toolchain.core.arm64-release) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/rust_toolchain.core.arm64-release) |
 | [rust_toolchain.core.x64-debug](https://luci-scheduler.appspot.com/jobs/fuchsia/rust_toolchain.core.x64-debug) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/rust_toolchain.core.x64-debug) |
@@ -232,8 +232,8 @@
 | [terminal.x64-release-nuc_in_basic_envs](https://luci-scheduler.appspot.com/jobs/fuchsia/terminal.x64-release-nuc_in_basic_envs-e5a0ec7f) |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/terminal.x64-release-nuc_in_basic_envs) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/terminal.x64-release-nuc_in_basic_envs) |
 | terminal.x64-release-perfcompare |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/terminal.x64-release-perfcompare) |
 | test-fortune-teller |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/test-fortune-teller) |
-| [third-party-rust-licenses](https://luci-scheduler.appspot.com/jobs/fuchsia/toolchain.ci-third-party-rust-licenses-49def413) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/third-party-rust-licenses) |
-| [third_party_source_layout_audit](https://luci-scheduler.appspot.com/jobs/fuchsia/third_party_source_layout_audit) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/third_party_source_layout_audit) |
+| [third-party-rust-licenses](https://luci-scheduler.appspot.com/jobs/fuchsia/third-party-rust-licenses-49def413) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/third-party-rust-licenses) |
+| third_party_source_layout_audit |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/third_party_source_layout_audit) |
 | [tools](https://luci-scheduler.appspot.com/jobs/fuchsia/ci-tools-ebbe54c0) | [ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/ci/tools) |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/tools) |
 | uptodate-package-roller |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/uptodate-package-roller) |
 | uptodate-project-roller |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/uptodate-project-roller) |
