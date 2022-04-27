@@ -193,6 +193,7 @@
 | release-snap-branch-dryrun |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/release-snap-branch-dryrun) |
 | release-update-packages-dryrun |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/release-update-packages-dryrun) |
 | release-update-project-dryrun |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/release-update-project-dryrun) |
+| rollable-cipd-to-git-roller |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/rollable-cipd-to-git-roller) |
 | rollable-package-roller |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/rollable-package-roller) |
 | rollable-project-roller |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/rollable-project-roller) |
 | roller-tests-no-op |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/roller-tests-no-op) |
@@ -235,6 +236,7 @@
 | [third-party-rust-licenses](https://luci-scheduler.appspot.com/jobs/fuchsia/third-party-rust-licenses-49def413) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/third-party-rust-licenses) |
 | third_party_source_layout_audit |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/third_party_source_layout_audit) |
 | [tools](https://luci-scheduler.appspot.com/jobs/fuchsia/ci-tools-ebbe54c0) | [ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/ci/tools) |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/tools) |
+| uptodate-cipd-to-git-roller |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/uptodate-cipd-to-git-roller) |
 | uptodate-package-roller |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/uptodate-package-roller) |
 | uptodate-project-roller |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/uptodate-project-roller) |
 | [vulkan_cts-x64-release](https://luci-scheduler.appspot.com/jobs/fuchsia/vulkan_cts-x64-release-e5a0ec7f) |   | [global.ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/global.ci/vulkan_cts-x64-release) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/vulkan_cts-x64-release) |
