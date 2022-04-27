@@ -22,7 +22,7 @@ acls {
 }
 swarming {
   builders {
-    name: "core.x64-asan-nuc_in_basic_envs-subbuild"
+    name: "core.x64-release-subbuild"
     swarming_host: "chromium-swarm.appspot.com"
     dimensions: "cores:64"
     dimensions: "cpu:x64"
@@ -50,17 +50,17 @@ swarming {
       path: "symbol"
     }
     caches {
-      name: "fuchsia_goma_b9076d66bff07a9b62442b8f334098e28b4977469326a9b4e0a2ae630b3f4550"
+      name: "fuchsia_goma_42ed793017f9b155318b9b600c79d395490d54fddfb814e2f1c8de2fde826060"
       path: "goma"
       wait_for_warm_cache_secs: 120
     }
     caches {
-      name: "fuchsia_incremental_b9076d66bff07a9b62442b8f334098e28b4977469326a9b4e0a2ae630b3f4550"
+      name: "fuchsia_incremental_42ed793017f9b155318b9b600c79d395490d54fddfb814e2f1c8de2fde826060"
       path: "incremental"
       wait_for_warm_cache_secs: 120
     }
     caches {
-      name: "fuchsia_rbe_b9076d66bff07a9b62442b8f334098e28b4977469326a9b4e0a2ae630b3f4550"
+      name: "fuchsia_rbe_42ed793017f9b155318b9b600c79d395490d54fddfb814e2f1c8de2fde826060"
       path: "rbe"
     }
     service_account: "fuchsia-ci-builder@fuchsia-infra.iam.gserviceaccount.com"
@@ -82,6 +82,6 @@ swarming {
         use_invocation_timestamp: true
       }
     }
-    description_html: "This builder is the subbuild for <a href=\"https://ci.chromium.org/p/fuchsia/builders/global.ci/core.x64-asan-nuc_in_basic_envs\">core.x64-asan-nuc_in_basic_envs</a>.\n\nThe <a href=\"https://fuchsia.dev/fuchsia-src/development/build/concepts/build_system/boards_and_products?hl=en#core-product\">core</a> product has networking capabilities and supports updates and installing additional software over-the-air."
+    description_html: "This builder is the subbuild for <a href=\"https://ci.chromium.org/p/fuchsia/builders/global.ci/core.x64-release\">core.x64-release</a>.\n\nThe <a href=\"https://fuchsia.dev/fuchsia-src/development/build/concepts/build_system/boards_and_products?hl=en#core-product\">core</a> product has networking capabilities and supports updates and installing additional software over-the-air."
   }
 }
