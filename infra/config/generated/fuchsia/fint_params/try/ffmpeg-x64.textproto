@@ -9,7 +9,6 @@ ninja_targets: "x64-asan-ubsan-shared/libffmpeg.so"
 ninja_targets: "x64-coverage-rust-shared/libffmpeg.so"
 ninja_targets: "x64-coverage-shared/libffmpeg.so"
 ninja_targets: "x64-novariant-shared/libffmpeg.so"
-ninja_targets: "x64-profile-shared/libffmpeg.so"
 ninja_targets: "x64-ubsan-shared/libffmpeg.so"
 universe_packages: "//third_party/ffmpeg:ffmpeg_variants"
 target_arch: X64
@@ -17,7 +16,6 @@ variants: "asan"
 variants: "asan-ubsan"
 variants: "coverage"
 variants: "coverage-rust"
-variants: "profile"
 variants: "ubsan"
 include_prebuilt_binary_manifests: true
 use_goma: true
