@@ -1,7 +1,4 @@
 {
-  "$fuchsia/autocorrelator": {
-    "ci_bucket": "global.ci"
-  },
   "$fuchsia/rbe": {
     "instance": "projects/rbe-fuchsia-prod/instances/default"
   },
@@ -10,9 +7,10 @@
   "spec": {
     "artifact_gcs_bucket": "fuchsia-artifacts",
     "build": {
-      "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/try/core.arm64-asan-ffx.textproto",
+      "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/global.ci/core.arm64-asan-ffx.textproto",
       "incremental": true,
-      "run_tests": true
+      "run_tests": true,
+      "upload_results": true
     },
     "checkout": {
       "manifest": "flower",
@@ -24,6 +22,7 @@
       "affected_tests_multiply_threshold": 3,
       "default_service_account": "artifact-readers@fuchsia-infra.iam.gserviceaccount.com",
       "ffx_experiment_level": 2,
+      "max_attempts": 1,
       "max_attempts_per_test": 3,
       "max_shards_per_env": 8,
       "pave": true,
