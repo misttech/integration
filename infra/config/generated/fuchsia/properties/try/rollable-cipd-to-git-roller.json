@@ -1,0 +1,19 @@
+{
+  "cl_notify_option": "NONE",
+  "create_unique_change_id": true,
+  "dry_run": true,
+  "packages": [
+    {
+      "name": "fuchsia/infra/roller-tests/test-package1",
+      "subdir": "prebuilt/1"
+    },
+    {
+      "name": "fuchsia/infra/roller-tests/test-package2",
+      "subdir": "prebuilt/2"
+    }
+  ],
+  "recipe": "cipd_to_git_roller",
+  "recipes_use_py3": true,
+  "remote": "https://fuchsia.googlesource.com/infra/roller-tests/integration",
+  "tag": "version"
+}
