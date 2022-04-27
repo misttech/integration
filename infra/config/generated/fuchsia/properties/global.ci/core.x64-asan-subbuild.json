@@ -7,7 +7,7 @@
   "spec": {
     "artifact_gcs_bucket": "fuchsia-artifacts",
     "build": {
-      "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/global.ci/core.x64-release-nuc_in_basic_envs.textproto",
+      "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/global.ci/core.x64-asan.textproto",
       "incremental": true,
       "run_tests": true,
       "upload_results": true
@@ -23,11 +23,12 @@
       "default_service_account": "artifact-readers@fuchsia-infra.iam.gserviceaccount.com",
       "max_attempts": 1,
       "max_attempts_per_test": 3,
+      "max_shards_per_env": 12,
       "pave": true,
-      "per_test_timeout_secs": 300,
+      "per_test_timeout_secs": 360,
       "pool": "fuchsia.tests",
       "swarming_expiration_timeout_secs": 18000,
-      "swarming_io_timeout_secs": 360,
+      "swarming_io_timeout_secs": 420,
       "target_shard_duration_secs": 540,
       "upload_results": true
     }
