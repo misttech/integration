@@ -136,6 +136,7 @@
 | cts-artifacts |   |   | [try](https://ci.chromium.org/p/fuchsia/builders/try/cts-artifacts) |
 | [docsgen-sdk](https://luci-scheduler.appspot.com/jobs/fuchsia/docsgen-sdk-e5a0ec7f) |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/docsgen-sdk) | [try](https://ci.chromium.org/p/fuchsia/builders/try/docsgen-sdk) |
 | [docsgen-sdk-prod](https://luci-scheduler.appspot.com/jobs/fuchsia/docsgen-sdk-prod-e5a0ec7f) |   | [global.ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/global.ci/docsgen-sdk-prod) |   |
+| edk2 | [ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/ci/edk2) |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/edk2) |
 | [fastboot-linux-x64](https://luci-scheduler.appspot.com/jobs/fuchsia/fastboot-linux-x64) | [ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/ci/fastboot-linux-x64) |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/fastboot-linux-x64) |
 | [fastboot-mac-x64](https://luci-scheduler.appspot.com/jobs/fuchsia/fastboot-mac-x64) | [ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/ci/fastboot-mac-x64) |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/fastboot-mac-x64) |
 | [ffmpeg](https://luci-scheduler.appspot.com/jobs/fuchsia/ffmpeg-7aa0f802) |   | [global.ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/global.ci/ffmpeg) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/ffmpeg) |
