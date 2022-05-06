@@ -144,7 +144,7 @@
 | [ffmpeg](https://luci-scheduler.appspot.com/jobs/fuchsia/ffmpeg-7aa0f802) |   | [global.ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/global.ci/ffmpeg) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/ffmpeg) |
 | [firebase-docs](https://luci-scheduler.appspot.com/jobs/fuchsia/firebase-docs-e5a0ec7f) |   | [global.ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/global.ci/firebase-docs) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/firebase-docs) |
 | [fontdata](https://luci-scheduler.appspot.com/jobs/fuchsia/fontdata-917b9260) | [ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/ci/fontdata) |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/fontdata) |
-| [fortune-teller](https://luci-scheduler.appspot.com/jobs/fuchsia/fortune-teller-beb0b30f) | [ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/ci/fortune-teller) |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/fortune-teller) |
+| [fortune-teller](https://luci-scheduler.appspot.com/jobs/fuchsia/fortune-teller-beb0b30f) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/fortune-teller) |
 | [fuchsia-coverage](https://luci-scheduler.appspot.com/jobs/fuchsia/fuchsia-coverage-af244ac6) | [ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/ci/fuchsia-coverage) |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/fuchsia-coverage) |
 | fuchsia-coverage-absolute |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/fuchsia-coverage-absolute) |
 | fuchsia-coverage-x64-arm64 |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/fuchsia-coverage-x64-arm64) |

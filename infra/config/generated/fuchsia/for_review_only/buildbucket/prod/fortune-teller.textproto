@@ -4,13 +4,9 @@
 # For the schema of this file, see Bucket message:
 #   https://luci-config.appspot.com/schemas/projects:buildbucket.cfg
 
-name: "ci"
+name: "prod"
 acls {
   group: "all"
-}
-acls {
-  role: SCHEDULER
-  identity: "user:fuchsia-ci-builder@fuchsia-infra.iam.gserviceaccount.com"
 }
 acls {
   role: SCHEDULER
@@ -18,15 +14,11 @@ acls {
 }
 acls {
   role: SCHEDULER
-  identity: "user:infra-ci-builder@fuchsia-infra.iam.gserviceaccount.com"
-}
-acls {
-  role: SCHEDULER
   identity: "user:luci-scheduler@appspot.gserviceaccount.com"
 }
 acls {
   role: SCHEDULER
-  identity: "user:tools-ci-builder@fuchsia-infra.iam.gserviceaccount.com"
+  identity: "user:tools-prod-builder@fuchsia-infra.iam.gserviceaccount.com"
 }
 swarming {
   builders {
@@ -36,7 +28,7 @@ swarming {
     dimensions: "cpu:x64"
     dimensions: "gce:1"
     dimensions: "os:Linux"
-    dimensions: "pool:luci.fuchsia.ci"
+    dimensions: "pool:luci.fuchsia.prod"
     exe {
       cipd_package: "fuchsia/infra/recipe_bootstrap/${platform}"
       cipd_version: "git_revision:7bfa624ab876cf54d3a80aa09d11735a7efb8118"
@@ -57,6 +49,6 @@ swarming {
       name: "symbol"
       path: "symbol"
     }
-    service_account: "fuchsia-ci-builder@fuchsia-infra.iam.gserviceaccount.com"
+    service_account: "fuchsia-prod-builder@fuchsia-infra.iam.gserviceaccount.com"
   }
 }
