@@ -2,6 +2,18 @@
   "build_command": {
     "path": "scripts/build.sh"
   },
+  "cipd_manifest_commands": [
+    {
+      "command": {
+        "args": [
+          "-o",
+          "{build_dir}"
+        ],
+        "path": "scripts/emit_cipd_manifest.sh"
+      },
+      "package": "fuchsia/sdk-samples/fortune-teller/x64"
+    }
+  ],
   "download_command": {
     "path": "scripts/bootstrap.sh"
   },
