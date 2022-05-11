@@ -13,14 +13,5 @@
   },
   "recipe": "build_test_upload",
   "recipes_use_py3": true,
-  "remote": "https://fuchsia.googlesource.com/workstation",
-  "upload_command": {
-    "args": [
-      "-b",
-      "fuchsia-artifacts",
-      "-n",
-      "{upload_namespace}"
-    ],
-    "path": "scripts/upload.sh"
-  }
+  "remote": "https://fuchsia.googlesource.com/workstation"
 }
