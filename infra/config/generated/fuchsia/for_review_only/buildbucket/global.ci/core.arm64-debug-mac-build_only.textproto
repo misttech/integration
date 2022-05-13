@@ -22,12 +22,12 @@ acls {
 }
 swarming {
   builders {
-    name: "core.x64-debug-build_default"
+    name: "core.arm64-debug-mac-build_only"
     swarming_host: "chromium-swarm.appspot.com"
-    dimensions: "cores:32"
+    dimensions: "cores:8|12"
     dimensions: "cpu:x64"
-    dimensions: "gce:1"
-    dimensions: "os:Linux"
+    dimensions: "gce:0"
+    dimensions: "os:Mac"
     dimensions: "pool:luci.fuchsia.ci"
     dimensions: "role:builder"
     exe {
@@ -37,32 +37,31 @@ swarming {
     }
     properties:
       '{'
-      '  "is_fyi": true,'
       '  "led_builder_is_bootstrapped": true,'
       '  "recipe": "fuchsia/build"'
       '}'
-    execution_timeout_secs: 8400
+    execution_timeout_secs: 10200
     caches {
       name: "builder"
       path: "builder"
+    }
+    caches {
+      name: "macos_sdk"
+      path: "macos_sdk"
     }
     caches {
       name: "symbol"
       path: "symbol"
     }
     caches {
-      name: "fuchsia_goma_31c1cd818caaf8c28b21a96d41988f40505a956d75568926b65b230d2983a57a"
+      name: "fuchsia_goma_edc838f29c0ee3838309dd3c1fb3d3a873a2b3f220cd420ade361883b23704ee"
       path: "goma"
       wait_for_warm_cache_secs: 120
     }
     caches {
-      name: "fuchsia_incremental_31c1cd818caaf8c28b21a96d41988f40505a956d75568926b65b230d2983a57a"
+      name: "fuchsia_incremental_edc838f29c0ee3838309dd3c1fb3d3a873a2b3f220cd420ade361883b23704ee"
       path: "incremental"
       wait_for_warm_cache_secs: 120
-    }
-    caches {
-      name: "fuchsia_rbe_31c1cd818caaf8c28b21a96d41988f40505a956d75568926b65b230d2983a57a"
-      path: "rbe"
     }
     service_account: "fuchsia-ci-builder@fuchsia-infra.iam.gserviceaccount.com"
     resultdb {
