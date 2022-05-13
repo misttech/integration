@@ -202,6 +202,7 @@
 | rollable-cipd-to-git-roller |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/rollable-cipd-to-git-roller) |
 | rollable-package-roller |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/rollable-package-roller) |
 | rollable-project-roller |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/rollable-project-roller) |
+| rollable-submodule-roller |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/rollable-submodule-roller) |
 | roller-tests-no-op |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/roller-tests-no-op) |
 | [rust-arm64-linux](https://luci-scheduler.appspot.com/jobs/fuchsia/rust-arm64-linux-49def413) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/rust-arm64-linux) |
 | [rust-bindgen-linux](https://luci-scheduler.appspot.com/jobs/fuchsia/rust-bindgen-linux-43d5aa34) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/rust-bindgen-linux) |
