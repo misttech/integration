@@ -180,6 +180,7 @@
 | [ninja-linux-x64](https://luci-scheduler.appspot.com/jobs/fuchsia/ci-ninja-linux-x64-0c7403b2) | [ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/ci/ninja-linux-x64) |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/ninja-linux-x64) |
 | [ninja-mac-x64](https://luci-scheduler.appspot.com/jobs/fuchsia/ci-ninja-mac-x64-0c7403b2) | [ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/ci/ninja-mac-x64) |   |   |
 | [ninja-windows-x64](https://luci-scheduler.appspot.com/jobs/fuchsia/ci-ninja-windows-x64-0c7403b2) | [ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/ci/ninja-windows-x64) |   |   |
+| no-op |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/no-op) |
 | [ovmf-x64](https://luci-scheduler.appspot.com/jobs/fuchsia/ovmf-x64-b61dca5d) | [ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/ci/ovmf-x64) |   |   |
 | partially-rollable-package-roller |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/partially-rollable-package-roller) |
 | [qemu-arm64-linux](https://luci-scheduler.appspot.com/jobs/fuchsia/qemu-arm64-linux) | [ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/ci/qemu-arm64-linux) |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/qemu-arm64-linux) |
@@ -199,7 +200,6 @@
 | rollable-package-roller |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/rollable-package-roller) |
 | rollable-project-roller |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/rollable-project-roller) |
 | rollable-submodule-roller |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/rollable-submodule-roller) |
-| roller-tests-no-op |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/roller-tests-no-op) |
 | [rust-arm64-linux](https://luci-scheduler.appspot.com/jobs/fuchsia/rust-arm64-linux-49def413) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/rust-arm64-linux) |
 | [rust-bindgen-linux](https://luci-scheduler.appspot.com/jobs/fuchsia/rust-bindgen-linux-43d5aa34) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/rust-bindgen-linux) |
 | [rust-bindgen-mac](https://luci-scheduler.appspot.com/jobs/fuchsia/rust-bindgen-mac-43d5aa34) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/rust-bindgen-mac) |

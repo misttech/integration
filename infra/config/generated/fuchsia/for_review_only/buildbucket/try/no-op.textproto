@@ -34,7 +34,7 @@ acls {
 }
 swarming {
   builders {
-    name: "roller-tests-no-op"
+    name: "no-op"
     swarming_host: "chromium-swarm.appspot.com"
     dimensions: "cores:2"
     dimensions: "cpu:x64"
@@ -48,6 +48,7 @@ swarming {
     }
     properties:
       '{'
+      '  "is_fyi": true,'
       '  "led_builder_is_bootstrapped": true,'
       '  "recipe": "no_op"'
       '}'
@@ -60,6 +61,6 @@ swarming {
       name: "symbol"
       path: "symbol"
     }
-    service_account: "infra-try-builder@fuchsia-infra.iam.gserviceaccount.com"
+    service_account: "fuchsia-try-builder@fuchsia-infra.iam.gserviceaccount.com"
   }
 }
