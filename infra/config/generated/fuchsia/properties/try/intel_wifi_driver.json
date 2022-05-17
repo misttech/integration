@@ -1,13 +1,11 @@
 {
-  "recipe": "run_script",
+  "build_command": {
+    "path": "scripts/build.sh"
+  },
+  "download_command": {
+    "path": "scripts/bootstrap.sh"
+  },
+  "recipe": "build_test_upload",
   "recipes_use_py3": true,
-  "remote": "https://fuchsia.googlesource.com/drivers/wlan/intel/iwlwifi",
-  "script_configs": [
-    {
-      "script": "scripts/bootstrap.sh"
-    },
-    {
-      "script": "scripts/build.sh"
-    }
-  ]
+  "remote": "https://fuchsia.googlesource.com/drivers/wlan/intel/iwlwifi"
 }
