@@ -17,7 +17,6 @@
     <localimport file="firmware"/>
     <localimport file="test_durations"/>
     <localimport file="toolchain"/>
-    <localimport file="fortune-teller"/>
   </imports>
   <packages>
 
@@ -492,5 +491,10 @@
              path="prebuilt/.build-id"
              version="dB4yzsB4w6FO1aDfmuNEUah7Y0zdHO48wB7-_5j7y1gC"
              attributes="debug-symbols,debug-symbols-x64,debug-symbols-intel-gen"/>
+
+    <!-- Bazel SDK sample packages built OOT -->
+    <package name="fuchsia/sdk-samples/fortune-teller/x64"
+             path="prebuilt/sdk-samples/fortune-teller"
+             version="git_revision:9edd3025ef2ead0ea43491a9961023c08356df72"/>
   </packages>
 </manifest>
