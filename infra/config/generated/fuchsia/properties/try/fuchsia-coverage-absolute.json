@@ -1,4 +1,7 @@
 {
+  "$fuchsia/rbe": {
+    "instance": "projects/rbe-fuchsia-prod/instances/default"
+  },
   "artifact_gcs_bucket": "fuchsia-artifacts",
   "collect_absolute": true,
   "coverage_builders": {
@@ -21,6 +24,7 @@
       ".rs"
     ]
   },
+  "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/try/fuchsia-coverage-absolute.textproto",
   "manifest": "flower",
   "recipe": "fuchsia/coverage",
   "recipes_use_py3": true,

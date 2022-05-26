@@ -1,4 +1,7 @@
 {
+  "$fuchsia/rbe": {
+    "instance": "projects/rbe-fuchsia-prod/instances/default"
+  },
   "absolute_coverage_args": {
     "host": "turquoise-internal",
     "project": "turquoise"
@@ -39,6 +42,7 @@
       ".rs"
     ]
   },
+  "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/ci/fuchsia-coverage.textproto",
   "manifest": "flower",
   "recipe": "fuchsia/coverage",
   "recipes_use_py3": true,

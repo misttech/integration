@@ -1,4 +1,7 @@
 {
+  "$fuchsia/rbe": {
+    "instance": "projects/rbe-fuchsia-prod/instances/default"
+  },
   "artifact_gcs_bucket": "fuchsia-artifacts",
   "coverage_builders": {
     "core.x64-coverage-qemu_kvm": [
@@ -20,6 +23,7 @@
       ".rs"
     ]
   },
+  "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/try/fuchsia-coverage.textproto",
   "manifest": "flower",
   "recipe": "fuchsia/coverage",
   "recipes_use_py3": true,
