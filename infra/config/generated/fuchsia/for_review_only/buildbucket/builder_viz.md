@@ -7,6 +7,9 @@
 | [auto-submit](https://luci-scheduler.appspot.com/jobs/fuchsia/auto-submit) |   | [global.ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/global.ci/auto-submit) |   |
 | [backlight_driver](https://luci-scheduler.appspot.com/jobs/fuchsia/backlight_driver-98130624) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/backlight_driver) |
 | bazel-build-rules |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/bazel-build-rules) |
+| [binutils-arm64-linux](https://luci-scheduler.appspot.com/jobs/fuchsia/prod-binutils-arm64-linux-3c6e8ef4) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/binutils-arm64-linux) |
+| [binutils-x64-linux](https://luci-scheduler.appspot.com/jobs/fuchsia/prod-binutils-x64-linux-3c6e8ef4) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/binutils-x64-linux) |
+| [binutils-x64-mac](https://luci-scheduler.appspot.com/jobs/fuchsia/prod-binutils-x64-mac-3c6e8ef4) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/binutils-x64-mac) |
 | [bloaty-arm64-linux](https://luci-scheduler.appspot.com/jobs/fuchsia/bloaty-arm64-linux-1d8267ce) | [ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/ci/bloaty-arm64-linux) |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/bloaty-arm64-linux) |
 | [bloaty-x64-linux](https://luci-scheduler.appspot.com/jobs/fuchsia/bloaty-x64-linux-1d8267ce) | [ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/ci/bloaty-x64-linux) |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/bloaty-x64-linux) |
 | [bloaty-x64-mac](https://luci-scheduler.appspot.com/jobs/fuchsia/bloaty-x64-mac-1d8267ce) | [ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/ci/bloaty-x64-mac) |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/bloaty-x64-mac) |
