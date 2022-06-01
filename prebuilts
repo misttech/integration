@@ -496,5 +496,9 @@
     <package name="fuchsia/sdk-samples/fortune-teller/x64"
              path="prebuilt/sdk-samples/fortune-teller"
              version="git_revision:bcdc07b397c8bad7491883e6e225516fb043c5d5"/>
+    <package name="fuchsia/sdk-samples/fortune-teller/debug-symbols-x64"
+             path="prebuilt/.build-id"
+             version="git_revision:bcdc07b397c8bad7491883e6e225516fb043c5d5"
+             attributes="debug-symbols,debug-symbols-x64"/>
   </packages>
 </manifest>
