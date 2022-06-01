@@ -36,7 +36,7 @@ swarming {
   builders {
     name: "binutils-x64-mac"
     swarming_host: "chromium-swarm.appspot.com"
-    dimensions: "cores:24|56"
+    dimensions: "cores:8|12"
     dimensions: "cpu:x64"
     dimensions: "gce:0"
     dimensions: "os:Mac"
