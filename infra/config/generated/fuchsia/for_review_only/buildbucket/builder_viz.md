@@ -157,8 +157,8 @@
 | gcc_toolchain.zbi_tests-arm64-gcc | [ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/ci/gcc_toolchain.zbi_tests-arm64-gcc) |   |   |
 | gcc_toolchain.zbi_tests-x64-gcc | [ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/ci/gcc_toolchain.zbi_tests-x64-gcc) |   |   |
 | [gnu_build_tools-linux-arm64](https://luci-scheduler.appspot.com/jobs/fuchsia/gnu_build_tools-linux-arm64) | [ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/ci/gnu_build_tools-linux-arm64) |   |   |
-| [gnu_build_tools-linux-x64](https://luci-scheduler.appspot.com/jobs/fuchsia/gnu_build_tools-linux-x64) | [ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/ci/gnu_build_tools-linux-x64) |   |   |
-| [gnu_build_tools-mac-x64](https://luci-scheduler.appspot.com/jobs/fuchsia/gnu_build_tools-mac-x64) | [ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/ci/gnu_build_tools-mac-x64) |   |   |
+| [gnu_build_tools-linux-x64](https://luci-scheduler.appspot.com/jobs/fuchsia/gnu_build_tools-linux-x64) | [ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/ci/gnu_build_tools-linux-x64) |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/gnu_build_tools-linux-x64) |
+| [gnu_build_tools-mac-x64](https://luci-scheduler.appspot.com/jobs/fuchsia/gnu_build_tools-mac-x64) | [ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/ci/gnu_build_tools-mac-x64) |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/gnu_build_tools-mac-x64) |
 | [go-arm64-linux](https://luci-scheduler.appspot.com/jobs/fuchsia/go-arm64-linux-b0b54c2c) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/go-arm64-linux) |
 | [go-tests](https://luci-scheduler.appspot.com/jobs/fuchsia/go-tests-e5a0ec7f) |   | [global.ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/global.ci/go-tests) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/go-tests) |
 | [go-x64-linux](https://luci-scheduler.appspot.com/jobs/fuchsia/go-x64-linux-b0b54c2c) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/go-x64-linux) |
