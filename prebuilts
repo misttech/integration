@@ -51,11 +51,21 @@
 
     <!-- OVMF, needed to emulate a UEFI firmware, from
          https://ci.chromium.org/p/fuchsia/builders/ci/ovmf-x64
+
+         TODO(fxbug.dev/99325): Delete me; to be replaced by edk2 package.
     -->
     <package name="fuchsia/firmware/ovmf/amd64"
              version="git_revision:19ee56c4b33faa33078894a6c8495c81c660b8be"
              platforms="linux-amd64,linux-arm64,mac-amd64"
              path="prebuilt/third_party/ovmf/{{.OS}}-{{.Arch}}"/>
+
+    <!-- EDKII firmware for emulating UEFI, from
+         https://ci.chromium.org/p/fuchsia/builders/ci/edk2
+    -->
+    <package name="fuchsia/third_party/edk2"
+             version="git_revision:16779ede2d366bfc6b702e817356ccf43425bcc8"
+             platforms="linux-amd64,linux-arm64,mac-amd64"
+             path="prebuilt/third_party/edk2"/>
 
     <!-- Fargo from
          https://fuchsia.googlesource.com/fargo/+/{{.git_revision}}
