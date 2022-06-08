@@ -139,17 +139,6 @@
              attributes="debug-symbols,debug-symbols-arm64,debug-symbols-flutter"/>
 
     <!-- General packages -->
-    <!-- TODO(fxbug.dev/36063): Delete these garnet prebuilts -->
-    <!--   Chromium media test data -->
-    <package name="fuchsia/test_data/third_party/chromium_media_test_data"
-             version="90a7f69f134fffcb58c127847fc35f3ae56684dc"
-             platforms="linux-amd64,linux-arm64,mac-amd64"
-             path="garnet/test_data/media/third_party/chromium_media_test_data"/>
-    <!--   Chromium media test data downstream -->
-    <package name="fuchsia/test_data/third_party/chromium_media_test_data_downstream"
-             version="iar_6DuZO_9pKPgXV8bQRAsRWwpVDiuRqGBm-vmxTuMC"
-             platforms="linux-amd64,linux-arm64,mac-amd64"
-             path="garnet/test_data/media/third_party/chromium_media_test_data_downstream"/>
     <!--   Chromium media test data -->
     <package name="fuchsia/test_data/third_party/chromium_media_test_data"
              version="90a7f69f134fffcb58c127847fc35f3ae56684dc"
