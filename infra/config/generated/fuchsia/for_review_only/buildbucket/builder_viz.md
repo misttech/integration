@@ -203,6 +203,7 @@
 | release-snap-branch-dryrun |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/release-snap-branch-dryrun) |
 | release-update-packages-dryrun |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/release-update-packages-dryrun) |
 | release-update-project-dryrun |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/release-update-project-dryrun) |
+| rollable-cipd-ensure-file-roller |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/rollable-cipd-ensure-file-roller) |
 | rollable-cipd-to-git-roller |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/rollable-cipd-to-git-roller) |
 | rollable-package-roller |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/rollable-package-roller) |
 | rollable-project-roller |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/rollable-project-roller) |
@@ -245,6 +246,7 @@
 | [third-party-rust-licenses](https://luci-scheduler.appspot.com/jobs/fuchsia/third-party-rust-licenses-49def413) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/third-party-rust-licenses) |
 | third_party_source_layout_audit |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/third_party_source_layout_audit) |
 | [tools](https://luci-scheduler.appspot.com/jobs/fuchsia/ci-tools-ebbe54c0) | [ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/ci/tools) |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/tools) |
+| uptodate-cipd-ensure-file-roller |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/uptodate-cipd-ensure-file-roller) |
 | uptodate-cipd-to-git-roller |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/uptodate-cipd-to-git-roller) |
 | uptodate-package-roller |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/uptodate-package-roller) |
 | uptodate-project-roller |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/uptodate-project-roller) |
