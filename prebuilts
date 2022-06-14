@@ -49,16 +49,6 @@
              platforms="linux-amd64,mac-amd64,linux-arm64,mac-arm64"
              path="prebuilt/third_party/android/aemu/release/{{.OS}}-{{.Arch}}"/>
 
-    <!-- OVMF, needed to emulate a UEFI firmware, from
-         https://ci.chromium.org/p/fuchsia/builders/ci/ovmf-x64
-
-         TODO(fxbug.dev/99325): Delete me; to be replaced by edk2 package.
-    -->
-    <package name="fuchsia/firmware/ovmf/amd64"
-             version="git_revision:19ee56c4b33faa33078894a6c8495c81c660b8be"
-             platforms="linux-amd64,linux-arm64,mac-amd64"
-             path="prebuilt/third_party/ovmf/{{.OS}}-{{.Arch}}"/>
-
     <!-- EDKII firmware for emulating UEFI, from
          https://ci.chromium.org/p/fuchsia/builders/ci/edk2
     -->
