@@ -47,7 +47,7 @@ swarming {
       '  "recipe": "3pp",'
       '  "recipes_use_py3": true'
       '}'
-    execution_timeout_secs: 1800
+    execution_timeout_secs: 10200
     caches {
       name: "builder"
       path: "builder"
