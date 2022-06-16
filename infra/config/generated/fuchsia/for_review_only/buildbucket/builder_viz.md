@@ -183,7 +183,7 @@
 | llvm_test_suite-linux-x64 | [ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/ci/llvm_test_suite-linux-x64) |   |   |
 | [lsc-suggester](https://luci-scheduler.appspot.com/jobs/fuchsia/lsc-suggester) |   | [global.ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/global.ci/lsc-suggester) |   |
 | milestone-roller |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/milestone-roller) |
-| [minimal.qemu-x64-debug-build_only](https://luci-scheduler.appspot.com/jobs/fuchsia/minimal.qemu-x64-debug-build_only-e5a0ec7f) |   | [global.ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/global.ci/minimal.qemu-x64-debug-build_only) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/minimal.qemu-x64-debug-build_only) |
+| [minimal.qemu-x64-debug-build_only](https://luci-scheduler.appspot.com/jobs/fuchsia/minimal.qemu-x64-debug-build_only-e5a0ec7f) |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/minimal.qemu-x64-debug-build_only) | [try](https://ci.chromium.org/p/fuchsia/builders/try/minimal.qemu-x64-debug-build_only) |
 | [ninja-linux-arm64](https://luci-scheduler.appspot.com/jobs/fuchsia/ci-ninja-linux-arm64-0c7403b2) | [ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/ci/ninja-linux-arm64) |   |   |
 | [ninja-linux-x64](https://luci-scheduler.appspot.com/jobs/fuchsia/ci-ninja-linux-x64-0c7403b2) | [ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/ci/ninja-linux-x64) |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/ninja-linux-x64) |
 | [ninja-mac-x64](https://luci-scheduler.appspot.com/jobs/fuchsia/ci-ninja-mac-x64-0c7403b2) | [ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/ci/ninja-mac-x64) |   |   |
