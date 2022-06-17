@@ -27,7 +27,7 @@ test_durations_file: "prebuilt/infra/test_durations/fuchsia/core.x64-cts-coverag
 default_test_durations_file: "prebuilt/infra/test_durations/fuchsia/default.json"
 use_goma: true
 generate_compdb: true
-enable_rbe: true
+rust_rbe_enable: true
 incremental: true
 include_default_ninja_target: true
 use_temporary_go_cache: true
