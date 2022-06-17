@@ -93,6 +93,7 @@
 | [core.vim3-debug-fyi](https://luci-scheduler.appspot.com/jobs/fuchsia/core.vim3-debug-fyi-e5a0ec7f) |   | [global.ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/global.ci/core.vim3-debug-fyi) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/core.vim3-debug-fyi) |
 | [core.x64-asan](https://luci-scheduler.appspot.com/jobs/fuchsia/core.x64-asan-e5a0ec7f) |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/core.x64-asan) | [try](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-asan) |
 | core.x64-asan-clean |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-asan-clean) |
+| core.x64-asan-cxx_rbe |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-asan-cxx_rbe) |
 | [core.x64-asan-ffx](https://luci-scheduler.appspot.com/jobs/fuchsia/core.x64-asan-ffx-e5a0ec7f) |   | [global.ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/global.ci/core.x64-asan-ffx) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-asan-ffx) |
 | core.x64-asan-gocache |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-asan-gocache) |
 | core.x64-asan-incremental-experimental |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-asan-incremental-experimental) |
