@@ -37,7 +37,6 @@ swarming {
     }
     properties:
       '{'
-      '  "is_fyi": true,'
       '  "led_builder_is_bootstrapped": true,'
       '  "recipe": "fuchsia/build"'
       '}'
@@ -51,17 +50,17 @@ swarming {
       path: "symbol"
     }
     caches {
-      name: "fuchsia_goma_fe84e3183349a7ad2280630d40915b9af7f99c0a1d0d861c0095e1915257abd1"
+      name: "fuchsia_goma_8fc4b3f6280c7e4417248bbfad7fe123f88b5deb70f208dec9fa9c90d298d07f"
       path: "goma"
       wait_for_warm_cache_secs: 120
     }
     caches {
-      name: "fuchsia_incremental_fe84e3183349a7ad2280630d40915b9af7f99c0a1d0d861c0095e1915257abd1"
+      name: "fuchsia_incremental_8fc4b3f6280c7e4417248bbfad7fe123f88b5deb70f208dec9fa9c90d298d07f"
       path: "incremental"
       wait_for_warm_cache_secs: 120
     }
     caches {
-      name: "fuchsia_rbe_fe84e3183349a7ad2280630d40915b9af7f99c0a1d0d861c0095e1915257abd1"
+      name: "fuchsia_rbe_8fc4b3f6280c7e4417248bbfad7fe123f88b5deb70f208dec9fa9c90d298d07f"
       path: "rbe"
     }
     service_account: "fuchsia-ci-builder@fuchsia-infra.iam.gserviceaccount.com"
