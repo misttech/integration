@@ -18,5 +18,10 @@
   "platform": "mac-arm64",
   "recipe": "contrib/clang_toolchain",
   "recipes_use_py3": true,
+  "tot_builders": {
+    "linux-amd64": [
+      "clang_toolchain.ci.core.x64-debug-tot-build_only"
+    ]
+  },
   "upload_package": false
 }
