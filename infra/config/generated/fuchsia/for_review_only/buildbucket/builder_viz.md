@@ -123,7 +123,6 @@
 | core.x64-gce |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-gce) |
 | core.x64-gce-staging |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-gce-staging) |
 | [core.x64-host_test_only-mac](https://luci-scheduler.appspot.com/jobs/fuchsia/core.x64-host_test_only-mac-e5a0ec7f) |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/core.x64-host_test_only-mac) | [try](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-host_test_only-mac) |
-| core.x64-host_test_only-mac-incremental |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-host_test_only-mac-incremental) |
 | [core.x64-lto](https://luci-scheduler.appspot.com/jobs/fuchsia/core.x64-lto-e5a0ec7f) |   | [global.ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/global.ci/core.x64-lto) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-lto) |
 | [core.x64-mac-sdk-tools](https://luci-scheduler.appspot.com/jobs/fuchsia/core.x64-mac-sdk-tools-e5a0ec7f) |   | [global.ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/global.ci/core.x64-mac-sdk-tools) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-mac-sdk-tools) |
 | [core.x64-profile-qemu_kvm](https://luci-scheduler.appspot.com/jobs/fuchsia/core.x64-profile-qemu_kvm-af244ac6) | [ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/ci/core.x64-profile-qemu_kvm) |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-profile-qemu_kvm) |
