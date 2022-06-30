@@ -12,6 +12,16 @@
         "path": "scripts/emit_cipd_manifest.sh"
       },
       "package": "fuchsia/drivers/backlight/x64"
+    },
+    {
+      "command": {
+        "args": [
+          "-o",
+          "{build_dir}"
+        ],
+        "path": "scripts/emit_debug_symbol_cipd_manifest.sh"
+      },
+      "package": "fuchsia/drivers/backlight/debug-symbols-x64"
     }
   ],
   "download_command": {
