@@ -492,5 +492,14 @@
              path="prebuilt/.build-id"
              version="git_revision:9d7117a73eb36848ab3765f9157b412aa724d517"
              attributes="debug-symbols,debug-symbols-x64"/>
+
+    <!-- Drivers built OOT -->
+    <package name="fuchsia/drivers/backlight/x64"
+             path="prebuilt/drivers/backlight"
+             version="git_revision:5b86dd24a18bd96edb047452bc72842ca53e7fff"/>
+    <package name="fuchsia/drivers/backlight/debug-symbols-x64"
+             path="prebuilt/.build-id"
+             version="git_revision:5b86dd24a18bd96edb047452bc72842ca53e7fff"
+             attributes="debug-symbols,debug-symbols-x64"/>
   </packages>
 </manifest>
