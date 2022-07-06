@@ -58,5 +58,23 @@ swarming {
       path: "incremental"
     }
     service_account: "fuchsia-ci-builder@fuchsia-infra.iam.gserviceaccount.com"
+    resultdb {
+      enable: true
+      bq_exports {
+        project: "fuchsia-infra"
+        dataset: "resultdb"
+        table: "ci"
+        test_results {}
+      }
+      bq_exports {
+        project: "fuchsia-infra"
+        dataset: "resultdb"
+        table: "artifacts_ci"
+        text_artifacts {}
+      }
+      history_options {
+        use_invocation_timestamp: true
+      }
+    }
   }
 }
