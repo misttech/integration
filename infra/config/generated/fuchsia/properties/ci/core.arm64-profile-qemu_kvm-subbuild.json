@@ -8,6 +8,7 @@
     "artifact_gcs_bucket": "fuchsia-artifacts",
     "build": {
       "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/ci/core.arm64-profile-qemu_kvm.textproto",
+      "incremental": true,
       "run_tests": true
     },
     "checkout": {
