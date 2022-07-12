@@ -40,6 +40,7 @@ swarming {
       '  "led_builder_is_bootstrapped": true,'
       '  "recipe": "gerrit_auto_submit"'
       '}'
+    priority: 20
     execution_timeout_secs: 4200
     caches {
       name: "builder"
