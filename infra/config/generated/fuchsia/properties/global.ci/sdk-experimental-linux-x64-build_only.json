@@ -1,0 +1,25 @@
+{
+  "$fuchsia/rbe": {
+    "instance": "projects/rbe-fuchsia-prod/instances/default"
+  },
+  "recipe": "fuchsia/build",
+  "recipes_use_py3": true,
+  "spec": {
+    "artifact_gcs_bucket": "fuchsia-artifacts",
+    "build": {
+      "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/global.ci/sdk-experimental-linux-x64-build_only.textproto",
+      "sdk_subbuild": true
+    },
+    "checkout": {
+      "attributes": [
+        "debug-symbols-x64"
+      ],
+      "manifest": "flower",
+      "project": "integration",
+      "remote": "https://fuchsia.googlesource.com/integration"
+    },
+    "test": {
+      "pave": true
+    }
+  }
+}

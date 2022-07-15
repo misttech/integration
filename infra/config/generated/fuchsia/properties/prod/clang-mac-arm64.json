@@ -1,0 +1,17 @@
+{
+  "builders": {
+    "linux-amd64": [
+      "clang_toolchain.prod.core.arm64-debug",
+      "clang_toolchain.prod.core.arm64-release",
+      "clang_toolchain.prod.core.x64-debug",
+      "clang_toolchain.prod.core.x64-release"
+    ],
+    "mac-amd64": [
+      "clang_toolchain.prod.core.x64-host_test_only-mac"
+    ]
+  },
+  "platform": "mac-arm64",
+  "recipe": "contrib/clang_toolchain",
+  "recipes_use_py3": true,
+  "upload_package": false
+}

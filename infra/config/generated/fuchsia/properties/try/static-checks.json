@@ -1,0 +1,13 @@
+{
+  "$fuchsia/autocorrelator": {
+    "ci_bucket": "global.ci"
+  },
+  "$fuchsia/rbe": {
+    "instance": "projects/rbe-fuchsia-prod/instances/default"
+  },
+  "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/try/static-checks.textproto",
+  "manifest": "flower",
+  "recipe": "static_checks",
+  "recipes_use_py3": true,
+  "remote": "https://fuchsia.googlesource.com/integration"
+}

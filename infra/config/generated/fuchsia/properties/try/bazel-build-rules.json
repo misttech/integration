@@ -1,0 +1,12 @@
+{
+  "build_command": {
+    "args": [
+      "-o",
+      "{build_dir}"
+    ],
+    "path": "scripts/run_bazel_tests.sh"
+  },
+  "recipe": "build_test_upload",
+  "recipes_use_py3": true,
+  "remote": "https://fuchsia.googlesource.com/sdk-integration"
+}

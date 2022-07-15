@@ -1,0 +1,11 @@
+{
+  "fint_params_paths": {
+    "core.arm64-release": "integration/infra/config/generated/fuchsia/fint_params/toolchain.ci/clang-pgo-training.core.arm64-release.textproto",
+    "core.x64-debug": "integration/infra/config/generated/fuchsia/fint_params/toolchain.ci/clang-pgo-training.core.x64-debug.textproto"
+  },
+  "manifest": "flower",
+  "project": "integration",
+  "recipe": "contrib/clang_ml_training",
+  "recipes_use_py3": true,
+  "remote": "https://fuchsia.googlesource.com/integration"
+}
