@@ -63,11 +63,6 @@ swarming {
       path: "symbol"
     }
     caches {
-      name: "fuchsia_goma_157590c27952d93567af9d71945bacddede0144b5afd0c670fbb73841b8f2980"
-      path: "goma"
-      wait_for_warm_cache_secs: 120
-    }
-    caches {
       name: "fuchsia_incremental_157590c27952d93567af9d71945bacddede0144b5afd0c670fbb73841b8f2980"
       path: "incremental"
       wait_for_warm_cache_secs: 120
@@ -75,6 +70,7 @@ swarming {
     caches {
       name: "fuchsia_rbe_157590c27952d93567af9d71945bacddede0144b5afd0c670fbb73841b8f2980"
       path: "rbe"
+      wait_for_warm_cache_secs: 120
     }
     service_account: "fuchsia-try-builder@fuchsia-infra.iam.gserviceaccount.com"
     resultdb {

@@ -12,7 +12,6 @@ universe_packages: "//bundles/buildbot:bringup"
 host_labels: "//bundles:build_infra"
 target_arch: X64
 include_prebuilt_binary_manifests: true
-use_goma: true
 rust_rbe_enable: true
 cxx_rbe_enable: true
 incremental: true
