@@ -96,6 +96,7 @@
 | core.x64-asan-clean |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-asan-clean) |
 | core.x64-asan-cxx_rbe |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-asan-cxx_rbe) |
 | [core.x64-asan-ffx](https://luci-scheduler.appspot.com/jobs/fuchsia/core.x64-asan-ffx-e5a0ec7f) |   | [global.ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/global.ci/core.x64-asan-ffx) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-asan-ffx) |
+| [core.x64-asan-ffx-parallel](https://luci-scheduler.appspot.com/jobs/fuchsia/core.x64-asan-ffx-parallel-e5a0ec7f) |   | [global.ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/global.ci/core.x64-asan-ffx-parallel) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-asan-ffx-parallel) |
 | core.x64-asan-gocache |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-asan-gocache) |
 | core.x64-asan-incremental-experimental |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-asan-incremental-experimental) |
 | [core.x64-asan-kasan](https://luci-scheduler.appspot.com/jobs/fuchsia/core.x64-asan-kasan-e5a0ec7f) |   | [global.ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/global.ci/core.x64-asan-kasan) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-asan-kasan) |
@@ -129,6 +130,7 @@
 | [core.x64-release](https://luci-scheduler.appspot.com/jobs/fuchsia/core.x64-release-e5a0ec7f) |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/core.x64-release) | [try](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-release) |
 | core.x64-release-chromium_latest |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-release-chromium_latest) |
 | [core.x64-release-ffx](https://luci-scheduler.appspot.com/jobs/fuchsia/core.x64-release-ffx-e5a0ec7f) |   | [global.ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/global.ci/core.x64-release-ffx) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-release-ffx) |
+| [core.x64-release-ffx-parallel](https://luci-scheduler.appspot.com/jobs/fuchsia/core.x64-release-ffx-parallel-e5a0ec7f) |   | [global.ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/global.ci/core.x64-release-ffx-parallel) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-release-ffx-parallel) |
 | [core.x64-release-flaky](https://luci-scheduler.appspot.com/jobs/fuchsia/core.x64-release-flaky-e5a0ec7f) |   | [global.ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/global.ci/core.x64-release-flaky) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-release-flaky) |
 | [core.x64-release-fxfs](https://luci-scheduler.appspot.com/jobs/fuchsia/core.x64-release-fxfs-e5a0ec7f) |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/core.x64-release-fxfs) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-release-fxfs) |
 | core.x64-release-fxfs-no_hardware |   |   | [try](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-release-fxfs-no_hardware) |
