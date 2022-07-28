@@ -5,17 +5,6 @@
 #   https://luci-config.appspot.com/schemas/projects:buildbucket.cfg
 
 name: "tricium"
-acls {
-  group: "all"
-}
-acls {
-  role: SCHEDULER
-  identity: "user:tricium-prod@appspot.gserviceaccount.com"
-}
-acls {
-  role: SCHEDULER
-  group: "project-fuchsia-tryjob-access"
-}
 swarming {
   builders {
     name: "tricium-cobalt"
