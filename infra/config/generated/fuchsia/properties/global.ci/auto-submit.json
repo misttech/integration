@@ -6,7 +6,8 @@
         "gerrit_host": "fuchsia-review.googlesource.com",
         "tree_status_host": "fuchsia-stem-status.appspot.com"
       }
-    ]
+    ],
+    "repeat_duration_seconds": 3600
   },
   "recipe": "gerrit_auto_submit",
   "recipes_use_py3": true
