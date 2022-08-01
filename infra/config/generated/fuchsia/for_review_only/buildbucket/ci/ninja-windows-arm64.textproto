@@ -7,7 +7,7 @@
 name: "ci"
 swarming {
   builders {
-    name: "ninja-windows-x64"
+    name: "ninja-windows-arm64"
     swarming_host: "chromium-swarm.appspot.com"
     dimensions: "cores:32|64"
     dimensions: "cpu:x64"
