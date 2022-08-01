@@ -7,12 +7,12 @@
 name: "ci"
 swarming {
   builders {
-    name: "ninja-windows-x64"
+    name: "ninja-mac-arm64"
     swarming_host: "chromium-swarm.appspot.com"
-    dimensions: "cores:32|64"
+    dimensions: "cores:24|56"
     dimensions: "cpu:x64"
-    dimensions: "gce:1"
-    dimensions: "os:Windows"
+    dimensions: "gce:0"
+    dimensions: "os:Mac"
     dimensions: "pool:luci.fuchsia.ci"
     exe {
       cipd_package: "fuchsia/infra/recipe_bootstrap/${platform}"
@@ -31,12 +31,12 @@ swarming {
       path: "builder"
     }
     caches {
-      name: "symbol"
-      path: "symbol"
+      name: "macos_sdk"
+      path: "macos_sdk"
     }
     caches {
-      name: "windows_sdk"
-      path: "windows_sdk"
+      name: "symbol"
+      path: "symbol"
     }
     service_account: "fuchsia-ci-builder@fuchsia-infra.iam.gserviceaccount.com"
   }
