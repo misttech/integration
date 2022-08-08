@@ -7,10 +7,10 @@
   <projects>
     <project name="fuchsia"
              path="."
-             githooks=""
+             githooks="integration/git-hooks"
              remote="https://fuchsia.googlesource.com/fuchsia"
              gerrithost="https://fuchsia-review.googlesource.com"
-             revision="df9dddd00e44af581ce2ba9095d0bc260b13e0d4"/>
+             revision="b06e8662971e0f0a49d9fb9eb442bf5409550ff1"/>
   </projects>
   <hooks>
     <hook name="install-environment"
