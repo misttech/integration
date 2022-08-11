@@ -29,5 +29,9 @@
   },
   "recipe": "build_test_upload",
   "recipes_use_py3": true,
-  "remote": "https://fuchsia.googlesource.com/sdk-samples/fortune-teller"
+  "remote": "https://fuchsia.googlesource.com/sdk-samples/fortune-teller",
+  "test_manifest_command": {
+    "path": "scripts/emit_test_manifest.sh"
+  },
+  "testing_pool": "fuchsia.tests"
 }
