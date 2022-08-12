@@ -140,6 +140,7 @@
 | core.x64-release-fxfs-no_hardware |   |   | [try](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-release-fxfs-no_hardware) |
 | core.x64-release-nuc_in_basic_envs |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-release-nuc_in_basic_envs) |
 | [core.x64-release-symbolizer-e2e](https://luci-scheduler.appspot.com/jobs/fuchsia/core.x64-release-symbolizer-e2e-e5a0ec7f) |   | [global.ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/global.ci/core.x64-release-symbolizer-e2e) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-release-symbolizer-e2e) |
+| [core.x64-release-vulkan_cts](https://luci-scheduler.appspot.com/jobs/fuchsia/core.x64-release-vulkan_cts-e5a0ec7f) |   | [global.ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/global.ci/core.x64-release-vulkan_cts) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-release-vulkan_cts) |
 | [core.x64-thinlto](https://luci-scheduler.appspot.com/jobs/fuchsia/core.x64-thinlto-e5a0ec7f) |   | [global.ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/global.ci/core.x64-thinlto) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-thinlto) |
 | [core.x64-usb-compliance](https://luci-scheduler.appspot.com/jobs/fuchsia/core.x64-usb-compliance-e5a0ec7f) |   | [global.ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/global.ci/core.x64-usb-compliance) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-usb-compliance) |
 | [core_size_limits.arm64-release-build_only](https://luci-scheduler.appspot.com/jobs/fuchsia/core_size_limits.arm64-release-build_only-e5a0ec7f) |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/core_size_limits.arm64-release-build_only) | [try](https://ci.chromium.org/p/fuchsia/builders/try/core_size_limits.arm64-release-build_only) |
@@ -260,7 +261,6 @@
 | uptodate-cipd-to-git-roller |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/uptodate-cipd-to-git-roller) |
 | uptodate-package-roller |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/uptodate-package-roller) |
 | uptodate-project-roller |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/uptodate-project-roller) |
-| [vulkan_cts-x64-release](https://luci-scheduler.appspot.com/jobs/fuchsia/vulkan_cts-x64-release-e5a0ec7f) |   | [global.ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/global.ci/vulkan_cts-x64-release) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/vulkan_cts-x64-release) |
 | [vulkan_sdk](https://luci-scheduler.appspot.com/jobs/fuchsia/vulkan_sdk) | [ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/ci/vulkan_sdk) |   |   |
 | [workstation-oot](https://luci-scheduler.appspot.com/jobs/fuchsia/workstation-oot-6adea939) | [ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/ci/workstation-oot) |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/workstation-oot) |
 | workstation.chromebook-x64-release-build_only |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/workstation.chromebook-x64-release-build_only) |
