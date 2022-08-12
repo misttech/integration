@@ -182,6 +182,10 @@
              version="version:1.2.198.1"
              path="prebuilt/third_party/vulkansdk/{{.OS}}"
              platforms="linux-amd64,mac-amd64"/>
+    <!-- WebM VP9 Canary Conformance Stream Tests -->
+    <package name="fuchsia/test_data/third_party/webm_vp9_canary_conformance_stream"
+             version="kK4-vXLTKnLwYk419u1BkZHTP2zTh8XSSSRK8Glx_5wC"
+             path="prebuilt/test_data/media/third_party/webm_vp9_canary_conformance_stream"/>
 
     <!--   gRPC Web Proxy -->
     <package name="fuchsia/third_party/grpcwebproxy/${platform}"
