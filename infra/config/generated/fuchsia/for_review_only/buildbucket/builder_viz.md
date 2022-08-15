@@ -226,6 +226,7 @@
 | [rust-cargo-outdated-mac](https://luci-scheduler.appspot.com/jobs/fuchsia/rust-cargo-outdated-mac-2ac1260a) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/rust-cargo-outdated-mac) |
 | [rust-x64-linux](https://luci-scheduler.appspot.com/jobs/fuchsia/rust-x64-linux-49def413) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/rust-x64-linux) |
 | [rust-x64-mac](https://luci-scheduler.appspot.com/jobs/fuchsia/rust-x64-mac-49def413) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/rust-x64-mac) |
+| [rust-x64-windows](https://luci-scheduler.appspot.com/jobs/fuchsia/rust-x64-windows-49def413) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/rust-x64-windows) |
 | [rust_test-x64-linux](https://luci-scheduler.appspot.com/jobs/fuchsia/rust_test-x64-linux-49def413) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/rust_test-x64-linux) |
 | [rust_toolchain.core.arm64-debug](https://luci-scheduler.appspot.com/jobs/fuchsia/rust_toolchain.core.arm64-debug) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/rust_toolchain.core.arm64-debug) |
 | [rust_toolchain.core.arm64-release](https://luci-scheduler.appspot.com/jobs/fuchsia/rust_toolchain.core.arm64-release) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/rust_toolchain.core.arm64-release) |
