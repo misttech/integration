@@ -1,4 +1,7 @@
 {
+  "$fuchsia/rbe": {
+    "instance": "projects/rbe-fuchsia-prod/instances/default"
+  },
   "builders": {
     "linux-amd64": [
       "clang_toolchain.prod.core.arm64-debug",
