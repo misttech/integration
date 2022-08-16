@@ -52,6 +52,17 @@
              platforms="linux-amd64,mac-amd64,linux-arm64,mac-arm64"
              path="prebuilt/third_party/android/aemu/release/{{.OS}}-{{.Arch}}"/>
 
+     <!-- Only explicitly include arm aemu in x86 checkouts so they
+          can be uploaded included in the cross-platform SDK.
+          Skip it on arm checkouts because the above entry will be
+          sufficient.
+     -->
+     <package name="fuchsia/third_party/android/aemu/release/${os}-arm64"
+             version="bid:8951284"
+             platforms="linux-amd64,mac-amd64"
+             attributes="arm-sdk-tools"
+             path="prebuilt/third_party/android/aemu/release/{{.OS}}-arm64"/>
+
     <!-- EDKII firmware for emulating UEFI, from
          https://ci.chromium.org/p/fuchsia/builders/ci/edk2
     -->
