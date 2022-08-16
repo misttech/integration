@@ -26,6 +26,7 @@
       "max_attempts_per_test": 3,
       "max_shards_per_env": 12,
       "pave": true,
+      "per_shard_package_repos": true,
       "per_test_timeout_secs": 300,
       "pool": "fuchsia.tests",
       "skip_unaffected_tests": true,
@@ -33,7 +34,8 @@
       "swarming_io_timeout_secs": 360,
       "target_shard_duration_secs": 540,
       "timeout_secs": 2400,
-      "upload_results": true
+      "upload_results": true,
+      "use_cas_for_images": true
     }
   }
 }
