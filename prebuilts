@@ -375,9 +375,19 @@
              path="prebuilt/virtualization/packages/termina_guest/kernel/x64"
              platforms="linux-amd64,linux-arm64,mac-amd64"
              internal="true"/>
+    <package name="fuchsia_internal/linux/linux_kernel-machina-5.15-x64"
+             version="JvXrsvjWg6AEQJI4izm_GRvU0SRDSe_5_zl-J7BaiMAC"
+             path="prebuilt/virtualization/packages/termina_guest/kernel/x64"
+             platforms="linux-amd64,linux-arm64,mac-amd64"
+             internal="true"/>
     <!--   Termina guest kernel images for arm64 -->
     <package name="fuchsia_internal/linux/linux_kernel-machina-5.4-arm64"
              version="PGHZxWgI2cZJXE91B8UnguuPKXWWeVKHJ4EWYYKjGqQC"
+             path="prebuilt/virtualization/packages/termina_guest/kernel/arm64"
+             platforms="linux-amd64,linux-arm64,mac-amd64"
+             internal="true"/>
+    <package name="fuchsia_internal/linux/linux_kernel-machina-5.15-arm64"
+             version="GTH3gqO_IKOdwrwTKdb-DhsCiB8v0hcl1wlJ-25yK58C"
              path="prebuilt/virtualization/packages/termina_guest/kernel/arm64"
              platforms="linux-amd64,linux-arm64,mac-amd64"
              internal="true"/>
