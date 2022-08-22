@@ -5,6 +5,21 @@
   "artifact_gcs_bucket": "fuchsia-artifacts",
   "collect_absolute": true,
   "coverage_builders": {
+    "core.arm64-coverage-qemu_kvm": [
+      ".cc",
+      ".cpp",
+      ".cxx",
+      ".c++",
+      ".h",
+      ".hpp",
+      ".hxx",
+      ".hh",
+      ".inc",
+      ".ipp",
+      ".inl",
+      ".def",
+      ".c"
+    ],
     "core.x64-coverage-qemu_kvm": [
       ".cc",
       ".cpp",
