@@ -89,11 +89,23 @@
 
     <!-- Bazel prebuilts for the platform build
          Recipe: https://fuchsia.googlesource.com/infra/3pp/+/refs/heads/main/bazel/3pp.pb
+         Recipe: https://fuchsia.googlesource.com/infra/3pp/+/refs/heads/main/buildifier/3pp.pb
+         Recipe: https://fuchsia.googlesource.com/infra/3pp/+/refs/heads/main/buildozer/3pp.pb
     -->
     <package name="fuchsia/third_party/bazel/${platform}"
              version="version:2@6.0.0-pre.20220816.1.1"
              platforms="linux-amd64"
              path="prebuilt/third_party/bazel/{{.OS}}-{{.Arch}}"/>
+
+    <package name="fuchsia/third_party/buildifier/${platform}"
+             version="version:2@5.1.0.1"
+             platforms="linux-amd64"
+             path="prebuilt/third_party/buildifier/{{.OS}}-{{.Arch}}"/>
+
+    <package name="fuchsia/third_party/buildozer/${platform}"
+             version="version:2@5.1.0.1"
+             platforms="linux-amd64"
+             path="prebuilt/third_party/buildozer/{{.OS}}-{{.Arch}}"/>
 
     <!--
         ************************************************************
