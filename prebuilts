@@ -256,12 +256,6 @@
              path="prebuilt/connectivity/bluetooth/firmware/atheros"
              platforms="linux-amd64,linux-arm64,mac-amd64"
              internal="true"/>
-    <!--   Atheros wlan firmware -->
-    <package name="fuchsia_internal/firmware/wlan/atheros/ath10k"
-             version="git_revision:7518922bd5b98b137af7aaf3c836f5a498e91609"
-             path="src/connectivity/wlan/drivers/third_party/atheros/ath10k/firmware"
-             platforms="linux-amd64,linux-arm64,mac-amd64"
-             internal="true"/>
     <!--   Intel wlan firmware -->
     <package name="fuchsia/firmware/wlan/intel/iwlwifi"
              version="version:9"
