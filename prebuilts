@@ -39,8 +39,8 @@
                     https://ci.chromium.org/p/fuchsia/builders/ci/qemu-x64-mac
     -->
     <package name="fuchsia/third_party/qemu/${platform}"
-             version="git_revision:44f28df24767cf9dca1ddc9b23157737c4cbb645,1"
-             platforms="linux-amd64,linux-arm64,mac-amd64"
+             version="git_revision:823a3f11fb8f04c3c3cc0f95f968fef1bfc6534f"
+             platforms="linux-amd64,linux-arm64,mac-amd64,mac-arm64"
              path="prebuilt/third_party/qemu/{{.OS}}-{{.Arch}}"/>
 
     <!-- AEMU from http://ab/aosp-emu-master-dev. Recipe at
