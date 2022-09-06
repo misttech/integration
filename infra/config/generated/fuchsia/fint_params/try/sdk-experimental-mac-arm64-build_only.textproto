@@ -4,7 +4,7 @@
 optimize: RELEASE
 product: "products/core.gni"
 ninja_targets: "bundles:build_infra"
-ninja_targets: "sdk:ddk_archive"
+ninja_targets: "sdk:driver_archive"
 universe_packages: "//sdk/bundles:tools"
 host_labels: "//bundles:build_infra"
 target_arch: ARM64
