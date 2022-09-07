@@ -6,13 +6,13 @@
   },
   "builders": {
     "linux-amd64": [
-      "clang_toolchain.prod.core.arm64-debug",
-      "clang_toolchain.prod.core.arm64-release",
-      "clang_toolchain.prod.core.x64-debug",
-      "clang_toolchain.prod.core.x64-release"
+      "fuchsia/clang_toolchain.prod.core.arm64-debug",
+      "fuchsia/clang_toolchain.prod.core.arm64-release",
+      "fuchsia/clang_toolchain.prod.core.x64-debug",
+      "fuchsia/clang_toolchain.prod.core.x64-release"
     ],
     "mac-amd64": [
-      "clang_toolchain.prod.core.x64-host_test_only-mac"
+      "fuchsia/clang_toolchain.prod.core.x64-host_test_only-mac"
     ]
   },
   "platform": "mac-arm64",

@@ -6,13 +6,13 @@
   },
   "builders": {
     "linux-amd64": [
-      "clang_toolchain.ci.core.arm64-debug",
-      "clang_toolchain.ci.core.arm64-release",
-      "clang_toolchain.ci.core.x64-debug",
-      "clang_toolchain.ci.core.x64-release"
+      "fuchsia/clang_toolchain.ci.core.arm64-debug",
+      "fuchsia/clang_toolchain.ci.core.arm64-release",
+      "fuchsia/clang_toolchain.ci.core.x64-debug",
+      "fuchsia/clang_toolchain.ci.core.x64-release"
     ],
     "mac-amd64": [
-      "clang_toolchain.ci.core.x64-host_test_only-mac"
+      "fuchsia/clang_toolchain.ci.core.x64-host_test_only-mac"
     ]
   },
   "enable_assertions": true,
@@ -23,7 +23,7 @@
   "recipes_use_py3": true,
   "tot_builders": {
     "linux-amd64": [
-      "clang_toolchain.ci.core.x64-debug-tot-build_only"
+      "fuchsia/clang_toolchain.ci.core.x64-debug-tot-build_only"
     ]
   }
 }

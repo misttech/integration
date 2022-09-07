@@ -1,13 +1,13 @@
 {
   "builders": {
     "linux-amd64": [
-      "rust_toolchain.core.arm64-debug",
-      "rust_toolchain.core.arm64-release",
-      "rust_toolchain.core.x64-debug",
-      "rust_toolchain.core.x64-release"
+      "fuchsia/rust_toolchain.core.arm64-debug",
+      "fuchsia/rust_toolchain.core.arm64-release",
+      "fuchsia/rust_toolchain.core.x64-debug",
+      "fuchsia/rust_toolchain.core.x64-release"
     ],
     "mac-amd64": [
-      "rust_toolchain.core.x64-host_test_only-mac"
+      "fuchsia/rust_toolchain.core.x64-host_test_only-mac"
     ]
   },
   "package": "rust",
