@@ -408,6 +408,17 @@
              path="prebuilt/virtualization/packages/termina_guest/images/arm64"
              platforms="linux-amd64,linux-arm64,mac-amd64"
              internal="true"/>
+    <!--   Termina container images -->
+    <package name="fuchsia_internal/linux/termina-container-x64"
+             version="dfPS78rJZHX0rWqeAhZnvJYwXmjcnm4P-1bKiS0hBuIC"
+             path="prebuilt/virtualization/packages/termina_guest/container/x64"
+             platforms="linux-amd64,linux-arm64,mac-amd64"
+             internal="true"/>
+    <package name="fuchsia_internal/linux/termina-container-arm64"
+             version="dq1IyE6PMuPM0TPaYiMtI6kMc64-bMOAtup9PA8eqrsC"
+             path="prebuilt/virtualization/packages/termina_guest/container/arm64"
+             platforms="linux-amd64,linux-arm64,mac-amd64"
+             internal="true"/>
 
     <!-- Packages for CTS -->
     <package name="fuchsia/cts/${platform}"
