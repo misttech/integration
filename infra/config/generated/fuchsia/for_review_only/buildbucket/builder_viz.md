@@ -262,6 +262,7 @@
 | sdk-experimental-mac |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/sdk-experimental-mac) |
 | sdk-experimental-mac-arm64-build_only |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/sdk-experimental-mac-arm64-build_only) |
 | sdk-experimental-mac-x64-build_only |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/sdk-experimental-mac-x64-build_only) |
+| [sdk-samples-getting-started-rust](https://luci-scheduler.appspot.com/jobs/fuchsia/sdk-samples-getting-started-rust-99193e70) | [ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/ci/sdk-samples-getting-started-rust) |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/sdk-samples-getting-started-rust) |
 | [static-checks](https://luci-scheduler.appspot.com/jobs/fuchsia/static-checks-e5a0ec7f) |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/static-checks) | [try](https://ci.chromium.org/p/fuchsia/builders/try/static-checks) |
 | [tensorflow](https://luci-scheduler.appspot.com/jobs/fuchsia/tensorflow) | [ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/ci/tensorflow) |   |   |
 | [terminal.vim3-release](https://luci-scheduler.appspot.com/jobs/fuchsia/terminal.vim3-release-e5a0ec7f) |   | [global.ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/global.ci/terminal.vim3-release) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/terminal.vim3-release) |
