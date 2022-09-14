@@ -431,10 +431,6 @@
              path="prebuilt/tools/buildbucket"
              version="git_revision:e71b07162fb1593f8bfba873ffe1174e1f24c88c"
              platforms="linux-amd64,linux-arm64,mac-amd64"/>
-    <package name="infra/tools/bqupload/${platform}"
-             path="prebuilt/tools/bqupload"
-             platforms="linux-amd64,linux-arm64,mac-amd64"
-             version="git_revision:e71b07162fb1593f8bfba873ffe1174e1f24c88c"/>
     <package name="infra/tools/luci/gsutil/${platform}"
              path="prebuilt/tools/gsutil"
              platforms="linux-amd64,linux-arm64,mac-amd64"
