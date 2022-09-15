@@ -17,6 +17,7 @@
     "test": {
       "affected_tests_multiply_threshold": 3,
       "default_service_account": "artifact-readers@fuchsia-infra.iam.gserviceaccount.com",
+      "enable_sandboxing": true,
       "max_attempts": 1,
       "max_attempts_per_test": 3,
       "max_shards_per_env": 12,
