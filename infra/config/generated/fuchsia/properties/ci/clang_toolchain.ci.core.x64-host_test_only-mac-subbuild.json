@@ -21,7 +21,7 @@
     },
     "gcs_bucket": "fuchsia-build",
     "test": {
-      "affected_tests_multiply_threshold": 3,
+      "affected_tests_multiply_threshold": 50,
       "default_service_account": "artifact-readers@fuchsia-infra.iam.gserviceaccount.com",
       "enable_sandboxing": true,
       "max_attempts": 1,
