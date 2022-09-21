@@ -10,3 +10,12 @@ if [[ "${EMAIL}" == *".corp.google.com" ]]; then
   echo " git config --global user.email ${USER}@google.com"
   exit 1
 fi
+
+# Run a custom pre-commit hook if one exists.
+#
+# To perform additional pre-commit checks, create an executable file
+# 'pre-commit.dev' in the .git/hooks directory in your Fuchsia source checkout
+# and implement the checks there.
+if [[ -f ".git/hooks/pre-commit.dev" ]]; then
+  exec .git/hooks/pre-commit.dev
+fi
