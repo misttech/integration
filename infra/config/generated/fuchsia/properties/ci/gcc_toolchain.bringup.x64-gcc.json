@@ -4,6 +4,7 @@
   "spec": {
     "artifact_gcs_bucket": "fuchsia-artifacts",
     "build": {
+      "enable_sandboxing": true,
       "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/ci/gcc_toolchain.bringup.x64-gcc.textproto",
       "run_tests": true
     },

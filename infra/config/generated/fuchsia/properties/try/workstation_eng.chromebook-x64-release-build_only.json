@@ -10,6 +10,7 @@
   "spec": {
     "artifact_gcs_bucket": "fuchsia-artifacts",
     "build": {
+      "enable_sandboxing": true,
       "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/try/workstation_eng.chromebook-x64-release-build_only.textproto",
       "incremental": true
     },
