@@ -18,7 +18,7 @@
     },
     "gcs_bucket": "fuchsia-build",
     "test": {
-      "affected_tests_multiply_threshold": 50,
+      "affected_tests_multiply_threshold": 100,
       "catapult_dashboard_bot": "fuchsia-x64-nuc",
       "catapult_dashboard_master": "fuchsia.global.ci",
       "default_service_account": "artifact-readers@fuchsia-infra.iam.gserviceaccount.com",
