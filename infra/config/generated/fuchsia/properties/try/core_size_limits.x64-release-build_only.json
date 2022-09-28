@@ -11,6 +11,7 @@
     "artifact_gcs_bucket": "fuchsia-artifacts",
     "build": {
       "check_size_budgets": true,
+      "enable_sandboxing": true,
       "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/try/core_size_limits.x64-release-build_only.textproto",
       "incremental": true,
       "report_binary_sizes": true,

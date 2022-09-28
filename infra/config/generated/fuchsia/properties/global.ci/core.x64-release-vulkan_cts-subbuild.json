@@ -7,6 +7,7 @@
   "spec": {
     "artifact_gcs_bucket": "fuchsia-artifacts",
     "build": {
+      "enable_sandboxing": true,
       "environment_tags": [
         "vulkan-cts"
       ],
