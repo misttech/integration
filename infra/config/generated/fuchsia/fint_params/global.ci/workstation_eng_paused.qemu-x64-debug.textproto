@@ -6,7 +6,7 @@ board: "boards/qemu-x64.gni"
 product: "products/workstation_eng_paused.gni"
 gn_args: "build_should_trace_actions = true"
 gn_args: "restat_rust = true"
-base_packages: "//bundles/buildbot:workstation"
+base_packages: "//bundles/buildbot:workstation_eng_paused_tests"
 host_labels: "//bundles:build_infra"
 host_labels: "//bundles:test_infra"
 target_arch: X64
