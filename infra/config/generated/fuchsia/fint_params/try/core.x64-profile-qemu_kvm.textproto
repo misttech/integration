@@ -4,6 +4,7 @@
 optimize: RELEASE
 board: "boards/qemu-x64.gni"
 product: "products/core.gni"
+gn_args: "clang_enable_error_reproducers = true"
 gn_args: "optimize = \"speed\""
 gn_args: "restat_rust = true"
 base_packages: "//bundles/buildbot:core_no_e2e"
