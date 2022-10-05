@@ -1,0 +1,48 @@
+{
+  "recipe": "fuchsia/fuchsia",
+  "recipes_use_py3": true,
+  "spec": {
+    "artifact_gcs_bucket": "fuchsia-artifacts",
+    "build": {
+      "enable_sandboxing": true,
+      "environment_tags": [
+        "e2e-isolated"
+      ],
+      "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/try/workstation_eng.x64-release-e2e-isolated-gce.textproto",
+      "incremental": true,
+      "run_tests": true
+    },
+    "checkout": {
+      "manifest": "flower",
+      "project": "integration",
+      "remote": "https://fuchsia.googlesource.com/integration"
+    },
+    "gcs_bucket": "fuchsia-build",
+    "test": {
+      "affected_tests_multiply_threshold": 100,
+      "default_service_account": "artifact-readers@fuchsia-infra.iam.gserviceaccount.com",
+      "enable_sandboxing": true,
+      "gce_mediator": {
+        "cloud_project": "fuchsia-testing-vms",
+        "endpoint": "fuchsia-gce-mediator-prod.uc.r.appspot.com",
+        "machine_shape": "n2-standard-4"
+      },
+      "max_attempts": 2,
+      "max_attempts_per_test": 1,
+      "max_shard_size": 1,
+      "max_shards_per_env": 30,
+      "pave": true,
+      "per_shard_package_repos": true,
+      "per_test_timeout_secs": 1200,
+      "pool": "fuchsia.tests",
+      "retry_task_on_test_failure": true,
+      "skip_unaffected_tests": true,
+      "swarming_expiration_timeout_secs": 18000,
+      "swarming_io_timeout_secs": 1260,
+      "test_on_gce": true,
+      "upload_results": true,
+      "use_cas_for_images": true
+    }
+  },
+  "uses_subbuild": true
+}
