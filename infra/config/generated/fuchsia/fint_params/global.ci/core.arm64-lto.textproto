@@ -5,6 +5,7 @@ optimize: RELEASE
 board: "boards/arm64.gni"
 product: "products/core.gni"
 gn_args: "build_should_trace_actions = true"
+gn_args: "clang_enable_error_reproducers = true"
 gn_args: "restat_rust = true"
 base_packages: "//bundles/buildbot:core"
 host_labels: "//bundles/buildbot:host-tests"
