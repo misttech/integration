@@ -7,7 +7,7 @@
 name: "try"
 swarming {
   builders {
-    name: "core.arm64-debug-cts"
+    name: "core.x64-ctf-coverage-qemu_kvm"
     swarming_host: "chromium-swarm.appspot.com"
     dimensions: "cores:2"
     dimensions: "cpu:x64"
@@ -25,7 +25,7 @@ swarming {
       '  "led_builder_is_bootstrapped": true,'
       '  "recipe": "fuchsia/fuchsia"'
       '}'
-    execution_timeout_secs: 8400
+    execution_timeout_secs: 7200
     caches {
       name: "builder"
       path: "builder"

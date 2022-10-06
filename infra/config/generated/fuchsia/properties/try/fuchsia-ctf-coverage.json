@@ -4,7 +4,7 @@
   },
   "artifact_gcs_bucket": "fuchsia-artifacts",
   "coverage_builders": {
-    "core.x64-cts-coverage-qemu_kvm": [
+    "core.x64-ctf-coverage-qemu_kvm": [
       ".cc",
       ".cpp",
       ".cxx",
@@ -20,7 +20,7 @@
       ".c"
     ]
   },
-  "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/try/fuchsia-cts-coverage.textproto",
+  "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/try/fuchsia-ctf-coverage.textproto",
   "manifest": "flower",
   "recipe": "fuchsia/coverage",
   "recipes_use_py3": true,

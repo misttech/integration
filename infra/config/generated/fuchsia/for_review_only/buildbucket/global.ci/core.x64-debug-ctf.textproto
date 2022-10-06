@@ -7,7 +7,7 @@
 name: "global.ci"
 swarming {
   builders {
-    name: "core.arm64-debug-cts"
+    name: "core.x64-debug-ctf"
     swarming_host: "chromium-swarm.appspot.com"
     dimensions: "cores:2"
     dimensions: "cpu:x64"

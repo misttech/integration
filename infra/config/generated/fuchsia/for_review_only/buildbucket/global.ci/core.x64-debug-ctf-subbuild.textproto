@@ -7,7 +7,7 @@
 name: "global.ci"
 swarming {
   builders {
-    name: "core.arm64-debug-cts-subbuild"
+    name: "core.x64-debug-ctf-subbuild"
     swarming_host: "chromium-swarm.appspot.com"
     dimensions: "cores:32"
     dimensions: "cpu:x64"
@@ -36,12 +36,12 @@ swarming {
       path: "symbol"
     }
     caches {
-      name: "fuchsia_incremental_edc838f29c0ee3838309dd3c1fb3d3a873a2b3f220cd420ade361883b23704ee"
+      name: "fuchsia_incremental_31c1cd818caaf8c28b21a96d41988f40505a956d75568926b65b230d2983a57a"
       path: "incremental"
       wait_for_warm_cache_secs: 120
     }
     caches {
-      name: "fuchsia_rbe_edc838f29c0ee3838309dd3c1fb3d3a873a2b3f220cd420ade361883b23704ee"
+      name: "fuchsia_rbe_31c1cd818caaf8c28b21a96d41988f40505a956d75568926b65b230d2983a57a"
       path: "rbe"
       wait_for_warm_cache_secs: 120
     }
@@ -64,6 +64,6 @@ swarming {
         use_invocation_timestamp: true
       }
     }
-    description_html: "This builder is the subbuild for <a href=\"https://ci.chromium.org/p/fuchsia/builders/global.ci/core.arm64-debug-cts\">core.arm64-debug-cts</a>.\n\nThe <a href=\"https://fuchsia.dev/fuchsia-src/development/build/concepts/build_system/boards_and_products?hl=en#core-product\">core</a> product has networking capabilities and supports updates and installing additional software over-the-air."
+    description_html: "This builder is the subbuild for <a href=\"https://ci.chromium.org/p/fuchsia/builders/global.ci/core.x64-debug-ctf\">core.x64-debug-ctf</a>.\n\nThe <a href=\"https://fuchsia.dev/fuchsia-src/development/build/concepts/build_system/boards_and_products?hl=en#core-product\">core</a> product has networking capabilities and supports updates and installing additional software over-the-air."
   }
 }
