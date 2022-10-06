@@ -61,11 +61,34 @@
              platforms="linux-amd64,mac-amd64"
              path="prebuilt/proprietary/third_party/reclient/{{.OS}}-{{.Arch}}"/>
 
-    <!-- Rust
-         From Rust on Fuchsia team.
-         https://ci.chromium.org/p/fuchsia/g/rust/console
+    <!-- Rust host tools https://ci.chromium.org/p/fuchsia/g/rust/console
+         From Rust on Fuchsia team
     -->
-    <package name="fuchsia/third_party/rust/${platform}"
+    <package name="fuchsia/third_party/rust/host/${platform}"
+             version="git_revision:6b6610b8bd5112bbb3bd2b73a97250cb06979505"
+             platforms="linux-amd64,linux-arm64,mac-amd64"
+             path="prebuilt/third_party/rust/{{.OS}}-{{.Arch}}"/>
+
+    <!-- Rust targets https://ci.chromium.org/p/fuchsia/g/rust/console
+         From Rust on Fuchsia team
+    -->
+    <package name="fuchsia/third_party/rust/target/fuchsia"
+             version="git_revision:6b6610b8bd5112bbb3bd2b73a97250cb06979505"
+             platforms="linux-amd64,linux-arm64,mac-amd64"
+             path="prebuilt/third_party/rust/{{.OS}}-{{.Arch}}"/>
+    <package name="fuchsia/third_party/rust/target/aarch64-unknown-linux-gnu"
+             version="git_revision:6b6610b8bd5112bbb3bd2b73a97250cb06979505"
+             platforms="linux-amd64,linux-arm64,mac-amd64"
+             path="prebuilt/third_party/rust/{{.OS}}-{{.Arch}}"/>
+    <package name="fuchsia/third_party/rust/target/wasm32-unknown-unknown"
+             version="git_revision:6b6610b8bd5112bbb3bd2b73a97250cb06979505"
+             platforms="linux-amd64,linux-arm64,mac-amd64"
+             path="prebuilt/third_party/rust/{{.OS}}-{{.Arch}}"/>
+    <package name="fuchsia/third_party/rust/target/x86_64-apple-darwin"
+             version="git_revision:6b6610b8bd5112bbb3bd2b73a97250cb06979505"
+             platforms="linux-amd64,linux-arm64,mac-amd64"
+             path="prebuilt/third_party/rust/{{.OS}}-{{.Arch}}"/>
+    <package name="fuchsia/third_party/rust/target/x86_64-unknown-linux-gnu"
              version="git_revision:6b6610b8bd5112bbb3bd2b73a97250cb06979505"
              platforms="linux-amd64,linux-arm64,mac-amd64"
              path="prebuilt/third_party/rust/{{.OS}}-{{.Arch}}"/>
