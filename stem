@@ -16,9 +16,6 @@
     <hook name="install-environment"
           project="fuchsia"
           action="scripts/devshell/lib/add_symlink_to_bin.sh"/>
-    <hook name="zircon-download-prebuilt"
-          project="fuchsia"
-          action="zircon/scripts/download-prebuilt"/>
     <hook name="gen-ssh-keys"
           project="fuchsia"
           action="tools/ssh-keys/gen-ssh-keys.sh"/>
