@@ -65,7 +65,7 @@
     <project name="third_party/android.googlesource.com/platform/tools/test/connectivity"
              path="third_party/android/platform/tools/test/connectivity"
              remote="https://fuchsia.googlesource.com/third_party/android.googlesource.com/platform/tools/test/connectivity/"
-             revision="4c4b10197d3e661996706ae3bfe9e58ff1c7976e"/>
+             revision="95f07b1b0c3f98b65aa53f344502adaad7f499db"/>
     <project name="third_party/android/platform/system/bt"
              path="third_party/android/platform/system/bt"
              remote="https://fuchsia.googlesource.com/third_party/android/platform/system/bt"
@@ -78,7 +78,7 @@
              path="third_party/bcmdhd"
              remote="https://fuchsia.googlesource.com/third_party/bcmdhd"
              gerrithost="https://fuchsia-review.googlesource.com"
-             revision="f40340185ca4c8d1e05fb395b3adf2fb204d2cb6"/>
+             revision="185d2c5194006f7f7e85f479d3031c600ae60b66"/>
     <project name="boringssl"
              path="third_party/boringssl/src"
              remote="https://boringssl.googlesource.com/boringssl"
@@ -87,17 +87,17 @@
     <project name="cobalt"
              path="third_party/cobalt"
              remote="https://fuchsia.googlesource.com/cobalt"
-             revision="42de26f2d30370e148a28de19d2463796c54c411"
+             revision="6a5d89b337d488879b4628af7383f83404030cac"
              gerrithost="https://fuchsia-review.googlesource.com"/>
     <project name="cobalt-registry"
              path="third_party/cobalt_config"
              remote="https://fuchsia.googlesource.com/cobalt-registry"
-             revision="edcd3b25759040a69ee4dccc404c79fac1accaa2"
+             revision="a20a84e06d6cffaca2f0128edb6eb51c47b410c6"
              gerrithost="https://fuchsia-review.googlesource.com"/>
     <project name="third_party/crashpad"
              path="third_party/crashpad"
              remote="https://fuchsia.googlesource.com/third_party/crashpad"
-             revision="1381fefdc3d10cbeb028a8aff9ae8654e1daced3"
+             revision="82eef2d430866a839e1e7268519b39005dc1be0a"
              gerrithost="https://fuchsia-review.googlesource.com"/>
     <project name="chromium/mini_chromium"
              path="third_party/mini_chromium"
@@ -157,7 +157,7 @@
     <project name="third_party/github.com/ARM-software/HWCPipe"
              path="third_party/github.com/ARM-software/HWCPipe"
              remote="https://fuchsia.googlesource.com/third_party/github.com/ARM-software/HWCPipe"
-             revision="54f5be913753b9670485524dabd89d5262c1ffd5"/>
+             revision="59f74da97efcd89a6da2abe826b7f58948b7f7b4"/>
     <project name="external/github.com/g-truc/glm"
              path="third_party/glm"
              remote="https://chromium.googlesource.com/external/github.com/g-truc/glm"
@@ -165,7 +165,7 @@
     <project name="third_party/go"
              remote="https://fuchsia.googlesource.com/third_party/go"
              gerrithost="https://fuchsia-review.googlesource.com"
-             revision="6ffae8af8fb68cd9949531da8de16f83a8f4c1b1"
+             revision="ee5404409bd0ff99e4559787bb59f879eac1586c"
              path="third_party/go"/>
     <project name="third_party/github.com/intel/intel-linux-processor-microcode-data-files"
              path="third_party/github.com/intel/intel-linux-processor-microcode-data-files"
@@ -266,11 +266,11 @@
     <project name="linux-syscall-support"
              path="third_party/linux-syscall-support"
              remote="https://chromium.googlesource.com/linux-syscall-support"
-             revision="9719c1e1e676814c456b55f5f070eabad6709d31"/>
+             revision="b0fa15683b2a0ac339cfdb9c2eab7bf07311ee56"/>
     <project name="llvm-project/libc"
              path="third_party/llvm-libc/src"
              remote="https://llvm.googlesource.com/llvm-project/libc"
-             revision="42e8fae751fad2a299207b1e16ff77b9192cd892"/>
+             revision="5dfdd2190db7ce5e8e67ce0c91b5db423dd086bd"/>
     <project name="third_party/lz4"
              path="third_party/lz4"
              remote="https://fuchsia.googlesource.com/third_party/lz4"
@@ -294,7 +294,7 @@
     <project name="third_party/mesa"
              path="third_party/mesa"
              remote="https://fuchsia.googlesource.com/third_party/mesa"
-             revision="0c1e408d48f4cf879e9e38702f6ef49a9d28c669"
+             revision="5e4787a9ef7e72a7abdfeb90330500b1fff61c94"
              gerrithost="https://fuchsia-review.googlesource.com"/>
     <project name="third_party/github.com/kmackay/micro-ecc"
              path="third_party/micro-ecc"
@@ -355,12 +355,12 @@
              path="third_party/perfetto"
              remote="https://fuchsia.googlesource.com/third_party/android.googlesource.com/platform/external/perfetto/"
              gerrithost="https://fuchsia-review.googlesource.com"
-             revision="861d81e9ce834b722a0f6e27e1a036d5402512ae" />
+             revision="5c42ac9c2c8efd77f14d56462d18eb644f36b78b" />
     <project name="third_party/pigweed"
              path="third_party/pigweed/src"
              remote="https://pigweed.googlesource.com/pigweed/pigweed"
              gerrithost="https://pigweed-review.googlesource.com"
-             revision="4f4e256a56e6b8fbcc23f63d53c49c47f9bcc463"/>
+             revision="8a12d6bb667045f21f0f6e530fbe4b42db6efbb7"/>
     <project name="third_party/processor-trace"
              path="third_party/processor-trace"
              remote="https://fuchsia.googlesource.com/third_party/processor-trace"
@@ -439,7 +439,7 @@
     <project name="third_party/sdk-integration"
              path="third_party/sdk-integration"
              remote="https://fuchsia.googlesource.com/sdk-integration"
-             revision="3b955aad69642c8aee85429a856bfadc8f0343f9"/>
+             revision="ecee3478daf8b70c15facaedc4d26d7c493649ab"/>
     <project name="gwp-asan"
              path="third_party/scudo/gwp_asan"
              remote="https://llvm.googlesource.com/gwp-asan"
@@ -553,10 +553,5 @@
              remote="https://fuchsia.googlesource.com/third_party/libyuv"
              gerrithost="https://fuchsia-review.googlesource.com"
              revision="97bd3bba83e3eb4df85e8e243ceb1abebc190a43"/>
-    <project name="third_party/fmtlib"
-             path="third_party/fmtlib/src"
-             remote="https://fuchsia.googlesource.com/third_party/github.com/fmtlib/fmt"
-             gerrithost="https://fuchsia-review.googlesource.com"
-             revision="03835f00e17ca2f85cc7e568b875042879f2966e"/>
   </projects>
 </manifest>

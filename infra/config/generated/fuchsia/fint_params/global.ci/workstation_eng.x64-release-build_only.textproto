@@ -6,7 +6,6 @@ board: "boards/x64.gni"
 product: "products/workstation_eng.gni"
 gn_args: "build_should_trace_actions = true"
 gn_args: "output_breakpad_syms = true"
-gn_args: "restat_rust = true"
 ninja_targets: "build/assembly"
 universe_packages: "//bundles/buildbot:workstation"
 host_labels: "//bundles:build_infra"
@@ -16,6 +15,4 @@ include_images: true
 include_prebuilt_binary_manifests: true
 rust_rbe_enable: true
 cxx_rbe_enable: true
-incremental: true
 include_default_ninja_target: true
-use_temporary_go_cache: true

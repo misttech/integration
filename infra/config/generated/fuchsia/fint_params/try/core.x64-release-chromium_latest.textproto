@@ -5,7 +5,6 @@ optimize: RELEASE
 board: "boards/x64.gni"
 product: "products/core.gni"
 gn_args: "build_should_trace_actions = true"
-gn_args: "restat_rust = true"
 gn_args: "use_chromium_canary = true use_cast_runner_canary = true"
 base_packages: "//bundles/buildbot:core"
 host_labels: "//bundles/buildbot:host-tests"
@@ -21,6 +20,4 @@ test_durations_file: "prebuilt/infra/test_durations/fuchsia/core.x64-release-chr
 default_test_durations_file: "prebuilt/infra/test_durations/fuchsia/default.json"
 rust_rbe_enable: true
 cxx_rbe_enable: true
-incremental: true
 include_default_ninja_target: true
-use_temporary_go_cache: true

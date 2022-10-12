@@ -48,7 +48,7 @@
          Builder at https://ci.chromium.org/p/turquoise/builders/prod/aemu_downloader
     -->
     <package name="fuchsia/third_party/android/aemu/release/${platform}"
-             version="bid:9166955"
+             version="bid:9154087"
              platforms="linux-amd64,mac-amd64,linux-arm64,mac-arm64"
              path="prebuilt/third_party/android/aemu/release/{{.OS}}-{{.Arch}}"/>
 
@@ -58,7 +58,7 @@
           sufficient.
      -->
      <package name="fuchsia/third_party/android/aemu/release/${os}-arm64"
-             version="bid:9166955"
+             version="bid:9154087"
              platforms="linux-amd64,mac-amd64"
              attributes="arm-sdk-tools"
              path="prebuilt/third_party/android/aemu/release/{{.OS}}-arm64"/>
@@ -124,14 +124,14 @@
              path="prebuilt/tools/cgpt/{{.OS}}-{{.Arch}}"
              platforms="linux-amd64,mac-amd64"/>
     <package name="fuchsia/tools/futility/${platform}"
-             version="git_revision:55f2b951e8ae949e2ddaa88eb3387ecb548a519d"
+             version="git_revision:cd27a98775d88731f54eede50138c14faae31259"
              path="prebuilt/tools/futility/{{.OS}}-{{.Arch}}"
              platforms="linux-amd64,mac-amd64"/>
 
     <!-- Packages for build -->
     <!--   Dart -->
     <package name="fuchsia/dart-sdk/${platform}"
-             version="git_revision:edf774a75ef16b041b291d0023e61e9ae6916e1c"
+             version="git_revision:2f0c186d3b10169bb58964d3dea295c1825ff780"
              platforms="linux-amd64,mac-amd64"
              path="prebuilt/third_party/dart/{{.OS}}-{{.Arch}}"/>
 
@@ -143,21 +143,21 @@
            TODO(kaushikiska): fix the internal structure of the Flutter CIPD
            package and change this path to prebuilt/third_party/flutter -->
     <package name="flutter/fuchsia"
-             version="git_revision:623d2d91802efe3cdaf5790cfae669dccc7f9669"
+             version="git_revision:ac1fec636770de7b4c497ac624f208c0f26551b1"
              platforms="linux-amd64,linux-arm64,mac-amd64"
              path="prebuilt/third_party"/>
     <package name="flutter/sky_engine"
-             version="git_revision:623d2d91802efe3cdaf5790cfae669dccc7f9669"
+             version="git_revision:ac1fec636770de7b4c497ac624f208c0f26551b1"
              platforms="linux-amd64,linux-arm64,mac-amd64"
              path="prebuilt/third_party/sky_engine"/>
     <!-- Flutter Debug symbols -->
     <package name="flutter/fuchsia-debug-symbols-x64"
-             version="git_revision:623d2d91802efe3cdaf5790cfae669dccc7f9669"
+             version="git_revision:ac1fec636770de7b4c497ac624f208c0f26551b1"
              path="prebuilt/.build-id"
              platforms="linux-amd64,linux-arm64,mac-amd64"
              attributes="debug-symbols,debug-symbols-x64,debug-symbols-flutter"/>
     <package name="flutter/fuchsia-debug-symbols-arm64"
-             version="git_revision:623d2d91802efe3cdaf5790cfae669dccc7f9669"
+             version="git_revision:ac1fec636770de7b4c497ac624f208c0f26551b1"
              path="prebuilt/.build-id"
              platforms="linux-amd64,linux-arm64,mac-amd64"
              attributes="debug-symbols,debug-symbols-arm64,debug-symbols-flutter"/>
@@ -200,7 +200,7 @@
              path="prebuilt/third_party/zoneinfo"/>
     <!--   Skia Gold -->
     <package name="skia/tools/goldctl/${platform}"
-             version="git_revision:886d6c508741e2278683eb3b8d27c1a4c55a3753"
+             version="git_revision:a50051afc0d9dad41d99288f381368aab989ed57"
              platforms="linux-amd64,linux-arm64,mac-amd64"
              path="prebuilt/third_party/goldctl"/>
     <!--   Skia skqp -->
@@ -236,6 +236,12 @@
              path="src/connectivity/wlan/drivers/third_party/broadcom/brcmfmac/firmware"
              platforms="linux-amd64,linux-arm64,mac-amd64"
              flag="build/cipd.gni|internal_access = true|internal_access = false"
+             internal="true"/>
+    <!--   Mediatek bluetooth firmware -->
+    <package name="fuchsia_internal/firmware/bluetooth/mt7668"
+             version="git_revision:ed8b2eb6b877e93afb8a9f9281b93a7b91df0f09"
+             path="prebuilt/connectivity/bluetooth/firmware/mediatek"
+             platforms="linux-amd64,linux-arm64,mac-amd64"
              internal="true"/>
     <!--   Broadcom bluetooth firmware -->
     <package name="fuchsia_internal/firmware/bluetooth/bcm4345c5"
@@ -423,21 +429,21 @@
     <package name="fuchsia/cts/${platform}"
              path="prebuilt/cts/canary/{{.OS}}-{{.Arch}}"
              platforms="linux-amd64"
-             version="git_revision:976515d25cecfd7bd88447a9443f5275f8a6f3a7"/>
+             version="git_revision:b9cdfe3d0bcc38525eb1f685df8d17185059499e"/>
 
     <!-- Packages in /infra/tools/ -->
     <package name="infra/tools/bb/${platform}"
              path="prebuilt/tools/buildbucket"
-             version="git_revision:886d6c508741e2278683eb3b8d27c1a4c55a3753"
+             version="git_revision:a50051afc0d9dad41d99288f381368aab989ed57"
              platforms="linux-amd64,linux-arm64,mac-amd64"/>
     <package name="infra/tools/luci/gsutil/${platform}"
              path="prebuilt/tools/gsutil"
              platforms="linux-amd64,linux-arm64,mac-amd64"
-             version="git_revision:886d6c508741e2278683eb3b8d27c1a4c55a3753"/>
+             version="git_revision:a50051afc0d9dad41d99288f381368aab989ed57"/>
     <package name="infra/tools/luci/logdog/logdog/${platform}"
              path="prebuilt/tools/logdog"
              platforms="linux-amd64,mac-amd64"
-             version="git_revision:886d6c508741e2278683eb3b8d27c1a4c55a3753"/>
+             version="git_revision:a50051afc0d9dad41d99288f381368aab989ed57"/>
 
     <!-- Packages in /fuchsia/infra -->
     <package name="fuchsia/infra/artifacts/${platform}"
@@ -480,7 +486,7 @@
 
     <!-- Packages for SDK -->
     <package name="fuchsia/sdk/core/${platform}"
-             version="version:9.20221010.3.1"
+             version="version:9.20221010.1.1"
              platforms="linux-amd64,mac-amd64"
              path="prebuilt/sdk/core/{{.OS}}-{{.Arch}}"
              attributes="sdk"/>
@@ -488,7 +494,7 @@
     <!-- Virtual Device Launcher -->
     <package name="fuchsia/vdl/${platform}"
              path="prebuilt/vdl"
-             version="g3-revision:vdl_fuchsia_20221012_RC00"
+             version="g3-revision:vdl_fuchsia_20221010_RC00"
              platforms="linux-amd64,mac-amd64"/>
 
     <!-- fsatrace -->
@@ -558,10 +564,10 @@
     <!-- Drivers built OOT -->
     <package name="fuchsia/drivers/backlight/x64"
              path="prebuilt/drivers/backlight"
-             version="git_revision:803caca6e128b5bbe9a0dace62c332f1b65806d1"/>
+             version="git_revision:d77d911956a9eafdb8d8f0f41df0ceecf6cb2990"/>
     <package name="fuchsia/drivers/backlight/debug-symbols-x64"
              path="prebuilt/.build-id"
-             version="git_revision:803caca6e128b5bbe9a0dace62c332f1b65806d1"
+             version="git_revision:d77d911956a9eafdb8d8f0f41df0ceecf6cb2990"
              attributes="debug-symbols,debug-symbols-x64"/>
   </packages>
 </manifest>
