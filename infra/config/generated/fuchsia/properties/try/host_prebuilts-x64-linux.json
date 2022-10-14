@@ -9,13 +9,17 @@
   "remote": "https://fuchsia.googlesource.com/integration",
   "tools": [
     {
-      "cipd_package": "fuchsia/tools/bundle_fetcher/${platform}",
-      "name": "bundle_fetcher"
-    },
-    {
       "gcs_bucket": "fuchsia-ffx",
       "gcs_path": "ffx-linux-x64",
       "name": "ffx"
+    },
+    {
+      "cipd_package": "fuchsia/tools/batchtester/${platform}",
+      "name": "batchtester"
+    },
+    {
+      "cipd_package": "fuchsia/tools/bundle_fetcher/${platform}",
+      "name": "bundle_fetcher"
     },
     {
       "cipd_package": "fuchsia/tools/futility/${platform}",
