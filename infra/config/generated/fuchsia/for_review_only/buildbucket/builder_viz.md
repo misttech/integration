@@ -154,8 +154,8 @@
 | [core.x64-release-flaky](https://luci-scheduler.appspot.com/jobs/fuchsia/core.x64-release-flaky-e5a0ec7f) |   | [global.ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/global.ci/core.x64-release-flaky) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-release-flaky) |
 | core.x64-release-fxfs |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-release-fxfs) |
 | core.x64-release-fxfs-no_hardware |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-release-fxfs-no_hardware) |
-| core.x64-release-minfs |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-release-minfs) |
-| core.x64-release-minfs-no_hardware |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-release-minfs-no_hardware) |
+| [core.x64-release-minfs](https://luci-scheduler.appspot.com/jobs/fuchsia/core.x64-release-minfs-e5a0ec7f) |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/core.x64-release-minfs) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-release-minfs) |
+| core.x64-release-minfs-no_hardware |   |   | [try](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-release-minfs-no_hardware) |
 | core.x64-release-nuc_in_basic_envs |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-release-nuc_in_basic_envs) |
 | [core.x64-release-symbolizer-e2e](https://luci-scheduler.appspot.com/jobs/fuchsia/core.x64-release-symbolizer-e2e-e5a0ec7f) |   | [global.ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/global.ci/core.x64-release-symbolizer-e2e) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-release-symbolizer-e2e) |
 | [core.x64-release-vulkan_cts](https://luci-scheduler.appspot.com/jobs/fuchsia/core.x64-release-vulkan_cts-e5a0ec7f) |   | [global.ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/global.ci/core.x64-release-vulkan_cts) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-release-vulkan_cts) |
