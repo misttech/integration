@@ -35,7 +35,7 @@
 | [bringup.arm64-lto](https://luci-scheduler.appspot.com/jobs/fuchsia/bringup.arm64-lto-e5a0ec7f) |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/bringup.arm64-lto) | [try](https://ci.chromium.org/p/fuchsia/builders/try/bringup.arm64-lto) |
 | [bringup.arm64-thinlto](https://luci-scheduler.appspot.com/jobs/fuchsia/bringup.arm64-thinlto-e5a0ec7f) |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/bringup.arm64-thinlto) | [try](https://ci.chromium.org/p/fuchsia/builders/try/bringup.arm64-thinlto) |
 | [bringup.chromebook-x64-dfv2-release](https://luci-scheduler.appspot.com/jobs/fuchsia/bringup.chromebook-x64-dfv2-release-e5a0ec7f) |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/bringup.chromebook-x64-dfv2-release) | [try](https://ci.chromium.org/p/fuchsia/builders/try/bringup.chromebook-x64-dfv2-release) |
-| [bringup.vim3-asan](https://luci-scheduler.appspot.com/jobs/fuchsia/bringup.vim3-asan-e5a0ec7f) |   | [global.ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/global.ci/bringup.vim3-asan) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/bringup.vim3-asan) |
+| bringup.vim3-asan |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/bringup.vim3-asan) |
 | bringup.vim3-debug |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/bringup.vim3-debug) |
 | bringup.vim3-debug-build_only |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/bringup.vim3-debug-build_only) |
 | bringup.vim3-hwasan |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/bringup.vim3-hwasan) |
@@ -107,7 +107,7 @@
 | [core.chromebook-x64-dfv2-release](https://luci-scheduler.appspot.com/jobs/fuchsia/core.chromebook-x64-dfv2-release-e5a0ec7f) |   | [global.ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/global.ci/core.chromebook-x64-dfv2-release) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/core.chromebook-x64-dfv2-release) |
 | [core.qemu-x64-host_tsan](https://luci-scheduler.appspot.com/jobs/fuchsia/core.qemu-x64-host_tsan-e5a0ec7f) |   | [global.ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/global.ci/core.qemu-x64-host_tsan) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/core.qemu-x64-host_tsan) |
 | core.vim3-build_only |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/core.vim3-build_only) |
-| [core.vim3-debug-fyi](https://luci-scheduler.appspot.com/jobs/fuchsia/core.vim3-debug-fyi-e5a0ec7f) |   | [global.ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/global.ci/core.vim3-debug-fyi) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/core.vim3-debug-fyi) |
+| core.vim3-debug-fyi |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/core.vim3-debug-fyi) |
 | [core.x64-asan](https://luci-scheduler.appspot.com/jobs/fuchsia/core.x64-asan-e5a0ec7f) |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/core.x64-asan) | [try](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-asan) |
 | core.x64-asan-clean |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-asan-clean) |
 | core.x64-asan-cxx_rbe |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-asan-cxx_rbe) |
@@ -270,7 +270,7 @@
 | [sdk-samples-getting-started-rust](https://luci-scheduler.appspot.com/jobs/fuchsia/sdk-samples-getting-started-rust-99193e70) | [ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/ci/sdk-samples-getting-started-rust) |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/sdk-samples-getting-started-rust) |
 | [static-checks](https://luci-scheduler.appspot.com/jobs/fuchsia/static-checks-e5a0ec7f) |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/static-checks) | [try](https://ci.chromium.org/p/fuchsia/builders/try/static-checks) |
 | [tensorflow](https://luci-scheduler.appspot.com/jobs/fuchsia/tensorflow) | [ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/ci/tensorflow) |   |   |
-| [terminal.vim3-release](https://luci-scheduler.appspot.com/jobs/fuchsia/terminal.vim3-release-e5a0ec7f) |   | [global.ci(fyi)](https://ci.chromium.org/p/fuchsia/builders/global.ci/terminal.vim3-release) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/terminal.vim3-release) |
+| terminal.vim3-release |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/terminal.vim3-release) |
 | terminal.vim3-release-perfcompare |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/terminal.vim3-release-perfcompare) |
 | [terminal.x64-debug-build_only](https://luci-scheduler.appspot.com/jobs/fuchsia/terminal.x64-debug-build_only-e5a0ec7f) |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/terminal.x64-debug-build_only) | [try](https://ci.chromium.org/p/fuchsia/builders/try/terminal.x64-debug-build_only) |
 | [terminal.x64-release](https://luci-scheduler.appspot.com/jobs/fuchsia/terminal.x64-release-nuc_in_basic_envs-e5a0ec7f) |   |   | [try](https://ci.chromium.org/p/fuchsia/builders/try/terminal.x64-release) |
