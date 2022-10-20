@@ -284,7 +284,6 @@
 | uptodate-package-roller |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/uptodate-package-roller) |
 | uptodate-project-roller |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/uptodate-project-roller) |
 | [vulkan_sdk](https://luci-scheduler.appspot.com/jobs/fuchsia/vulkan_sdk) | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/vulkan_sdk) |   |   |
-| workstation-oot |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/workstation-oot) |
 | workstation.chromebook-x64-release-build_only |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/workstation.chromebook-x64-release-build_only) |
 | workstation.x64-release |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/workstation.x64-release) |
 | workstation.x64-release-build_only |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/workstation.x64-release-build_only) |
