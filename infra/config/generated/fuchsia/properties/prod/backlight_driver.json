@@ -1,7 +1,9 @@
 {
-  "build_command": {
-    "path": "scripts/build.sh"
-  },
+  "build_args": [
+    "--config=fuchsia_x64",
+    "//driver:pkg",
+    "//driver:test_pkg"
+  ],
   "cipd_manifest_commands": [
     {
       "command": {
@@ -24,10 +26,7 @@
       "package": "fuchsia/drivers/backlight/debug-symbols-x64"
     }
   ],
-  "download_command": {
-    "path": "scripts/bootstrap.sh"
-  },
-  "recipe": "build_test_upload",
+  "recipe": "bazel_build_test_upload",
   "recipes_use_py3": true,
   "remote": "https://fuchsia.googlesource.com/drivers/misc/google/backlight"
 }
