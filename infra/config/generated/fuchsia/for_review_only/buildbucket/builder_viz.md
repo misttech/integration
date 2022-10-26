@@ -41,6 +41,7 @@
 | bringup.vim3-hwasan |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/bringup.vim3-hwasan) |
 | [bringup.x64-asan](https://luci-scheduler.appspot.com/jobs/fuchsia/bringup.x64-asan-e5a0ec7f) |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/bringup.x64-asan) | [try](https://ci.chromium.org/p/fuchsia/builders/try/bringup.x64-asan) |
 | bringup.x64-asan-ffx |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/bringup.x64-asan-ffx) |
+| bringup.x64-asan-submodule |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/bringup.x64-asan-submodule) |
 | [bringup.x64-cxx20](https://luci-scheduler.appspot.com/jobs/fuchsia/bringup.x64-cxx20-e5a0ec7f) |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/bringup.x64-cxx20) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/bringup.x64-cxx20) |
 | [bringup.x64-debug](https://luci-scheduler.appspot.com/jobs/fuchsia/bringup.x64-debug-e5a0ec7f) |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/bringup.x64-debug) | [try](https://ci.chromium.org/p/fuchsia/builders/try/bringup.x64-debug) |
 | [bringup.x64-debug-enable_lock_dep](https://luci-scheduler.appspot.com/jobs/fuchsia/bringup.x64-debug-enable_lock_dep-e5a0ec7f) |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/bringup.x64-debug-enable_lock_dep) | [try](https://ci.chromium.org/p/fuchsia/builders/try/bringup.x64-debug-enable_lock_dep) |
