@@ -10,8 +10,8 @@ gn_args: "restat_rust = true"
 base_packages: "//sdk/ctf"
 base_packages: "//sdk/ctf/release:tests"
 universe_packages: "//bundles/cts:cts-support"
-host_labels: "//bundles:build_infra"
-host_labels: "//bundles:test_infra"
+host_labels: "//bundles/infra/build"
+host_labels: "//bundles/infra/test"
 target_arch: ARM64
 pave: true
 include_images: true

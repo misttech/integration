@@ -5,7 +5,7 @@ optimize: DEBUG
 board: "boards/qemu-x64.gni"
 product: "products/core.gni"
 gn_args: "optimize = \"coverage\""
-base_packages: "//bundles:tools"
+base_packages: "//bundles/tools"
 base_packages: "//sdk/ctf/tests:tests"
 target_arch: X64
 variants: "coverage-cts"

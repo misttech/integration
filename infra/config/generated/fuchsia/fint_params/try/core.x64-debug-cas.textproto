@@ -8,10 +8,10 @@ gn_args: "blobfs_enable_streaming_writes = true"
 gn_args: "board_bootfs_labels += [\"//boards/kernel_cmdline:disable-blobfs-compression\"]"
 gn_args: "build_should_trace_actions = true"
 gn_args: "restat_rust = true"
-universe_packages: "//bundles/buildbot:core"
-host_labels: "//bundles/buildbot:host-tests"
-host_labels: "//bundles:build_infra"
-host_labels: "//bundles:test_infra"
+universe_packages: "//bundles/buildbot/core"
+host_labels: "//bundles/buildbot/host"
+host_labels: "//bundles/infra/build"
+host_labels: "//bundles/infra/test"
 target_arch: X64
 pave: true
 include_images: true

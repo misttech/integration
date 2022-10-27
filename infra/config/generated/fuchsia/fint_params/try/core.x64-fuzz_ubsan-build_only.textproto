@@ -7,9 +7,9 @@ product: "products/core.gni"
 gn_args: "build_should_trace_actions = true"
 gn_args: "optimize = \"sanitizer\""
 gn_args: "restat_rust = true"
-universe_packages: "//bundles/buildbot:core"
+universe_packages: "//bundles/buildbot/core"
 universe_packages: "//tools/fuzz"
-host_labels: "//bundles:build_infra"
+host_labels: "//bundles/infra/build"
 target_arch: X64
 variants: "{variant=\"ubsan-fuzzer\" target_type=[\"fuzzed_executable\"]},{variant=\"ubsan\" label=[\"//sdk/lib/fdio\"]}"
 pave: true
