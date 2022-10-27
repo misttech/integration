@@ -6,8 +6,8 @@ board: "boards/vim3.gni"
 product: "products/core.gni"
 gn_args: "build_should_trace_actions = true"
 gn_args: "restat_rust = true"
-universe_packages: "//bundles/buildbot:core"
-host_labels: "//bundles:build_infra"
+universe_packages: "//bundles/buildbot/core"
+host_labels: "//bundles/infra/build"
 target_arch: ARM64
 pave: true
 include_images: true

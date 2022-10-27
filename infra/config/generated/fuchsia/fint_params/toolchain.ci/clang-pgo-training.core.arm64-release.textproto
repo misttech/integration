@@ -4,6 +4,6 @@
 optimize: RELEASE
 board: "boards/arm64.gni"
 product: "products/core.gni"
-ninja_targets: "bundles:build_infra"
-host_labels: "//bundles:build_infra"
+ninja_targets: "bundles/infra/build"
+host_labels: "//bundles/infra/build"
 target_arch: ARM64

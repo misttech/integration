@@ -8,8 +8,8 @@ gn_args: "build_should_trace_actions = true"
 gn_args: "restat_rust = true"
 base_packages: "//bundles/buildbot/dfv2:core"
 host_labels: "//bundles/buildbot/dfv2:host-tests"
-host_labels: "//bundles:build_infra"
-host_labels: "//bundles:test_infra"
+host_labels: "//bundles/infra/build"
+host_labels: "//bundles/infra/test"
 target_arch: X64
 pave: true
 include_images: true

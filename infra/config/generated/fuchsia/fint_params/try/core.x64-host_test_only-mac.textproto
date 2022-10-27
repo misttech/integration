@@ -4,12 +4,12 @@
 optimize: RELEASE
 product: "products/core.gni"
 gn_args: "restat_rust = true"
-ninja_targets: "bundles:build_infra"
-ninja_targets: "bundles:test_infra"
-universe_packages: "//bundles/buildbot:core"
-host_labels: "//bundles/buildbot:host-tests"
-host_labels: "//bundles:build_infra"
-host_labels: "//bundles:test_infra"
+ninja_targets: "bundles/infra/build"
+ninja_targets: "bundles/infra/test"
+universe_packages: "//bundles/buildbot/core"
+host_labels: "//bundles/buildbot/host"
+host_labels: "//bundles/infra/build"
+host_labels: "//bundles/infra/test"
 target_arch: X64
 pave: true
 include_prebuilt_binary_manifests: true

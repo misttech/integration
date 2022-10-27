@@ -6,10 +6,10 @@ product: "products/core.gni"
 gn_args: "build_should_trace_actions = true"
 gn_args: "output_breakpad_syms = true"
 gn_args: "sdk_cross_compile_host_tools = true"
-ninja_targets: "bundles:build_infra"
+ninja_targets: "bundles/infra/build"
 ninja_targets: "sdk:driver_archive"
 universe_packages: "//sdk/bundles:tools"
-host_labels: "//bundles:build_infra"
+host_labels: "//bundles/infra/build"
 target_arch: X64
 pave: true
 include_prebuilt_binary_manifests: true
