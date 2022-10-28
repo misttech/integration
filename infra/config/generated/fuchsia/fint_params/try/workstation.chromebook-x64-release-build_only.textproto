@@ -7,7 +7,7 @@ product: "products/workstation.gni"
 gn_args: "build_should_trace_actions = true"
 gn_args: "output_breakpad_syms = true"
 gn_args: "restat_rust = true"
-universe_packages: "//bundles/buildbot:workstation"
+universe_packages: "//bundles/buildbot/workstation"
 host_labels: "//bundles/infra/build"
 target_arch: X64
 pave: true

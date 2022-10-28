@@ -7,7 +7,7 @@ product: "products/workstation.gni"
 gn_args: "build_should_trace_actions = true"
 gn_args: "flutter_driver_enabled = true"
 gn_args: "restat_rust = true"
-base_packages: "//bundles/buildbot:workstation"
+base_packages: "//bundles/buildbot/workstation"
 host_labels: "//bundles/infra/build"
 host_labels: "//bundles/infra/test"
 target_arch: X64
