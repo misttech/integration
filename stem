@@ -6,6 +6,7 @@
   </imports>
   <projects>
     <project name="fuchsia"
+             gitsubmodules="true"
              path="."
              githooks="integration/git-hooks"
              remote="https://fuchsia.googlesource.com/fuchsia"
