@@ -3,18 +3,21 @@
   <projects>
     <!-- The ICU library to use for top-of-tree Fuchsia builds -->
     <project name="chromium/deps/icu@default"
+             gitsubmoduleof="fuchsia"
              path="third_party/icu/default"
              remote="https://chromium.googlesource.com/chromium/deps/icu"
              gerrithost="https://chromium-review.googlesource.com"
              revision="35132cceb27dc660b7ba06cd079bb784ea553daa"/>
     <!-- The ICU library to use for "stable" Fuchsia builds -->
     <project name="chromium/deps/icu@stable"
+             gitsubmoduleof="fuchsia"
              path="third_party/icu/stable"
              remote="https://chromium.googlesource.com/chromium/deps/icu"
              gerrithost="https://chromium-review.googlesource.com"
              revision="da07448619763d1cde255b361324242646f5b268"/>
     <!-- The ICU library to use for "latest" Fuchsia builds -->
     <project name="chromium/deps/icu@latest"
+             gitsubmoduleof="fuchsia"
              path="third_party/icu/latest"
              remote="https://chromium.googlesource.com/chromium/deps/icu"
              gerrithost="https://chromium-review.googlesource.com"
