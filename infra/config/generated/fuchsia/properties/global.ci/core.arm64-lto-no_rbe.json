@@ -1,0 +1,24 @@
+{
+  "$fuchsia/rbe": {
+    "instance": "projects/rbe-fuchsia-prod/instances/default"
+  },
+  "recipe": "fuchsia/build",
+  "recipes_use_py3": true,
+  "spec": {
+    "artifact_gcs_bucket": "fuchsia-artifacts",
+    "build": {
+      "enable_sandboxing": true,
+      "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/global.ci/core.arm64-lto-no_rbe.textproto",
+      "incremental": true,
+      "timeout_secs": 14400
+    },
+    "checkout": {
+      "manifest": "flower",
+      "remote": "https://fuchsia.googlesource.com/integration"
+    },
+    "gcs_bucket": "fuchsia-build",
+    "test": {
+      "pave": true
+    }
+  }
+}
