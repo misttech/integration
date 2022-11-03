@@ -5,7 +5,7 @@
   </imports>
   <projects>
     <project name="third_party/ffmpeg"
-             path="third_party/ffmpeg"
+             path="build/secondary/third_party/ffmpeg"
              remote="https://fuchsia.googlesource.com/third_party/ffmpeg"
              gerrithost="https://fuchsia-review.googlesource.com"
              revision="6d263d0900b7678ec74e1a8a78d9b99cc438870a"/>
@@ -14,5 +14,10 @@
              remote="https://fuchsia.googlesource.com/third_party/yasm"
              gerrithost="https://fuchsia-review.googlesource.com"
              revision="ba6d87894dc5a761d835622efbd7972d88774b30"/>
+    <project name="third_party/ffmpeg/src"
+             path="third_party/ffmpeg/src"
+             remote="https://chromium.googlesource.com/chromium/third_party/ffmpeg"
+             gerrithost="https://fuchsia-review.googlesource.com"
+             revision="5f4813ac6fded755ee386f94fbc5440748c09e71"/>
   </projects>
 </manifest>
