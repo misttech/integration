@@ -42,6 +42,11 @@
              path="third_party/bazel_rules_rust"
              remote="https://fuchsia.googlesource.com/third_party/github.com/bazelbuild/rules_rust"
              revision="2bb077b3b7585e87bf6f5bfcce77f9470d1d5210"/>
+    <project name="third_party/bazel_rules_license"
+             gitsubmoduleof="fuchsia"
+             path="third_party/bazel_rules_license"
+             remote="https://fuchsia.googlesource.com/third_party/github.com/bazelbuild/rules_license"
+             revision="e3bdc544ef373156da36638b774d65ff2d978bfa"/>
     <project name="third_party/acpica"
              gitsubmoduleof="fuchsia"
              path="third_party/acpica"
