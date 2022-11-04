@@ -91,6 +91,7 @@
          Recipe: https://fuchsia.googlesource.com/infra/3pp/+/refs/heads/main/bazel/3pp.pb
          Recipe: https://fuchsia.googlesource.com/infra/3pp/+/refs/heads/main/buildifier/3pp.pb
          Recipe: https://fuchsia.googlesource.com/infra/3pp/+/refs/heads/main/buildozer/3pp.pb
+         Recipe: https://fuchsia.googlesource.com/infra/3pp/+/refs/heads/main/bazel_workspacelogparser/3pp.pb
     -->
     <package name="fuchsia/third_party/bazel/${platform}"
              version="version:2@5.3.0.2"
@@ -106,6 +107,10 @@
              version="version:2@5.1.0.1"
              platforms="linux-amd64,mac-amd64"
              path="prebuilt/third_party/buildozer/{{.OS}}-{{.Arch}}"/>
+
+    <package name="fuchsia/third_party/bazel_workspacelogparser"
+             version="version:2@7.0.0-pre.20221026.2.1"
+             path="prebuilt/third_party/bazel_workspacelogparser"/>
 
     <!--
         ************************************************************
