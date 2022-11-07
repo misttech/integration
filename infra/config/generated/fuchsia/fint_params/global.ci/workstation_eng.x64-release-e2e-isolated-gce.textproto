@@ -5,6 +5,7 @@ optimize: RELEASE
 board: "boards/x64.gni"
 product: "products/workstation_eng.gni"
 gn_args: "build_should_trace_actions = true"
+gn_args: "recovery_label=\"//build/images/recovery:recovery-fastboot\""
 gn_args: "restat_rust = true"
 universe_packages: "//src:e2e_tests"
 host_labels: "//bundles/infra/build"
