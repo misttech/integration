@@ -27,6 +27,11 @@
              path="third_party/bazel_skylib"
              remote="https://fuchsia.googlesource.com/third_party/github.com/bazelbuild/bazel-skylib"
              revision="6a17363a3c27dde70ab5002ad9f2e29aff1e1f4b"/>
+    <project name="third_party/bazel_platforms"
+             gitsubmoduleof="fuchsia"
+             path="third_party/bazel_platforms"
+             remote="https://fuchsia.googlesource.com/third_party/github.com/bazelbuild/platforms"
+             revision="f0f4da70368b2342a00443f230bb66d9093bb58b"/>
     <project name="third_party/bazel_rules_cc"
              gitsubmoduleof="fuchsia"
              path="third_party/bazel_rules_cc"
@@ -37,6 +42,11 @@
              path="third_party/bazel_rules_go"
              remote="https://fuchsia.googlesource.com/third_party/github.com/bazelbuild/rules_go"
              revision="8ea443de2cb0b68511eee7b714da9f71439f324c"/>
+    <project name="third_party/bazel_rules_python"
+             gitsubmoduleof="fuchsia"
+             path="third_party/bazel_rules_python"
+             remote="https://fuchsia.googlesource.com/third_party/github.com/bazelbuild/rules_python"
+             revision="bd42ad2becc8b890424612ae91d652a3b9bb82e3"/>
     <project name="third_party/bazel_rules_rust"
              gitsubmoduleof="fuchsia"
              path="third_party/bazel_rules_rust"
