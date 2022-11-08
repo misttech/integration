@@ -1,0 +1,9 @@
+{
+  "build_args": [
+    "//tests:tests",
+    "//tests:buildbot"
+  ],
+  "recipe": "bazel_build_test_upload",
+  "recipes_use_py3": true,
+  "remote": "https://fuchsia.googlesource.com/fuchsia-infra-bazel-rules"
+}

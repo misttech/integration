@@ -200,6 +200,7 @@
 | [host_prebuilts-x64-linux](https://luci-scheduler.appspot.com/jobs/fuchsia/host_prebuilts-x64-linux-e5a0ec7f) |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/host_prebuilts-x64-linux) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/host_prebuilts-x64-linux) |
 | [host_prebuilts-x64-mac](https://luci-scheduler.appspot.com/jobs/fuchsia/host_prebuilts-x64-mac-e5a0ec7f) |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/host_prebuilts-x64-mac) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/host_prebuilts-x64-mac) |
 | [infra](https://luci-scheduler.appspot.com/jobs/fuchsia/ci-infra-93eebdfa) | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/infra) |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/infra) |
+| infra-bazel-rules |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/infra-bazel-rules) |
 | [intel_wifi_driver](https://luci-scheduler.appspot.com/jobs/fuchsia/intel_wifi_driver-14dbe62f) | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/intel_wifi_driver) |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/intel_wifi_driver) |
 | [jiri](https://luci-scheduler.appspot.com/jobs/fuchsia/jiri-f47edcbe) | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/jiri) |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/jiri) |
 | [jq-linux-arm64](https://luci-scheduler.appspot.com/jobs/fuchsia/jq-linux-arm64) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/jq-linux-arm64) |
