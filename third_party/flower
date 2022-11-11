@@ -455,6 +455,12 @@
              remote="https://pigweed.googlesource.com/pigweed/pigweed"
              gerrithost="https://pigweed-review.googlesource.com"
              revision="c61ee1fd3791ff63dc7191e55af154a82c017609"/>
+    <project name="third_party/github.com/google/python_portpicker"
+             gitsubmoduleof="fuchsia"
+             path="third_party/python_portpicker/src"
+             remote="https://fuchsia.googlesource.com/third_party/github.com/google/python_portpicker"
+             gerrithost="https://fuchsia-review.googlesource.com"
+             revision="2cf11dce4f00c9562a84b4c4a0aa2a31d0969b2b"/>
     <project name="third_party/processor-trace"
              gitsubmoduleof="fuchsia"
              path="third_party/processor-trace"
