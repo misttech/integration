@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <imports>
+    <localimport file="bazel_modules"/>
     <localimport file="chromium/chromium"/>
     <localimport file="chromium/chromium_latest"/>
     <localimport file="chromium/chrome_browser_latest"/>
@@ -22,41 +23,6 @@
              path="third_party/abseil-cpp"
              revision="bb6766510802759b16c47ad70d9968b9c87a931e"
              remote="https://fuchsia.googlesource.com/third_party/abseil-cpp"/>
-    <project name="third_party/bazel_skylib"
-             gitsubmoduleof="fuchsia"
-             path="third_party/bazel_skylib"
-             remote="https://fuchsia.googlesource.com/third_party/github.com/bazelbuild/bazel-skylib"
-             revision="6a17363a3c27dde70ab5002ad9f2e29aff1e1f4b"/>
-    <project name="third_party/bazel_platforms"
-             gitsubmoduleof="fuchsia"
-             path="third_party/bazel_platforms"
-             remote="https://fuchsia.googlesource.com/third_party/github.com/bazelbuild/platforms"
-             revision="f0f4da70368b2342a00443f230bb66d9093bb58b"/>
-    <project name="third_party/bazel_rules_cc"
-             gitsubmoduleof="fuchsia"
-             path="third_party/bazel_rules_cc"
-             remote="https://fuchsia.googlesource.com/third_party/github.com/bazelbuild/rules_cc"
-             revision="2f8c04c04462ab83c545ab14c0da68c3b4c96191"/>
-    <project name="third_party/bazel_rules_go"
-             gitsubmoduleof="fuchsia"
-             path="third_party/bazel_rules_go"
-             remote="https://fuchsia.googlesource.com/third_party/github.com/bazelbuild/rules_go"
-             revision="8ea443de2cb0b68511eee7b714da9f71439f324c"/>
-    <project name="third_party/bazel_rules_python"
-             gitsubmoduleof="fuchsia"
-             path="third_party/bazel_rules_python"
-             remote="https://fuchsia.googlesource.com/third_party/github.com/bazelbuild/rules_python"
-             revision="bd42ad2becc8b890424612ae91d652a3b9bb82e3"/>
-    <project name="third_party/bazel_rules_rust"
-             gitsubmoduleof="fuchsia"
-             path="third_party/bazel_rules_rust"
-             remote="https://fuchsia.googlesource.com/third_party/github.com/bazelbuild/rules_rust"
-             revision="2bb077b3b7585e87bf6f5bfcce77f9470d1d5210"/>
-    <project name="third_party/bazel_rules_license"
-             gitsubmoduleof="fuchsia"
-             path="third_party/bazel_rules_license"
-             remote="https://fuchsia.googlesource.com/third_party/github.com/bazelbuild/rules_license"
-             revision="e3bdc544ef373156da36638b774d65ff2d978bfa"/>
     <project name="third_party/acpica"
              gitsubmoduleof="fuchsia"
              path="third_party/acpica"
