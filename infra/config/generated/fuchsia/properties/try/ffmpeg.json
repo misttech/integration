@@ -3,10 +3,12 @@
   "builds": [
     {
       "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/try/ffmpeg-arm64.textproto",
+      "profile": "arch",
       "target": "arm64"
     },
     {
       "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/try/ffmpeg-x64.textproto",
+      "profile": "arch",
       "target": "x64"
     }
   ],
