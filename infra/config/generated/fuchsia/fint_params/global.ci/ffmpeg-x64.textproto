@@ -3,6 +3,7 @@
 
 optimize: RELEASE
 product: "products/core.gni"
+gn_args: "ffmpeg_profile = \"max\""
 gn_args: "use_prebuilt_ffmpeg = false"
 ninja_targets: "bundles/infra/build"
 ninja_targets: "x64-asan-shared/libffmpeg.so"
