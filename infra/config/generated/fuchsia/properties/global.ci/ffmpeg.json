@@ -2,13 +2,33 @@
   "artifact_gcs_bucket": "fuchsia-artifacts",
   "builds": [
     {
-      "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/global.ci/ffmpeg-arm64.textproto",
+      "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/global.ci/ffmpeg-arch-arm64.textproto",
       "profile": "arch",
       "target": "arm64"
     },
     {
-      "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/global.ci/ffmpeg-x64.textproto",
+      "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/global.ci/ffmpeg-arch-x64.textproto",
       "profile": "arch",
+      "target": "x64"
+    },
+    {
+      "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/global.ci/ffmpeg-default-arm64.textproto",
+      "profile": "default",
+      "target": "arm64"
+    },
+    {
+      "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/global.ci/ffmpeg-max-arm64.textproto",
+      "profile": "max",
+      "target": "arm64"
+    },
+    {
+      "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/global.ci/ffmpeg-default-x64.textproto",
+      "profile": "default",
+      "target": "x64"
+    },
+    {
+      "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/global.ci/ffmpeg-max-x64.textproto",
+      "profile": "max",
       "target": "x64"
     }
   ],
