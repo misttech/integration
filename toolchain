@@ -110,14 +110,14 @@
     <!-- GN from https://gn.googlesource.com/gn/ -->
     <package name="gn/gn/${platform}"
              version="git_revision:70d6c60823c0233a0f35eccc25b2b640d2980bdc"
-             platforms="linux-amd64,linux-arm64,mac-amd64"
+             platforms="linux-amd64,linux-arm64,mac-amd64,mac-arm64"
              path="prebuilt/third_party/gn/{{.OS}}-{{.Arch}}"/>
 
     <!-- Ninja from https://ninja-build.org/ -->
     <!-- TODO(phosek): link to bot/recipe/autoroller(?) -->
     <package name="fuchsia/third_party/ninja/${platform}"
              version="git_revision:53346f18fd4c90fa6f07a2b40e5c788ffe46e738"
-             platforms="linux-amd64,linux-arm64,mac-amd64,windows-amd64"
+             platforms="linux-amd64,linux-arm64,mac-amd64,mac-arm64,windows-amd64"
              path="prebuilt/third_party/ninja/{{.OS}}-{{.Arch}}"/>
 
     <!-- Breakpad
@@ -132,7 +132,7 @@
     -->
     <package name="fuchsia/third_party/cmake/${platform}"
              version="git_revision:2c3eec6a9c3088d3722edd89215713f97e1b0a5d"
-             platforms="linux-amd64,linux-arm64,mac-amd64,windows-amd64"
+             platforms="linux-amd64,linux-arm64,mac-amd64,mac-arm64,windows-amd64"
              path="prebuilt/third_party/cmake/{{.OS}}-{{.Arch}}"/>
 
     <!-- YAPF for formatting python code -->
