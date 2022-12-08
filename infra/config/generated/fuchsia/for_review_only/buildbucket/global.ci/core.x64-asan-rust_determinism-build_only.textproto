@@ -7,7 +7,7 @@
 name: "global.ci"
 swarming {
   builders {
-    name: "core.arm64-lto-no_rbe"
+    name: "core.x64-asan-rust_determinism-build_only"
     swarming_host: "chromium-swarm.appspot.com"
     dimensions: "cores:64"
     dimensions: "cpu:x64"
@@ -29,7 +29,7 @@ swarming {
       '  "led_builder_is_bootstrapped": true,'
       '  "recipe": "fuchsia/build"'
       '}'
-    execution_timeout_secs: 18000
+    execution_timeout_secs: 8400
     caches {
       name: "builder"
       path: "builder"
@@ -39,8 +39,12 @@ swarming {
       path: "symbol"
     }
     caches {
-      name: "fuchsia_incremental_5228cba87e885b93a68f250c43fa975599dc703ab6098f8b1d965ddfd5b50ef9"
+      name: "fuchsia_incremental_b9076d66bff07a9b62442b8f334098e28b4977469326a9b4e0a2ae630b3f4550"
       path: "incremental"
+    }
+    caches {
+      name: "fuchsia_rbe_b9076d66bff07a9b62442b8f334098e28b4977469326a9b4e0a2ae630b3f4550"
+      path: "rbe"
       wait_for_warm_cache_secs: 120
     }
     service_account: "fuchsia-ci-builder@fuchsia-infra.iam.gserviceaccount.com"

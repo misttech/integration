@@ -7,7 +7,7 @@
 name: "try"
 swarming {
   builders {
-    name: "core.x64-lto-no_rbe"
+    name: "core.x64-lto-no_rbe-build_only"
     swarming_host: "chromium-swarm.appspot.com"
     dimensions: "cores:64"
     dimensions: "cpu:x64"
