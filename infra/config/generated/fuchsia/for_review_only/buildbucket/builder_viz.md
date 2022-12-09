@@ -181,8 +181,6 @@
 | [gcc-x64-mac](https://luci-scheduler.appspot.com/jobs/fuchsia/toolchain.ci-gcc-x64-mac-3e002780) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/gcc-x64-mac) |
 | [gcc_toolchain.bringup.arm64-gcc](https://luci-scheduler.appspot.com/jobs/fuchsia/gcc_toolchain.bringup.arm64-gcc) | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/gcc_toolchain.bringup.arm64-gcc) |   |   |
 | [gcc_toolchain.bringup.x64-gcc](https://luci-scheduler.appspot.com/jobs/fuchsia/gcc_toolchain.bringup.x64-gcc) | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/gcc_toolchain.bringup.x64-gcc) |   |   |
-| gcc_toolchain.zbi_tests-arm64-gcc | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/gcc_toolchain.zbi_tests-arm64-gcc) |   |   |
-| gcc_toolchain.zbi_tests-x64-gcc | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/gcc_toolchain.zbi_tests-x64-gcc) |   |   |
 | [gnu_build_tools-linux-arm64](https://luci-scheduler.appspot.com/jobs/fuchsia/gnu_build_tools-linux-arm64) | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/gnu_build_tools-linux-arm64) |   |   |
 | [gnu_build_tools-linux-x64](https://luci-scheduler.appspot.com/jobs/fuchsia/gnu_build_tools-linux-x64) | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/gnu_build_tools-linux-x64) |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/gnu_build_tools-linux-x64) |
 | [gnu_build_tools-mac-x64](https://luci-scheduler.appspot.com/jobs/fuchsia/gnu_build_tools-mac-x64) | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/gnu_build_tools-mac-x64) |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/gnu_build_tools-mac-x64) |
@@ -304,11 +302,3 @@
 | [yasm-mac-arm64](https://luci-scheduler.appspot.com/jobs/fuchsia/yasm-mac-arm64) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/yasm-mac-arm64) |
 | [yasm-mac-x64](https://luci-scheduler.appspot.com/jobs/fuchsia/yasm-mac-x64) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/yasm-mac-x64) |
 | [yasm-windows-x64](https://luci-scheduler.appspot.com/jobs/fuchsia/yasm-windows-x64) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/yasm-windows-x64) |
-| zbi_tests-arm64 |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/zbi_tests-arm64) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/zbi_tests-arm64) |
-| zbi_tests-arm64-asan |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/zbi_tests-arm64-asan) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/zbi_tests-arm64-asan) |
-| zbi_tests-arm64-cxx20 |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/zbi_tests-arm64-cxx20) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/zbi_tests-arm64-cxx20) |
-| zbi_tests-arm64-gcc |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/zbi_tests-arm64-gcc) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/zbi_tests-arm64-gcc) |
-| zbi_tests-x64 |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/zbi_tests-x64) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/zbi_tests-x64) |
-| zbi_tests-x64-asan |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/zbi_tests-x64-asan) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/zbi_tests-x64-asan) |
-| zbi_tests-x64-cxx20 |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/zbi_tests-x64-cxx20) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/zbi_tests-x64-cxx20) |
-| zbi_tests-x64-gcc |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/zbi_tests-x64-gcc) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/zbi_tests-x64-gcc) |
