@@ -1,0 +1,17 @@
+{
+  "build_command": {
+    "args": [
+      "-o",
+      "{build_dir}",
+      "-v",
+      "{placeholder_version}"
+    ],
+    "path": "scripts/build.sh"
+  },
+  "download_command": {
+    "path": "scripts/bootstrap.sh"
+  },
+  "recipe": "build_test_upload",
+  "recipes_use_py3": true,
+  "remote": "https://fuchsia.googlesource.com/workstation"
+}

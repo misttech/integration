@@ -1,0 +1,22 @@
+{
+  "analyses": [
+    "Black"
+  ],
+  "cipd_packages": [
+    {
+      "name": "fuchsia/third_party/black/linux-amd64",
+      "subdir": "",
+      "version": "version:2@22.6.0.1"
+    }
+  ],
+  "luci_analyzers": [
+    "Copyright",
+    "Pylint",
+    "Spacey",
+    "Spellchecker"
+  ],
+  "manifest": "manifest/minimal",
+  "recipe": "tricium/tricium",
+  "recipes_use_py3": true,
+  "remote": "https://fuchsia.googlesource.com/infra/recipes"
+}
