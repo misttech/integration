@@ -99,11 +99,11 @@
              gitsubmoduleof="fuchsia"
              path="third_party/crashpad"
              remote="https://fuchsia.googlesource.com/third_party/crashpad"
-             revision="5d8e9274ea8927a7624cf3ed89177aa9bd9153e7"
+             revision="fe4f28da761962ce7d46f8f6b11d0e756f778a94"
              gerrithost="https://fuchsia-review.googlesource.com"/>
     <project name="chromium/mini_chromium"
              gitsubmoduleof="fuchsia"
-             path="third_party/mini_chromium"
+             path="third_party/mini_chromium/src"
              remote="https://chromium.googlesource.com/chromium/mini_chromium"
              revision="4332ddb6963750e1106efdcece6d6e2de6dc6430"
              gerrithost="https://chromium-review.googlesource.com"/>
@@ -300,7 +300,7 @@
              revision="83a3569b4a0d871963e15cc6b9d5926d20fc751c"/>
     <project name="linux-syscall-support"
              gitsubmoduleof="fuchsia"
-             path="third_party/linux-syscall-support"
+             path="third_party/linux-syscall-support/src"
              remote="https://chromium.googlesource.com/linux-syscall-support"
              revision="9719c1e1e676814c456b55f5f070eabad6709d31"/>
     <project name="llvm-project/libc"
