@@ -511,6 +511,12 @@
              version="bid:9369201"
              internal="true"/>
 
+    <!-- Starnix internal android image debug symbols -->
+    <package name="fuchsia_internal/starnix/android-image-debug-symbols-amd64"
+             path="prebuilt/.build-id"
+             version="bid:9409107"
+             attributes="debug-symbols,debug-symbols-x64"/>
+
     <!-- Starnix root filesystem image for testing -->
     <package name="fuchsia/starnix/android-image-amd64"
              path="prebuilt/starnix/android-image-amd64"
