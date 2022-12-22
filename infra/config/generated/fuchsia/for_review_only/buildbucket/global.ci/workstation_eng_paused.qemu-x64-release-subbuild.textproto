@@ -7,13 +7,14 @@
 name: "global.ci"
 swarming {
   builders {
-    name: "workstation_eng_paused.qemu-x64-debug"
+    name: "workstation_eng_paused.qemu-x64-release-subbuild"
     swarming_host: "chromium-swarm.appspot.com"
-    dimensions: "cores:2"
+    dimensions: "cores:32"
     dimensions: "cpu:x64"
     dimensions: "gce:1"
     dimensions: "os:Linux"
     dimensions: "pool:luci.fuchsia.ci"
+    dimensions: "role:builder"
     exe {
       cipd_package: "fuchsia/infra/recipe_bootstrap/${platform}"
       cipd_version: "git_revision:9408e5c6fc2bc6786367a7af5e634d87217a668c"
@@ -23,7 +24,7 @@ swarming {
       '{'
       '  "is_fyi": true,'
       '  "led_builder_is_bootstrapped": true,'
-      '  "recipe": "fuchsia/fuchsia"'
+      '  "recipe": "fuchsia/build"'
       '}'
     execution_timeout_secs: 8400
     caches {
@@ -33,6 +34,16 @@ swarming {
     caches {
       name: "symbol"
       path: "symbol"
+    }
+    caches {
+      name: "fuchsia_incremental_ea1de3c09a472a0e04ff26aa74267f7b787a03ca7b94c46d5d3bf9c9d49e3da0"
+      path: "incremental"
+      wait_for_warm_cache_secs: 120
+    }
+    caches {
+      name: "fuchsia_rbe_ea1de3c09a472a0e04ff26aa74267f7b787a03ca7b94c46d5d3bf9c9d49e3da0"
+      path: "rbe"
+      wait_for_warm_cache_secs: 120
     }
     service_account: "fuchsia-ci-builder@fuchsia-infra.iam.gserviceaccount.com"
     resultdb {
@@ -53,6 +64,6 @@ swarming {
         use_invocation_timestamp: true
       }
     }
-    description_html: "The <a href=\"https://fuchsia.dev/fuchsia-src/development/build/concepts/build_system/boards_and_products?hl=en#workstation-product\">workstation</a> product is a basis for a general purpose development environment."
+    description_html: "This builder is the subbuild for <a href=\"https://ci.chromium.org/p/fuchsia/builders/global.ci/workstation_eng_paused.qemu-x64-release\">workstation_eng_paused.qemu-x64-release</a>.\n\nThe <a href=\"https://fuchsia.dev/fuchsia-src/development/build/concepts/build_system/boards_and_products?hl=en#workstation-product\">workstation</a> product is a basis for a general purpose development environment."
   }
 }
