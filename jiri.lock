@@ -194,13 +194,27 @@
     },
     {
         "package": "fuchsia/dart-sdk/linux-amd64",
+        "path": "prebuilt/third_party/dart/{{.OS}}-{{.Arch}}",
         "version": "git_revision:f32c7b01190642eb695b7b9ca3117fc6653c134c",
         "instance_id": "854cOk5Y5p_o1pivhu55IyAhAsuGujZanRkzumVbINMC"
     },
     {
+        "package": "fuchsia/dart-sdk/linux-amd64",
+        "path": "prebuilt/third_party/dart_paused/{{.OS}}-{{.Arch}}",
+        "version": "git_revision:21f2997a8fc68a791f9bae48ef3f429fd483cc54",
+        "instance_id": "ZNecslh8TAVZ_zsO8iQQy36AR48Ty-jFQhYe6i6PN40C"
+    },
+    {
         "package": "fuchsia/dart-sdk/mac-amd64",
+        "path": "prebuilt/third_party/dart/{{.OS}}-{{.Arch}}",
         "version": "git_revision:f32c7b01190642eb695b7b9ca3117fc6653c134c",
         "instance_id": "wbLHZMqAsKUWGSM5pJsRiQNo8Ez7VnnKcOblWC5-qNAC"
+    },
+    {
+        "package": "fuchsia/dart-sdk/mac-amd64",
+        "path": "prebuilt/third_party/dart_paused/{{.OS}}-{{.Arch}}",
+        "version": "git_revision:21f2997a8fc68a791f9bae48ef3f429fd483cc54",
+        "instance_id": "AR8guRsJ5Y9Ae6gYWMWM-wdu98536SqAehMUxmkB__MC"
     },
     {
         "package": "fuchsia/drivers/backlight/debug-symbols-x64",

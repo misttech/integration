@@ -149,6 +149,10 @@
              version="git_revision:f32c7b01190642eb695b7b9ca3117fc6653c134c"
              platforms="linux-amd64,mac-amd64"
              path="prebuilt/third_party/dart/{{.OS}}-{{.Arch}}"/>
+    <package name="fuchsia/dart-sdk/${platform}"
+             version="git_revision:21f2997a8fc68a791f9bae48ef3f429fd483cc54"
+             platforms="linux-amd64,mac-amd64"
+             path="prebuilt/third_party/dart_paused/{{.OS}}-{{.Arch}}"/>
 
     <!--   Flutter -->
     <!--   Note that the files in the Flutter CIPD package currently have paths
