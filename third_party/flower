@@ -56,11 +56,6 @@
              path="third_party/android/platform/system/core"
              remote="https://fuchsia.googlesource.com/third_party/android.googlesource.com/platform/system/core"
              revision="173bc15585f788b540bd8fa487cdaf351dac2f39"/>
-    <project name="third_party/android.googlesource.com/platform/tools/test/connectivity"
-             gitsubmoduleof="fuchsia"
-             path="third_party/android/platform/tools/test/connectivity"
-             remote="https://fuchsia.googlesource.com/third_party/android.googlesource.com/platform/tools/test/connectivity/"
-             revision="50fbcc3fd84d087b17cff2ce6b8420ef6b1bba8c"/>
     <project name="third_party/android/platform/system/bt"
              gitsubmoduleof="fuchsia"
              path="third_party/android/platform/system/bt"
@@ -71,6 +66,12 @@
              path="third_party/android/platform/system/libbase"
              remote="https://fuchsia.googlesource.com/third_party/android.googlesource.com/platform/system/libbase"
              revision="19b62c1f7022928b667c737f6e6d5456cef846fa"/>
+    <project name="third_party/antlion"
+             gitsubmoduleof="fuchsia"
+             path="third_party/antlion"
+             remote="https://fuchsia.googlesource.com/antlion"
+             gerrithost="https://fuchsia-review.googlesource.com"
+             revision="50f972452e365ee47fd9a19779336925314b0708"/>
     <project name="third_party/bcmdhd"
              gitsubmoduleof="fuchsia"
              path="third_party/bcmdhd"
@@ -338,6 +339,12 @@
              remote="https://fuchsia.googlesource.com/third_party/mesa"
              revision="d5a0a71ecd0613737b9ceaa31bf9d78056ae9000"
              gerrithost="https://fuchsia-review.googlesource.com"/>
+    <project name="third_party/github.com/jd/tenacity"
+             gitsubmoduleof="fuchsia"
+             path="third_party/github.com/jd/tenacity/src"
+             remote="https://fuchsia.googlesource.com/third_party/github.com/jd/tenacity"
+             gerrithost="https://fuchsia-review.googlesource.com"
+             revision="de409a00c18b1d26a030292f7820ee26cdad2aa1"/>
     <project name="third_party/github.com/google/mobly"
              gitsubmoduleof="fuchsia"
              path="third_party/mobly/src"
