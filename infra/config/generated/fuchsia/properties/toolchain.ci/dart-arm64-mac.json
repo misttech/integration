@@ -1,7 +1,8 @@
 {
   "gcs_bucket": "fuchsia-build",
-  "host_cpu": "x64",
-  "host_os": "linux",
+  "host_cpu": "arm64",
+  "host_os": "mac",
+  "macos_sdk.version": "11C29",
   "recipe": "contrib/dart_toolchain",
   "recipes_use_py3": true
 }
