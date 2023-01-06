@@ -4,6 +4,7 @@
 optimize: RELEASE
 board: "boards/chromebook-x64-dfv2.gni"
 product: "products/core.gni"
+gn_args: "basic_env_names = [ \"atlas\" ]"
 gn_args: "build_should_trace_actions = true"
 gn_args: "restat_rust = true"
 base_packages: "//bundles/buildbot/dfv2:core"
