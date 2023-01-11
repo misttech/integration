@@ -5,7 +5,7 @@ optimize: RELEASE
 product: "products/core.gni"
 gn_args: "ffmpeg_profile = \"default\""
 gn_args: "use_prebuilt_ffmpeg = false"
-ninja_targets: "bundles/infra/build"
+ninja_targets: ":developer_host_tools"
 ninja_targets: "x64-asan-shared/libffmpeg.so"
 ninja_targets: "x64-asan-ubsan-shared/libffmpeg.so"
 ninja_targets: "x64-coverage-rust-shared/libffmpeg.so"

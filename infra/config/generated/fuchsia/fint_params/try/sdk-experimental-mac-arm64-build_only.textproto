@@ -3,7 +3,7 @@
 
 optimize: RELEASE
 product: "products/core.gni"
-ninja_targets: "bundles/infra/build"
+ninja_targets: ":developer_host_tools"
 ninja_targets: "sdk:driver_archive"
 universe_packages: "//sdk/bundles:tools"
 host_labels: "//bundles/infra/build"

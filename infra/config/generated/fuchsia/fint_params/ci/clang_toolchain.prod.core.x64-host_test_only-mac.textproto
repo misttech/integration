@@ -3,8 +3,7 @@
 
 optimize: RELEASE
 product: "products/core.gni"
-ninja_targets: "bundles/infra/build"
-ninja_targets: "bundles/infra/test"
+ninja_targets: ":developer_host_tools"
 universe_packages: "//bundles/buildbot/core"
 host_labels: "//bundles/buildbot/host"
 host_labels: "//bundles/infra/build"
