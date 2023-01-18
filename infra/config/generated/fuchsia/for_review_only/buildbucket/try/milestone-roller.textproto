@@ -28,6 +28,7 @@ swarming {
       '  "led_builder_is_bootstrapped": true,'
       '  "recipe": "release/milestone_roller"'
       '}'
+    priority: 20
     execution_timeout_secs: 17400
     caches {
       name: "builder"
