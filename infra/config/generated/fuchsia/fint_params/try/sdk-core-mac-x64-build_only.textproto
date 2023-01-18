@@ -4,6 +4,7 @@
 optimize: RELEASE
 product: "products/core.gni"
 ninja_targets: ":developer_host_tools"
+ninja_targets: "build/bazel:generate_fuchsia_sdk_repository"
 ninja_targets: "sdk:driver"
 ninja_targets: "sdk:merged"
 universe_packages: "//sdk/bundles:tools"
