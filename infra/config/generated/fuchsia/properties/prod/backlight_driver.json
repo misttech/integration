@@ -26,6 +26,7 @@
       "package": "fuchsia/drivers/backlight/debug-symbols-x64"
     }
   ],
+  "default_service_account": "artifact-readers@fuchsia-infra.iam.gserviceaccount.com",
   "recipe": "bazel_build_test_upload",
   "recipes_use_py3": true,
   "remote": "https://fuchsia.googlesource.com/drivers/misc/google/backlight"
