@@ -519,11 +519,6 @@
              path="third_party/scudo/src"
              remote="https://llvm.googlesource.com/scudo"
              revision="f6d4b9604fc086af0a3abdca12e49a5eff61e08b"/>
-    <project name="third_party/sdk-integration"
-             gitsubmoduleof="fuchsia"
-             path="third_party/sdk-integration"
-             remote="https://fuchsia.googlesource.com/sdk-integration"
-             revision="ba6dc9de5313e621d31cb365d2c2bb9a3ff37a1f"/>
     <project name="gwp-asan"
              gitsubmoduleof="fuchsia"
              path="third_party/scudo/gwp_asan"
