@@ -7,7 +7,7 @@
 name: "try"
 swarming {
   builders {
-    name: "milestone-roller"
+    name: "api-level-roller"
     swarming_host: "chromium-swarm.appspot.com"
     dimensions: "cores:2"
     dimensions: "cpu:x64"
@@ -21,12 +21,9 @@ swarming {
     }
     properties:
       '{'
-      '  "$fuchsia/builder_tags": {'
-      '    "include_in_flake_analysis": true'
-      '  },'
       '  "is_fyi": true,'
       '  "led_builder_is_bootstrapped": true,'
-      '  "recipe": "release/milestone_roller"'
+      '  "recipe": "release/api_level_roller"'
       '}'
     execution_timeout_secs: 17400
     caches {
