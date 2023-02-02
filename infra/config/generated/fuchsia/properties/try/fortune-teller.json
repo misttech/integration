@@ -5,7 +5,6 @@
   "default_service_account": "artifact-readers@fuchsia-infra.iam.gserviceaccount.com",
   "query_builder_manifest": true,
   "recipe": "bazel_build_test_upload",
-  "recipes_use_py3": true,
   "remote": "https://fuchsia.googlesource.com/sdk-samples/fortune-teller",
   "testing_pool": "fuchsia.tests"
 }

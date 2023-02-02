@@ -4,7 +4,6 @@
   ],
   "default_service_account": "artifact-readers@fuchsia-infra.iam.gserviceaccount.com",
   "recipe": "bazel_build_test_upload",
-  "recipes_use_py3": true,
   "remote": "https://fuchsia.googlesource.com/fuchsia-infra-bazel-rules",
   "test_manifest_command": {
     "path": "scripts/emit_test_manifest.sh"
