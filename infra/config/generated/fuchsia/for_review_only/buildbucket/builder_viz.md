@@ -7,7 +7,7 @@
 | [3pp-linux-amd64](https://luci-scheduler.appspot.com/jobs/fuchsia/3pp-linux-amd64-6cc1a7e0) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/3pp-linux-amd64) |
 | [3pp-linux-arm64](https://luci-scheduler.appspot.com/jobs/fuchsia/3pp-linux-arm64-6cc1a7e0) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/3pp-linux-arm64) |
 | [3pp-mac-amd64](https://luci-scheduler.appspot.com/jobs/fuchsia/3pp-mac-amd64-6cc1a7e0) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/3pp-mac-amd64) |
-| [3pp-mac-arm64](https://luci-scheduler.appspot.com/jobs/fuchsia/3pp-mac-arm64-6cc1a7e0) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/3pp-mac-arm64) |
+| [3pp-mac-xarm64](https://luci-scheduler.appspot.com/jobs/fuchsia/3pp-mac-xarm64-6cc1a7e0) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/3pp-mac-xarm64) |
 | [3pp-windows-amd64](https://luci-scheduler.appspot.com/jobs/fuchsia/3pp-windows-amd64-6cc1a7e0) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/3pp-windows-amd64) |
 | api-level-roller |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/api-level-roller) |
 | [auto-submit](https://luci-scheduler.appspot.com/jobs/fuchsia/auto-submit) |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/auto-submit) |   |
