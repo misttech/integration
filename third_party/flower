@@ -84,6 +84,12 @@
              remote="https://boringssl.googlesource.com/boringssl"
              gerrithost="https://boringssl-review.googlesource.com"
              revision="a5ab818854d1adf6ee866f768b47f6162f4ca0a9"/>
+    <project name="chromiumos-xorg-conf"
+             gitsubmoduleof="fuchsia"
+             path="third_party/chromiumos-xorg-conf/src"
+             remote="https://fuchsia.googlesource.com/third_party/chromium.googlesource.com/chromiumos/platform/xorg-conf"
+             revision="a622f0b252c7de984aea54da016c303a103396cb"
+             gerrithost="https://chromium-review.googlesource.com/"/>
     <project name="cobalt"
              gitsubmoduleof="fuchsia"
              path="third_party/cobalt"
