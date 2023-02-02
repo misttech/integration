@@ -23,7 +23,7 @@ swarming {
       '{'
       '  "is_fyi": true,'
       '  "led_builder_is_bootstrapped": true,'
-      '  "recipe": "build_test_upload"'
+      '  "recipe": "bazel_build_test_upload"'
       '}'
     execution_timeout_secs: 4200
     caches {
