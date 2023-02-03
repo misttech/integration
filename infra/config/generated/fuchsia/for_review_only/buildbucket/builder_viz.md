@@ -12,7 +12,6 @@
 | api-level-roller |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/api-level-roller) |
 | [auto-submit](https://luci-scheduler.appspot.com/jobs/fuchsia/auto-submit) |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/auto-submit) |   |
 | [backlight_driver](https://luci-scheduler.appspot.com/jobs/fuchsia/backlight_driver-98130624) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/backlight_driver) |
-| bazel-build-rules |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/bazel-build-rules) |
 | [binutils-arm64-linux](https://luci-scheduler.appspot.com/jobs/fuchsia/prod-binutils-arm64-linux-3c6e8ef4) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/binutils-arm64-linux) |
 | [binutils-x64-linux](https://luci-scheduler.appspot.com/jobs/fuchsia/prod-binutils-x64-linux-3c6e8ef4) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/binutils-x64-linux) |
 | [binutils-x64-mac](https://luci-scheduler.appspot.com/jobs/fuchsia/prod-binutils-x64-mac-3c6e8ef4) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/binutils-x64-mac) |
