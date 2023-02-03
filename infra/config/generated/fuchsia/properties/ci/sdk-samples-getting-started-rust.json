@@ -1,10 +1,8 @@
 {
-  "build_command": {
-    "path": "scripts/build.sh"
-  },
-  "download_command": {
-    "path": "scripts/bootstrap.sh"
-  },
-  "recipe": "build_test_upload",
+  "build_args": [
+    ":infra"
+  ],
+  "default_service_account": "artifact-readers@fuchsia-infra.iam.gserviceaccount.com",
+  "recipe": "bazel_build_test_upload",
   "remote": "https://fuchsia.googlesource.com/sdk-samples/getting-started-rust"
 }
