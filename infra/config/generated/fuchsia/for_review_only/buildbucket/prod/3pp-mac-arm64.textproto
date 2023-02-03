@@ -4,16 +4,16 @@
 # For the schema of this file, see Bucket message:
 #   https://luci-config.appspot.com/schemas/projects:buildbucket.cfg
 
-name: "try"
+name: "prod"
 swarming {
   builders {
-    name: "3pp-mac-xarm64"
+    name: "3pp-mac-arm64"
     swarming_host: "chromium-swarm.appspot.com"
     dimensions: "cores:8|12"
-    dimensions: "cpu:x64"
+    dimensions: "cpu:arm"
     dimensions: "gce:0"
     dimensions: "os:Mac"
-    dimensions: "pool:luci.fuchsia.try"
+    dimensions: "pool:luci.fuchsia.prod"
     exe {
       cipd_package: "infra/recipe_bundles/chromium.googlesource.com/infra/infra"
       cipd_version: "git_revision:3f3aff209a576eddcb5fb77517056b5fdcc82bfa"
@@ -21,7 +21,6 @@ swarming {
     }
     properties:
       '{'
-      '  "force_build": true,'
       '  "is_fyi": true,'
       '  "package_locations": ['
       '    {'
@@ -45,7 +44,7 @@ swarming {
       name: "symbol"
       path: "symbol"
     }
-    service_account: "fuchsia-try-builder@fuchsia-infra.iam.gserviceaccount.com"
+    service_account: "fuchsia-prod-builder@fuchsia-infra.iam.gserviceaccount.com"
     experiments {
       key: "luci.buildbucket.omit_python2"
       value: 0
@@ -56,18 +55,6 @@ swarming {
     }
     resultdb {
       enable: true
-      bq_exports {
-        project: "fuchsia-infra"
-        dataset: "resultdb"
-        table: "try"
-        test_results {}
-      }
-      bq_exports {
-        project: "fuchsia-infra"
-        dataset: "resultdb"
-        table: "artifacts_try"
-        text_artifacts {}
-      }
     }
   }
 }
