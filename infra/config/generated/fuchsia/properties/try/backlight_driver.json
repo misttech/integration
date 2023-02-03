@@ -1,30 +1,6 @@
 {
   "build_args": [
-    "--config=fuchsia_x64",
-    "//driver:pkg",
-    "//driver:test_pkg"
-  ],
-  "cipd_manifest_commands": [
-    {
-      "command": {
-        "args": [
-          "-o",
-          "{build_dir}"
-        ],
-        "path": "scripts/emit_cipd_manifest.sh"
-      },
-      "package": "fuchsia/drivers/backlight/x64"
-    },
-    {
-      "command": {
-        "args": [
-          "-o",
-          "{build_dir}"
-        ],
-        "path": "scripts/emit_debug_symbol_cipd_manifest.sh"
-      },
-      "package": "fuchsia/drivers/backlight/debug-symbols-x64"
-    }
+    ":infra"
   ],
   "default_service_account": "artifact-readers@fuchsia-infra.iam.gserviceaccount.com",
   "recipe": "bazel_build_test_upload",
