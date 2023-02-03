@@ -2,6 +2,8 @@
   "build_args": [
     ":infra"
   ],
+  "build_options": [],
+  "build_target": ":infra",
   "default_service_account": "artifact-readers@fuchsia-infra.iam.gserviceaccount.com",
   "recipe": "bazel_build_test_upload",
   "remote": "https://fuchsia.googlesource.com/sdk-samples/drivers"
