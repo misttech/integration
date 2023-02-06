@@ -5,9 +5,7 @@
   "build_options": [
     "--config=fuchsia_x64"
   ],
-  "build_target": [
-    ":infra"
-  ],
+  "build_target": ":infra",
   "default_service_account": "artifact-readers@fuchsia-infra.iam.gserviceaccount.com",
   "recipe": "bazel_build_test_upload",
   "remote": "https://fuchsia.googlesource.com/sdk-samples/getting-started-rust"
