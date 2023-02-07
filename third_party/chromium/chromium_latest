@@ -42,8 +42,8 @@
              version="version:112.0.5582.0"
              path="prebuilt/third_party/web_engine_tests_latest/arch/arm64"/>
     <!-- Chromedriver
-    TODO(fxbug.dev/10097): The restriction to linux only is temporary; mac is
-    not currently supported.  -->
+    TODO(https://fxbug.dev/10097): Add Mac support and remove Linux restriction.
+    -->
     <package name="chromium/fuchsia/host_tools/linux/amd64/chromedriver"
              version="version:112.0.5582.0"
              platforms="linux-amd64"
