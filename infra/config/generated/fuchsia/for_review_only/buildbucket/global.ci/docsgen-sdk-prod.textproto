@@ -46,7 +46,7 @@ swarming {
     service_account: "firebase-hosting-deployer@fuchsia-infra.iam.gserviceaccount.com"
     experiments {
       key: "luci.buildbucket.omit_python2"
-      value: 0
+      value: 1
     }
     resultdb {
       enable: true
