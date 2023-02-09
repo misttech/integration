@@ -39,7 +39,7 @@ swarming {
     service_account: "fuchsia-try-builder@fuchsia-infra.iam.gserviceaccount.com"
     experiments {
       key: "luci.buildbucket.omit_python2"
-      value: 1
+      value: 10
     }
     resultdb {
       enable: true
