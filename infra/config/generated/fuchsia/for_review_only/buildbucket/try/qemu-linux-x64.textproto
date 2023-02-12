@@ -4,16 +4,16 @@
 # For the schema of this file, see Bucket message:
 #   https://luci-config.appspot.com/schemas/projects:buildbucket.cfg
 
-name: "ci"
+name: "try"
 swarming {
   builders {
-    name: "qemu-x64-mac"
+    name: "qemu-linux-x64"
     swarming_host: "chromium-swarm.appspot.com"
-    dimensions: "cores:24|56"
+    dimensions: "cores:32"
     dimensions: "cpu:x64"
-    dimensions: "gce:0"
-    dimensions: "os:Mac"
-    dimensions: "pool:luci.fuchsia.ci"
+    dimensions: "gce:1"
+    dimensions: "os:Linux"
+    dimensions: "pool:luci.fuchsia.try"
     exe {
       cipd_package: "fuchsia/infra/recipe_bootstrap/${platform}"
       cipd_version: "git_revision:8feb1ee5bcd9933fca31d9cd246fafff9320e70d"
@@ -31,14 +31,10 @@ swarming {
       path: "builder"
     }
     caches {
-      name: "macos_sdk"
-      path: "macos_sdk"
-    }
-    caches {
       name: "symbol"
       path: "symbol"
     }
-    service_account: "tools-ci-builder@fuchsia-infra.iam.gserviceaccount.com"
+    service_account: "tools-try-builder@fuchsia-infra.iam.gserviceaccount.com"
     experiments {
       key: "luci.buildbucket.omit_python2"
       value: 10
@@ -48,17 +44,14 @@ swarming {
       bq_exports {
         project: "fuchsia-infra"
         dataset: "resultdb"
-        table: "ci"
+        table: "try"
         test_results {}
       }
       bq_exports {
         project: "fuchsia-infra"
         dataset: "resultdb"
-        table: "artifacts_ci"
+        table: "artifacts_try"
         text_artifacts {}
-      }
-      history_options {
-        use_invocation_timestamp: true
       }
     }
   }
