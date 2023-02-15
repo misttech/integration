@@ -1,3 +1,15 @@
 {
-  "recipe": "contrib/third_party_rust_licenses"
+  "jiri_manifest": "flower",
+  "jiri_project": "integration",
+  "recipe": "run_script",
+  "remote": "https://fuchsia.googlesource.com/integration",
+  "script_configs": [
+    {
+      "script": "scripts/rust/check_rust_licenses.py",
+      "script_args": [
+        "--directory",
+        "third_party/rust_crates/vendor"
+      ]
+    }
+  ]
 }
