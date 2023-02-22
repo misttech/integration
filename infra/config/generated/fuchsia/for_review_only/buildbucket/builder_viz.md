@@ -113,7 +113,6 @@
 | core.x64-asan-cxx_rbe |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-asan-cxx_rbe) |
 | [core.x64-asan-ffx](https://luci-scheduler.appspot.com/jobs/fuchsia/core.x64-asan-ffx-e5a0ec7f) |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/core.x64-asan-ffx) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-asan-ffx) |
 | [core.x64-asan-ffx-parallel](https://luci-scheduler.appspot.com/jobs/fuchsia/core.x64-asan-ffx-parallel-e5a0ec7f) |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/core.x64-asan-ffx-parallel) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-asan-ffx-parallel) |
-| core.x64-asan-gocache |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-asan-gocache) |
 | core.x64-asan-incremental-experimental |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-asan-incremental-experimental) |
 | [core.x64-asan-kasan](https://luci-scheduler.appspot.com/jobs/fuchsia/core.x64-asan-kasan-e5a0ec7f) |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/core.x64-asan-kasan) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-asan-kasan) |
 | core.x64-asan-kasan-nuc_in_basic_envs |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-asan-kasan-nuc_in_basic_envs) |
