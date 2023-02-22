@@ -38,7 +38,7 @@ swarming {
       name: "symbol"
       path: "symbol"
     }
-    service_account: "tools-try-builder@fuchsia-infra.iam.gserviceaccount.com"
+    service_account: "infra-try-builder@fuchsia-infra.iam.gserviceaccount.com"
     experiments {
       key: "luci.buildbucket.omit_python2"
       value: 10
