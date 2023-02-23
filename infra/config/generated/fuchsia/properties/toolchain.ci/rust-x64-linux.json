@@ -10,7 +10,12 @@
       "fuchsia/rust_toolchain.core.x64-host_test_only-mac"
     ]
   },
-  "gcs_bucket": "fuchsia-build",
-  "package": "rust",
-  "recipe": "contrib/rust_toolchain"
+  "default_ref": "refs/heads/main",
+  "recipe": "contrib/rust_toolchain",
+  "repository": "https://fuchsia.googlesource.com/third_party/rust",
+  "test_suites": [
+    "tests/ui"
+  ],
+  "upload_to_cipd": true,
+  "use_upstream_beta": true
 }
