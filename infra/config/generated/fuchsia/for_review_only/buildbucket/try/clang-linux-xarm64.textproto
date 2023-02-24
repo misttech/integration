@@ -46,17 +46,14 @@ swarming {
       bq_exports {
         project: "fuchsia-infra"
         dataset: "resultdb"
-        table: "ci"
+        table: "try"
         test_results {}
       }
       bq_exports {
         project: "fuchsia-infra"
         dataset: "resultdb"
-        table: "artifacts_ci"
+        table: "artifacts_try"
         text_artifacts {}
-      }
-      history_options {
-        use_invocation_timestamp: true
       }
     }
   }
