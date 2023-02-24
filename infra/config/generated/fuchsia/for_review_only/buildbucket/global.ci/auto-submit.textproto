@@ -23,7 +23,8 @@ swarming {
       '{'
       '  "is_fyi": true,'
       '  "led_builder_is_bootstrapped": true,'
-      '  "recipe": "gerrit_auto_submit"'
+      '  "recipe": "gerrit_auto_submit",'
+      '  "recipes_host_override": "fuchsia.googlesource.com"'
       '}'
     priority: 20
     execution_timeout_secs: 5400

@@ -26,7 +26,8 @@ swarming {
       '    "include_in_flake_analysis": true'
       '  },'
       '  "led_builder_is_bootstrapped": true,'
-      '  "recipe": "static_checks"'
+      '  "recipe": "static_checks",'
+      '  "recipes_host_override": "fuchsia.googlesource.com"'
       '}'
     execution_timeout_secs: 4200
     caches {

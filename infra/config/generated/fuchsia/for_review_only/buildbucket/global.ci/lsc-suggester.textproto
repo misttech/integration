@@ -24,7 +24,8 @@ swarming {
       '  "is_fyi": true,'
       '  "led_builder_is_bootstrapped": true,'
       '  "recipe": "lsc_suggester",'
-      '  "recipe_integration_remote": "https://fuchsia.googlesource.com/integration"'
+      '  "recipe_integration_remote": "https://fuchsia.googlesource.com/integration",'
+      '  "recipes_host_override": "fuchsia.googlesource.com"'
       '}'
     execution_timeout_secs: 4200
     caches {
