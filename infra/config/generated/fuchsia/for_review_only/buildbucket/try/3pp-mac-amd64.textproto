@@ -33,7 +33,8 @@ swarming {
       '  ],'
       '  "package_prefix": "fuchsia/third_party",'
       '  "platform": "mac-amd64",'
-      '  "recipe": "3pp"'
+      '  "recipe": "3pp",'
+      '  "recipes_host_override": "fuchsia.googlesource.com"'
       '}'
     execution_timeout_secs: 10200
     caches {

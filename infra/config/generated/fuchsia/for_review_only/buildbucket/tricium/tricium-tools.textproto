@@ -23,7 +23,8 @@ swarming {
       '{'
       '  "is_fyi": true,'
       '  "led_builder_is_bootstrapped": true,'
-      '  "recipe": "tricium/tricium"'
+      '  "recipe": "tricium/tricium",'
+      '  "recipes_host_override": "fuchsia.googlesource.com"'
       '}'
     execution_timeout_secs: 1800
     caches {
