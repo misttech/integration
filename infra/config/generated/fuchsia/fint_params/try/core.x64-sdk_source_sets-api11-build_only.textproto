@@ -6,7 +6,8 @@ product: "products/core.gni"
 gn_args: "build_should_trace_actions = true"
 gn_args: "override_target_api_level = 11"
 ninja_targets: ":developer_host_tools"
-universe_packages: "//build/sdk:sdk_versioned_source_sets"
+ninja_targets: "build/sdk:sdk_versioned_source_sets"
+universe_packages: "//bundles/buildbot/core"
 host_labels: "//bundles/infra/build"
 target_arch: X64
 pave: true
