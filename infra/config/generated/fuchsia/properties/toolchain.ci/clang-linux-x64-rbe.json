@@ -21,6 +21,7 @@
       "pigweed-internal/toolchain-ci-mac-6adc248f79"
     ]
   },
+  "do_2stage": false,
   "enable_assertions": true,
   "enable_backtraces": true,
   "gcs_bucket": "fuchsia-build",
@@ -31,5 +32,6 @@
       "fuchsia/clang_toolchain.ci.core.x64-debug-tot-build_only"
     ]
   },
+  "upload_package": false,
   "use_rbe": true
 }
