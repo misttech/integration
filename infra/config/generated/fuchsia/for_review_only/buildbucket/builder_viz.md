@@ -55,6 +55,7 @@
 | bringup.x64-gce-staging |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/bringup.x64-gce-staging) |
 | [bringup.x64-kasan_sancov-build_only](https://luci-scheduler.appspot.com/jobs/fuchsia/bringup.x64-kasan_sancov-build_only-e5a0ec7f) |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/bringup.x64-kasan_sancov-build_only) | [try](https://ci.chromium.org/p/fuchsia/builders/try/bringup.x64-kasan_sancov-build_only) |
 | [bringup.x64-lto](https://luci-scheduler.appspot.com/jobs/fuchsia/bringup.x64-lto-e5a0ec7f) |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/bringup.x64-lto) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/bringup.x64-lto) |
+| bringup.x64-riscv |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/bringup.x64-riscv) |
 | [bringup.x64-thinlto](https://luci-scheduler.appspot.com/jobs/fuchsia/bringup.x64-thinlto-e5a0ec7f) |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/bringup.x64-thinlto) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/bringup.x64-thinlto) |
 | [clang-linux-arm64](https://luci-scheduler.appspot.com/jobs/fuchsia/clang-linux-arm64) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/clang-linux-arm64) |
 | [clang-linux-x64](https://luci-scheduler.appspot.com/jobs/fuchsia/toolchain.ci-clang-linux-x64-40be1bb5) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/clang-linux-x64) |
