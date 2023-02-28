@@ -7,10 +7,10 @@ product: "products/bringup.gni"
 gn_args: "build_should_trace_actions = true"
 gn_args: "enable_lock_dep = true"
 gn_args: "restat_rust = true"
-base_packages: "//zircon/kernel/phys/test:riscv64"
+universe_packages: "//zircon/kernel/phys/test:riscv64"
 host_labels: "//bundles/infra/build"
 host_labels: "//bundles/infra/test"
-target_arch: RISCV64
+target_arch: X64
 include_images: true
 include_prebuilt_binary_manifests: true
 include_zbi_tests: true
