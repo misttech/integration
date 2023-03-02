@@ -58,7 +58,7 @@
     -->
     <package name="infra/rbe/client/${platform}"
              version="re_client_version:0.97.2.89f00a8-gomaip"
-             platforms="linux-amd64,mac-amd64"
+             platforms="linux-amd64,mac-amd64,mac-arm64"
              path="prebuilt/proprietary/third_party/reclient/{{.OS}}-{{.Arch}}"/>
 
     <!-- Rust host tools https://ci.chromium.org/p/fuchsia/g/rust/console
