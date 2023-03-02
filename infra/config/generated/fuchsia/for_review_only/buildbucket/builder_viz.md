@@ -200,6 +200,8 @@
 | [goma-dev-deployer](https://luci-scheduler.appspot.com/jobs/fuchsia/goma-dev-deployer) | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/goma-dev-deployer) |   |   |
 | [goma-prod-configuration-roller](https://luci-scheduler.appspot.com/jobs/fuchsia/goma-prod-configuration-roller) | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/goma-prod-configuration-roller) |   |   |
 | [goma-prod-deployer](https://luci-scheduler.appspot.com/jobs/fuchsia/goma-prod-deployer) | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/goma-prod-deployer) |   |   |
+| [gomaclient-linux-x64](https://luci-scheduler.appspot.com/jobs/fuchsia/gomaclient-linux-x64-39729594) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/gomaclient-linux-x64) |
+| [gomaclient-mac-x64](https://luci-scheduler.appspot.com/jobs/fuchsia/gomaclient-mac-x64-39729594) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/gomaclient-mac-x64) |
 | [host_prebuilts-x64-linux](https://luci-scheduler.appspot.com/jobs/fuchsia/host_prebuilts-x64-linux-e5a0ec7f) |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/host_prebuilts-x64-linux) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/host_prebuilts-x64-linux) |
 | [host_prebuilts-x64-mac](https://luci-scheduler.appspot.com/jobs/fuchsia/host_prebuilts-x64-mac-e5a0ec7f) |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/host_prebuilts-x64-mac) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/host_prebuilts-x64-mac) |
 | [infra](https://luci-scheduler.appspot.com/jobs/fuchsia/ci-infra-93eebdfa) | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/infra) |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/infra) |
