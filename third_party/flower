@@ -144,12 +144,12 @@
              remote="https://fuchsia.googlesource.com/third_party/expat"
              gerrithost="https://fuchsia-review.googlesource.com"
              revision="4101822bb8ddea40c4a7ff919f814659170c9216"/>
-    <project name="third_party/flatbuffers"
+    <project name="third_party/github.com/google/flatbuffers"
              gitsubmoduleof="fuchsia"
-             path="third_party/flatbuffers"
-             remote="https://fuchsia.googlesource.com/third_party/flatbuffers"
+             path="third_party/flatbuffers/src"
+             remote="https://fuchsia.googlesource.com/third_party/github.com/google/flatbuffers"
              gerrithost="https://fuchsia-review.googlesource.com"
-             revision="f22618113aea6d04ed10bcaf28cc3621eea146d2"/>
+             revision="b29ba4c70c7b8ef415e37809574ac74a9bf0b632"/>
     <project name="third_party/flite"
              gitsubmoduleof="fuchsia"
              path="third_party/flite"
