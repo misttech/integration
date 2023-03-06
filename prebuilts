@@ -381,6 +381,15 @@
              attributes="fuchsia_devtools"
              internal="true"/>
 
+    <!--   Linux image for performance parity testing -->
+    <!-- Add with `jiri init -fetch-optional=performance_parity_image` -->
+    <package name="fuchsia_internal/linux/performance_image"
+             platforms="linux-amd64,mac-amd64"
+             version="revision:633e359d"
+             path="prebuilt/performance/linux_image"
+             attributes="performance_parity_image"
+             internal="true" />
+
     <!--   Debian guest kernel images for x64 -->
     <package name="fuchsia_internal/linux/debian_guest-x64"
              version="xXuI7Yy2Bbtj_-4cFLT3LG3v4aotTOjVhg62SJGXBIcC"
