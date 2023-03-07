@@ -7,7 +7,7 @@
 name: "global.ci"
 swarming {
   builders {
-    name: "core.x64-sdk_shlibs-api11-build_only"
+    name: "core.x64-sdk_source_sets_and_shlibs-api9-build_only"
     swarming_host: "chromium-swarm.appspot.com"
     dimensions: "cores:32"
     dimensions: "cpu:x64"

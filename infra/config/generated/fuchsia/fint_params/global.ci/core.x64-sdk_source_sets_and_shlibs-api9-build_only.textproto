@@ -4,8 +4,9 @@
 optimize: DEBUG
 product: "products/core.gni"
 gn_args: "build_should_trace_actions = true"
-gn_args: "override_target_api_level = 10"
+gn_args: "override_target_api_level = 9"
 ninja_targets: ":developer_host_tools"
+ninja_targets: "build/sdk:sdk_versioned_shared_libraries"
 ninja_targets: "build/sdk:sdk_versioned_source_sets"
 universe_packages: "//bundles/buildbot/core"
 host_labels: "//bundles/infra/build"
