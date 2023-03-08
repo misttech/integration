@@ -1,0 +1,9 @@
+{
+  "builders": [
+    "clang-linux-arm64",
+    "clang-linux-x64",
+    "clang-mac-x64"
+  ],
+  "recipe": "contrib/buildbucket_trigger",
+  "timeout": 21600
+}
