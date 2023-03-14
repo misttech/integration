@@ -6,7 +6,7 @@ board: "boards/x64.gni"
 product: "products/core.gni"
 gn_args: "build_should_trace_actions = true"
 gn_args: "restat_rust = true"
-base_packages: "//src/testing/end_to_end/examples:fyi"
+base_packages: "//src/testing/end_to_end/mobly_driver/tests/functional_tests/smoke_test:fyi"
 host_labels: "//bundles/infra/build"
 host_labels: "//bundles/infra/test"
 target_arch: X64
