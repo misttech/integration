@@ -5,6 +5,6 @@
     <package name="fuchsia/cts/${platform}"
              path="prebuilt/cts/current_milestone/{{.OS}}-{{.Arch}}"
              platforms="linux-amd64"
-             version="git_revision:54646c0873c2680dd59c006700ad9eba1c830bd0" />
+             version="git_revision:e30583191117d6e663b55006a96f8864ab96e4c5" />
   </packages>
 </manifest>
