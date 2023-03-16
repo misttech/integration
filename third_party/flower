@@ -261,6 +261,12 @@
              remote="https://fuchsia.googlesource.com/third_party/github.com/libffi/libffi"
              gerrithost="https://fuchsia-review.googlesource.com"
              revision="0c7bd83d5193d91f552af106eb1dae6502427c41"/>
+    <project name="third_party/github.com/google/liblc3"
+             gitsubmoduleof="fuchsia"
+             path="third_party/github.com/google/liblc3/src"
+             remote="https://fuchsia.googlesource.com/third_party/github.com/google/liblc3"
+             revision="e8a05a9e934a7122c5a4dc1221073bbad9c2105b"
+             gerrithost="https://fuchsia-review.googlesource.com"/>
     <project name="third_party/github.com/the-tcpdump-group/libpcap"
              gitsubmoduleof="fuchsia"
              path="third_party/libpcap/src"
