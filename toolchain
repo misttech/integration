@@ -60,6 +60,10 @@
              version="re_client_version:0.99.0.3f95625-gomaip"
              platforms="linux-amd64,mac-amd64,mac-arm64"
              path="prebuilt/proprietary/third_party/reclient/{{.OS}}-{{.Arch}}"/>
+    <package name="fuchsia/third_party/remote-apis-sdks/${platform}"
+             version="version:2@0"
+             platforms="linux-amd64,mac-amd64,mac-arm64"
+             path="prebuilt/third_party/remote-apis-sdks/{{.OS}}-{{.Arch}}"/>
 
     <!-- Rust host tools https://ci.chromium.org/p/fuchsia/g/rust/console
          From Rust on Fuchsia team
