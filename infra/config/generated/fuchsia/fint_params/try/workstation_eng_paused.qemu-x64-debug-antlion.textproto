@@ -9,7 +9,8 @@ gn_args: "restat_rust = true"
 base_packages: "//src/testing/sl4f"
 host_labels: "//bundles/infra/build"
 host_labels: "//bundles/infra/test"
-host_labels: "//third_party/antlion:smoke_tests"
+host_labels: "//third_party/antlion:e2e_tests_quick"
+host_labels: "//third_party/antlion:tests"
 target_arch: X64
 pave: true
 include_images: true
