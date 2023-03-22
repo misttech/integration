@@ -3,10 +3,8 @@
     "instance": "projects/rbe-fuchsia-prod/instances/default",
     "platform": "container-image=docker://gcr.io/cloud-marketplace/google/debian11@sha256:69e2789c9f3d28c6a0f13b25062c240ee7772be1f5e6d41bb4680b63eae6b304"
   },
-  "do_2stage": false,
   "enable_assertions": true,
   "enable_backtraces": true,
   "platform": "linux-amd64",
-  "recipe": "contrib/clang_toolchain",
-  "upload_package": false
+  "recipe": "contrib/clang_toolchain"
 }

@@ -5,12 +5,9 @@
     "projects": [
       {
         "cq_config_name": "commit-queue.cfg",
-        "include_restricted": false,
-        "include_unrestricted": true,
-        "name": null
+        "include_unrestricted": true
       }
-    ],
-    "use_buildbucket": false
+    ]
   },
   "remote": "https://fuchsia.googlesource.com/infra/recipes",
   "unittest_only": true
