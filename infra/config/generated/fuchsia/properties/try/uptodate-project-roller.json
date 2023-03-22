@@ -1,6 +1,5 @@
 {
   "default_ref": "refs/heads/main",
-  "enforce_locks": true,
   "import_from": "infra/roller-tests/test-project/uptodate",
   "import_in": "manifests/uptodate",
   "manifest": "manifests/minimal",
@@ -13,6 +12,5 @@
     "dry_run": true,
     "remote": "https://fuchsia.googlesource.com/infra/roller-tests/integration"
   },
-  "roll_type": "project",
   "send_comment": true
 }
