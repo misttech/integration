@@ -4,7 +4,7 @@
 # For the schema of this file, see Bucket message:
 #   https://luci-config.appspot.com/schemas/projects:buildbucket.cfg
 
-name: "try"
+name: "global.ci"
 swarming {
   builders {
     name: "bringup.x64-asan-submodule-subbuild"
@@ -13,7 +13,7 @@ swarming {
     dimensions: "cpu:x64"
     dimensions: "gce:1"
     dimensions: "os:Linux"
-    dimensions: "pool:luci.fuchsia.try"
+    dimensions: "pool:luci.fuchsia.ci"
     dimensions: "role:builder"
     exe {
       cipd_package: "fuchsia/infra/recipe_bootstrap/${platform}"
@@ -46,26 +46,29 @@ swarming {
       path: "rbe"
       wait_for_warm_cache_secs: 120
     }
-    service_account: "fuchsia-try-builder@fuchsia-infra.iam.gserviceaccount.com"
+    service_account: "fuchsia-ci-builder@fuchsia-infra.iam.gserviceaccount.com"
     experiments {
       key: "luci.buildbucket.omit_python2"
-      value: 2
+      value: 100
     }
     resultdb {
       enable: true
       bq_exports {
         project: "fuchsia-infra"
         dataset: "resultdb"
-        table: "try"
+        table: "ci"
         test_results {}
       }
       bq_exports {
         project: "fuchsia-infra"
         dataset: "resultdb"
-        table: "artifacts_try"
+        table: "artifacts_ci"
         text_artifacts {}
       }
+      history_options {
+        use_invocation_timestamp: true
+      }
     }
-    description_html: "This builder is the subbuild for <a href=\"https://ci.chromium.org/p/fuchsia/builders/try/bringup.x64-asan-submodule\">bringup.x64-asan-submodule</a>.\n\nThe <a href=\"https://fuchsia.dev/fuchsia-src/development/build/build_system/boards_and_products?hl=en#bringup-product\">bringup</a> product is the minimum viable configuration for Fuchsia development. It has limited networking capabilities.\n\nThe corresponding CI builder can be found <a href=\"https://ci.chromium.org/p/fuchsia/builders/global.ci/bringup.x64-asan-submodule\">here</a>"
+    description_html: "This builder is the subbuild for <a href=\"https://ci.chromium.org/p/fuchsia/builders/global.ci/bringup.x64-asan-submodule\">bringup.x64-asan-submodule</a>.\n\nThe <a href=\"https://fuchsia.dev/fuchsia-src/development/build/build_system/boards_and_products?hl=en#bringup-product\">bringup</a> product is the minimum viable configuration for Fuchsia development. It has limited networking capabilities."
   }
 }
