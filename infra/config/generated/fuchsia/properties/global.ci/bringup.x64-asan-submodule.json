@@ -1,13 +1,10 @@
 {
-  "$fuchsia/autocorrelator": {
-    "ci_bucket": "global.ci"
-  },
   "recipe": "fuchsia/fuchsia",
   "spec": {
     "artifact_gcs_bucket": "fuchsia-artifacts",
     "build": {
       "enable_sandboxing": true,
-      "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/try/bringup.x64-asan-submodule.textproto",
+      "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/global.ci/bringup.x64-asan-submodule.textproto",
       "incremental": true,
       "run_tests": true
     },
@@ -21,10 +18,10 @@
       "affected_tests_multiply_threshold": 100,
       "default_service_account": "artifact-readers@fuchsia-infra.iam.gserviceaccount.com",
       "enable_sandboxing": true,
+      "max_attempts": 1,
       "max_attempts_per_test": 3,
       "per_test_timeout_secs": 360,
       "pool": "fuchsia.tests",
-      "skip_unaffected_tests": true,
       "swarming_expiration_timeout_secs": 18000,
       "swarming_io_timeout_secs": 420,
       "target_shard_duration_secs": 540,
