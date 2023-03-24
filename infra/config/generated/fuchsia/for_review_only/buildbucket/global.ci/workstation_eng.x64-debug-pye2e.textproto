@@ -7,7 +7,7 @@
 name: "global.ci"
 swarming {
   builders {
-    name: "workstation_eng.qemu-x64-debug-pye2e"
+    name: "workstation_eng.x64-debug-pye2e"
     swarming_host: "chromium-swarm.appspot.com"
     dimensions: "cores:2"
     dimensions: "cpu:x64"
