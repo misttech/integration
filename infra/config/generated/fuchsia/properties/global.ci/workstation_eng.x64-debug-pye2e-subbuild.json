@@ -1,7 +1,4 @@
 {
-  "$fuchsia/autocorrelator": {
-    "ci_bucket": "global.ci"
-  },
   "$fuchsia/rbe": {
     "instance": "projects/rbe-fuchsia-prod/instances/default"
   },
@@ -10,7 +7,7 @@
     "artifact_gcs_bucket": "fuchsia-artifacts",
     "build": {
       "enable_sandboxing": true,
-      "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/try/workstation_eng.qemu-x64-debug-pye2e.textproto",
+      "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/global.ci/workstation_eng.x64-debug-pye2e.textproto",
       "incremental": true,
       "run_tests": true
     },
@@ -26,12 +23,12 @@
       "affected_tests_multiply_threshold": 100,
       "default_service_account": "artifact-readers@fuchsia-infra.iam.gserviceaccount.com",
       "enable_sandboxing": true,
+      "max_attempts": 1,
       "max_attempts_per_test": 3,
       "pave": true,
       "per_shard_package_repos": true,
       "per_test_timeout_secs": 300,
       "pool": "fuchsia.tests",
-      "skip_unaffected_tests": true,
       "swarming_expiration_timeout_secs": 18000,
       "swarming_io_timeout_secs": 360,
       "target_shard_duration_secs": 540,
