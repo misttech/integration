@@ -229,7 +229,7 @@
              path="prebuilt/third_party/zoneinfo"/>
     <!--   Skia Gold -->
     <package name="skia/tools/goldctl/${platform}"
-             version="git_revision:baa96cc0d56dce1fe98ad31d8a797afb96cec389"
+             version="git_revision:3d6ee7542a04be92a48ff1c5dc28cb3c5c15dd00"
              platforms="linux-amd64,linux-arm64,mac-amd64"
              path="prebuilt/third_party/goldctl"/>
     <!--   Vulkan Runtime (for host builds) -->
@@ -466,16 +466,16 @@
     <!-- Packages in /infra/tools/ -->
     <package name="infra/tools/bb/${platform}"
              path="prebuilt/tools/buildbucket"
-             version="git_revision:baa96cc0d56dce1fe98ad31d8a797afb96cec389"
+             version="git_revision:3d6ee7542a04be92a48ff1c5dc28cb3c5c15dd00"
              platforms="linux-amd64,linux-arm64,mac-amd64"/>
     <package name="infra/tools/luci/gsutil/${platform}"
              path="prebuilt/tools/gsutil"
              platforms="linux-amd64,linux-arm64,mac-amd64"
-             version="git_revision:baa96cc0d56dce1fe98ad31d8a797afb96cec389"/>
+             version="git_revision:3d6ee7542a04be92a48ff1c5dc28cb3c5c15dd00"/>
     <package name="infra/tools/luci/logdog/logdog/${platform}"
              path="prebuilt/tools/logdog"
              platforms="linux-amd64,mac-amd64"
-             version="git_revision:baa96cc0d56dce1fe98ad31d8a797afb96cec389"/>
+             version="git_revision:3d6ee7542a04be92a48ff1c5dc28cb3c5c15dd00"/>
 
     <!-- Packages in /fuchsia/infra -->
     <package name="fuchsia/infra/artifacts/${platform}"
