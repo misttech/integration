@@ -6,7 +6,7 @@ board: "boards/x64-dfv2.gni"
 product: "products/bringup.gni"
 gn_args: "build_should_trace_actions = true"
 gn_args: "restat_rust = true"
-base_packages: "//bundles/buildbot/dfv2/bringup"
+base_packages: "//bundles/buildbot/bringup"
 host_labels: "//bundles/infra/build"
 host_labels: "//bundles/infra/test"
 target_arch: X64
