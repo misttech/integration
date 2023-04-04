@@ -51,6 +51,11 @@
              path="third_party/android/platform/bionic"
              remote="https://fuchsia.googlesource.com/third_party/android.googlesource.com/platform/bionic"
              revision="1142b9fa15f23dec5e280a1e390fd99bb99b305c"/>
+    <project name="third_party/android.googlesource.com/platform/packages/modules/Bluetooth"
+             gitsubmoduleof="fuchsia"
+             path="third_party/android/platform/packages/modules/Bluetooth/src"
+             remote="https://fuchsia.googlesource.com/third_party/android.googlesource.com/platform/packages/modules/Bluetooth"
+             revision="0158e81d2615743a21aea65fa2ec7113ffb793ac"/>
     <project name="third_party/android.googlesource.com/platform/system/core"
              gitsubmoduleof="fuchsia"
              path="third_party/android/platform/system/core"
