@@ -541,6 +541,28 @@
              attributes="debug-symbols,debug-symbols-x64"
              internal="true"/>
 
+    <!-- Starnix root filesystem image for testing on x64 -->
+    <package name="fuchsia/third_party/starnix/linux-amd64"
+             path="prebuilt/starnix/linux-amd64"
+             version="version:debian-sid-glibc-2.36-8"/>
+
+    <!-- Starnix root filesystem image for testing on arm64 -->
+    <package name="fuchsia/third_party/starnix/linux-arm64"
+             path="prebuilt/starnix/linux-arm64"
+             version="version:debian-sid-glibc-2.36-8"/>
+
+    <!-- Starnix debug symbols for linux-amd64 image -->
+    <package name="fuchsia/third_party/starnix/linux-debug-symbols-amd64"
+             path="prebuilt/.build-id"
+             version="version:debian-sid-glibc-2.36-8"
+             attributes="debug-symbols,debug-symbols-x64"/>
+
+    <!-- Starnix debug symbols for linux-arm64 image -->
+    <package name="fuchsia/third_party/starnix/linux-debug-symbols-arm64"
+             path="prebuilt/.build-id"
+             version="version:debian-sid-glibc-2.36-8"
+             attributes="debug-symbols,debug-symbols-arm64"/>
+
     <!-- Starnix root filesystem image for testing -->
     <package name="fuchsia/starnix/android-image-amd64"
              path="prebuilt/starnix/android-image-amd64"
