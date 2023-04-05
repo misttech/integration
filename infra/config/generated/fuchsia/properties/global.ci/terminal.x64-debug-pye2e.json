@@ -1,13 +1,10 @@
 {
-  "$fuchsia/rbe": {
-    "instance": "projects/rbe-fuchsia-prod/instances/default"
-  },
-  "recipe": "fuchsia/build",
+  "recipe": "fuchsia/fuchsia",
   "spec": {
     "artifact_gcs_bucket": "fuchsia-artifacts",
     "build": {
       "enable_sandboxing": true,
-      "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/global.ci/workstation_eng.x64-debug-pye2e.textproto",
+      "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/global.ci/terminal.x64-debug-pye2e.textproto",
       "incremental": true,
       "run_tests": true
     },
@@ -35,5 +32,6 @@
       "upload_results": true,
       "use_cas_for_images": true
     }
-  }
+  },
+  "uses_subbuild": true
 }
