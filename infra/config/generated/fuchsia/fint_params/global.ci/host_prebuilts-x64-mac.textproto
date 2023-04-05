@@ -5,6 +5,7 @@ optimize: RELEASE
 product: "products/core.gni"
 host_labels: "//build/packages:json_validator"
 host_labels: "//src/diagnostics/triage:install"
+host_labels: "//src/storage/tools/blobfs-compression:blobfs-compression"
 host_labels: "//tools/build/ninjago/ninjatrace"
 host_labels: "//tools/bundle_fetcher"
 host_labels: "//tools/testing/batchtester"
@@ -12,6 +13,7 @@ host_labels: "//tools/vboot_reference"
 target_arch: X64
 include_prebuilt_binary_manifests: true
 tools: "batchtester"
+tools: "blobfs-compression"
 tools: "bundle_fetcher"
 tools: "ffx"
 tools: "futility"
