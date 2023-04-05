@@ -4,16 +4,16 @@
 # For the schema of this file, see Bucket message:
 #   https://luci-config.appspot.com/schemas/projects:buildbucket.cfg
 
-name: "try"
+name: "global.ci"
 swarming {
   builders {
-    name: "workstation_eng.x64-debug-pye2e"
+    name: "terminal.x64-debug-pye2e"
     swarming_host: "chromium-swarm.appspot.com"
     dimensions: "cores:2"
     dimensions: "cpu:x64"
     dimensions: "gce:1"
     dimensions: "os:Linux"
-    dimensions: "pool:luci.fuchsia.try"
+    dimensions: "pool:luci.fuchsia.ci"
     exe {
       cipd_package: "fuchsia/infra/recipe_bootstrap/${platform}"
       cipd_version: "git_revision:8feb1ee5bcd9933fca31d9cd246fafff9320e70d"
@@ -35,26 +35,28 @@ swarming {
       name: "symbol"
       path: "symbol"
     }
-    service_account: "fuchsia-try-builder@fuchsia-infra.iam.gserviceaccount.com"
+    service_account: "fuchsia-ci-builder@fuchsia-infra.iam.gserviceaccount.com"
     experiments {
       key: "luci.buildbucket.omit_python2"
-      value: 2
+      value: 100
     }
     resultdb {
       enable: true
       bq_exports {
         project: "fuchsia-infra"
         dataset: "resultdb"
-        table: "try"
+        table: "ci"
         test_results {}
       }
       bq_exports {
         project: "fuchsia-infra"
         dataset: "resultdb"
-        table: "artifacts_try"
+        table: "artifacts_ci"
         text_artifacts {}
       }
+      history_options {
+        use_invocation_timestamp: true
+      }
     }
-    description_html: "The <a href=\"https://fuchsia.dev/fuchsia-src/development/build/build_system/boards_and_products?hl=en#workstation-product\">workstation</a> product is a basis for a general purpose development environment.\n\nThe corresponding CI builder can be found <a href=\"https://ci.chromium.org/p/fuchsia/builders/global.ci/workstation_eng.x64-debug-pye2e\">here</a>"
   }
 }
