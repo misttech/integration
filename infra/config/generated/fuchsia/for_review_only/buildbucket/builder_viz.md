@@ -34,6 +34,7 @@
 | bringup.arm64-tcg |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/bringup.arm64-tcg) |
 | [bringup.arm64-thinlto](https://luci-scheduler.appspot.com/jobs/fuchsia/bringup.arm64-thinlto-e5a0ec7f) |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/bringup.arm64-thinlto) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/bringup.arm64-thinlto) |
 | [bringup.qemu-riscv64-build_only](https://luci-scheduler.appspot.com/jobs/fuchsia/bringup.qemu-riscv64-build_only-e5a0ec7f) |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/bringup.qemu-riscv64-build_only) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/bringup.qemu-riscv64-build_only) |
+| [bringup.riscv64-debug](https://luci-scheduler.appspot.com/jobs/fuchsia/bringup.riscv64-debug-e5a0ec7f) |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/bringup.riscv64-debug) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/bringup.riscv64-debug) |
 | bringup.vim3-asan |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/bringup.vim3-asan) |
 | bringup.vim3-debug |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/bringup.vim3-debug) |
 | bringup.vim3-debug-build_only |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/bringup.vim3-debug-build_only) |

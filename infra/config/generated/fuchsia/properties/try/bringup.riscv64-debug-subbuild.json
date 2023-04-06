@@ -1,0 +1,37 @@
+{
+  "$fuchsia/autocorrelator": {
+    "ci_bucket": "global.ci"
+  },
+  "$fuchsia/rbe": {
+    "instance": "projects/rbe-fuchsia-prod/instances/default"
+  },
+  "recipe": "fuchsia/build",
+  "spec": {
+    "artifact_gcs_bucket": "fuchsia-artifacts",
+    "build": {
+      "enable_sandboxing": true,
+      "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/try/bringup.riscv64-debug.textproto",
+      "incremental": true,
+      "run_tests": true
+    },
+    "checkout": {
+      "manifest": "flower",
+      "remote": "https://fuchsia.googlesource.com/integration"
+    },
+    "gcs_bucket": "fuchsia-build",
+    "test": {
+      "affected_tests_multiply_threshold": 100,
+      "default_service_account": "artifact-readers@fuchsia-infra.iam.gserviceaccount.com",
+      "enable_sandboxing": true,
+      "max_attempts_per_test": 3,
+      "per_test_timeout_secs": 300,
+      "pool": "fuchsia.tests",
+      "skip_unaffected_tests": true,
+      "swarming_expiration_timeout_secs": 18000,
+      "swarming_io_timeout_secs": 360,
+      "target_shard_duration_secs": 540,
+      "upload_results": true,
+      "use_cas_for_images": true
+    }
+  }
+}
