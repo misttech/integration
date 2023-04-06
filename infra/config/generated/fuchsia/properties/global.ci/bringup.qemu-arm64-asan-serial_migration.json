@@ -1,0 +1,35 @@
+{
+  "recipe": "fuchsia/fuchsia",
+  "spec": {
+    "artifact_gcs_bucket": "fuchsia-artifacts",
+    "build": {
+      "enable_sandboxing": true,
+      "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/global.ci/bringup.qemu-arm64-asan-serial_migration.textproto",
+      "incremental": true,
+      "run_tests": true
+    },
+    "checkout": {
+      "manifest": "flower",
+      "remote": "https://fuchsia.googlesource.com/integration"
+    },
+    "gcs_bucket": "fuchsia-build",
+    "test": {
+      "affected_tests_multiply_threshold": 100,
+      "default_service_account": "artifact-readers@fuchsia-infra.iam.gserviceaccount.com",
+      "enable_sandboxing": true,
+      "max_attempts": 1,
+      "max_attempts_per_test": 3,
+      "per_test_timeout_secs": 360,
+      "pool": "fuchsia.tests",
+      "swarming_expiration_timeout_secs": 18000,
+      "swarming_io_timeout_secs": 420,
+      "target_shard_duration_secs": 540,
+      "upload_results": true,
+      "use_cas_for_images": true,
+      "zircon_args": [
+        "kernel.experimental.serial_migration=true"
+      ]
+    }
+  },
+  "uses_subbuild": true
+}
