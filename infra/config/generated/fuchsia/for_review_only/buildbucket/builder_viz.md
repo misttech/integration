@@ -215,6 +215,7 @@
 | [jq-mac-x64](https://luci-scheduler.appspot.com/jobs/fuchsia/jq-mac-x64) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/jq-mac-x64) |
 | [kythe](https://luci-scheduler.appspot.com/jobs/fuchsia/kythe-e5a0ec7f) |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/kythe) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/kythe) |
 | [linux-sysroot](https://luci-scheduler.appspot.com/jobs/fuchsia/linux-sysroot-5b6c2255) |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/linux-sysroot) |   |
+| [llvm-fuchsia](https://luci-scheduler.appspot.com/jobs/fuchsia/llvm-fuchsia) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/llvm-fuchsia) |
 | [llvm-linux-arm64](https://luci-scheduler.appspot.com/jobs/fuchsia/llvm-linux-arm64) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/llvm-linux-arm64) |
 | [llvm-linux-x64](https://luci-scheduler.appspot.com/jobs/fuchsia/llvm-linux-x64) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/llvm-linux-x64) |
 | [llvm-mac-x64](https://luci-scheduler.appspot.com/jobs/fuchsia/llvm-mac-x64) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/llvm-mac-x64) |
