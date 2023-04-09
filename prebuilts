@@ -48,7 +48,7 @@
          Builder at https://ci.chromium.org/p/turquoise/builders/prod/aemu_downloader
     -->
     <package name="fuchsia/third_party/android/aemu/release/${platform}"
-             version="bid:9773307"
+             version="bid:9907740"
              platforms="linux-amd64,mac-amd64,linux-arm64,mac-arm64"
              path="prebuilt/third_party/android/aemu/release/{{.OS}}-{{.Arch}}"/>
 
@@ -58,7 +58,7 @@
           sufficient.
      -->
      <package name="fuchsia/third_party/android/aemu/release/${os}-arm64"
-             version="bid:9773307"
+             version="bid:9907740"
              platforms="linux-amd64,mac-amd64"
              attributes="arm-sdk-tools"
              path="prebuilt/third_party/android/aemu/release/{{.OS}}-arm64"/>
