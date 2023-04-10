@@ -587,6 +587,12 @@
              path="third_party/tpm2-tss/src"
              remote="https://fuchsia.googlesource.com/third_party/github.com/tpm2-software/tpm2-tss"
              revision="6c789459a17fde158afa303ac41cb756078785a3"/>
+    <project name="third_party/ubpf"
+             gitsubmoduleof="fuchsia"
+             path="third_party/ubpf"
+             remote="https://fuchsia.googlesource.com/third_party/github.com/iovisor/ubpf/"
+             gerrithost="https://fuchsia-review.googlesource.com"
+             revision="c94193d28d6f34433ad1788d31f279bd68329fb4"/>
     <project name="third_party/openssh-portable"
              gitsubmoduleof="fuchsia"
              path="third_party/openssh-portable"
