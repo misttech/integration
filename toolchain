@@ -57,7 +57,7 @@
          https://chrome-infra-packages.appspot.com/p/infra/rbe/client/
     -->
     <package name="infra/rbe/client/${platform}"
-             version="re_client_version:0.100.2.1c70bb9-gomaip"
+             version="re_client_version:0.101.0.6210d0d-gomaip"
              platforms="linux-amd64,mac-amd64,mac-arm64"
              path="prebuilt/proprietary/third_party/reclient/{{.OS}}-{{.Arch}}"/>
     <package name="fuchsia/third_party/remote-apis-sdks/${platform}"
