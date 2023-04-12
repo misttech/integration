@@ -10,6 +10,7 @@ base_packages: "//src/testing/sl4f"
 host_labels: "//bundles/infra/build"
 host_labels: "//bundles/infra/test"
 host_labels: "//src/testing/end_to_end/examples:fyi"
+host_labels: "//src/tests/end_to_end/snapshot:fyi"
 target_arch: X64
 pave: true
 include_images: true
