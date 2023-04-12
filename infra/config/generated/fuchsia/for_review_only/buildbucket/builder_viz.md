@@ -40,6 +40,7 @@
 | bringup.vim3-asan |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/bringup.vim3-asan) |
 | bringup.vim3-debug |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/bringup.vim3-debug) |
 | bringup.vim3-debug-build_only |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/bringup.vim3-debug-build_only) |
+| bringup.vim3-dfv2-debug |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/bringup.vim3-dfv2-debug) |
 | bringup.vim3-hwasan |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/bringup.vim3-hwasan) |
 | [bringup.x64-asan](https://luci-scheduler.appspot.com/jobs/fuchsia/bringup.x64-asan-e5a0ec7f) |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/bringup.x64-asan) | [try](https://ci.chromium.org/p/fuchsia/builders/try/bringup.x64-asan) |
 | bringup.x64-asan-ffx |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/bringup.x64-asan-ffx) |
