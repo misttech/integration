@@ -1,0 +1,18 @@
+{
+  "$fuchsia/rbe": {
+    "instance": "projects/rbe-fuchsia-prod/instances/default"
+  },
+  "recipe": "fuchsia/build",
+  "spec": {
+    "artifact_gcs_bucket": "fuchsia-artifacts",
+    "build": {
+      "enable_sandboxing": true,
+      "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/global.ci/core.x64-sdk_source_sets_and_shlibs-api13-build_only.textproto"
+    },
+    "checkout": {
+      "manifest": "flower",
+      "remote": "https://fuchsia.googlesource.com/integration"
+    },
+    "gcs_bucket": "fuchsia-build"
+  }
+}
