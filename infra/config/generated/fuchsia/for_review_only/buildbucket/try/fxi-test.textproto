@@ -4,7 +4,7 @@
 # For the schema of this file, see Bucket message:
 #   https://luci-config.appspot.com/schemas/projects:buildbucket.cfg
 
-name: "prod"
+name: "try"
 swarming {
   builders {
     name: "fxi-test"
@@ -13,7 +13,7 @@ swarming {
     dimensions: "cpu:x64"
     dimensions: "gce:1"
     dimensions: "os:Linux"
-    dimensions: "pool:luci.fuchsia.prod"
+    dimensions: "pool:luci.fuchsia.try"
     exe {
       cipd_package: "fuchsia/infra/fxitest/${platform}"
       cipd_version: "git_revision:6e3b6ff55fb1a1aff76df686ef7e6ff26841250d"
@@ -32,13 +32,25 @@ swarming {
       name: "symbol"
       path: "symbol"
     }
-    service_account: "fuchsia-prod-builder@fuchsia-infra.iam.gserviceaccount.com"
+    service_account: "infra-try-builder@fuchsia-infra.iam.gserviceaccount.com"
     experiments {
       key: "luci.buildbucket.omit_python2"
-      value: 100
+      value: 2
     }
     resultdb {
       enable: true
+      bq_exports {
+        project: "fuchsia-infra"
+        dataset: "resultdb"
+        table: "try"
+        test_results {}
+      }
+      bq_exports {
+        project: "fuchsia-infra"
+        dataset: "resultdb"
+        table: "artifacts_try"
+        text_artifacts {}
+      }
     }
   }
 }
