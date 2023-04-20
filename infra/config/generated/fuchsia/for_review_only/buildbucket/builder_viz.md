@@ -231,7 +231,7 @@
 | [ninja-linux-arm64](https://luci-scheduler.appspot.com/jobs/fuchsia/ci-ninja-linux-arm64-0c7403b2) | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/ninja-linux-arm64) |   |   |
 | [ninja-linux-x64](https://luci-scheduler.appspot.com/jobs/fuchsia/ci-ninja-linux-x64-0c7403b2) | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/ninja-linux-x64) |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/ninja-linux-x64) |
 | [ninja-mac-arm64](https://luci-scheduler.appspot.com/jobs/fuchsia/ci-ninja-mac-arm64-0c7403b2) | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/ninja-mac-arm64) |   |   |
-| [ninja-mac-x64](https://luci-scheduler.appspot.com/jobs/fuchsia/ci-ninja-mac-x64-0c7403b2) | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/ninja-mac-x64) |   |   |
+| [ninja-mac-x64](https://luci-scheduler.appspot.com/jobs/fuchsia/ci-ninja-mac-x64-0c7403b2) | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/ninja-mac-x64) |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/ninja-mac-x64) |
 | [ninja-windows-arm64](https://luci-scheduler.appspot.com/jobs/fuchsia/ci-ninja-windows-arm64-0c7403b2) | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/ninja-windows-arm64) |   |   |
 | [ninja-windows-x64](https://luci-scheduler.appspot.com/jobs/fuchsia/ci-ninja-windows-x64-0c7403b2) | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/ninja-windows-x64) |   |   |
 | partially-rollable-package-roller |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/partially-rollable-package-roller) |
