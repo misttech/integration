@@ -187,6 +187,7 @@
 | fuchsia-coverage-absolute |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/fuchsia-coverage-absolute) |
 | fuchsia-coverage-x64-arm64 |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/fuchsia-coverage-x64-arm64) |
 | [fuchsia-docs-roller](https://luci-scheduler.appspot.com/jobs/fuchsia/fuchsia-docs-roller-e5a0ec7f) |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/fuchsia-docs-roller) |   |
+| fxi-test |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/fxi-test) |
 | [gcc-arm64-linux](https://luci-scheduler.appspot.com/jobs/fuchsia/toolchain.ci-gcc-arm64-linux-3e002780) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/gcc-arm64-linux) |
 | [gcc-x64-linux](https://luci-scheduler.appspot.com/jobs/fuchsia/toolchain.ci-gcc-x64-linux-3e002780) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/gcc-x64-linux) |
 | [gcc-x64-mac](https://luci-scheduler.appspot.com/jobs/fuchsia/toolchain.ci-gcc-x64-mac-3e002780) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/gcc-x64-mac) |
