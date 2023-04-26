@@ -160,6 +160,7 @@
 | core.x64-release-chromium_latest |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-release-chromium_latest) |
 | [core.x64-release-ffx](https://luci-scheduler.appspot.com/jobs/fuchsia/core.x64-release-ffx-e5a0ec7f) |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/core.x64-release-ffx) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-release-ffx) |
 | [core.x64-release-ffx-cso](https://luci-scheduler.appspot.com/jobs/fuchsia/core.x64-release-ffx-cso-e5a0ec7f) |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/core.x64-release-ffx-cso) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-release-ffx-cso) |
+| core.x64-release-ffx_subtools |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-release-ffx_subtools) |
 | [core.x64-release-minfs](https://luci-scheduler.appspot.com/jobs/fuchsia/core.x64-release-minfs-e5a0ec7f) |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/core.x64-release-minfs) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-release-minfs) |
 | core.x64-release-minfs-no_hardware |   |   | [try](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-release-minfs-no_hardware) |
 | core.x64-release-nuc_in_basic_envs |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-release-nuc_in_basic_envs) |
