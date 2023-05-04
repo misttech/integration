@@ -77,6 +77,7 @@
 | [clang-linux-x64-rbe](https://luci-scheduler.appspot.com/jobs/fuchsia/clang-linux-x64-rbe-40be1bb5) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/clang-linux-x64-rbe) |
 | [clang-linux-xarm64](https://luci-scheduler.appspot.com/jobs/fuchsia/clang-linux-xarm64) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/clang-linux-xarm64) |
 | [clang-mac-x64](https://luci-scheduler.appspot.com/jobs/fuchsia/toolchain.ci-clang-mac-x64-40be1bb5) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/clang-mac-x64) |
+| [clang-mac-x64-rbe](https://luci-scheduler.appspot.com/jobs/fuchsia/clang-mac-x64-rbe-40be1bb5) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/clang-mac-x64-rbe) |
 | [clang-mac-xarm64](https://luci-scheduler.appspot.com/jobs/fuchsia/clang-mac-xarm64) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/clang-mac-xarm64) |
 | [clang-windows-x64](https://luci-scheduler.appspot.com/jobs/fuchsia/toolchain.ci-clang-windows-x64-40be1bb5) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/clang-windows-x64) |
 | [clang_toolchain.ci.core.arm64-debug](https://luci-scheduler.appspot.com/jobs/fuchsia/clang_toolchain.ci.core.arm64-debug) | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/clang_toolchain.ci.core.arm64-debug) |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/clang_toolchain.ci.core.arm64-debug) |
