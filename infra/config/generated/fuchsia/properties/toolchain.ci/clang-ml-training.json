@@ -4,6 +4,7 @@
     "core.x64": "integration/infra/config/generated/fuchsia/fint_params/toolchain.ci/clang-ml-training.core.x64.textproto"
   },
   "manifest": "flower",
+  "no_python2": true,
   "project": "integration",
   "recipe": "contrib/clang_ml_training",
   "remote": "https://fuchsia.googlesource.com/integration"

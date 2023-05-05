@@ -3,6 +3,7 @@
   "dryrun": true,
   "incremental_settings_path": "infra/config/common/incremental_settings.json",
   "manifest": "manifests/flower",
+  "no_python2": true,
   "project": "infra/roller-tests/integration",
   "projects_to_initialize": [
     "infra/roller-tests/test-project/rollable"

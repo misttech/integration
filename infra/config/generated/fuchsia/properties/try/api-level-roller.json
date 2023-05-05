@@ -1,6 +1,7 @@
 {
   "config_generator_path": "infra/config/gen.sh",
   "manifest": "manifests/flower",
+  "no_python2": true,
   "platform_version_path": "infra/config/common/platform_version.json",
   "project": "infra/roller-tests/integration",
   "recipe": "release/api_level_roller",

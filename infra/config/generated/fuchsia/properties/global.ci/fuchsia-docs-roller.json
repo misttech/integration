@@ -4,6 +4,7 @@
     "x64": "integration/infra/config/generated/fuchsia/fint_params/global.ci/fuchsia-docs-roller-x64.textproto"
   },
   "manifest": "flower",
+  "no_python2": true,
   "recipe": "docs_roller",
   "remote": "https://fuchsia.googlesource.com/integration"
 }
