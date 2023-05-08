@@ -4,7 +4,6 @@
 optimize: DEBUG
 board: "boards/x64.gni"
 product: "products/core.gni"
-gn_args: "blobfs_enable_streaming_writes = true"
 gn_args: "build_should_trace_actions = true"
 gn_args: "delivery_blob_type = 1"
 gn_args: "restat_rust = true"
