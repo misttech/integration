@@ -48,10 +48,6 @@ swarming {
       path: "symbol"
     }
     service_account: "fuchsia-try-builder@fuchsia-infra.iam.gserviceaccount.com"
-    experiments {
-      key: "luci.recipes.use_python3"
-      value: 100
-    }
     resultdb {
       enable: true
       bq_exports {
