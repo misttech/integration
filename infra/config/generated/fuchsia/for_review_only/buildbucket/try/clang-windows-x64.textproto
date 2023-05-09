@@ -41,10 +41,6 @@ swarming {
       path: "windows_sdk"
     }
     service_account: "infra-try-builder@fuchsia-infra.iam.gserviceaccount.com"
-    experiments {
-      key: "luci.buildbucket.omit_python2"
-      value: 100
-    }
     resultdb {
       enable: true
       bq_exports {
