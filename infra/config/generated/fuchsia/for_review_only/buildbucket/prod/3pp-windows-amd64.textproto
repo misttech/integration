@@ -47,10 +47,6 @@ swarming {
       path: "windows_sdk"
     }
     service_account: "fuchsia-prod-builder@fuchsia-infra.iam.gserviceaccount.com"
-    experiments {
-      key: "luci.recipes.use_python3"
-      value: 100
-    }
     resultdb {
       enable: true
     }
