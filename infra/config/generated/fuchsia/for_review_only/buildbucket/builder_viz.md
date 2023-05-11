@@ -306,7 +306,6 @@
 | sdk-experimental-mac-arm64-build_only |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/sdk-experimental-mac-arm64-build_only) |
 | sdk-experimental-mac-x64-build_only |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/sdk-experimental-mac-x64-build_only) |
 | [sdk-samples-getting-started-rust](https://luci-scheduler.appspot.com/jobs/fuchsia/sdk-samples-getting-started-rust-99193e70) | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/sdk-samples-getting-started-rust) |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/sdk-samples-getting-started-rust) |
-| [shac](https://luci-scheduler.appspot.com/jobs/fuchsia/shac-linux-ad9a78fe) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/shac) |
 | [shac-fuchsia-checks](https://luci-scheduler.appspot.com/jobs/fuchsia/shac-fuchsia-checks-e683c5be) | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/shac-fuchsia-checks) |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/shac-fuchsia-checks) |
 | [shac-generic-checks](https://luci-scheduler.appspot.com/jobs/fuchsia/shac-generic-checks-8675d59a) | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/shac-generic-checks) |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/shac-generic-checks) |
 | [shac-linux](https://luci-scheduler.appspot.com/jobs/fuchsia/shac-linux-ad9a78fe) | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/shac-linux) |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/shac-linux) |
