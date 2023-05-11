@@ -7,7 +7,7 @@
 name: "ci"
 swarming {
   builders {
-    name: "shac"
+    name: "shac-linux"
     swarming_host: "chromium-swarm.appspot.com"
     dimensions: "cores:32"
     dimensions: "cpu:x64"
