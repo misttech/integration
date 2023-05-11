@@ -5,7 +5,6 @@ optimize: RELEASE
 board: "boards/x64-dfv2.gni"
 product: "products/workstation_eng.gni"
 gn_args: "build_should_trace_actions = true"
-gn_args: "flutter_driver_enabled = true"
 gn_args: "restat_rust = true"
 universe_packages: "//bundles/buildbot/workstation"
 host_labels: "//bundles/infra/build"
