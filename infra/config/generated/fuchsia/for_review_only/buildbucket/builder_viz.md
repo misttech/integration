@@ -2,6 +2,8 @@
 <!-- Do not modify manually. -->
 [Public Builders](https://goto.google.com/fuchsia-builder-viz) | [Internal Builders](https://goto.google.com/tq-builder-viz)
 
+[Buckets description](buckets.md)
+
 | Builder | ci | global.ci | try |
 ---|:---:|:---:|:---:
 | [3pp-linux-amd64](https://luci-scheduler.appspot.com/jobs/fuchsia/3pp-linux-amd64-6cc1a7e0) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/3pp-linux-amd64) |
