@@ -328,7 +328,6 @@
 | uptodate-package-roller |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/uptodate-package-roller) |
 | uptodate-project-roller |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/uptodate-project-roller) |
 | [vulkan_sdk](https://luci-scheduler.appspot.com/jobs/fuchsia/vulkan_sdk) | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/vulkan_sdk) |   |   |
-| [workstation_eng.x64-debug-pye2e](https://luci-scheduler.appspot.com/jobs/fuchsia/workstation_eng.x64-debug-pye2e-e5a0ec7f) |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/workstation_eng.x64-debug-pye2e) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/workstation_eng.x64-debug-pye2e) |
 | [workstation_eng.x64-release](https://luci-scheduler.appspot.com/jobs/fuchsia/workstation_eng.x64-release-e5a0ec7f) |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/workstation_eng.x64-release) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/workstation_eng.x64-release) |
 | [yasm-linux-arm64](https://luci-scheduler.appspot.com/jobs/fuchsia/yasm-linux-arm64) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/yasm-linux-arm64) |
 | [yasm-linux-x64](https://luci-scheduler.appspot.com/jobs/fuchsia/yasm-linux-x64) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/yasm-linux-x64) |
