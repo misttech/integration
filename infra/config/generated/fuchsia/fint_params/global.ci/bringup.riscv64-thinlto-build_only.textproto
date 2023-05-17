@@ -13,6 +13,7 @@ target_arch: RISCV64
 variants: "thinlto"
 include_images: true
 include_prebuilt_binary_manifests: true
+include_zbi_tests: true
 rust_rbe_enable: true
 cxx_rbe_enable: true
 incremental: true
