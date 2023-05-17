@@ -139,12 +139,6 @@
              platforms="linux-amd64,linux-arm64,mac-amd64,mac-arm64,windows-amd64"
              path="prebuilt/third_party/cmake/{{.OS}}-{{.Arch}}"/>
 
-    <!-- YAPF for formatting python code -->
-    <package name="infra/tools/yapf"
-             version="git_revision:0d457e7ac4ca9dc21109e107e20a4ac8af6cf056"
-             platforms="linux-amd64,linux-arm64,mac-amd64"
-             path="prebuilt/third_party/yapf"/>
-
     <!-- VPython interpreter, needed for running YAPF (and possibly more).
     -->
     <package name="infra/tools/luci/vpython/${platform}"
