@@ -174,6 +174,7 @@
 | core.x64-gce |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-gce) |
 | core.x64-gce-staging |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-gce-staging) |
 | [core.x64-host_test_only-mac](https://luci-scheduler.appspot.com/jobs/fuchsia/core.x64-host_test_only-mac-e5a0ec7f) |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/core.x64-host_test_only-mac) | [try](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-host_test_only-mac) |
+| core.x64-host_test_only-mac_m1 |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-host_test_only-mac_m1) |
 | [core.x64-lto](https://luci-scheduler.appspot.com/jobs/fuchsia/core.x64-lto-e5a0ec7f) |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/core.x64-lto) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-lto) |
 | [core.x64-lto-no_rbe-build_only](https://luci-scheduler.appspot.com/jobs/fuchsia/core.x64-lto-no_rbe-build_only-e5a0ec7f) |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/core.x64-lto-no_rbe-build_only) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-lto-no_rbe-build_only) |
 | core.x64-profile-qemu_kvm | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/core.x64-profile-qemu_kvm) |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/core.x64-profile-qemu_kvm) |
