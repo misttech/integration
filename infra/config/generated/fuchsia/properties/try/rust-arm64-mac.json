@@ -1,0 +1,9 @@
+{
+  "default_ref": "refs/heads/main",
+  "no_python2": true,
+  "recipe": "contrib/rust_toolchain",
+  "repository": "https://fuchsia.googlesource.com/third_party/rust",
+  "test_suites": [
+    "tests/ui"
+  ]
+}
