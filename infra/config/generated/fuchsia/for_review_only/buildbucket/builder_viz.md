@@ -281,6 +281,7 @@
 | rollable-project-roller |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/rollable-project-roller) |   |   |
 | rollable-submodule-roller |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/rollable-submodule-roller) |   |   |
 | [rust-arm64-linux](https://luci-scheduler.appspot.com/jobs/fuchsia/rust-arm64-linux-49def413) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/rust-arm64-linux) |   |   |
+| [rust-arm64-mac](https://luci-scheduler.appspot.com/jobs/fuchsia/rust-arm64-mac-49def413) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/rust-arm64-mac) |   |   |
 | [rust-bindgen-linux](https://luci-scheduler.appspot.com/jobs/fuchsia/rust-bindgen-linux-43d5aa34) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/rust-bindgen-linux) |   |   |
 | [rust-bindgen-mac](https://luci-scheduler.appspot.com/jobs/fuchsia/rust-bindgen-mac-43d5aa34) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/rust-bindgen-mac) |   |   |
 | [rust-cargo-outdated-linux](https://luci-scheduler.appspot.com/jobs/fuchsia/rust-cargo-outdated-linux-2ac1260a) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/rust-cargo-outdated-linux) |   |   |
