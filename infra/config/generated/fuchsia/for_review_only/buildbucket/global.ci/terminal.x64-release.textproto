@@ -7,7 +7,7 @@
 name: "global.ci"
 swarming {
   builders {
-    name: "terminal.x64-release-nuc_in_basic_envs"
+    name: "terminal.x64-release"
     swarming_host: "chromium-swarm.appspot.com"
     dimensions: "cores:2"
     dimensions: "cpu:x64"
