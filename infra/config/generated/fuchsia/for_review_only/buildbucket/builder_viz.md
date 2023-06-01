@@ -226,9 +226,9 @@
 | [go-x64-linux](https://luci-scheduler.appspot.com/jobs/fuchsia/go-x64-linux-b0b54c2c) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/go-x64-linux) |   |   |
 | [go-x64-mac](https://luci-scheduler.appspot.com/jobs/fuchsia/go-x64-mac-b0b54c2c) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/go-x64-mac) |   |   |
 | [go-x64-windows](https://luci-scheduler.appspot.com/jobs/fuchsia/go-x64-windows-b0b54c2c) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/go-x64-windows) |   |   |
-| [goma-dev-configuration-roller](https://luci-scheduler.appspot.com/jobs/fuchsia/goma-dev-configuration-roller) | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/goma-dev-configuration-roller) |   |   |   |   |
+| [goma-dev-configuration-roller](https://luci-scheduler.appspot.com/jobs/fuchsia/goma-dev-configuration-roller) | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/goma-dev-configuration-roller) |   |   |   | tq-toolchain-team@google.com |
 | [goma-dev-deployer](https://luci-scheduler.appspot.com/jobs/fuchsia/goma-dev-deployer) | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/goma-dev-deployer) |   |   |   |   |
-| [goma-prod-configuration-roller](https://luci-scheduler.appspot.com/jobs/fuchsia/goma-prod-configuration-roller) | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/goma-prod-configuration-roller) |   |   |   |   |
+| [goma-prod-configuration-roller](https://luci-scheduler.appspot.com/jobs/fuchsia/goma-prod-configuration-roller) | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/goma-prod-configuration-roller) |   |   |   | tq-toolchain-team@google.com |
 | [goma-prod-deployer](https://luci-scheduler.appspot.com/jobs/fuchsia/goma-prod-deployer) | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/goma-prod-deployer) |   |   |   |   |
 | [gomaclient-linux-x64](https://luci-scheduler.appspot.com/jobs/fuchsia/gomaclient-linux-x64-39729594) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/gomaclient-linux-x64) |   |   |
 | [gomaclient-mac-x64](https://luci-scheduler.appspot.com/jobs/fuchsia/gomaclient-mac-x64-39729594) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/gomaclient-mac-x64) |   |   |
@@ -260,7 +260,7 @@
 | [ninja-mac-x64](https://luci-scheduler.appspot.com/jobs/fuchsia/ci-ninja-mac-x64-f4234898) | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/ninja-mac-x64) |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/ninja-mac-x64) |   |   |
 | [ninja-windows-arm64](https://luci-scheduler.appspot.com/jobs/fuchsia/ci-ninja-windows-arm64-f4234898) | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/ninja-windows-arm64) |   |   |   |   |
 | [ninja-windows-x64](https://luci-scheduler.appspot.com/jobs/fuchsia/ci-ninja-windows-x64-f4234898) | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/ninja-windows-x64) |   |   |   |   |
-| partially-rollable-package-roller |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/partially-rollable-package-roller) |   |   |
+| partially-rollable-package-roller |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/partially-rollable-package-roller) |   | tq-platform-engprod@google.com |
 | [profile-fuchsia](https://luci-scheduler.appspot.com/jobs/fuchsia/profile-fuchsia-af244ac6) | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/profile-fuchsia) |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/profile-fuchsia) |   | fuchsia-profile@google.com |
 | [qemu-linux-arm64](https://luci-scheduler.appspot.com/jobs/fuchsia/ci-qemu-linux-arm64-74eaa511) | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/qemu-linux-arm64) |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/qemu-linux-arm64) |   |   |
 | [qemu-linux-x64](https://luci-scheduler.appspot.com/jobs/fuchsia/ci-qemu-linux-x64-74eaa511) | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/qemu-linux-x64) |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/qemu-linux-x64) |   |   |
@@ -278,8 +278,8 @@
 | release-update-project-dryrun |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/release-update-project-dryrun) |   | tq-platform-engprod@google.com |
 | rollable-cipd-ensure-file-roller |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/rollable-cipd-ensure-file-roller) |   | tq-platform-engprod@google.com |
 | rollable-cipd-to-git-roller |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/rollable-cipd-to-git-roller) |   | tq-platform-engprod@google.com |
-| rollable-package-roller |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/rollable-package-roller) |   |   |
-| rollable-project-roller |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/rollable-project-roller) |   |   |
+| rollable-package-roller |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/rollable-package-roller) |   | tq-platform-engprod@google.com |
+| rollable-project-roller |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/rollable-project-roller) |   | tq-platform-engprod@google.com |
 | rollable-submodule-roller |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/rollable-submodule-roller) |   | turquoise-infra-foundation-team@google.com |
 | [rust-arm64-linux](https://luci-scheduler.appspot.com/jobs/fuchsia/rust-arm64-linux-49def413) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/rust-arm64-linux) |   |   |
 | [rust-arm64-mac](https://luci-scheduler.appspot.com/jobs/fuchsia/rust-arm64-mac-49def413) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/rust-arm64-mac) |   |   |
@@ -326,8 +326,8 @@
 | [tools](https://luci-scheduler.appspot.com/jobs/fuchsia/ci-tools-ebbe54c0) | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/tools) |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/tools) |   |   |
 | uptodate-cipd-ensure-file-roller |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/uptodate-cipd-ensure-file-roller) |   | tq-platform-engprod@google.com |
 | uptodate-cipd-to-git-roller |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/uptodate-cipd-to-git-roller) |   | tq-platform-engprod@google.com |
-| uptodate-package-roller |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/uptodate-package-roller) |   |   |
-| uptodate-project-roller |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/uptodate-project-roller) |   |   |
+| uptodate-package-roller |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/uptodate-package-roller) |   | tq-platform-engprod@google.com |
+| uptodate-project-roller |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/uptodate-project-roller) |   | tq-platform-engprod@google.com |
 | [vulkan_sdk](https://luci-scheduler.appspot.com/jobs/fuchsia/vulkan_sdk) | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/vulkan_sdk) |   |   |   |   |
 | [workstation_eng.x64-release](https://luci-scheduler.appspot.com/jobs/fuchsia/workstation_eng.x64-release-e5a0ec7f) |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/workstation_eng.x64-release) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/workstation_eng.x64-release) |   |   |
 | [yasm-linux-arm64](https://luci-scheduler.appspot.com/jobs/fuchsia/yasm-linux-arm64) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/yasm-linux-arm64) |   | tq-toolchain-team@google.com |
