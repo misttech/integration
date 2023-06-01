@@ -329,7 +329,7 @@
 | uptodate-package-roller |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/uptodate-package-roller) |   | tq-platform-engprod@google.com |
 | uptodate-project-roller |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/uptodate-project-roller) |   | tq-platform-engprod@google.com |
 | [vulkan_sdk](https://luci-scheduler.appspot.com/jobs/fuchsia/vulkan_sdk) | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/vulkan_sdk) |   |   |   |   |
-| [workstation_eng.x64-release](https://luci-scheduler.appspot.com/jobs/fuchsia/workstation_eng.x64-release-e5a0ec7f) |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/workstation_eng.x64-release) | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/workstation_eng.x64-release) |   |   |
+| workstation_eng.x64-release |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/workstation_eng.x64-release) |   |   |
 | [yasm-linux-arm64](https://luci-scheduler.appspot.com/jobs/fuchsia/yasm-linux-arm64) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/yasm-linux-arm64) |   | tq-toolchain-team@google.com |
 | [yasm-linux-x64](https://luci-scheduler.appspot.com/jobs/fuchsia/yasm-linux-x64) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/yasm-linux-x64) |   | tq-toolchain-team@google.com |
 | [yasm-mac-arm64](https://luci-scheduler.appspot.com/jobs/fuchsia/yasm-mac-arm64) |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/yasm-mac-arm64) |   | tq-toolchain-team@google.com |
