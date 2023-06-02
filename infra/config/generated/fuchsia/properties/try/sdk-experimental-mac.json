@@ -10,6 +10,10 @@
   "recipe": "sdk",
   "remote": "https://fuchsia.googlesource.com/integration",
   "sdk_name": "experimental",
+  "sdk_subbuilders": [
+    "sdk-experimental-mac-arm64-build_only",
+    "sdk-experimental-mac-x64-build_only"
+  ],
   "skip_gn_sdk": true,
   "subbuild_collect_timeout_secs": 7200
 }
