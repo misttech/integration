@@ -6,7 +6,6 @@ product: "products/core.gni"
 gn_args: "build_should_trace_actions = true"
 gn_args: "restat_rust = true"
 ninja_targets: ":developer_host_tools"
-ninja_targets: "build/bazel:generate_fuchsia_sdk_repository"
 ninja_targets: "final_fuchsia_idk"
 host_labels: "//bundles/infra/build"
 target_arch: X64
