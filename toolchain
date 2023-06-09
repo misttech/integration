@@ -69,7 +69,7 @@
          From Rust on Fuchsia team
     -->
     <package name="fuchsia/third_party/rust/host/${platform}"
-             version="git_revision:50f2176721a08c0c5673db924a95c0544316682c"
+             version="git_revision:4a18324a4df6bc98bec0b54d35908d7a9cdc7c32"
              platforms="linux-amd64,linux-arm64,mac-amd64"
              path="prebuilt/third_party/rust/{{.OS}}-{{.Arch}}"/>
 
@@ -77,23 +77,23 @@
          From Rust on Fuchsia team
     -->
     <package name="fuchsia/third_party/rust/target/fuchsia"
-             version="git_revision:50f2176721a08c0c5673db924a95c0544316682c"
+             version="git_revision:4a18324a4df6bc98bec0b54d35908d7a9cdc7c32"
              platforms="linux-amd64,linux-arm64,mac-amd64"
              path="prebuilt/third_party/rust/{{.OS}}-{{.Arch}}"/>
     <package name="fuchsia/third_party/rust/target/aarch64-unknown-linux-gnu"
-             version="git_revision:50f2176721a08c0c5673db924a95c0544316682c"
+             version="git_revision:4a18324a4df6bc98bec0b54d35908d7a9cdc7c32"
              platforms="linux-amd64,linux-arm64,mac-amd64"
              path="prebuilt/third_party/rust/{{.OS}}-{{.Arch}}"/>
     <package name="fuchsia/third_party/rust/target/wasm32-unknown-unknown"
-             version="git_revision:50f2176721a08c0c5673db924a95c0544316682c"
+             version="git_revision:4a18324a4df6bc98bec0b54d35908d7a9cdc7c32"
              platforms="linux-amd64,linux-arm64,mac-amd64"
              path="prebuilt/third_party/rust/{{.OS}}-{{.Arch}}"/>
     <package name="fuchsia/third_party/rust/target/x86_64-apple-darwin"
-             version="git_revision:50f2176721a08c0c5673db924a95c0544316682c"
+             version="git_revision:4a18324a4df6bc98bec0b54d35908d7a9cdc7c32"
              platforms="linux-amd64,linux-arm64,mac-amd64"
              path="prebuilt/third_party/rust/{{.OS}}-{{.Arch}}"/>
     <package name="fuchsia/third_party/rust/target/x86_64-unknown-linux-gnu"
-             version="git_revision:50f2176721a08c0c5673db924a95c0544316682c"
+             version="git_revision:4a18324a4df6bc98bec0b54d35908d7a9cdc7c32"
              platforms="linux-amd64,linux-arm64,mac-amd64"
              path="prebuilt/third_party/rust/{{.OS}}-{{.Arch}}"/>
 
