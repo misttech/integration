@@ -1,0 +1,17 @@
+{
+  "jiri_manifest": "flower",
+  "jiri_project": "integration",
+  "no_python2": true,
+  "recipe": "run_script",
+  "remote": "https://fuchsia.googlesource.com/integration",
+  "script_configs": [
+    {
+      "script": "scripts/fuchsia-vendored-python",
+      "script_args": [
+        "scripts/rust/check_rust_licenses.py",
+        "--directory",
+        "third_party/rust_crates/vendor"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "$fuchsia/rbe": {
+    "instance": "projects/rbe-fuchsia-prod/instances/default"
+  },
+  "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/global.ci/docsgen-sdk-prod.textproto",
+  "manifest": "flower",
+  "no_python2": true,
+  "recipe": "contrib/docsgen",
+  "remote": "https://fuchsia.googlesource.com/integration"
+}

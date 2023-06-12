@@ -1,0 +1,19 @@
+{
+  "cipd_root": "fuchsia",
+  "extra_arch_map": {
+    "recipe_bootstrap": [
+      [
+        "windows",
+        "amd64"
+      ]
+    ]
+  },
+  "manifest": "manifest",
+  "no_python2": true,
+  "output_name_map": {
+    "recipe_bootstrap": "luciexe"
+  },
+  "project": "infra/infra",
+  "recipe": "tools",
+  "remote": "https://fuchsia.googlesource.com/infra/infra"
+}

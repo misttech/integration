@@ -1,0 +1,52 @@
+This file contains useful common templates that can be imported by other template files.
+
+{{- define "status_to_color" -}}
+{{- if eq . 12 }} {{/* SUCCESS */}}
+#049300
+{{- else if eq . 20 -}} {{/* FAILURE */}}
+#b50000
+{{- else if eq . 36 -}} {{/* INFRA FAILURE */}}
+#850093
+{{- else if eq . 68 -}} {{/* CANCELED */}}
+#c400aa
+{{- else -}}
+#000000
+{{- end -}}
+{{- end -}}
+
+{{ define "summary" -}}
+<table style="border: 0">
+  <tr>
+    <td style="text-align: right">Status:</td>
+    <td><span style="color: #ffffff; background-color: {{- template "status_to_color" .Build.Status -}}; font-weight: bold">
+{{ .Build.Status }}
+</span></td>
+  </tr>
+
+  {{ if ne .OldStatus 0 -}}
+  <tr>
+    <td style="text-align: right">Previous status:</td>
+    <td>{{ .OldStatus }}</td>
+  </tr>
+  {{ end -}}
+
+  <tr>
+    <td style="text-align: right">Completed at:</td>
+    <td>{{ .Build.EndTime | time }}</td>
+  </tr>
+  {{ with .Build.GetInput.GetGitilesCommit -}}
+  <tr>
+    <td style="text-align: right">Triggered by:</td>
+    <td><a href="https://{{ .Host }}/{{ .Project }}/+/{{ .Id }}">{{ .Project }}/{{ .Id }}</a></td>
+  </tr>
+  {{ end -}}
+
+  <tr>
+    <td style="text-align: center" colspan="2"><a href="https://ci.chromium.org/b/{{ .Build.Id }}">Build Results Page</a></td>
+  </tr>
+</table>
+{{ end -}}
+
+{{define "report_flake" -}}
+<a href="https://bugs.fuchsia.dev/p/fuchsia/issues/entry?comment=Example%20failure%3A%20https%3A%2F%2Fci.chromium.org%2Fb%2F{{ .Build.Id }}%0A%0AFor%20more%20examples%2C%20see%20https%3A%2F%2Fgoto.google.com%2Ffuchsia-test-flakes%0A%0AREAD%20AND%20DELETE%20THESE%20INSTRUCTIONS%3A%20%0APlease%20paste%20the%20relevant%20logs%20here.%0A%0A&labels=%2CPri-2%2CType-Bug&components=Flake&labels=Restrict-View-Google&summary=%3CREPLACE%20ME%20WITH%20TEST%20NAME%3E%20is%20flaky">Report test flake.</a>
+{{end -}}

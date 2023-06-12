@@ -1,0 +1,21 @@
+{
+  "bucket": "prod",
+  "builders": [
+    "clang-linux-x64",
+    "clang-mac-x64",
+    "clang-windows-x64"
+  ],
+  "enforce_output": true,
+  "no_python2": true,
+  "nonblocking_builders": [
+    "clang-linux-xarm64",
+    "clang-linux-arm64",
+    "clang-mac-xarm64"
+  ],
+  "recipe": "contrib/toolchain_trigger",
+  "timeout": 21600,
+  "triggers": [
+    "clang-goma",
+    "llvm-prod-trigger"
+  ]
+}

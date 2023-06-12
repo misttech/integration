@@ -1,0 +1,19 @@
+{
+  "$fuchsia/rbe": {
+    "instance": "projects/rbe-fuchsia-prod/instances/default"
+  },
+  "cipd_root": "fuchsia",
+  "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/global.ci/sdk-core-mac.textproto",
+  "gcs_bucket": "fuchsia-artifacts",
+  "manifest": "flower",
+  "no_python2": true,
+  "recipe": "sdk",
+  "remote": "https://fuchsia.googlesource.com/integration",
+  "sdk_name": "core",
+  "sdk_subbuilders": [
+    "sdk-core-mac-arm64-build_only",
+    "sdk-core-mac-x64-build_only"
+  ],
+  "subbuild_collect_timeout_secs": 7200,
+  "upload_bazel_sdk": true
+}

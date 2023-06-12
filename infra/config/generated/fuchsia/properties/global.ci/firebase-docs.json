@@ -1,0 +1,15 @@
+{
+  "$fuchsia/rbe": {
+    "instance": "projects/rbe-fuchsia-prod/instances/default"
+  },
+  "dry_run": false,
+  "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/global.ci/firebase-docs.textproto",
+  "generators": [
+    "rustdoc"
+  ],
+  "manifest": "flower",
+  "no_python2": true,
+  "output_name": "all",
+  "recipe": "contrib/firebase_docs",
+  "remote": "https://fuchsia.googlesource.com/integration"
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <imports>
+    <localimport file="minimal"/>
+    <localimport file="prebuilts"/>
+  </imports>
+  <projects>
+    <project name="fuchsia"
+             gitsubmodules="true"
+             path="."
+             githooks="integration/git-hooks"
+             remote="https://fuchsia.googlesource.com/fuchsia"
+             gerrithost="https://fuchsia-review.googlesource.com"
+             revision="1e0398a8834cda0eaf8ef5e310521c36556e251c"/>
+  </projects>
+  <hooks>
+    <hook name="install-environment"
+          project="fuchsia"
+          action="scripts/devshell/lib/add_symlink_to_bin.sh"/>
+    <hook name="gen-ssh-keys"
+          project="fuchsia"
+          action="tools/ssh-keys/gen-ssh-keys.sh"/>
+  </hooks>
+</manifest>

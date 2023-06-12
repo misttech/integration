@@ -1,0 +1,21 @@
+{
+  "builders": {
+    "linux-amd64": [
+      "fuchsia/rust_toolchain.core.arm64-debug",
+      "fuchsia/rust_toolchain.core.arm64-release",
+      "fuchsia/rust_toolchain.core.x64-debug",
+      "fuchsia/rust_toolchain.core.x64-release"
+    ],
+    "mac-amd64": [
+      "fuchsia/rust_toolchain.core.x64-host_test_only-mac"
+    ]
+  },
+  "default_ref": "refs/heads/main",
+  "no_python2": true,
+  "recipe": "contrib/rust_toolchain",
+  "repository": "https://fuchsia.googlesource.com/third_party/rust",
+  "test_suites": [
+    "tests/ui"
+  ],
+  "upload_to_cipd": true
+}

@@ -1,0 +1,8 @@
+{
+  "build_target": ":infra",
+  "default_service_account": "artifact-readers@fuchsia-infra.iam.gserviceaccount.com",
+  "no_python2": true,
+  "recipe": "bazel_build_test_upload",
+  "remote": "https://fuchsia.googlesource.com/drivers/misc/google/backlight",
+  "upload_to_cipd": true
+}

@@ -1,0 +1,10 @@
+{
+  "no_python2": true,
+  "recipe": "run_script",
+  "remote": "https://fuchsia.googlesource.com/shac-project/fuchsia-checks",
+  "script_configs": [
+    {
+      "script": "scripts/tests.sh"
+    }
+  ]
+}

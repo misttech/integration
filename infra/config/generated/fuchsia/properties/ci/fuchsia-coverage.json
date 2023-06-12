@@ -1,0 +1,50 @@
+{
+  "$fuchsia/rbe": {
+    "instance": "projects/rbe-fuchsia-prod/instances/default"
+  },
+  "absolute_coverage_args": {
+    "host": "turquoise-internal",
+    "project": "turquoise"
+  },
+  "artifact_gcs_bucket": "fuchsia-artifacts",
+  "coverage_builders": {
+    "core.arm64-coverage-qemu_kvm": [
+      ".cc",
+      ".cpp",
+      ".cxx",
+      ".c++",
+      ".h",
+      ".hpp",
+      ".hxx",
+      ".hh",
+      ".inc",
+      ".ipp",
+      ".inl",
+      ".def",
+      ".c"
+    ],
+    "core.x64-coverage-qemu_kvm": [
+      ".cc",
+      ".cpp",
+      ".cxx",
+      ".c++",
+      ".h",
+      ".hpp",
+      ".hxx",
+      ".hh",
+      ".inc",
+      ".ipp",
+      ".inl",
+      ".def",
+      ".c"
+    ],
+    "core.x64-coverage-rust-qemu_kvm": [
+      ".rs"
+    ]
+  },
+  "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/ci/fuchsia-coverage.textproto",
+  "manifest": "flower",
+  "no_python2": true,
+  "recipe": "fuchsia/coverage",
+  "remote": "https://fuchsia.googlesource.com/integration"
+}
