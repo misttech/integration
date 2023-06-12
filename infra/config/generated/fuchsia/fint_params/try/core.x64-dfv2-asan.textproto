@@ -22,6 +22,4 @@ test_durations_file: "prebuilt/infra/test_durations/fuchsia/core.x64-dfv2-asan.j
 default_test_durations_file: "prebuilt/infra/test_durations/fuchsia/default.json"
 rust_rbe_enable: true
 cxx_rbe_enable: true
-incremental: true
 include_default_ninja_target: true
-use_temporary_go_cache: true

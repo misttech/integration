@@ -6,7 +6,6 @@ board: "boards/qemu-x64.gni"
 product: "products/core.gni"
 gn_args: "clang_enable_error_reproducers = true"
 gn_args: "optimize = \"coverage\""
-universe_packages: "//bundles/buildbot/core:cuckoo_tests"
 universe_packages: "//bundles/buildbot/core:no_e2e"
 host_labels: "//bundles/buildbot/host:no_e2e"
 host_labels: "//bundles/infra/build"
@@ -19,6 +18,4 @@ include_prebuilt_binary_manifests: true
 skip_if_unaffected: true
 rust_rbe_enable: true
 cxx_rbe_enable: true
-incremental: true
 include_default_ninja_target: true
-use_temporary_go_cache: true

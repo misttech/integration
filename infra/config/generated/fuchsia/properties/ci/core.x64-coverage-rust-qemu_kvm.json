@@ -6,11 +6,9 @@
     "build": {
       "enable_sandboxing": true,
       "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/ci/core.x64-coverage-rust-qemu_kvm.textproto",
-      "incremental": true,
       "run_tests": true
     },
     "checkout": {
-      "enable_submodules": true,
       "manifest": "flower",
       "remote": "https://fuchsia.googlesource.com/integration"
     },

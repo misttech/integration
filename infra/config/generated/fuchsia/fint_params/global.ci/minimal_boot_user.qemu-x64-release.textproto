@@ -5,7 +5,6 @@ optimize: RELEASE
 board: "boards/qemu-x64.gni"
 product: "products/tests/minimal_boot_user.gni"
 gn_args: "build_should_trace_actions = true"
-base_packages: "//bundles/buildbot/minimal"
 host_labels: "//bundles/infra/build"
 host_labels: "//bundles/infra/test"
 target_arch: X64
@@ -17,6 +16,4 @@ test_durations_file: "prebuilt/infra/test_durations/fuchsia/minimal_boot_user.qe
 default_test_durations_file: "prebuilt/infra/test_durations/fuchsia/default.json"
 rust_rbe_enable: true
 cxx_rbe_enable: true
-incremental: true
 include_default_ninja_target: true
-use_temporary_go_cache: true

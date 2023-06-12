@@ -22,9 +22,7 @@ swarming {
     }
     properties:
       '{'
-      '  "$fuchsia/builder_tags": {'
-      '    "in_fuchsia_critical_path": true'
-      '  },'
+      '  "is_fyi": true,'
       '  "led_builder_is_bootstrapped": true,'
       '  "recipe": "fuchsia/build",'
       '  "recipes_host_override": "fuchsia.googlesource.com"'
@@ -41,7 +39,6 @@ swarming {
     caches {
       name: "fuchsia_incremental_b9076d66bff07a9b62442b8f334098e28b4977469326a9b4e0a2ae630b3f4550"
       path: "incremental"
-      wait_for_warm_cache_secs: 120
     }
     caches {
       name: "fuchsia_rbe_b9076d66bff07a9b62442b8f334098e28b4977469326a9b4e0a2ae630b3f4550"

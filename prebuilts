@@ -48,7 +48,7 @@
          Builder at https://ci.chromium.org/p/turquoise/builders/prod/aemu_downloader
     -->
     <package name="fuchsia/third_party/android/aemu/release/${platform}"
-             version="bid:10460296"
+             version="bid:10299748"
              platforms="linux-amd64,mac-amd64,linux-arm64,mac-arm64"
              path="prebuilt/third_party/android/aemu/release/{{.OS}}-{{.Arch}}"/>
 
@@ -58,7 +58,7 @@
           sufficient.
      -->
      <package name="fuchsia/third_party/android/aemu/release/${os}-arm64"
-             version="bid:10460296"
+             version="bid:10299748"
              platforms="linux-amd64,mac-amd64"
              attributes="arm-sdk-tools"
              path="prebuilt/third_party/android/aemu/release/{{.OS}}-arm64"/>
@@ -94,7 +94,7 @@
          Recipe: https://fuchsia.googlesource.com/infra/3pp/+/refs/heads/main/bazel_workspacelogparser/3pp.pb
     -->
     <package name="fuchsia/third_party/bazel/${platform}"
-             version="version:2@6.2.1.6"
+             version="version:2@6.1.0.5"
              platforms="linux-amd64,mac-amd64"
              path="prebuilt/third_party/bazel/{{.OS}}-{{.Arch}}"/>
 
@@ -149,18 +149,18 @@
              path="prebuilt/tools/cgpt/{{.OS}}-{{.Arch}}"
              platforms="linux-amd64,mac-amd64"/>
     <package name="fuchsia/tools/futility/${platform}"
-             version="git_revision:b5482f8b5012713379c0ac747530e896cc5f4df7"
+             version="git_revision:8e70d19927bb21d951166188d16f1a60b2f8d3ab"
              path="prebuilt/tools/futility/{{.OS}}-{{.Arch}}"
              platforms="linux-amd64,mac-amd64"/>
 
     <!-- Packages for build -->
     <!--   Dart -->
     <package name="fuchsia/dart-sdk/${platform}"
-             version="git_revision:8296054868c970678d9baa2405437057be039119"
+             version="git_revision:88d1f3ffa266d94c3a1241a60ad27c1072eecaee"
              platforms="linux-amd64,mac-amd64"
              path="prebuilt/third_party/dart/{{.OS}}-{{.Arch}}"/>
     <package name="fuchsia/dart-sdk/${platform}"
-             version="git_revision:8296054868c970678d9baa2405437057be039119"
+             version="git_revision:88d1f3ffa266d94c3a1241a60ad27c1072eecaee"
              platforms="linux-amd64,mac-amd64"
              path="prebuilt/third_party/dart_paused/{{.OS}}-{{.Arch}}"/>
 
@@ -172,21 +172,21 @@
            TODO(kaushikiska): fix the internal structure of the Flutter CIPD
            package and change this path to prebuilt/third_party/flutter -->
     <package name="flutter/fuchsia"
-             version="git_revision:05c14f07f0e5a1ede8541ae3807a0f269833106d"
+             version="git_revision:c08a286d60e980d32ef9b8932927f5e194e0a203"
              platforms="linux-amd64,linux-arm64,mac-amd64"
              path="prebuilt/third_party"/>
     <package name="flutter/sky_engine"
-             version="git_revision:05c14f07f0e5a1ede8541ae3807a0f269833106d"
+             version="git_revision:c08a286d60e980d32ef9b8932927f5e194e0a203"
              platforms="linux-amd64,linux-arm64,mac-amd64"
              path="prebuilt/third_party/sky_engine"/>
     <!-- Flutter Debug symbols -->
     <package name="flutter/fuchsia-debug-symbols-x64"
-             version="git_revision:05c14f07f0e5a1ede8541ae3807a0f269833106d"
+             version="git_revision:c08a286d60e980d32ef9b8932927f5e194e0a203"
              path="prebuilt/.build-id"
              platforms="linux-amd64,linux-arm64,mac-amd64"
              attributes="debug-symbols,debug-symbols-x64,debug-symbols-flutter"/>
     <package name="flutter/fuchsia-debug-symbols-arm64"
-             version="git_revision:05c14f07f0e5a1ede8541ae3807a0f269833106d"
+             version="git_revision:c08a286d60e980d32ef9b8932927f5e194e0a203"
              path="prebuilt/.build-id"
              platforms="linux-amd64,linux-arm64,mac-amd64"
              attributes="debug-symbols,debug-symbols-arm64,debug-symbols-flutter"/>
@@ -209,7 +209,7 @@
              platforms="linux-amd64,mac-amd64"/>
     <!--   FFMPEG library -->
     <package name="fuchsia/lib/ffmpeg/fuchsia"
-             version="git_revision:eb6ffa3886e5c8bd7b5a60f0b1f4bcaf17cf93c8"
+             version="git_revision:7a3803922356d978fa1908babc273cd30ceb24a3"
              platforms="linux-amd64,linux-arm64,mac-amd64"
              path="prebuilt/third_party/ffmpeg"/>
     <!--   Fonts -->
@@ -229,7 +229,7 @@
              path="prebuilt/third_party/zoneinfo"/>
     <!--   Skia Gold -->
     <package name="skia/tools/goldctl/${platform}"
-             version="git_revision:bfcdb6a57f4f9857705256de22c3f93259a54752"
+             version="git_revision:22f6f2a7dc1cc3c91f5ca3873ac86740c2dab000"
              platforms="linux-amd64,linux-arm64,mac-amd64"
              path="prebuilt/third_party/goldctl"/>
     <!--   Vulkan Runtime (for host builds) -->
@@ -262,8 +262,8 @@
              flag="build/cipd.gni|internal_access = true|internal_access = false"
              internal="true"/>
     <!--   Broadcom bluetooth firmware -->
-    <package name="fuchsia_internal/firmware/bluetooth/broadcom"
-             version="version:014"
+    <package name="fuchsia_internal/firmware/bluetooth/bcm4345c5"
+             version="version:011"
              path="prebuilt/connectivity/bluetooth/firmware/broadcom"
              platforms="linux-amd64,linux-arm64,mac-amd64"
              internal="true"/>
@@ -461,26 +461,26 @@
     <package name="fuchsia/cts/${platform}"
              path="prebuilt/cts/canary/{{.OS}}-{{.Arch}}"
              platforms="linux-amd64"
-             version="git_revision:1431f0e6a242276cbfa3823dd65bc199e8e69cd0"/>
+             version="git_revision:33e44a65cf7fa853bf6f0522a44b5c49f786b100"/>
 
     <!-- Packages in /infra/tools/ -->
     <package name="infra/tools/bb/${platform}"
              path="prebuilt/tools/buildbucket"
-             version="git_revision:bfcdb6a57f4f9857705256de22c3f93259a54752"
+             version="git_revision:22f6f2a7dc1cc3c91f5ca3873ac86740c2dab000"
              platforms="linux-amd64,linux-arm64,mac-amd64"/>
     <package name="infra/tools/luci/gsutil/${platform}"
              path="prebuilt/tools/gsutil"
              platforms="linux-amd64,linux-arm64,mac-amd64"
-             version="git_revision:bfcdb6a57f4f9857705256de22c3f93259a54752"/>
+             version="git_revision:22f6f2a7dc1cc3c91f5ca3873ac86740c2dab000"/>
     <package name="infra/tools/luci/logdog/logdog/${platform}"
              path="prebuilt/tools/logdog"
              platforms="linux-amd64,mac-amd64"
-             version="git_revision:bfcdb6a57f4f9857705256de22c3f93259a54752"/>
+             version="git_revision:22f6f2a7dc1cc3c91f5ca3873ac86740c2dab000"/>
 
     <!-- Packages in /fuchsia/infra -->
     <package name="fuchsia/infra/artifacts/${platform}"
              path="prebuilt/tools/artifacts"
-             version="git_revision:5f7654ee8e90c9e0ed80d1987153f9403fc58a34"
+             version="git_revision:6462e278301f262ecb81e80ded2ff5fc4eb655ea"
              platforms="linux-amd64,linux-arm64,mac-amd64"/>
     <package name="fuchsia/infra/lkg/${platform}"
              path="prebuilt/tools/lkg"
@@ -519,7 +519,7 @@
     <!-- Virtual Device Launcher -->
     <package name="fuchsia/vdl/${platform}"
              path="prebuilt/vdl"
-             version="g3-revision:vdl_fuchsia_20230622_RC00"
+             version="g3-revision:vdl_fuchsia_20230609_RC00"
              platforms="linux-amd64,mac-amd64"/>
 
     <!-- fsatrace -->
@@ -557,35 +557,24 @@
     <!-- Starnix root filesystem image for testing on x64 -->
     <package name="fuchsia/third_party/starnix/linux-amd64"
              path="prebuilt/starnix/linux-amd64"
-             version="version:debian-sid-glibc-2.36-9"/>
+             version="version:debian-sid-glibc-2.36-8"/>
 
     <!-- Starnix root filesystem image for testing on arm64 -->
     <package name="fuchsia/third_party/starnix/linux-arm64"
              path="prebuilt/starnix/linux-arm64"
-             version="version:debian-sid-glibc-2.36-9"/>
-
-    <!-- Starnix root filesystem image for testing on riscv64 -->
-    <package name="fuchsia/third_party/starnix/linux-riscv64"
-             path="prebuilt/starnix/linux-riscv64"
-             version="version:debian-sid-glibc-2.36-9-new"/>
+             version="version:debian-sid-glibc-2.36-8"/>
 
     <!-- Starnix debug symbols for linux-amd64 image -->
     <package name="fuchsia/third_party/starnix/linux-debug-symbols-amd64"
              path="prebuilt/.build-id"
-             version="version:debian-sid-glibc-2.36-9"
+             version="version:debian-sid-glibc-2.36-8"
              attributes="debug-symbols,debug-symbols-x64"/>
 
     <!-- Starnix debug symbols for linux-arm64 image -->
     <package name="fuchsia/third_party/starnix/linux-debug-symbols-arm64"
              path="prebuilt/.build-id"
-             version="version:debian-sid-glibc-2.36-9"
+             version="version:debian-sid-glibc-2.36-8"
              attributes="debug-symbols,debug-symbols-arm64"/>
-
-    <!-- Starnix debug symbols for linux-riscv64 image -->
-    <package name="fuchsia/third_party/starnix/linux-debug-symbols-riscv64"
-             path="prebuilt/.build-id"
-             version="version:debian-sid-glibc-2.36-9"
-             attributes="debug-symbols,debug-symbols-riscv64"/>
 
     <!-- Starnix fuse-overlayfs for testing on x64 -->
     <package name="fuchsia/third_party/starnix/fuse-overlayfs-amd64"
@@ -611,42 +600,42 @@
     <!-- Starnix test binaries -->
     <package name="fuchsia/starnix/tests/syscalls/linux-amd64"
              path="prebuilt/starnix/tests/syscalls/linux-amd64"
-             version="g3-revision:fuchsia_starnix_tests_20230711_02_RC00"/>
+             version="g3-revision:fuchsia_starnix_tests_20230610_03_RC00"/>
 
     <package name="fuchsia/starnix/tests/syscalls/linux-arm64"
              path="prebuilt/starnix/tests/syscalls/linux-arm64"
-             version="g3-revision:fuchsia_starnix_tests_20230711_02_RC00"/>
+             version="g3-revision:fuchsia_starnix_tests_20230610_03_RC00"/>
 
     <package name="fuchsia/starnix/tests/syscalls/linux-debug-symbols-amd64"
              path="prebuilt/.build-id"
-             version="g3-revision:fuchsia_starnix_tests_20230711_02_RC00"
+             version="g3-revision:fuchsia_starnix_tests_20230610_03_RC00"
              attributes="debug-symbols,debug-symbols-x64"/>
 
     <package name="fuchsia/starnix/tests/syscalls/linux-debug-symbols-arm64"
              path="prebuilt/.build-id"
-             version="g3-revision:fuchsia_starnix_tests_20230711_02_RC00"
+             version="g3-revision:fuchsia_starnix_tests_20230610_03_RC00"
              attributes="debug-symbols,debug-symbols-arm64"/>
 
     <!-- ARM Mali Vulkan ICDs -->
     <package name="fuchsia/prebuilt/proprietary/vendor/arm/libvulkan/libvulkan_arm_mali_g52_r0p0"
              path="prebuilt/proprietary/vendor/arm/libvulkan_arm_g52_r0p0"
-             version="XovIEpL4uUfOeV2hOfNyfEsNRq-NGVRRYsmjX9bX0IwC"
+             version="8edcB7j_gWlMoxkt8JMVfSwj1s2u4g_bm3ueZLoLvXwC"
              internal="true"/>
 
     <!-- Intel media codecs -->
     <package name="fuchsia/third_party/intel/media-driver/codec_runner_intel_gen-debug-x64"
              path="prebuilt/third_party/intel/media-driver/codec_runner_intel_gen-debug-x64"
-             version="i8hnVnIx5fUD-tPk3PS8G9sNd2_pRMR4V_DBw1MUGxEC"/>
+             version="j0b_FusUHrZxL8XYqVRwvQX8D6F99uBhrluomuvx9rAC"/>
     <package name="fuchsia/third_party/intel/media-driver/codec_runner_intel_gen-debug-debug-symbols-x64"
              path="prebuilt/.build-id"
-             version="z72xX754NoxajJ8-FaCeibNZYz9j9IQKz2G8ATyTm_8C"
+             version="7i-TKwU9Gso9dhNGbNWAENYJIRdq6LCxhnh2C4zrJSgC"
              attributes="debug-symbols,debug-symbols-x64,debug-symbols-intel-gen"/>
     <package name="fuchsia/third_party/intel/media-driver/codec_runner_intel_gen-x64"
              path="prebuilt/third_party/intel/media-driver/codec_runner_intel_gen-x64"
-             version="3jJN144K3kohcoYrLWt2FvGCwjagf9IrQpCPO5rnKbQC"/>
+             version="fan4jWUt7TpWonlzbc9DfoyfdY-hu2gq_6Eq2DKRv40C"/>
     <package name="fuchsia/third_party/intel/media-driver/codec_runner_intel_gen-debug-symbols-x64"
              path="prebuilt/.build-id"
-             version="zsB31MXjflKKGL8djkcyXsPEhGLCMIr9Zs9jfAq3i9MC"
+             version="F9e-AKXAbhfT3hV8Q9UVtp25yavCzuwOuU-HmGm-NwoC"
              attributes="debug-symbols,debug-symbols-x64,debug-symbols-intel-gen"/>
 
     <!-- Bazel SDK sample packages built OOT -->
@@ -668,10 +657,10 @@
              attributes="debug-symbols,debug-symbols-x64"/>
     <package name="fuchsia/drivers/wlan/intel/iwlwifi/x64"
              path="prebuilt/drivers/wlan/intel/iwlwifi"
-             version="git_revision:710f3e37335b20c9bbd1960e523770bd5c4f84e8"/>
+             version="git_revision:ab26803cc8ade4e7a6495a225d6c57e142d93792"/>
     <package name="fuchsia/drivers/wlan/intel/iwlwifi/debug-symbols-x64"
              path="prebuilt/.build-id"
-             version="git_revision:710f3e37335b20c9bbd1960e523770bd5c4f84e8"
+             version="git_revision:ab26803cc8ade4e7a6495a225d6c57e142d93792"
              attributes="debug-symbols,debug-symbols-x64"/>
   </packages>
 </manifest>

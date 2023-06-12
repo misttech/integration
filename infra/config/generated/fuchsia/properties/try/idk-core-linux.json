@@ -11,8 +11,7 @@
     "artifact_gcs_bucket": "fuchsia-artifacts",
     "build": {
       "enable_sandboxing": true,
-      "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/try/idk-core-linux.textproto",
-      "incremental": true
+      "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/try/idk-core-linux.textproto"
     },
     "checkout": {
       "manifest": "flower",
