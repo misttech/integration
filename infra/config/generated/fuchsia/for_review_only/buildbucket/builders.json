@@ -127,6 +127,7 @@
 		"global.ci/bringup.riscv64-thinlto",
 		"global.ci/bringup.riscv64-thinlto-build_only",
 		"global.ci/bringup.riscv64-thinlto-subbuild",
+		"global.ci/minimal.riscv64-release-build_only",
 		"try/bringup.qemu-riscv64-build_only",
 		"try/bringup.riscv64-asan",
 		"try/bringup.riscv64-asan-build_only",
@@ -148,7 +149,10 @@
 		"try/bringup.riscv64-thinlto-build_only",
 		"try/bringup.riscv64-thinlto-subbuild",
 		"try/bringup.x64-riscv",
-		"try/bringup.x64-riscv-subbuild"
+		"try/bringup.x64-riscv-subbuild",
+		"try/minimal.riscv64-release",
+		"try/minimal.riscv64-release-build_only",
+		"try/minimal.riscv64-release-subbuild"
 	],
 	"fuchsia-sdk-release-notify@google.com": [
 		"ci/sdk-samples-getting-started-rust",
