@@ -1,24 +1,4 @@
 {
-	"<none>": [
-		"try/bringup.vim3-debug-build_only",
-		"try/core.arm64-kasan-slow",
-		"try/core.arm64-kasan-slow-subbuild",
-		"try/core.arm64-tcg",
-		"try/core.arm64-tcg-subbuild",
-		"try/core.vim3-build_only",
-		"try/core.vim3-debug-fyi",
-		"try/core.vim3-debug-fyi-subbuild",
-		"try/core.x64-asan-incremental-experimental",
-		"try/core.x64-asan-incremental-experimental-subbuild",
-		"try/core.x64-asan-kasan-nuc_in_basic_envs",
-		"try/core.x64-asan-kasan-nuc_in_basic_envs-subbuild",
-		"try/core.x64-asan-rust_bootfs",
-		"try/core.x64-asan-rust_bootfs-subbuild",
-		"try/core.x64-debug-cas",
-		"try/core.x64-debug-cas-subbuild",
-		"try/core.x64-host_test_only-mac_m1",
-		"try/core.x64-host_test_only-mac_m1-subbuild"
-	],
 	"chrome-fuchsia-team@google.com": [
 		"try/core.x64-release-chromium_latest",
 		"try/core.x64-release-chromium_latest-subbuild"
@@ -354,6 +334,8 @@
 		"try/core.arm64-debug-mac-build_only",
 		"try/core.arm64-debug-no_opt-build_only",
 		"try/core.arm64-kasan",
+		"try/core.arm64-kasan-slow",
+		"try/core.arm64-kasan-slow-subbuild",
 		"try/core.arm64-kasan-subbuild",
 		"try/core.arm64-lto",
 		"try/core.arm64-lto-subbuild",
@@ -913,8 +895,12 @@
 		"try/bringup.x64-asan-submodule-subbuild",
 		"try/bringup.x64-gce-staging",
 		"try/bringup.x64-gce-staging-subbuild",
+		"try/core.arm64-tcg",
+		"try/core.arm64-tcg-subbuild",
 		"try/core.x64-gce-staging",
 		"try/core.x64-gce-staging-subbuild",
+		"try/core.x64-host_test_only-mac_m1",
+		"try/core.x64-host_test_only-mac_m1-subbuild",
 		"try/jiri",
 		"try/kythe",
 		"try/rollable-submodule-roller"
