@@ -4,7 +4,6 @@
 optimize: DEBUG
 board: "boards/x64.gni"
 product: "products/core.gni"
-gn_args: "restat_rust = true"
 universe_packages: "//bundles/buildbot/core"
 host_labels: "//bundles/infra/build"
 target_arch: X64
