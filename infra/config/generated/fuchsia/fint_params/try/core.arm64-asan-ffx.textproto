@@ -5,6 +5,7 @@ optimize: DEBUG
 board: "boards/arm64.gni"
 product: "products/core.gni"
 gn_args: "optimize = \"sanitizer\""
+gn_args: "restat_rust = true"
 base_packages: "//bundles/buildbot/core"
 host_labels: "//bundles/buildbot/host"
 host_labels: "//bundles/infra/build"

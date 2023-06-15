@@ -5,6 +5,7 @@ optimize: RELEASE
 board: "boards/vim3-reduced-perf-variation.gni"
 product: "products/terminal.gni"
 gn_args: "build_should_trace_actions = true"
+gn_args: "restat_rust = true"
 base_packages: "//bundles/buildbot/terminal"
 host_labels: "//bundles/infra/build"
 host_labels: "//bundles/infra/test"

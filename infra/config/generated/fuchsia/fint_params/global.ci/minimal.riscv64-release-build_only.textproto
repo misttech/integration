@@ -5,6 +5,7 @@ optimize: RELEASE
 board: "boards/riscv64.gni"
 product: "products/minimal.gni"
 gn_args: "build_should_trace_actions = true"
+gn_args: "restat_rust = true"
 host_labels: "//bundles/infra/build"
 target_arch: RISCV64
 pave: true
