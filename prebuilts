@@ -262,8 +262,8 @@
              flag="build/cipd.gni|internal_access = true|internal_access = false"
              internal="true"/>
     <!--   Broadcom bluetooth firmware -->
-    <package name="fuchsia_internal/firmware/bluetooth/bcm4345c5"
-             version="version:011"
+    <package name="fuchsia_internal/firmware/bluetooth/broadcom"
+             version="version:014"
              path="prebuilt/connectivity/bluetooth/firmware/broadcom"
              platforms="linux-amd64,linux-arm64,mac-amd64"
              internal="true"/>
