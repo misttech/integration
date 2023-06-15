@@ -5,7 +5,6 @@ optimize: RELEASE
 product: "products/core.gni"
 gn_args: "arm_sdk_tools = true"
 gn_args: "build_should_trace_actions = true"
-gn_args: "output_breakpad_syms = true"
 gn_args: "sdk_cross_compile_host_tools = true"
 ninja_targets: ":developer_host_tools"
 ninja_targets: "build/bazel:generate_fuchsia_sdk_repository"
