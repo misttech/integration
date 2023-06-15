@@ -3,6 +3,7 @@
 
 optimize: RELEASE
 product: "products/core.gni"
+gn_args: "restat_rust = true"
 ninja_targets: ":developer_host_tools"
 universe_packages: "//bundles/buildbot/core"
 host_labels: "//bundles/buildbot/host"

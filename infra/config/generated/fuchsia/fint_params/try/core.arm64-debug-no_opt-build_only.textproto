@@ -7,6 +7,7 @@ product: "products/core.gni"
 gn_args: "build_should_trace_actions = true"
 gn_args: "clippy_cause_failure = true"
 gn_args: "optimize = \"none\""
+gn_args: "restat_rust = true"
 universe_packages: "//bundles/buildbot/core"
 host_labels: "//bundles/infra/build"
 target_arch: ARM64
