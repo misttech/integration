@@ -581,10 +581,14 @@
 		"global.ci/bringup.x64-fuzz_asan-build_only",
 		"global.ci/core.arm64-fuzz_asan-build_only",
 		"global.ci/core.arm64-fuzz_ubsan-build_only",
+		"global.ci/core.x64-kubsan",
+		"global.ci/core.x64-kubsan-subbuild",
 		"try/bringup.arm64-fuzz_asan-build_only",
 		"try/bringup.x64-fuzz_asan-build_only",
 		"try/core.arm64-fuzz_asan-build_only",
-		"try/core.arm64-fuzz_ubsan-build_only"
+		"try/core.arm64-fuzz_ubsan-build_only",
+		"try/core.x64-kubsan",
+		"try/core.x64-kubsan-subbuild"
 	],
 	"tq-size-team@google.com": [
 		"global.ci/core_size_limits.arm64-release-build_only",
