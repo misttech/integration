@@ -13,6 +13,7 @@ host_labels: "//bundles/infra/test"
 target_arch: ARM64
 variants: "host_asan-ubsan"
 variants: "hwasan-ubsan"
+variants: "kasan"
 include_images: true
 include_prebuilt_binary_manifests: true
 include_host_tests: true
