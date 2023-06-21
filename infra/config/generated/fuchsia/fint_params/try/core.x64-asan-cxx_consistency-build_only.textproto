@@ -7,6 +7,8 @@ product: "products/core.gni"
 gn_args: "build_should_trace_actions = true"
 gn_args: "cxx_rbe_check = \"consistency\""
 gn_args: "optimize = \"sanitizer\""
+gn_args: "restat_cc = false"
+gn_args: "restat_rust = false"
 universe_packages: "//bundles/buildbot/core"
 host_labels: "//bundles/infra/build"
 target_arch: X64

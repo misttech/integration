@@ -5,6 +5,8 @@ optimize: DEBUG
 board: "boards/arm64.gni"
 product: "products/core_size_limits.gni"
 gn_args: "build_should_trace_actions = true"
+gn_args: "restat_cc = false"
+gn_args: "restat_rust = false"
 ninja_targets: "build/images:check_vtables_in_rodata"
 base_packages: "//bundles/buildbot/core"
 host_labels: "//bundles/buildbot/host"

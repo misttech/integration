@@ -5,6 +5,8 @@ optimize: RELEASE
 product: "products/core.gni"
 gn_args: "clang_enable_error_reproducers = true"
 gn_args: "clang_ml_inliner = false"
+gn_args: "restat_cc = false"
+gn_args: "restat_rust = false"
 ninja_targets: ":developer_host_tools"
 universe_packages: "//bundles/buildbot/core"
 host_labels: "//bundles/buildbot/host"
