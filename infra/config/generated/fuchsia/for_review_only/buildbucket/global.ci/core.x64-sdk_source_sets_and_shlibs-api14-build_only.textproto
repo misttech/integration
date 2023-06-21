@@ -7,7 +7,7 @@
 name: "global.ci"
 swarming {
   builders {
-    name: "core.x64-sdk_source_sets_and_shlibs-api13-build_only"
+    name: "core.x64-sdk_source_sets_and_shlibs-api14-build_only"
     swarming_host: "chromium-swarm.appspot.com"
     dimensions: "cores:32"
     dimensions: "cpu:x64"
@@ -22,10 +22,7 @@ swarming {
     }
     properties:
       '{'
-      '  "$fuchsia/builder_tags": {'
-      '    "in_fuchsia_critical_path": true,'
-      '    "include_in_flake_analysis": true'
-      '  },'
+      '  "is_fyi": true,'
       '  "led_builder_is_bootstrapped": true,'
       '  "recipe": "fuchsia/build",'
       '  "recipes_host_override": "fuchsia.googlesource.com"'
