@@ -564,6 +564,11 @@
              path="prebuilt/starnix/linux-arm64"
              version="version:debian-sid-glibc-2.36-8"/>
 
+    <!-- Starnix root filesystem image for testing on riscv64 -->
+    <package name="fuchsia/third_party/starnix/linux-riscv64"
+             path="prebuilt/starnix/linux-riscv64"
+             version="version:debian-sid-glibc-2.36-9-new"/>
+
     <!-- Starnix debug symbols for linux-amd64 image -->
     <package name="fuchsia/third_party/starnix/linux-debug-symbols-amd64"
              path="prebuilt/.build-id"
@@ -575,6 +580,12 @@
              path="prebuilt/.build-id"
              version="version:debian-sid-glibc-2.36-8"
              attributes="debug-symbols,debug-symbols-arm64"/>
+
+    <!-- Starnix debug symbols for linux-riscv64 image -->
+    <package name="fuchsia/third_party/starnix/linux-debug-symbols-riscv64"
+             path="prebuilt/.build-id"
+             version="version:debian-sid-glibc-2.36-9"
+             attributes="debug-symbols,debug-symbols-riscv64"/>
 
     <!-- Starnix fuse-overlayfs for testing on x64 -->
     <package name="fuchsia/third_party/starnix/fuse-overlayfs-amd64"
