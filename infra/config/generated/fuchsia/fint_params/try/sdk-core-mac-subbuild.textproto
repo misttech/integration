@@ -3,8 +3,6 @@
 
 optimize: RELEASE
 product: "products/core.gni"
-gn_args: "restat_cc = false"
-gn_args: "restat_rust = false"
 ninja_targets: ":developer_host_tools"
 ninja_targets: "final_fuchsia_idk"
 host_labels: "//bundles/infra/build"
@@ -13,3 +11,5 @@ pave: true
 include_prebuilt_binary_manifests: true
 skip_if_unaffected: true
 use_goma: true
+incremental: true
+use_temporary_go_cache: true

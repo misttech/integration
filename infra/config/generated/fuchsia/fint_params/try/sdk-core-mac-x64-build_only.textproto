@@ -3,8 +3,6 @@
 
 optimize: RELEASE
 product: "products/core.gni"
-gn_args: "restat_cc = false"
-gn_args: "restat_rust = false"
 ninja_targets: ":developer_host_tools"
 ninja_targets: "build/bazel:generate_fuchsia_sdk_repository"
 ninja_targets: "sdk:driver"
@@ -15,3 +13,5 @@ target_arch: X64
 pave: true
 include_prebuilt_binary_manifests: true
 use_goma: true
+incremental: true
+use_temporary_go_cache: true

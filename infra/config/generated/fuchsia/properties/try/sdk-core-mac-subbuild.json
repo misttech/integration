@@ -9,6 +9,7 @@
     "build": {
       "enable_sandboxing": true,
       "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/try/sdk-core-mac-subbuild.textproto",
+      "incremental": true,
       "sdk_subbuild": true
     },
     "checkout": {
