@@ -5,6 +5,8 @@ optimize: RELEASE
 product: "products/core.gni"
 gn_args: "arm_sdk_tools = true"
 gn_args: "build_should_trace_actions = true"
+gn_args: "restat_cc = false"
+gn_args: "restat_rust = false"
 gn_args: "sdk_cross_compile_host_tools = true"
 ninja_targets: ":developer_host_tools"
 ninja_targets: "build/bazel:generate_fuchsia_sdk_repository"
@@ -17,5 +19,3 @@ pave: true
 include_prebuilt_binary_manifests: true
 rust_rbe_enable: true
 cxx_rbe_enable: true
-incremental: true
-use_temporary_go_cache: true
