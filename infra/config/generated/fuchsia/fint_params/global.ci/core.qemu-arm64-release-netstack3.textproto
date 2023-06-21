@@ -5,7 +5,6 @@ optimize: RELEASE
 board: "boards/qemu-arm64.gni"
 product: "products/core_with_netstack3.gni"
 gn_args: "build_should_trace_actions = true"
-gn_args: "restat_rust = true"
 base_packages: "//bundles/buildbot/core:no_e2e"
 host_labels: "//bundles/buildbot/host:no_e2e"
 host_labels: "//bundles/infra/build"

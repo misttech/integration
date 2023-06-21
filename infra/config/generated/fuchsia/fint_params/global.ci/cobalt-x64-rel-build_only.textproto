@@ -4,7 +4,6 @@
 optimize: RELEASE
 product: "products/core.gni"
 gn_args: "build_should_trace_actions = true"
-gn_args: "restat_rust = true"
 ninja_targets: ":developer_host_tools"
 ninja_targets: "src/cobalt:cobalt"
 ninja_targets: "src/lib/cobalt:cobalt"
