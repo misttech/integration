@@ -5,7 +5,6 @@ optimize: RELEASE
 board: "boards/x64.gni"
 product: "products/core.gni"
 gn_args: "hangcheck_timeout_ms=5000"
-gn_args: "restat_rust = true"
 base_packages: "//third_party/vulkan-cts/fuchsia:vulkan-cts"
 host_labels: "//bundles/buildbot/host"
 host_labels: "//bundles/infra/build"

@@ -5,7 +5,6 @@ optimize: DEBUG
 board: "boards/x64.gni"
 product: "products/core.gni"
 gn_args: "build_should_trace_actions = true"
-gn_args: "restat_rust = true"
 base_packages: "//bundles/buildbot/core"
 host_labels: "//bundles/buildbot/host"
 host_labels: "//bundles/infra/build"
