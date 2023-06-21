@@ -4,8 +4,6 @@
 optimize: RELEASE
 product: "products/core.gni"
 gn_args: "build_should_trace_actions = true"
-gn_args: "restat_cc = false"
-gn_args: "restat_rust = false"
 ninja_targets: ":developer_host_tools"
 ninja_targets: "final_fuchsia_idk"
 host_labels: "//bundles/infra/build"
@@ -15,3 +13,5 @@ include_prebuilt_binary_manifests: true
 skip_if_unaffected: true
 rust_rbe_enable: true
 cxx_rbe_enable: true
+incremental: true
+use_temporary_go_cache: true

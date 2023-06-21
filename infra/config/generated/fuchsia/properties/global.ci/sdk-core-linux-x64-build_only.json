@@ -9,6 +9,7 @@
     "build": {
       "enable_sandboxing": true,
       "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/global.ci/sdk-core-linux-x64-build_only.textproto",
+      "incremental": true,
       "sdk_subbuild": true
     },
     "checkout": {
