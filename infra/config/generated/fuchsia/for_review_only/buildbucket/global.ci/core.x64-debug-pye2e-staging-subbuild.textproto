@@ -7,7 +7,7 @@
 name: "global.ci"
 swarming {
   builders {
-    name: "core.qemu-x64-debug-honeydew-functional-subbuild"
+    name: "core.x64-debug-pye2e-staging-subbuild"
     swarming_host: "chromium-swarm.appspot.com"
     dimensions: "cores:32"
     dimensions: "cpu:x64"
@@ -37,12 +37,12 @@ swarming {
       path: "symbol"
     }
     caches {
-      name: "fuchsia_incremental_53ae6728e1e0face0574d66d4d06b8fc177b9040f6da5e9ae1fc12e69a129dc3"
+      name: "fuchsia_incremental_31c1cd818caaf8c28b21a96d41988f40505a956d75568926b65b230d2983a57a"
       path: "incremental"
       wait_for_warm_cache_secs: 120
     }
     caches {
-      name: "fuchsia_rbe_53ae6728e1e0face0574d66d4d06b8fc177b9040f6da5e9ae1fc12e69a129dc3"
+      name: "fuchsia_rbe_31c1cd818caaf8c28b21a96d41988f40505a956d75568926b65b230d2983a57a"
       path: "rbe"
       wait_for_warm_cache_secs: 120
     }
@@ -65,6 +65,6 @@ swarming {
         use_invocation_timestamp: true
       }
     }
-    description_html: "This builder is the subbuild for <a href=\"https://ci.chromium.org/p/fuchsia/builders/global.ci/core.qemu-x64-debug-honeydew-functional\">core.qemu-x64-debug-honeydew-functional</a>.\n\nThe <a href=\"https://fuchsia.dev/fuchsia-src/development/build/build_system/boards_and_products?hl=en#core-product\">core</a> product has networking capabilities and supports updates and installing additional software over-the-air."
+    description_html: "This builder is the subbuild for <a href=\"https://ci.chromium.org/p/fuchsia/builders/global.ci/core.x64-debug-pye2e-staging\">core.x64-debug-pye2e-staging</a>.\n\nThe <a href=\"https://fuchsia.dev/fuchsia-src/development/build/build_system/boards_and_products?hl=en#core-product\">core</a> product has networking capabilities and supports updates and installing additional software over-the-air."
   }
 }

@@ -7,7 +7,7 @@
 name: "try"
 swarming {
   builders {
-    name: "core.qemu-x64-debug-honeydew-functional"
+    name: "core.x64-debug-pye2e-staging"
     swarming_host: "chromium-swarm.appspot.com"
     dimensions: "cores:2"
     dimensions: "cpu:x64"
@@ -51,6 +51,6 @@ swarming {
         text_artifacts {}
       }
     }
-    description_html: "The <a href=\"https://fuchsia.dev/fuchsia-src/development/build/build_system/boards_and_products?hl=en#core-product\">core</a> product has networking capabilities and supports updates and installing additional software over-the-air.\n\nThe corresponding CI builder can be found <a href=\"https://ci.chromium.org/p/fuchsia/builders/global.ci/core.qemu-x64-debug-honeydew-functional\">here</a>"
+    description_html: "The <a href=\"https://fuchsia.dev/fuchsia-src/development/build/build_system/boards_and_products?hl=en#core-product\">core</a> product has networking capabilities and supports updates and installing additional software over-the-air.\n\nThe corresponding CI builder can be found <a href=\"https://ci.chromium.org/p/fuchsia/builders/global.ci/core.x64-debug-pye2e-staging\">here</a>"
   }
 }
