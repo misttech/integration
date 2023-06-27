@@ -7,7 +7,7 @@
 name: "global.ci"
 swarming {
   builders {
-    name: "minimal.riscv64-release-build_only"
+    name: "minimal.riscv64-release-subbuild"
     swarming_host: "chromium-swarm.appspot.com"
     dimensions: "cores:32"
     dimensions: "cpu:x64"
@@ -22,10 +22,7 @@ swarming {
     }
     properties:
       '{'
-      '  "$fuchsia/builder_tags": {'
-      '    "in_fuchsia_critical_path": true,'
-      '    "include_in_flake_analysis": true'
-      '  },'
+      '  "is_fyi": true,'
       '  "led_builder_is_bootstrapped": true,'
       '  "recipe": "fuchsia/build",'
       '  "recipes_host_override": "fuchsia.googlesource.com"'
@@ -68,5 +65,6 @@ swarming {
         use_invocation_timestamp: true
       }
     }
+    description_html: "This builder is the subbuild for <a href=\"https://ci.chromium.org/p/fuchsia/builders/global.ci/minimal.riscv64-release\">minimal.riscv64-release</a>."
   }
 }
