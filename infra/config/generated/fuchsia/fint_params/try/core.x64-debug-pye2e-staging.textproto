@@ -10,9 +10,7 @@ base_packages: "//src/sys/bin/start_sl4f"
 base_packages: "//src/testing/sl4f"
 host_labels: "//bundles/infra/build"
 host_labels: "//bundles/infra/test"
-host_labels: "//src/testing/end_to_end/honeydew/tests/functional_tests:emulator_tests_fyi"
 host_labels: "//src/testing/end_to_end/honeydew/tests/functional_tests:nuc_tests_fyi"
-host_labels: "//src/testing/end_to_end:pye2e_fyi"
 target_arch: X64
 pave: true
 include_images: true
