@@ -1,0 +1,8 @@
+{
+  "bin_name": "rust-analyzer",
+  "cipd_package": "fuchsia/third_party/rust-analyzer/${platform}",
+  "dry_run": true,
+  "no_python2": true,
+  "recipe": "contrib/cargo_build",
+  "remote": "https://fuchsia.googlesource.com/third_party/rust-analyzer"
+}

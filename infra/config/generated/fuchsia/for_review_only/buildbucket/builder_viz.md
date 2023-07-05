@@ -297,6 +297,8 @@
 | rollable-package-roller |   |   |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/rollable-package-roller) |   | tq-platform-engprod@google.com |
 | rollable-project-roller |   |   |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/rollable-project-roller) |   | tq-platform-engprod@google.com |
 | rollable-submodule-roller |   |   |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/rollable-submodule-roller) |   | turquoise-infra-foundation-team@google.com |
+| [rust-analyzer-linux](https://luci-scheduler.appspot.com/jobs/fuchsia/rust-analyzer-linux-96806620) |   |   |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/rust-analyzer-linux) |   | tq-rust-wg@google.com |
+| [rust-analyzer-mac](https://luci-scheduler.appspot.com/jobs/fuchsia/rust-analyzer-mac-96806620) |   |   |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/rust-analyzer-mac) |   | tq-rust-wg@google.com |
 | [rust-arm64-linux](https://luci-scheduler.appspot.com/jobs/fuchsia/rust-arm64-linux-49def413) |   |   | [toolchain.ci](https://ci.chromium.org/p/fuchsia/builders/toolchain.ci/rust-arm64-linux) |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/rust-arm64-linux) |   | tq-rust-wg@google.com |
 | [rust-arm64-linux-beta](https://luci-scheduler.appspot.com/jobs/fuchsia/rust-arm64-linux-beta-6b0864a3) |   |   | [toolchain.ci](https://ci.chromium.org/p/fuchsia/builders/toolchain.ci/rust-arm64-linux-beta) |   |   |   | tq-rust-wg@google.com |
 | [rust-arm64-mac](https://luci-scheduler.appspot.com/jobs/fuchsia/rust-arm64-mac-49def413) |   |   | [toolchain.ci](https://ci.chromium.org/p/fuchsia/builders/toolchain.ci/rust-arm64-mac) |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/rust-arm64-mac) |   | tq-rust-wg@google.com |
@@ -423,6 +425,8 @@
 | [qemu-linux-x64](https://luci-scheduler.appspot.com/jobs/fuchsia/ci-qemu-linux-x64-74eaa511) | [prod](https://ci.chromium.org/p/fuchsia/builders/prod/qemu-linux-x64) |   | tq-platform-engprod@google.com |
 | [qemu-mac-arm64](https://luci-scheduler.appspot.com/jobs/fuchsia/ci-qemu-mac-arm64-74eaa511) | [prod](https://ci.chromium.org/p/fuchsia/builders/prod/qemu-mac-arm64) |   | tq-platform-engprod@google.com |
 | [qemu-mac-x64](https://luci-scheduler.appspot.com/jobs/fuchsia/ci-qemu-mac-x64-74eaa511) | [prod](https://ci.chromium.org/p/fuchsia/builders/prod/qemu-mac-x64) |   | tq-platform-engprod@google.com |
+| [rust-analyzer-linux](https://luci-scheduler.appspot.com/jobs/fuchsia/rust-analyzer-linux-96806620) | [prod](https://ci.chromium.org/p/fuchsia/builders/prod/rust-analyzer-linux) |   | tq-rust-wg@google.com |
+| [rust-analyzer-mac](https://luci-scheduler.appspot.com/jobs/fuchsia/rust-analyzer-mac-96806620) | [prod](https://ci.chromium.org/p/fuchsia/builders/prod/rust-analyzer-mac) |   | tq-rust-wg@google.com |
 | [rust-bindgen-linux](https://luci-scheduler.appspot.com/jobs/fuchsia/rust-bindgen-linux-43d5aa34) | [prod](https://ci.chromium.org/p/fuchsia/builders/prod/rust-bindgen-linux) |   | tq-rust-wg@google.com |
 | [rust-bindgen-mac](https://luci-scheduler.appspot.com/jobs/fuchsia/rust-bindgen-mac-43d5aa34) | [prod](https://ci.chromium.org/p/fuchsia/builders/prod/rust-bindgen-mac) |   | tq-rust-wg@google.com |
 | [rust-cargo-outdated-linux](https://luci-scheduler.appspot.com/jobs/fuchsia/rust-cargo-outdated-linux-2ac1260a) | [prod](https://ci.chromium.org/p/fuchsia/builders/prod/rust-cargo-outdated-linux) |   | tq-rust-wg@google.com |
