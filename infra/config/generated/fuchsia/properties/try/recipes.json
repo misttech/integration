@@ -1,20 +1,16 @@
 {
   "check_deps": true,
-  "manifest": "manifest/minimal",
-  "project": "integration",
+  "no_python2": true,
   "recipe": "recipes",
   "recipe_testing_options": {
     "projects": [
       {
         "cq_config_name": "fake-commit-queue.cfg",
-        "include_restricted": false,
         "include_unrestricted": true,
         "name": "fuchsia"
       }
     ],
     "use_buildbucket": true
   },
-  "recipes_use_py3": true,
-  "remote": "https://fuchsia.googlesource.com/infra/recipes",
-  "unittest_only": false
+  "remote": "https://fuchsia.googlesource.com/infra/recipes"
 }

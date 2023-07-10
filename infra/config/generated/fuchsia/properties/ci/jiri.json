@@ -1,8 +1,7 @@
 {
-  "gcs_bucket": "fuchsia-build",
   "manifest": "manifest",
+  "no_python2": true,
   "project": "jiri",
   "recipe": "jiri",
-  "recipes_use_py3": true,
   "remote": "https://fuchsia.googlesource.com/jiri"
 }

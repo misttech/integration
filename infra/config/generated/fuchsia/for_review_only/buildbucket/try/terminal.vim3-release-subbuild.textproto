@@ -5,33 +5,6 @@
 #   https://luci-config.appspot.com/schemas/projects:buildbucket.cfg
 
 name: "try"
-acls {
-  group: "all"
-}
-acls {
-  role: SCHEDULER
-  identity: "user:fuchsia-prod-builder@fuchsia-infra.iam.gserviceaccount.com"
-}
-acls {
-  role: SCHEDULER
-  identity: "user:fuchsia-try-builder@fuchsia-infra.iam.gserviceaccount.com"
-}
-acls {
-  role: SCHEDULER
-  identity: "user:infra-try-builder@fuchsia-infra.iam.gserviceaccount.com"
-}
-acls {
-  role: SCHEDULER
-  identity: "user:tools-ci-builder@fuchsia-infra.iam.gserviceaccount.com"
-}
-acls {
-  role: SCHEDULER
-  group: "project-fuchsia-tryjob-access"
-}
-acls {
-  role: SCHEDULER
-  identity: "project:turquoise"
-}
 swarming {
   builders {
     name: "terminal.vim3-release-subbuild"
@@ -44,14 +17,15 @@ swarming {
     dimensions: "role:builder"
     exe {
       cipd_package: "fuchsia/infra/recipe_bootstrap/${platform}"
-      cipd_version: "git_revision:ce17412b8cc177d252645cce9df938642264f53a"
+      cipd_version: "git_revision:2dbea7a9d2504893b41301eb00df722b8a10892c"
       cmd: "luciexe"
     }
     properties:
       '{'
       '  "is_fyi": true,'
       '  "led_builder_is_bootstrapped": true,'
-      '  "recipe": "fuchsia/build"'
+      '  "recipe": "fuchsia/build",'
+      '  "recipes_host_override": "fuchsia.googlesource.com"'
       '}'
     execution_timeout_secs: 8400
     caches {
@@ -63,24 +37,16 @@ swarming {
       path: "symbol"
     }
     caches {
-      name: "fuchsia_goma_ecf707dfc17851af33640c78b66c94ebae8d813dd832b2b8eb3de6a2a7b929c3"
-      path: "goma"
-      wait_for_warm_cache_secs: 120
-    }
-    caches {
-      name: "fuchsia_incremental_ecf707dfc17851af33640c78b66c94ebae8d813dd832b2b8eb3de6a2a7b929c3"
+      name: "fuchsia_incremental_f9cb2300747cdae45cb59bd8cb97f6d816cf1f35fb81ffca686c6d1c65514471"
       path: "incremental"
       wait_for_warm_cache_secs: 120
     }
     caches {
-      name: "fuchsia_rbe_ecf707dfc17851af33640c78b66c94ebae8d813dd832b2b8eb3de6a2a7b929c3"
+      name: "fuchsia_rbe_f9cb2300747cdae45cb59bd8cb97f6d816cf1f35fb81ffca686c6d1c65514471"
       path: "rbe"
+      wait_for_warm_cache_secs: 120
     }
     service_account: "fuchsia-try-builder@fuchsia-infra.iam.gserviceaccount.com"
-    experiments {
-      key: "luci.use_realms"
-      value: 100
-    }
     resultdb {
       enable: true
       bq_exports {
@@ -96,6 +62,6 @@ swarming {
         text_artifacts {}
       }
     }
-    description_html: "This builder is the subbuild for <a href=\"https://ci.chromium.org/p/fuchsia/builders/try/terminal.vim3-release\">terminal.vim3-release</a>."
+    description_html: "This builder is the subbuild for <a href=\"https://ci.chromium.org/p/fuchsia/builders/try/terminal.vim3-release\">terminal.vim3-release</a>.\n\nThe corresponding CI builder can be found <a href=\"https://ci.chromium.org/p/fuchsia/builders/global.ci/terminal.vim3-release\">here</a>"
   }
 }

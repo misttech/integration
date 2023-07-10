@@ -1,8 +1,6 @@
 {
   "manifest": "cobalt",
-  "project": "integration",
+  "no_python2": true,
   "recipe": "cobalt",
-  "recipes_use_py3": true,
-  "remote": "https://fuchsia.googlesource.com/manifest",
-  "target": "x64"
+  "remote": "https://fuchsia.googlesource.com/manifest"
 }

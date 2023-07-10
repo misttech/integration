@@ -1,4 +1,7 @@
 {
+  "$fuchsia/rbe": {
+    "instance": "projects/rbe-fuchsia-prod/instances/default"
+  },
   "analyses": [
     "ClangFormat",
     "ClangTidy",
@@ -10,7 +13,8 @@
     "GoFmt",
     "GoVet",
     "MdLint",
-    "RustFmt"
+    "RustFmt",
+    "staticlints"
   ],
   "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/tricium/tricium.textproto",
   "incremental_build": true,
@@ -20,7 +24,7 @@
     "Spellchecker"
   ],
   "manifest": "flower",
+  "no_python2": true,
   "recipe": "tricium/tricium",
-  "recipes_use_py3": true,
   "remote": "https://fuchsia.googlesource.com/integration"
 }

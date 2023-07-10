@@ -5,25 +5,6 @@
 #   https://luci-config.appspot.com/schemas/projects:buildbucket.cfg
 
 name: "toolchain.ci"
-acls {
-  group: "all"
-}
-acls {
-  role: SCHEDULER
-  identity: "user:fuchsia-ci-builder@fuchsia-infra.iam.gserviceaccount.com"
-}
-acls {
-  role: SCHEDULER
-  identity: "user:fuchsia-prod-builder@fuchsia-infra.iam.gserviceaccount.com"
-}
-acls {
-  role: SCHEDULER
-  identity: "user:luci-scheduler@appspot.gserviceaccount.com"
-}
-acls {
-  role: SCHEDULER
-  identity: "user:tools-ci-builder@fuchsia-infra.iam.gserviceaccount.com"
-}
 swarming {
   builders {
     name: "go-x64-mac"
@@ -35,7 +16,7 @@ swarming {
     dimensions: "pool:luci.fuchsia.toolchain.ci"
     exe {
       cipd_package: "fuchsia/infra/recipe_bootstrap/${platform}"
-      cipd_version: "git_revision:ce17412b8cc177d252645cce9df938642264f53a"
+      cipd_version: "git_revision:2dbea7a9d2504893b41301eb00df722b8a10892c"
       cmd: "luciexe"
     }
     properties:
@@ -43,6 +24,7 @@ swarming {
       '  "is_fyi": true,'
       '  "led_builder_is_bootstrapped": true,'
       '  "recipe": "contrib/go_toolchain",'
+      '  "recipes_host_override": "fuchsia.googlesource.com",'
       '  "recipes_integration_ref_override": "refs/heads/main"'
       '}'
     execution_timeout_secs: 8400
@@ -51,17 +33,31 @@ swarming {
       path: "builder"
     }
     caches {
-      name: "macos_sdk"
-      path: "macos_sdk"
+      name: "macos_sdk_v2"
+      path: "macos_sdk_v2"
     }
     caches {
       name: "symbol"
       path: "symbol"
     }
     service_account: "tools-ci-builder@fuchsia-infra.iam.gserviceaccount.com"
-    experiments {
-      key: "luci.use_realms"
-      value: 100
+    resultdb {
+      enable: true
+      bq_exports {
+        project: "fuchsia-infra"
+        dataset: "resultdb"
+        table: "ci"
+        test_results {}
+      }
+      bq_exports {
+        project: "fuchsia-infra"
+        dataset: "resultdb"
+        table: "artifacts_ci"
+        text_artifacts {}
+      }
+      history_options {
+        use_invocation_timestamp: true
+      }
     }
   }
 }

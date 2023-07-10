@@ -6,11 +6,13 @@
     "clang-windows-x64"
   ],
   "enforce_output": true,
+  "no_python2": true,
   "nonblocking_builders": [
-    "clang-linux-arm64"
+    "clang-linux-xarm64",
+    "clang-linux-arm64",
+    "clang-mac-xarm64"
   ],
   "recipe": "contrib/toolchain_trigger",
-  "recipes_use_py3": true,
   "timeout": 21600,
   "triggers": [
     "clang-goma",

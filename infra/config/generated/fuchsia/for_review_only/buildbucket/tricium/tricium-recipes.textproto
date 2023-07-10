@@ -5,36 +5,26 @@
 #   https://luci-config.appspot.com/schemas/projects:buildbucket.cfg
 
 name: "tricium"
-acls {
-  group: "all"
-}
-acls {
-  role: SCHEDULER
-  identity: "user:tricium-prod@appspot.gserviceaccount.com"
-}
-acls {
-  role: SCHEDULER
-  group: "project-fuchsia-tryjob-access"
-}
 swarming {
   builders {
     name: "tricium-recipes"
     swarming_host: "chromium-swarm.appspot.com"
-    dimensions: "cores:16"
+    dimensions: "cores:64"
     dimensions: "cpu:x64"
     dimensions: "gce:1"
     dimensions: "os:Linux"
     dimensions: "pool:luci.fuchsia.tricium"
     exe {
       cipd_package: "fuchsia/infra/recipe_bootstrap/${platform}"
-      cipd_version: "git_revision:ce17412b8cc177d252645cce9df938642264f53a"
+      cipd_version: "git_revision:2dbea7a9d2504893b41301eb00df722b8a10892c"
       cmd: "luciexe"
     }
     properties:
       '{'
       '  "is_fyi": true,'
       '  "led_builder_is_bootstrapped": true,'
-      '  "recipe": "tricium/tricium"'
+      '  "recipe": "tricium/tricium",'
+      '  "recipes_host_override": "fuchsia.googlesource.com"'
       '}'
     execution_timeout_secs: 1800
     caches {
@@ -46,9 +36,8 @@ swarming {
       path: "symbol"
     }
     service_account: "fuchsia-tricium-builder@fuchsia-infra.iam.gserviceaccount.com"
-    experiments {
-      key: "luci.use_realms"
-      value: 100
+    resultdb {
+      enable: true
     }
   }
 }

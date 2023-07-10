@@ -1,0 +1,11 @@
+{
+  "fint_params_paths": {
+    "core.arm64-release": "integration/infra/config/generated/fuchsia/fint_params/toolchain.ci/clang-bolt-training.core.arm64-release.textproto",
+    "core.x64-debug": "integration/infra/config/generated/fuchsia/fint_params/toolchain.ci/clang-bolt-training.core.x64-debug.textproto"
+  },
+  "manifest": "flower",
+  "no_python2": true,
+  "project": "integration",
+  "recipe": "contrib/clang_bolt_training",
+  "remote": "https://fuchsia.googlesource.com/integration"
+}

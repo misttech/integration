@@ -1,5 +1,7 @@
 {
   "gcs_bucket": "fuchsia-build",
-  "recipe": "contrib/dart_toolchain",
-  "recipes_use_py3": true
+  "host_cpu": "x64",
+  "host_os": "linux",
+  "no_python2": true,
+  "recipe": "contrib/dart_toolchain"
 }

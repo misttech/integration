@@ -4,7 +4,7 @@
 optimize: RELEASE
 board: "boards/arm64.gni"
 product: "products/bringup.gni"
-universe_packages: "//bundles:kitchen_sink"
+universe_packages: "//bundles/kitchen_sink"
 target_arch: ARM64
 include_images: true
 include_prebuilt_binary_manifests: true

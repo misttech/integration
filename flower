@@ -5,12 +5,4 @@
     <localimport file="stem"/>
     <localimport file="third_party/flower"/>
   </imports>
-  <projects>
-    <project name="experiences"
-             path="src/experiences"
-             githooks="integration/git-hooks"
-             remote="https://fuchsia.googlesource.com/experiences"
-             gerrithost="https://fuchsia-review.googlesource.com"
-             revision="8913bf847e99ce483b68cba01e36f950fd813085"/>
-  </projects>
 </manifest>

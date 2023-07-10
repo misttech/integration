@@ -5,33 +5,6 @@
 #   https://luci-config.appspot.com/schemas/projects:buildbucket.cfg
 
 name: "try"
-acls {
-  group: "all"
-}
-acls {
-  role: SCHEDULER
-  identity: "user:fuchsia-prod-builder@fuchsia-infra.iam.gserviceaccount.com"
-}
-acls {
-  role: SCHEDULER
-  identity: "user:fuchsia-try-builder@fuchsia-infra.iam.gserviceaccount.com"
-}
-acls {
-  role: SCHEDULER
-  identity: "user:infra-try-builder@fuchsia-infra.iam.gserviceaccount.com"
-}
-acls {
-  role: SCHEDULER
-  identity: "user:tools-ci-builder@fuchsia-infra.iam.gserviceaccount.com"
-}
-acls {
-  role: SCHEDULER
-  group: "project-fuchsia-tryjob-access"
-}
-acls {
-  role: SCHEDULER
-  identity: "project:turquoise"
-}
 swarming {
   builders {
     name: "cobalt-x64-linux"
@@ -43,13 +16,18 @@ swarming {
     dimensions: "pool:luci.fuchsia.try"
     exe {
       cipd_package: "fuchsia/infra/recipe_bootstrap/${platform}"
-      cipd_version: "git_revision:ce17412b8cc177d252645cce9df938642264f53a"
+      cipd_version: "git_revision:2dbea7a9d2504893b41301eb00df722b8a10892c"
       cmd: "luciexe"
     }
     properties:
       '{'
+      '  "$fuchsia/builder_tags": {'
+      '    "include_in_flake_analysis": true'
+      '  },'
+      '  "is_fyi": true,'
       '  "led_builder_is_bootstrapped": true,'
-      '  "recipe": "cobalt"'
+      '  "recipe": "cobalt",'
+      '  "recipes_host_override": "fuchsia.googlesource.com"'
       '}'
     execution_timeout_secs: 8400
     caches {
@@ -61,9 +39,20 @@ swarming {
       path: "symbol"
     }
     service_account: "fuchsia-try-builder@fuchsia-infra.iam.gserviceaccount.com"
-    experiments {
-      key: "luci.use_realms"
-      value: 100
+    resultdb {
+      enable: true
+      bq_exports {
+        project: "fuchsia-infra"
+        dataset: "resultdb"
+        table: "try"
+        test_results {}
+      }
+      bq_exports {
+        project: "fuchsia-infra"
+        dataset: "resultdb"
+        table: "artifacts_try"
+        text_artifacts {}
+      }
     }
   }
 }

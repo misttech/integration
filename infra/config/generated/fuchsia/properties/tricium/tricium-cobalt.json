@@ -1,4 +1,7 @@
 {
+  "$fuchsia/rbe": {
+    "instance": "projects/rbe-fuchsia-prod/instances/default"
+  },
   "analyses": [
     "ClangTidy"
   ],
@@ -10,7 +13,7 @@
     "Spellchecker"
   ],
   "manifest": "flower",
+  "no_python2": true,
   "recipe": "tricium/tricium",
-  "recipes_use_py3": true,
   "remote": "https://fuchsia.googlesource.com/integration"
 }

@@ -1,5 +1,4 @@
 {
-  "bug": "71162",
   "changes": [
     {
       "change_id": "470562",
@@ -8,9 +7,9 @@
   ],
   "dryrun": true,
   "manifest": "manifests/flower",
+  "no_python2": true,
   "project": "infra/roller-tests/integration",
   "recipe": "release/cherry_pick",
-  "recipes_use_py3": true,
   "remote": "https://fuchsia.googlesource.com/infra/roller-tests/integration",
   "target_branch": "releases/test-branch",
   "target_project": "infra/roller-tests/test-project/rollable",

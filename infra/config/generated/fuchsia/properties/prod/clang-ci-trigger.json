@@ -1,17 +1,11 @@
 {
   "bucket": "toolchain.ci",
   "builders": [
-    "clang-linux-x64",
-    "clang-mac-x64",
-    "clang-windows-x64"
+    "clang-linux-xarm64",
+    "clang-linux-arm64",
+    "clang-mac-xarm64"
   ],
-  "nonblocking_builders": [
-    "clang-linux-arm64"
-  ],
+  "no_python2": true,
   "recipe": "contrib/toolchain_trigger",
-  "recipes_use_py3": true,
-  "timeout": 7200,
-  "triggers": [
-    "clang-prod-trigger"
-  ]
+  "timeout": 7200
 }

@@ -6,19 +6,17 @@
   </imports>
   <projects>
     <project name="fuchsia"
+             gitsubmodules="true"
              path="."
              githooks="integration/git-hooks"
              remote="https://fuchsia.googlesource.com/fuchsia"
              gerrithost="https://fuchsia-review.googlesource.com"
-             revision="0ffc4fc79f236457990677ca343391bf2969c942"/>
+             revision="2f17c583da4a71641962ba5a6f35f0dbc2aa260e"/>
   </projects>
   <hooks>
     <hook name="install-environment"
           project="fuchsia"
           action="scripts/devshell/lib/add_symlink_to_bin.sh"/>
-    <hook name="zircon-download-prebuilt"
-          project="fuchsia"
-          action="zircon/scripts/download-prebuilt"/>
     <hook name="gen-ssh-keys"
           project="fuchsia"
           action="tools/ssh-keys/gen-ssh-keys.sh"/>

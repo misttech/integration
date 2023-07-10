@@ -5,33 +5,6 @@
 #   https://luci-config.appspot.com/schemas/projects:buildbucket.cfg
 
 name: "try"
-acls {
-  group: "all"
-}
-acls {
-  role: SCHEDULER
-  identity: "user:fuchsia-prod-builder@fuchsia-infra.iam.gserviceaccount.com"
-}
-acls {
-  role: SCHEDULER
-  identity: "user:fuchsia-try-builder@fuchsia-infra.iam.gserviceaccount.com"
-}
-acls {
-  role: SCHEDULER
-  identity: "user:infra-try-builder@fuchsia-infra.iam.gserviceaccount.com"
-}
-acls {
-  role: SCHEDULER
-  identity: "user:tools-ci-builder@fuchsia-infra.iam.gserviceaccount.com"
-}
-acls {
-  role: SCHEDULER
-  group: "project-fuchsia-tryjob-access"
-}
-acls {
-  role: SCHEDULER
-  identity: "project:turquoise"
-}
 swarming {
   builders {
     name: "clang_toolchain.ci.core.x64-release"
@@ -43,7 +16,7 @@ swarming {
     dimensions: "pool:luci.fuchsia.try"
     exe {
       cipd_package: "fuchsia/infra/recipe_bootstrap/${platform}"
-      cipd_version: "git_revision:ce17412b8cc177d252645cce9df938642264f53a"
+      cipd_version: "git_revision:2dbea7a9d2504893b41301eb00df722b8a10892c"
       cmd: "luciexe"
     }
     properties:
@@ -64,10 +37,6 @@ swarming {
       path: "symbol"
     }
     service_account: "fuchsia-try-builder@fuchsia-infra.iam.gserviceaccount.com"
-    experiments {
-      key: "luci.use_realms"
-      value: 100
-    }
     resultdb {
       enable: true
       bq_exports {
@@ -83,5 +52,6 @@ swarming {
         text_artifacts {}
       }
     }
+    description_html: "The corresponding CI builder can be found <a href=\"https://ci.chromium.org/p/fuchsia/builders/ci/clang_toolchain.ci.core.x64-release\">here</a>"
   }
 }

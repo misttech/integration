@@ -5,25 +5,6 @@
 #   https://luci-config.appspot.com/schemas/projects:buildbucket.cfg
 
 name: "toolchain.ci"
-acls {
-  group: "all"
-}
-acls {
-  role: SCHEDULER
-  identity: "user:fuchsia-ci-builder@fuchsia-infra.iam.gserviceaccount.com"
-}
-acls {
-  role: SCHEDULER
-  identity: "user:fuchsia-prod-builder@fuchsia-infra.iam.gserviceaccount.com"
-}
-acls {
-  role: SCHEDULER
-  identity: "user:luci-scheduler@appspot.gserviceaccount.com"
-}
-acls {
-  role: SCHEDULER
-  identity: "user:tools-ci-builder@fuchsia-infra.iam.gserviceaccount.com"
-}
 swarming {
   builders {
     name: "rust_toolchain.core.x64-host_test_only-mac"
@@ -35,7 +16,7 @@ swarming {
     dimensions: "pool:luci.fuchsia.toolchain.ci"
     exe {
       cipd_package: "fuchsia/infra/recipe_bootstrap/${platform}"
-      cipd_version: "git_revision:ce17412b8cc177d252645cce9df938642264f53a"
+      cipd_version: "git_revision:2dbea7a9d2504893b41301eb00df722b8a10892c"
       cmd: "luciexe"
     }
     properties:
@@ -46,7 +27,7 @@ swarming {
       '  "recipes_host_override": "fuchsia.googlesource.com",'
       '  "recipes_integration_ref_override": "refs/heads/main"'
       '}'
-    execution_timeout_secs: 8400
+    execution_timeout_secs: 13800
     caches {
       name: "builder"
       path: "builder"
@@ -56,10 +37,6 @@ swarming {
       path: "symbol"
     }
     service_account: "fuchsia-ci-builder@fuchsia-infra.iam.gserviceaccount.com"
-    experiments {
-      key: "luci.use_realms"
-      value: 100
-    }
     resultdb {
       enable: true
       bq_exports {
@@ -74,6 +51,10 @@ swarming {
         table: "artifacts_ci"
         text_artifacts {}
       }
+      history_options {
+        use_invocation_timestamp: true
+      }
     }
+    description_html: "The <a href=\"https://fuchsia.dev/fuchsia-src/development/build/build_system/boards_and_products?hl=en#core-product\">core</a> product has networking capabilities and supports updates and installing additional software over-the-air."
   }
 }

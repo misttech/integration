@@ -5,21 +5,6 @@
 #   https://luci-config.appspot.com/schemas/projects:buildbucket.cfg
 
 name: "global.ci"
-acls {
-  group: "all"
-}
-acls {
-  role: SCHEDULER
-  identity: "user:fuchsia-ci-builder@fuchsia-infra.iam.gserviceaccount.com"
-}
-acls {
-  role: SCHEDULER
-  identity: "user:infra-ci-builder@fuchsia-infra.iam.gserviceaccount.com"
-}
-acls {
-  role: SCHEDULER
-  identity: "user:luci-scheduler@appspot.gserviceaccount.com"
-}
 swarming {
   builders {
     name: "static-checks"
@@ -31,13 +16,18 @@ swarming {
     dimensions: "pool:luci.fuchsia.ci"
     exe {
       cipd_package: "fuchsia/infra/recipe_bootstrap/${platform}"
-      cipd_version: "git_revision:ce17412b8cc177d252645cce9df938642264f53a"
+      cipd_version: "git_revision:2dbea7a9d2504893b41301eb00df722b8a10892c"
       cmd: "luciexe"
     }
     properties:
       '{'
+      '  "$fuchsia/builder_tags": {'
+      '    "in_fuchsia_critical_path": true,'
+      '    "include_in_flake_analysis": true'
+      '  },'
       '  "led_builder_is_bootstrapped": true,'
-      '  "recipe": "static_checks"'
+      '  "recipe": "static_checks",'
+      '  "recipes_host_override": "fuchsia.googlesource.com"'
       '}'
     execution_timeout_secs: 4200
     caches {
@@ -49,18 +39,32 @@ swarming {
       path: "symbol"
     }
     caches {
-      name: "fuchsia_goma_0b8e9e995d8d77f1e4770f0f79665aee6f3f70247b3735422daba73df4c3096f"
+      name: "fuchsia_goma_69f8e88f86766dcdb8c8f1df64f5c5c01bb164b58b6c407c478c456cf8bbdcce"
       path: "goma"
       wait_for_warm_cache_secs: 120
     }
     caches {
-      name: "fuchsia_incremental_0b8e9e995d8d77f1e4770f0f79665aee6f3f70247b3735422daba73df4c3096f"
+      name: "fuchsia_incremental_69f8e88f86766dcdb8c8f1df64f5c5c01bb164b58b6c407c478c456cf8bbdcce"
       path: "incremental"
     }
     service_account: "fuchsia-ci-builder@fuchsia-infra.iam.gserviceaccount.com"
-    experiments {
-      key: "luci.use_realms"
-      value: 100
+    resultdb {
+      enable: true
+      bq_exports {
+        project: "fuchsia-infra"
+        dataset: "resultdb"
+        table: "ci"
+        test_results {}
+      }
+      bq_exports {
+        project: "fuchsia-infra"
+        dataset: "resultdb"
+        table: "artifacts_ci"
+        text_artifacts {}
+      }
+      history_options {
+        use_invocation_timestamp: true
+      }
     }
   }
 }
