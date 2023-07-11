@@ -13,7 +13,10 @@
       "check_size_budgets": true,
       "enable_sandboxing": true,
       "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/try/core_size_limits.arm64-release-build_only.textproto",
-      "report_binary_sizes": true
+      "incremental": true,
+      "report_binary_sizes": true,
+      "size_creep_label": "Size-Review",
+      "size_diff_ci_bucket": "global.ci"
     },
     "checkout": {
       "manifest": "flower",

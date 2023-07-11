@@ -5,6 +5,8 @@ optimize: DEBUG
 board: "boards/arm64.gni"
 product: "products/bringup.gni"
 gn_args: "build_should_trace_actions = true"
+gn_args: "restat_cc = false"
+gn_args: "restat_rust = false"
 base_packages: "//bundles/buildbot/bringup"
 host_labels: "//bundles/infra/build"
 host_labels: "//bundles/infra/test"
