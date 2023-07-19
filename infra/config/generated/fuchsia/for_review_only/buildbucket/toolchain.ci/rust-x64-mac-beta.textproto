@@ -12,7 +12,7 @@ swarming {
     dimensions: "cores:24|56"
     dimensions: "cpu:x64"
     dimensions: "gce:0"
-    dimensions: "os:Mac-10.15"
+    dimensions: "os:Mac"
     dimensions: "pool:luci.fuchsia.toolchain.ci"
     exe {
       cipd_package: "fuchsia/infra/recipe_bootstrap/${platform}"
