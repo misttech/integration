@@ -143,7 +143,7 @@
     -->
     <package name="infra/tools/luci/vpython/${platform}"
              version="git_revision:27c9b20f3c4c3a0405af8f5966fc917565884b62"
-             platforms="linux-amd64,linux-arm64,mac-amd64"
+             platforms="linux-amd64,linux-arm64,mac-amd64,mac-arm64"
              path="prebuilt/third_party/vpython"/>
 
     <!-- Python3 interpreter, used for host tools after bootstrap.
@@ -154,7 +154,7 @@
              path="prebuilt/third_party/python3/{{.OS}}-{{.Arch}}"/>
     <package name="infra/3pp/tools/cpython3/${platform}"
              version="version:2@3.11.3.chromium.29"
-             platforms="linux-amd64,linux-arm64,mac-amd64"
+             platforms="linux-amd64,linux-arm64,mac-amd64,mac-arm64"
              path="prebuilt/third_party/python3.11/{{.OS}}-{{.Arch}}"/>
 
     <!-- buildidtool from
