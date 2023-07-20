@@ -129,7 +129,7 @@
 
     <package name="fuchsia/third_party/pigz/${platform}"
              version="version:2@2.7"
-             platforms="linux-amd64,linux-arm64,mac-amd64"
+             platforms="linux-amd64,linux-arm64,mac-amd64,mac-arm64"
              path="prebuilt/third_party/pigz"/>
 
     <!--
@@ -467,25 +467,25 @@
     <package name="infra/tools/bb/${platform}"
              path="prebuilt/tools/buildbucket"
              version="git_revision:27c9b20f3c4c3a0405af8f5966fc917565884b62"
-             platforms="linux-amd64,linux-arm64,mac-amd64"/>
+             platforms="linux-amd64,linux-arm64,mac-amd64,mac-arm64"/>
     <package name="infra/tools/luci/gsutil/${platform}"
              path="prebuilt/tools/gsutil"
-             platforms="linux-amd64,linux-arm64,mac-amd64"
+             platforms="linux-amd64,linux-arm64,mac-amd64,mac-arm64"
              version="git_revision:27c9b20f3c4c3a0405af8f5966fc917565884b62"/>
     <package name="infra/tools/luci/logdog/logdog/${platform}"
              path="prebuilt/tools/logdog"
-             platforms="linux-amd64,mac-amd64"
+             platforms="linux-amd64,mac-amd64,mac-arm64"
              version="git_revision:27c9b20f3c4c3a0405af8f5966fc917565884b62"/>
 
     <!-- Packages in /fuchsia/infra -->
     <package name="fuchsia/infra/artifacts/${platform}"
              path="prebuilt/tools/artifacts"
              version="git_revision:d9867cfa5954dbbf20b3aac0de177fb438f1dffd"
-             platforms="linux-amd64,linux-arm64,mac-amd64"/>
+             platforms="linux-amd64,linux-arm64,mac-amd64,mac-arm64"/>
     <package name="fuchsia/infra/lkg/${platform}"
              path="prebuilt/tools/lkg"
              version="git_revision:876cb424d201ced8084c0f376a1f26bf96abcc9c"
-             platforms="linux-amd64,linux-arm64,mac-amd64"/>
+             platforms="linux-amd64,linux-arm64,mac-amd64,mac-arm64"/>
 
     <!-- Zedmon -->
     <package name="fuchsia/infra/zedmon/${platform}"
