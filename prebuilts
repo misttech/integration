@@ -157,11 +157,11 @@
     <!--   Dart -->
     <package name="fuchsia/dart-sdk/${platform}"
              version="git_revision:8296054868c970678d9baa2405437057be039119"
-             platforms="linux-amd64,mac-amd64"
+             platforms="linux-amd64,mac-amd64,mac-arm64"
              path="prebuilt/third_party/dart/{{.OS}}-{{.Arch}}"/>
     <package name="fuchsia/dart-sdk/${platform}"
              version="git_revision:8296054868c970678d9baa2405437057be039119"
-             platforms="linux-amd64,mac-amd64"
+             platforms="linux-amd64,mac-amd64,mac-arm64"
              path="prebuilt/third_party/dart_paused/{{.OS}}-{{.Arch}}"/>
 
     <!--   Flutter -->
