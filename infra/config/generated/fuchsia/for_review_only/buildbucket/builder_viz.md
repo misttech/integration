@@ -251,6 +251,7 @@
 | [llvm-fuchsia](https://luci-scheduler.appspot.com/jobs/fuchsia/llvm-fuchsia) |   |   | [toolchain.ci](https://ci.chromium.org/p/fuchsia/builders/toolchain.ci/llvm-fuchsia) |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/llvm-fuchsia) |   | tq-toolchain-team@google.com |
 | [llvm-linux-arm64](https://luci-scheduler.appspot.com/jobs/fuchsia/llvm-linux-arm64) |   |   |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/llvm-linux-arm64) |   | tq-toolchain-team@google.com |
 | [llvm-linux-x64](https://luci-scheduler.appspot.com/jobs/fuchsia/llvm-linux-x64) |   |   |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/llvm-linux-x64) |   | tq-toolchain-team@google.com |
+| [llvm-mac-arm64](https://luci-scheduler.appspot.com/jobs/fuchsia/llvm-mac-arm64) |   |   |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/llvm-mac-arm64) |   | tq-toolchain-team@google.com |
 | [llvm-mac-x64](https://luci-scheduler.appspot.com/jobs/fuchsia/llvm-mac-x64) |   |   |   |   | [try(optional)](https://ci.chromium.org/p/fuchsia/builders/try/llvm-mac-x64) |   | tq-toolchain-team@google.com |
 | llvm_test_suite-linux-x64 | [ci](https://ci.chromium.org/p/fuchsia/builders/ci/llvm_test_suite-linux-x64) |   |   |   |   |   | tq-toolchain-team@google.com |
 | [lsc-suggester](https://luci-scheduler.appspot.com/jobs/fuchsia/lsc-suggester) |   | [global.ci](https://ci.chromium.org/p/fuchsia/builders/global.ci/lsc-suggester) |   |   |   |   | tq-1p-engprod@google.com |
@@ -415,6 +416,7 @@
 | [jq-mac-x64](https://luci-scheduler.appspot.com/jobs/fuchsia/jq-mac-x64) | [prod](https://ci.chromium.org/p/fuchsia/builders/prod/jq-mac-x64) |   | tq-toolchain-team@google.com |
 | [llvm-linux-arm64](https://luci-scheduler.appspot.com/jobs/fuchsia/llvm-linux-arm64) | [prod](https://ci.chromium.org/p/fuchsia/builders/prod/llvm-linux-arm64) |   | tq-toolchain-team@google.com |
 | [llvm-linux-x64](https://luci-scheduler.appspot.com/jobs/fuchsia/llvm-linux-x64) | [prod](https://ci.chromium.org/p/fuchsia/builders/prod/llvm-linux-x64) |   | tq-toolchain-team@google.com |
+| [llvm-mac-arm64](https://luci-scheduler.appspot.com/jobs/fuchsia/llvm-mac-arm64) | [prod](https://ci.chromium.org/p/fuchsia/builders/prod/llvm-mac-arm64) |   | tq-toolchain-team@google.com |
 | [llvm-mac-x64](https://luci-scheduler.appspot.com/jobs/fuchsia/llvm-mac-x64) | [prod](https://ci.chromium.org/p/fuchsia/builders/prod/llvm-mac-x64) |   | tq-toolchain-team@google.com |
 | [llvm-prod-trigger](https://luci-scheduler.appspot.com/jobs/fuchsia/llvm-prod-trigger) | [prod](https://ci.chromium.org/p/fuchsia/builders/prod/llvm-prod-trigger) |   | tq-toolchain-team@google.com |
 | [ninja-linux-arm64](https://luci-scheduler.appspot.com/jobs/fuchsia/ci-ninja-linux-arm64-f4234898) | [prod](https://ci.chromium.org/p/fuchsia/builders/prod/ninja-linux-arm64) |   | fuchsia-build-team@google.com |
