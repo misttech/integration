@@ -161,9 +161,9 @@
          https://fuchsia.googlesource.com/tools/+/{{.git_revision}}/cmd/buildidtool
     -->
     <package name="fuchsia/tools/buildidtool/${platform}"
-             version="git_revision:4f7f770d6f5a09cd4611ca7679ec33fe4a25c72c"
+             version="git_revision:39c824b81c78a5cdbb8b0fbb33a053a4cb733628"
              path="prebuilt/tools/buildidtool/{{.OS}}-{{.Arch}}"
-             platforms="linux-amd64,linux-arm64,mac-amd64"/>
+             platforms="linux-amd64,linux-arm64,mac-amd64,mac-arm64"/>
 
     <!--   LLVM libraries -->
     <!--   For Linux, download both arm64 and amd64 versions. -->
