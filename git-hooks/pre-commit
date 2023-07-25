@@ -1,0 +1,23 @@
+#!/bin/sh
+
+# Check for Googlers not configuring their email address.
+# There are many examples of this in the git logs.
+AUTHORINFO="$(git var GIT_AUTHOR_IDENT)" || exit 1
+EMAIL="$(printf %s "${AUTHORINFO}" | sed -n 's/^.* <\(.*\)> .*$/\1/p')"
+
+case "${EMAIL}" in
+  *.corp.google.com)
+    echo "Git is inferring your email to be ${EMAIL}. Please run:"
+    echo " git config --global user.email ${USER}@google.com"
+    exit 1
+    ;;
+esac
+
+# Run a custom pre-commit hook if one exists.
+#
+# To perform additional pre-commit checks, create an executable file
+# 'pre-commit.dev' in the .git/hooks directory in your Fuchsia source checkout
+# and implement the checks there.
+if [ -f ".git/hooks/pre-commit.dev" ]; then
+  exec .git/hooks/pre-commit.dev
+fi

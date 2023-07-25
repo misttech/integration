@@ -1,0 +1,29 @@
+{
+  "artifact_gcs_bucket": "fuchsia-artifacts",
+  "builds": [
+    {
+      "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/global.ci/ffmpeg-default-arm64.textproto",
+      "profile": "default",
+      "target": "arm64"
+    },
+    {
+      "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/global.ci/ffmpeg-smart_display-arm64.textproto",
+      "profile": "smart_display",
+      "target": "arm64"
+    },
+    {
+      "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/global.ci/ffmpeg-default-x64.textproto",
+      "profile": "default",
+      "target": "x64"
+    },
+    {
+      "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/global.ci/ffmpeg-smart_display-x64.textproto",
+      "profile": "smart_display",
+      "target": "x64"
+    }
+  ],
+  "manifest": "third_party/ffmpeg",
+  "no_python2": true,
+  "recipe": "contrib/ffmpeg",
+  "remote": "https://fuchsia.googlesource.com/integration"
+}

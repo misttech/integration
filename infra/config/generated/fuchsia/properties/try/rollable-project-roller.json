@@ -1,0 +1,17 @@
+{
+  "default_ref": "refs/heads/main",
+  "import_from": "infra/roller-tests/test-project/rollable",
+  "import_in": "manifests/rollable",
+  "manifest": "manifests/minimal",
+  "no_python2": true,
+  "project": "infra/roller-tests/integration",
+  "recipe": "fuchsia_roller",
+  "remote": "https://fuchsia.googlesource.com/infra/roller-tests/integration",
+  "roll_options": {
+    "cl_notify_option": "NONE",
+    "create_unique_change_id": true,
+    "dry_run": true,
+    "remote": "https://fuchsia.googlesource.com/infra/roller-tests/integration"
+  },
+  "send_comment": true
+}

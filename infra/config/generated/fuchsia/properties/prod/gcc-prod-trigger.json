@@ -1,0 +1,15 @@
+{
+  "bucket": "prod",
+  "builders": [
+    "gcc-arm64-linux",
+    "gcc-x64-linux",
+    "gcc-x64-mac"
+  ],
+  "enforce_output": true,
+  "no_python2": true,
+  "recipe": "contrib/toolchain_trigger",
+  "timeout": 7200,
+  "triggers": [
+    "gcc-goma"
+  ]
+}

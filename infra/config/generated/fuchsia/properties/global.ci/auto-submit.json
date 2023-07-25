@@ -1,0 +1,14 @@
+{
+  "gerrit_auto_submit_options": {
+    "host_configs": [
+      {
+        "auto_submit_label": "Fuchsia-Auto-Submit",
+        "gerrit_host": "fuchsia-review.googlesource.com",
+        "tree_status_host": "fuchsia-stem-status.appspot.com"
+      }
+    ],
+    "repeat_duration_seconds": 3600
+  },
+  "no_python2": true,
+  "recipe": "gerrit_auto_submit"
+}

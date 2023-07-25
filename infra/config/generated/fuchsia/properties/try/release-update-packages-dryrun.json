@@ -1,0 +1,17 @@
+{
+  "bug": "71162",
+  "dryrun": true,
+  "lockfiles": [
+    "manifests/flower=jiri.lock"
+  ],
+  "manifest": "manifests/flower",
+  "no_python2": true,
+  "packages": [
+    "fuchsia/infra/roller-tests/test-package3"
+  ],
+  "project": "infra/roller-tests/integration",
+  "recipe": "release/update_petal",
+  "remote": "https://fuchsia.googlesource.com/infra/roller-tests/integration",
+  "target_branch": "releases/test-branch",
+  "version": "version:2"
+}

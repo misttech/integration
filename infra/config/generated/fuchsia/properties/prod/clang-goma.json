@@ -1,0 +1,15 @@
+{
+  "domain": "gcr.io",
+  "no_python2": true,
+  "package": "fuchsia/third_party/clang",
+  "platforms": [
+    "linux-amd64",
+    "mac-amd64",
+    "windows-amd64"
+  ],
+  "project": "fuchsia-toolchain-images-gcr",
+  "recipe": "contrib/goma_toolchain",
+  "root": "fuchsia_linux",
+  "toolchain": "clang",
+  "update_goma_base_images": false
+}

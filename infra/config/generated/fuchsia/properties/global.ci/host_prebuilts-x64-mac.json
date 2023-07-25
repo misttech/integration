@@ -1,0 +1,49 @@
+{
+  "$fuchsia/rbe": {
+    "instance": "projects/rbe-fuchsia-prod/instances/default"
+  },
+  "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/global.ci/host_prebuilts-x64-mac.textproto",
+  "manifest": "flower",
+  "no_python2": true,
+  "recipe": "prebuilt_host_tool",
+  "remote": "https://fuchsia.googlesource.com/integration",
+  "tools": [
+    {
+      "gcs_bucket": "fuchsia-ffx",
+      "gcs_path": "ffx-macos-x64",
+      "name": "ffx"
+    },
+    {
+      "cipd_package": "fuchsia/tools/batchtester/${platform}",
+      "name": "batchtester"
+    },
+    {
+      "cipd_package": "fuchsia/tools/blobfs-compression/${platform}",
+      "name": "blobfs-compression"
+    },
+    {
+      "cipd_package": "fuchsia/tools/bundle_fetcher/${platform}",
+      "name": "bundle_fetcher"
+    },
+    {
+      "cipd_package": "fuchsia/tools/debugsyms/${platform}",
+      "name": "debugsyms"
+    },
+    {
+      "cipd_package": "fuchsia/tools/futility/${platform}",
+      "name": "futility"
+    },
+    {
+      "cipd_package": "fuchsia/tools/json_validator/${platform}",
+      "name": "json_validator"
+    },
+    {
+      "cipd_package": "fuchsia/tools/ninjatrace/${platform}",
+      "name": "ninjatrace"
+    },
+    {
+      "cipd_package": "fuchsia/tools/triage/${platform}",
+      "name": "triage"
+    }
+  ]
+}
