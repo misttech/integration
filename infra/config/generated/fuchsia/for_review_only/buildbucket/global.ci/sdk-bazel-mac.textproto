@@ -7,14 +7,13 @@
 name: "global.ci"
 swarming {
   builders {
-    name: "sdk-bazel-linux-arm64-build_only"
+    name: "sdk-bazel-mac"
     swarming_host: "chromium-swarm.appspot.com"
-    dimensions: "cores:32"
+    dimensions: "cores:8|12"
     dimensions: "cpu:x64"
-    dimensions: "gce:1"
-    dimensions: "os:Linux"
+    dimensions: "gce:0"
+    dimensions: "os:Mac"
     dimensions: "pool:luci.fuchsia.ci"
-    dimensions: "role:builder"
     exe {
       cipd_package: "fuchsia/infra/recipe_bootstrap/${platform}"
       cipd_version: "git_revision:2dbea7a9d2504893b41301eb00df722b8a10892c"
@@ -22,32 +21,32 @@ swarming {
     }
     properties:
       '{'
-      '  "$fuchsia/builder_tags": {'
-      '    "in_fuchsia_critical_path": true,'
-      '    "include_in_flake_analysis": true'
-      '  },'
+      '  "is_fyi": true,'
       '  "led_builder_is_bootstrapped": true,'
-      '  "recipe": "fuchsia/build",'
+      '  "recipe": "sdk",'
       '  "recipes_host_override": "fuchsia.googlesource.com"'
       '}'
-    priority: 22
-    execution_timeout_secs: 8400
+    execution_timeout_secs: 13800
     caches {
       name: "builder"
       path: "builder"
+    }
+    caches {
+      name: "macos_sdk_v2"
+      path: "macos_sdk_v2"
     }
     caches {
       name: "symbol"
       path: "symbol"
     }
     caches {
-      name: "fuchsia_incremental_a4d451ec23463726f72c43d64c710968f6b602cd653b4de8adee1b556240a829"
-      path: "incremental"
+      name: "fuchsia_goma_69f8e88f86766dcdb8c8f1df64f5c5c01bb164b58b6c407c478c456cf8bbdcce"
+      path: "goma"
+      wait_for_warm_cache_secs: 120
     }
     caches {
-      name: "fuchsia_rbe_a4d451ec23463726f72c43d64c710968f6b602cd653b4de8adee1b556240a829"
-      path: "rbe"
-      wait_for_warm_cache_secs: 120
+      name: "fuchsia_incremental_69f8e88f86766dcdb8c8f1df64f5c5c01bb164b58b6c407c478c456cf8bbdcce"
+      path: "incremental"
     }
     service_account: "fuchsia-ci-builder@fuchsia-infra.iam.gserviceaccount.com"
     resultdb {
@@ -68,6 +67,5 @@ swarming {
         use_invocation_timestamp: true
       }
     }
-    description_html: "The <a href=\"https://fuchsia.dev/fuchsia-src/development/build/build_system/boards_and_products?hl=en#core-product\">core</a> product has networking capabilities and supports updates and installing additional software over-the-air."
   }
 }
