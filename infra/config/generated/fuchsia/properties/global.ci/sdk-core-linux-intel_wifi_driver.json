@@ -1,0 +1,29 @@
+{
+  "$fuchsia/rbe": {
+    "instance": "projects/rbe-fuchsia-prod/instances/default"
+  },
+  "cipd_root": "fuchsia",
+  "external_testing": {
+    "gerrit_host": "fuchsia-review.googlesource.com",
+    "gerrit_project": "drivers/wlan/intel/iwlwifi",
+    "timeout_secs": 1800,
+    "tryjobs_wait_secs": 60
+  },
+  "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/global.ci/sdk-core-linux-intel_wifi_driver.textproto",
+  "gcs_bucket": "fuchsia-artifacts",
+  "manifest": "flower",
+  "no_python2": true,
+  "recipe": "sdk",
+  "remote": "https://fuchsia.googlesource.com/integration",
+  "sdk_name": "core",
+  "sdk_override_configs": {
+    "use_package_overrides": true
+  },
+  "sdk_subbuilders": [
+    "sdk-core-linux-intel_wifi_driver-arm64-build_only",
+    "sdk-core-linux-intel_wifi_driver-x64-build_only"
+  ],
+  "subbuild_collect_timeout_secs": 3600,
+  "upload_bazel_sdk": true,
+  "upload_core_sdk": true
+}
