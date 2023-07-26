@@ -9,7 +9,7 @@ swarming {
   builders {
     name: "jq-mac-arm64"
     swarming_host: "chromium-swarm.appspot.com"
-    dimensions: "cores:32"
+    dimensions: "cores:8"
     dimensions: "cpu:arm64"
     dimensions: "gce:0"
     dimensions: "os:Mac"

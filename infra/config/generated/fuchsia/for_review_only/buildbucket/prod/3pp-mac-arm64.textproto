@@ -9,8 +9,8 @@ swarming {
   builders {
     name: "3pp-mac-arm64"
     swarming_host: "chromium-swarm.appspot.com"
-    dimensions: "cores:8|12"
-    dimensions: "cpu:arm"
+    dimensions: "cores:8"
+    dimensions: "cpu:arm64"
     dimensions: "gce:0"
     dimensions: "os:Mac"
     dimensions: "pool:luci.fuchsia.prod"
