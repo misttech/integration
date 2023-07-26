@@ -3,7 +3,7 @@
 
 optimize: RELEASE
 board: "boards/x64-fxfs.gni"
-product: "products/core.gni"
+product: "products/core_with_fxblob.gni"
 gn_args: "build_should_trace_actions = true"
 base_packages: "//bundles/buildbot/core"
 host_labels: "//bundles/buildbot/host"
