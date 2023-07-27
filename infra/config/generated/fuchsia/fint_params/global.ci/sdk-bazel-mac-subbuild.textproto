@@ -4,7 +4,7 @@
 optimize: RELEASE
 product: "products/core.gni"
 gn_args: "bazel_fuchsia_sdk_all_cpus = true"
-gn_args: "bazel_fuchsia_sdk_content = 'driver'"
+gn_args: "bazel_fuchsia_sdk_content = \"driver\""
 gn_args: "restat_cc = false"
 gn_args: "restat_rust = false"
 ninja_targets: ":developer_host_tools"
