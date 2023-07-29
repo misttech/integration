@@ -11,10 +11,8 @@
   "remote": "https://fuchsia.googlesource.com/integration",
   "sdk_name": "core",
   "sdk_subbuilders": [
-    "sdk-core-mac-arm64-build_only",
-    "sdk-core-mac-x64-build_only"
+    "sdk-core-mac-subbuild"
   ],
   "subbuild_collect_timeout_secs": 7200,
-  "upload_bazel_sdk": true,
   "upload_core_sdk": true
 }
