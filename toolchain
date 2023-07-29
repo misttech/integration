@@ -99,7 +99,7 @@
 
      <!-- rust-bindgen, used for generating rust bindings to c/c++ headers -->
      <package name="fuchsia/third_party/rust_bindgen/${platform}"
-              version="git_revision:d2c188e0c38f7c980cc1faa25fe60dcbb2cce57a"
+              version="git_revision:bf5e79bb2274c4515a04d18c5d82d62f172e46ed"
               platforms="linux-amd64,mac-amd64"
               path="prebuilt/third_party/rust_bindgen/{{.OS}}-{{.Arch}}"/>
 
