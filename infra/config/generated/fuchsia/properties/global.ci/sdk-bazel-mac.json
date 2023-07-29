@@ -11,9 +11,9 @@
   "remote": "https://fuchsia.googlesource.com/integration",
   "sdk_name": "bazel",
   "sdk_subbuilders": [
-    "sdk-bazel-mac-arm64-build_only",
-    "sdk-bazel-mac-x64-build_only"
+    "sdk-bazel-mac-subbuild"
   ],
   "skip_gn_sdk": true,
-  "subbuild_collect_timeout_secs": 7200
+  "subbuild_collect_timeout_secs": 7200,
+  "upload_bazel_sdk": true
 }

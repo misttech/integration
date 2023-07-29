@@ -20,10 +20,8 @@
     "use_package_overrides": true
   },
   "sdk_subbuilders": [
-    "sdk-core-linux-intel_wifi_driver-arm64-build_only",
-    "sdk-core-linux-intel_wifi_driver-x64-build_only"
+    "sdk-core-linux-intel_wifi_driver-subbuild"
   ],
   "subbuild_collect_timeout_secs": 3600,
-  "upload_bazel_sdk": true,
   "upload_core_sdk": true
 }

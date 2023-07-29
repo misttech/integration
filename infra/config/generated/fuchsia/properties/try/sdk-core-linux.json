@@ -11,10 +11,8 @@
   "remote": "https://fuchsia.googlesource.com/integration",
   "sdk_name": "core",
   "sdk_subbuilders": [
-    "sdk-core-linux-arm64-build_only",
-    "sdk-core-linux-x64-build_only"
+    "sdk-core-linux-subbuild"
   ],
   "subbuild_collect_timeout_secs": 3600,
-  "upload_bazel_sdk": true,
   "upload_core_sdk": true
 }
