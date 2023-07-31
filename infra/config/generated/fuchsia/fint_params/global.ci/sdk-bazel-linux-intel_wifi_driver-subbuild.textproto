@@ -3,13 +3,13 @@
 
 optimize: RELEASE
 product: "products/core.gni"
-gn_args: "arm_sdk_tools = true"
+gn_args: "bazel_fuchsia_sdk_all_cpus = true"
+gn_args: "bazel_fuchsia_sdk_content = \"driver\""
 gn_args: "build_should_trace_actions = true"
 gn_args: "restat_cc = false"
 gn_args: "restat_rust = false"
-gn_args: "sdk_cross_compile_host_tools = true"
 ninja_targets: ":developer_host_tools"
-ninja_targets: "final_fuchsia_idk"
+ninja_targets: "build/bazel:generate_fuchsia_sdk_repository"
 host_labels: "//bundles/infra/build"
 target_arch: X64
 pave: true
