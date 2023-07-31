@@ -10,10 +10,6 @@
   "recipe": "sdk",
   "remote": "https://fuchsia.googlesource.com/integration",
   "sdk_name": "bazel",
-  "sdk_subbuilders": [
-    "sdk-bazel-linux-subbuild"
-  ],
   "skip_gn_sdk": true,
-  "subbuild_collect_timeout_secs": 3600,
   "upload_bazel_sdk": true
 }
