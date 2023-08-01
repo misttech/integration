@@ -6,12 +6,19 @@
         "windows",
         "amd64"
       ]
+    ],
+    "recipe_wrapper": [
+      [
+        "windows",
+        "amd64"
+      ]
     ]
   },
   "manifest": "manifest",
   "no_python2": true,
   "output_name_map": {
-    "recipe_bootstrap": "luciexe"
+    "recipe_bootstrap": "luciexe",
+    "recipe_wrapper": "luciexe"
   },
   "project": "infra/infra",
   "publish": true,
