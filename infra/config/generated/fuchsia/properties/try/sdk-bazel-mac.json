@@ -1,15 +1,10 @@
 {
-  "$fuchsia/rbe": {
-    "instance": "projects/rbe-fuchsia-prod/instances/default"
-  },
   "cipd_root": "fuchsia",
-  "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/try/sdk-bazel-mac.textproto",
   "gcs_bucket": "fuchsia-artifacts",
   "manifest": "flower",
   "no_python2": true,
   "recipe": "sdk",
   "remote": "https://fuchsia.googlesource.com/integration",
   "sdk_name": "bazel",
-  "skip_gn_sdk": true,
-  "upload_bazel_sdk": true
+  "skip_gn_sdk": true
 }
