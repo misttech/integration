@@ -9,10 +9,10 @@ swarming {
   builders {
     name: "clang-linux-x64"
     swarming_host: "chromium-swarm.appspot.com"
-    dimensions: "cores:48"
+    dimensions: "cores:60"
     dimensions: "cpu:x64"
     dimensions: "gce:1"
-    dimensions: "machine_type:t2d-standard-48"
+    dimensions: "machine_type:t2d-standard-60"
     dimensions: "os:Linux"
     dimensions: "pool:luci.fuchsia.try"
     exe {
