@@ -7,7 +7,7 @@
 name: "global.ci"
 swarming {
   builders {
-    name: "core.x64-asan-kasan-subbuild"
+    name: "core.x64-kasan-subbuild"
     swarming_host: "chromium-swarm.appspot.com"
     dimensions: "cores:64"
     dimensions: "cpu:x64"
@@ -37,12 +37,12 @@ swarming {
       path: "symbol"
     }
     caches {
-      name: "fuchsia_incremental_79c861a0d7bf5592119e902aa51875c989a870c78b353ae1c51a7eb6ec1e11ac"
+      name: "fuchsia_incremental_adf8abd100072eaebf2df1e96c98bbb941dc0d0238187f9252f4f750600e393c"
       path: "incremental"
       wait_for_warm_cache_secs: 120
     }
     caches {
-      name: "fuchsia_rbe_79c861a0d7bf5592119e902aa51875c989a870c78b353ae1c51a7eb6ec1e11ac"
+      name: "fuchsia_rbe_adf8abd100072eaebf2df1e96c98bbb941dc0d0238187f9252f4f750600e393c"
       path: "rbe"
       wait_for_warm_cache_secs: 120
     }
@@ -65,6 +65,6 @@ swarming {
         use_invocation_timestamp: true
       }
     }
-    description_html: "This builder is the subbuild for <a href=\"https://ci.chromium.org/p/fuchsia/builders/global.ci/core.x64-asan-kasan\">core.x64-asan-kasan</a>.\n\nThe <a href=\"https://fuchsia.dev/fuchsia-src/development/build/build_system/boards_and_products?hl=en#core-product\">core</a> product has networking capabilities and supports updates and installing additional software over-the-air."
+    description_html: "This builder is the subbuild for <a href=\"https://ci.chromium.org/p/fuchsia/builders/global.ci/core.x64-kasan\">core.x64-kasan</a>.\n\nThe <a href=\"https://fuchsia.dev/fuchsia-src/development/build/build_system/boards_and_products?hl=en#core-product\">core</a> product has networking capabilities and supports updates and installing additional software over-the-air."
   }
 }
