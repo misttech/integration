@@ -1,12 +1,6 @@
 {
   "cipd_root": "fuchsia",
   "extra_arch_map": {
-    "recipe_bootstrap": [
-      [
-        "windows",
-        "amd64"
-      ]
-    ],
     "recipe_wrapper": [
       [
         "windows",
@@ -17,7 +11,6 @@
   "manifest": "manifest",
   "no_python2": true,
   "output_name_map": {
-    "recipe_bootstrap": "luciexe",
     "recipe_wrapper": "luciexe"
   },
   "project": "infra/infra",
