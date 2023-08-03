@@ -7,7 +7,7 @@
 name: "try"
 swarming {
   builders {
-    name: "recipe_bootstrap-e2e-test"
+    name: "recipe_wrapper-e2e-test-child"
     swarming_host: "chromium-swarm.appspot.com"
     dimensions: "cores:32"
     dimensions: "cpu:x64"
@@ -23,7 +23,7 @@ swarming {
       '{'
       '  "is_fyi": true,'
       '  "led_builder_is_bootstrapped": true,'
-      '  "recipe": "recipe_wrapper_test/parent",'
+      '  "recipe": "recipe_wrapper_test/child",'
       '  "recipes_host_override": "fuchsia.googlesource.com"'
       '}'
     execution_timeout_secs: 4200
