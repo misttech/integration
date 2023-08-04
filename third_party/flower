@@ -678,5 +678,11 @@
              remote="https://fuchsia.googlesource.com/third_party/github.com/dpranke/pyjson5"
              gerrithost="https://fuchsia-review.googlesource.com"
              revision="2154e31bbae71b6a8ae69e5e5a3350528825f0fc"/>
+    <project name="third_party/chre"
+             gitsubmoduleof="fuchsia"
+             path="third_party/chre/src"
+             remote="https://fuchsia.googlesource.com/third_party/android.googlesource.com/platform/system/chre"
+             gerrithost="https://fuchsia-review.googlesource.com"
+             revision="d768690052557f0d486eea2f9fb2b26a91f59372"/>
   </projects>
 </manifest>
