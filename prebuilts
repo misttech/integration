@@ -95,17 +95,17 @@
     -->
     <package name="fuchsia/third_party/bazel/${platform}"
              version="version:2@6.2.1.6"
-             platforms="linux-amd64,mac-amd64"
+             platforms="linux-amd64,mac-amd64,mac-arm64"
              path="prebuilt/third_party/bazel/{{.OS}}-{{.Arch}}"/>
 
     <package name="fuchsia/third_party/buildifier/${platform}"
-             version="version:2@5.1.0.1"
-             platforms="linux-amd64,mac-amd64"
+             version="version:2@v6.1.2.1"
+             platforms="linux-amd64,mac-amd64,mac-arm64"
              path="prebuilt/third_party/buildifier/{{.OS}}-{{.Arch}}"/>
 
     <package name="fuchsia/third_party/buildozer/${platform}"
-             version="version:2@5.1.0.1"
-             platforms="linux-amd64,mac-amd64"
+             version="version:2@v6.1.2.1"
+             platforms="linux-amd64,mac-amd64,mac-arm64"
              path="prebuilt/third_party/buildozer/{{.OS}}-{{.Arch}}"/>
 
     <package name="fuchsia/third_party/bazel_workspacelogparser"
