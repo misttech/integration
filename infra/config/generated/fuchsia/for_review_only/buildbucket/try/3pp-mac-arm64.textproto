@@ -16,7 +16,7 @@ swarming {
     dimensions: "pool:luci.fuchsia.try"
     exe {
       cipd_package: "infra/recipe_bundles/chromium.googlesource.com/infra/infra"
-      cipd_version: "git_revision:7180edfa936f116ec1a568a10e485153657cdc0e"
+      cipd_version: "git_revision:b9503ced49652c9fffc6a0693c7b2bc7892cc20b"
       cmd: "luciexe"
     }
     properties:
