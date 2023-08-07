@@ -5,7 +5,9 @@
 	],
 	"femu-core@google.com": [
 		"try/bringup.arm64-tcg",
-		"try/bringup.arm64-tcg-subbuild"
+		"try/bringup.arm64-tcg-subbuild",
+		"try/bringup.x64-tcg",
+		"try/bringup.x64-tcg-subbuild"
 	],
 	"fuchsia-bazel-wg@google.com": [
 		"ci/intel_wifi_driver",
@@ -949,6 +951,8 @@
 		"try/core.x64-gce-staging-subbuild",
 		"try/core.x64-host_test_only-mac_m1",
 		"try/core.x64-host_test_only-mac_m1-subbuild",
+		"try/core.x64-tcg",
+		"try/core.x64-tcg-subbuild",
 		"try/jiri",
 		"try/kythe",
 		"try/rollable-submodule-roller"
