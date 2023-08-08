@@ -2,8 +2,9 @@
 # Do not modify manually.
 
 optimize: RELEASE
-board: "boards/qemu-x64.gni"
+board: "boards/x64.gni"
 product: "products/core.gni"
+gn_args: "allowed_test_device_types = [ \"AEMU\", \"QEMU\" ]"
 gn_args: "clang_enable_error_reproducers = true"
 gn_args: "optimize = \"profile\""
 gn_args: "restat_cc = false"
