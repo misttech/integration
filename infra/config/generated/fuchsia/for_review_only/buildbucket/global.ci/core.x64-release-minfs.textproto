@@ -57,6 +57,6 @@ swarming {
         use_invocation_timestamp: true
       }
     }
-    description_html: "The <a href=\"https://fuchsia.dev/fuchsia-src/development/build/build_system/boards_and_products?hl=en#core-product\">core</a> product has networking capabilities and supports updates and installing additional software over-the-air."
+    description_html: "A variant of the <a href=\"https://fuchsia.dev/fuchsia-src/development/build/build_system/boards_and_products?hl=en#core-product\">core</a> product which uses minfs to hold data, rather than Fxfs"
   }
 }
