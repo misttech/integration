@@ -215,6 +215,8 @@
 		"global.ci/core.x64-release-ffx-subbuild",
 		"global.ci/core.x64-release-ffx_subtools",
 		"global.ci/core.x64-release-ffx_subtools-subbuild",
+		"global.ci/docsgen-sdk",
+		"global.ci/docsgen-sdk-prod",
 		"try/core.arm64-asan-ffx",
 		"try/core.arm64-asan-ffx-subbuild",
 		"try/core.arm64-release-ffx",
@@ -226,7 +228,8 @@
 		"try/core.x64-release-ffx_subtools",
 		"try/core.x64-release-ffx_subtools-subbuild",
 		"try/core.x64-release-ffx_tests_only",
-		"try/core.x64-release-ffx_tests_only-subbuild"
+		"try/core.x64-release-ffx_tests_only-subbuild",
+		"try/docsgen-sdk"
 	],
 	"lacewing-discuss@google.com": [
 		"global.ci/core.qemu-x64-debug-pye2e",
@@ -537,10 +540,7 @@
 		"try/core.qemu-x64-debug-antlion-subbuild"
 	],
 	"tq-devrel@google.com": [
-		"global.ci/docsgen-sdk",
-		"global.ci/docsgen-sdk-prod",
-		"global.ci/fuchsia-docs-roller",
-		"try/docsgen-sdk"
+		"global.ci/fuchsia-docs-roller"
 	],
 	"tq-df-team@google.com": [
 		"global.ci/bringup.x64-drivers-build_only",
