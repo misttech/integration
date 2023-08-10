@@ -463,6 +463,12 @@
              platforms="linux-amd64"
              version="git_revision:ec8ddbd02b45197655550a5c517ff336bb54dc45"/>
 
+    <!-- SHAC static analysis tooling -->
+    <package name="fuchsia/shac/${platform}"
+             path="prebuilt/tools/shac"
+             version="git_revision:aa2ee98881db08534bdf29383fc86bfe5b9f8a65"
+             platforms="linux-amd64,linux-arm64,mac-amd64,mac-arm64"/>
+
     <!-- Packages in /infra/tools/ -->
     <package name="infra/tools/bb/${platform}"
              path="prebuilt/tools/buildbucket"
