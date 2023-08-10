@@ -3,7 +3,6 @@
 
 optimize: RELEASE
 product: "products/core.gni"
-gn_args: "arm_sdk_tools = true"
 gn_args: "build_should_trace_actions = true"
 gn_args: "restat_cc = false"
 gn_args: "restat_rust = false"
