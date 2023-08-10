@@ -38,12 +38,12 @@ swarming {
       path: "symbol"
     }
     caches {
-      name: "fuchsia_goma_42ed793017f9b155318b9b600c79d395490d54fddfb814e2f1c8de2fde826060"
+      name: "fuchsia_goma_24f8e0473a5b3e777f5abb4c293359d73752ce1b2e99e9b893eb0f276b9775cb"
       path: "goma"
       wait_for_warm_cache_secs: 120
     }
     caches {
-      name: "fuchsia_incremental_42ed793017f9b155318b9b600c79d395490d54fddfb814e2f1c8de2fde826060"
+      name: "fuchsia_incremental_24f8e0473a5b3e777f5abb4c293359d73752ce1b2e99e9b893eb0f276b9775cb"
       path: "incremental"
     }
     service_account: "fuchsia-ci-builder@fuchsia-infra.iam.gserviceaccount.com"
