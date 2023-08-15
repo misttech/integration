@@ -15,6 +15,7 @@
     },
     "gcs_bucket": "fuchsia-build",
     "test": {
+      "botanist_grace_period_secs": 60,
       "default_service_account": "artifact-readers@fuchsia-infra.iam.gserviceaccount.com",
       "enable_sandboxing": true,
       "max_attempts": 1,
@@ -25,6 +26,7 @@
       "per_test_timeout_secs": 600,
       "pool": "fuchsia.tests",
       "swarming_expiration_timeout_secs": 18000,
+      "swarming_grace_period_secs": 30,
       "swarming_io_timeout_secs": 660,
       "timeout_secs": 18000,
       "upload_results": true,
