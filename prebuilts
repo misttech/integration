@@ -113,8 +113,8 @@
              path="prebuilt/third_party/bazel_workspacelogparser"/>
 
     <package name="fuchsia/third_party/dtc/${platform}"
-             version="version:2@1.6.1"
-             platforms="linux-amd64,linux-arm64,mac-amd64"
+             version="version:2@1.7.0"
+             platforms="linux-amd64,linux-arm64,mac-amd64,mac-arm64"
              path="prebuilt/third_party/dtc/{{.OS}}-{{.Arch}}"/>
 
     <!-- openssh-portable from
