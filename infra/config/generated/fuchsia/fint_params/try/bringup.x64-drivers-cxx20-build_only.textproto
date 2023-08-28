@@ -7,8 +7,9 @@ product: "products/bringup.gni"
 gn_args: "build_should_trace_actions = true"
 gn_args: "experimental_cxx_version = 20"
 ninja_targets: ":developer_host_tools"
-ninja_targets: "bundles:drivers-build-only"
+ninja_targets: "bundles/drivers:drivers-build-only"
 universe_packages: "//bundles/buildbot/bringup"
+universe_packages: "//bundles/drivers:drivers-build-only"
 host_labels: "//bundles/infra/build"
 target_arch: X64
 include_prebuilt_binary_manifests: true
