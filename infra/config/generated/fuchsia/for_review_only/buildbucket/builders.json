@@ -144,7 +144,6 @@
 		"try/minimal.riscv64-release-subbuild"
 	],
 	"fuchsia-sdk-release-notify@google.com": [
-		"ci/sdk-samples-getting-started-rust",
 		"global.ci/sdk-bazel-linux",
 		"global.ci/sdk-bazel-linux-arm64-build_only",
 		"global.ci/sdk-bazel-linux-intel_wifi_driver",
@@ -184,8 +183,7 @@
 		"try/sdk-core-mac",
 		"try/sdk-core-mac-arm64-build_only",
 		"try/sdk-core-mac-subbuild",
-		"try/sdk-core-mac-x64-build_only",
-		"try/sdk-samples-getting-started-rust"
+		"try/sdk-core-mac-x64-build_only"
 	],
 	"fuchsia-test-coverage@google.com": [
 		"ci/core.arm64-coverage-qemu_kvm",
