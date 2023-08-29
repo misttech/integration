@@ -13,7 +13,6 @@
       "run_tests": true
     },
     "checkout": {
-      "enable_submodules": true,
       "manifest": "flower",
       "project": "integration",
       "remote": "https://fuchsia.googlesource.com/integration"
@@ -22,6 +21,8 @@
     "test": {
       "affected_tests_multiply_threshold": 100,
       "botanist_grace_period_secs": 60,
+      "catapult_dashboard_bot": "fuchsia-arm64-vim3",
+      "catapult_dashboard_master": "fuchsia.global.ci",
       "default_service_account": "artifact-readers@fuchsia-infra.iam.gserviceaccount.com",
       "enable_sandboxing": true,
       "max_attempts": 1,
