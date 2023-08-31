@@ -32,6 +32,7 @@ swarming {
       '}'
     priority: 22
     execution_timeout_secs: 8400
+    expiration_secs: 21600
     caches {
       name: "builder"
       path: "builder"
