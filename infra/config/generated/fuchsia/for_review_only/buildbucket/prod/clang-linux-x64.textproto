@@ -29,6 +29,7 @@ swarming {
       '  "recipes_integration_ref_override": "refs/heads/main"'
       '}'
     execution_timeout_secs: 10200
+    expiration_secs: 21600
     caches {
       name: "builder"
       path: "builder"
