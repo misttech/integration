@@ -1,0 +1,10 @@
+{
+  "cipd_pkg_name": "fuchsia/third_party/fonts",
+  "content_manifest": "fontdata/contents.json",
+  "manifest": "manifest.xml",
+  "no_python2": true,
+  "packing_script": "fontdata/packing_script.py",
+  "project": "fontdata",
+  "recipe": "contrib/third_party_prebuilts",
+  "remote": "https://fuchsia.googlesource.com/fontdata"
+}

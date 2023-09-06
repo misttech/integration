@@ -1,0 +1,11 @@
+{
+  "$fuchsia/rbe": {
+    "instance": "projects/rbe-fuchsia-prod/instances/default"
+  },
+  "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/try/kythe.textproto",
+  "gcs_bucket": "fuchsia-artifacts",
+  "manifest": "flower",
+  "no_python2": true,
+  "recipe": "contrib/kythe",
+  "remote": "https://fuchsia.googlesource.com/integration"
+}

@@ -1,0 +1,10 @@
+{
+  "bin_name": "cargo-outdated",
+  "cipd_package": "fuchsia/third_party/rust_cargo_outdated/${platform}",
+  "features": [
+    "vendored-openssl"
+  ],
+  "no_python2": true,
+  "recipe": "contrib/cargo_build",
+  "remote": "https://fuchsia.googlesource.com/third_party/github.com/kbknapp/cargo-outdated"
+}

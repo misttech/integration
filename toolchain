@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!--
+  Configuration of toolchain packages.
+
+  To manually fetch packages after local edits to this file, please regenerate
+  the corresponding lock files first by running:
+  `//integration/update-lockfiles.sh`
+
+  Then fetch the packages:
+  `jiri fetch-packages -local-manifest=true`
+  -->
+  <packages>
+
+    <!-- Binutils & GDB for diagnostic use
+         Built by bots at https://ci.chromium.org/p/fuchsia/g/binutils/
+    -->
+    <package name="fuchsia/third_party/binutils-gdb/${platform}"
+             version="git_revision:9030a82d6f700e03ab143f0d002e9f21ae2fd52f"
+             platforms="linux-amd64,linux-arm64,mac-amd64"
+             path="prebuilt/third_party/binutils-gdb/{{.OS}}-{{.Arch}}"/>
+
+    <!-- Clang
+         TODO(mcgrathr): repo/bot link about provenance
+    -->
+    <package name="fuchsia/third_party/clang/${platform}"
+             version="git_revision:8475d0a2b853f6184948b428ec679edf84ed2688"
+             platforms="linux-amd64,linux-arm64,mac-amd64,mac-arm64,windows-amd64"
+             path="prebuilt/third_party/clang/{{.OS}}-{{.Arch}}"/>
+
+    <!-- GCC
+         TODO(mcgrathr): repo/bot link about provenance
+    -->
+    <package name="fuchsia/third_party/gcc/${platform}"
+             version="git_revision:03150916be4e9fd8d6f388357134f856ab3a162d,b3e174482ffd731ab9a990aa233656b7427f8c61"
+             platforms="linux-amd64,linux-arm64,mac-amd64"
+             path="prebuilt/third_party/gcc/{{.OS}}-{{.Arch}}"/>
+
+    <!-- Go
+         TODO(phosek): repo/bot link about provenance
+    -->
+    <package name="fuchsia/go/${platform}"
+             version="git_revision:0edc819075312bc4e7ea7605c924585bbc22a12c"
+             platforms="linux-amd64,linux-arm64,mac-amd64,mac-arm64"
+             path="prebuilt/third_party/go/{{.OS}}-{{.Arch}}"/>
+
+    <!-- Goma
+         TODO(mcgrathr): repo/bot link about provenance
+    -->
+    <package name="fuchsia/third_party/goma/client/${platform}"
+             version="git_revision:4478f4117d6f7832a97763220060b70a93810436"
+             platforms="linux-amd64,mac-amd64"
+             path="prebuilt/third_party/goma/{{.OS}}-{{.Arch}}"/>
+
+    <!-- reclient
+         From Foundry-X team, for using RBE.
+         https://chrome-infra-packages.appspot.com/p/infra/rbe/client/
+    -->
+    <package name="infra/rbe/client/${platform}"
+             version="re_client_version:0.114.2.81e819b-gomaip"
+             platforms="linux-amd64,mac-amd64,mac-arm64"
+             path="prebuilt/proprietary/third_party/reclient/{{.OS}}-{{.Arch}}"/>
+
+    <!-- Rust host tools https://ci.chromium.org/p/fuchsia/g/rust/console
+         From Rust on Fuchsia team
+    -->
+    <package name="fuchsia/third_party/rust/host/${platform}"
+             version="git_revision:75726cae37317c7262b69d3e9fd11a3496a88d04"
+             platforms="linux-amd64,linux-arm64,mac-amd64,mac-arm64"
+             path="prebuilt/third_party/rust/{{.OS}}-{{.Arch}}"/>
+
+    <!-- Rust targets https://ci.chromium.org/p/fuchsia/g/rust/console
+         From Rust on Fuchsia team
+    -->
+    <package name="fuchsia/third_party/rust/target/fuchsia"
+             version="git_revision:75726cae37317c7262b69d3e9fd11a3496a88d04"
+             platforms="linux-amd64,linux-arm64,mac-amd64,mac-arm64"
+             path="prebuilt/third_party/rust/{{.OS}}-{{.Arch}}"/>
+    <package name="fuchsia/third_party/rust/target/aarch64-apple-darwin"
+             version="git_revision:75726cae37317c7262b69d3e9fd11a3496a88d04"
+             platforms="linux-amd64,linux-arm64,mac-amd64,mac-arm64"
+             path="prebuilt/third_party/rust/{{.OS}}-{{.Arch}}"/>
+    <package name="fuchsia/third_party/rust/target/aarch64-unknown-linux-gnu"
+             version="git_revision:75726cae37317c7262b69d3e9fd11a3496a88d04"
+             platforms="linux-amd64,linux-arm64,mac-amd64,mac-arm64"
+             path="prebuilt/third_party/rust/{{.OS}}-{{.Arch}}"/>
+    <package name="fuchsia/third_party/rust/target/wasm32-unknown-unknown"
+             version="git_revision:75726cae37317c7262b69d3e9fd11a3496a88d04"
+             platforms="linux-amd64,linux-arm64,mac-amd64,mac-arm64"
+             path="prebuilt/third_party/rust/{{.OS}}-{{.Arch}}"/>
+    <package name="fuchsia/third_party/rust/target/x86_64-apple-darwin"
+             version="git_revision:75726cae37317c7262b69d3e9fd11a3496a88d04"
+             platforms="linux-amd64,linux-arm64,mac-amd64,mac-arm64"
+             path="prebuilt/third_party/rust/{{.OS}}-{{.Arch}}"/>
+    <package name="fuchsia/third_party/rust/target/x86_64-unknown-linux-gnu"
+             version="git_revision:75726cae37317c7262b69d3e9fd11a3496a88d04"
+             platforms="linux-amd64,linux-arm64,mac-amd64,mac-arm64"
+             path="prebuilt/third_party/rust/{{.OS}}-{{.Arch}}"/>
+
+     <!-- rust-bindgen, used for generating rust bindings to c/c++ headers -->
+     <package name="fuchsia/third_party/rust_bindgen/${platform}"
+              version="git_revision:820ca42982fe77d5504f7a0534a3de6db6a1d703"
+              platforms="linux-amd64,mac-amd64"
+              path="prebuilt/third_party/rust_bindgen/{{.OS}}-{{.Arch}}"/>
+
+    <!-- sysroot trees built from public OS images
+         TODO(mcgrathr): repo/bot link about provenance
+    -->
+    <package name="fuchsia/third_party/sysroot/linux"
+             version="git_revision:c5efd58bb42b7c7ac763306ff7653d4e3edd922f"
+             platforms="linux-amd64,linux-arm64,mac-amd64,mac-arm64"
+             path="prebuilt/third_party/sysroot/linux"/>
+
+    <!-- GN from https://gn.googlesource.com/gn/ -->
+    <package name="gn/gn/${platform}"
+             version="git_revision:cc56a0f98bb34accd5323316e0292575ff17a5d4"
+             platforms="linux-amd64,linux-arm64,mac-amd64,mac-arm64"
+             path="prebuilt/third_party/gn/{{.OS}}-{{.Arch}}"/>
+
+    <!-- Ninja from https://ninja-build.org/ -->
+    <!-- TODO(phosek): link to bot/recipe/autoroller(?) -->
+    <package name="fuchsia/third_party/ninja/${platform}"
+             version="git_revision:dff096acae2ae991d7eba324983c9455fe68dd87"
+             platforms="linux-amd64,linux-arm64,mac-amd64,mac-arm64,windows-amd64"
+             path="prebuilt/third_party/ninja/{{.OS}}-{{.Arch}}"/>
+
+    <!-- Breakpad
+         TODO(phosek): repo/bot link about provenance
+    -->
+    <package name="fuchsia/tools/breakpad/${platform}"
+             version="git_revision:e35d1d09ae73eb18e28d11881ec724c279964991"
+             platforms="linux-amd64"
+             path="prebuilt/third_party/breakpad/{{.OS}}-{{.Arch}}"/>
+
+    <!-- CMake - Uploaded by cmake CI builds. Rolled manually as needed.
+    -->
+    <package name="fuchsia/third_party/cmake/${platform}"
+             version="git_revision:7a989a581c8da2fe9822096ee00b288c376b6117"
+             platforms="linux-amd64,linux-arm64,mac-amd64,mac-arm64,windows-amd64"
+             path="prebuilt/third_party/cmake/{{.OS}}-{{.Arch}}"/>
+
+    <!-- VPython interpreter, needed for running YAPF (and possibly more).
+    -->
+    <package name="infra/tools/luci/vpython/${platform}"
+             version="git_revision:d2e62f66b2957bdf5df04b428ed956a786ca062b"
+             platforms="linux-amd64,linux-arm64,mac-amd64,mac-arm64"
+             path="prebuilt/third_party/vpython"/>
+
+    <!-- Python3 interpreter, used for host tools after bootstrap.
+    -->
+    <package name="infra/3pp/tools/cpython3/${platform}"
+             version="version:2@3.11.3.chromium.29"
+             platforms="linux-amd64,linux-arm64,mac-amd64,mac-arm64"
+             path="prebuilt/third_party/python3/{{.OS}}-{{.Arch}}"/>
+
+    <!-- buildidtool from
+         https://fuchsia.googlesource.com/tools/+/{{.git_revision}}/cmd/buildidtool
+    -->
+    <package name="fuchsia/tools/buildidtool/${platform}"
+             version="git_revision:39c824b81c78a5cdbb8b0fbb33a053a4cb733628"
+             path="prebuilt/tools/buildidtool/{{.OS}}-{{.Arch}}"
+             platforms="linux-amd64,linux-arm64,mac-amd64,mac-arm64"/>
+
+    <!--   LLVM libraries -->
+    <!--   For Linux, download both arm64 and amd64 versions. -->
+    <package name="fuchsia/third_party/llvm/linux-arm64"
+             version="git_revision:d53b3df570e359d175d6e7a825ad1a02f9bc80a3"
+             platforms="linux-amd64,linux-arm64"
+             path="prebuilt/third_party/llvm/linux-arm64"/>
+    <package name="fuchsia/third_party/llvm/linux-amd64"
+             version="git_revision:d53b3df570e359d175d6e7a825ad1a02f9bc80a3"
+             platforms="linux-amd64,linux-arm64"
+             path="prebuilt/third_party/llvm/linux-x64"/>
+    <package name="fuchsia/third_party/llvm/mac-arm64"
+             version="git_revision:d53b3df570e359d175d6e7a825ad1a02f9bc80a3"
+             platforms="mac-arm64"
+             path="prebuilt/third_party/llvm/mac-arm64"/>
+    <package name="fuchsia/third_party/llvm/mac-amd64"
+             version="git_revision:d53b3df570e359d175d6e7a825ad1a02f9bc80a3"
+             platforms="mac-amd64"
+             path="prebuilt/third_party/llvm/mac-x64"/>
+
+    <!--   jq -->
+    <package name="fuchsia/third_party/jq/${platform}"
+             version="git_revision:a17dd3248a666d01be75f6b16be37e80e20b0954"
+             path="prebuilt/third_party/jq/{{.OS}}-{{.Arch}}"
+             platforms="linux-amd64,linux-arm64,mac-amd64"/>
+    <!--   TODO: merge the mac-arm64 jq package definition into the one above
+           once jq with oniguruma is available -->
+    <package name="fuchsia/third_party/jq/${platform}"
+             version="git_revision:949d38e6dc7330712b50697d7fe833eec85dede1"
+             path="prebuilt/third_party/jq/mac-arm64"
+             platforms="mac-arm64"/>
+
+  </packages>
+</manifest>

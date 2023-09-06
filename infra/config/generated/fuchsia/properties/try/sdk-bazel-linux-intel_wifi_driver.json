@@ -1,0 +1,20 @@
+{
+  "cipd_root": "fuchsia",
+  "external_testing": {
+    "gerrit_host": "fuchsia-review.googlesource.com",
+    "gerrit_project": "drivers/wlan/intel/iwlwifi",
+    "timeout_secs": 1800,
+    "tryjobs_wait_secs": 60
+  },
+  "gcs_bucket": "fuchsia-artifacts",
+  "manifest": "flower",
+  "no_python2": true,
+  "project": "integration",
+  "recipe": "sdk",
+  "remote": "https://fuchsia.googlesource.com/integration",
+  "sdk_name": "bazel",
+  "sdk_override_configs": {
+    "use_package_overrides": true
+  },
+  "skip_gn_sdk": true
+}
