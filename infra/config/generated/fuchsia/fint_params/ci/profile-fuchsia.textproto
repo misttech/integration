@@ -5,4 +5,4 @@ optimize: RELEASE
 board: "boards/qemu-x64.gni"
 product: "products/core.gni"
 target_arch: X64
-use_goma: true
+cxx_rbe_enable: true
