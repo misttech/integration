@@ -9,5 +9,5 @@ universe_packages: "//sdk/ctf:ctf_artifacts"
 target_arch: X64
 include_images: true
 include_prebuilt_binary_manifests: true
-use_goma: true
+cxx_rbe_enable: true
 include_default_ninja_target: true
