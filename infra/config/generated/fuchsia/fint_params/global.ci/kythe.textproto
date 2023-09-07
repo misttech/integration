@@ -7,5 +7,5 @@ product: "products/core.gni"
 universe_packages: "//bundles/kitchen_sink"
 target_arch: X64
 include_prebuilt_binary_manifests: true
-use_goma: true
+cxx_rbe_enable: true
 include_default_ninja_target: true

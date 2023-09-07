@@ -15,7 +15,7 @@ tools: "fidl-lint"
 tools: "formatjson5"
 tools: "mdlint"
 tools: "staticlints"
-use_goma: true
 rust_rbe_enable: true
+cxx_rbe_enable: true
 incremental: true
 include_lint_targets: AFFECTED_LINT_TARGETS
