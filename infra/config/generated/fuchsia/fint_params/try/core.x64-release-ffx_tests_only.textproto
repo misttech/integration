@@ -6,7 +6,7 @@ board: "boards/x64.gni"
 product: "products/core.gni"
 gn_args: "build_should_trace_actions = true"
 ninja_targets: ":developer_host_tools"
-base_packages: "//src/developer/ffx:tests"
+universe_packages: "//src/developer/ffx:tests"
 host_labels: "//bundles/infra/build"
 host_labels: "//bundles/infra/test"
 target_arch: X64
