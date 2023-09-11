@@ -1,6 +1,8 @@
 {
   "channel": "nightly",
   "default_ref": "refs/heads/main",
+  "llvm_ref": "refs/heads/main",
+  "llvm_repository": "https://llvm.googlesource.com/llvm-project",
   "no_python2": true,
   "product": "rust_newllvm",
   "recipe": "contrib/rust_toolchain",
