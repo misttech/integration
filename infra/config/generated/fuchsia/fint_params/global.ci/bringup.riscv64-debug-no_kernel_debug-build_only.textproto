@@ -6,7 +6,7 @@ board: "boards/riscv64.gni"
 product: "products/bringup.gni"
 gn_args: "build_should_trace_actions = true"
 gn_args: "zx_assert_level = 0"
-universe_packages: "//bundles/buildbot/bringup"
+base_packages: "//bundles/buildbot/bringup"
 host_labels: "//bundles/infra/build"
 target_arch: RISCV64
 include_images: true

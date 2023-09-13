@@ -4,7 +4,7 @@
 optimize: RELEASE
 board: "boards/arm64.gni"
 product: "products/core.gni"
-base_packages: "//bundles/buildbot/core"
+universe_packages: "//bundles/buildbot/core"
 host_labels: "//bundles/buildbot/host"
 host_labels: "//bundles/infra/build"
 host_labels: "//bundles/infra/test"
