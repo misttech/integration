@@ -10,7 +10,6 @@ base_packages: "//src/sys/bin/start_sl4f"
 base_packages: "//src/testing/sl4f"
 host_labels: "//bundles/infra/build"
 host_labels: "//bundles/infra/test"
-host_labels: "//src/testing/end_to_end/honeydew/tests/functional_tests:unstable_non_sl4f_vim3_tests"
 host_labels: "//src/testing/end_to_end/honeydew/tests/functional_tests:unstable_sl4f_vim3_tests"
 target_arch: ARM64
 pave: true
