@@ -3,10 +3,10 @@
 
 optimize: DEBUG
 product: "products/bringup.gni"
+ninja_targets: ":developer_host_tools"
+host_labels: "//bundles/tools/shac:shac_tools"
 host_labels: "//tools/check-licenses:host"
 host_labels: "//tools/doc_checker"
 target_arch: X64
 include_prebuilt_binary_manifests: true
-tools: "check-licenses"
-tools: "doc-checker"
 cxx_rbe_enable: true
