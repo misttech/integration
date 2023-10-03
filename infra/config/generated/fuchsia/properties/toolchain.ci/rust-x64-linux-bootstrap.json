@@ -1,4 +1,13 @@
 {
+  "builders": {
+    "linux-amd64": [
+      "fuchsia/rust_toolchain.core.arm64-debug",
+      "fuchsia/rust_toolchain.core.arm64-release",
+      "fuchsia/rust_toolchain.core.x64-debug",
+      "fuchsia/rust_toolchain.core.x64-release",
+      "fuchsia/rust_toolchain.core.x64-lint_all-build_only"
+    ]
+  },
   "channel": "nightly",
   "default_ref": "refs/heads/main",
   "no_python2": true,
@@ -8,6 +17,5 @@
   "test_suites": [
     "tests/ui"
   ],
-  "upload_to_cipd": true,
   "use_upstream_stage0": true
 }
