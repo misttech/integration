@@ -4,7 +4,6 @@
 optimize: RELEASE
 board: "boards/x64.gni"
 product: "products/core.gni"
-gn_args: "clippy_cause_failure = false"
 universe_packages: "//bundles/kitchen_sink"
 target_arch: X64
 include_prebuilt_binary_manifests: true
@@ -12,4 +11,3 @@ include_generated_sources: true
 rust_rbe_enable: true
 cxx_rbe_enable: true
 incremental: true
-include_lint_targets: AFFECTED_LINT_TARGETS
