@@ -5,6 +5,8 @@ optimize: RELEASE
 board: "boards/arm64.gni"
 product: "products/workbench_eng.gni"
 gn_args: "build_should_trace_actions = true"
+gn_args: "restat_cc = true"
+gn_args: "restat_rust = true"
 universe_packages: "//bundles/buildbot/workbench"
 host_labels: "//bundles/infra/build"
 target_arch: ARM64
