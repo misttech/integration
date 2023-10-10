@@ -149,9 +149,9 @@
              path="prebuilt/tools/cgpt/{{.OS}}-{{.Arch}}"
              platforms="linux-amd64,mac-amd64"/>
     <package name="fuchsia/tools/futility/${platform}"
-             version="git_revision:907090f8cf4fab1c2aef55573631478015cf4998"
+             version="git_revision:86c8c74f55954fdbc5d23e172a744f53d241355e"
              path="prebuilt/tools/futility/{{.OS}}-{{.Arch}}"
-             platforms="linux-amd64,mac-amd64"/>
+             platforms="linux-amd64,mac-amd64,mac-arm64"/>
 
     <!-- Packages for build -->
     <!--   Dart -->
@@ -199,7 +199,7 @@
     <!--   Skia Gold -->
     <package name="skia/tools/goldctl/${platform}"
              version="git_revision:b03d0b107ce3febb6e37a0b7f05339136bd44ffd"
-             platforms="linux-amd64,linux-arm64,mac-amd64"
+             platforms="linux-amd64,linux-arm64,mac-amd64,mac-arm64"
              path="prebuilt/third_party/goldctl"/>
     <!--   Vulkan Runtime (for host builds) -->
     <package name="fuchsia/third_party/vulkan_runtime/${platform}"
