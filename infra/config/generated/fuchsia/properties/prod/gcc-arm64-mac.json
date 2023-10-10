@@ -1,0 +1,8 @@
+{
+  "builders": [
+    "fuchsia/gcc_toolchain.bringup.arm64-gcc",
+    "fuchsia/gcc_toolchain.bringup.x64-gcc"
+  ],
+  "no_python2": true,
+  "recipe": "contrib/gcc_toolchain"
+}
