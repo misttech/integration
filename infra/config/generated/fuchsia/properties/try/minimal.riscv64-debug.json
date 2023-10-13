@@ -26,6 +26,7 @@
       "enable_sandboxing": true,
       "ffx_experiment_level": 1,
       "max_attempts_per_test": 3,
+      "max_shards_per_env": 32,
       "pave": true,
       "per_shard_package_repos": true,
       "per_test_timeout_secs": 600,
@@ -36,7 +37,8 @@
       "target_shard_duration_secs": 540,
       "upload_results": true,
       "use_cas": true,
-      "use_cas_for_images": true
+      "use_cas_for_images": true,
+      "use_tcg": true
     }
   },
   "uses_subbuild": true
