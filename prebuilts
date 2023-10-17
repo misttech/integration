@@ -648,5 +648,12 @@
              path="prebuilt/.build-id"
              version="git_revision:17ff365f6619c44ecbd88faae5a95b2fac77fbad"
              attributes="debug-symbols,debug-symbols-x64"/>
+    <package name="fuchsia/drivers/rtc/pcf8563/arm64"
+             path="prebuilt/drivers/rtc/pcf8563"
+             version="git_revision:206a686a50a36e67bca430f589cc5d3e9cd5bc62"/>
+    <package name="fuchsia/drivers/rtc/pcf8563/debug-symbols-arm64"
+             path="prebuilt/.build-id"
+             version="git_revision:206a686a50a36e67bca430f589cc5d3e9cd5bc62"
+             attributes="debug-symbols,debug-symbols-arm64"/>
   </packages>
 </manifest>
