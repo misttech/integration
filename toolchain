@@ -118,6 +118,10 @@
              version="git_revision:cf821ee2dbc2ed61dfc25a814dcc8d090f9fda03"
              platforms="linux-amd64,linux-arm64,mac-amd64,mac-arm64"
              path="prebuilt/third_party/sysroot/linux"/>
+    <package name="fuchsia/third_party/sysroot/focal"
+             version="git_revision:fa7a5a9710540f30ff98ae48b62f2cdf72ed2acd"
+             platforms="linux-amd64,linux-arm64,mac-amd64,mac-arm64"
+             path="prebuilt/third_party/sysroot/ubuntu20.04"/>
 
     <!-- GN from https://gn.googlesource.com/gn/ -->
     <package name="gn/gn/${platform}"
