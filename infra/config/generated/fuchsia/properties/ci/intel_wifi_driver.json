@@ -4,5 +4,6 @@
   "no_python2": true,
   "recipe": "bazel_build_test_upload",
   "remote": "https://fuchsia.googlesource.com/drivers/wlan/intel/iwlwifi",
-  "testing_pool": "fuchsia.tests"
+  "testing_pool": "fuchsia.tests",
+  "upload_bcid_attestation": false
 }
