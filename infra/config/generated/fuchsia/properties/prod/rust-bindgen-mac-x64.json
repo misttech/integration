@@ -3,5 +3,6 @@
   "cipd_package": "fuchsia/third_party/rust_bindgen/${platform}",
   "no_python2": true,
   "recipe": "contrib/cargo_build",
-  "remote": "https://fuchsia.googlesource.com/third_party/github.com/rust-lang/rust-bindgen"
+  "remote": "https://fuchsia.googlesource.com/third_party/github.com/rust-lang/rust-bindgen",
+  "upload_bcid_attestation": false
 }
