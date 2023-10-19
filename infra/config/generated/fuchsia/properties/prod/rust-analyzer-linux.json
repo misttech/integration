@@ -3,5 +3,6 @@
   "cipd_package": "fuchsia/third_party/rust-analyzer/${platform}",
   "no_python2": true,
   "recipe": "contrib/cargo_build",
-  "remote": "https://fuchsia.googlesource.com/third_party/github.com/rust-lang/rust-analyzer"
+  "remote": "https://fuchsia.googlesource.com/third_party/github.com/rust-lang/rust-analyzer",
+  "upload_bcid_attestation": false
 }
