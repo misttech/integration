@@ -529,6 +529,19 @@
              attributes="debug-symbols,debug-symbols-arm64"
              internal="true"/>
 
+    <!-- Starnix internal riscv64 android image -->
+    <package name="fuchsia_internal/starnix/android-image-riscv64"
+             path="prebuilt/starnix/internal/android-image-riscv64"
+             version="bid:10958014"
+             internal="true"/>
+
+    <!-- Starnix internal riscv64 android image debug symbols -->
+    <package name="fuchsia_internal/starnix/android-image-debug-symbols-riscv64"
+             path="prebuilt/.build-id"
+             version="bid:10958014"
+             attributes="debug-symbols,debug-symbols-riscv64"
+             internal="true"/>
+
     <!-- Starnix root filesystem image for testing on x64 -->
     <package name="fuchsia/third_party/starnix/linux-amd64"
              path="prebuilt/starnix/linux-amd64"
@@ -592,6 +605,10 @@
              path="prebuilt/starnix/tests/syscalls/linux-arm64"
              version="g3-revision:fuchsia_starnix_tests_20231019_01_RC00"/>
 
+    <package name="fuchsia/starnix/tests/syscalls/linux-riscv64"
+             path="prebuilt/starnix/tests/syscalls/linux-riscv64"
+             version="g3-revision:fuchsia_starnix_tests_20231016_12_RC00"/>
+
     <package name="fuchsia/starnix/tests/syscalls/linux-debug-symbols-amd64"
              path="prebuilt/.build-id"
              version="g3-revision:fuchsia_starnix_tests_20231019_01_RC00"
@@ -601,6 +618,11 @@
              path="prebuilt/.build-id"
              version="g3-revision:fuchsia_starnix_tests_20231019_01_RC00"
              attributes="debug-symbols,debug-symbols-arm64"/>
+
+    <package name="fuchsia/starnix/tests/syscalls/linux-debug-symbols-riscv64"
+             path="prebuilt/.build-id"
+             version="g3-revision:fuchsia_starnix_tests_20231016_12_RC00"
+             attributes="debug-symbols,debug-symbols-riscv64"/>
 
     <!-- ARM Mali Vulkan ICDs -->
     <package name="fuchsia/prebuilt/proprietary/vendor/arm/libvulkan/libvulkan_arm_mali_g52_r0p0"
