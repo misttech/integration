@@ -2,6 +2,7 @@
   "$fuchsia/rbe": {
     "instance": "projects/rbe-fuchsia-prod/instances/default"
   },
+  "affected_tests_only": true,
   "artifact_gcs_bucket": "fuchsia-artifacts",
   "coverage_builders": {
     "core.x64-coverage-qemu_kvm": [
