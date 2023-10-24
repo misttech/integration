@@ -10,8 +10,7 @@ gn_args: "restat_rust = true"
 universe_packages: "//bundles/buildbot/workbench"
 host_labels: "//bundles/infra/build"
 host_labels: "//bundles/infra/test"
-host_labels: "//src/testing/end_to_end/honeydew/tests/functional_tests:stable_non_sl4f_vim3_tests"
-host_labels: "//src/testing/end_to_end/honeydew/tests/functional_tests:unstable_non_sl4f_vim3_tests"
+host_labels: "//src/testing/end_to_end:staging_vim3_tests"
 target_arch: ARM64
 pave: true
 include_images: true
