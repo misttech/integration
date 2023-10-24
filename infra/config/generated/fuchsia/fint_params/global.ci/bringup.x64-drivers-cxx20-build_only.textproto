@@ -6,8 +6,8 @@ board: "boards/x64.gni"
 product: "products/bringup.gni"
 gn_args: "build_should_trace_actions = true"
 gn_args: "experimental_cxx_version = 20"
-gn_args: "restat_cc = true"
-gn_args: "restat_rust = true"
+gn_args: "restat_cc = false"
+gn_args: "restat_rust = false"
 ninja_targets: ":developer_host_tools"
 ninja_targets: "bundles/drivers:drivers-build-only"
 host_labels: "//bundles/infra/build"
@@ -15,6 +15,4 @@ target_arch: X64
 include_prebuilt_binary_manifests: true
 rust_rbe_enable: true
 cxx_rbe_enable: true
-incremental: true
-use_temporary_go_cache: true
 build_only_labels: "//bundles/drivers:drivers-build-only"

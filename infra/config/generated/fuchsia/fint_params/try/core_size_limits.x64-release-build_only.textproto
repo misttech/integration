@@ -5,8 +5,8 @@ optimize: RELEASE
 board: "boards/x64.gni"
 product: "products/core_size_limits.gni"
 gn_args: "build_should_trace_actions = true"
-gn_args: "restat_cc = true"
-gn_args: "restat_rust = true"
+gn_args: "restat_cc = false"
+gn_args: "restat_rust = false"
 host_labels: "//bundles/infra/build"
 target_arch: X64
 pave: true
@@ -15,6 +15,4 @@ include_prebuilt_binary_manifests: true
 skip_if_unaffected: true
 rust_rbe_enable: true
 cxx_rbe_enable: true
-incremental: true
 include_default_ninja_target: true
-use_temporary_go_cache: true
