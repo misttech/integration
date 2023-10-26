@@ -503,45 +503,6 @@
              version="git_revision:6a8a87afba5551ae1c0258808ccd139f6b270213"
              platforms="linux-amd64,mac-amd64"/>
 
-    <!-- Starnix internal x64 android image -->
-    <package name="fuchsia_internal/starnix/android-image-amd64"
-             path="prebuilt/starnix/internal/android-image-amd64"
-             version="bid:11002267"
-             internal="true"/>
-
-    <!-- Starnix internal x64 android image debug symbols -->
-    <package name="fuchsia_internal/starnix/android-image-debug-symbols-amd64"
-             path="prebuilt/.build-id"
-             version="bid:11002267"
-             attributes="debug-symbols,debug-symbols-x64"
-             internal="true"/>
-
-    <!-- Starnix internal arm64 android image -->
-    <package name="fuchsia_internal/starnix/android-image-arm64"
-             path="prebuilt/starnix/internal/android-image-arm64"
-             version="bid:11002267"
-             internal="true"/>
-
-    <!-- Starnix internal arm64 android image debug symbols -->
-    <package name="fuchsia_internal/starnix/android-image-debug-symbols-arm64"
-             path="prebuilt/.build-id"
-             version="bid:11002267"
-             attributes="debug-symbols,debug-symbols-arm64"
-             internal="true"/>
-
-    <!-- Starnix internal riscv64 android image -->
-    <package name="fuchsia_internal/starnix/android-image-riscv64"
-             path="prebuilt/starnix/internal/android-image-riscv64"
-             version="bid:11002267"
-             internal="true"/>
-
-    <!-- Starnix internal riscv64 android image debug symbols -->
-    <package name="fuchsia_internal/starnix/android-image-debug-symbols-riscv64"
-             path="prebuilt/.build-id"
-             version="bid:11002267"
-             attributes="debug-symbols,debug-symbols-riscv64"
-             internal="true"/>
-
     <!-- Starnix root filesystem image for testing on x64 -->
     <package name="fuchsia/third_party/starnix/linux-amd64"
              path="prebuilt/starnix/linux-amd64"
