@@ -173,9 +173,9 @@
              path="prebuilt/test_data/media/third_party/chromium_media_test_data_downstream"/>
     <!--   Fastboot -->
     <package name="fuchsia/third_party/fastboot/${platform}"
-             version="git_revision:fc1e6adc6f9d552cb2305a22d9d4de39af0038d7"
+             version="git_revision:7bcd7715f8ba852361b15c7b02276f3eb9193e5a"
              path="prebuilt/third_party/fastboot"
-             platforms="linux-amd64,mac-amd64"/>
+             platforms="linux-amd64,mac-amd64,mac-arm64"/>
     <!--   FFMPEG library -->
     <package name="fuchsia/lib/ffmpeg/fuchsia"
              version="git_revision:74d00850e185bfe195080907e01a20cdb31d62a2"
