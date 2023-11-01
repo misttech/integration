@@ -1,9 +1,10 @@
 {
+  "builders": {},
   "channel": "nightly",
   "default_ref": "refs/heads/main",
   "no_python2": true,
   "product": "rust",
-  "recipe": "contrib/rust_toolchain",
+  "recipe": "rust_toolchain",
   "repository": "https://fuchsia.googlesource.com/third_party/rust",
   "test_suites": [
     "tests/ui"
