@@ -13,11 +13,12 @@
   "llvm_repository": "https://llvm.googlesource.com/llvm-project",
   "no_python2": true,
   "product": "rust_newllvm",
-  "recipe": "contrib/rust_toolchain",
+  "recipe": "rust_toolchain",
   "repository": "https://fuchsia.googlesource.com/third_party/rust",
   "test_suites": [
     "tests/ui"
   ],
   "upload_bcid_attestation": false,
-  "upload_to_cipd": true
+  "upload_to_cipd": true,
+  "use_upstream_stage0": false
 }

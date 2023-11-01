@@ -12,11 +12,12 @@
   "default_ref": "refs/heads/main",
   "no_python2": true,
   "product": "rust",
-  "recipe": "contrib/rust_toolchain",
+  "recipe": "rust_toolchain",
   "repository": "https://fuchsia.googlesource.com/third_party/rust",
   "test_suites": [
     "tests/ui"
   ],
   "upload_bcid_attestation": false,
+  "upload_to_cipd": false,
   "use_upstream_stage0": true
 }
