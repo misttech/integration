@@ -8,12 +8,11 @@
     "artifact_gcs_bucket": "fuchsia-artifacts",
     "build": {
       "enable_sandboxing": true,
-      "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/global.ci/core.qemu-x64-debug-pye2e-staging.textproto",
+      "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/global.ci/core.x64-host_tsan.textproto",
       "incremental": true,
       "run_tests": true
     },
     "checkout": {
-      "enable_submodules": true,
       "manifest": "flower",
       "project": "integration",
       "remote": "https://fuchsia.googlesource.com/integration"
@@ -27,6 +26,7 @@
       "ffx_experiment_level": 1,
       "max_attempts": 1,
       "max_attempts_per_test": 3,
+      "max_shards_per_env": 12,
       "pave": true,
       "per_shard_package_repos": true,
       "per_test_timeout_secs": 300,
@@ -35,6 +35,7 @@
       "swarming_grace_period_secs": 30,
       "swarming_io_timeout_secs": 360,
       "target_shard_duration_secs": 540,
+      "timeout_secs": 2400,
       "upload_results": true,
       "use_cas": true,
       "use_cas_for_images": true
