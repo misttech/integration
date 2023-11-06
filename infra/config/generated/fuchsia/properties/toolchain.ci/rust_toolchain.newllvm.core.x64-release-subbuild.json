@@ -1,4 +1,9 @@
 {
+  "$fuchsia/checkout": {
+    "rust_toolchain": {
+      "cipd_version": "latest"
+    }
+  },
   "$fuchsia/rbe": {
     "instance": "projects/rbe-fuchsia-prod/instances/default"
   },
