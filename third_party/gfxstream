@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <projects>
+    <project name="third_party/android/platform/hardware/google/gfxstream"
+             gitsubmoduleof="fuchsia"
+             path="third_party/gfxstream/src"
+             remote="https://fuchsia.googlesource.com/third_party/android.googlesource.com/platform/hardware/google/gfxstream"
+             revision="fe162a5b883bc2f09f8da8ddf89e5fc93b33449f"/>
+    <project name="third_party/android/platform/hardware/google/aemu"
+             gitsubmoduleof="fuchsia"
+             path="third_party/gfxstream/aemu/src"
+             remote="https://fuchsia.googlesource.com/third_party/android.googlesource.com/platform/hardware/google/aemu"
+             revision="16f431559c653dd248c05fcfeb95a7cf93c0e6a7"/>
+  </projects>
+</manifest>
