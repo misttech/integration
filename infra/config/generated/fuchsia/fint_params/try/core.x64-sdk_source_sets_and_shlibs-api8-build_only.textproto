@@ -4,7 +4,7 @@
 optimize: DEBUG
 product: "products/core.gni"
 gn_args: "build_should_trace_actions = true"
-gn_args: "override_target_api_level = 10"
+gn_args: "override_target_api_level = 8"
 gn_args: "restat_cc = true"
 gn_args: "restat_rust = true"
 ninja_targets: ":developer_host_tools"
@@ -15,6 +15,7 @@ host_labels: "//bundles/infra/build"
 target_arch: X64
 pave: true
 include_prebuilt_binary_manifests: true
+skip_if_unaffected: true
 rust_rbe_enable: true
 cxx_rbe_enable: true
 incremental: true
