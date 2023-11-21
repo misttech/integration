@@ -430,12 +430,6 @@
              platforms="linux-amd64,linux-arm64,mac-amd64,mac-arm64"
              internal="true"/>
 
-    <!-- Packages for CTS -->
-    <package name="fuchsia/cts/${platform}"
-             path="prebuilt/cts/canary/{{.OS}}-{{.Arch}}"
-             platforms="linux-amd64"
-             version="git_revision:62cecfee0f61532330e4a83d752d368e175402e4"/>
-
     <!-- SHAC static analysis tooling -->
     <package name="fuchsia/shac/${platform}"
              path="prebuilt/tools/shac"
