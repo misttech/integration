@@ -28,8 +28,8 @@
 
      <!-- cargo-outdated, used for rolling external rust deps -->
      <package name="fuchsia/third_party/rust_cargo_outdated/${platform}"
-              version="git_revision:0ba6562329d6d5b9d33620251705c25a9de9bd2f"
-              platforms="linux-amd64,mac-amd64"
+              version="git_revision:d60b274a495177a4c696a05d38d96fef0560cef2"
+              platforms="linux-amd64,mac-amd64,mac-arm64"
               path="prebuilt/third_party/rust_cargo_outdated/{{.OS}}-{{.Arch}}"/>
 
     <!-- QEMU
