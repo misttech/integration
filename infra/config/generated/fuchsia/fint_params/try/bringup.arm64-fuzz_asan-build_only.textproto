@@ -6,8 +6,8 @@ board: "boards/qemu-arm64.gni"
 product: "products/bringup.gni"
 gn_args: "build_should_trace_actions = true"
 gn_args: "optimize = \"sanitizer\""
-gn_args: "restat_cc = true"
-gn_args: "restat_rust = true"
+gn_args: "restat_cc = false"
+gn_args: "restat_rust = false"
 base_packages: "//bundles/buildbot/bringup"
 universe_packages: "//tools/fuzz"
 host_labels: "//bundles/infra/build"
@@ -19,6 +19,4 @@ include_prebuilt_binary_manifests: true
 skip_if_unaffected: true
 rust_rbe_enable: true
 cxx_rbe_enable: true
-incremental: true
 include_default_ninja_target: true
-use_temporary_go_cache: true

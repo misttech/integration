@@ -4,6 +4,8 @@
 optimize: DEBUG
 board: "boards/arm64.gni"
 product: "products/core.gni"
+gn_args: "restat_cc = false"
+gn_args: "restat_rust = false"
 universe_packages: "//bundles/buildbot/core"
 host_labels: "//bundles/infra/build"
 target_arch: ARM64
@@ -11,6 +13,4 @@ pave: true
 include_prebuilt_binary_manifests: true
 skip_if_unaffected: true
 use_goma: true
-incremental: true
 include_default_ninja_target: true
-use_temporary_go_cache: true
