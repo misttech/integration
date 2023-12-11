@@ -149,7 +149,7 @@
              path="prebuilt/tools/cgpt/{{.OS}}-{{.Arch}}"
              platforms="linux-amd64,mac-amd64"/>
     <package name="fuchsia/tools/futility/${platform}"
-             version="git_revision:f51cd9d9bcd0d4cb8420a23f63840a5ccfc0c589"
+             version="git_revision:b0264c4fe0c94edc7cd3728921f15cc9e7066326"
              path="prebuilt/tools/futility/{{.OS}}-{{.Arch}}"
              platforms="linux-amd64,mac-amd64,mac-arm64"/>
     <package name="fuchsia/tools/ninjatrace/${platform}"
