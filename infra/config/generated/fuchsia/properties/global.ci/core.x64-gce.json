@@ -1,14 +1,11 @@
 {
-  "$fuchsia/autocorrelator": {
-    "ci_bucket": "global.ci"
-  },
   "no_python2": true,
   "recipe": "fuchsia/fuchsia",
   "spec": {
     "artifact_gcs_bucket": "fuchsia-artifacts",
     "build": {
       "enable_sandboxing": true,
-      "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/try/core.x64-gce.textproto",
+      "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/global.ci/core.x64-gce.textproto",
       "incremental": true,
       "run_tests": true
     },
@@ -35,7 +32,6 @@
       "per_shard_package_repos": true,
       "per_test_timeout_secs": 300,
       "pool": "fuchsia.tests",
-      "skip_unaffected_tests": true,
       "swarming_expiration_timeout_secs": 18000,
       "swarming_grace_period_secs": 30,
       "swarming_io_timeout_secs": 360,
