@@ -39,7 +39,7 @@
                     https://ci.chromium.org/p/fuchsia/builders/ci/qemu-x64-mac
     -->
     <package name="fuchsia/third_party/qemu/${platform}"
-             version="git_revision:a342ce9dfeed8088c426e5d51d4a7e47f3764b84"
+             version="git_revision:1600b9f46b1bd08b00fe86c46ef6dbb48cbe10d6"
              platforms="linux-amd64,linux-arm64,mac-amd64,mac-arm64"
              path="prebuilt/third_party/qemu/{{.OS}}-{{.Arch}}"/>
 
