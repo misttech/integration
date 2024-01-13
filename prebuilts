@@ -455,6 +455,10 @@
              path="prebuilt/tools/logdog"
              platforms="linux-amd64,linux-arm64,mac-amd64,mac-arm64"
              version="git_revision:1d38f31b007e1f4d8593c99353a23011d6dfcc32"/>
+    <package name="infra/tools/luci/cas/${platform}"
+             path="prebuilt/tools/cas"
+             platforms="linux-amd64,linux-arm64,mac-amd64,mac-arm64"
+             version="git_revision:1d38f31b007e1f4d8593c99353a23011d6dfcc32"/>
 
     <!-- Packages in /fuchsia/infra -->
     <package name="fuchsia/infra/artifacts/${platform}"
