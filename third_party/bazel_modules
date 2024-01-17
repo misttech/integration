@@ -41,6 +41,12 @@
              remote="https://fuchsia.googlesource.com/third_party/github.com/bazelbuild/rules_rust"
              module_version="0.16.1"
              revision="85564208e1c4be3a657f461b3da5d2babbb98c48"/>
+    <project name="third_party/bazel_rules_proto"
+             gitsubmoduleof="fuchsia"
+             path="third_party/bazel_rules_proto"
+             remote="https://fuchsia.googlesource.com/third_party/github.com/bazelbuild/rules_proto"
+             module_version="4.0.0"
+             revision="fcad4680fee127dbd8344e6a961a28eef5820ef4"/>
     <project name="third_party/bazel_skylib"
              gitsubmoduleof="fuchsia"
              path="third_party/bazel_skylib"
