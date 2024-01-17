@@ -9,7 +9,7 @@
 
 set -eu -o pipefail
 
-src_dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+src_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 readonly src_dir
 
 download_dir="$(mktemp -d)"
@@ -34,9 +34,9 @@ readonly python_dir
 
 configfile="${src_dir}/pylibs"
 readonly configfile
-echo -n "" > "${configfile}"
+echo -n "" >"${configfile}"
 
-cat >> "${configfile}" <<-EOF
+cat >>"${configfile}" <<-EOF
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!--
@@ -61,11 +61,11 @@ for archive in "${sorted_archives[@]}"; do
   noext="${base%.tar.gz}"
 
   # Extracts the package name from a base directory, removing trailing version number i.e mypy-1.6.0.
-  pkg="$(sed -r 's/-[0-9]+\.[0-9]+(\.[0-9]+)?//g' <<< "${noext}")"
+  pkg="$(sed -r 's/-[0-9]+\.[0-9]+(\.[0-9]+)?//g' <<<"${noext}")"
 
   # Extracts the version number (major.minor(.patch)) from the base directory,
   # handling both "major.minor.patch" and "major.minor" patterns i.e mypy-1.6.0, mypy-0.1
-  version="$(sed -r 's/^.*-([0-9]+\.[0-9]+(\.[0-9]+)?).*/\1/g' <<< "${noext}")"
+  version="$(sed -r 's/^.*-([0-9]+\.[0-9]+(\.[0-9]+)?).*/\1/g' <<<"${noext}")"
 
   unzip_dir="$(mktemp -d)"
   tar -xzf "${archive}" -C "${unzip_dir}"
@@ -79,17 +79,16 @@ for archive in "${sorted_archives[@]}"; do
   while read -r line; do
     # Checks whether line is empty or comment line
     if [[ ! "$line" =~ "^[[:space:]]*#" && -n "$line" ]]; then
-      pkg_name="${line%% *}"      # Extract package name
-      pkg_name="${pkg_name%%=*}"  # Remove any trailing '==' and version
+      pkg_name="${line%% *}"     # Extract package name
+      pkg_name="${pkg_name%%=*}" # Remove any trailing '==' and version
 
       if [[ "${pkg_name}" == "${pkg}" ]]; then
         package_exists=true
-        url="${line#*#}"
-        path="${url#*.com/}"
+        path="third_party/${line#*# }"
         break
       fi
     fi
-  done < "${src_dir}/requirements.txt"
+  done <"${src_dir}/requirements.txt"
 
   if ! "${package_exists}"; then
     echo "ERROR - Add ${pkg} package name and path in the requirements.txt"
@@ -97,26 +96,29 @@ for archive in "${sorted_archives[@]}"; do
   fi
 
   # Retrieves the commit ID at HEAD associated with a version tag.
-  matching_tag=$(git ls-remote --tags "$url" | grep -F "$version" | sort -rt' ' -k2 | head -n 1)
+  matching_tag=$(git ls-remote --tags "https://fuchsia-review.googlesource.com/${path}" |
+    grep -F "${version}" |
+    sort -rt' ' -k2 |
+    head -n 1)
 
   if [[ -z "$matching_tag" ]]; then
-      echo "Tag not found for package $noext."
-      exit
+    echo "Tag not found for package $noext."
+    exit
   fi
 
-  cat >> "${configfile}" <<-EOF
-    <!-- ${pkg}-$(basename "$matching_tag")" -->
+  cat >>"${configfile}" <<-EOF
+    <!-- ${pkg}-$(basename "$matching_tag") -->
     <project name="${path}"
         gitsubmoduleof="fuchsia"
         path="${path}/src"
-        remote="${url}"
+        remote="https://fuchsia.googlesource.com/${path}"
         revision="$(echo "$matching_tag" | awk '{print $1}')"
         gerrithost="https://fuchsia-review.googlesource.com"/>
 EOF
   rm -rf "${unzip_dir}"
 done
 
-cat >> "${configfile}" <<-EOF
+cat >>"${configfile}" <<-EOF
   </projects>
 </manifest>
 EOF
