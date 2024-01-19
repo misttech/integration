@@ -1,6 +1,7 @@
 {
   "builders": {
     "linux-amd64": [
+      "fuchsia/rust_toolchain.bringup.riscv64-debug",
       "fuchsia/rust_toolchain.core.arm64-debug",
       "fuchsia/rust_toolchain.core.arm64-release",
       "fuchsia/rust_toolchain.core.x64-debug",
