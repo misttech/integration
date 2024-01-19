@@ -1,5 +1,12 @@
 mypy==1.7.1 # github.com/python/mypy
+pylint==3.0.2 # github.com/pylint-dev/pylint
 
 # Transitive dependencies
+astroid # github.com/pylint-dev/astroid
+dill # github.com/uqfoundation/dill
+isort # github.com/PyCQA/isort
+mccabe # github.com/PyCQA/mccabe
 mypy_extensions # github.com/python/mypy_extensions
+platformdirs # github.com/platformdirs/platformdirs
+tomlkit # github.com/sdispater/tomlkit
 typing_extensions # github.com/python/typing_extensions
