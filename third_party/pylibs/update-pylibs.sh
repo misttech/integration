@@ -91,23 +91,29 @@ for archive in "${sorted_archives[@]}"; do
   done <"${src_dir}/requirements.txt"
 
   if ! "${package_exists}"; then
-    echo "ERROR - Add ${pkg} package name and path in the requirements.txt"
+    echo "Error: Add ${pkg} package name and path in the requirements.txt"
     exit
   fi
 
-  # Retrieves the commit ID at HEAD associated with a version tag.
-  matching_tag=$(git ls-remote --tags "https://fuchsia-review.googlesource.com/${path}" |
-    grep -F "${version}" |
-    sort -rt' ' -k2 |
-    head -n 1)
+  all_tags=$(git ls-remote --tags "https://fuchsia-review.googlesource.com/${path}")
+  if [[ -z "$all_tags" ]]; then
+    echo "Error: No tags found for $noext."
+    exit
+  fi
 
+  # Extracts the commit ID from the version tag at HEAD (if present)
+  # Matches "refs/tags/" followed by optional letters, hyphens, or underscores,
+  # and then the version number at the end of the line.
+  matching_tag=$(echo "$all_tags" |
+    grep -P "refs/tags/[-_a-zA-Z]*${version}$" |
+    head -n 1)
   if [[ -z "$matching_tag" ]]; then
-    echo "Tag not found for package $noext."
+    echo "Error: No matching tag found for $noext."
     exit
   fi
 
   cat >>"${configfile}" <<-EOF
-    <!-- ${pkg}-$(basename "$matching_tag") -->
+    <!-- ${pkg}-${version} -->
     <project name="${path}"
         gitsubmoduleof="fuchsia"
         path="${path}/src"
