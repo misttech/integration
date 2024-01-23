@@ -5,8 +5,8 @@ optimize: RELEASE
 board: "boards/vim3-reduced-perf-variation.gni"
 product: "products/terminal.gni"
 gn_args: "build_should_trace_actions = true"
-gn_args: "restat_cc = true"
-gn_args: "restat_rust = true"
+gn_args: "restat_cc = false"
+gn_args: "restat_rust = false"
 universe_packages: "//bundles/buildbot/terminal"
 host_labels: "//bundles/infra/build"
 host_labels: "//bundles/infra/test"
@@ -20,8 +20,6 @@ test_durations_file: "prebuilt/infra/test_durations/fuchsia/terminal.vim3-releas
 default_test_durations_file: "prebuilt/infra/test_durations/fuchsia/default.json"
 rust_rbe_enable: true
 cxx_rbe_enable: true
-incremental: true
 include_default_ninja_target: true
-use_temporary_go_cache: true
 hermetic_test_packages: "//bundles/buildbot/terminal:hermetic_tests"
 e2e_test_labels: "//bundles/buildbot/terminal:e2e_tests"
