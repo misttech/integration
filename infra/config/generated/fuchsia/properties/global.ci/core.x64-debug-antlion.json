@@ -1,14 +1,11 @@
 {
-  "$fuchsia/rbe": {
-    "instance": "projects/rbe-fuchsia-prod/instances/default"
-  },
   "no_python2": true,
-  "recipe": "fuchsia/build",
+  "recipe": "fuchsia/fuchsia",
   "spec": {
     "artifact_gcs_bucket": "fuchsia-artifacts",
     "build": {
       "enable_sandboxing": true,
-      "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/global.ci/core.qemu-x64-debug-antlion.textproto",
+      "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/global.ci/core.x64-debug-antlion.textproto",
       "incremental": true,
       "run_tests": true
     },
@@ -16,6 +13,7 @@
       "attributes": [
         "antlion"
       ],
+      "enable_submodules": true,
       "manifest": "flower",
       "project": "integration",
       "remote": "https://fuchsia.googlesource.com/integration"
@@ -42,5 +40,6 @@
       "use_cas_for_images": true
     }
   },
-  "upload_bcid_attestation": false
+  "upload_bcid_attestation": false,
+  "uses_subbuild": true
 }
