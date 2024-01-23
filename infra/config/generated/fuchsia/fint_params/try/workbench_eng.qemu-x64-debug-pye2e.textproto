@@ -4,11 +4,11 @@
 optimize: DEBUG
 board: "boards/x64.gni"
 product: "products/workbench_eng.gni"
-gn_args: "allowed_test_device_types = [ \"AEMU\", \"QEMU\" ]"
 gn_args: "build_should_trace_actions = true"
 gn_args: "restat_cc = true"
 gn_args: "restat_rust = true"
 universe_packages: "//src/testing/end_to_end:stable_emulator_packages"
+universe_packages: "//src/testing/end_to_end:stable_nuc_packages"
 host_labels: "//bundles/infra/build"
 host_labels: "//bundles/infra/test"
 host_labels: "//src/developer/ffx/lib/fuchsia-controller/end_to_end_tests/mobly:fuchsia_controller_tests"

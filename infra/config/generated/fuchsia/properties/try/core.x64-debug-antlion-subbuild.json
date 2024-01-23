@@ -1,4 +1,7 @@
 {
+  "$fuchsia/autocorrelator": {
+    "ci_bucket": "global.ci"
+  },
   "$fuchsia/rbe": {
     "instance": "projects/rbe-fuchsia-prod/instances/default"
   },
@@ -8,7 +11,7 @@
     "artifact_gcs_bucket": "fuchsia-artifacts",
     "build": {
       "enable_sandboxing": true,
-      "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/try/core.qemu-x64-debug-antlion.textproto",
+      "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/try/core.x64-debug-antlion.textproto",
       "incremental": true,
       "run_tests": true
     },
@@ -16,6 +19,7 @@
       "attributes": [
         "antlion"
       ],
+      "enable_submodules": true,
       "manifest": "flower",
       "project": "integration",
       "remote": "https://fuchsia.googlesource.com/integration"
