@@ -1,0 +1,12 @@
+{
+  "build_target": "//tests:buildbot",
+  "default_service_account": "artifact-readers@fuchsia-infra.iam.gserviceaccount.com",
+  "import_from": "tools/orchestrate",
+  "import_to": "infra/tools/orchestrate",
+  "no_python2": true,
+  "recipe": "bazel_build_test_upload",
+  "remote": "https://fuchsia.googlesource.com/fuchsia-infra-bazel-rules",
+  "remote_under_test": "https://fuchsia.googlesource.com/fuchsia",
+  "testing_pool": "fuchsia.tests",
+  "upload_bcid_attestation": false
+}
