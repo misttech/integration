@@ -92,6 +92,10 @@
              version="git_revision:dfe53afaebd817f334d8ef9dc75a5cd2562cf6e6"
              platforms="linux-amd64,linux-arm64,mac-amd64,mac-arm64"
              path="prebuilt/third_party/rust/{{.OS}}-{{.Arch}}"/>
+    <package name="fuchsia/third_party/rust/target/riscv64gc-unknown-linux-gnu"
+             version="git_revision:dfe53afaebd817f334d8ef9dc75a5cd2562cf6e6"
+             platforms="linux-amd64,linux-arm64,mac-amd64,mac-arm64"
+             path="prebuilt/third_party/rust/{{.OS}}-{{.Arch}}"/>
     <package name="fuchsia/third_party/rust/target/wasm32-unknown-unknown"
              version="git_revision:dfe53afaebd817f334d8ef9dc75a5cd2562cf6e6"
              platforms="linux-amd64,linux-arm64,mac-amd64,mac-arm64"
