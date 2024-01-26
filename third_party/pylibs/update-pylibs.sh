@@ -114,9 +114,9 @@ for archive in "${sorted_archives[@]}"; do
 
   cat >>"${configfile}" <<-EOF
     <!-- ${pkg}-${version} -->
-    <project name="${path}"
+    <project name="third_party/pylibs/${pkg}"
         gitsubmoduleof="fuchsia"
-        path="${path}/src"
+        path="third_party/pylibs/${pkg}/src"
         remote="https://fuchsia.googlesource.com/${path}"
         revision="$(echo "$matching_tag" | awk '{print $1}')"
         gerrithost="https://fuchsia-review.googlesource.com"/>
