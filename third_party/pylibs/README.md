@@ -36,12 +36,10 @@ dependency management and setup using requirements.txt.
 
 2. Verify the `pylibs` configuration file to ensure update was successful.
 
-3. In the `fuchsia/<package_path>/src` directory:
+3. In the `//third_party/pylibs/<package>/src` directory:
 
     * Use the git checkout command along with the commit ID found in the pylibs configuration file. For example, if the commit ID is 'abcdef123456', you would run:
 
             git checkout abcdef123456
 
     * Rebuild your package to ensure everything works correctly.
-
-    Note: You can find the package path in pylibs config file. i.e `third_party/github.com/python/mypy`
