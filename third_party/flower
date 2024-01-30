@@ -136,6 +136,12 @@
              remote="https://fuchsia.googlesource.com/third_party/github.com/google/emboss"
              revision="053bd6c7203364ae6f796d71414a4dcf4672bd89"
              gerrithost="https://fuchsia-review.googlesource.com"/>
+    <project name="third_party/github.com/google/bt-test-interfaces"
+             gitsubmoduleof="fuchsia"
+             path="third_party/github.com/google/bt-test-interfaces/src"
+             remote="https://fuchsia.googlesource.com/third_party/github.com/google/bt-test-interfaces"
+             revision="71dbcfc62dd40af7cc9047670d612ddb1cd74036"
+             gerrithost="https://fuchsia-review.googlesource.com"/>
     <project name="third_party/etnaviv_gpu_tests"
              gitsubmoduleof="fuchsia"
              path="third_party/etnaviv_gpu_tests"
