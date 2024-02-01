@@ -5,6 +5,8 @@ optimize: DEBUG
 board: "boards/arm64.gni"
 product: "products/core.gni"
 gn_args: "clang_enable_error_reproducers = true"
+gn_args: "disable_boot_tests = true"
+gn_args: "generate_cuckoo_tests = true"
 gn_args: "optimize = \"coverage\""
 gn_args: "restat_cc = true"
 gn_args: "restat_rust = true"
