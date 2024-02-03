@@ -5,6 +5,7 @@ optimize: DEBUG
 board: "boards/x64.gni"
 product: "products/bringup.gni"
 gn_args: "allowed_test_device_types = [ \"Intel NUC Kit NUC7i5DNHE\" ]"
+gn_args: "basic_env_names = [ \"nuc\" ]"
 gn_args: "build_should_trace_actions = true"
 gn_args: "enable_lock_dep = true"
 gn_args: "optimize = \"sanitizer\""
