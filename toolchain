@@ -56,8 +56,8 @@
          TODO(mcgrathr): repo/bot link about provenance
     -->
     <package name="fuchsia/third_party/lldb/${platform}"
-             version="git_revision:96adf69ba93965956d1ee507d9f75a453d99b666"
-             platforms="linux-amd64,mac-amd64"
+             version="git_revision:b1b8a383fcdab007ccd1a5daa08cb33ce7cbc6c0"
+             platforms="linux-amd64,linux-arm64,mac-amd64,mac-arm64"
              path="prebuilt/third_party/lldb/{{.OS}}-{{.Arch}}"/>
 
     <!-- reclient
