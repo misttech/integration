@@ -1,7 +1,4 @@
 {
-  "$fuchsia/autocorrelator": {
-    "ci_bucket": "global.ci"
-  },
   "$fuchsia/rbe": {
     "instance": "projects/rbe-fuchsia-prod/instances/default"
   },
@@ -11,9 +8,10 @@
     "artifact_gcs_bucket": "fuchsia-artifacts",
     "build": {
       "enable_sandboxing": true,
-      "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/try/core.x64-asan-rust_determinism-build_only.textproto"
+      "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/try/rust_toolchain.core.x64-determinism-build_only.textproto"
     },
     "checkout": {
+      "enable_submodules": true,
       "manifest": "flower",
       "project": "integration",
       "remote": "https://fuchsia.googlesource.com/integration"
