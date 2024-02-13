@@ -12,8 +12,6 @@ gn_args: "rust_rbe_check = \"determinism\""
 universe_packages: "//bundles/buildbot/core"
 host_labels: "//bundles/infra/build"
 target_arch: X64
-variants: "asan-ubsan"
-variants: "host_asan-ubsan"
 pave: true
 include_images: true
 include_prebuilt_binary_manifests: true
