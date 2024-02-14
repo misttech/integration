@@ -8,13 +8,6 @@
              remote="https://chromium.googlesource.com/chromium/deps/icu"
              gerrithost="https://chromium-review.googlesource.com"
              revision="51495153362e86d420ef4f4e2cc3149357a9da1d"/>
-    <!-- The ICU library to use for "stable" Fuchsia builds -->
-    <project name="chromium/deps/icu@stable"
-             gitsubmoduleof="fuchsia"
-             path="third_party/icu/stable"
-             remote="https://chromium.googlesource.com/chromium/deps/icu"
-             gerrithost="https://chromium-review.googlesource.com"
-             revision="a622de35ac311c5ad390a7af80724634e5dc61ed"/>
     <!-- The ICU library to use for "latest" Fuchsia builds -->
     <project name="chromium/deps/icu@latest"
              gitsubmoduleof="fuchsia"
