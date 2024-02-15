@@ -3,6 +3,7 @@
 
 optimize: DEBUG
 product: "products/core.gni"
+gn_args: "bazel_upload_build_events = \"sponge\""
 gn_args: "build_should_trace_actions = true"
 gn_args: "override_target_api_level = 11"
 gn_args: "restat_cc = true"

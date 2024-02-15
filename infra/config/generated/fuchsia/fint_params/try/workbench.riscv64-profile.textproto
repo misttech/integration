@@ -4,6 +4,7 @@
 optimize: RELEASE
 board: "boards/riscv64.gni"
 product: "products/workbench_eng.gni"
+gn_args: "bazel_upload_build_events = \"sponge\""
 gn_args: "clang_enable_error_reproducers = true"
 gn_args: "optimize = \"profile\""
 gn_args: "restat_cc = true"
