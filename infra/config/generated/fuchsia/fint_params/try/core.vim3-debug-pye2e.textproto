@@ -4,7 +4,6 @@
 optimize: DEBUG
 board: "boards/vim3.gni"
 product: "products/core.gni"
-gn_args: "bazel_upload_build_events = \"sponge\""
 gn_args: "build_should_trace_actions = true"
 gn_args: "core_realm_shards += [\"//src/testing/sl4f:sl4f_core_shard\"]"
 gn_args: "restat_cc = true"
