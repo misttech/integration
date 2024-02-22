@@ -13,6 +13,7 @@ host_labels: "//bundles/infra/build"
 host_labels: "//bundles/infra/test"
 host_labels: "//src/developer/ffx/lib/fuchsia-controller/end_to_end_tests/mobly:fuchsia_controller_tests"
 host_labels: "//src/testing/end_to_end:stable_emulator_tests"
+host_labels: "//src/testing/end_to_end:stable_nuc_tests"
 target_arch: X64
 pave: true
 include_images: true
