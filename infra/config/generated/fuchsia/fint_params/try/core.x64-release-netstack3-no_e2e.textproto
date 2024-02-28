@@ -6,8 +6,8 @@ board: "boards/x64.gni"
 product: "products/core_with_netstack3.gni"
 gn_args: "allowed_test_device_types = [ \"AEMU\", \"QEMU\" ]"
 gn_args: "build_should_trace_actions = true"
-gn_args: "restat_cc = true"
-gn_args: "restat_rust = true"
+gn_args: "restat_cc = false"
+gn_args: "restat_rust = false"
 universe_packages: "//bundles/buildbot/core:no_e2e"
 host_labels: "//bundles/buildbot/host:no_e2e"
 host_labels: "//bundles/infra/build"
@@ -22,6 +22,4 @@ test_durations_file: "prebuilt/infra/test_durations/fuchsia/core.x64-release-net
 default_test_durations_file: "prebuilt/infra/test_durations/fuchsia/default.json"
 rust_rbe_enable: true
 cxx_rbe_enable: true
-incremental: true
 include_default_ninja_target: true
-use_temporary_go_cache: true

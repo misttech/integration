@@ -5,8 +5,8 @@ optimize: DEBUG
 board: "boards/riscv64.gni"
 product: "products/bringup.gni"
 gn_args: "build_should_trace_actions = true"
-gn_args: "restat_cc = true"
-gn_args: "restat_rust = true"
+gn_args: "restat_cc = false"
+gn_args: "restat_rust = false"
 gn_args: "zx_assert_level = 0"
 base_packages: "//bundles/buildbot/bringup"
 host_labels: "//bundles/infra/build"
@@ -21,6 +21,4 @@ test_durations_file: "prebuilt/infra/test_durations/fuchsia/bringup.riscv64-debu
 default_test_durations_file: "prebuilt/infra/test_durations/fuchsia/default.json"
 rust_rbe_enable: true
 cxx_rbe_enable: true
-incremental: true
 include_default_ninja_target: true
-use_temporary_go_cache: true

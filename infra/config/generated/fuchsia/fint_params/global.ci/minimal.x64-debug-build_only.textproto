@@ -6,8 +6,8 @@ board: "boards/x64.gni"
 product: "products/minimal.gni"
 gn_args: "allowed_test_device_types = [ \"AEMU\", \"QEMU\" ]"
 gn_args: "build_should_trace_actions = true"
-gn_args: "restat_cc = true"
-gn_args: "restat_rust = true"
+gn_args: "restat_cc = false"
+gn_args: "restat_rust = false"
 universe_packages: "//bundles/buildbot/minimal"
 host_labels: "//bundles/infra/build"
 target_arch: X64
@@ -16,8 +16,6 @@ include_images: true
 include_prebuilt_binary_manifests: true
 rust_rbe_enable: true
 cxx_rbe_enable: true
-incremental: true
 include_default_ninja_target: true
-use_temporary_go_cache: true
 hermetic_test_packages: "//bundles/buildbot/minimal:hermetic_tests"
 e2e_test_labels: "//bundles/buildbot/minimal:e2e_tests"
