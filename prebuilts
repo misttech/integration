@@ -28,7 +28,7 @@
 
      <!-- cargo-outdated, used for rolling external rust deps -->
      <package name="fuchsia/third_party/rust_cargo_outdated/${platform}"
-              version="git_revision:d60b274a495177a4c696a05d38d96fef0560cef2"
+              version="git_revision:d3a7df3aa6041f2fdd89da82ae1bf3910cdf7fca"
               platforms="linux-amd64,mac-amd64,mac-arm64"
               path="prebuilt/third_party/rust_cargo_outdated/{{.OS}}-{{.Arch}}"/>
 
