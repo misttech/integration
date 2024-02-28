@@ -505,6 +505,11 @@
              version="git_revision:6a8a87afba5551ae1c0258808ccd139f6b270213"
              platforms="linux-amd64,mac-amd64"/>
 
+    <!-- Alpine Linux image for testing on x64 -->
+    <package name="fuchsia/starnix/alpine-image-amd64"
+             path="prebuilt/starnix/alpine-image-amd64"
+             version="version:1"/>
+
     <!-- Starnix root filesystem image for testing on x64 -->
     <package name="fuchsia/third_party/starnix/linux-amd64"
              path="prebuilt/starnix/linux-amd64"
