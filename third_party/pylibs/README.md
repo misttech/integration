@@ -22,8 +22,14 @@ dependency management and setup using requirements.txt.
 
 4. If the package has dependencies, add those package names to
     `requirements.txt` without specifying versions. The script will determine
-    the correct versions. Example:
-    `<dep_package> # third_party/github.com/python/<dep_package>`
+    the correct versions.
+
+    Example: `<dep_package> # third_party/github.com/python/<dep_package>`
+
+    If a package is listed in dependencies for installation or building, but
+    isn't strictly required for Fuchsia, exclude it using the 'ignore' tag.
+
+    Example: `<install_package> # Ignore`
 
 5. Run the `update-pylibs.sh` script and verify the changes in `pylibs`
     configuration file.
