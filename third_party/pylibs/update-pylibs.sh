@@ -9,6 +9,9 @@
 
 set -eu -o pipefail
 
+RED="$(tput setaf 1)"
+NORM="$(tput sgr0)"
+
 src_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 readonly src_dir
 
@@ -57,6 +60,7 @@ sorted_archives=($(ls -1 "${download_dir}"/*.tar.gz | sort))
 readonly sorted_archives
 
 for archive in "${sorted_archives[@]}"; do
+  echo " Adding package to config file: $(basename "${archive}")"
   base="$(basename "${archive}")"
   noext="${base%.tar.gz}"
 
@@ -75,6 +79,7 @@ for archive in "${sorted_archives[@]}"; do
   mv "${unzip_dir}/${noext}" "${dest_dir}"
 
   package_exists=false
+  is_ignore=false
   # verifies the py package presence in a requirements.txt file and fetch the package url
   while read -r line; do
     # Checks whether line is empty or comment line
@@ -84,20 +89,31 @@ for archive in "${sorted_archives[@]}"; do
 
       if [[ "${pkg_name}" == "${pkg}" ]]; then
         package_exists=true
-        path="third_party/${line#*# }"
+        sub_path="${line#*# }"
+        path="third_party/${sub_path}"
+
+        if [[ ${sub_path^^}  == "IGNORE" ]] ; then
+            is_ignore=true
+        fi
         break
       fi
     fi
   done <"${src_dir}/requirements.txt"
 
   if ! "${package_exists}"; then
-    echo "Error: Add ${pkg} package name and path in the requirements.txt"
+    echo -e "${RED}Error: Add ${pkg} package name and path in the requirements.txt.${NORM}"
     exit
+  fi
+
+  # Ignore packages with ignore tag in the requirements.txt file
+  if "${is_ignore}"; then
+    echo "Ignoring ${pkg} package in the config file."
+    continue
   fi
 
   all_tags=$(git ls-remote --tags "https://fuchsia-review.googlesource.com/${path}")
   if [[ -z "$all_tags" ]]; then
-    echo "Error: No tags found for $noext."
+    echo -e "${RED}Error: No tags found for $noext.${NORM}"
     exit
   fi
 
@@ -108,7 +124,7 @@ for archive in "${sorted_archives[@]}"; do
     grep -P "refs/tags/[-_a-zA-Z]*${version}$" |
     head -n 1)
   if [[ -z "$matching_tag" ]]; then
-    echo "Error: No matching tag found for $noext."
+    echo -e "${RED}Error: No matching tag found for $noext.${NORM}"
     exit
   fi
 
