@@ -115,6 +115,12 @@
               platforms="linux-amd64,mac-amd64,mac-arm64"
               path="prebuilt/third_party/rust_bindgen/{{.OS}}-{{.Arch}}"/>
 
+     <!-- rust-analyzer, used for rust editor support -->
+     <package name="fuchsia/third_party/rust-analyzer/${platform}"
+              version="git_revision:b3b9b53df8e644356a8d9596182a1c8c283b90e0"
+              platforms="linux-amd64,mac-amd64,mac-arm64"
+              path="prebuilt/third_party/rust-analyzer"/>
+
     <!-- sysroot trees built from public OS images
          TODO(mcgrathr): repo/bot link about provenance
     -->
