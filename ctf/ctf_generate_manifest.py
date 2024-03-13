@@ -8,7 +8,6 @@ import os
 import sys
 import json
 import re
-from collections import abc
 import subprocess
 import tempfile
 import difflib
@@ -125,7 +124,7 @@ def get_supported_api_levels() -> Set[str]:
     }
 
 
-def get_git_revisions_from_cipd(versions: abc.Iterable[str]) -> Dict[str, str]:
+def get_git_revisions_from_cipd(versions: List[str]) -> Dict[str, str]:
     """Annotate versions with their corresponding git_revision tag from CIPD.
 
     This method uses CIPD to find the associated git_revision for a CIPD
