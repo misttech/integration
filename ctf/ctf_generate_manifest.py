@@ -38,16 +38,23 @@ def main(args: argparse.Namespace) -> int:
     populated_files: Set[str] = set()
     skipped_files: Set[str] = set()
 
-    expected_files: Set[str] = set(level_mapping.keys())
-    for file in expected_files:
+    expected_file_contents: Dict[str, str] = {
+        api_level: format_ctf_template(api_level, git_revision)
+        for api_level, git_revision in level_mapping.items()
+    }
+    for file, expected_contents in expected_file_contents.items():
         if file not in existing_files:
             added_files.add(file)
-        elif os.stat(os.path.join(SCRIPT_DIRECTORY, file)).st_size == 0:
-            populated_files.add(file)
         else:
-            skipped_files.add(file)
+            contents: str
+            with open(os.path.join(SCRIPT_DIRECTORY, file)) as f:
+                contents = f.read()
+            if contents == expected_contents:
+                skipped_files.add(file)
+            else:
+                populated_files.add(file)
     for file in existing_files:
-        if file not in expected_files:
+        if file not in expected_file_contents:
             deleted_files.add(file)
 
     import_file_path = os.path.join(SCRIPT_DIRECTORY, "all")
@@ -61,7 +68,7 @@ def main(args: argparse.Namespace) -> int:
             os.remove(os.path.join(SCRIPT_DIRECTORY, file))
         for file in added_files.union(populated_files):
             with open(os.path.join(SCRIPT_DIRECTORY, file), "w") as f:
-                f.write(format_ctf_template(file, level_mapping[file]))
+                f.write(expected_file_contents[file])
 
     if new_import_file_contents != old_import_file_contents:
         if not args.dry_run:
