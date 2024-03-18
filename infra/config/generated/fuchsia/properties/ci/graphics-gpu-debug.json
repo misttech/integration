@@ -8,5 +8,6 @@
   "recipe": "bazel_build_test_upload",
   "remote": "https://fuchsia.googlesource.com/drivers/graphics/gpu",
   "testing_pool": "fuchsia.tests",
-  "upload_bcid_attestation": false
+  "upload_bcid_attestation": false,
+  "use_swarming_prpc_cli": true
 }
