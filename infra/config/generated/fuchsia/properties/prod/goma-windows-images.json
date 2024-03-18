@@ -4,5 +4,6 @@
   "project": "fuchsia-toolchain-images-gcr",
   "recipe": "contrib/goma_windows_images",
   "root": "fuchsia_win",
-  "upload_bcid_attestation": false
+  "upload_bcid_attestation": false,
+  "use_swarming_prpc_cli": true
 }
