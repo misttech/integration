@@ -5,5 +5,6 @@
   "recipe": "bazel_build_test_upload",
   "remote": "https://fuchsia.googlesource.com/drivers/rtc/nxp/pcf8563",
   "upload_bcid_attestation": false,
-  "upload_to_cipd": true
+  "upload_to_cipd": true,
+  "use_swarming_prpc_cli": true
 }
