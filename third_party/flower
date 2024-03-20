@@ -166,6 +166,12 @@
              remote="https://fuchsia.googlesource.com/third_party/freetype2"
              gerrithost="https://fuchsia-review.googlesource.com"
              revision="311feb7c562dbc7e7fbbfef3d87c02df7e3337e0"/>
+    <project name="third_party/fuchsia-infra-bazel-rules"
+             gitsubmoduleof="fuchsia"
+             path="third_party/fuchsia-infra-bazel-rules/src"
+             remote="https://fuchsia.googlesource.com/fuchsia-infra-bazel-rules"
+             gerrithost="https://fuchsia-review.googlesource.com"
+             revision="b7410757baf29e0b6492335dfccf6803f2e50570"/>
     <project name="third_party/gflags"
              gitsubmoduleof="fuchsia"
              path="third_party/gflags"
