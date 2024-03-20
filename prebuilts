@@ -13,6 +13,7 @@
   `jiri fetch-packages -local-manifest=true`
   -->
   <imports>
+    <localimport file="ctf/all"/>
     <localimport file="cts"/>
     <localimport file="firmware"/>
     <localimport file="test_durations"/>
