@@ -50,7 +50,16 @@
     -->
     <package name="fuchsia/third_party/android/aemu/release/${platform}"
              version="bid:10501748"
-             platforms="linux-amd64,mac-amd64,linux-arm64,mac-arm64"
+             platforms="linux-amd64,linux-arm64"
+             path="prebuilt/third_party/android/aemu/release/{{.OS}}-{{.Arch}}"/>
+
+    <!-- The AEMU build version for macOS is frozen to the last known-good
+         version that works on Fuchsia. Newer builds use a graphics rendering
+         backend that is not yet compatible with Fuchsia images.
+    -->
+    <package name="fuchsia/third_party/android/aemu/release/${os=mac}-${arch}"
+             version="bid:10501748"
+             platforms="mac-amd64,mac-arm64"
              path="prebuilt/third_party/android/aemu/release/{{.OS}}-{{.Arch}}"/>
 
      <!-- Only explicitly include arm aemu in x86 checkouts so they
@@ -58,9 +67,19 @@
           Skip it on arm checkouts because the above entry will be
           sufficient.
      -->
-     <package name="fuchsia/third_party/android/aemu/release/${os}-arm64"
+     <package name="fuchsia/third_party/android/aemu/release/${os=linux}-arm64"
              version="bid:10501748"
-             platforms="linux-amd64,mac-amd64"
+             platforms="linux-amd64"
+             attributes="arm-sdk-tools"
+             path="prebuilt/third_party/android/aemu/release/{{.OS}}-arm64"/>
+
+     <!-- The AEMU build version for macOS is frozen to the last known-good
+          version that works on Fuchsia. Newer builds use a graphics rendering
+          backend that is not yet compatible with Fuchsia images.
+     -->
+     <package name="fuchsia/third_party/android/aemu/release/${os=mac}-arm64"
+             version="bid:10501748"
+             platforms="mac-amd64"
              attributes="arm-sdk-tools"
              path="prebuilt/third_party/android/aemu/release/{{.OS}}-arm64"/>
 
