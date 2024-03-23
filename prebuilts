@@ -83,6 +83,15 @@
              attributes="arm-sdk-tools"
              path="prebuilt/third_party/android/aemu/release/{{.OS}}-arm64"/>
 
+     <!-- Only explicitly include the AEMU gfxstream build for local testing
+          purposes.
+     -->
+     <package name="fuchsia/third_party/android/aemu/release-gfxstream/${platform}"
+             version="bid:11612522"
+             platforms="linux-amd64"
+             attributes="aemu-gfxstream"
+             path="prebuilt/third_party/android/aemu/release-gfxstream/{{.OS}}-{{.Arch}}"/>
+
     <!-- EDKII firmware for emulating UEFI, from
          https://ci.chromium.org/p/fuchsia/builders/ci/edk2
     -->
