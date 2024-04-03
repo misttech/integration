@@ -6,6 +6,8 @@ board: "boards/arm64.gni"
 product: "products/core.gni"
 gn_args: "build_should_trace_actions = true"
 gn_args: "clang_enable_error_reproducers = true"
+gn_args: "restat_cc = false"
+gn_args: "restat_rust = false"
 universe_packages: "//bundles/buildbot/core"
 host_labels: "//bundles/infra/build"
 target_arch: ARM64
@@ -14,9 +16,7 @@ pave: true
 include_images: true
 include_prebuilt_binary_manifests: true
 skip_if_unaffected: true
-incremental: true
 include_default_ninja_target: true
-use_temporary_go_cache: true
 ninja_args: "-k0"
 hermetic_test_packages: "//bundles/buildbot/core:hermetic_tests"
 e2e_test_labels: "//bundles/buildbot/core:e2e_tests"

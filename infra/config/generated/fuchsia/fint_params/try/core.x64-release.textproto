@@ -5,8 +5,8 @@ optimize: RELEASE
 board: "boards/x64.gni"
 product: "products/core.gni"
 gn_args: "build_should_trace_actions = true"
-gn_args: "restat_cc = true"
-gn_args: "restat_rust = true"
+gn_args: "restat_cc = false"
+gn_args: "restat_rust = false"
 universe_packages: "//bundles/buildbot/core"
 host_labels: "//bundles/buildbot/host"
 host_labels: "//bundles/infra/build"
@@ -21,8 +21,6 @@ test_durations_file: "prebuilt/infra/test_durations/fuchsia/core.x64-release.jso
 default_test_durations_file: "prebuilt/infra/test_durations/fuchsia/default.json"
 rust_rbe_enable: true
 cxx_rbe_enable: true
-incremental: true
 include_default_ninja_target: true
-use_temporary_go_cache: true
 hermetic_test_packages: "//bundles/buildbot/core:hermetic_tests"
 e2e_test_labels: "//bundles/buildbot/core:e2e_tests"
