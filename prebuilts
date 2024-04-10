@@ -669,5 +669,21 @@
              path="prebuilt/.build-id"
              version="git_revision:e58b7ce9dbc61a7dec47e531c9c3c62b95491094"
              attributes="debug-symbols,debug-symbols-arm64"/>
+
+     <!-- Components built OOT -->
+    <package name="fuchsia/prebuilt/bt-host/arm64"
+             path="prebuilt/connectivity/bluetooth/bt-host/arm64"
+             version="git_revision:5c8c8074339c641f32e2ecf257df937db0d84eb5"/>
+    <package name="fuchsia/prebuilt/bt-host/debug-symbols-arm64"
+             path="prebuilt/.build-id"
+             version="git_revision:5c8c8074339c641f32e2ecf257df937db0d84eb5"
+             attributes="debug-symbols,debug-symbols-arm64"/>
+    <package name="fuchsia/prebuilt/bt-host/x86_64"
+             path="prebuilt/connectivity/bluetooth/bt-host/x64"
+             version="git_revision:5c8c8074339c641f32e2ecf257df937db0d84eb5"/>
+    <package name="fuchsia/prebuilt/bt-host/debug-symbols-x86_64"
+             path="prebuilt/.build-id"
+             version="git_revision:5c8c8074339c641f32e2ecf257df937db0d84eb5"
+             attributes="debug-symbols,debug-symbols-x64"/>
   </packages>
 </manifest>
