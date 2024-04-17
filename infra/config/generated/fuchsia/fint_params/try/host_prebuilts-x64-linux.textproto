@@ -3,6 +3,7 @@
 
 optimize: RELEASE
 product: "products/core.gni"
+gn_args: "prebuilt_package_labels=[]"
 host_labels: "//build/packages:json_validator"
 host_labels: "//src/developer/ffx:host"
 host_labels: "//src/diagnostics/triage:install"
