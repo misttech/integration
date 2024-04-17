@@ -669,6 +669,20 @@
              path="prebuilt/.build-id"
              version="git_revision:e58b7ce9dbc61a7dec47e531c9c3c62b95491094"
              attributes="debug-symbols,debug-symbols-arm64"/>
+    <package name="fuchsia/drivers/msd-arm-mali/debug/arm64"
+             path="prebuilt/drivers/msd-arm-mali-debug"
+             version="git_revision:c55b6ac20e1f15eddfb714a32be1205555e6f540"/>
+    <package name="fuchsia/drivers/msd-arm-mali/debug/debug-symbols-arm64"
+             path="prebuilt/.build-id"
+             version="git_revision:c55b6ac20e1f15eddfb714a32be1205555e6f540"
+             attributes="debug-symbols,debug-symbols-arm64"/>
+    <package name="fuchsia/drivers/msd-arm-mali/release/arm64"
+             path="prebuilt/drivers/msd-arm-mali-release"
+             version="git_revision:c55b6ac20e1f15eddfb714a32be1205555e6f540"/>
+    <package name="fuchsia/drivers/msd-arm-mali/release/debug-symbols-arm64"
+             path="prebuilt/.build-id"
+             version="git_revision:c55b6ac20e1f15eddfb714a32be1205555e6f540"
+             attributes="debug-symbols,debug-symbols-arm64"/>
 
      <!-- Components built OOT -->
     <package name="fuchsia/prebuilt/bt-host/arm64"
