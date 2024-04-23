@@ -23,5 +23,8 @@
     <hook name="create-ctf-releases-gni"
           project="fuchsia"
           action="sdk/ctf/build/internal/create_ctf_releases_gni.sh"/>
+    <hook name="create-build-info-files"
+          project="fuchsia"
+          action="build/info/create_jiri_hook_files.sh"/>
   </hooks>
 </manifest>
