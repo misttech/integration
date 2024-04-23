@@ -14,11 +14,9 @@ host_labels: "//tools/debug/debugsyms"
 host_labels: "//tools/fuchsia-sdk-run:host-tool"
 host_labels: "//tools/funnel:host"
 host_labels: "//tools/orchestrate"
-host_labels: "//tools/testing/batchtester"
 host_labels: "//tools/vboot_reference"
 target_arch: X64
 include_prebuilt_binary_manifests: true
-tools: "batchtester"
 tools: "blobfs-compression"
 tools: "bundle_fetcher"
 tools: "debugsyms"
