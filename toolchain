@@ -208,17 +208,13 @@
              version="git_revision:d53b3df570e359d175d6e7a825ad1a02f9bc80a3"
              platforms="mac-amd64"
              path="prebuilt/third_party/llvm/mac-x64"/>
-    <!-- For Linux, optionally download LLVM for Fuchsia. -->
-    <!-- Add with `jiri init -fetch-optional=fuchsia_llvm` -->
     <package name="fuchsia/third_party/llvm/fuchsia-amd64"
              version="git_revision:2bc53c619c3b2d80852821fab9a0eb76b2ec399a"
              platforms="linux-amd64,linux-arm64"
-             attributes="fuchsia_llvm"
              path="prebuilt/third_party/llvm/fuchsia-x64"/>
     <package name="fuchsia/third_party/llvm/fuchsia-arm64"
              version="git_revision:2bc53c619c3b2d80852821fab9a0eb76b2ec399a"
              platforms="linux-amd64,linux-arm64"
-             attributes="fuchsia_llvm"
              path="prebuilt/third_party/llvm/fuchsia-arm64"/>
 
     <!--   jq -->
