@@ -1,0 +1,35 @@
+{
+  "$fuchsia/rbe": {
+    "instance": "projects/rbe-fuchsia-prod/instances/default"
+  },
+  "checkout_attributes": [
+    "vulkan-cts"
+  ],
+  "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/prod/vulkan-cts-x64-release-prebuilt.textproto",
+  "manifest": "flower",
+  "no_python2": true,
+  "package_archives": [
+    {
+      "cipd_package": "fuchsia/third_party/vulkan-cts/vulkan-cts-split/${api_level}",
+      "cpu": "x64",
+      "name": "vulkan-cts-split"
+    },
+    {
+      "cipd_package": "fuchsia/third_party/vulkan-cts/vulkan-cts-zircon/${api_level}",
+      "cpu": "x64",
+      "name": "vulkan-cts-zircon"
+    },
+    {
+      "cipd_package": "fuchsia/third_party/vulkan-cts/vulkan-cts-no-args/${api_level}",
+      "cpu": "x64",
+      "name": "vulkan-cts-no-args"
+    },
+    {
+      "cipd_package": "fuchsia/third_party/vulkan-cts/vulkan-cts-unified/${api_level}",
+      "cpu": "x64",
+      "name": "vulkan-cts-unified"
+    }
+  ],
+  "recipe": "publish_build_artifacts",
+  "remote": "https://fuchsia.googlesource.com/integration"
+}
