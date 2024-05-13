@@ -6,6 +6,12 @@
       {
         "cq_config_name": "fake-commit-queue.cfg",
         "include_unrestricted": true,
+        "included_repos": [
+          "https://fuchsia.googlesource.com/fuchsia",
+          "https://fuchsia.googlesource.com/infra/infra",
+          "https://fuchsia.googlesource.com/infra/recipes",
+          "https://fuchsia.googlesource.com/drivers/wlan/intel/iwlwifi"
+        ],
         "name": "fuchsia"
       }
     ],
