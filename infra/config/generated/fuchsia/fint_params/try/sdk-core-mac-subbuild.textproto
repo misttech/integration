@@ -4,6 +4,7 @@
 optimize: RELEASE
 product: "products/core.gni"
 gn_args: "compress_debuginfo = \"none\""
+gn_args: "optimize = \"size\""
 gn_args: "restat_cc = false"
 gn_args: "restat_rust = false"
 ninja_targets: ":developer_host_tools"
