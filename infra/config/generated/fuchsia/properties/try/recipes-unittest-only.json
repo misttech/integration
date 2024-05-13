@@ -1,14 +1,6 @@
 {
   "no_python2": true,
   "recipe": "recipes",
-  "recipe_testing_options": {
-    "projects": [
-      {
-        "cq_config_name": "commit-queue.cfg",
-        "include_unrestricted": true
-      }
-    ]
-  },
   "remote": "https://fuchsia.googlesource.com/infra/recipes",
   "unittest_only": true
 }
