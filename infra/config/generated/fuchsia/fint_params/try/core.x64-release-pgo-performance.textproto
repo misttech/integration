@@ -2,7 +2,7 @@
 # Do not modify manually.
 
 optimize: RELEASE
-board: "boards/x64.gni"
+board: "boards/x64-reduced-perf-variation.gni"
 product: "products/core.gni"
 gn_args: "build_should_trace_actions = true"
 gn_args: "clang_enable_error_reproducers = true"
