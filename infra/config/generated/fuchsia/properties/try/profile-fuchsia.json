@@ -2,6 +2,7 @@
   "$fuchsia/rbe": {
     "instance": "projects/rbe-fuchsia-prod/instances/default"
   },
+  "cipd_package": "fuchsia/toolchain/pgo/${platform}",
   "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/try/profile-fuchsia.textproto",
   "manifest": "flower",
   "no_python2": true,
