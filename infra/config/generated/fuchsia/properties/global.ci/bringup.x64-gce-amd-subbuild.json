@@ -1,7 +1,4 @@
 {
-  "$fuchsia/autocorrelator": {
-    "ci_bucket": "global.ci"
-  },
   "$fuchsia/rbe": {
     "instance": "projects/rbe-fuchsia-prod/instances/default"
   },
@@ -11,7 +8,7 @@
     "artifact_gcs_bucket": "fuchsia-artifacts",
     "build": {
       "enable_sandboxing": true,
-      "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/try/bringup.x64-gce-amd.textproto",
+      "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/global.ci/bringup.x64-gce-amd.textproto",
       "incremental": true,
       "run_tests": true
     },
@@ -33,10 +30,10 @@
         "endpoint": "fuchsia-gce-mediator-prod.uc.r.appspot.com",
         "machine_shape": "n2d-standard-4"
       },
+      "max_attempts": 1,
       "max_attempts_per_test": 3,
       "per_test_timeout_secs": 300,
       "pool": "fuchsia.tests",
-      "skip_unaffected_tests": true,
       "swarming_expiration_timeout_secs": 18000,
       "swarming_grace_period_secs": 30,
       "swarming_io_timeout_secs": 360,
