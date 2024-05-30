@@ -9,7 +9,8 @@
     "build": {
       "enable_sandboxing": true,
       "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/ci/clang_toolchain.ci.core.x64-debug-tot-build_only.textproto",
-      "report_binary_sizes": true
+      "report_binary_sizes": true,
+      "timeout_secs": 7200
     },
     "checkout": {
       "enable_submodules": true,
