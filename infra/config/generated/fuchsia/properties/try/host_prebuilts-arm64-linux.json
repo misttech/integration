@@ -1,0 +1,66 @@
+{
+  "$fuchsia/rbe": {
+    "instance": "projects/rbe-fuchsia-prod/instances/default"
+  },
+  "enable_build_sandboxing": true,
+  "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/try/host_prebuilts-arm64-linux.textproto",
+  "manifest": "flower",
+  "no_python2": true,
+  "recipe": "publish_build_artifacts",
+  "remote": "https://fuchsia.googlesource.com/integration",
+  "tools": [
+    {
+      "gcs_bucket": "fuchsia-ffx",
+      "gcs_path": "ffx-linux-arm64",
+      "name": "ffx"
+    },
+    {
+      "cipd_package": "fuchsia/tools/blobfs-compression/${platform}",
+      "name": "blobfs-compression"
+    },
+    {
+      "cipd_package": "fuchsia/tools/buildidtool/${platform}",
+      "name": "buildidtool"
+    },
+    {
+      "cipd_package": "fuchsia/tools/bundle_fetcher/${platform}",
+      "name": "bundle_fetcher"
+    },
+    {
+      "cipd_package": "fuchsia/tools/debugsyms/${platform}",
+      "name": "debugsyms"
+    },
+    {
+      "cipd_package": "fuchsia/tools/ffx/${platform}",
+      "name": "ffx"
+    },
+    {
+      "cipd_package": "fuchsia/tools/funnel/${platform}",
+      "name": "funnel"
+    },
+    {
+      "cipd_package": "fuchsia/tools/fuchsia-sdk-run/${platform}",
+      "name": "fuchsia-sdk-run"
+    },
+    {
+      "cipd_package": "fuchsia/tools/futility/${platform}",
+      "name": "futility"
+    },
+    {
+      "cipd_package": "fuchsia/tools/json_validator/${platform}",
+      "name": "json_validator"
+    },
+    {
+      "cipd_package": "fuchsia/tools/ninjatrace/${platform}",
+      "name": "ninjatrace"
+    },
+    {
+      "cipd_package": "fuchsia/tools/orchestrate/${platform}",
+      "name": "orchestrate"
+    },
+    {
+      "cipd_package": "fuchsia/tools/triage/${platform}",
+      "name": "triage"
+    }
+  ]
+}
