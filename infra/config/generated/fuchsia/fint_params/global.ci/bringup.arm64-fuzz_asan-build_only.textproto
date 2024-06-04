@@ -7,8 +7,8 @@ product: "products/bringup.gni"
 gn_args: "bazel_upload_build_events = \"sponge_infra\""
 gn_args: "build_should_trace_actions = true"
 gn_args: "optimize = \"sanitizer\""
-gn_args: "restat_cc = true"
-gn_args: "restat_rust = true"
+gn_args: "restat_cc = false"
+gn_args: "restat_rust = false"
 base_packages: "//bundles/buildbot/bringup"
 universe_packages: "//tools/fuzz"
 host_labels: "//bundles/infra/build"
@@ -19,7 +19,5 @@ include_images: true
 include_prebuilt_binary_manifests: true
 rust_rbe_enable: true
 cxx_rbe_enable: true
-incremental: true
 include_default_ninja_target: true
-use_temporary_go_cache: true
 link_rbe_enable: true
