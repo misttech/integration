@@ -5,26 +5,14 @@
     <localimport file="prebuilts"/>
   </imports>
   <projects>
-    <project name="fuchsia"
+    <project name="mist-os"
              gitsubmodules="true"
              path="."
-             githooks="integration/git-hooks"
-             remote="https://fuchsia.googlesource.com/fuchsia"
-             gerrithost="https://fuchsia-review.googlesource.com"
-             revision="735523695627a0e011f38dc2569732f52d46567e"/>
+             remote="https://github.com/misttech/mist-os.git"/>
   </projects>
   <hooks>
-    <hook name="install-environment"
-          project="fuchsia"
-          action="scripts/devshell/lib/add_symlink_to_bin.sh"/>
-    <hook name="gen-ssh-keys"
-          project="fuchsia"
-          action="tools/ssh-keys/gen-ssh-keys.sh"/>
-    <hook name="create-ctf-releases-gni"
-          project="fuchsia"
-          action="sdk/ctf/build/internal/create_ctf_releases_gni.sh"/>
     <hook name="create-build-info-files"
-          project="fuchsia"
+          project="mist-os"
           action="build/info/create_jiri_hook_files.sh"/>
   </hooks>
 </manifest>
