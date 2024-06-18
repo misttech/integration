@@ -76,6 +76,12 @@
     },
     {
         "package": "fuchsia/cts/linux-amd64",
+        "path": "prebuilt/ctf/f20/{{.OS}}-{{.Arch}}",
+        "version": "git_revision:1e54c8fa020f0d0e55b03652302e9502ea6c88be",
+        "instance_id": "P0hPM7f00J-lQAPX-XsYZ7mUUo9zLcHUu9hmWsdvuN8C"
+    },
+    {
+        "package": "fuchsia/cts/linux-amd64",
         "path": "prebuilt/cts/current_milestone/{{.OS}}-{{.Arch}}",
         "version": "git_revision:a6bf34ae45ee1390d29499ec5a7afdfa0686c9d9",
         "instance_id": "gQj66upnhNFUsypAzo54nk7R8SYKyVQCmR1xxrHIWGAC"
