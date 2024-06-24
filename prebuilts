@@ -234,6 +234,11 @@
              version="git_revision:9b0641dda8a651aa8ca592f641dedd57d035a55b"
              platforms="linux-amd64,linux-arm64,mac-amd64,mac-arm64"
              path="prebuilt/third_party/goldctl"/>
+    <!--   Unicode UCD datafiles -->
+    <package name="fuchsia/third_party/ucd"
+             version="version:12.1.0rc1"
+             platforms="linux-amd64,linux-arm64,mac-amd64,mac-arm64"
+             path="prebuilt/third_party/ucd"/>
     <!--   Vulkan Runtime (for host builds) -->
     <package name="fuchsia/third_party/vulkan_runtime/${platform}"
              version="build_config:b16b8bd87e56d3379297b1f5765f041f3ed39e20d587b2af786fc4180e4b5035.1"
