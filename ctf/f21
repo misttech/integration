@@ -3,8 +3,8 @@
   <packages>
     <!-- Versioned CTF release. See ctf_generate_manifest.py for details. -->
     <package name="fuchsia/cts/${platform}"
-             path="prebuilt/ctf/f20/{{.OS}}-{{.Arch}}"
+             path="prebuilt/ctf/f21/{{.OS}}-{{.Arch}}"
              platforms="linux-amd64"
-             version="git_revision:d20e2084fd36b10f30f41e18c5bc93d2b67ecaec" />
+             version="git_revision:8869229c4f742992c9accb0038a0406257ae9a70" />
   </packages>
 </manifest>
