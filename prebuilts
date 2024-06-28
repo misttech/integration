@@ -586,17 +586,6 @@
              path="prebuilt/starnix/fuse-overlayfs-arm64"
              version="version:746960bdbe1b9abed91b8224d186941d5510a223"/>
 
-    <!-- Starnix root filesystem image for testing -->
-    <package name="fuchsia/starnix/android-image-amd64"
-             path="prebuilt/starnix/android-image-amd64"
-             version="version:0.13"/>
-
-    <!-- Starnix Android Debug symbols -->
-    <package name="fuchsia/starnix/android-image-debug-symbols-amd64"
-             path="prebuilt/.build-id"
-             version="version:0.8"
-             attributes="debug-symbols,debug-symbols-x64"/>
-
     <!-- Starnix test binaries -->
     <package name="fuchsia/starnix/tests/syscalls/linux-amd64"
              path="prebuilt/starnix/tests/syscalls/linux-amd64"
