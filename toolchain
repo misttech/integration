@@ -17,7 +17,7 @@
     -->
     <package name="fuchsia/third_party/binutils-gdb/${platform}"
              version="git_revision:b8a175b415454df6a039ba0b5d2ff13c3c180275"
-             platforms="linux-amd64,linux-arm64,mac-amd64"
+             platforms="linux-amd64,linux-arm64"
              path="prebuilt/third_party/binutils-gdb/{{.OS}}-{{.Arch}}"/>
 
     <!-- Clang
@@ -33,7 +33,7 @@
     -->
     <package name="fuchsia/third_party/gcc/${platform}"
              version="git_revision:fbe5e908de76aa240bbcd2f144c156eccc863604,25558d2fc0e8b77d4c522c322012b048db4c1485"
-             platforms="linux-amd64,linux-arm64,mac-amd64,mac-arm64"
+             platforms="linux-amd64,linux-arm64"
              path="prebuilt/third_party/gcc/{{.OS}}-{{.Arch}}"/>
 
     <!-- Go
