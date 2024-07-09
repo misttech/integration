@@ -4,7 +4,7 @@
 optimize: RELEASE
 board: "boards/x64.gni"
 product: "products/core.gni"
-gn_args: "basic_env_names = [ \"emu\", \"nuc7\", \"nuc11\" ]"
+gn_args: "basic_env_names = [ \"emu\", \"nuc11\" ]"
 gn_args: "build_should_trace_actions = true"
 gn_args: "restat_cc = true"
 gn_args: "restat_rust = true"
