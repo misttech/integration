@@ -7,7 +7,8 @@
       "enable_sandboxing": true,
       "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/global.ci/core.arm64-cxx20.textproto",
       "incremental": true,
-      "run_tests": true
+      "run_tests": true,
+      "timeout_secs": 7200
     },
     "checkout": {
       "enable_submodules": true,
