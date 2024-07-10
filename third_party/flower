@@ -6,12 +6,30 @@
   </imports>
   <projects>
     <!-- Third Party -->
+    <project name="third_party/acpica"
+             gitsubmoduleof="fuchsia"
+             path="third_party/acpica"
+             remote="https://fuchsia.googlesource.com/third_party/acpica"
+             gerrithost="https://fuchsia-review.googlesource.com"
+             revision="d1ff1d1e73250faf59c631324649af8976df8a1e"/>
     <project name="boringssl"
              gitsubmoduleof="fuchsia"
              path="third_party/boringssl/src"
              remote="https://boringssl.googlesource.com/boringssl"
              gerrithost="https://boringssl-review.googlesource.com"
              revision="a4c3f8de4406c2382e43e88a638882fb1a32da32"/>
+    <project name="cobalt"
+             gitsubmoduleof="fuchsia"
+             path="third_party/cobalt"
+             remote="https://fuchsia.googlesource.com/cobalt"
+             revision="cd576ebcef4d0802da6cc386c556e2e4dbec830e"
+             gerrithost="https://fuchsia-review.googlesource.com"/>
+    <project name="cobalt-registry"
+             gitsubmoduleof="fuchsia"
+             path="third_party/cobalt_config"
+             remote="https://fuchsia.googlesource.com/cobalt-registry"
+             revision="ac51fc4115462e26d6e39736f4c434393dafc2a7"
+             gerrithost="https://fuchsia-review.googlesource.com"/>
     <project name="llvm-project/libc"
              gitsubmoduleof="fuchsia"
              path="third_party/llvm-libc/src"
@@ -23,6 +41,24 @@
              remote="https://fuchsia.googlesource.com/third_party/lz4"
              gerrithost="https://fuchsia-review.googlesource.com"
              revision="5ff839680134437dbf4678f3d0c7b371d84f4964"/>
+    <project name="third_party/github.com/pciutils/pciids"
+             gitsubmoduleof="fuchsia"
+             path="third_party/pciids"
+             remote="https://fuchsia.googlesource.com/third_party/github.com/pciutils/pciids"
+             gerrithost="https://fuchsia-review.googlesource.com"
+             revision="de6301a419ef87cf30964f4b72c73d6d5b37a740"/>
+    <project name="third_party/protobuf"
+             gitsubmoduleof="fuchsia"
+             path="third_party/protobuf"
+             remote="https://fuchsia.googlesource.com/third_party/protobuf"
+             revision="f0dc78d7e6e331b8c6bb2d5283e06aa26883ca7c"
+             gerrithost="https://fuchsia-review.googlesource.com"/>
+    <project name="protobuf-gn"
+             gitsubmoduleof="fuchsia"
+             path="build/secondary/third_party/protobuf"
+             remote="https://fuchsia.googlesource.com/protobuf-gn"
+             revision="cb9e22a2c14d69fffabf81ff0dc790655f5ff415"
+             gerrithost="https://fuchsia-review.googlesource.com"/>
     <project name="third_party/pytoml"
              gitsubmoduleof="fuchsia"
              path="third_party/pytoml"
