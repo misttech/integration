@@ -1,0 +1,45 @@
+{
+  "cipd_root": "fuchsia",
+  "external_testing": {
+    "downstream_projects": [
+      {
+        "gerrit_host": "fuchsia-review.googlesource.com",
+        "gerrit_project": "fuchsia-infra-bazel-rules",
+        "name": "infra-bazel-rules"
+      },
+      {
+        "gerrit_host": "fuchsia-review.googlesource.com",
+        "gerrit_project": "drivers/wlan/intel/iwlwifi",
+        "name": "intel_wifi_driver"
+      },
+      {
+        "gerrit_host": "fuchsia-review.googlesource.com",
+        "gerrit_project": "drivers/rtc/nxp/pcf8563",
+        "name": "rtc-pcf8563"
+      },
+      {
+        "gerrit_host": "fuchsia-review.googlesource.com",
+        "gerrit_project": "drivers/graphics/gpu",
+        "name": "graphics-gpu"
+      }
+    ],
+    "timeout_secs": 9000
+  },
+  "gcs_bucket": "fuchsia-artifacts",
+  "manifest": "flower",
+  "no_python2": true,
+  "project": "integration",
+  "recipe": "sdk",
+  "remote": "https://fuchsia.googlesource.com/integration",
+  "sdk_name": "bazel",
+  "sdk_override_configs": {
+    "tool_overrides": [
+      {
+        "cipd_pkg_name": "fuchsia/tools/orchestrate/${platform}",
+        "tool_name": "orchestrate"
+      }
+    ],
+    "use_package_overrides": true
+  },
+  "skip_gn_sdk": true
+}
