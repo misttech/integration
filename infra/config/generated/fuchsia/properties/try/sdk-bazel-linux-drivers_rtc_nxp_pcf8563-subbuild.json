@@ -1,0 +1,21 @@
+{
+  "$fuchsia/rbe": {
+    "instance": "projects/rbe-fuchsia-prod/instances/default"
+  },
+  "no_python2": true,
+  "recipe": "fuchsia/build",
+  "spec": {
+    "artifact_gcs_bucket": "fuchsia-artifacts",
+    "build": {
+      "enable_sandboxing": true,
+      "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/try/sdk-bazel-linux-drivers_rtc_nxp_pcf8563-subbuild.textproto",
+      "sdk_subbuild": true
+    },
+    "checkout": {
+      "manifest": "flower",
+      "project": "integration",
+      "remote": "https://fuchsia.googlesource.com/integration"
+    },
+    "gcs_bucket": "fuchsia-build"
+  }
+}
