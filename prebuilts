@@ -599,10 +599,6 @@
              path="prebuilt/starnix/tests/syscalls/linux-arm64"
              version="g3-revision:fuchsia_starnix_tests_20240710_00_RC00"/>
 
-    <package name="fuchsia/starnix/tests/syscalls/linux-riscv64"
-             path="prebuilt/starnix/tests/syscalls/linux-riscv64"
-             version="g3-revision:fuchsia_starnix_tests_20240710_00_RC00"/>
-
     <package name="fuchsia/starnix/tests/syscalls/linux-debug-symbols-amd64"
              path="prebuilt/.build-id"
              version="g3-revision:fuchsia_starnix_tests_20240710_00_RC00"
@@ -612,11 +608,6 @@
              path="prebuilt/.build-id"
              version="g3-revision:fuchsia_starnix_tests_20240710_00_RC00"
              attributes="debug-symbols,debug-symbols-arm64"/>
-
-    <package name="fuchsia/starnix/tests/syscalls/linux-debug-symbols-riscv64"
-             path="prebuilt/.build-id"
-             version="g3-revision:fuchsia_starnix_tests_20240710_00_RC00"
-             attributes="debug-symbols,debug-symbols-riscv64"/>
 
     <!-- ARM Mali Vulkan ICDs -->
     <package name="fuchsia/prebuilt/proprietary/vendor/arm/libvulkan/libvulkan_arm_mali_g52_r0p0"
