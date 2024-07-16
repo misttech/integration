@@ -8,7 +8,6 @@ gn_args: "build_should_trace_actions = true"
 gn_args: "restat_cc = true"
 gn_args: "restat_rust = true"
 gn_args: "truncate_build_info_commit_date = true"
-universe_packages: "//bundles/buildbot/core"
 host_labels: "//bundles/infra/build"
 host_labels: "//bundles/infra/test"
 host_labels: "//src/tests/end_to_end/connectivity/bluetooth:e2e_tests_profile"
@@ -26,3 +25,4 @@ incremental: true
 include_default_ninja_target: true
 use_temporary_go_cache: true
 link_rbe_enable: true
+bazel_rbe_enable: true

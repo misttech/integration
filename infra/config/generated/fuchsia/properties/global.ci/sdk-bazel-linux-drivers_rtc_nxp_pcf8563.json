@@ -1,9 +1,14 @@
 {
   "cipd_root": "fuchsia",
   "external_testing": {
-    "gerrit_host": "fuchsia-review.googlesource.com",
-    "gerrit_project": "drivers/rtc/nxp/pcf8563",
-    "timeout_secs": 3600
+    "downstream_projects": [
+      {
+        "gerrit_host": "fuchsia-review.googlesource.com",
+        "gerrit_project": "drivers/rtc/nxp/pcf8563",
+        "name": "intel_wifi_driver"
+      }
+    ],
+    "timeout_secs": 9000
   },
   "gcs_bucket": "fuchsia-artifacts",
   "manifest": "flower",

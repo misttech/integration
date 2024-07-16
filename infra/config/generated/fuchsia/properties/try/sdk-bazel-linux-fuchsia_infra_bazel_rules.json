@@ -1,8 +1,13 @@
 {
   "cipd_root": "fuchsia",
   "external_testing": {
-    "gerrit_host": "fuchsia-review.googlesource.com",
-    "gerrit_project": "fuchsia-infra-bazel-rules",
+    "downstream_projects": [
+      {
+        "gerrit_host": "fuchsia-review.googlesource.com",
+        "gerrit_project": "fuchsia-infra-bazel-rules",
+        "name": "intel_wifi_driver"
+      }
+    ],
     "timeout_secs": 9000
   },
   "gcs_bucket": "fuchsia-artifacts",

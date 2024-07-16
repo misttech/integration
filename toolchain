@@ -17,7 +17,7 @@
     -->
     <package name="fuchsia/third_party/binutils-gdb/${platform}"
              version="git_revision:b8a175b415454df6a039ba0b5d2ff13c3c180275"
-             platforms="linux-amd64,linux-arm64,mac-amd64"
+             platforms="linux-amd64,linux-arm64"
              path="prebuilt/third_party/binutils-gdb/{{.OS}}-{{.Arch}}"/>
 
     <!-- Clang
@@ -32,8 +32,8 @@
          TODO(mcgrathr): repo/bot link about provenance
     -->
     <package name="fuchsia/third_party/gcc/${platform}"
-             version="git_revision:fbe5e908de76aa240bbcd2f144c156eccc863604,25558d2fc0e8b77d4c522c322012b048db4c1485"
-             platforms="linux-amd64,linux-arm64,mac-amd64,mac-arm64"
+             version="git_revision:58ef04d26d1ba9eaf54fabc84b656b6b965d83ac,de7a30ceaa4df45d05e12338744f1ad20f1e4032"
+             platforms="linux-amd64,linux-arm64"
              path="prebuilt/third_party/gcc/{{.OS}}-{{.Arch}}"/>
 
     <!-- Go
@@ -48,7 +48,7 @@
          From Rust on Fuchsia team
     -->
     <package name="fuchsia/third_party/rust/host/${platform}"
-             version="git_revision:716752ebe6974b5c6ab9b34b894e075f3e4a4b1e"
+             version="git_revision:6e2780775f5cea9328d37f4b8d0ee79db0056267"
              platforms="linux-amd64,linux-arm64,mac-amd64,mac-arm64"
              path="prebuilt/third_party/rust/{{.OS}}-{{.Arch}}"/>
 
@@ -56,21 +56,21 @@
          From Rust on Fuchsia team
     -->
     <package name="fuchsia/third_party/rust/target/fuchsia"
-             version="git_revision:716752ebe6974b5c6ab9b34b894e075f3e4a4b1e"
+             version="git_revision:6e2780775f5cea9328d37f4b8d0ee79db0056267"
              platforms="linux-amd64,linux-arm64,mac-amd64,mac-arm64"
              path="prebuilt/third_party/rust/{{.OS}}-{{.Arch}}"/>
     <package name="fuchsia/third_party/rust/target/x86_64-apple-darwin"
-             version="git_revision:716752ebe6974b5c6ab9b34b894e075f3e4a4b1e"
+             version="git_revision:6e2780775f5cea9328d37f4b8d0ee79db0056267"
              platforms="linux-amd64,linux-arm64,mac-amd64,mac-arm64"
              path="prebuilt/third_party/rust/{{.OS}}-{{.Arch}}"/>
     <package name="fuchsia/third_party/rust/target/x86_64-unknown-linux-gnu"
-             version="git_revision:716752ebe6974b5c6ab9b34b894e075f3e4a4b1e"
+             version="git_revision:6e2780775f5cea9328d37f4b8d0ee79db0056267"
              platforms="linux-amd64,linux-arm64,mac-amd64,mac-arm64"
              path="prebuilt/third_party/rust/{{.OS}}-{{.Arch}}"/>
 
      <!-- rust-bindgen, used for generating rust bindings to c/c++ headers -->
      <package name="fuchsia/third_party/rust_bindgen/${platform}"
-              version="git_revision:7600bf8097fd47d61f91948f2b36be6ea41f7d89"
+              version="git_revision:66b65517b5568e122e9ce5902dd4868aa2b43d25"
               platforms="linux-amd64,mac-amd64,mac-arm64"
               path="prebuilt/third_party/rust_bindgen/{{.OS}}-{{.Arch}}"/>
 

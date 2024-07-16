@@ -4,7 +4,7 @@
 optimize: DEBUG
 board: "boards/x64.gni"
 product: "products/bringup.gni"
-gn_args: "basic_env_names = [ \"aemu\", \"nuc7\", \"qemu\" ]"
+gn_args: "basic_env_names = [ \"aemu\", \"qemu\" ]"
 gn_args: "build_should_trace_actions = true"
 gn_args: "optimize = \"sanitizer\""
 gn_args: "restat_cc = true"
@@ -31,3 +31,4 @@ include_default_ninja_target: true
 use_temporary_go_cache: true
 e2e_test_labels: "//bundles/buildbot/bringup:e2e_tests"
 link_rbe_enable: true
+bazel_rbe_enable: true
