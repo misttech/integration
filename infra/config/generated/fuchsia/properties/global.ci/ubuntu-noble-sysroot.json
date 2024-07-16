@@ -1,0 +1,11 @@
+{
+  "$fuchsia/rbe": {
+    "instance": "projects/rbe-fuchsia-prod/instances/default"
+  },
+  "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/global.ci/ubuntu-noble-sysroot.textproto",
+  "manifest": "flower",
+  "no_python2": true,
+  "recipe": "contrib/linux_sysroot",
+  "release": "noble",
+  "remote": "https://fuchsia.googlesource.com/integration"
+}
