@@ -1,0 +1,15 @@
+{
+  "dry_run": true,
+  "gerrit_auto_submit_options": {
+    "host_configs": [
+      {
+        "auto_submit_label": "Fuchsia-Auto-Submit",
+        "gerrit_host": "fuchsia-review.googlesource.com",
+        "tree_name": "fuchsia-stem"
+      }
+    ],
+    "repeat_duration_seconds": 30
+  },
+  "no_python2": true,
+  "recipe": "gerrit_auto_submit"
+}

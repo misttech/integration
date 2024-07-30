@@ -9,7 +9,8 @@
     "build": {
       "enable_sandboxing": true,
       "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/global.ci/sdk-bazel-linux-subbuild.textproto",
-      "sdk_subbuild": true
+      "sdk_subbuild": true,
+      "timeout_secs": 10800
     },
     "checkout": {
       "manifest": "flower",

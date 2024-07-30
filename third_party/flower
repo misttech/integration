@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <imports>
-    <localimport file="pylibs/pylibs"/>
     <localimport file="icu"/>
+    <localimport file="pylibs/pylibs"/>
   </imports>
   <projects>
     <!-- Third Party -->
@@ -22,13 +22,13 @@
              gitsubmoduleof="fuchsia"
              path="third_party/cobalt"
              remote="https://fuchsia.googlesource.com/cobalt"
-             revision="cd576ebcef4d0802da6cc386c556e2e4dbec830e"
+             revision="65a1c725db6ec8c0b2adafdf667fd7c5dfe72686"
              gerrithost="https://fuchsia-review.googlesource.com"/>
     <project name="cobalt-registry"
              gitsubmoduleof="fuchsia"
              path="third_party/cobalt_config"
              remote="https://fuchsia.googlesource.com/cobalt-registry"
-             revision="1f5a1f9efda746ab37ab1170a71671176ba20771"
+             revision="3514f645940f7bb737644bcf5035b64ee612dc9c"
              gerrithost="https://fuchsia-review.googlesource.com"/>
     <project name="third_party/jinja2"
              gitsubmoduleof="fuchsia"
@@ -40,7 +40,7 @@
              gitsubmoduleof="fuchsia"
              path="third_party/llvm-libc/src"
              remote="https://llvm.googlesource.com/llvm-project/libc"
-             revision="4497e5dda7677da0f50bf1237f70a2e541f9171b"/>
+             revision="6c053535cd75c7482db9423998c2fc3e864c2b5a"/>
     <project name="third_party/lz4"
              gitsubmoduleof="fuchsia"
              path="third_party/lz4"
@@ -111,18 +111,18 @@
              gitsubmoduleof="fuchsia"
              path="third_party/scudo/src"
              remote="https://llvm.googlesource.com/scudo"
-             revision="9bf88109ef5c887cf52948ed34d45e08cc1695f8"/>
+             revision="df72133c1341fe073b8fa23fac1bc26c723533a5"/>
+    <project name="gwp-asan"
+             gitsubmoduleof="fuchsia"
+             path="third_party/scudo/gwp_asan"
+             remote="https://llvm.googlesource.com/gwp-asan"
+             revision="e9fd72c3535f99c7ff6bae02128e04cbb3596ec5"/>
     <project name="third_party/openssh-portable"
              gitsubmoduleof="fuchsia"
              path="third_party/openssh-portable"
              remote="https://fuchsia.googlesource.com/third_party/openssh-portable"
              gerrithost="https://fuchsia-review.googlesource.com"
              revision="2cf58f42cb95c8a971159194d639f31ca77b2491"/>
-    <project name="gwp-asan"
-             gitsubmoduleof="fuchsia"
-             path="third_party/scudo/gwp_asan"
-             remote="https://llvm.googlesource.com/gwp-asan"
-             revision="2fee62a7c93b3f14502f9b616c79d7d0708963ad"/>
     <project name="third_party/zlib"
              gitsubmoduleof="fuchsia"
              path="third_party/zlib"
