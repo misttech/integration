@@ -29,6 +29,7 @@ readonly python_dir
 
 # Make sure pip is up-to-date, otherwise some packages fail to install.
 "${python_dir}/python3" -m pip install --quiet --upgrade pip
+"${python_dir}/python3" -m pip install --upgrade setuptools
 
 "${python_dir}/python3" -m pip download \
   -r "${src_dir}/requirements.txt" \
