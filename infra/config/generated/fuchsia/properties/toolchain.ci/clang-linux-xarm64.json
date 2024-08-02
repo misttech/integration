@@ -28,7 +28,8 @@
   "recipe": "contrib/clang_toolchain",
   "tot_builders": {
     "linux-amd64": [
-      "fuchsia/clang_toolchain.ci.core.x64-debug-tot-build_only"
+      "fuchsia/clang_toolchain.ci.core.x64-debug-tot-build_only",
+      "fuchsia/clang_toolchain.ci.core.x64-debug-tot-cxx20-build_only"
     ]
   }
 }
