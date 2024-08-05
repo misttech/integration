@@ -16,6 +16,13 @@
         remote="https://fuchsia.googlesource.com/third_party/github.com/pylint-dev/astroid"
         revision="e6dea9cc9e8427f1b0e405dc5de8002a0c3f5239"
         gerrithost="https://fuchsia-review.googlesource.com"/>
+    <!-- autoflake-2.3.1 -->
+    <project name="third_party/pylibs/autoflake"
+        gitsubmoduleof="fuchsia"
+        path="third_party/pylibs/autoflake/src"
+        remote="https://fuchsia.googlesource.com/third_party/github.com/PyCQA/autoflake"
+        revision="0544741e2b4a22b472d9d93e37d4ea9153820bb1"
+        gerrithost="https://fuchsia-review.googlesource.com"/>
     <!-- dill-0.3.7 -->
     <project name="third_party/pylibs/dill"
         gitsubmoduleof="fuchsia"
@@ -57,6 +64,13 @@
         path="third_party/pylibs/platformdirs/src"
         remote="https://fuchsia.googlesource.com/third_party/github.com/platformdirs/platformdirs"
         revision="f772aab1dd35c9ba58e137aaf3bd8efb7d6f8b7b"
+        gerrithost="https://fuchsia-review.googlesource.com"/>
+    <!-- pyflakes-3.2.0 -->
+    <project name="third_party/pylibs/pyflakes"
+        gitsubmoduleof="fuchsia"
+        path="third_party/pylibs/pyflakes/src"
+        remote="https://fuchsia.googlesource.com/third_party/github.com/PyCQA/pyflakes"
+        revision="5a2f4003cf4bb5cadb2e5e6ebd1905605772d5d0"
         gerrithost="https://fuchsia-review.googlesource.com"/>
     <!-- pylint-3.0.2 -->
     <project name="third_party/pylibs/pylint"

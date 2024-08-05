@@ -32,7 +32,7 @@
          TODO(mcgrathr): repo/bot link about provenance
     -->
     <package name="fuchsia/third_party/gcc/${platform}"
-             version="git_revision:58ef04d26d1ba9eaf54fabc84b656b6b965d83ac,de7a30ceaa4df45d05e12338744f1ad20f1e4032"
+             version="git_revision:c3866651a2a4623ebca544391051d3f69f141110,3221c470f0765886a49a1a3d2ec602e4104a377b"
              platforms="linux-amd64,linux-arm64"
              path="prebuilt/third_party/gcc/{{.OS}}-{{.Arch}}"/>
 
@@ -94,7 +94,7 @@
 
     <!-- GN from https://gn.googlesource.com/gn/ -->
     <package name="gn/gn/${platform}"
-             version="git_revision:b2afae122eeb6ce09c52d63f67dc53fc517dbdc8"
+             version="git_revision:0ee833e823f2e11be136728169906d0710bee910"
              platforms="linux-amd64,linux-arm64,mac-amd64,mac-arm64"
              path="prebuilt/third_party/gn/{{.OS}}-{{.Arch}}"/>
 
