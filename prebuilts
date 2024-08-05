@@ -32,5 +32,10 @@
              version="git_revision:1600b9f46b1bd08b00fe86c46ef6dbb48cbe10d6"
              platforms="linux-amd64,linux-arm64,mac-amd64,mac-arm64"
              path="prebuilt/third_party/qemu/{{.OS}}-{{.Arch}}"/>
+
+    <!-- Alpine Linux image for testing on x64 -->
+    <package name="fuchsia/starnix/alpine-image-amd64"
+             path="prebuilt/starnix/alpine-image-amd64"
+             version="version:1"/>
   </packages>
 </manifest>
