@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <packages>
+    <!-- Versioned CTF release. See ctf_generate_manifest.py for details. -->
+    <package name="fuchsia/cts/${platform}"
+             path="prebuilt/ctf/f22/{{.OS}}-{{.Arch}}"
+             platforms="linux-amd64"
+             version="git_revision:9369932e3ad3b83f3a8d9cb002f3692b4b918203" />
+  </packages>
+</manifest>
