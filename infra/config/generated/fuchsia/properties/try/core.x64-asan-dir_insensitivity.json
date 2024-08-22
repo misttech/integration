@@ -1,0 +1,11 @@
+{
+  "$fuchsia/rbe": {
+    "instance": "projects/rbe-fuchsia-prod/instances/default"
+  },
+  "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/try/core.x64-asan-dir_insensitivity.textproto",
+  "fint_params_path_2": "integration/infra/config/generated/fuchsia/fint_params/try/core.x64-asan-dir_insensitivity.textproto",
+  "manifest": "flower",
+  "no_python2": true,
+  "recipe": "fuchsia/compare_builds",
+  "remote": "https://fuchsia.googlesource.com/integration"
+}
