@@ -11,6 +11,9 @@
              remote="https://github.com/misttech/mist-os.git"/>
   </projects>
   <hooks>
+    <hook name="install-environment"
+          project="mist-os"
+          action="scripts/devshell/lib/add_symlink_to_bin.sh"/>
     <hook name="create-build-info-files"
           project="mist-os"
           action="build/info/create_jiri_hook_files.sh"/>

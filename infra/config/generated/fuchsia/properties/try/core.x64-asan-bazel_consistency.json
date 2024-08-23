@@ -1,0 +1,12 @@
+{
+  "$fuchsia/rbe": {
+    "instance": "projects/rbe-fuchsia-prod/instances/default",
+    "platform": "container-image=docker://gcr.io/cloud-marketplace/google/debian11@sha256:69e2789c9f3d28c6a0f13b25062c240ee7772be1f5e6d41bb4680b63eae6b304,gceMachineType=n2-standard-2"
+  },
+  "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/try/core.x64-asan-bazel_consistency.textproto",
+  "fint_params_path_2": "integration/infra/config/generated/fuchsia/fint_params/try/core.x64-asan-bazel_consistency_2.textproto",
+  "manifest": "flower",
+  "no_python2": true,
+  "recipe": "fuchsia/compare_builds",
+  "remote": "https://fuchsia.googlesource.com/integration"
+}

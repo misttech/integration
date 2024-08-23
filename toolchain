@@ -70,7 +70,7 @@
 
      <!-- rust-bindgen, used for generating rust bindings to c/c++ headers -->
      <package name="fuchsia/third_party/rust_bindgen/${platform}"
-              version="git_revision:bd6794234e7a1f6fc58b2bf61e9c2555f55d82fb"
+              version="git_revision:2fb25e3be6a6a8e9ba13a8d1c736d5d8180dab1e"
               platforms="linux-amd64,mac-amd64,mac-arm64"
               path="prebuilt/third_party/rust_bindgen/{{.OS}}-{{.Arch}}"/>
 
@@ -94,14 +94,14 @@
 
     <!-- GN from https://gn.googlesource.com/gn/ -->
     <package name="gn/gn/${platform}"
-             version="git_revision:54f5b539df8c4e460b18c62a11132d77b5601136"
+             version="git_revision:d010e218ca7077928ad7c9e9cc02fe43b5a8a0ad"
              platforms="linux-amd64,linux-arm64,mac-amd64,mac-arm64"
              path="prebuilt/third_party/gn/{{.OS}}-{{.Arch}}"/>
 
     <!-- Ninja from https://ninja-build.org/ -->
     <!-- TODO(phosek): link to bot/recipe/autoroller(?) -->
     <package name="fuchsia/third_party/ninja/${platform}"
-             version="git_revision:7fdd96a48def7f0d7909d045ce8afffb4d04ebbc"
+             version="git_revision:a790909435e79ea7ca3a4b125ae6a86b0e06bc85"
              platforms="linux-amd64,linux-arm64,mac-amd64,mac-arm64,windows-amd64"
              path="prebuilt/third_party/ninja/{{.OS}}-{{.Arch}}"/>
 
