@@ -92,6 +92,15 @@
              attributes="aemu-gfxstream"
              path="prebuilt/third_party/android/aemu/release-gfxstream/{{.OS}}-{{.Arch}}"/>
 
+     <!-- ChromeOS virtual machine monitor, from
+          https://ci.chromium.org/ui/p/fuchsia/builders/ci/crosvm-linux-arm64
+          https://ci.chromium.org/ui/p/fuchsia/builders/ci/crosvm-linux-x64
+    -->
+    <package name="fuchsia/third_party/crosvm/${platform}"
+             version="git_revision:93180de38ab7575635952ed30f73ff795ab0bf30,2"
+             platforms="linux-amd64,linux-arm64"
+             path="prebuilt/third_party/crosvm/{{.OS}}-{{.Arch}}"/>
+
     <!-- EDKII firmware for emulating UEFI, from
          https://ci.chromium.org/p/fuchsia/builders/ci/edk2
     -->
