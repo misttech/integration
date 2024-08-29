@@ -32,7 +32,7 @@
          TODO(mcgrathr): repo/bot link about provenance
     -->
     <package name="fuchsia/third_party/gcc/${platform}"
-             version="git_revision:c3866651a2a4623ebca544391051d3f69f141110,3221c470f0765886a49a1a3d2ec602e4104a377b"
+             version="git_revision:5b75e1c15f97b4a41ad0cf0876f07b5169e05940,aa35682ce5937c9fb9d936a29ef260b9916c8487"
              platforms="linux-amd64,linux-arm64"
              path="prebuilt/third_party/gcc/{{.OS}}-{{.Arch}}"/>
 
@@ -94,14 +94,14 @@
 
     <!-- GN from https://gn.googlesource.com/gn/ -->
     <package name="gn/gn/${platform}"
-             version="git_revision:d010e218ca7077928ad7c9e9cc02fe43b5a8a0ad"
+             version="git_revision:225e90c5025bf74f41dbee60d9cde4512c846fe7"
              platforms="linux-amd64,linux-arm64,mac-amd64,mac-arm64"
              path="prebuilt/third_party/gn/{{.OS}}-{{.Arch}}"/>
 
     <!-- Ninja from https://ninja-build.org/ -->
     <!-- TODO(phosek): link to bot/recipe/autoroller(?) -->
     <package name="fuchsia/third_party/ninja/${platform}"
-             version="git_revision:a790909435e79ea7ca3a4b125ae6a86b0e06bc85"
+             version="git_revision:980bc1f80a6779e8b4ce034c47936238fb16e58c"
              platforms="linux-amd64,linux-arm64,mac-amd64,mac-arm64,windows-amd64"
              path="prebuilt/third_party/ninja/{{.OS}}-{{.Arch}}"/>
 

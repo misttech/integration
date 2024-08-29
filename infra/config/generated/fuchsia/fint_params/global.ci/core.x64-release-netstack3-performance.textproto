@@ -4,12 +4,12 @@
 optimize: RELEASE
 board: "boards/x64-reduced-perf-variation.gni"
 product: "products/core_with_netstack3.gni"
-gn_args: "allowed_test_device_types = [ \"AEMU\", \"Intel NUC Kit NUC7i5DNHE\", \"QEMU\" ]"
+gn_args: "allowed_test_device_types = [ \"AEMU\", \"Intel NUC Kit NUC11TNHv5\", \"QEMU\" ]"
 gn_args: "build_should_trace_actions = true"
 gn_args: "restat_cc = true"
 gn_args: "restat_rust = true"
 gn_args: "truncate_build_info_commit_date = true"
-universe_packages: "//src/connectivity/network/tests/benchmarks/iperf:benchmarks"
+universe_packages: "//src/connectivity/network/tests/benchmarks/iperf:benchmarks-non-hermetic"
 host_labels: "//bundles/infra/build"
 host_labels: "//bundles/infra/test"
 target_arch: X64
