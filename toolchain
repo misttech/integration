@@ -32,7 +32,7 @@
          TODO(mcgrathr): repo/bot link about provenance
     -->
     <package name="fuchsia/third_party/gcc/${platform}"
-             version="git_revision:5b75e1c15f97b4a41ad0cf0876f07b5169e05940,aa35682ce5937c9fb9d936a29ef260b9916c8487"
+             version="git_revision:657bf4a01b45cd58fd4758c8b7a80e60d4ac4299,e5afccc7e45964ed2f339c8f3ff7186a80a2bdb0"
              platforms="linux-amd64,linux-arm64"
              path="prebuilt/third_party/gcc/{{.OS}}-{{.Arch}}"/>
 
@@ -40,7 +40,7 @@
          TODO(phosek): repo/bot link about provenance
     -->
     <package name="fuchsia/go/${platform}"
-             version="git_revision:102344630374bcd53f767f4b408092ab1d97acd0"
+             version="git_revision:90192677cbb615201206210ba28b3e09ff31117c"
              platforms="linux-amd64,linux-arm64,mac-amd64,mac-arm64"
              path="prebuilt/third_party/go/{{.OS}}-{{.Arch}}"/>
 
@@ -70,13 +70,13 @@
 
      <!-- rust-bindgen, used for generating rust bindings to c/c++ headers -->
      <package name="fuchsia/third_party/rust_bindgen/${platform}"
-              version="git_revision:2fb25e3be6a6a8e9ba13a8d1c736d5d8180dab1e"
+              version="git_revision:f518815cc14a7f8c292964bb37179a1070d7e18a"
               platforms="linux-amd64,mac-amd64,mac-arm64"
               path="prebuilt/third_party/rust_bindgen/{{.OS}}-{{.Arch}}"/>
 
      <!-- rust-analyzer, used for rust editor support -->
      <package name="fuchsia/third_party/rust-analyzer/${platform}"
-              version="git_revision:b5626032bde6c6d7b7988cffb50fabc67e6d3804"
+              version="git_revision:9fd70519507b673fae250f84b0990e7e8155ca98"
               platforms="linux-amd64,mac-amd64,mac-arm64"
               path="prebuilt/third_party/rust-analyzer"/>
 
@@ -94,7 +94,7 @@
 
     <!-- GN from https://gn.googlesource.com/gn/ -->
     <package name="gn/gn/${platform}"
-             version="git_revision:225e90c5025bf74f41dbee60d9cde4512c846fe7"
+             version="git_revision:f792b9756418af8ab8a91a4c15b582431cb86ff9"
              platforms="linux-amd64,linux-arm64,mac-amd64,mac-arm64"
              path="prebuilt/third_party/gn/{{.OS}}-{{.Arch}}"/>
 
