@@ -685,5 +685,12 @@
              path="prebuilt/.build-id"
              version="git_revision:5d8da2ed266387212c1f6c05b8f09ebdbe9c5d4a"
              attributes="debug-symbols,debug-symbols-x64"/>
+    <package name="fuchsia/prebuilt/bt-host/riscv64"
+             path="prebuilt/connectivity/bluetooth/bt-host/riscv64"
+             version="git_revision:5d8da2ed266387212c1f6c05b8f09ebdbe9c5d4a"/>
+    <package name="fuchsia/prebuilt/bt-host/debug-symbols-riscv64"
+             path="prebuilt/.build-id"
+             version="git_revision:5d8da2ed266387212c1f6c05b8f09ebdbe9c5d4a"
+             attributes="debug-symbols,debug-symbols-riscv64"/>
   </packages>
 </manifest>
