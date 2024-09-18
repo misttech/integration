@@ -20,6 +20,20 @@
     ]
   },
   "do_2stage": true,
+  "lldb_builders": {
+    "linux-amd64": [
+      "lldb-linux-x64"
+    ],
+    "linux-arm64": [
+      "lldb-linux-arm64"
+    ],
+    "mac-amd64": [
+      "lldb-mac-x64"
+    ],
+    "windows-amd64": [
+      "lldb-windows-x64"
+    ]
+  },
   "lto_mode": "FULL",
   "no_python2": true,
   "platform": "windows-amd64",
