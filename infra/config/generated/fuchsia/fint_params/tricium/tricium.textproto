@@ -8,7 +8,6 @@ gn_args: "zx_assert_level = 2"
 universe_packages: "//bundles/kitchen_sink"
 target_arch: X64
 include_prebuilt_binary_manifests: true
-include_generated_sources: true
 rust_rbe_enable: true
 cxx_rbe_enable: true
 incremental: true
