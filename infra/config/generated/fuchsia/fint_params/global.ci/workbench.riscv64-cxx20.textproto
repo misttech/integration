@@ -4,7 +4,6 @@
 optimize: DEBUG
 board: "boards/riscv64.gni"
 product: "products/workbench_eng.gni"
-gn_args: "bazel_upload_build_events = \"sponge_infra\""
 gn_args: "build_should_trace_actions = true"
 gn_args: "experimental_cxx_version = 20"
 gn_args: "optimize = \"debug\""
@@ -30,3 +29,4 @@ hermetic_test_packages: "//bundles/buildbot/workbench:hermetic_tests"
 e2e_test_labels: "//bundles/buildbot/workbench:e2e_tests"
 link_rbe_enable: true
 bazel_rbe_enable: true
+build_event_service: "sponge_infra"
