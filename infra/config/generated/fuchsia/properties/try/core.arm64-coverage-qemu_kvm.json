@@ -11,6 +11,9 @@
       "timeout_secs": 7200
     },
     "checkout": {
+      "attributes": [
+        "clang-arm64"
+      ],
       "do_not_rebase_patch": true,
       "manifest": "flower",
       "project": "integration",
