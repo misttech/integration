@@ -9,8 +9,8 @@ Our infrastructure automatically updates this version when the internal one
 changes.
 
 Currently all changes must be made by a Google employee. Non-Google employees
-wishing to make a change can ask for assistance via the IRC channel `#fuchsia`
-on Freenode.
+wishing to make a change can ask for assistance in one of the communication
+channels documented at [get involved].
 
 ## Obtaining the source
 
@@ -30,3 +30,4 @@ Third party projects should have their own subdirectory in `./third_party`.
 
 [internal version]: https://goto.google.com/fuchsia-internal-integration
 [Jiri]: https://fuchsia.googlesource.com/jiri#Bootstrapping
+[get involved]: https://fuchsia.dev/fuchsia-src/contribute/community/get-involved

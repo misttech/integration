@@ -4,7 +4,6 @@
 optimize: DEBUG
 board: "boards/x64.gni"
 product: "products/core.gni"
-gn_args: "bazel_upload_build_events = \"sponge_infra\""
 gn_args: "build_should_trace_actions = true"
 gn_args: "restat_cc = true"
 gn_args: "restat_rust = true"
@@ -23,3 +22,4 @@ include_default_ninja_target: true
 use_temporary_go_cache: true
 link_rbe_enable: true
 bazel_rbe_enable: true
+build_event_service: "resultstore_infra"
