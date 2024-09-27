@@ -21,3 +21,4 @@ include_default_ninja_target: true
 ninja_args: "-k0"
 hermetic_test_packages: "//bundles/buildbot/core:hermetic_tests"
 e2e_test_labels: "//bundles/buildbot/core:e2e_tests"
+build_event_service: "resultstore_infra"

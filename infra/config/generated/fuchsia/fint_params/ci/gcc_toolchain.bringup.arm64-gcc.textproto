@@ -22,3 +22,4 @@ default_test_durations_file: "prebuilt/infra/test_durations/fuchsia/default.json
 include_default_ninja_target: true
 ninja_args: "-k0"
 e2e_test_labels: "//bundles/buildbot/bringup:e2e_tests"
+build_event_service: "resultstore_infra"
