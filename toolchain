@@ -24,7 +24,7 @@
          TODO(mcgrathr): repo/bot link about provenance
     -->
     <package name="fuchsia/third_party/clang/${platform}"
-             version="git_revision:8280651ad57cb9fb24a404cec2401040c28dec98"
+             version="git_revision:2b0a708f41dd6291ee744704d43febc975e3d026"
              platforms="linux-amd64,linux-arm64,mac-amd64,mac-arm64,windows-amd64"
              path="prebuilt/third_party/clang/{{.OS}}-{{.Arch}}"/>
 
@@ -48,7 +48,7 @@
          From Rust on Fuchsia team
     -->
     <package name="fuchsia/third_party/rust/host/${platform}"
-             version="git_revision:67bb749c2e1cf503fee64842963dd3e72a417a3f"
+             version="git_revision:6e2780775f5cea9328d37f4b8d0ee79db0056267"
              platforms="linux-amd64,linux-arm64,mac-amd64,mac-arm64"
              path="prebuilt/third_party/rust/{{.OS}}-{{.Arch}}"/>
 
@@ -56,21 +56,21 @@
          From Rust on Fuchsia team
     -->
     <package name="fuchsia/third_party/rust/target/fuchsia"
-             version="git_revision:67bb749c2e1cf503fee64842963dd3e72a417a3f"
+             version="git_revision:6e2780775f5cea9328d37f4b8d0ee79db0056267"
              platforms="linux-amd64,linux-arm64,mac-amd64,mac-arm64"
              path="prebuilt/third_party/rust/{{.OS}}-{{.Arch}}"/>
     <package name="fuchsia/third_party/rust/target/x86_64-apple-darwin"
-             version="git_revision:67bb749c2e1cf503fee64842963dd3e72a417a3f"
+             version="git_revision:6e2780775f5cea9328d37f4b8d0ee79db0056267"
              platforms="linux-amd64,linux-arm64,mac-amd64,mac-arm64"
              path="prebuilt/third_party/rust/{{.OS}}-{{.Arch}}"/>
     <package name="fuchsia/third_party/rust/target/x86_64-unknown-linux-gnu"
-             version="git_revision:67bb749c2e1cf503fee64842963dd3e72a417a3f"
+             version="git_revision:6e2780775f5cea9328d37f4b8d0ee79db0056267"
              platforms="linux-amd64,linux-arm64,mac-amd64,mac-arm64"
              path="prebuilt/third_party/rust/{{.OS}}-{{.Arch}}"/>
 
      <!-- rust-bindgen, used for generating rust bindings to c/c++ headers -->
      <package name="fuchsia/third_party/rust_bindgen/${platform}"
-              version="git_revision:5eafd91c98674b44cdcca951b451a5da505b491b"
+              version="git_revision:7cc265811146067660dd341874ce9c211266834a"
               platforms="linux-amd64,mac-amd64,mac-arm64"
               path="prebuilt/third_party/rust_bindgen/{{.OS}}-{{.Arch}}"/>
 
