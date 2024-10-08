@@ -1,10 +1,10 @@
 {
   "gerrit_auto_submit_options": {
+    "cq_config_name": "fake-commit-queue.cfg",
     "host_configs": [
       {
         "auto_submit_label": "Fuchsia-Auto-Submit",
-        "gerrit_host": "fuchsia-review.googlesource.com",
-        "tree_name": "fuchsia-stem"
+        "gerrit_host": "fuchsia-review.googlesource.com"
       }
     ],
     "repeat_duration_seconds": 3600
