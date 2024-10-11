@@ -5,6 +5,7 @@ optimize: RELEASE
 product: "products/core.gni"
 gn_args: "build_should_trace_actions = true"
 gn_args: "compress_debuginfo = \"none\""
+gn_args: "enable_jobserver = true"
 gn_args: "restat_cc = false"
 gn_args: "restat_rust = false"
 gn_args: "sdk_cross_compile_host_tools = true"
