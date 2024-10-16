@@ -10,7 +10,7 @@ gn_args: "optimize = \"coverage\""
 gn_args: "restat_cc = true"
 gn_args: "restat_rust = true"
 gn_args: "truncate_build_info_commit_date = true"
-universe_packages: "//bundles/buildbot/core:no_e2e"
+universe_packages: "//bundles/buildbot/core:no_e2e_arm64_cov"
 host_labels: "//bundles/buildbot/host:no_e2e"
 host_labels: "//bundles/infra/build"
 target_arch: ARM64
