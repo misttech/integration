@@ -17,7 +17,6 @@
     },
     "gcs_bucket": "fuchsia-build",
     "test": {
-      "affected_tests_multiply_threshold": 100,
       "botanist_grace_period_secs": 60,
       "default_service_account": "artifact-readers@fuchsia-infra.iam.gserviceaccount.com",
       "disabled_device_types": [
@@ -33,15 +32,12 @@
       "enable_sandboxing": true,
       "ffx_experiment_level": 1,
       "max_attempts_per_test": 3,
-      "pave": true,
-      "per_shard_package_repos": true,
-      "per_test_timeout_secs": 300,
       "pool": "fuchsia.tests",
       "skip_unaffected_tests": true,
       "swarming_expiration_timeout_secs": 18000,
       "swarming_grace_period_secs": 30,
       "swarming_io_timeout_secs": 360,
-      "target_shard_duration_secs": 540,
+      "testsharder_params_path": "integration/infra/config/generated/fuchsia/testsharder_params/try/core.x64-release-minfs-no_hardware.textproto",
       "upload_results": true,
       "use_cas": true,
       "use_cas_for_images": true
