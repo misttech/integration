@@ -1,14 +1,11 @@
 {
-  "$fuchsia/rbe": {
-    "instance": "projects/rbe-fuchsia-prod/instances/default"
-  },
   "no_python2": true,
-  "recipe": "fuchsia/build",
+  "recipe": "fuchsia/fuchsia",
   "spec": {
     "artifact_gcs_bucket": "fuchsia-artifacts",
     "build": {
       "enable_sandboxing": true,
-      "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/global.ci/workbench_eng.vim3-debug-lacewing-self-staging.textproto",
+      "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/global.ci/core.vim3-debug-lacewing-staging.textproto",
       "incremental": true,
       "run_tests": true
     },
@@ -38,5 +35,6 @@
       "use_cas": true,
       "use_cas_for_images": true
     }
-  }
+  },
+  "uses_subbuild": true
 }

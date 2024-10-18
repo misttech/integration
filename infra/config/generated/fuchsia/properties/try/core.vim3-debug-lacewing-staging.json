@@ -2,21 +2,17 @@
   "$fuchsia/autocorrelator": {
     "ci_bucket": "global.ci"
   },
-  "$fuchsia/rbe": {
-    "instance": "projects/rbe-fuchsia-prod/instances/default"
-  },
   "no_python2": true,
-  "recipe": "fuchsia/build",
+  "recipe": "fuchsia/fuchsia",
   "spec": {
     "artifact_gcs_bucket": "fuchsia-artifacts",
     "build": {
       "enable_sandboxing": true,
-      "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/try/core.x64-debug-lacewing-self-staging.textproto",
+      "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/try/core.vim3-debug-lacewing-staging.textproto",
       "incremental": true,
       "run_tests": true
     },
     "checkout": {
-      "enable_submodules": true,
       "manifest": "flower",
       "project": "integration",
       "remote": "https://fuchsia.googlesource.com/integration"
@@ -42,5 +38,6 @@
       "use_cas": true,
       "use_cas_for_images": true
     }
-  }
+  },
+  "uses_subbuild": true
 }
