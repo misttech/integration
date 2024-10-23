@@ -199,6 +199,12 @@
              path="prebuilt/tools/ninjatrace/{{.OS}}-{{.Arch}}"
              platforms="linux-amd64,mac-amd64,mac-arm64"/>
 
+    <!-- Perfetto trace processor -->
+    <package name="perfetto/trace_processor_shell/${platform}"
+             version="git_tag:v48.1"
+             platforms="linux-amd64,mac-amd64,mac-arm64"
+             path="prebuilt/third_party/perfetto/trace_processor_shell/{{.OS}}-{{.Arch}}"/>
+
     <!-- Packages for build -->
     <!--   Dart -->
     <package name="fuchsia/dart-sdk/${platform}"
