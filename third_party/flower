@@ -27,13 +27,13 @@
              gitsubmoduleof="fuchsia"
              path="third_party/cobalt"
              remote="https://fuchsia.googlesource.com/cobalt"
-             revision="c672671659a5d0c34a20af318d8499738a5c8d74"
+             revision="224095a8ab64929e6d75c29abfe88c5fb453338e"
              gerrithost="https://fuchsia-review.googlesource.com"/>
     <project name="cobalt-registry"
              gitsubmoduleof="fuchsia"
              path="third_party/cobalt_config"
              remote="https://fuchsia.googlesource.com/cobalt-registry"
-             revision="aca5e025803d9b0e0331fe4c0e6699d5276466b1"
+             revision="6ee40676faf8e698c23337d67f8e90a8582c987c"
              gerrithost="https://fuchsia-review.googlesource.com"/>
     <project name="third_party/go"
              gitsubmoduleof="fuchsia"
@@ -41,6 +41,11 @@
              gerrithost="https://fuchsia-review.googlesource.com"
              revision="69876b7b949a58ea16c3f4f67dc55247b738ac9a"
              path="third_party/go"/>
+    <project name="third_party/github.com/google/googletest"
+             gitsubmoduleof="fuchsia"
+             path="third_party/googletest/src"
+             remote="https://fuchsia.googlesource.com/third_party/github.com/google/googletest"
+             revision="9756ee7cbaef1b6652065616ab832810a6032bbf"/>
     <project name="third_party/jinja2"
              gitsubmoduleof="fuchsia"
              path="third_party/jinja2/jinja2"
@@ -51,7 +56,7 @@
              gitsubmoduleof="fuchsia"
              path="third_party/llvm-libc/src"
              remote="https://llvm.googlesource.com/llvm-project/libc"
-             revision="23142f8fd8cd281189334b54fde0668f0759f867"/>
+             revision="065baebc5b373054aa5908a91c505c649fb70581"/>
     <project name="third_party/lz4"
              gitsubmoduleof="fuchsia"
              path="third_party/lz4"
@@ -98,7 +103,7 @@
              gitsubmoduleof="fuchsia"
              path="third_party/rapidjson"
              remote="https://fuchsia.googlesource.com/third_party/rapidjson"
-             revision="f74d358476aec62d9e85e9852f2b5b5e528935e0"
+             revision="cddb2ae39cf834b70327a0cf12416414120d5479"
              gerrithost="https://fuchsia-review.googlesource.com"/>
     <project name="third_party/re2"
              gitsubmoduleof="fuchsia"
