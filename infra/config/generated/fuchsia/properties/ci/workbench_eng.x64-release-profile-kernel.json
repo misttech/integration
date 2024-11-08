@@ -2,11 +2,11 @@
   "$fuchsia/rbe": {
     "instance": "projects/rbe-fuchsia-prod/instances/default"
   },
-  "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/try/profile-fuchsia-kernel.textproto",
+  "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/ci/workbench_eng.x64-release-profile-kernel.textproto",
   "manifest": "flower",
   "no_python2": true,
   "profile_builders": [
-    "core.x64-profile-kernel-qemu_kvm"
+    "workbench_eng.x64-release-profile-kernel-qemu_kvm"
   ],
   "recipe": "fuchsia/profile",
   "remote": "https://fuchsia.googlesource.com/integration"
