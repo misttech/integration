@@ -10,9 +10,12 @@ gn_args: "optimize = \"profile\""
 gn_args: "restat_cc = false"
 gn_args: "restat_rust = false"
 gn_args: "truncate_build_info_commit_date = true"
-universe_packages: "//bundles/buildbot/workbench"
+universe_packages: "//src/testing/end_to_end:workbench_x64_stable_tests"
+universe_packages: "//src/tests/end_to_end:workbench_x64_stable_tests"
 host_labels: "//bundles/infra/build"
 host_labels: "//bundles/infra/test"
+host_labels: "//src/testing/end_to_end:workbench_x64_stable_tests"
+host_labels: "//src/tests/end_to_end:workbench_x64_stable_tests"
 target_arch: X64
 variants: "{variant=\"profile\" dir=[\"//zircon/kernel\", \"//zircon/kernel/phys\"]}"
 pave: true
