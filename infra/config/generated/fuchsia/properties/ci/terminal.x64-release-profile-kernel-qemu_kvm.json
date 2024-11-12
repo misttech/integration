@@ -5,11 +5,10 @@
     "artifact_gcs_bucket": "fuchsia-artifacts",
     "build": {
       "enable_sandboxing": true,
-      "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/ci/core.x64-profile-kernel-qemu_kvm.textproto",
+      "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/ci/terminal.x64-release-profile-kernel-qemu_kvm.textproto",
       "run_tests": true
     },
     "checkout": {
-      "enable_submodules": true,
       "manifest": "flower",
       "project": "integration",
       "remote": "https://fuchsia.googlesource.com/integration"
@@ -25,8 +24,8 @@
       "pool": "fuchsia.tests",
       "swarming_expiration_timeout_secs": 18000,
       "swarming_grace_period_secs": 30,
-      "swarming_io_timeout_secs": 660,
-      "testsharder_params_path": "integration/infra/config/generated/fuchsia/testsharder_params/ci/core.x64-profile-kernel-qemu_kvm.textproto",
+      "swarming_io_timeout_secs": 360,
+      "testsharder_params_path": "integration/infra/config/generated/fuchsia/testsharder_params/ci/terminal.x64-release-profile-kernel-qemu_kvm.textproto",
       "upload_results": true,
       "use_cas": true,
       "use_cas_for_images": true,
