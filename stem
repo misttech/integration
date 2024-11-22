@@ -26,5 +26,8 @@
     <hook name="create-build-info-files"
           project="fuchsia"
           action="build/info/create_jiri_hook_files.sh"/>
+    <hook name="generate-prebuilt-versions"
+          project="fuchsia"
+          action="tools/build/scripts/generate_prebuilt_versions.sh"/>
   </hooks>
 </manifest>
