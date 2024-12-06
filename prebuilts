@@ -22,6 +22,13 @@
         Third-party tools and data used to build and test.
         ************************************************************
     -->
+
+     <!-- cargo-outdated, used for rolling external rust deps -->
+     <package name="fuchsia/third_party/rust_cargo_outdated/${platform}"
+              version="git_revision:0d5f4a7bc166ce17d051259e9cc9ba9cb9a9eb01"
+              platforms="linux-amd64,mac-amd64,mac-arm64"
+              path="prebuilt/third_party/rust_cargo_outdated/{{.OS}}-{{.Arch}}"/>
+
     <!-- QEMU
          Recipe:    https://fuchsia.googlesource.com/infra/recipes/+/refs/heads/main/recipes/contrib/qemu.py
          Builders:  https://ci.chromium.org/p/fuchsia/builders/ci/qemu-arm64-linux
