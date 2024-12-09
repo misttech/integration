@@ -1,0 +1,9 @@
+{
+  "no_python2": true,
+  "recipe": "rust_stage0_trigger",
+  "remote": "https://fuchsia.googlesource.com/third_party/rust",
+  "triggers": [
+    "rust-stage0-linux-x64",
+    "rust-stage0-bootstrap-linux-x64"
+  ]
+}
