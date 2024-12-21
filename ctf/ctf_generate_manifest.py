@@ -127,7 +127,7 @@ def get_supported_api_levels() -> Set[str]:
     return {
         f"f{key}"
         for key, value in version_data.items()
-        if value["status"] == "supported"
+        if (value.get("phase") or value.get("status")) == "supported"
     }
 
 

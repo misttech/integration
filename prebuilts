@@ -31,12 +31,13 @@
 
     <!-- QEMU
          Recipe:    https://fuchsia.googlesource.com/infra/recipes/+/refs/heads/main/recipes/contrib/qemu.py
-         Builders:  https://ci.chromium.org/p/fuchsia/builders/ci/qemu-arm64-linux
-                    https://ci.chromium.org/p/fuchsia/builders/ci/qemu-x64-linux
-                    https://ci.chromium.org/p/fuchsia/builders/ci/qemu-x64-mac
+         Builders:  https://ci.chromium.org/p/fuchsia/builders/ci/qemu-linux-arm64
+                    https://ci.chromium.org/p/fuchsia/builders/ci/qemu-linux-x64
+                    https://ci.chromium.org/p/fuchsia/builders/ci/qemu-mac-arm64
+                    https://ci.chromium.org/p/fuchsia/builders/ci/qemu-mac-x64
     -->
     <package name="fuchsia/third_party/qemu/${platform}"
-             version="git_revision:1600b9f46b1bd08b00fe86c46ef6dbb48cbe10d6"
+             version="git_revision:ae35f033b874c627d81d51070187fbf55f0bf1a7"
              platforms="linux-amd64,linux-arm64,mac-amd64,mac-arm64"
              path="prebuilt/third_party/qemu/{{.OS}}-{{.Arch}}"/>
 

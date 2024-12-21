@@ -70,7 +70,7 @@
 
      <!-- rust-bindgen, used for generating rust bindings to c/c++ headers -->
      <package name="fuchsia/third_party/rust_bindgen/${platform}"
-              version="git_revision:af7fd38d5e80514406fb6a8bba2d407d252c30b9"
+              version="git_revision:3e0094ea4a240ae1b10bc46ae5db11f0bd46714a"
               platforms="linux-amd64,mac-amd64,mac-arm64"
               path="prebuilt/third_party/rust_bindgen/{{.OS}}-{{.Arch}}"/>
 
@@ -94,7 +94,7 @@
 
     <!-- GN from https://gn.googlesource.com/gn/ -->
     <package name="gn/gn/${platform}"
-             version="git_revision:468c6128db7fabe32a29d4753460ef53594406fc"
+             version="git_revision:c97a86a72105f3328a540f5a5ab17d11989ab7dd"
              platforms="linux-amd64,linux-arm64,mac-amd64,mac-arm64"
              path="prebuilt/third_party/gn/{{.OS}}-{{.Arch}}"/>
 
