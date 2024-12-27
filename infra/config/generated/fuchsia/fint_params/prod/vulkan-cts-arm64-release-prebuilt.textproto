@@ -2,6 +2,7 @@
 # Do not modify manually.
 
 compilation_mode: COMPILATION_MODE_RELEASE
+board: "boards/arm64.gni"
 product: "products/core.gni"
 gn_args: "exported_package_labels=[\"//third_party/vulkan-cts/fuchsia:vulkan-cts-archives\"]"
 ninja_targets: "third_party/vulkan-cts/fuchsia:vulkan-cts-archives"
