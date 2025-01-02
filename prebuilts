@@ -226,9 +226,17 @@
              path="prebuilt/test_data/media/third_party/chromium_media_test_data_downstream"/>
     <!--   Fastboot -->
     <package name="fuchsia/third_party/fastboot/${platform}"
+             version="git_revision:3aed5fd2f3c004205c3a31b54dfa802148ec563b"
+             path="prebuilt/third_party/fastboot"
+             platforms="linux-amd64"/>
+    <!--
+           We've deliberately left the mac fastboot version behind, as the mac builders are broken
+           and mac is deprecated as a development platform.
+    -->
+    <package name="fuchsia/third_party/fastboot/${os=mac}-${arch}"
              version="git_revision:7bcd7715f8ba852361b15c7b02276f3eb9193e5a"
              path="prebuilt/third_party/fastboot"
-             platforms="linux-amd64,mac-amd64,mac-arm64"/>
+             platforms="mac-arm64,mac-amd64"/>
     <!--   FFMPEG library -->
     <package name="fuchsia/lib/ffmpeg/fuchsia"
              version="git_revision:48829ffc446779e828a896c779df78b75dcf838b"
