@@ -32,7 +32,7 @@
          TODO(mcgrathr): repo/bot link about provenance
     -->
     <package name="fuchsia/third_party/gcc/${platform}"
-             version="git_revision:6385000d36a8b0b9dce0b8dc92e101dfcc584ec5,0623a1a5365bbb373a802dc12208a3a98943ce9b"
+             version="git_revision:d828a97c003f82fc7bd62e128a6b49c9fef63187,deea250ab63d84a58125ca0963c625b50468a578"
              platforms="linux-amd64,linux-arm64"
              path="prebuilt/third_party/gcc/{{.OS}}-{{.Arch}}"/>
 
@@ -70,13 +70,13 @@
 
      <!-- rust-bindgen, used for generating rust bindings to c/c++ headers -->
      <package name="fuchsia/third_party/rust_bindgen/${platform}"
-              version="git_revision:3e0094ea4a240ae1b10bc46ae5db11f0bd46714a"
+              version="git_revision:59a43e10b758bd86275aefceae29e874157087d8"
               platforms="linux-amd64,mac-amd64,mac-arm64"
               path="prebuilt/third_party/rust_bindgen/{{.OS}}-{{.Arch}}"/>
 
      <!-- rust-analyzer, used for rust editor support -->
      <package name="fuchsia/third_party/rust-analyzer/${platform}"
-              version="git_revision:17720acb90105cbd736d3e78d736eb5d41af89a5"
+              version="git_revision:a440fcb69898b6f28190f7ea2d0734e4dc8576e7"
               platforms="linux-amd64,mac-amd64,mac-arm64"
               path="prebuilt/third_party/rust-analyzer"/>
 
