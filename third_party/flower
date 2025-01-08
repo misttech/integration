@@ -51,14 +51,17 @@
              remote="https://fuchsia.googlesource.com/third_party/android.googlesource.com/platform/bionic"
              revision="0770da2b6f38e219a29e23c79b39451295508abe"/>
     <project name="third_party/android.googlesource.com/platform/frameworks/native"
+             gitsubmoduleof="fuchsia"
              path="third_party/android/platform/frameworks/native"
              remote="https://fuchsia.googlesource.com/third_party/android.googlesource.com/platform/frameworks/native"
              revision="ad2e67d96359f1319ca365dc59741c6126a73fd4"/>
     <project name="third_party/android.googlesource.com/platform/system/logging"
+             gitsubmoduleof="fuchsia"
              path="third_party/android/platform/system/logging"
              remote="https://fuchsia.googlesource.com/third_party/android.googlesource.com/platform/system/logging"
              revision="406d04b8002d27c47cc76cf1358d8241078b28a4"/>
     <project name="third_party/android/platform/system/tools/aidl"
+             gitsubmoduleof="fuchsia"
              path="third_party/android/platform/system/tools/aidl"
              remote="https://fuchsia.googlesource.com/third_party/android/platform/system/tools/aidl"
              revision="0fc499027775cacf812f324c29e33d3d68c9f545"/>
