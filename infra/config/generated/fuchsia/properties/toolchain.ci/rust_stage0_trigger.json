@@ -4,6 +4,10 @@
   "remote": "https://fuchsia.googlesource.com/third_party/rust",
   "triggers": [
     "rust-stage0-linux-x64",
+    "rust-stage0-linux-arm64",
+    "rust-stage0-mac-x64",
+    "rust-stage0-mac-arm64",
+    "rust-stage0-windows-x64",
     "rust-stage0-bootstrap-linux-x64"
   ]
 }
