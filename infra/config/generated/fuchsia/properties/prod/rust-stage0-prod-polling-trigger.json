@@ -2,9 +2,12 @@
   "bucket": "prod",
   "input_builder_bucket": "toolchain.ci",
   "input_builders": [
-    "clang-linux-x64",
-    "clang-mac-x64",
-    "clang-windows-x64"
+    "rust-stage0-linux-x64",
+    "rust-stage0-linux-arm64",
+    "rust-stage0-mac-x64",
+    "rust-stage0-mac-arm64",
+    "rust-stage0-windows-x64",
+    "rust-stage0-bootstrap-linux-x64"
   ],
   "no_python2": true,
   "recipe": "contrib/clang_trigger",
