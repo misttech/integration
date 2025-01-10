@@ -33,7 +33,10 @@
         "Vim3"
       ],
       "enable_sandboxing": true,
-      "ffx_experiment_level": 1,
+      "experiments": [
+        "use_ffx_test",
+        "use_ffx_emu_product_bundle"
+      ],
       "max_attempts_per_test": 3,
       "pool": "fuchsia.tests",
       "skip_unaffected_tests": true,

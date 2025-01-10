@@ -23,7 +23,10 @@
       "botanist_grace_period_secs": 60,
       "default_service_account": "artifact-readers@fuchsia-infra.iam.gserviceaccount.com",
       "enable_sandboxing": true,
-      "ffx_experiment_level": 1,
+      "experiments": [
+        "use_ffx_test",
+        "use_ffx_emu_product_bundle"
+      ],
       "max_attempts_per_test": 3,
       "pool": "fuchsia.tests.bluetooth",
       "skip_unaffected_tests": true,
