@@ -11,9 +11,9 @@
   ],
   "no_python2": true,
   "recipe": "contrib/clang_trigger",
-  "repo": "https://llvm.googlesource.com/llvm-project",
+  "repo": "https://fuchsia.googlesource.com/third_party/rust",
   "timeout_secs": 21600,
   "triggers": [
-    "clang-prod-trigger"
+    "rust-stage0-prod-trigger"
   ]
 }
