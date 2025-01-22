@@ -6,5 +6,15 @@
              path="prebuilt/ctf/f25/{{.OS}}-{{.Arch}}"
              platforms="linux-amd64"
              version="git_revision:9c5012cad2e22c8a24587ed4b8fcfb8aeab12663" />
+    <package name="fuchsia/sdk/core/${platform}"
+             path="prebuilt/ctf/f25/{{.OS}}-{{.Arch}}/sdk"
+             platforms="linux-amd64"
+             attributes="ctf-host-tools"
+             version="f25" />
+    <package name="fuchsia/development/product_bundles/v2"
+             path="prebuilt/ctf/f25/{{.OS}}-{{.Arch}}/product_bundles"
+             platforms="linux-amd64"
+             attributes="ctf-host-tools"
+             version="f25" />
   </packages>
 </manifest>
