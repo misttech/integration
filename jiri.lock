@@ -76,9 +76,15 @@
     },
     {
         "package": "fuchsia/cts/linux-amd64",
-        "path": "prebuilt/cts/current_milestone/{{.OS}}-{{.Arch}}",
+        "path": "prebuilt/ctf/f25/{{.OS}}-{{.Arch}}",
         "version": "git_revision:9c5012cad2e22c8a24587ed4b8fcfb8aeab12663",
         "instance_id": "taY-PJtHM-Y50l1uLX8nyg-TdEriro08CjHOfcpJq3wC"
+    },
+    {
+        "package": "fuchsia/cts/linux-amd64",
+        "path": "prebuilt/cts/current_milestone/{{.OS}}-{{.Arch}}",
+        "version": "git_revision:dabc29528058c3274e2bb6bb7028db78fefa718f",
+        "instance_id": "iAlxJJ_CE7xxFVlsY__Q4m47BYzN_xJDnnmLELBvo1gC"
     },
     {
         "package": "fuchsia/dart-sdk/linux-amd64",
