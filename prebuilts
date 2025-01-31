@@ -320,13 +320,6 @@
              path="src/connectivity/wlan/drivers/third_party/mediatek/mt7668-wifi-mod/firmware"
              platforms="linux-amd64,linux-arm64,mac-amd64,mac-arm64"
              internal="true"/>
-    <!--   NXP wlan firmware -->
-    <package name="fuchsia_internal/firmware/wlan/nxp/nxpfmac"
-             version="version:3"
-             path="src/connectivity/wlan/drivers/third_party/nxp/nxpfmac/firmware"
-             platforms="linux-amd64,linux-arm64,mac-amd64,mac-arm64"
-             flag="build/cipd.gni|internal_access = true|internal_access = false"
-             internal="true"/>
     <!--   Synaptics wlan firmware -->
     <package name="fuchsia_internal/firmware/wlan/synaptics/synadhd"
              version="version:2"
