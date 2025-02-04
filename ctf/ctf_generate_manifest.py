@@ -4,14 +4,14 @@
 # found in the LICENSE file.
 
 import argparse
-import os
-import sys
+import difflib
 import json
+import os
 import re
 import subprocess
+import sys
 import tempfile
-import difflib
-from typing import Set, Dict, List
+from typing import Dict, List, Set
 
 SCRIPT_DIRECTORY = os.path.dirname(os.path.abspath(__file__))
 FUCHSIA_CTS_PACKAGE = "fuchsia/cts/linux-amd64"
@@ -21,7 +21,9 @@ def main(args: argparse.Namespace) -> int:
     f_release_regex = re.compile(r"f[0-9]+")
 
     try:
-        level_mapping = get_git_revisions_from_cipd(sorted(get_supported_api_levels()))
+        level_mapping = get_git_revisions_from_cipd(
+            sorted(get_supported_api_levels())
+        )
     except Exception as e:
         print_error(f"Could not load all data: {e}")
         return 1
@@ -60,7 +62,9 @@ def main(args: argparse.Namespace) -> int:
     import_file_path = os.path.join(SCRIPT_DIRECTORY, "all")
     new_import_file_contents = format_import_file(sorted(level_mapping.keys()))
     old_import_file_contents = (
-        open(import_file_path).read() if os.path.isfile(import_file_path) else None
+        open(import_file_path).read()
+        if os.path.isfile(import_file_path)
+        else None
     )
 
     if not args.dry_run:
@@ -123,7 +127,9 @@ def get_supported_api_levels() -> Set[str]:
         version_contents = json.load(f)
 
     # Get the name of each API level where its status is "supported"
-    version_data: Dict[str, Dict[str, str]] = version_contents["data"]["api_levels"]
+    version_data: Dict[str, Dict[str, str]] = version_contents["data"][
+        "api_levels"
+    ]
     return {
         f"f{key}"
         for key, value in version_data.items()
@@ -186,6 +192,16 @@ _CTF_TEMPLATE: str = r"""<?xml version="1.0" encoding="UTF-8"?>
              path="prebuilt/ctf/{F_RELEASE}/{{.OS}}-{{.Arch}}"
              platforms="linux-amd64"
              version="git_revision:{REVISION}" />
+    <package name="fuchsia/sdk/core/${platform}"
+             path="prebuilt/ctf/{F_RELEASE}/{{.OS}}-{{.Arch}}/sdk"
+             platforms="linux-amd64"
+             attributes="ctf-host-tools"
+             version="{F_RELEASE}" />
+    <package name="fuchsia/development/product_bundles/v2"
+             path="prebuilt/ctf/{F_RELEASE}/{{.OS}}-{{.Arch}}/product_bundles"
+             platforms="linux-amd64"
+             attributes="ctf-host-tools"
+             version="{F_RELEASE}" />
   </packages>
 </manifest>"""
 
@@ -238,7 +254,9 @@ def format_import_list(files: List[str]) -> str:
     Returns:
         _type_: Formatted string containing imports to include in a manifest.
     """
-    return "\n    ".join([_IMPORT_TEMPLATE.replace(r"{FILE}", name) for name in files])
+    return "\n    ".join(
+        [_IMPORT_TEMPLATE.replace(r"{FILE}", name) for name in files]
+    )
 
 
 def print_error(reason: str) -> None:

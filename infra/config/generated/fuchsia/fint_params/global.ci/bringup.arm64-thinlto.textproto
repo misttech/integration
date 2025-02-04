@@ -3,7 +3,7 @@
 
 compilation_mode: COMPILATION_MODE_RELEASE
 board: "boards/arm64.gni"
-product: "products/bringup.gni"
+product: "products/bringup_with_tests.gni"
 gn_args: "build_should_trace_actions = true"
 gn_args: "clang_enable_error_reproducers = true"
 gn_args: "restat_cc = true"

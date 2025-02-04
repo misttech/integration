@@ -13,7 +13,6 @@
       "run_tests": true
     },
     "checkout": {
-      "enable_submodules": true,
       "manifest": "flower",
       "project": "integration",
       "remote": "https://fuchsia.googlesource.com/integration"
@@ -23,7 +22,6 @@
       "botanist_grace_period_secs": 60,
       "default_service_account": "artifact-readers@fuchsia-infra.iam.gserviceaccount.com",
       "enable_sandboxing": true,
-      "ffx_experiment_level": 1,
       "gce_mediator": {
         "cloud_project": "bct-staging-fuchsia-vms",
         "endpoint": "fuchsia-gce-mediator-prod.uc.r.appspot.com",

@@ -5,6 +5,16 @@
     <package name="fuchsia/cts/${platform}"
              path="prebuilt/ctf/f24/{{.OS}}-{{.Arch}}"
              platforms="linux-amd64"
-             version="git_revision:943b6f917733b8233dfbb25b47e7d885356fcab6" />
+             version="git_revision:8ef207e4e48398b7d3ac8325768f1249f1dc9585" />
+    <package name="fuchsia/sdk/core/${platform}"
+             path="prebuilt/ctf/f24/{{.OS}}-{{.Arch}}/sdk"
+             platforms="linux-amd64"
+             attributes="ctf-host-tools"
+             version="f24" />
+    <package name="fuchsia/development/product_bundles/v2"
+             path="prebuilt/ctf/f24/{{.OS}}-{{.Arch}}/product_bundles"
+             platforms="linux-amd64"
+             attributes="ctf-host-tools"
+             version="f24" />
   </packages>
 </manifest>

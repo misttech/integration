@@ -3,7 +3,7 @@
 
 compilation_mode: COMPILATION_MODE_DEBUG
 board: "boards/riscv64.gni"
-product: "products/bringup.gni"
+product: "products/bringup_with_tests.gni"
 gn_args: "build_should_trace_actions = true"
 gn_args: "enable_lock_dep = true"
 gn_args: "restat_cc = true"

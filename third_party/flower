@@ -21,7 +21,7 @@
              gitsubmoduleof="fuchsia"
              path="third_party/android/platform/bionic"
              remote="https://fuchsia.googlesource.com/third_party/android.googlesource.com/platform/bionic"
-             revision="0770da2b6f38e219a29e23c79b39451295508abe"/>
+             revision="ca47fa6dd37bee8b3ed1ada13fb8a61191fe6a05"/>
     <project name="boringssl"
              gitsubmoduleof="fuchsia"
              path="third_party/boringssl/src"
@@ -32,19 +32,19 @@
              gitsubmoduleof="fuchsia"
              path="third_party/cobalt"
              remote="https://fuchsia.googlesource.com/cobalt"
-             revision="febaa35c38528c9a3d3e914292d9ce1bf197193e"
+             revision="0ba8118ab62ac225883394ffe2e15979c08827e8"
              gerrithost="https://fuchsia-review.googlesource.com"/>
     <project name="cobalt-registry"
              gitsubmoduleof="fuchsia"
              path="third_party/cobalt_config"
              remote="https://fuchsia.googlesource.com/cobalt-registry"
-             revision="788ef97f75cb23cebca17a41ecd6fc9ed8498ba1"
+             revision="5a7c73599292b794c6ff9a9c8411fb26f0781a2b"
              gerrithost="https://fuchsia-review.googlesource.com"/>
     <project name="third_party/go"
              gitsubmoduleof="fuchsia"
              remote="https://fuchsia.googlesource.com/third_party/go"
              gerrithost="https://fuchsia-review.googlesource.com"
-             revision="e402094fb799218ee0e118efa90f61fc14d3d380"
+             revision="220e5af31a59068d13652150cc1b6c6def5a88c1"
              path="third_party/go"/>
     <project name="third_party/github.com/google/googletest"
              gitsubmoduleof="fuchsia"
@@ -61,7 +61,7 @@
              gitsubmoduleof="fuchsia"
              path="third_party/llvm-libc/src"
              remote="https://llvm.googlesource.com/llvm-project/libc"
-             revision="425e1f6d628506f5c9e7cdc0cea1643412571084"/>
+             revision="9c39cd7eb8b901ca14509a08809115d51c628998"/>
     <project name="third_party/lz4"
              gitsubmoduleof="fuchsia"
              path="third_party/lz4"
@@ -138,18 +138,18 @@
              gitsubmoduleof="fuchsia"
              path="third_party/scudo/src"
              remote="https://llvm.googlesource.com/scudo"
-             revision="8fe52f14fa9c893e342b804f2855b1d835a73f94"/>
+             revision="3dd8c5759a174aacf47b4eddd21dd91547b1e319"/>
     <project name="gwp-asan"
              gitsubmoduleof="fuchsia"
              path="third_party/scudo/gwp_asan"
              remote="https://llvm.googlesource.com/gwp-asan"
-             revision="e9fd72c3535f99c7ff6bae02128e04cbb3596ec5"/>
+             revision="a6da01e612ed0c87b977b3b6ea3d939cd2431823"/>
     <project name="third_party/openssh-portable"
              gitsubmoduleof="fuchsia"
              path="third_party/openssh-portable"
              remote="https://fuchsia.googlesource.com/third_party/openssh-portable"
              gerrithost="https://fuchsia-review.googlesource.com"
-             revision="f7af28e59968ead8ab711a04b6971492e2ffcd76"/>
+             revision="b1f46438495a14bbde0db50ee786a1dcf3427319"/>
     <project name="third_party/zlib"
              gitsubmoduleof="fuchsia"
              path="third_party/zlib"
@@ -161,6 +161,6 @@
              path="third_party/zstd/src"
              remote="https://fuchsia.googlesource.com/third_party/zstd"
              gerrithost="https://fuchsia-review.googlesource.com"
-             revision="63779c798237346c2b245c546c40b72a5a5913fe"/>
+             revision="794ea1b0afca0f020f4e57b6732332231fb23c70"/>
   </projects>
 </manifest>

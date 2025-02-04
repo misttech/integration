@@ -10,7 +10,8 @@
       "enable_sandboxing": true,
       "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/try/clang_toolchain.prod.core.x64-debug.textproto",
       "report_binary_sizes": true,
-      "run_tests": true
+      "run_tests": true,
+      "timeout_secs": 7200
     },
     "checkout": {
       "manifest": "flower",
@@ -22,7 +23,6 @@
       "botanist_grace_period_secs": 60,
       "default_service_account": "artifact-readers@fuchsia-infra.iam.gserviceaccount.com",
       "enable_sandboxing": true,
-      "ffx_experiment_level": 1,
       "max_attempts_per_test": 3,
       "pool": "fuchsia.tests",
       "skip_unaffected_tests": true,

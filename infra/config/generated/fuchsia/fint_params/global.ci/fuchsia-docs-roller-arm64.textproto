@@ -3,7 +3,7 @@
 
 compilation_mode: COMPILATION_MODE_RELEASE
 board: "boards/arm64.gni"
-product: "products/bringup.gni"
+product: "products/core.gni"
 universe_packages: "//bundles/kitchen_sink"
 target_arch: ARM64
 include_images: true
