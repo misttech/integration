@@ -560,9 +560,9 @@
              version="android-build-id:7840171"/>
 
     <!-- fsatrace -->
-    <package name="fuchsia/fsatrace/${platform}"
+    <package name="fuchsia/third_party/3pp/fsatrace/${platform}"
              path="prebuilt/fsatrace"
-             version="git_revision:6a8a87afba5551ae1c0258808ccd139f6b270213"
+             version="version:2@6a8a87afba5551ae1c0258808ccd139f6b270213"
              platforms="linux-amd64,mac-amd64"/>
 
     <!-- Alpine Linux image for testing on x64 -->
