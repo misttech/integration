@@ -142,10 +142,10 @@
              platforms="linux-amd64,mac-amd64,mac-arm64"
              path="prebuilt/third_party/buildifier/{{.OS}}-{{.Arch}}"/>
 
-    <package name="fuchsia/third_party/buildozer/${platform}"
-             version="version:2@v6.4.0.1"
+    <package name="fuchsia/third_party/3pp/buildozer/${platform}"
+             version="version:2@v8.0.2.1"
              platforms="linux-amd64,mac-amd64,mac-arm64"
-             path="prebuilt/third_party/buildozer/{{.OS}}-{{.Arch}}"/>
+             path="prebuilt/third_party/3pp/buildozer/{{.OS}}-{{.Arch}}"/>
 
     <package name="fuchsia/third_party/bazel_workspacelogparser"
              version="version:2@7.0.0-pre.20231018.3.1"
