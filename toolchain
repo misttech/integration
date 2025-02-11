@@ -32,7 +32,7 @@
          TODO(mcgrathr): repo/bot link about provenance
     -->
     <package name="fuchsia/third_party/gcc/${platform}"
-             version="git_revision:8c79b66dbcaa63fb76abbae9d794dbce68338400,7d303b5799790bfcb6804386c395acbaf584f064"
+             version="git_revision:282dedf4408f6e373de6caec958f5ba870c10b30,6488f1e65adf232d1cfdded7f5fb1451f27eee78"
              platforms="linux-amd64,linux-arm64"
              path="prebuilt/third_party/gcc/{{.OS}}-{{.Arch}}"/>
 
@@ -40,7 +40,7 @@
          TODO(phosek): repo/bot link about provenance
     -->
     <package name="fuchsia/go/${platform}"
-             version="git_revision:e402094fb799218ee0e118efa90f61fc14d3d380"
+             version="git_revision:3b464c3584a1730d3f173b11768db01ea128f63d"
              platforms="linux-amd64,linux-arm64,mac-amd64,mac-arm64"
              path="prebuilt/third_party/go/{{.OS}}-{{.Arch}}"/>
 
@@ -70,7 +70,7 @@
 
      <!-- rust-bindgen, used for generating rust bindings to c/c++ headers -->
      <package name="fuchsia/third_party/rust_bindgen/${platform}"
-              version="git_revision:03d49b6181c81ff07d709aefe966e0854197109f"
+              version="git_revision:76920aa742739115bb998fa6be4349cdb9952135"
               platforms="linux-amd64,mac-amd64,mac-arm64"
               path="prebuilt/third_party/rust_bindgen/{{.OS}}-{{.Arch}}"/>
 
@@ -101,7 +101,7 @@
     <!-- Ninja from https://ninja-build.org/ -->
     <!-- TODO(phosek): link to bot/recipe/autoroller(?) -->
     <package name="fuchsia/third_party/ninja/${platform}"
-             version="git_revision:ad3166aa818a6f3aafe0f8c8a4d8118ffa314d16"
+             version="git_revision:a06e6b35bdd507066f2b03e924464c8ca453860c"
              platforms="linux-amd64,linux-arm64,mac-amd64,mac-arm64,windows-amd64"
              path="prebuilt/third_party/ninja/{{.OS}}-{{.Arch}}"/>
 
