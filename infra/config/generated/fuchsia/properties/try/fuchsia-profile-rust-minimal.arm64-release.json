@@ -2,11 +2,11 @@
   "$fuchsia/rbe": {
     "instance": "projects/rbe-fuchsia-prod/instances/default"
   },
-  "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/try/fuchsia-profile-rust-terminal.vim3-release.textproto",
+  "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/try/fuchsia-profile-rust-minimal.arm64-release.textproto",
   "manifest": "flower",
   "no_python2": true,
   "profile_builders": [
-    "terminal.vim3-release-profile-rust"
+    "minimal.arm64-release-profile-rust"
   ],
   "recipe": "fuchsia/profile",
   "remote": "https://fuchsia.googlesource.com/integration"

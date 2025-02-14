@@ -8,7 +8,7 @@
     "artifact_gcs_bucket": "fuchsia-artifacts",
     "build": {
       "enable_sandboxing": true,
-      "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/ci/terminal.vim3-release-profile-rust.textproto",
+      "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/try/terminal.arm64-release-profile-rust.textproto",
       "run_tests": true
     },
     "checkout": {
@@ -21,13 +21,13 @@
       "botanist_grace_period_secs": 60,
       "default_service_account": "artifact-readers@fuchsia-infra.iam.gserviceaccount.com",
       "enable_sandboxing": true,
-      "max_attempts": 1,
       "max_attempts_per_test": 3,
       "pool": "fuchsia.tests",
+      "skip_unaffected_tests": true,
       "swarming_expiration_timeout_secs": 18000,
       "swarming_grace_period_secs": 30,
       "swarming_io_timeout_secs": 660,
-      "testsharder_params_path": "integration/infra/config/generated/fuchsia/testsharder_params/ci/terminal.vim3-release-profile-rust.textproto",
+      "testsharder_params_path": "integration/infra/config/generated/fuchsia/testsharder_params/try/terminal.arm64-release-profile-rust.textproto",
       "upload_results": true,
       "use_cas": true,
       "use_cas_for_images": true

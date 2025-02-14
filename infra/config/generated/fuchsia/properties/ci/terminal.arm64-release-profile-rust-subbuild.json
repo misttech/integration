@@ -1,11 +1,14 @@
 {
+  "$fuchsia/rbe": {
+    "instance": "projects/rbe-fuchsia-prod/instances/default"
+  },
   "no_python2": true,
-  "recipe": "fuchsia/fuchsia",
+  "recipe": "fuchsia/build",
   "spec": {
     "artifact_gcs_bucket": "fuchsia-artifacts",
     "build": {
       "enable_sandboxing": true,
-      "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/ci/terminal.vim3-release-profile-rust.textproto",
+      "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/ci/terminal.arm64-release-profile-rust.textproto",
       "run_tests": true
     },
     "checkout": {
@@ -24,11 +27,10 @@
       "swarming_expiration_timeout_secs": 18000,
       "swarming_grace_period_secs": 30,
       "swarming_io_timeout_secs": 660,
-      "testsharder_params_path": "integration/infra/config/generated/fuchsia/testsharder_params/ci/terminal.vim3-release-profile-rust.textproto",
+      "testsharder_params_path": "integration/infra/config/generated/fuchsia/testsharder_params/ci/terminal.arm64-release-profile-rust.textproto",
       "upload_results": true,
       "use_cas": true,
       "use_cas_for_images": true
     }
-  },
-  "uses_subbuild": true
+  }
 }

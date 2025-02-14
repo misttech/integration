@@ -5,7 +5,7 @@
     "artifact_gcs_bucket": "fuchsia-artifacts",
     "build": {
       "enable_sandboxing": true,
-      "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/try/minimal.vim3-release-profile-rust.textproto",
+      "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/try/terminal.arm64-release-profile-rust.textproto",
       "run_tests": true
     },
     "checkout": {
@@ -20,16 +20,14 @@
       "enable_sandboxing": true,
       "max_attempts_per_test": 3,
       "pool": "fuchsia.tests",
+      "skip_unaffected_tests": true,
       "swarming_expiration_timeout_secs": 18000,
       "swarming_grace_period_secs": 30,
       "swarming_io_timeout_secs": 660,
-      "testsharder_params_path": "integration/infra/config/generated/fuchsia/testsharder_params/try/minimal.vim3-release-profile-rust.textproto",
+      "testsharder_params_path": "integration/infra/config/generated/fuchsia/testsharder_params/try/terminal.arm64-release-profile-rust.textproto",
       "upload_results": true,
       "use_cas": true,
-      "use_cas_for_images": true,
-      "zircon_args": [
-        "kernel.x86.disable_spec_mitigations=true"
-      ]
+      "use_cas_for_images": true
     }
   },
   "uses_subbuild": true
