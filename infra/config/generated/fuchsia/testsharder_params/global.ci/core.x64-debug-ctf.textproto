@@ -4,6 +4,7 @@
 target_duration {
   seconds: 1800
 }
+max_shard_size: 80
 per_test_timeout {
   seconds: 300
 }
@@ -13,4 +14,6 @@ image_deps: true
 pave: true
 per_shard_package_repos: true
 product_bundle_name: "core.x64"
-shard_timeout {}
+shard_timeout {
+  seconds: 1800
+}
