@@ -237,6 +237,14 @@
              version="git_revision:7bcd7715f8ba852361b15c7b02276f3eb9193e5a"
              path="prebuilt/third_party/fastboot"
              platforms="mac-arm64,mac-amd64"/>
+
+    <!--   libsparse -->
+    <!--     This currently includes img2simg and simg2img -->
+    <package name="fuchsia/third_party/android/libsparse/release/${platform}"
+             version="bid:13138415"
+             path="prebuilt/third_party/libsparse"
+             platforms="linux-amd64"/>
+
     <!--   FFMPEG library -->
     <package name="fuchsia/lib/ffmpeg/fuchsia"
              version="git_revision:6ea447c5519d8565d410eb2a594ba528b49dacbe"
