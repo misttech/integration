@@ -9,7 +9,6 @@ gn_args: "optimize = \"coverage\""
 gn_args: "restat_cc = true"
 gn_args: "restat_rust = true"
 gn_args: "truncate_build_info_commit_date = true"
-base_packages: "//bundles/buildbot/bringup"
 host_labels: "//bundles/infra/build"
 host_labels: "//bundles/infra/test"
 target_arch: ARM64
@@ -26,7 +25,6 @@ incremental: true
 include_default_ninja_target: true
 use_temporary_go_cache: true
 ninja_args: "-k0"
-e2e_test_labels: "//bundles/buildbot/bringup:e2e_tests"
 link_rbe_enable: true
 bazel_rbe_enable: true
 build_event_service: "resultstore_infra"
