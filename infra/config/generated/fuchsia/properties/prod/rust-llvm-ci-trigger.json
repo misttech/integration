@@ -10,11 +10,11 @@
   ],
   "input_rust_builder_bucket": "toolchain.ci",
   "input_rust_builders": [
-    "rust-x64-linux",
-    "rust-x64-mac",
-    "rust-x64-windows",
-    "rust-arm64-linux",
-    "rust-arm64-mac"
+    "rust-linux-x64",
+    "rust-mac-x64",
+    "rust-windows-x64",
+    "rust-linux-arm64",
+    "rust-mac-arm64"
   ],
   "llvm_repo": "https://llvm.googlesource.com/llvm-project",
   "no_python2": true,
