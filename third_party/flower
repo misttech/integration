@@ -2,6 +2,7 @@
 <manifest>
   <imports>
     <localimport file="icu"/>
+    <localimport file="misttech"/>
     <localimport file="pylibs/pylibs"/>
   </imports>
   <projects>
@@ -11,11 +12,6 @@
              path="third_party/abseil-cpp"
              revision="4c2bfd70d75838de03952932b678645a81824c9a"
              remote="https://fuchsia.googlesource.com/third_party/abseil-cpp"/>
-    <project name="third_party/acpica"
-             gitsubmoduleof="mist-os"
-             path="third_party/acpica"
-             remote="https://github.com/misttech/acpica"
-             revision="b92d6b4dd2d927f8bc117a54deae30e78e983515"/>
     <project name="third_party/android.googlesource.com/platform/bionic"
              gitsubmoduleof="mist-os"
              path="third_party/android/platform/bionic"
@@ -61,11 +57,6 @@
              path="third_party/llvm-libc/src"
              remote="https://llvm.googlesource.com/llvm-project/libc"
              revision="55df14df51ddc755152d8c4b12f447b2d1c2ac97"/>
-    <project name="third_party/lk"
-             gitsubmoduleof="mist-os"
-             path="third_party/lk"
-             remote="https://github.com/misttech/lk"
-             revision="c1d834accb741beac0b34e78f8e1b45767af4394"/>
     <project name="third_party/lz4"
              gitsubmoduleof="mist-os"
              path="third_party/lz4"
