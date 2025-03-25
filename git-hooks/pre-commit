@@ -13,6 +13,10 @@ case "${EMAIL}" in
     ;;
 esac
 
+if [ -f ".git/hooks/unstage-submodules.sh" ]; then
+  .git/hooks/unstage-submodules.sh
+fi
+
 # Run a custom pre-commit hook if one exists.
 #
 # To perform additional pre-commit checks, create an executable file
