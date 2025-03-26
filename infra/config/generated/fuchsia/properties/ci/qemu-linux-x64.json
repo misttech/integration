@@ -1,10 +1,10 @@
 {
   "builders": {
     "linux-amd64": [
-      "fuchsia/qemu.ci.core.x64-debug"
+      "fuchsia/ci-qemu.ci.core.x64-debug"
     ],
     "linux-arm64": [
-      "fuchsia/qemu.ci.core.arm64-debug"
+      "fuchsia/ci-qemu.ci.core.arm64-debug"
     ]
   },
   "no_python2": true,
