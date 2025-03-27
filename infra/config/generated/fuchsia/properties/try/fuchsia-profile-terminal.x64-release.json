@@ -1,0 +1,13 @@
+{
+  "$fuchsia/rbe": {
+    "instance": "projects/rbe-fuchsia-prod/instances/default"
+  },
+  "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/try/fuchsia-profile-terminal.x64-release.textproto",
+  "manifest": "flower",
+  "no_python2": true,
+  "profile_builders": [
+    "terminal.x64-release-profile"
+  ],
+  "recipe": "fuchsia/profile",
+  "remote": "https://fuchsia.googlesource.com/integration"
+}
