@@ -89,9 +89,20 @@
      -->
      <package name="fuchsia/third_party/android/aemu/release-gfxstream/${platform}"
              version="bid:13279406"
-             platforms="linux-amd64"
+             platforms="linux-amd64,linux-arm64"
              attributes="aemu-gfxstream"
              path="prebuilt/third_party/android/aemu/release-gfxstream/{{.OS}}-{{.Arch}}"/>
+
+     <!-- Only explicitly include arm aemu in x86 checkouts so they
+          can be uploaded included in the cross-platform SDK.
+          Skip it on arm checkouts because the above entry will be
+          sufficient.
+     -->
+     <package name="fuchsia/third_party/android/aemu/release-gfxstream/${os=linux}-arm64"
+             version="bid:13279406"
+             platforms="linux-amd64"
+             attributes="arm-sdk-tools"
+             path="prebuilt/third_party/android/aemu/release-gfxstream/{{.OS}}-arm64"/>
 
      <!-- ChromeOS virtual machine monitor, from
           https://ci.chromium.org/ui/p/fuchsia/builders/ci/crosvm-linux-arm64
