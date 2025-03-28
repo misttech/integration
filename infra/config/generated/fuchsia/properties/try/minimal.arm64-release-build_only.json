@@ -10,6 +10,7 @@
   "spec": {
     "artifact_gcs_bucket": "fuchsia-artifacts",
     "board_cipd_prefix": "fuchsia/assembly/boards/",
+    "board_input_bundle_set_cipd_prefix": "fuchsia/assembly/board_input_bundles/",
     "build": {
       "enable_sandboxing": true,
       "fint_params_path": "integration/infra/config/generated/fuchsia/fint_params/try/minimal.arm64-release-build_only.textproto",
