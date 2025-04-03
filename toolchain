@@ -32,7 +32,7 @@
          TODO(mcgrathr): repo/bot link about provenance
     -->
     <package name="fuchsia/third_party/gcc/${platform}"
-             version="git_revision:451791981b9630489b6935491720c6ecc97f6830,37afef6fe1378d671643624439e76453ade7c4af"
+             version="git_revision:a6a2da499ab8b6b9e52cec5bc32bbd48371bb6ba,93d835b06ca08f575d20b6d10c2d61419a1049ee"
              platforms="linux-amd64,linux-arm64"
              path="prebuilt/third_party/gcc/{{.OS}}-{{.Arch}}"/>
 
@@ -40,7 +40,7 @@
          TODO(phosek): repo/bot link about provenance
     -->
     <package name="fuchsia/go/${platform}"
-             version="git_revision:3b464c3584a1730d3f173b11768db01ea128f63d"
+             version="git_revision:e9e3a9cbf1f5f43a54876380c448c8dc97f10867"
              platforms="linux-amd64,linux-arm64,mac-amd64,mac-arm64"
              path="prebuilt/third_party/go/{{.OS}}-{{.Arch}}"/>
 
@@ -48,7 +48,7 @@
          From Rust on Fuchsia team
     -->
     <package name="fuchsia/third_party/rust/host/${platform}"
-             version="git_revisions:96cfc75584359ae7ad11cc45968059f29e7b44b7,92e80685d0d5dcea3ccf321995c43b72338639c6"
+             version="git_revisions:385970f0c1fd0c09bac426b02f38300c0b1ba9a2,1c3bb96fdb6db7b8e8f24edb016099c223fdd27e"
              platforms="linux-amd64,linux-arm64,mac-amd64,mac-arm64"
              path="prebuilt/third_party/rust/{{.OS}}-{{.Arch}}"/>
 
@@ -56,15 +56,15 @@
          From Rust on Fuchsia team
     -->
     <package name="fuchsia/third_party/rust/target/fuchsia"
-             version="git_revisions:96cfc75584359ae7ad11cc45968059f29e7b44b7,92e80685d0d5dcea3ccf321995c43b72338639c6"
+             version="git_revisions:385970f0c1fd0c09bac426b02f38300c0b1ba9a2,1c3bb96fdb6db7b8e8f24edb016099c223fdd27e"
              platforms="linux-amd64,linux-arm64,mac-amd64,mac-arm64"
              path="prebuilt/third_party/rust/{{.OS}}-{{.Arch}}"/>
     <package name="fuchsia/third_party/rust/target/x86_64-apple-darwin"
-             version="git_revisions:96cfc75584359ae7ad11cc45968059f29e7b44b7,92e80685d0d5dcea3ccf321995c43b72338639c6"
+             version="git_revisions:385970f0c1fd0c09bac426b02f38300c0b1ba9a2,1c3bb96fdb6db7b8e8f24edb016099c223fdd27e"
              platforms="linux-amd64,linux-arm64,mac-amd64,mac-arm64"
              path="prebuilt/third_party/rust/{{.OS}}-{{.Arch}}"/>
     <package name="fuchsia/third_party/rust/target/x86_64-unknown-linux-gnu"
-             version="git_revisions:96cfc75584359ae7ad11cc45968059f29e7b44b7,92e80685d0d5dcea3ccf321995c43b72338639c6"
+             version="git_revisions:385970f0c1fd0c09bac426b02f38300c0b1ba9a2,1c3bb96fdb6db7b8e8f24edb016099c223fdd27e"
              platforms="linux-amd64,linux-arm64,mac-amd64,mac-arm64"
              path="prebuilt/third_party/rust/{{.OS}}-{{.Arch}}"/>
 
@@ -76,7 +76,7 @@
 
      <!-- rust-analyzer, used for rust editor support -->
      <package name="fuchsia/third_party/rust-analyzer/${platform}"
-              version="git_revision:40e4f9130f4e44f20961a7cf4ade46325126698b"
+              version="git_revision:3bf18d4ebaabb03435fefd5fe6a82d52d67b98d6"
               platforms="linux-amd64,mac-amd64,mac-arm64"
               path="prebuilt/third_party/rust-analyzer"/>
 
@@ -94,14 +94,14 @@
 
     <!-- GN from https://gn.googlesource.com/gn/ -->
     <package name="gn/gn/${platform}"
-             version="git_revision:96297ebb3e922384d8eb4ac82752edaeded6e780"
+             version="git_revision:6e8e0d6d4a151ab2ed9b4a35366e630c55888444"
              platforms="linux-amd64,linux-arm64,mac-amd64,mac-arm64"
              path="prebuilt/third_party/gn/{{.OS}}-{{.Arch}}"/>
 
     <!-- Ninja from https://ninja-build.org/ -->
     <!-- TODO(phosek): link to bot/recipe/autoroller(?) -->
     <package name="fuchsia/third_party/ninja/${platform}"
-             version="git_revision:52b67c613eacdbc6806deecd07f6c86418a22750"
+             version="git_revision:8453aed19e7f819fb1e2c328dc915f69eb859298"
              platforms="linux-amd64,linux-arm64,mac-amd64,mac-arm64,windows-amd64"
              path="prebuilt/third_party/ninja/{{.OS}}-{{.Arch}}"/>
 

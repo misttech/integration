@@ -10,14 +10,13 @@ gn_args: "enable_lock_dep = true"
 gn_args: "restat_cc = true"
 gn_args: "restat_rust = true"
 gn_args: "truncate_build_info_commit_date = true"
-base_packages: "//bundles/buildbot/bringup"
+universe_packages: "//bundles/boot_tests"
 host_labels: "//bundles/infra/build"
 host_labels: "//bundles/infra/test"
 target_arch: X64
 variants: "clang"
 include_images: true
 include_prebuilt_binary_manifests: true
-include_zbi_tests: true
 include_host_tests: true
 test_durations_file: "prebuilt/infra/test_durations/fuchsia/bringup.x64-debug.json"
 default_test_durations_file: "prebuilt/infra/test_durations/fuchsia/default.json"
@@ -26,7 +25,6 @@ cxx_rbe_enable: true
 incremental: true
 include_default_ninja_target: true
 use_temporary_go_cache: true
-e2e_test_labels: "//bundles/buildbot/bringup:e2e_tests"
 link_rbe_enable: true
 bazel_rbe_enable: true
 build_event_service: "resultstore_infra"

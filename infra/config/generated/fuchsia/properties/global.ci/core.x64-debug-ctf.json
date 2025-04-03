@@ -1,6 +1,7 @@
 {
   "no_python2": true,
   "recipe": "fuchsia/fuchsia",
+  "run_ctf_fidl_coverage": true,
   "spec": {
     "artifact_gcs_bucket": "fuchsia-artifacts",
     "build": {
@@ -10,6 +11,9 @@
       "run_tests": true
     },
     "checkout": {
+      "attributes": [
+        "ctf-host-tools"
+      ],
       "manifest": "flower",
       "project": "integration",
       "remote": "https://fuchsia.googlesource.com/integration"

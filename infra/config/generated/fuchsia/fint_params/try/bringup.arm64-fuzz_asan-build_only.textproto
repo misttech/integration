@@ -9,7 +9,6 @@ gn_args: "optimize = \"sanitizer\""
 gn_args: "restat_cc = true"
 gn_args: "restat_rust = true"
 gn_args: "truncate_build_info_commit_date = true"
-base_packages: "//bundles/buildbot/bringup"
 universe_packages: "//tools/fuzz"
 host_labels: "//bundles/infra/build"
 target_arch: ARM64

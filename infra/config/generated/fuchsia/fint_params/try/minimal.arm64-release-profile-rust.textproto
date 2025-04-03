@@ -13,6 +13,7 @@ universe_packages: "//bundles/buildbot/minimal"
 host_labels: "//bundles/infra/build"
 host_labels: "//bundles/infra/test"
 target_arch: ARM64
+variants: "host_profile-rust"
 variants: "profile-rust"
 pave: true
 include_images: true

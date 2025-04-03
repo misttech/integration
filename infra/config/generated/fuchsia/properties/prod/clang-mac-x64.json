@@ -5,16 +5,16 @@
   },
   "builders": {
     "linux-amd64": [
-      "fuchsia/clang_toolchain.prod.core.arm64-debug",
-      "fuchsia/clang_toolchain.prod.core.arm64-release",
-      "fuchsia/clang_toolchain.prod.core.x64-debug",
-      "fuchsia/clang_toolchain.prod.core.x64-release",
+      "fuchsia/ci-clang_toolchain.prod.core.arm64-debug",
+      "fuchsia/ci-clang_toolchain.prod.core.arm64-release",
+      "fuchsia/ci-clang_toolchain.prod.core.x64-debug",
+      "fuchsia/ci-clang_toolchain.prod.core.x64-release",
       "pigweed/pigweed.toolchain-toolchain-prod-pigweed-linux",
       "pigweed-internal/toolchain-prod-linux-cd75839490",
       "pigweed-internal/toolchain-prod-linux-9e3f223050"
     ],
     "mac-amd64": [
-      "fuchsia/clang_toolchain.prod.core.x64-sdk-core-mac",
+      "fuchsia/ci-clang_toolchain.prod.core.x64-sdk-core-mac",
       "pigweed/pigweed.toolchain-toolchain-prod-pigweed-mac-x86",
       "pigweed-internal/toolchain-prod-mac-x86-a73c3801f7"
     ]
