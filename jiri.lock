@@ -82,6 +82,12 @@
     },
     {
         "package": "fuchsia/cts/linux-amd64",
+        "path": "prebuilt/ctf/f26/{{.OS}}-{{.Arch}}",
+        "version": "git_revision:3c3e710cb180fc9e78969e9fac8b7a60eea049a2",
+        "instance_id": "F9SOyRS_P1mr1eqYNXStd1qEgVYNF0e5oK84Snv8d5AC"
+    },
+    {
+        "package": "fuchsia/cts/linux-amd64",
         "path": "prebuilt/cts/current_milestone/{{.OS}}-{{.Arch}}",
         "version": "git_revision:e8c6aaac3a30f419440ea7d01ed16f5f8c9f4b2c",
         "instance_id": "QSk2CFbuUDlrRsrsL5zLTGRP1yD_fUfy1_H5Z9FQpmwC"
@@ -136,6 +142,12 @@
         "path": "prebuilt/ctf/f25/{{.OS}}-{{.Arch}}/product_bundles",
         "version": "f25",
         "instance_id": "hMP3bdzdAKIua7oUsuA4zHXcPk-82BBB9LT2TMJ4WhYC"
+    },
+    {
+        "package": "fuchsia/development/product_bundles/v2",
+        "path": "prebuilt/ctf/f26/{{.OS}}-{{.Arch}}/product_bundles",
+        "version": "f26",
+        "instance_id": "-VKhgggwaB-uOSVcbKyeQrp4G1OV_R10yqUgV4hEo3kC"
     },
     {
         "package": "fuchsia/drivers/backlight/debug-symbols-x64",
@@ -397,6 +409,12 @@
         "path": "prebuilt/ctf/f25/{{.OS}}-{{.Arch}}/sdk",
         "version": "f25",
         "instance_id": "F8IOuk4fcnZkqHMLmFbUDEeX-tkQPIFkCwykHrS9C3UC"
+    },
+    {
+        "package": "fuchsia/sdk/core/linux-amd64",
+        "path": "prebuilt/ctf/f26/{{.OS}}-{{.Arch}}/sdk",
+        "version": "f26",
+        "instance_id": "9tkhB8pELeuGuFGnV9fz-rLzYrIW2PJDCNJhCC6_ekEC"
     },
     {
         "package": "fuchsia/shac/linux-amd64",
