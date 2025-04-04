@@ -1,0 +1,13 @@
+{
+  "channel": "nightly",
+  "default_ref": "refs/heads/main",
+  "no_python2": true,
+  "product": "rust",
+  "recipe": "rust_toolchain",
+  "remote": "https://fuchsia.googlesource.com/third_party/rust",
+  "test_suites": [
+    "tests/ui"
+  ],
+  "upload_to_cipd": true,
+  "use_prod_clang": true
+}
