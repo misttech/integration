@@ -8,8 +8,6 @@ gn_args: "allowed_test_device_types = [ \"AEMU\", \"Intel NUC Kit NUC11TNHv5\", 
 gn_args: "basic_env_names = [ \"emu\", \"nuc11\" ]"
 gn_args: "build_should_trace_actions = true"
 gn_args: "optimize = \"sanitizer\""
-gn_args: "restat_cc = true"
-gn_args: "restat_rust = true"
 gn_args: "truncate_build_info_commit_date = true"
 universe_packages: "//bundles/buildbot/core"
 host_labels: "//bundles/buildbot/host"

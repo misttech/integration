@@ -5,8 +5,6 @@ compilation_mode: COMPILATION_MODE_BALANCED
 board: "boards/vim3.gni"
 product: "products/bringup_with_tests.gni"
 gn_args: "build_should_trace_actions = true"
-gn_args: "restat_cc = true"
-gn_args: "restat_rust = true"
 gn_args: "truncate_build_info_commit_date = true"
 universe_packages: "//bundles/boot_tests"
 host_labels: "//bundles/infra/build"
