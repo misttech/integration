@@ -13,6 +13,7 @@
   "no_python2": true,
   "recipe": "contrib/clang_trigger",
   "repo": "https://fuchsia.googlesource.com/third_party/rust",
+  "retrigger_on_failures": true,
   "start_time_delta_days": 90,
   "timeout_secs": 21600,
   "triggers": [

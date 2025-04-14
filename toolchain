@@ -24,7 +24,7 @@
          TODO(mcgrathr): repo/bot link about provenance
     -->
     <package name="fuchsia/third_party/clang/${platform}"
-             version="git_revision:0454dd8c48cd771478f1ae53330ba78e71bcd7cb"
+             version="git_revision:146ad71bc71a9cbecccea307bbd157ec910ae82a"
              platforms="linux-amd64,linux-arm64,mac-amd64,mac-arm64,windows-amd64"
              path="prebuilt/third_party/clang/{{.OS}}-{{.Arch}}"/>
 
@@ -32,7 +32,7 @@
          TODO(mcgrathr): repo/bot link about provenance
     -->
     <package name="fuchsia/third_party/gcc/${platform}"
-             version="git_revision:a6a2da499ab8b6b9e52cec5bc32bbd48371bb6ba,93d835b06ca08f575d20b6d10c2d61419a1049ee"
+             version="git_revision:97ebe4389b1888fef5c61a9db5c82143beeaed62,33d5188ab101bf414c9950ba914a128d08166105"
              platforms="linux-amd64,linux-arm64"
              path="prebuilt/third_party/gcc/{{.OS}}-{{.Arch}}"/>
 
@@ -48,7 +48,7 @@
          From Rust on Fuchsia team
     -->
     <package name="fuchsia/third_party/rust/host/${platform}"
-             version="git_revisions:385970f0c1fd0c09bac426b02f38300c0b1ba9a2,1c3bb96fdb6db7b8e8f24edb016099c223fdd27e"
+             version="git_revisions:25a615bf829b9f6d6f22da537e3851043f92e5f2,146ad71bc71a9cbecccea307bbd157ec910ae82a"
              platforms="linux-amd64,linux-arm64,mac-amd64,mac-arm64"
              path="prebuilt/third_party/rust/{{.OS}}-{{.Arch}}"/>
 
@@ -56,27 +56,27 @@
          From Rust on Fuchsia team
     -->
     <package name="fuchsia/third_party/rust/target/fuchsia"
-             version="git_revisions:385970f0c1fd0c09bac426b02f38300c0b1ba9a2,1c3bb96fdb6db7b8e8f24edb016099c223fdd27e"
+             version="git_revisions:25a615bf829b9f6d6f22da537e3851043f92e5f2,146ad71bc71a9cbecccea307bbd157ec910ae82a"
              platforms="linux-amd64,linux-arm64,mac-amd64,mac-arm64"
              path="prebuilt/third_party/rust/{{.OS}}-{{.Arch}}"/>
     <package name="fuchsia/third_party/rust/target/x86_64-apple-darwin"
-             version="git_revisions:385970f0c1fd0c09bac426b02f38300c0b1ba9a2,1c3bb96fdb6db7b8e8f24edb016099c223fdd27e"
+             version="git_revisions:25a615bf829b9f6d6f22da537e3851043f92e5f2,146ad71bc71a9cbecccea307bbd157ec910ae82a"
              platforms="linux-amd64,linux-arm64,mac-amd64,mac-arm64"
              path="prebuilt/third_party/rust/{{.OS}}-{{.Arch}}"/>
     <package name="fuchsia/third_party/rust/target/x86_64-unknown-linux-gnu"
-             version="git_revisions:385970f0c1fd0c09bac426b02f38300c0b1ba9a2,1c3bb96fdb6db7b8e8f24edb016099c223fdd27e"
+             version="git_revisions:25a615bf829b9f6d6f22da537e3851043f92e5f2,146ad71bc71a9cbecccea307bbd157ec910ae82a"
              platforms="linux-amd64,linux-arm64,mac-amd64,mac-arm64"
              path="prebuilt/third_party/rust/{{.OS}}-{{.Arch}}"/>
 
      <!-- rust-bindgen, used for generating rust bindings to c/c++ headers -->
      <package name="fuchsia/third_party/rust_bindgen/${platform}"
-              version="git_revision:20aa65a0b9edfd5f8ab3e038197da5cb2c52ff18"
+              version="git_revision:97ab9152b5edb1fda1ced9bc1604f5e4dc9cfaa9"
               platforms="linux-amd64,mac-amd64,mac-arm64"
               path="prebuilt/third_party/rust_bindgen/{{.OS}}-{{.Arch}}"/>
 
      <!-- rust-analyzer, used for rust editor support -->
      <package name="fuchsia/third_party/rust-analyzer/${platform}"
-              version="git_revision:3bf18d4ebaabb03435fefd5fe6a82d52d67b98d6"
+              version="git_revision:96925d5105355392a68297a3502bd344fa566c3b"
               platforms="linux-amd64,mac-amd64,mac-arm64"
               path="prebuilt/third_party/rust-analyzer"/>
 
@@ -94,14 +94,14 @@
 
     <!-- GN from https://gn.googlesource.com/gn/ -->
     <package name="gn/gn/${platform}"
-             version="git_revision:6e8e0d6d4a151ab2ed9b4a35366e630c55888444"
+             version="git_revision:3468d4868725e310eff5f5cd9b6655110883f55b"
              platforms="linux-amd64,linux-arm64,mac-amd64,mac-arm64"
              path="prebuilt/third_party/gn/{{.OS}}-{{.Arch}}"/>
 
     <!-- Ninja from https://ninja-build.org/ -->
     <!-- TODO(phosek): link to bot/recipe/autoroller(?) -->
     <package name="fuchsia/third_party/ninja/${platform}"
-             version="git_revision:8453aed19e7f819fb1e2c328dc915f69eb859298"
+             version="git_revision:3e288c86963dddd6c980c44010c3a5437bd00657"
              platforms="linux-amd64,linux-arm64,mac-amd64,mac-arm64,windows-amd64"
              path="prebuilt/third_party/ninja/{{.OS}}-{{.Arch}}"/>
 
