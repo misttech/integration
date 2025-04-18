@@ -333,6 +333,12 @@
              gerrithost="https://fuchsia-review.googlesource.com"
              revision="c9f0925acc2735a16ac46d33a4807e31f17d7b28"
              attributes="vaapi-intel"/>
+    <project name="third_party/half"
+             gitsubmoduleof="fuchsia"
+             path="third_party/half/src"
+             remote="https://fuchsia.googlesource.com/third_party/half"
+             gerrithost="https://fuchsia-review.googlesource.com"
+             revision="14587c1c8263d384a798b220555e026b0616aa76" />
     <project name="third_party/intel/libva"
              gitsubmoduleof="fuchsia"
              path="third_party/intel/libva"
