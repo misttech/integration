@@ -3,32 +3,12 @@
   <imports>
     <localimport file="minimal"/>
     <localimport file="prebuilts"/>
-  </imports>
-  <projects>
-    <project name="fuchsia"
-             gitsubmodules="true"
-             path="."
-             githooks="integration/git-hooks"
+    <import name="fuchsia"
+             manifest="manifests/platform"
+             root=""
              remote="https://fuchsia.googlesource.com/fuchsia"
              gerrithost="https://fuchsia-review.googlesource.com"
              revision="86ea7b1e236c257d32b44dc113be57dbeb9d5a22"
              />
-  </projects>
-  <hooks>
-    <hook name="install-environment"
-          project="fuchsia"
-          action="scripts/devshell/lib/add_symlink_to_bin.sh"/>
-    <hook name="gen-ssh-keys"
-          project="fuchsia"
-          action="tools/ssh-keys/gen-ssh-keys.sh"/>
-    <hook name="create-ctf-releases-gni"
-          project="fuchsia"
-          action="sdk/ctf/build/internal/create_ctf_releases_gni.sh"/>
-    <hook name="create-build-info-files"
-          project="fuchsia"
-          action="build/info/create_jiri_hook_files.sh"/>
-    <hook name="generate-prebuilt-versions"
-          project="fuchsia"
-          action="tools/build/scripts/generate_prebuilt_versions.sh"/>
-  </hooks>
+  </imports>
 </manifest>
