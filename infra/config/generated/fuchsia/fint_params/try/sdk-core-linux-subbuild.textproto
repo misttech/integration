@@ -11,7 +11,7 @@ gn_args: "restat_rust = false"
 gn_args: "sdk_cross_compile_host_tools = true"
 gn_args: "truncate_build_info_commit_date = true"
 ninja_targets: ":developer_host_tools"
-ninja_targets: "final_fuchsia_idk"
+ninja_targets: "sdk:final_fuchsia_idk"
 host_labels: "//bundles/infra/build"
 target_arch: X64
 pave: true
