@@ -1,8 +1,10 @@
 {
-  "lockfile_script": "manifests/update-lockfiles.sh",
-  "manifest": "manifests/platform",
+  "lockfile_scripts": [
+    "manifests/update-lockfiles.sh"
+  ],
+  "manifest": "flower",
   "no_python2": true,
-  "project": "fuchsia",
+  "project": "integration",
   "recipe": "lockfile",
-  "remote": "https://fuchsia.googlesource.com/fuchsia"
+  "remote": "https://fuchsia.googlesource.com/integration"
 }
