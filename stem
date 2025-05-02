@@ -11,4 +11,24 @@
              revision="1a43b4037f7fae5882608e82abde35946a57d641"
              />
   </imports>
+  <projects>
+    <project name="cobalt"
+             gitsubmoduleof="fuchsia"
+             path="third_party/cobalt"
+             remote="https://fuchsia.googlesource.com/cobalt"
+             revision="415853e35f0702f4a5e7f62f1fbe50124e205db6"
+             gerrithost="https://fuchsia-review.googlesource.com"/>
+    <project name="cobalt-registry"
+             gitsubmoduleof="fuchsia"
+             path="third_party/cobalt_config"
+             remote="https://fuchsia.googlesource.com/cobalt-registry"
+             revision="096aa1332d0cff34657419ecb0472098236e16de"
+             gerrithost="https://fuchsia-review.googlesource.com"/>
+    <project name="antlion"
+             gitsubmoduleof="fuchsia"
+             path="third_party/antlion"
+             remote="https://fuchsia.googlesource.com/antlion"
+             gerrithost="https://fuchsia-review.googlesource.com"
+             revision="1c45fab7b8de7704d774833fa119debf00e66e7b"/>
+  </projects>
 </manifest>
