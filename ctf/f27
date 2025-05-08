@@ -3,18 +3,18 @@
   <packages>
     <!-- Versioned CTF release. See ctf_generate_manifest.py for details. -->
     <package name="fuchsia/cts/${platform}"
-             path="prebuilt/ctf/f26/{{.OS}}-{{.Arch}}"
+             path="prebuilt/ctf/f27/{{.OS}}-{{.Arch}}"
              platforms="linux-amd64"
-             version="git_revision:cea585dc86cfde464cb97ce665998cc899377ff7" />
+             version="git_revision:b4de32c1390ec2ead9d8868351bea9d19dd085ce" />
     <package name="fuchsia/sdk/core/${platform}"
-             path="prebuilt/ctf/f26/{{.OS}}-{{.Arch}}/sdk"
+             path="prebuilt/ctf/f27/{{.OS}}-{{.Arch}}/sdk"
              platforms="linux-amd64"
              attributes="ctf-host-tools"
-             version="f26" />
+             version="f27" />
     <package name="fuchsia/development/product_bundles/v2"
-             path="prebuilt/ctf/f26/{{.OS}}-{{.Arch}}/product_bundles"
+             path="prebuilt/ctf/f27/{{.OS}}-{{.Arch}}/product_bundles"
              platforms="linux-amd64"
              attributes="ctf-host-tools"
-             version="f26" />
+             version="f27" />
   </packages>
 </manifest>
