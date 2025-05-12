@@ -13,19 +13,16 @@
   </imports>
   <projects>
     <project name="cobalt"
-             gitsubmoduleof="fuchsia"
              path="third_party/cobalt"
              remote="https://fuchsia.googlesource.com/cobalt"
              revision="c72efd591b9675a5ee564e4ab048969801a0d06d"
              gerrithost="https://fuchsia-review.googlesource.com"/>
     <project name="cobalt-registry"
-             gitsubmoduleof="fuchsia"
              path="third_party/cobalt_config"
              remote="https://fuchsia.googlesource.com/cobalt-registry"
              revision="0eca9a11765d1b96a1313a9ff4c8e0afd581af28"
              gerrithost="https://fuchsia-review.googlesource.com"/>
     <project name="antlion"
-             gitsubmoduleof="fuchsia"
              path="third_party/antlion"
              remote="https://fuchsia.googlesource.com/antlion"
              gerrithost="https://fuchsia-review.googlesource.com"
