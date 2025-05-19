@@ -4,12 +4,10 @@
     <localimport file="minimal"/>
     <localimport file="prebuilts"/>
     <import name="fuchsia"
-             manifest="manifests/platform"
-             root=""
-             remote="https://fuchsia.googlesource.com/fuchsia"
-             gerrithost="https://fuchsia-review.googlesource.com"
-             revision="5a2654e868e38b7f2272914c9095979c37f360ef"
-             />
+            manifest="manifests/platform"
+            root=""
+            remote="https://fuchsia.googlesource.com/fuchsia"
+            revision="5a2654e868e38b7f2272914c9095979c37f360ef"/>
   </imports>
   <projects>
     <project name="cobalt"
