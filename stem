@@ -3,19 +3,27 @@
   <imports>
     <localimport file="minimal"/>
     <localimport file="prebuilts"/>
+    <import name="mist-os"
+            manifest="manifests/platform"
+            root=""
+            remote="https://github.com/misttech/mist-os.git"
+            revision="6a3a1cd5e79465a19fa97df95bedc938bb37b6c9"/>
   </imports>
   <projects>
-    <project name="mist-os"
-             gitsubmodules="true"
-             path="."
-             remote="https://github.com/misttech/mist-os.git"/>
+    <project name="cobalt"
+             path="third_party/cobalt"
+             remote="https://fuchsia.googlesource.com/cobalt"
+             revision="538710629bab2b2ed889d5738a6c4bb22c3b92ec"
+             gerrithost="https://fuchsia-review.googlesource.com"/>
+    <project name="cobalt-registry"
+             path="third_party/cobalt_config"
+             remote="https://fuchsia.googlesource.com/cobalt-registry"
+             revision="3d9c6924ac99f8a31013883d5deba68f2c3ea419"
+             gerrithost="https://fuchsia-review.googlesource.com"/>
+    <project name="antlion"
+             path="third_party/antlion"
+             remote="https://fuchsia.googlesource.com/antlion"
+             gerrithost="https://fuchsia-review.googlesource.com"
+             revision="c99a8af93034579ee24d8d8f0b212d8508b3864d"/>
   </projects>
-  <hooks>
-    <hook name="install-environment"
-          project="mist-os"
-          action="scripts/devshell/lib/add_symlink_to_bin.sh"/>
-    <hook name="create-build-info-files"
-          project="mist-os"
-          action="build/info/create_jiri_hook_files.sh"/>
-  </hooks>
 </manifest>

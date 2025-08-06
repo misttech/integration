@@ -1,4 +1,7 @@
 {
+  "$fuchsia/autocorrelator": {
+    "ci_bucket": "global.ci"
+  },
   "no_python2": true,
   "recipe": "fuchsia/fuchsia",
   "spec": {
@@ -35,8 +38,7 @@
       "use_cas": true,
       "use_cas_for_images": true,
       "zircon_args": [
-        "kernel.x86.disable_spec_mitigations=true",
-        "kernel.port.max-observers=200000"
+        "kernel.x86.disable_spec_mitigations=true"
       ]
     }
   },

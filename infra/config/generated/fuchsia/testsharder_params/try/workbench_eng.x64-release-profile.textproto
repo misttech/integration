@@ -13,3 +13,5 @@ pave: true
 per_shard_package_repos: true
 product_bundle_name: "workbench_eng.x64"
 shard_timeout {}
+pool: "fuchsia.tests"
+zircon_args: "kernel.x86.disable_spec_mitigations=true"

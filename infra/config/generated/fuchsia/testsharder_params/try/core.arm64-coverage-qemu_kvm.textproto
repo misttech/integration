@@ -17,3 +17,5 @@ product_bundle_name: "core.arm64"
 shard_timeout {
   seconds: 18000
 }
+pool: "fuchsia.tests"
+zircon_args: "kernel.x86.disable_spec_mitigations=true"

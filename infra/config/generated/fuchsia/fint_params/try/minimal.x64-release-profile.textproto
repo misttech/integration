@@ -13,7 +13,7 @@ universe_packages: "//bundles/buildbot/minimal"
 host_labels: "//bundles/infra/build"
 host_labels: "//bundles/infra/test"
 target_arch: X64
-variants: "{variant=\"profile\" dir=[\"//zircon/kernel\", \"//zircon/kernel/phys\"]}"
+variants: "profile"
 pave: true
 include_images: true
 include_prebuilt_binary_manifests: true

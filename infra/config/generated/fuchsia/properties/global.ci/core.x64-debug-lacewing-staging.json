@@ -16,6 +16,7 @@
     },
     "gcs_bucket": "fuchsia-build",
     "test": {
+      "allow_no_tests": true,
       "botanist_grace_period_secs": 60,
       "default_service_account": "artifact-readers@fuchsia-infra.iam.gserviceaccount.com",
       "enable_sandboxing": true,

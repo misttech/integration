@@ -1,0 +1,13 @@
+{
+  "fallback_ref": "magma-dev",
+  "no_python2": true,
+  "recipe": "run_script",
+  "remote": "https://fuchsia.googlesource.com/third_party/mesa",
+  "script_configs": [
+    {
+      "script": "fuchsia-build/build.sh",
+      "upload_to_cipd": true
+    }
+  ],
+  "use_json_cipd_yaml_manifest": true
+}

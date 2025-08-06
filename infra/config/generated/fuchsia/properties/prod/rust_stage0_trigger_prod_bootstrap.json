@@ -1,0 +1,20 @@
+{
+  "bootstrap_chain": [
+    "95597e848d27a82b8864c677ab807e9f0be1f68c",
+    "17067e9ac6d7ecb70e50f92c1944e545188d2359",
+    "05f9846f893b09a1be1fc8560e33fc3c815cfecb",
+    "4d91de4e48198da2e33413efdcd9cd2cc0c46688",
+    "9fc6b43126469e3858e2fe86cafb4f0fd5068869"
+  ],
+  "no_python2": true,
+  "recipe": "contrib/rust_stage0_trigger",
+  "remote": "https://fuchsia.googlesource.com/third_party/rust",
+  "triggering_mode": "BOOTSTRAP_MODE_CHAIN",
+  "triggers": [
+    "rust-stage0-linux-x64",
+    "rust-stage0-linux-arm64",
+    "rust-stage0-mac-x64",
+    "rust-stage0-mac-arm64",
+    "rust-stage0-windows-x64"
+  ]
+}

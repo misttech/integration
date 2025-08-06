@@ -2,7 +2,7 @@
 # Do not modify manually.
 
 target_duration {
-  seconds: 2400
+  seconds: 1800
 }
 per_test_timeout {
   seconds: 300
@@ -14,3 +14,4 @@ pave: true
 per_shard_package_repos: true
 product_bundle_name: "core.x64"
 shard_timeout {}
+pool: "fuchsia.tests"

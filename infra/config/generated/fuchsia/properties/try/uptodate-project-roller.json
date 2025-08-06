@@ -1,12 +1,17 @@
 {
   "default_ref": "refs/heads/main",
-  "import_from": "infra/roller-tests/test-project/uptodate",
-  "import_in": "manifests/uptodate",
   "manifest": "manifests/minimal",
   "no_python2": true,
   "project": "infra/roller-tests/integration",
   "recipe": "fuchsia_roller",
   "remote": "https://fuchsia.googlesource.com/infra/roller-tests/integration",
+  "repos_to_roll": [
+    {
+      "element_type": "project",
+      "manifest": "manifests/uptodate",
+      "name": "infra/roller-tests/test-project/uptodate"
+    }
+  ],
   "roll_options": {
     "cl_notify_option": "NONE",
     "create_unique_change_id": true,

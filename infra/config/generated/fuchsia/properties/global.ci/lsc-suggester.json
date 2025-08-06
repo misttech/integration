@@ -1,5 +1,6 @@
 {
   "gerrit_host": "fuchsia-review.googlesource.com",
   "no_python2": true,
+  "query": "(label:Api-Review=need OR label:Api-Review+1) directory:sdk",
   "recipe": "gerrit_nudge"
 }
